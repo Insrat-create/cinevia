@@ -178,7 +178,6 @@ export default function TVShowDetail() {
 
           <section className="show-guide-shell" id="episode-guide">
             <div className="watch-section-heading">
-              <p className="watch-panel-kicker">Episode Guide</p>
               <h2>{activeSeason?.label ?? 'Episodes'}</h2>
             </div>
 
