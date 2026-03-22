@@ -1959,12 +1959,12 @@ img {
   .sidebar {
     top: auto;
     right: 12px;
-    bottom: 12px;
+    bottom: 0;
     left: 12px;
     width: auto;
     height: 76px;
     padding: 0 10px env(safe-area-inset-bottom);
-    border-radius: 24px;
+    border-radius: 24px 24px 0 0;
     border: 1px solid rgba(255, 255, 255, 0.08);
     background: rgba(5, 7, 13, 0.94);
     box-shadow:
@@ -2074,6 +2074,14 @@ img {
 
   .profile-pill span {
     display: none;
+  }
+
+  .watch-page.tv-show-detail-page .search-box {
+    display: none;
+  }
+
+  .watch-page.tv-show-detail-page .topbar-actions {
+    width: auto;
   }
 
   .search-page-hero {
@@ -2241,6 +2249,12 @@ img {
     width: 100%;
   }
 
+  .watch-page.tv-show-detail-page .watch-spotlight {
+    grid-template-columns: minmax(0, 1fr) 148px;
+    gap: 16px;
+    align-items: start;
+  }
+
   .watch-page-inner.show-detail-inner {
     padding: 128px 16px calc(32px + 92px + env(safe-area-inset-bottom));
   }
@@ -2286,6 +2300,12 @@ img {
     margin: 0 auto;
   }
 
+  .watch-page.tv-show-detail-page .watch-sidecard {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+
   .watch-player-frame,
   .watch-panel,
   .watch-empty-state {
@@ -2314,6 +2334,17 @@ img {
   .account-actions,
   .account-oauth-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .watch-page.tv-show-detail-page .watch-spotlight {
+    grid-template-columns: 1fr;
+  }
+
+  .watch-page.tv-show-detail-page .watch-sidecard {
+    width: min(100%, 340px);
+    margin: 0 auto;
   }
 }
 
