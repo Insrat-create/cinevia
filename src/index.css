@@ -1962,8 +1962,8 @@ img {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 76px;
-    padding: 0 10px env(safe-area-inset-bottom);
+    height: 68px;
+    padding: 0 10px;
     border-radius: 24px 24px 0 0;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     border-right: none;
@@ -1975,6 +1975,7 @@ img {
       inset 0 1px 0 rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
+    justify-content: center;
   }
 
   .main-shell,
@@ -1985,12 +1986,14 @@ img {
 
   .main-shell,
   .watch-page.tv-show-detail-page {
-    padding-bottom: calc(98px + env(safe-area-inset-bottom));
+    padding-bottom: 86px;
   }
 
   .sidebar-top {
     width: 100%;
+    height: 100%;
     gap: 0;
+    justify-content: center;
   }
 
   .sidebar-logo-link,
@@ -2004,6 +2007,7 @@ img {
     height: 100%;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 8px;
   }
 
