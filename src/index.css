@@ -941,6 +941,14 @@ img {
   box-shadow: 0 16px 28px rgba(0, 0, 0, 0.28);
 }
 
+.hero-maturity-badge-inline {
+  display: none;
+  position: static;
+  width: fit-content;
+  margin-bottom: 14px;
+  box-shadow: none;
+}
+
 @keyframes hero-bottom-breathe {
   0%,
   100% {
@@ -2169,6 +2177,14 @@ img {
   .hero-maturity-badge {
     right: 16px;
     bottom: 104px;
+  }
+
+  .hero-feature > .hero-maturity-badge {
+    display: none;
+  }
+
+  .hero-maturity-badge-inline {
+    display: inline-flex;
   }
 
   .hero-feature-top .hero-maturity-badge {
