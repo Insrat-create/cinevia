@@ -107,7 +107,7 @@ export default function MovieDetail() {
         <div className="watch-page-scrim" />
         <div className="watch-page-glow" aria-hidden="true" />
 
-        <Topbar />
+        <Topbar showSearch={false} />
 
         <div className="watch-page-inner show-detail-inner">
           <section className="watch-spotlight">
