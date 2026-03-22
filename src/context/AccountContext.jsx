@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from 'react'
+import { createContext, useContext, useEffect, useRef, useState } from 'react'
 import movies from '../data/movies'
 import tvShows from '../data/tvShows'
 import { getAuthRedirectUrl, hasSupabaseConfig, supabase } from '../lib/supabase'
@@ -54,19 +54,41 @@ function safeWriteJson(key, value) {
   }
 }
 
+function safeRemoveValue(key) {
+  try {
+    localStorage.removeItem(key)
+  } catch {
+    // Ignore local storage removal failures.
+  }
+}
+
 function getAccountStoreKey(ownerId) {
   return `${ACCOUNT_CACHE_PREFIX}${ownerId}`
 }
 
-function loadAccountStore(ownerId) {
-  return safeReadJson(getAccountStoreKey(ownerId), {
+function getEmptyAccountStore() {
+  return {
     continueWatching: [],
     favorites: [],
     profile: {},
-  })
+  }
+}
+
+function loadAccountStore(ownerId) {
+  if (ownerId === GUEST_OWNER_ID) {
+    safeRemoveValue(getAccountStoreKey(ownerId))
+    return getEmptyAccountStore()
+  }
+
+  return safeReadJson(getAccountStoreKey(ownerId), getEmptyAccountStore())
 }
 
 function saveAccountStore(ownerId, store) {
+  if (ownerId === GUEST_OWNER_ID) {
+    safeRemoveValue(getAccountStoreKey(ownerId))
+    return
+  }
+
   safeWriteJson(getAccountStoreKey(ownerId), store)
 }
 
@@ -176,6 +198,7 @@ function hydrateContinueWatching(records) {
 
 export function AccountProvider({ children }) {
   const initialGuestStore = loadAccountStore(GUEST_OWNER_ID)
+  const hasShownGuestPromptRef = useRef(false)
 
   const [session, setSession] = useState(null)
   const [user, setUser] = useState(null)
@@ -300,6 +323,13 @@ export function AccountProvider({ children }) {
     applyLocalStore(GUEST_OWNER_ID, { displayName: 'Guest', email: '' })
   }
 
+  const showGuestAuthPrompt = (nextMode = 'sign-in', nextMessage = '') => {
+    setAuthMode(nextMode)
+    setAuthError('')
+    setAuthMessage(nextMessage)
+    setIsAuthModalOpen(true)
+  }
+
   useEffect(() => {
     saveAccountStore(ownerId, {
       continueWatching: continueWatchingRecords,
@@ -329,6 +359,11 @@ export function AccountProvider({ children }) {
         })
       } else {
         applyLocalStore(GUEST_OWNER_ID, { displayName: 'Guest', email: '' })
+
+        if (!hasShownGuestPromptRef.current) {
+          hasShownGuestPromptRef.current = true
+          showGuestAuthPrompt('sign-in')
+        }
       }
 
       setIsLoading(false)
@@ -347,6 +382,12 @@ export function AccountProvider({ children }) {
 
       if (!nextSession?.user) {
         setSignedOutState()
+
+        if (!hasShownGuestPromptRef.current) {
+          hasShownGuestPromptRef.current = true
+          showGuestAuthPrompt('sign-in')
+        }
+
         setIsLoading(false)
         return
       }
@@ -421,6 +462,11 @@ export function AccountProvider({ children }) {
   }
 
   const toggleFavorite = async (item) => {
+    if (!isSignedIn) {
+      showGuestAuthPrompt('sign-in')
+      return false
+    }
+
     const isAlreadyFavorite = favoriteRecords.some((record) => record.itemId === item.id)
     const nextRecords = isAlreadyFavorite
       ? favoriteRecords.filter((record) => record.itemId !== item.id)
@@ -471,9 +517,15 @@ export function AccountProvider({ children }) {
         )
       }
     }
+
+    return !isAlreadyFavorite
   }
 
   const saveContinueWatching = async (item, progress = 12, episodeId = null) => {
+    if (!isSignedIn) {
+      return false
+    }
+
     const nextRecord = {
       episodeId,
       itemId: item.id,
@@ -499,6 +551,8 @@ export function AccountProvider({ children }) {
         )
       }
     }
+
+    return true
   }
 
   const signInWithEmail = async ({ email, password }) => {

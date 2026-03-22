@@ -5,6 +5,7 @@ import HeroFeature from '../components/HeroFeature'
 import SectionRow from '../components/SectionRow'
 import movies from '../data/movies'
 import useHeroTopState from '../hooks/useHeroTopState'
+import { getMovieRows } from '../utils/catalogRows'
 import { rankByQuery } from '../utils/search'
 
 export default function Movies() {
@@ -13,7 +14,8 @@ export default function Movies() {
   const isSearching = Boolean(query)
   const isHeroAtTop = useHeroTopState(!isSearching)
   const filteredMovies = rankByQuery(movies, query)
-  const featured = filteredMovies[0] ?? movies[0]
+  const movieRows = getMovieRows(movies)
+  const featured = movieRows[0]?.items[0] ?? movies[0]
 
   return (
     <div className="app-shell">
@@ -32,9 +34,9 @@ export default function Movies() {
             <SectionRow title={`Search Results for "${query}"`} items={filteredMovies} />
           ) : (
             <>
-              <SectionRow title="Popular Movies" items={filteredMovies} />
-              <SectionRow title="Action Picks" items={filteredMovies} />
-              <SectionRow title="Drama Spotlight" items={filteredMovies} />
+              {movieRows.map((row) => (
+                <SectionRow key={row.title} title={row.title} items={row.items} />
+              ))}
             </>
           )}
         </div>

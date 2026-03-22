@@ -993,6 +993,13 @@ img {
   margin-bottom: 22px;
   overflow-x: auto;
   padding: 0 2px 8px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.thumb-tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .tab {
@@ -1173,6 +1180,10 @@ img {
   -ms-overflow-style: none;
   scroll-behavior: smooth;
   scroll-padding-inline: var(--rail-inline-gutter);
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x;
 }
 
 .poster-rail::-webkit-scrollbar {
@@ -1184,6 +1195,7 @@ img {
   display: block;
   min-width: 0;
   width: 100%;
+  scroll-snap-align: start;
   border-radius: 18px;
   overflow: visible;
   background: #101010;
@@ -1945,7 +1957,21 @@ img {
 
 @media (max-width: 820px) {
   .sidebar {
-    display: none;
+    top: auto;
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    width: auto;
+    height: 76px;
+    padding: 0 10px env(safe-area-inset-bottom);
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(5, 7, 13, 0.94);
+    box-shadow:
+      0 18px 36px rgba(0, 0, 0, 0.42),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
   }
 
   .main-shell,
@@ -1954,28 +1980,100 @@ img {
     width: 100%;
   }
 
+  .main-shell,
+  .watch-page.tv-show-detail-page {
+    padding-bottom: calc(98px + env(safe-area-inset-bottom));
+  }
+
+  .sidebar-top {
+    width: 100%;
+    gap: 0;
+  }
+
+  .sidebar-logo-link,
+  .sidebar-bottom,
+  .sidebar-divider {
+    display: none;
+  }
+
+  .sidebar-nav {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .sidebar-nav-group {
+    width: auto;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .sidebar-nav-muted .sidebar-btn {
+    opacity: 1;
+  }
+
+  .sidebar-btn {
+    width: 52px;
+    height: 52px;
+    border-radius: 18px;
+  }
+
+  .sidebar-btn.active,
+  .sidebar-btn:hover {
+    transform: none;
+  }
+
+  .sidebar-btn.active .sidebar-icon-image,
+  .sidebar-btn:hover .sidebar-icon-image {
+    transform: none;
+  }
+
+  .sidebar-btn.active::before {
+    top: auto;
+    bottom: 2px;
+    left: 50%;
+    width: 22px;
+    height: 4px;
+    transform: translateX(-50%);
+    box-shadow: 0 0 12px rgba(167, 139, 250, 0.34);
+  }
+
   .topbar {
-    left: 20px;
-    right: 20px;
-    top: 18px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 14px;
+    left: 16px;
+    right: 16px;
+    top: 16px;
+    justify-content: flex-end;
+    gap: 10px;
   }
 
   .topbar-links {
-    gap: 18px;
-    flex-wrap: wrap;
+    display: none;
   }
 
   .topbar-actions {
-    width: 100%;
-    flex-wrap: wrap;
+    width: min(100%, 520px);
+    margin-left: auto;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 10px;
   }
 
   .search-box {
     min-width: 0;
-    width: min(100%, 420px);
+    width: 100%;
+    max-width: none;
+    flex: 1 1 auto;
+  }
+
+  .profile-pill {
+    flex: 0 0 auto;
+    padding: 6px;
+  }
+
+  .profile-pill span {
+    display: none;
   }
 
   .search-page-hero {
@@ -1985,8 +2083,8 @@ img {
   }
 
   .search-page-input-shell {
-    min-height: 76px;
-    padding: 0 22px;
+    min-height: 68px;
+    padding: 0 18px;
     border-radius: 24px;
   }
 
@@ -1999,29 +2097,39 @@ img {
   }
 
   .hero-inner {
-    padding: 164px 20px 196px;
+    padding: 140px 16px 176px;
   }
 
   .hero-artwork-copy {
-    padding-top: var(--hero-copy-padding-top-mobile, 304px);
-    padding-bottom: var(--hero-copy-padding-bottom-mobile, 72px);
-    transform: translateY(var(--hero-copy-shift-mobile, 28px));
+    max-width: min(100%, 420px);
+    padding-top: var(--hero-copy-padding-top-mobile, 284px);
+    padding-bottom: var(--hero-copy-padding-bottom-mobile, 68px);
+    transform: translateY(var(--hero-copy-shift-mobile, 24px));
+  }
+
+  .hero-copy-card {
+    width: 100%;
+    padding: 18px 18px 20px;
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.54) 0%, rgba(0, 0, 0, 0.36) 100%);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
   }
 
   .show-detail-inner {
-    padding-top: 188px;
+    padding-top: 172px;
   }
 
   .hero-feature-top .hero-inner {
-    padding-top: 188px;
-    padding-bottom: 216px;
-    transform: translateY(14px);
+    padding-top: 170px;
+    padding-bottom: 204px;
+    transform: translateY(10px);
   }
 
   .hero-feature-top .hero-artwork-copy {
-    padding-top: var(--hero-copy-padding-top-top-mobile, 328px);
-    padding-bottom: var(--hero-copy-padding-bottom-top-mobile, 86px);
-    transform: translateY(var(--hero-copy-shift-top-mobile, 40px));
+    padding-top: var(--hero-copy-padding-top-top-mobile, 304px);
+    padding-bottom: var(--hero-copy-padding-bottom-top-mobile, 84px);
+    transform: translateY(var(--hero-copy-shift-top-mobile, 30px));
   }
 
   .hero-heading {
@@ -2029,21 +2137,24 @@ img {
   }
 
   .hero-summary {
-    max-width: 500px;
+    max-width: none;
+    font-size: 0.98rem;
+    line-height: 1.6;
   }
 
   .play-btn,
   .hero-info-btn {
-    min-width: 144px;
+    min-width: 0;
+    flex: 1 1 140px;
   }
 
   .hero-maturity-badge {
-    right: 20px;
-    bottom: 110px;
+    right: 16px;
+    bottom: 104px;
   }
 
   .hero-feature-top .hero-maturity-badge {
-    bottom: 126px;
+    bottom: 118px;
   }
 
   .thumb-section {
@@ -2057,17 +2168,21 @@ img {
   }
 
   .page-content-stack {
-    margin-top: 8px;
-    padding: 0 20px 28px;
+    margin-top: 6px;
+    padding: 0 16px calc(28px + 92px + env(safe-area-inset-bottom));
+  }
+
+  .hero-page-top .page-content-stack:not(.search-results-stack) {
+    transform: translateY(18px);
   }
 
   .search-results-stack {
-    margin-top: 132px;
+    margin-top: 96px;
     padding-top: 6px;
   }
 
   .search-page-stack {
-    margin-top: 136px;
+    margin-top: 104px;
   }
 
   .thumb-row {
@@ -2075,6 +2190,9 @@ img {
   }
 
   .section-row {
+    --rail-card-width: clamp(220px, 68vw, 272px);
+    --rail-inline-gutter: 16px;
+    --rail-control-space: 16px;
     margin-bottom: 22px;
   }
 
@@ -2087,19 +2205,18 @@ img {
   }
 
   .poster-rail {
-    grid-auto-columns: clamp(220px, 72vw, 272px);
     gap: 12px;
-    padding: 14px 20px 16px;
-    margin: 0 -20px;
+    padding: 12px 16px 16px;
+    margin: 0 -16px;
   }
 
   .section-row-rail-shell::after {
-    right: -20px;
+    right: -16px;
     width: 92px;
   }
 
   .section-row-rail-shell::before {
-    left: -20px;
+    left: -16px;
     width: 92px;
   }
 
@@ -2116,11 +2233,16 @@ img {
   }
 
   .watch-page-inner {
-    padding: 22px 20px 40px;
+    padding: 20px 16px 40px;
+  }
+
+  .watch-page.tv-show-detail-page {
+    margin-left: 0;
+    width: 100%;
   }
 
   .watch-page-inner.show-detail-inner {
-    padding: 188px 20px 40px 36px;
+    padding: 128px 16px calc(32px + 92px + env(safe-area-inset-bottom));
   }
 
   .watch-player-only-page .back-link {
@@ -2145,12 +2267,23 @@ img {
 
   .watch-description {
     font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .watch-meta-pill {
+    padding: 9px 12px;
+    font-size: 0.86rem;
   }
 
   .watch-primary-btn,
   .watch-secondary-btn,
   .watch-list-btn {
     width: 100%;
+  }
+
+  .watch-sidecard {
+    width: min(100%, 340px);
+    margin: 0 auto;
   }
 
   .watch-player-frame,
@@ -2161,7 +2294,7 @@ img {
   }
 
   .watch-player-chrome {
-    padding: 0;
+    padding: 2px 2px 0;
   }
 
   .watch-fact-grid,
@@ -2181,5 +2314,36 @@ img {
   .account-actions,
   .account-oauth-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .poster-card:hover,
+  .thumb-card:hover,
+  .watch-related-card:hover,
+  .sidebar-btn:hover,
+  .profile-trigger:hover,
+  .play-btn:hover,
+  .hero-info-btn:hover,
+  .watch-primary-btn:hover,
+  .watch-secondary-btn:hover,
+  .watch-list-btn:hover {
+    transform: none;
+  }
+
+  .poster-card:hover .poster-image,
+  .poster-card:focus-visible .poster-image {
+    transform: none;
+  }
+
+  .poster-card:hover .poster-hover-panel,
+  .poster-card:focus-visible .poster-hover-panel {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  .poster-card:hover .poster-image-overlay,
+  .poster-card:focus-visible .poster-image-overlay {
+    opacity: 1;
   }
 }

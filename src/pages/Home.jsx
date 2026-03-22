@@ -7,21 +7,20 @@ import movies from '../data/movies'
 import tvShows from '../data/tvShows'
 import { useAccount } from '../context/AccountContext'
 import useHeroTopState from '../hooks/useHeroTopState'
+import { getHomeRows } from '../utils/catalogRows'
 import { rankByQuery } from '../utils/search'
 
 export default function Home() {
   const [searchParams] = useSearchParams()
-  const { continueWatchingItems, favoriteItems } = useAccount()
+  const { continueWatchingItems, favoriteItems, isSignedIn } = useAccount()
   const query = (searchParams.get('q') ?? '').trim().toLowerCase()
   const isSearching = Boolean(query)
   const isHeroAtTop = useHeroTopState(!isSearching)
   const allContent = [...movies, ...tvShows]
+  const homeRows = getHomeRows(movies, tvShows)
 
-  const filteredShows = rankByQuery(tvShows, query)
-  const filteredMovies = rankByQuery(movies, query)
-  const filteredNewReleases = rankByQuery([...movies, ...tvShows].slice(0, 4), query)
   const searchResults = rankByQuery(allContent, query)
-  const featured = [...filteredShows, ...filteredMovies][0] ?? tvShows[0]
+  const featured = homeRows[0]?.items[0] ?? tvShows[0]
 
   return (
     <div className="app-shell">
@@ -44,6 +43,11 @@ export default function Home() {
                 title="Continue Watching"
                 items={continueWatchingItems}
                 getItemHref={(item) => item.resumePath ?? `/watch/${item.id}`}
+                emptyMessage={
+                  isSignedIn
+                    ? 'Keep watching and your saved titles will show up here.'
+                    : 'Sign in or create an account to save titles to continue watching.'
+                }
               />
               {favoriteItems.length > 0 && (
                 <SectionRow
@@ -52,9 +56,14 @@ export default function Home() {
                   getItemHref={(item) => item.resumePath ?? `/watch/${item.id}`}
                 />
               )}
-              <SectionRow title="Trending Movies" items={filteredMovies} />
-              <SectionRow title="Top TV Shows" items={filteredShows} />
-              <SectionRow title="New Releases" items={filteredNewReleases} />
+              {homeRows.map((row) => (
+                <SectionRow
+                  key={row.title}
+                  title={row.title}
+                  items={row.items}
+                  getItemHref={row.getItemHref}
+                />
+              ))}
             </>
           )}
         </div>

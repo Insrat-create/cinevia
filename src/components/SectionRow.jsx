@@ -7,6 +7,7 @@ export default function SectionRow({
   title,
   items = [],
   getItemHref = (item) => (item.seasons ? `/tv-shows/${item.id}` : `/movies/${item.id}`),
+  emptyMessage = 'No titles match this search.',
 }) {
   const { isFavorite, toggleFavorite } = useAccount()
   const railRef = useRef(null)
@@ -88,7 +89,7 @@ export default function SectionRow({
     <section className="section-row">
       <div className="section-row-header">
         <h2>{title}</h2>
-        <a href="#">See all</a>
+        {items.length > 0 && <a href="#">See all</a>}
       </div>
 
       {items.length > 0 ? (
@@ -191,7 +192,7 @@ export default function SectionRow({
           )}
         </div>
       ) : (
-        <p className="empty-state">No titles match this search.</p>
+        <p className="empty-state">{emptyMessage}</p>
       )}
     </section>
   )

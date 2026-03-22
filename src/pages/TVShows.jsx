@@ -5,16 +5,8 @@ import HeroFeature from '../components/HeroFeature'
 import SectionRow from '../components/SectionRow'
 import tvShows from '../data/tvShows'
 import useHeroTopState from '../hooks/useHeroTopState'
+import { getTvRows } from '../utils/catalogRows'
 import { rankByQuery } from '../utils/search'
-
-function matchesGenres(show, genres) {
-  const showGenres =
-    Array.isArray(show.genres) && show.genres.length > 0
-      ? show.genres
-      : [show.genre].filter(Boolean)
-
-  return showGenres.some((genre) => genres.includes(genre))
-}
 
 export default function TVShows() {
   const [searchParams] = useSearchParams()
@@ -22,18 +14,9 @@ export default function TVShows() {
   const isSearching = Boolean(query)
   const isHeroAtTop = useHeroTopState(!isSearching)
   const filteredShows = rankByQuery(tvShows, query)
-  const featured = filteredShows[0] ?? tvShows[0]
+  const tvRows = getTvRows(tvShows)
+  const featured = tvRows[0]?.items[0] ?? tvShows[0]
   const getShowHref = (show) => `/tv-shows/${show.id}`
-
-  const fantasyAndSciFi = filteredShows.filter((show) =>
-    matchesGenres(show, ['Fantasy', 'Sci-Fi'])
-  )
-  const animationAndComedy = filteredShows.filter((show) =>
-    matchesGenres(show, ['Animation', 'Comedy', 'Adult Animation', 'Crude Humor'])
-  )
-  const dramaAndThriller = filteredShows.filter((show) =>
-    matchesGenres(show, ['Drama', 'Thriller'])
-  )
 
   return (
     <div className="app-shell">
@@ -56,26 +39,14 @@ export default function TVShows() {
             />
           ) : (
             <>
-              <SectionRow
-                title="Popular TV Shows"
-                items={filteredShows}
-                getItemHref={getShowHref}
-              />
-              <SectionRow
-                title="Sci-Fi & Fantasy"
-                items={fantasyAndSciFi}
-                getItemHref={getShowHref}
-              />
-              <SectionRow
-                title="Animation & Comedy"
-                items={animationAndComedy}
-                getItemHref={getShowHref}
-              />
-              <SectionRow
-                title="Drama & Thriller"
-                items={dramaAndThriller}
-                getItemHref={getShowHref}
-              />
+              {tvRows.map((row) => (
+                <SectionRow
+                  key={row.title}
+                  title={row.title}
+                  items={row.items}
+                  getItemHref={getShowHref}
+                />
+              ))}
             </>
           )}
         </div>
