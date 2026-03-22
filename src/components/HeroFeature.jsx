@@ -37,8 +37,8 @@ export default function HeroFeature({ movie, isAtTop = false, showInfoButton = t
       <div className="hero-gradient-bottom" />
 
       <div className="hero-inner hero-artwork-copy">
+        <div className="hero-maturity-badge hero-maturity-badge-inline">{maturityRating}</div>
         <div className="hero-copy-card">
-          <div className="hero-maturity-badge hero-maturity-badge-inline">{maturityRating}</div>
           <p className="hero-summary">{movie.description}</p>
 
           <div className="hero-actions">

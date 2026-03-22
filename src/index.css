@@ -945,7 +945,7 @@ img {
   display: none;
   position: static;
   width: fit-content;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
   box-shadow: none;
 }
 
@@ -2185,6 +2185,9 @@ img {
 
   .hero-maturity-badge-inline {
     display: inline-flex;
+    align-self: flex-start;
+    margin-left: 0;
+    margin-bottom: 12px;
   }
 
   .hero-feature-top .hero-maturity-badge {
