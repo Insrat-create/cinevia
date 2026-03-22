@@ -2236,8 +2236,12 @@ img {
     gap: 14px;
   }
 
+  .thumb-section-embedded {
+    margin-top: 18px;
+  }
+
   .thumb-section-embedded .thumb-tabs {
-    margin-top: 8px;
+    margin-top: 0;
     margin-bottom: 14px;
     padding: 0 0 4px;
   }
