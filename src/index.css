@@ -752,6 +752,7 @@ img {
 /* HERO */
 .hero-feature {
   min-height: 100vh;
+  background-image: var(--hero-backdrop-image);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -2109,6 +2110,12 @@ img {
 
   .hero-inner {
     padding: 140px 16px 176px;
+  }
+
+  .hero-feature {
+    background-image: var(--hero-mobile-image, var(--hero-backdrop-image));
+    background-position: center top;
+    background-size: cover;
   }
 
   .hero-artwork-copy {

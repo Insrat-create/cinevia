@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { getBackgroundImageStyle } from '../utils/media'
 
 export default function HeroFeature({ movie, isAtTop = false, showInfoButton = true }) {
   const maturityRating = movie?.maturityRating ?? 'NR'
@@ -17,7 +16,8 @@ export default function HeroFeature({ movie, isAtTop = false, showInfoButton = t
   const infoHref = movie.seasons ? `/tv-shows/${movie.id}` : `/movies/${movie.id}`
   const heroLayout = movie.heroLayout ?? {}
   const heroStyle = {
-    ...getBackgroundImageStyle(movie.backdrop),
+    '--hero-backdrop-image': movie.backdrop ? `url(${JSON.stringify(movie.backdrop)})` : 'none',
+    '--hero-mobile-image': `url(${JSON.stringify(movie.poster ?? movie.backdrop ?? '')})`,
     '--hero-copy-max-width': heroLayout.copyMaxWidth,
     '--hero-summary-max-width': heroLayout.summaryMaxWidth,
     '--hero-copy-padding-top': heroLayout.copyPaddingTop,
