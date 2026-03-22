@@ -2200,8 +2200,17 @@ img {
   }
 
   .show-guide-shell {
-    padding: 20px;
+    padding: 16px;
     margin-bottom: 24px;
+  }
+
+  .watch-section-heading {
+    margin-bottom: 12px;
+  }
+
+  .watch-section-heading h2 {
+    font-size: 1.2rem;
+    margin: 8px 0 0;
   }
 
   .page-content-stack {
@@ -2224,6 +2233,47 @@ img {
 
   .thumb-row {
     grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .thumb-section-embedded .thumb-tabs {
+    margin-bottom: 14px;
+    padding: 0 0 4px;
+  }
+
+  .thumb-tabs {
+    gap: 8px;
+    padding: 0 0 4px;
+  }
+
+  .tab {
+    flex: 0 0 auto;
+    min-width: 116px;
+    padding: 10px 16px;
+    font-size: 0.95rem;
+    line-height: 1.15;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .thumb-card {
+    border-radius: 22px;
+  }
+
+  .thumb-content {
+    left: 12px;
+    top: 12px;
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .thumb-content p {
+    font-size: 0.92rem;
+    line-height: 1.24;
+  }
+
+  .thumb-progress {
+    margin-top: 10px;
   }
 
   .section-row {
