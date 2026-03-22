@@ -2228,6 +2228,7 @@ img {
 
   .section-row {
     --rail-card-width: clamp(220px, 68vw, 272px);
+    --rail-mobile-edge: max(16px, calc((100vw - var(--rail-card-width)) / 2));
     --rail-inline-gutter: 16px;
     --rail-control-space: 16px;
     margin-bottom: 22px;
@@ -2243,17 +2244,19 @@ img {
 
   .poster-rail {
     gap: 12px;
-    padding: 12px 16px 16px;
-    margin: 0 -16px;
+    padding: 12px var(--rail-mobile-edge) 16px;
+    margin: 0 calc(var(--rail-mobile-edge) * -1);
+    scroll-padding-inline: var(--rail-mobile-edge);
+    scroll-snap-type: x mandatory;
   }
 
   .section-row-rail-shell::after {
-    right: -16px;
+    right: calc(var(--rail-mobile-edge) * -1);
     width: 92px;
   }
 
   .section-row-rail-shell::before {
-    left: -16px;
+    left: calc(var(--rail-mobile-edge) * -1);
     width: 92px;
   }
 
@@ -2267,6 +2270,10 @@ img {
 
   .poster-hover-panel {
     padding: 40px 46px 14px 14px;
+  }
+
+  .poster-card {
+    scroll-snap-align: center;
   }
 
   .watch-page-inner {
