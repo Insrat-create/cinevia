@@ -2237,6 +2237,7 @@ img {
   }
 
   .thumb-section-embedded .thumb-tabs {
+    margin-top: 8px;
     margin-bottom: 14px;
     padding: 0 0 4px;
   }
