@@ -1,5 +1,5 @@
-import { useEffect, useRef } from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { useEffect, useRef, useState } from 'react'
+import { Link, useLocation, useParams } from 'react-router-dom'
 import BunnyPlayer from '../components/BunnyPlayer'
 import RatingInline from '../components/RatingInline'
 import movies from '../data/movies'
@@ -51,9 +51,56 @@ function buildEpisodeWatchItem(match) {
   }
 }
 
+function findNextEpisodeMatch(match) {
+  if (!match?.show?.seasonsData?.length || !match.season || !match.episode) {
+    return null
+  }
+
+  const seasons = match.show.seasonsData
+  const seasonIndex = seasons.findIndex((season) => season.id === match.season.id)
+
+  if (seasonIndex === -1) {
+    return null
+  }
+
+  const episodeIndex = seasons[seasonIndex].episodes.findIndex(
+    (episode) => episode.id === match.episode.id
+  )
+
+  if (episodeIndex === -1) {
+    return null
+  }
+
+  const currentSeasonEpisodes = seasons[seasonIndex].episodes
+  const nextEpisodeInSeason = currentSeasonEpisodes[episodeIndex + 1]
+
+  if (nextEpisodeInSeason) {
+    return {
+      show: match.show,
+      season: seasons[seasonIndex],
+      episode: nextEpisodeInSeason,
+    }
+  }
+
+  for (let nextSeasonIndex = seasonIndex + 1; nextSeasonIndex < seasons.length; nextSeasonIndex += 1) {
+    const nextSeason = seasons[nextSeasonIndex]
+    const firstEpisode = nextSeason?.episodes?.[0]
+
+    if (firstEpisode) {
+      return {
+        show: match.show,
+        season: nextSeason,
+        episode: firstEpisode,
+      }
+    }
+  }
+
+  return null
+}
+
 export default function Watch() {
   const { id } = useParams()
-  const navigate = useNavigate()
+  const location = useLocation()
   const {
     getPlaybackProgress,
     isFavorite,
@@ -62,25 +109,43 @@ export default function Watch() {
   } = useAccount()
   const allContent = [...movies, ...tvShows]
   const episodeMatch = findEpisodeMatch(id)
+  const nextEpisodeMatch = findNextEpisodeMatch(episodeMatch)
   const movie = buildEpisodeWatchItem(episodeMatch) ?? allContent.find((item) => item.id === id)
+  const nextEpisode = buildEpisodeWatchItem(nextEpisodeMatch)
   const parentShow = movie?.parentShow ?? null
   const favoriteTarget = parentShow ?? movie
   const playbackProgress = movie ? getPlaybackProgress(movie.id, movie.progress ?? 0) : 0
   const lastSavedProgressRef = useRef(playbackProgress)
   const lastSavedAtRef = useRef(0)
+  const [showNextEpisodePrompt, setShowNextEpisodePrompt] = useState(false)
+  const nextEpisodePromptHandledRef = useRef(false)
 
-  const goBackOrFallback = (fallbackPath) => {
-    if (window.history.length > 1) {
-      navigate(-1)
+  const goBackTo = (fallbackPath) => {
+    const sourcePath =
+      typeof location.state?.from === 'string' && location.state.from !== location.pathname
+        ? location.state.from
+        : fallbackPath
+
+    window.location.replace(sourcePath)
+  }
+
+  const openNextEpisodePrompt = () => {
+    if (!nextEpisode || nextEpisodePromptHandledRef.current) {
       return
     }
 
-    navigate(fallbackPath, { replace: true })
+    nextEpisodePromptHandledRef.current = true
+    setShowNextEpisodePrompt(true)
   }
 
   useEffect(() => {
     lastSavedProgressRef.current = playbackProgress
   }, [playbackProgress])
+
+  useEffect(() => {
+    nextEpisodePromptHandledRef.current = false
+    setShowNextEpisodePrompt(false)
+  }, [id])
 
   const handleProgressChange = (nextProgress) => {
     if (!movie) {
@@ -131,7 +196,7 @@ export default function Watch() {
           <button
             type="button"
             className="back-link"
-            onClick={() => goBackOrFallback(`/tv-shows/${parentShow?.id ?? movie.id}`)}
+            onClick={() => goBackTo(`/tv-shows/${parentShow?.id ?? movie.id}`)}
           >
             Back
           </button>
@@ -140,9 +205,57 @@ export default function Watch() {
             <BunnyPlayer
               videoId={movie.bunnyVideoId}
               title={movie.episodeTitle || movie.title}
+              onEnded={openNextEpisodePrompt}
+              onNearEnd={openNextEpisodePrompt}
               onProgressChange={handleProgressChange}
             />
           </section>
+
+          {showNextEpisodePrompt && nextEpisode && (
+            <aside
+              className="watch-next-episode-popup"
+              role="dialog"
+              aria-live="polite"
+              aria-label="Next episode ready"
+            >
+              <p className="watch-next-episode-kicker">Up Next</p>
+
+              <div className="watch-next-episode-body">
+                <div className="watch-next-episode-thumb">
+                  <img
+                    src={nextEpisode.poster ?? nextEpisode.backdrop ?? parentShow?.poster}
+                    alt={nextEpisode.episodeTitle || nextEpisode.title}
+                  />
+                </div>
+
+                <div className="watch-next-episode-copy">
+                  <h2>{nextEpisode.episodeTitle || nextEpisode.title}</h2>
+                  <p>
+                    {[parentShow?.title, nextEpisode.seasonLabel].filter(Boolean).join(' • ')}
+                  </p>
+                </div>
+              </div>
+
+              <div className="watch-next-episode-actions">
+                <button
+                  type="button"
+                  className="watch-next-episode-dismiss"
+                  onClick={() => setShowNextEpisodePrompt(false)}
+                >
+                  Not Now
+                </button>
+
+                <Link
+                  to={`/watch/${nextEpisode.id}`}
+                  replace
+                  state={{ from: `/tv-shows/${parentShow?.id ?? movie.id}` }}
+                  className="watch-next-episode-play"
+                >
+                  Play Next
+                </Link>
+              </div>
+            </aside>
+          )}
         </main>
       </div>
     )
@@ -155,7 +268,7 @@ export default function Watch() {
           <button
             type="button"
             className="back-link"
-            onClick={() => goBackOrFallback(`/movies/${movie.id}`)}
+            onClick={() => goBackTo(`/movies/${movie.id}`)}
           >
             Back
           </button>
@@ -273,7 +386,7 @@ export default function Watch() {
               <button
                 type="button"
                 className="back-link"
-                onClick={() => goBackOrFallback(isSeries ? `/tv-shows/${parentShow?.id ?? movie.id}` : '/movies')}
+                onClick={() => goBackTo(isSeries ? `/tv-shows/${parentShow?.id ?? movie.id}` : '/movies')}
               >
                 Back
               </button>

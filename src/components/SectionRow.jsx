@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { useAccount } from '../context/AccountContext'
 import RatingInline from './RatingInline'
 
@@ -10,9 +10,11 @@ export default function SectionRow({
   emptyMessage = 'No titles match this search.',
 }) {
   const { isFavorite, toggleFavorite } = useAccount()
+  const location = useLocation()
   const railRef = useRef(null)
   const [canScrollBackward, setCanScrollBackward] = useState(false)
   const [canScrollForward, setCanScrollForward] = useState(false)
+  const currentPath = `${location.pathname}${location.search}${location.hash}`
 
   useEffect(() => {
     const rail = railRef.current
@@ -123,7 +125,12 @@ export default function SectionRow({
               const isItemFavorite = isFavorite(favoriteTarget.id)
 
               return (
-                <Link to={getItemHref(item)} key={item.id} className="poster-card">
+                <Link
+                  to={getItemHref(item)}
+                  state={{ from: currentPath }}
+                  key={item.id}
+                  className="poster-card"
+                >
                   <div className="poster-image-wrap">
                     <img
                       src={item.backdrop ?? item.poster}

@@ -1986,6 +1986,117 @@ img {
   height: 100%;
 }
 
+.watch-next-episode-popup {
+  position: fixed;
+  right: 24px;
+  bottom: calc(24px + env(safe-area-inset-bottom));
+  z-index: 5;
+  width: min(360px, calc(100vw - 48px));
+  padding: 16px;
+  border-radius: 24px;
+  border: 1px solid rgba(167, 139, 250, 0.22);
+  background:
+    linear-gradient(180deg, rgba(10, 13, 22, 0.96) 0%, rgba(6, 8, 15, 0.98) 100%);
+  box-shadow:
+    0 24px 54px rgba(0, 0, 0, 0.42),
+    0 0 0 1px rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.watch-next-episode-kicker {
+  color: rgba(196, 181, 253, 0.92);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.watch-next-episode-body {
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+}
+
+.watch-next-episode-thumb {
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #05070d;
+}
+
+.watch-next-episode-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.watch-next-episode-copy h2 {
+  font-size: 1.14rem;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.watch-next-episode-copy p {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.watch-next-episode-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.watch-next-episode-dismiss,
+.watch-next-episode-play {
+  min-height: 46px;
+  padding: 0 16px;
+  border-radius: 14px;
+  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.94rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.watch-next-episode-dismiss {
+  flex: 0 0 auto;
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.watch-next-episode-play {
+  flex: 1 1 auto;
+  background: rgba(124, 58, 237, 0.88);
+  color: #fff;
+  box-shadow: 0 14px 26px rgba(124, 58, 237, 0.28);
+}
+
+.watch-next-episode-dismiss:hover,
+.watch-next-episode-play:hover {
+  transform: translateY(-1px);
+}
+
+.watch-next-episode-dismiss:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.watch-next-episode-play:hover {
+  background: #8b5cf6;
+}
+
 /* RESPONSIVE */
 @media (max-width: 1200px) {
   .thumb-row {
@@ -2486,6 +2597,32 @@ img {
     width: 100%;
     max-width: 340px;
     margin: 0 auto;
+  }
+
+  .watch-next-episode-popup {
+    right: 16px;
+    bottom: calc(16px + env(safe-area-inset-bottom));
+    width: min(320px, calc(100vw - 32px));
+    padding: 14px;
+    border-radius: 20px;
+  }
+
+  .watch-next-episode-body {
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .watch-next-episode-copy h2 {
+    font-size: 1.02rem;
+  }
+
+  .watch-next-episode-actions {
+    flex-direction: column;
+  }
+
+  .watch-next-episode-dismiss,
+  .watch-next-episode-play {
+    width: 100%;
   }
 
   .watch-player-frame,

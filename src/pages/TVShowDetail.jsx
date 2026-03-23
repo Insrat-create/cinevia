@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useLocation, useParams } from 'react-router-dom'
 import RatingInline from '../components/RatingInline'
 import Sidebar from '../components/Sidebar'
 import Topbar from '../components/Topbar'
@@ -44,12 +44,14 @@ function getRelatedShows(show) {
 
 export default function TVShowDetail() {
   const { id } = useParams()
+  const location = useLocation()
   const { continueWatchingItems, isFavorite, toggleFavorite } = useAccount()
   const show = tvShows.find((item) => item.id === id)
   const seasons = show?.seasonsData ?? []
   const [activeSeasonId, setActiveSeasonId] = useState(seasons[0]?.id ?? '')
   const activeSeason = seasons.find((season) => season.id === activeSeasonId) ?? seasons[0]
   const relatedShows = useMemo(() => (show ? getRelatedShows(show) : []), [show])
+  const currentPath = `${location.pathname}${location.search}${location.hash}`
 
   if (!show) {
     return (
@@ -122,7 +124,7 @@ export default function TVShowDetail() {
               <p className="watch-description">{show.description}</p>
 
               <div className="watch-hero-actions">
-                <Link to={playHref} className="watch-primary-btn">
+                <Link to={playHref} state={{ from: currentPath }} className="watch-primary-btn">
                   {playLabel}
                 </Link>
 

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { useAccount } from '../context/AccountContext'
 import { fetchBunnyThumbnailUrl } from '../utils/bunny'
 
@@ -12,7 +12,9 @@ export default function ThumbnailRow({
   getItemHref = (movie) => `/watch/${movie.id}`,
 }) {
   const [thumbnailUrls, setThumbnailUrls] = useState({})
+  const location = useLocation()
   const { getPlaybackProgress } = useAccount()
+  const currentPath = `${location.pathname}${location.search}${location.hash}`
 
   useEffect(() => {
     let isCancelled = false
@@ -82,7 +84,12 @@ export default function ThumbnailRow({
           )
 
           return (
-            <Link to={getItemHref(movie)} key={movie.id} className="thumb-card">
+            <Link
+              to={getItemHref(movie)}
+              state={{ from: currentPath }}
+              key={movie.id}
+              className="thumb-card"
+            >
               <img
                 src={thumbnailUrls[movie.id] || movie.poster || movie.backdrop}
                 alt={movie.title}

@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useLocation, useParams } from 'react-router-dom'
 import RatingInline from '../components/RatingInline'
 import Sidebar from '../components/Sidebar'
 import Topbar from '../components/Topbar'
@@ -43,9 +43,11 @@ function getRelatedMovies(movie) {
 
 export default function MovieDetail() {
   const { id } = useParams()
+  const location = useLocation()
   const { isFavorite, toggleFavorite } = useAccount()
   const movie = movies.find((item) => item.id === id)
   const relatedMovies = useMemo(() => (movie ? getRelatedMovies(movie) : []), [movie])
+  const currentPath = `${location.pathname}${location.search}${location.hash}`
 
   if (!movie) {
     return (
@@ -104,7 +106,7 @@ export default function MovieDetail() {
               <p className="watch-description">{movie.description}</p>
 
               <div className="watch-hero-actions">
-                <Link to={`/watch/${movie.id}`} className="watch-primary-btn">
+                <Link to={`/watch/${movie.id}`} state={{ from: currentPath }} className="watch-primary-btn">
                   Play Movie
                 </Link>
 

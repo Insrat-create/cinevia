@@ -1,8 +1,11 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 export default function MovieCard({ movie }) {
+  const location = useLocation()
+  const currentPath = `${location.pathname}${location.search}${location.hash}`
+
   return (
-    <Link to={`/watch/${movie.id}`} className="movie-card-link">
+    <Link to={`/watch/${movie.id}`} state={{ from: currentPath }} className="movie-card-link">
       <article className="movie-card">
         <div className="movie-poster-wrap">
           <img src={movie.poster} alt={movie.title} className="movie-poster" />

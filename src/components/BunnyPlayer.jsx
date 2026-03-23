@@ -39,14 +39,20 @@ function loadBunnyPlayerScript() {
   return bunnyPlayerScriptPromise
 }
 
-export default function BunnyPlayer({ onEnded, onProgressChange, title, videoId }) {
+export default function BunnyPlayer({ onEnded, onNearEnd, onProgressChange, title, videoId }) {
   const iframeRef = useRef(null)
   const onEndedRef = useRef(onEnded)
+  const onNearEndRef = useRef(onNearEnd)
   const onProgressChangeRef = useRef(onProgressChange)
+  const hasTriggeredNearEndRef = useRef(false)
 
   useEffect(() => {
     onEndedRef.current = onEnded
   }, [onEnded])
+
+  useEffect(() => {
+    onNearEndRef.current = onNearEnd
+  }, [onNearEnd])
 
   useEffect(() => {
     onProgressChangeRef.current = onProgressChange
@@ -56,6 +62,10 @@ export default function BunnyPlayer({ onEnded, onProgressChange, title, videoId 
     const url = new URL(getBunnyEmbedUrl(videoId))
     url.searchParams.set('instance', `${videoId}-${Date.now()}`)
     return url.toString()
+  }, [videoId])
+
+  useEffect(() => {
+    hasTriggeredNearEndRef.current = false
   }, [videoId])
 
   useEffect(() => {
@@ -87,11 +97,21 @@ export default function BunnyPlayer({ onEnded, onProgressChange, title, videoId 
             100,
             Math.max(0, Math.round((data.seconds / data.duration) * 100))
           )
+          const remainingSeconds = Math.max(0, data.duration - data.seconds)
 
           onProgressChangeRef.current?.(nextProgress)
+
+          if (
+            !hasTriggeredNearEndRef.current &&
+            (remainingSeconds <= 45 || nextProgress >= 92)
+          ) {
+            hasTriggeredNearEndRef.current = true
+            onNearEndRef.current?.()
+          }
         }
 
         handleEnded = () => {
+          hasTriggeredNearEndRef.current = true
           onProgressChangeRef.current?.(100)
           onEndedRef.current?.()
         }

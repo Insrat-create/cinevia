@@ -520,7 +520,7 @@ const movies = [
       "Comedy"
     ],
     "bunnyVideoId": "24519a4c-ee3d-4c84-b9f6-50e0db8c1c34",
-    "description": "Brennan Huff and Dale Doback are both about 40 when Brennan's mom and Dale's dad marry. The sons still live with the parents so they must now share a room. Initial antipathy threatens the household's peace and the parents' relationship. Dad lays down the law: both slackers have a month to find a job. Out of the job search and their love of music comes a pact that leads to friendship but more domestic disarray compounded by the boys' sleepwalking. Hovering nearby are Brennan's successful brother and his lonely wife: the brother wants to help sell his step-father's house, the wife wants Dale's attention, and the newlyweds want to retire and sail the seven seas. Can harmony come from the discord?",
+    "description": "Two aimless middle-aged losers still living at home are forced against their will to become roommates when their parents marry.",
     "poster": "/Step Brothers Poster.png",
     "backdrop": "/Step Brothers Backdrop.png"
   },
@@ -541,7 +541,7 @@ const movies = [
       "Sci-Fi"
     ],
     "bunnyVideoId": "2f6acb1a-a7d8-4f50-a45c-5ce7e39f7448",
-    "description": "This is the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+    "description": "A wisecracking mercenary gets experimented on and becomes immortal yet hideously scarred, and sets out to track down the man who ruined his looks.",
     "poster": "/Deadpool Poster.png",
     "backdrop": "/Deadpool Backdrop.png"
   },
@@ -562,7 +562,7 @@ const movies = [
       "Comedy"
     ],
     "bunnyVideoId": "baab013e-7b94-4dcf-99b5-7ac6359f3313",
-    "description": "After losing Vanessa (Morena Baccarin), the love of his life, 4th-wall breaking mercenary Wade Wilson aka Deadpool (Ryan Reynolds) must assemble a team and protect a young, fat mutant Russell Collins aka Firefist (Julian Dennison) from Cable (Josh Brolin), a no-nonsense, dangerous cyborg from the future, and must also learn the most important lesson of all: to be part of a family again.",
+    "description": "Foul-mouthed mutant mercenary Wade Wilson (a.k.a. Deadpool) assembles a team of fellow mutant rogues to protect a young boy with abilities from the brutal, time-traveling cyborg Cable.",
     "poster": "/Deadpool 2 Poster.png",
     "backdrop": "/Deadpool 2 Backdrop.png"
   },
@@ -583,7 +583,7 @@ const movies = [
       "Sci-Fi"
     ],
     "bunnyVideoId": "9b895ce7-1710-4d16-8e4c-f055d720dc8c",
-    "description": "A young Peter Parker/Spider-Man begins to navigate his newfound identity as the web-slinging super hero Spider-Man. Thrilled by his experience with the Avengers, Peter returns home, where he lives with his Aunt May, under the watchful eye of his new mentor Tony Stark. Peter tries to fall back into his normal daily routine - distracted by thoughts of proving himself to be more than just your friendly neighborhood Spider-Man - but when the Vulture emerges as a new villain, everything that Peter holds most important will be threatened.",
+    "description": "Peter Parker tries to stop Adrian 'The Vulture' Toomes from selling weapons made with advanced Chitauri technology while trying to balance his life as an ordinary high school student.",
     "poster": "/Spider-Man- Homecoming Poster.png",
     "backdrop": "/Spider-Man- Homecoming Backdrop.png"
   },
@@ -604,7 +604,7 @@ const movies = [
       "Comedy"
     ],
     "bunnyVideoId": "e2aa0e2e-a280-44e0-a308-cc4ad47e6151",
-    "description": "Our friendly neighborhood Super Hero decides to join his best friends Ned, MJ, and the rest of the gang on a European vacation. However, Peter's plan to leave super heroics behind for a few weeks are quickly scrapped when he begrudgingly agrees to help Nick Fury uncover the mystery of several elemental creature attacks, creating havoc across the continent.",
+    "description": "Peter Parker, the beloved superhero Spider-Man, faces four destructive elemental monsters while on holiday in Europe. Soon, he receives help from Mysterio, a fellow hero with mysterious origins.",
     "poster": "/Spider-Man- Far From Home Poster.png",
     "backdrop": "/Spider-Man- Far From Home Backdrop.png"
   },
@@ -625,7 +625,7 @@ const movies = [
       "Fantasy"
     ],
     "bunnyVideoId": "62b22333-05c1-49ae-9134-b3e2d56472dd",
-    "description": "Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to Doctor Strange to make the world forget that he is Spider-Man. The spell goes horribly wrong and shatters the multiverse, bringing in monstrous villains that could destroy the world.",
+    "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
     "poster": "/Spider-Man- No Way Home Poster.png",
     "backdrop": "/Spider-Man- No Way Home Backdrop.png"
   },
@@ -646,7 +646,7 @@ const movies = [
       "Adventure"
     ],
     "bunnyVideoId": "57db8488-247b-4a5c-ab12-fce1645a6cc8",
-    "description": "Phil Lord and Christopher Miller, the creative minds behind The Lego Movie and 21 Jump Street, bring their unique talents to a fresh vision of a different Spider-Man Universe, with a groundbreaking visual style that's the first of its kind. \"Spider-Man(TM): Into the Spider-Verse\" introduces Brooklyn teen Miles Morales (Shameik Moore), and the limitless possibilities of the Spider-Verse, where more than one can wear the mask.",
+    "description": "Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
     "poster": "/Spider-Man- Into the Spider-Verse Poster.png",
     "backdrop": "/Spider-Man- Into the Spider-Verse Backdrop.png"
   },
@@ -667,7 +667,7 @@ const movies = [
       "Thriller"
     ],
     "bunnyVideoId": "90b73677-81d7-42e1-8cfe-61d5e9b54df4",
-    "description": "With the untimely death of his beloved wife still bitter in his mouth, John Wick, the expert former assassin, receives one final gift from her--a precious keepsake to help John find a new meaning in life now that she is gone. But when the arrogant Russian mob prince, Iosef Tarasov, and his men pay Wick a rather unwelcome visit to rob him of his prized 1969 Mustang and his wife's present, the legendary hitman will be forced to unearth his meticulously concealed identity. Blind with revenge, John will immediately unleash a carefully orchestrated maelstrom of destruction against the sophisticated kingpin, Viggo Tarasov, and his family, who are fully aware of his lethal capacity. Now, only blood can quench the boogeyman's thirst for retribution.",
+    "description": "John Wick is a former hitman grieving the loss of his true love. When his home is broken into, robbed, and his dog killed, he is forced to return to action to exact revenge.",
     "poster": "/John Wick Poster.png",
     "backdrop": "/John Wick Backdrop.png"
   },
@@ -688,7 +688,7 @@ const movies = [
       "Thriller"
     ],
     "bunnyVideoId": "d0debb37-312f-48d2-ab58-43eaa9859271",
-    "description": "Bound by an inescapable blood debt to the Italian crime lord, Santino D'Antonio, and with his precious 1969 Mustang still stolen, John Wick--the taciturn and pitiless assassin who thirsts for seclusion--is forced to visit Italy to honour his promise. But, soon, the Bogeyman will find himself dragged into an impossible task in the heart of Rome's secret criminal society, as every killer in the business dreams of cornering the legendary Wick who now has an enormous price on his head. Drenched in blood and mercilessly hunted down, John Wick can surely forget a peaceful retirement as no one can make it out in one piece.",
+    "description": "After returning to the criminal underworld to repay a debt, John Wick discovers that a large bounty has been put on his life.",
     "poster": "/John Wick- Chapter 2 Poster.png",
     "backdrop": "/John Wick- Chapter 2 Backdrop"
   },
@@ -709,7 +709,7 @@ const movies = [
       "Drama"
     ],
     "bunnyVideoId": "e1caa1e2-6dad-4a23-a533-bd08760dcfa3",
-    "description": "In this third installment of the adrenaline-fueled action franchise, skilled assassin John Wick (Keanu Reeves) returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin's guild, the High Table, John Wick is excommunicado, but the world's most ruthless hit men and women await his every turn.",
+    "description": "John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.",
     "poster": "/John Wick- Chapter 3 - Parabellum Poster.png",
     "backdrop": "/John Wick- Chapter 3 - Parabellum Backdrop.png"
   },
@@ -751,7 +751,7 @@ const movies = [
       "Crime"
     ],
     "bunnyVideoId": "a09a37fe-21bf-4c1b-8f6a-8810958951dc",
-    "description": "Cultures clash and tempers flares as the two cops named Detective Inspector Lee a Hong Kong Detective and Detective James Carter FBI, a big-mouthed work-alone Los Angeles cop who are from different worlds discovers one thing in common: they can't stand each other. With time running out, they must join forces to catch the criminals and save the eleven-year-old Chinese girl of the Chinese consul named Soo Yung.",
+    "description": "A loyal and dedicated Hong Kong Inspector teams up with a reckless and loudmouthed L.A.P.D. detective to rescue the Chinese Consul's kidnapped daughter, while trying to arrest a dangerous crime lord along the way.",
     "poster": "/Rush Hour Poster.png",
     "backdrop": "/Rush Hour Backdrop.png"
   },
@@ -772,7 +772,7 @@ const movies = [
       "Drama"
     ],
     "bunnyVideoId": "28f1abc9-4c0f-45b7-837b-628a461f4ecc",
-    "description": "Baby is a young and partially hearing impaired getaway driver who can make any wild move while in motion with the right track playing. It's a critical talent he needs to survive his indentured servitude to the crime boss, Doc, who values his role in his meticulously planned robberies. However, just when Baby thinks he is finally free and clear to have his own life with his new girlfriend, Debora, Doc coerces him back for another job. Now saddled with a crew of thugs too violently unstable to keep to Doc's plans, Baby finds himself and everything he cares for in terrible danger. To survive and escape the coming maelstrom, it will take all of Baby's skill, wits and daring, but even on the best track, can he make it when life is forcing him to face the music?",
+    "description": "Coerced into working for a crime boss, a young getaway driver must face the music when a doomed heist threatens his life, love, and freedom.",
     "poster": "/Baby Driver Poster.png",
     "backdrop": "/Baby Driver Backdrop.png"
   },
@@ -793,7 +793,7 @@ const movies = [
       "Musical"
     ],
     "bunnyVideoId": "a5394f8a-28c4-45cd-950c-cdc844508673",
-    "description": "Orphaned, penniless, but ambitious and with a mind crammed with imagination and fresh ideas, the American entertainer, Phineas Taylor Barnum, will always be remembered as the man with the gift to blur the line between reality and fiction. Thirsty for innovation and hungry for success, the son of a tailor manages to open a wax museum; however, he soon shifts focus to the unique and the peculiar, introducing extraordinary, never-seen-before live acts on the circus stage. Now, some people call Barnum's rich collection of oddities, an outright freak show; but, when Phineas, obsessed for cheers and respectability, gambles everything on the opera singer, Jenny Lind, to appeal to a high-brow audience, he will lose sight of the most crucial aspect of his life: his family. Will Barnum, the greatest showman, risk it all to be accepted?",
+    "description": "Celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.",
     "poster": "/The Greatest Showman Poster.png",
     "backdrop": "/The Greatest Showman Backdrop.png"
   },

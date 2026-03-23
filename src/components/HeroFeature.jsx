@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 export default function HeroFeature({ movie, isAtTop = false, showInfoButton = true }) {
+  const location = useLocation()
   const maturityRating = movie?.maturityRating ?? 'NR'
 
   if (!movie) {
@@ -14,6 +15,7 @@ export default function HeroFeature({ movie, isAtTop = false, showInfoButton = t
   }
 
   const infoHref = movie.seasons ? `/tv-shows/${movie.id}` : `/movies/${movie.id}`
+  const currentPath = `${location.pathname}${location.search}${location.hash}`
   const heroLayout = movie.heroLayout ?? {}
   const heroStyle = {
     '--hero-backdrop-image': movie.backdrop ? `url(${JSON.stringify(movie.backdrop)})` : 'none',
@@ -42,7 +44,7 @@ export default function HeroFeature({ movie, isAtTop = false, showInfoButton = t
           <p className="hero-summary">{movie.description}</p>
 
           <div className="hero-actions">
-            <Link to={`/watch/${movie.id}`} className="play-btn">
+            <Link to={`/watch/${movie.id}`} state={{ from: currentPath }} className="play-btn">
               Play
             </Link>
             {showInfoButton && (
