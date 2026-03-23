@@ -8,6 +8,7 @@ import tvShows from '../data/tvShows'
 import { useAccount } from '../context/AccountContext'
 import useHeroTopState from '../hooks/useHeroTopState'
 import { getHomeRows } from '../utils/catalogRows'
+import { getDailyFeaturedItem } from '../utils/featured'
 import { rankByQuery } from '../utils/search'
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
   const homeRows = getHomeRows(movies, tvShows)
 
   const searchResults = rankByQuery(allContent, query)
-  const featured = homeRows[0]?.items[0] ?? tvShows[0]
+  const featured = getDailyFeaturedItem(allContent, 'home') ?? homeRows[0]?.items[0] ?? tvShows[0]
 
   return (
     <div className="app-shell">

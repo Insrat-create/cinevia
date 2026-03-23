@@ -6,6 +6,7 @@ import SectionRow from '../components/SectionRow'
 import tvShows from '../data/tvShows'
 import useHeroTopState from '../hooks/useHeroTopState'
 import { getTvRows } from '../utils/catalogRows'
+import { getDailyFeaturedItem } from '../utils/featured'
 import { rankByQuery } from '../utils/search'
 
 export default function TVShows() {
@@ -15,7 +16,7 @@ export default function TVShows() {
   const isHeroAtTop = useHeroTopState(!isSearching)
   const filteredShows = rankByQuery(tvShows, query)
   const tvRows = getTvRows(tvShows)
-  const featured = tvRows[0]?.items[0] ?? tvShows[0]
+  const featured = getDailyFeaturedItem(tvShows, 'tv-shows') ?? tvRows[0]?.items[0] ?? tvShows[0]
   const getShowHref = (show) => `/tv-shows/${show.id}`
 
   return (

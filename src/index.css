@@ -835,6 +835,7 @@ img {
 .hero-inner {
   position: relative;
   z-index: 2;
+  width: 100%;
   max-width: 620px;
   padding: 176px 32px 220px;
 }
@@ -2126,7 +2127,8 @@ img {
   }
 
   .topbar-actions {
-    width: min(100%, 520px);
+    width: 100%;
+    max-width: none;
     margin-left: auto;
     justify-content: flex-end;
     flex-wrap: nowrap;
@@ -2137,7 +2139,7 @@ img {
     min-width: 0;
     width: 100%;
     max-width: none;
-    flex: 1 1 auto;
+    flex: 1 1 0;
   }
 
   .profile-pill {
@@ -2175,6 +2177,7 @@ img {
 
   .hero-inner {
     padding: 140px var(--mobile-page-gutter) 176px;
+    max-width: none;
   }
 
   .hero-feature {
@@ -2185,6 +2188,7 @@ img {
 
   .hero-artwork-copy {
     width: 100%;
+    min-width: 0;
     max-width: none;
     padding-top: var(--hero-copy-padding-top-mobile, 284px);
     padding-bottom: var(--hero-copy-padding-bottom-mobile, 68px);
@@ -2230,7 +2234,7 @@ img {
   .play-btn,
   .hero-info-btn {
     min-width: 0;
-    flex: 1 1 140px;
+    flex: 1 1 0;
   }
 
   .hero-maturity-badge {
