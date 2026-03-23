@@ -125,7 +125,7 @@ const movies = [
     "bunnyVideoId": "0e82c5f2-77e8-4268-bbb6-0c7ca16c03c6",
     "description": "When a new Ghostface killer emerges in the town where Sidney Prescott has built a new life, her darkest fears are realized as her daughter becomes the next target.",
     "poster": "/Scream 7 Poster.jpg",
-    "backdrop": "/Scream 7 Backdrop"
+    "backdrop": "/Scream 7 Backdrop.png"
   },
   {
     "id": "the-dark-knight",
@@ -193,8 +193,8 @@ const movies = [
     ],
     "bunnyVideoId": "69215f46-38ce-4a12-85f2-7b3a05fe396e",
     "description": "Dom Cobb is a skilled thief, the absolute best in the dangerous art of extraction, stealing valuable secrets from deep within the subconscious during the dream state, when the mind is at its most vulnerable. Cobb's rare ability has made him a coveted player in this treacherous new world of corporate espionage, but it has also made him an international fugitive and cost him everything he has ever loved. Now Cobb is being offered a chance at redemption. One last job could give him his life back but only if he can accomplish the impossible, inception. Instead of the perfect heist, Cobb and his team of specialists have to pull off the reverse: their task is not to steal an idea, but to plant one. If they succeed, it could be the perfect crime. But no amount of careful planning or expertise can prepare the team for the dangerous enemy that seems to predict their every move. An enemy that only Cobb could have seen coming.",
-    "poster": "",
-    "backdrop": ""
+    "poster": "/Inception Poster.png",
+    "backdrop": "/Inception Backdrop.png"
   },
   {
     "id": "frankenstein",
@@ -214,8 +214,8 @@ const movies = [
     ],
     "bunnyVideoId": "5b749395-97c6-4402-b4f7-c2d5f8251080",
     "description": "Dr. Victor Frankenstein, a brilliant but egotistical scientist, brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation.",
-    "poster": "",
-    "backdrop": ""
+    "poster": "/Frankenstein Poster.png",
+    "backdrop": "/Frankenstein Backdrop.png"
   },
   {
     "id": "whiplash",
@@ -234,8 +234,8 @@ const movies = [
     ],
     "bunnyVideoId": "5b306870-fbd2-4bb6-8975-6bf4d040af46",
     "description": "Nineteen year old Andrew Niemann wants to be the greatest jazz drummer in the world, in a league with Buddy Rich. This goal is despite not coming from a pedigree of greatest, musical or otherwise, with Jim, his high school teacher father, being a failed writer. Andrew is starting his first year at Shaffer Conservatory of Music, the best music school in the United States. At Shaffer, being the best means being accepted to study under Terence Fletcher and being asked to play in his studio band, which represents the school at jazz competitions. Based on their less than positive first meeting, Andrew is surprised that Fletcher asks him to join the band, albeit in the alternate drummer position which he is more than happy to do initially. Andrew quickly learns that Fletcher operates on fear and intimidation, never settling for what he considers less than the best each and every time. Being the best in Fletcher's mind does not only entail playing well, but knowing that you're playing well and if not what you're doing wrong. His modus operandi creates an atmosphere of fear and of every man or woman for him/herself within the band. Regardless, Andrew works hard to be the best. He has to figure out his life priorities and what he is willing to sacrifice to be the best. The other question becomes how much emotional abuse he will endure by Fletcher to reach that greatness, which he may believe he can only achieve with the avenues opened up by Fletcher.",
-    "poster": "",
-    "backdrop": ""
+    "poster": "/Whiplash Poster.png",
+    "backdrop": "/Whiplash Backdrop.png"
   },
   {
     "id": "toy-story",
@@ -255,8 +255,8 @@ const movies = [
     ],
     "bunnyVideoId": "c6009a15-8008-4f90-a046-ea4a6e235042",
     "description": "A little boy named Andy loves to be in his room, playing with his toys, especially his doll named \"Woody\". But, what do the toys do when Andy is not with them, they come to life. Woody believes that his life (as a toy) is good. However, he must worry about Andy's family moving, and what Woody does not know is about Andy's birthday party. Woody does not realize that Andy's mother gave him an action figure known as Buzz Lightyear, who does not believe that he is a toy, and quickly becomes Andy's new favorite toy. Woody, who is now consumed with jealousy, tries to get rid of Buzz. Then, both Woody and Buzz are now lost. They must find a way to get back to Andy before he moves without them, but they will have to pass through a ruthless toy killer, Sid Phillips.",
-    "poster": "",
-    "backdrop": ""
+    "poster": "/Toy Story Poster.png",
+    "backdrop": "/Toy Story Backdrop.png"
   },
   {
     "id": "the-social-network",
@@ -275,8 +275,8 @@ const movies = [
     ],
     "bunnyVideoId": "7919d264-4df0-4af5-865f-a0ab970951fc",
     "description": "On a fall night in 2003, Harvard undergrad and computer programming genius Mark Zuckerberg sits down at his computer and heatedly begins working on a new idea. In a fury of blogging and programming, what begins in his dorm room soon becomes a global social network and a revolution in communication. A mere six years and 500 million friends later, Mark Zuckerberg is the youngest billionaire in history... but for this entrepreneur, success leads to both personal and legal complications.",
-    "poster": "",
-    "backdrop": ""
+    "poster": "/The Social Network Poster.png",
+    "backdrop": "/The Social Network Backdrop.png"
   },
   {
     "id": "the-matrix",
@@ -295,8 +295,8 @@ const movies = [
     ],
     "bunnyVideoId": "e6ef2ca3-eeba-435d-b213-8bb19b79f759",
     "description": "Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. As a rebel against the machines, Neo must confront the agents: super-powerful computer programs devoted to stopping Neo and the entire human rebellion.",
-    "poster": "",
-    "backdrop": ""
+    "poster": "/The Matrix Poster.png",
+    "backdrop": "/The Matrix Backdrop.png"
   },
   {
     "id": "hereditary",
@@ -316,8 +316,8 @@ const movies = [
     ],
     "bunnyVideoId": "9b88d6c5-cc57-4cff-a747-9c7a46377b78",
     "description": "When her mentally ill mother passes away, Annie (Toni Collette), her husband (Gabriel Byrne), son (Alex Wolff), and daughter (Milly Shapiro) all mourn her loss. The family turn to different means to handle their grief, including Annie and her daughter both flirting with the supernatural. They each begin to have disturbing, otherworldly experiences linked to the sinister secrets and emotional trauma that have been passed through the generations of their family.",
-    "poster": "",
-    "backdrop": ""
+    "poster": "/Hereditary Poster.png",
+    "backdrop": "/Hereditary Backdrop.png"
   },
   {
     "id": "the-notebook",
@@ -336,8 +336,8 @@ const movies = [
     ],
     "bunnyVideoId": "04018f41-2e4d-4455-9a92-c34972b41860",
     "description": "In a nursing home, resident Duke reads a romance story to an old woman who has senile dementia with memory loss. In the late 1930s, wealthy seventeen year-old Allie Hamilton is spending summer vacation in Seabrook. Local worker Noah Calhoun meets Allie at a carnival and they soon fall in love with each other. One day, Noah brings Allie to an ancient house that he dreams of buying and restoring and they attempt to make love but get interrupted by their friend. Allie's parents do not approve of their romance since Noah belongs to another social class, and they move to New York with her. Noah writes 365 letters (A Year) to Allie, but her mother Anne Hamilton does not deliver them to her daughter. Three years later, the United States joins the World War II and Noah and his best friend Fin enlist in the army, and Allie works as an army nurse. She meets injured soldier Lon Hammond in the hospital. After the war, they meet each other again going on dates and then, Lon, who is wealthy and handsome, proposes. Meanwhile Noah buys and restores the old house and many people want to buy it. When Allie accidentally sees the photo of Noah and his house in a newspaper, she feels divided between her first love and her commitment with Lon. Meanwhile Duke stops reading to the old lady since his children are visiting him in the nursing home.",
-    "poster": "",
-    "backdrop": ""
+    "poster": "/The Notebook Poster.png",
+    "backdrop": "/The Notebook Backdrop.png"
   },
   {
     "id": "get-out",
@@ -357,8 +357,8 @@ const movies = [
     ],
     "bunnyVideoId": "28b0535c-8215-4189-a5f1-e22cd130636a",
     "description": "Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.",
-    "poster": "",
-    "backdrop": ""
+    "poster": "/Get Out Poster.png",
+    "backdrop": "/Get Out Backdrop.png"
   },
   {
     "id": "gladiator",
@@ -378,8 +378,8 @@ const movies = [
     ],
     "bunnyVideoId": "7705de4c-3794-450b-a216-15c3ef0a8ef1",
     "description": "Maximus is a powerful Roman general, loved by the people and the aging Emperor, Marcus Aurelius. Before his death, the Emperor chooses Maximus to be his heir over his own son, Commodus, and a power struggle leaves Maximus and his family condemned to death. The powerful general is unable to save his family, and his loss of will allows him to get captured and put into the Gladiator games until he dies. The only desire that fuels him now is the chance to rise to the top so that he will be able to look into the eyes of the man who will feel his revenge.",
-    "poster": "",
-    "backdrop": ""
+    "poster": "/Gladiator Poster.png",
+    "backdrop": "/Gladiator Backdrop.png"
   },
   {
     "id": "top-gun",
@@ -398,8 +398,466 @@ const movies = [
     ],
     "bunnyVideoId": "42639fea-9680-40b6-a1db-affd7714036a",
     "description": "Call-sign \"Maverick\", LT Pete Mitchell, the impetuous daredevil Navy-pilot ace, is accepted into Miramar's elite Fighter School, also known as \"Top Gun\". There, as the impulsive pilot competes with the best of the best, not only will he meet Charlie, the flying school's curvaceous astrophysics instructor, but also the brilliant and highly competitive fellow student, \"Iceman\", with whom right from the start, he will engage in a reckless contest. As Maverick is haunted by his father's mysterious death, will he be able to suppress his wild nature to win the prestigious Top Gun Trophy?",
-    "poster": "",
-    "backdrop": ""
+    "poster": "/Top gun poster.png",
+    "backdrop": "/Top gun Backdrop.png"
+  },
+  {
+    "id": "the-avengers",
+    "title": "The Avengers",
+    "year": "2012",
+    "released": "04 May 2012",
+    "imdbRating": "8.0",
+    "maturityRating": "PG-13",
+    "duration": "2h 23m",
+    "badge": "Action",
+    "rating": "8.0",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "bunnyVideoId": "d613b0fb-bf63-40cb-a690-453364b1158f",
+    "description": "Loki, the adopted brother of Thor, teams-up with the Chitauri Army and uses the Tesseract's power to travel from Asgard to Midgard to plot the invasion of Earth and become a king. The director of the agency S.H.I.E.L.D., Nick Fury, sets in motion project Avengers, joining Tony Stark a.k.a. the Iron Man; Steve Rogers, a.k.a. Captain America; Bruce Banner, a.k.a. The Hulk; Thor; Natasha Romanoff, a.k.a. Black Widow; and Clint Barton, a.k.a. Hawkeye, to save the world from the powerful Loki and the alien invasion.",
+    "poster": "/The Avengers Poster.png",
+    "backdrop": "/The Avengers Backdrop.png"
+  },
+  {
+    "id": "avengers-age-of-ultron",
+    "title": "Avengers: Age of Ultron",
+    "year": "2015",
+    "released": "01 May 2015",
+    "imdbRating": "7.3",
+    "maturityRating": "PG-13",
+    "duration": "2h 21m",
+    "badge": "Action",
+    "rating": "7.3",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "bunnyVideoId": "8299eb63-4f29-4602-9176-6a15d9c2cdb8",
+    "description": "Tony Stark creates the Ultron Program to protect the world, but when the peacekeeping program becomes hostile, The Avengers go into action to try and defeat a virtually impossible enemy together. Earth's mightiest heroes must come together once again to protect the world from global extinction.",
+    "poster": "/Avengers- Age of Ultron Poster.png",
+    "backdrop": "/Avengers- Age of Ultron Backdrop.png"
+  },
+  {
+    "id": "avengers-infinity-war",
+    "title": "Avengers: Infinity War",
+    "year": "2018",
+    "released": "27 Apr 2018",
+    "imdbRating": "8.4",
+    "maturityRating": "PG-13",
+    "duration": "2h 29m",
+    "badge": "Action",
+    "rating": "8.4",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "bunnyVideoId": "e24dbc51-30e6-4006-90cc-7a8199502ac6",
+    "description": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment, the fate of Earth and existence has never been more uncertain.",
+    "poster": "/Avengers- Infinity War Poster.png",
+    "backdrop": "/Avengers- Infinity War Backdrop.png"
+  },
+  {
+    "id": "avengers-endgame",
+    "title": "Avengers: Endgame",
+    "year": "2019",
+    "released": "26 Apr 2019",
+    "imdbRating": "8.4",
+    "maturityRating": "PG-13",
+    "duration": "3h 1m",
+    "badge": "Action",
+    "rating": "8.4",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "bunnyVideoId": "dc4e6ae0-7977-4205-b1a5-1b43c09c96e6",
+    "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face...",
+    "poster": "/Avengers- Endgame Poster.png",
+    "backdrop": "/Avengers- Endgame Backdrop.png"
+  },
+  {
+    "id": "logan",
+    "title": "Logan",
+    "year": "2017",
+    "released": "03 Mar 2017",
+    "imdbRating": "8.1",
+    "maturityRating": "R",
+    "duration": "2h 17m",
+    "badge": "Action",
+    "rating": "8.1",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "bunnyVideoId": "7c18918e-5f9f-4479-87d1-4d7832f902f7",
+    "description": "In 2029 the mutant population has shrunken significantly due to genetically modified plants designed to reduce mutant powers and the X-Men have disbanded. Logan, whose power to self-heal is dwindling, has surrendered himself to alcohol and now earns a living as a chauffeur. He takes care of the ailing old Professor X whom he keeps hidden away. One day, a female stranger asks Logan to drive a girl named Laura to the Canadian border. At first he refuses, but the Professor has been waiting for a long time for her to appear. Laura possesses an extraordinary fighting prowess and is in many ways like Wolverine. She is pursued by sinister figures working for a powerful corporation; this is because they made her, with Logan's DNA. A decrepit Logan is forced to ask himself if he can or even wants to put his remaining powers to good use. It would appear that in the near-future, the times in which they were able put the world to rights with razor sharp claws and telepathic powers are now over.",
+    "poster": "/Logan Poster.png",
+    "backdrop": "/Logan Backdrop.png"
+  },
+  {
+    "id": "step-brothers",
+    "title": "Step Brothers",
+    "year": "2008",
+    "released": "25 Jul 2008",
+    "imdbRating": "6.9",
+    "maturityRating": "R",
+    "duration": "1h 38m",
+    "badge": "Comedy",
+    "rating": "6.9",
+    "genre": "Comedy",
+    "genres": [
+      "Comedy"
+    ],
+    "bunnyVideoId": "24519a4c-ee3d-4c84-b9f6-50e0db8c1c34",
+    "description": "Brennan Huff and Dale Doback are both about 40 when Brennan's mom and Dale's dad marry. The sons still live with the parents so they must now share a room. Initial antipathy threatens the household's peace and the parents' relationship. Dad lays down the law: both slackers have a month to find a job. Out of the job search and their love of music comes a pact that leads to friendship but more domestic disarray compounded by the boys' sleepwalking. Hovering nearby are Brennan's successful brother and his lonely wife: the brother wants to help sell his step-father's house, the wife wants Dale's attention, and the newlyweds want to retire and sail the seven seas. Can harmony come from the discord?",
+    "poster": "/Step Brothers Poster.png",
+    "backdrop": "/Step Brothers Backdrop.png"
+  },
+  {
+    "id": "deadpool",
+    "title": "Deadpool",
+    "year": "2016",
+    "released": "12 Feb 2016",
+    "imdbRating": "8.0",
+    "maturityRating": "R",
+    "duration": "1h 48m",
+    "badge": "Action",
+    "rating": "8.0",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "bunnyVideoId": "2f6acb1a-a7d8-4f50-a45c-5ce7e39f7448",
+    "description": "This is the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+    "poster": "/Deadpool Poster.png",
+    "backdrop": "/Deadpool Backdrop.png"
+  },
+  {
+    "id": "deadpool-2",
+    "title": "Deadpool 2",
+    "year": "2018",
+    "released": "18 May 2018",
+    "imdbRating": "7.6",
+    "maturityRating": "R",
+    "duration": "1h 59m",
+    "badge": "Action",
+    "rating": "7.6",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "bunnyVideoId": "baab013e-7b94-4dcf-99b5-7ac6359f3313",
+    "description": "After losing Vanessa (Morena Baccarin), the love of his life, 4th-wall breaking mercenary Wade Wilson aka Deadpool (Ryan Reynolds) must assemble a team and protect a young, fat mutant Russell Collins aka Firefist (Julian Dennison) from Cable (Josh Brolin), a no-nonsense, dangerous cyborg from the future, and must also learn the most important lesson of all: to be part of a family again.",
+    "poster": "/Deadpool 2 Poster.png",
+    "backdrop": "/Deadpool 2 Backdrop.png"
+  },
+  {
+    "id": "spider-man-homecoming",
+    "title": "Spider-Man: Homecoming",
+    "year": "2017",
+    "released": "07 Jul 2017",
+    "imdbRating": "7.4",
+    "maturityRating": "PG-13",
+    "duration": "2h 13m",
+    "badge": "Action",
+    "rating": "7.4",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "bunnyVideoId": "9b895ce7-1710-4d16-8e4c-f055d720dc8c",
+    "description": "A young Peter Parker/Spider-Man begins to navigate his newfound identity as the web-slinging super hero Spider-Man. Thrilled by his experience with the Avengers, Peter returns home, where he lives with his Aunt May, under the watchful eye of his new mentor Tony Stark. Peter tries to fall back into his normal daily routine - distracted by thoughts of proving himself to be more than just your friendly neighborhood Spider-Man - but when the Vulture emerges as a new villain, everything that Peter holds most important will be threatened.",
+    "poster": "/Spider-Man- Homecoming Poster.png",
+    "backdrop": "/Spider-Man- Homecoming Backdrop.png"
+  },
+  {
+    "id": "spider-man-far-from-home",
+    "title": "Spider-Man: Far from Home",
+    "year": "2019",
+    "released": "02 Jul 2019",
+    "imdbRating": "7.3",
+    "maturityRating": "PG-13",
+    "duration": "2h 9m",
+    "badge": "Action",
+    "rating": "7.3",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "bunnyVideoId": "e2aa0e2e-a280-44e0-a308-cc4ad47e6151",
+    "description": "Our friendly neighborhood Super Hero decides to join his best friends Ned, MJ, and the rest of the gang on a European vacation. However, Peter's plan to leave super heroics behind for a few weeks are quickly scrapped when he begrudgingly agrees to help Nick Fury uncover the mystery of several elemental creature attacks, creating havoc across the continent.",
+    "poster": "/Spider-Man- Far From Home Poster.png",
+    "backdrop": "/Spider-Man- Far From Home Backdrop.png"
+  },
+  {
+    "id": "spider-man-no-way-home",
+    "title": "Spider-Man: No Way Home",
+    "year": "2021",
+    "released": "17 Dec 2021",
+    "imdbRating": "8.1",
+    "maturityRating": "PG-13",
+    "duration": "2h 28m",
+    "badge": "Action",
+    "rating": "8.1",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "bunnyVideoId": "62b22333-05c1-49ae-9134-b3e2d56472dd",
+    "description": "Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to Doctor Strange to make the world forget that he is Spider-Man. The spell goes horribly wrong and shatters the multiverse, bringing in monstrous villains that could destroy the world.",
+    "poster": "/Spider-Man- No Way Home Poster.png",
+    "backdrop": "/Spider-Man- No Way Home Backdrop.png"
+  },
+  {
+    "id": "spider-man-into-the-spider-verse",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": "2018",
+    "released": "14 Dec 2018",
+    "imdbRating": "8.4",
+    "maturityRating": "PG",
+    "duration": "1h 57m",
+    "badge": "Animation",
+    "rating": "8.4",
+    "genre": "Animation",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "bunnyVideoId": "57db8488-247b-4a5c-ab12-fce1645a6cc8",
+    "description": "Phil Lord and Christopher Miller, the creative minds behind The Lego Movie and 21 Jump Street, bring their unique talents to a fresh vision of a different Spider-Man Universe, with a groundbreaking visual style that's the first of its kind. \"Spider-Man(TM): Into the Spider-Verse\" introduces Brooklyn teen Miles Morales (Shameik Moore), and the limitless possibilities of the Spider-Verse, where more than one can wear the mask.",
+    "poster": "/Spider-Man- Into the Spider-Verse Poster.png",
+    "backdrop": "/Spider-Man- Into the Spider-Verse Backdrop.png"
+  },
+  {
+    "id": "john-wick",
+    "title": "John Wick",
+    "year": "2014",
+    "released": "24 Oct 2014",
+    "imdbRating": "7.5",
+    "maturityRating": "R",
+    "duration": "1h 41m",
+    "badge": "Action",
+    "rating": "7.5",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "bunnyVideoId": "90b73677-81d7-42e1-8cfe-61d5e9b54df4",
+    "description": "With the untimely death of his beloved wife still bitter in his mouth, John Wick, the expert former assassin, receives one final gift from her--a precious keepsake to help John find a new meaning in life now that she is gone. But when the arrogant Russian mob prince, Iosef Tarasov, and his men pay Wick a rather unwelcome visit to rob him of his prized 1969 Mustang and his wife's present, the legendary hitman will be forced to unearth his meticulously concealed identity. Blind with revenge, John will immediately unleash a carefully orchestrated maelstrom of destruction against the sophisticated kingpin, Viggo Tarasov, and his family, who are fully aware of his lethal capacity. Now, only blood can quench the boogeyman's thirst for retribution.",
+    "poster": "/John Wick Poster.png",
+    "backdrop": "/John Wick Backdrop.png"
+  },
+  {
+    "id": "john-wick-chapter-2",
+    "title": "John Wick: Chapter 2",
+    "year": "2017",
+    "released": "10 Feb 2017",
+    "imdbRating": "7.4",
+    "maturityRating": "R",
+    "duration": "2h 2m",
+    "badge": "Action",
+    "rating": "7.4",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "bunnyVideoId": "d0debb37-312f-48d2-ab58-43eaa9859271",
+    "description": "Bound by an inescapable blood debt to the Italian crime lord, Santino D'Antonio, and with his precious 1969 Mustang still stolen, John Wick--the taciturn and pitiless assassin who thirsts for seclusion--is forced to visit Italy to honour his promise. But, soon, the Bogeyman will find himself dragged into an impossible task in the heart of Rome's secret criminal society, as every killer in the business dreams of cornering the legendary Wick who now has an enormous price on his head. Drenched in blood and mercilessly hunted down, John Wick can surely forget a peaceful retirement as no one can make it out in one piece.",
+    "poster": "/John Wick- Chapter 2 Poster.png",
+    "backdrop": "/John Wick- Chapter 2 Backdrop"
+  },
+  {
+    "id": "john-wick-chapter-3-parabellum",
+    "title": "John Wick: Chapter 3 - Parabellum",
+    "year": "2019",
+    "released": "17 May 2019",
+    "imdbRating": "7.4",
+    "maturityRating": "R",
+    "duration": "2h 10m",
+    "badge": "Action",
+    "rating": "7.4",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "bunnyVideoId": "e1caa1e2-6dad-4a23-a533-bd08760dcfa3",
+    "description": "In this third installment of the adrenaline-fueled action franchise, skilled assassin John Wick (Keanu Reeves) returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin's guild, the High Table, John Wick is excommunicado, but the world's most ruthless hit men and women await his every turn.",
+    "poster": "/John Wick- Chapter 3 - Parabellum Poster.png",
+    "backdrop": "/John Wick- Chapter 3 - Parabellum Backdrop.png"
+  },
+  {
+    "id": "john-wick-chapter-4",
+    "title": "John Wick: Chapter 4",
+    "year": "2023",
+    "released": "24 Mar 2023",
+    "imdbRating": "7.6",
+    "maturityRating": "R",
+    "duration": "2h 49m",
+    "badge": "Action",
+    "rating": "7.6",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "bunnyVideoId": "3abc91da-0a39-4601-8457-3349dc24e406",
+    "description": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+    "poster": "/John Wick- Chapter 4 Poster.png",
+    "backdrop": "/John Wick- Chapter 4 Backdrop.png"
+  },
+  {
+    "id": "rush-hour",
+    "title": "Rush Hour",
+    "year": "1998",
+    "released": "18 Sep 1998",
+    "imdbRating": "7.0",
+    "maturityRating": "PG-13",
+    "duration": "1h 38m",
+    "badge": "Action",
+    "rating": "7.0",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "bunnyVideoId": "a09a37fe-21bf-4c1b-8f6a-8810958951dc",
+    "description": "Cultures clash and tempers flares as the two cops named Detective Inspector Lee a Hong Kong Detective and Detective James Carter FBI, a big-mouthed work-alone Los Angeles cop who are from different worlds discovers one thing in common: they can't stand each other. With time running out, they must join forces to catch the criminals and save the eleven-year-old Chinese girl of the Chinese consul named Soo Yung.",
+    "poster": "/Rush Hour Poster.png",
+    "backdrop": "/Rush Hour Backdrop.png"
+  },
+  {
+    "id": "baby-driver",
+    "title": "Baby Driver",
+    "year": "2017",
+    "released": "28 Jun 2017",
+    "imdbRating": "7.5",
+    "maturityRating": "R",
+    "duration": "1h 53m",
+    "badge": "Action",
+    "rating": "7.5",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "bunnyVideoId": "28f1abc9-4c0f-45b7-837b-628a461f4ecc",
+    "description": "Baby is a young and partially hearing impaired getaway driver who can make any wild move while in motion with the right track playing. It's a critical talent he needs to survive his indentured servitude to the crime boss, Doc, who values his role in his meticulously planned robberies. However, just when Baby thinks he is finally free and clear to have his own life with his new girlfriend, Debora, Doc coerces him back for another job. Now saddled with a crew of thugs too violently unstable to keep to Doc's plans, Baby finds himself and everything he cares for in terrible danger. To survive and escape the coming maelstrom, it will take all of Baby's skill, wits and daring, but even on the best track, can he make it when life is forcing him to face the music?",
+    "poster": "/Baby Driver Poster.png",
+    "backdrop": "/Baby Driver Backdrop.png"
+  },
+  {
+    "id": "the-greatest-showman",
+    "title": "The Greatest Showman",
+    "year": "2017",
+    "released": "20 Dec 2017",
+    "imdbRating": "7.5",
+    "maturityRating": "PG",
+    "duration": "1h 45m",
+    "badge": "Biography",
+    "rating": "7.5",
+    "genre": "Biography",
+    "genres": [
+      "Biography",
+      "Drama",
+      "Musical"
+    ],
+    "bunnyVideoId": "a5394f8a-28c4-45cd-950c-cdc844508673",
+    "description": "Orphaned, penniless, but ambitious and with a mind crammed with imagination and fresh ideas, the American entertainer, Phineas Taylor Barnum, will always be remembered as the man with the gift to blur the line between reality and fiction. Thirsty for innovation and hungry for success, the son of a tailor manages to open a wax museum; however, he soon shifts focus to the unique and the peculiar, introducing extraordinary, never-seen-before live acts on the circus stage. Now, some people call Barnum's rich collection of oddities, an outright freak show; but, when Phineas, obsessed for cheers and respectability, gambles everything on the opera singer, Jenny Lind, to appeal to a high-brow audience, he will lose sight of the most crucial aspect of his life: his family. Will Barnum, the greatest showman, risk it all to be accepted?",
+    "poster": "/The Greatest Showman Poster.png",
+    "backdrop": "/The Greatest Showman Backdrop.png"
+  },
+  {
+    "id": "now-you-see-me",
+    "title": "Now You See Me",
+    "year": "2013",
+    "released": "31 May 2013",
+    "imdbRating": "7.2",
+    "maturityRating": "PG-13",
+    "duration": "1h 55m",
+    "badge": "Crime",
+    "rating": "7.2",
+    "genre": "Crime",
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "bunnyVideoId": "25d2ce4b-26ca-4923-af69-896a04612dcf",
+    "description": "Four magicians each answer a mysterious summons to an obscure address with secrets inside. A year later, they are the Four Horsemen, big time stage illusionists who climax their sold-out Las Vegas show with a bank apparently robbed for real. This puts F.B.I. Agents Dylan Rhodes and Interpol Agent Alma Dray on the case to find out how they did it. However, this mystery proves to be difficult to solve, even with the insights of professional illusion exposer Thaddeus Bradley. What follows is a bizarre investigation where nothing is what it seems to be, with illusions, dark secrets, and hidden agendas galore as all involved are reminded of a great truth in this puzzle: the closer you look, the less you see.",
+    "poster": "/Now You See Me Poster.png",
+    "backdrop": "/Now You See Me Backdrop.png"
+  },
+  {
+    "id": "now-you-see-me-2",
+    "title": "Now You See Me 2",
+    "year": "2016",
+    "released": "10 Jun 2016",
+    "imdbRating": "6.4",
+    "maturityRating": "PG-13",
+    "duration": "2h 9m",
+    "badge": "Action",
+    "rating": "6.4",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "bunnyVideoId": "a9892528-3cda-4b28-8d7d-f8882c31e66c",
+    "description": "One year after outwitting the F.B.I. and winning the public's adulation with their Robin Hood-style magic spectacles, The Four Horsemen resurface for a comeback performance in hopes of exposing the unethical practices of a tech magnate. The man behind their vanishing act is none other than Walter Mabry, a tech prodigy who threatens the Horsemen into pulling off their most impossible heist yet. Their only hope is to perform one last unprecedented stunt to clear their names and reveal the mastermind behind it all.",
+    "poster": "/Now You See Me 2 Poster.png",
+    "backdrop": "/Now You See Me 2 Backdrop.png"
+  },
+  {
+    "id": "now-you-see-me-now-you-don-t",
+    "title": "Now You See Me: Now You Don't",
+    "year": "2025",
+    "released": "14 Nov 2025",
+    "imdbRating": "5.9",
+    "maturityRating": "PG-13",
+    "duration": "1h 53m",
+    "badge": "Crime",
+    "rating": "5.9",
+    "genre": "Crime",
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "bunnyVideoId": "e0f99ee0-5729-415b-ba6f-4dca921c772d",
+    "description": "The Four Horsemen reunite and team up with a new generation of young illusionists to expose a diamond heiress's global money laundering scheme for criminals.",
+    "poster": "/Now You See Me- Now You Don't Poster.png",
+    "backdrop": "/Now You See Me- Now You Don't Backdrop.png"
   }
 ]
 

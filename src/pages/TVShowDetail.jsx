@@ -84,37 +84,6 @@ export default function TVShowDetail() {
     show.seasons,
     totalEpisodesLabel,
   ].filter(Boolean)
-  const detailItems = [
-    {
-      label: 'Type',
-      value: 'TV Series',
-    },
-    {
-      label: 'Genre',
-      value: show.genre ?? show.badge ?? 'Series',
-    },
-    {
-      label: 'Released',
-      value: show.released ?? show.year ?? 'TBA',
-    },
-    {
-      label: 'Maturity',
-      value: show.maturityRating ?? 'NR',
-    },
-    {
-      label: 'Seasons',
-      value: show.seasons ?? `${seasons.length} Seasons`,
-    },
-    {
-      label: 'Episodes',
-      value: totalEpisodesLabel,
-    },
-    {
-      label: 'Rating',
-      value: ratingValue || 'N/A',
-      isRating: true,
-    },
-  ]
 
   return (
     <div className="app-shell">
@@ -189,28 +158,6 @@ export default function TVShowDetail() {
               onTabChange={setActiveSeasonId}
               getItemHref={(episode) => `/watch/${episode.id}`}
             />
-          </section>
-
-          <section className="watch-info-grid">
-            <article className="watch-panel">
-              <p className="watch-panel-kicker">Overview</p>
-              <h3>About this show</h3>
-              <p className="watch-panel-text">{show.description}</p>
-            </article>
-
-            <article className="watch-panel">
-              <p className="watch-panel-kicker">Details</p>
-              <h3>Quick facts</h3>
-
-              <dl className="watch-fact-grid">
-                {detailItems.map((detail) => (
-                  <div key={`${show.id}-${detail.label}`} className="watch-fact-item">
-                    <dt>{detail.label}</dt>
-                    <dd>{detail.isRating && ratingValue ? <RatingInline source={show} /> : detail.value}</dd>
-                  </div>
-                ))}
-              </dl>
-            </article>
           </section>
 
           {relatedShows.length > 0 && (

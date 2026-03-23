@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import BunnyPlayer from '../components/BunnyPlayer'
 import RatingInline from '../components/RatingInline'
@@ -54,13 +54,20 @@ function buildEpisodeWatchItem(match) {
 export default function Watch() {
   const { id } = useParams()
   const navigate = useNavigate()
-  const { continueWatchingItems, isFavorite, saveContinueWatching, toggleFavorite } = useAccount()
+  const {
+    getPlaybackProgress,
+    isFavorite,
+    saveContinueWatching,
+    toggleFavorite,
+  } = useAccount()
   const allContent = [...movies, ...tvShows]
   const episodeMatch = findEpisodeMatch(id)
   const movie = buildEpisodeWatchItem(episodeMatch) ?? allContent.find((item) => item.id === id)
-  const savedEntry = continueWatchingItems.find((item) => item.id === id)
   const parentShow = movie?.parentShow ?? null
   const favoriteTarget = parentShow ?? movie
+  const playbackProgress = movie ? getPlaybackProgress(movie.id, movie.progress ?? 0) : 0
+  const lastSavedProgressRef = useRef(playbackProgress)
+  const lastSavedAtRef = useRef(0)
 
   const goBackOrFallback = (fallbackPath) => {
     if (window.history.length > 1) {
@@ -72,13 +79,29 @@ export default function Watch() {
   }
 
   useEffect(() => {
+    lastSavedProgressRef.current = playbackProgress
+  }, [playbackProgress])
+
+  const handleProgressChange = (nextProgress) => {
     if (!movie) {
       return
     }
 
-    const initialProgress = savedEntry?.progress ?? Math.max(movie.progress ?? 0, 12)
-    void saveContinueWatching(parentShow ?? movie, initialProgress, parentShow ? movie.id : null)
-  }, [id, movie, parentShow, savedEntry?.progress])
+    const normalizedProgress = nextProgress >= 95 ? 100 : nextProgress
+    const progressDelta = Math.abs(normalizedProgress - lastSavedProgressRef.current)
+    const now = Date.now()
+    const hasReachedCompletion = normalizedProgress === 100 && lastSavedProgressRef.current !== 100
+    const hasMeaningfulChange = progressDelta >= 2
+    const hasWaitedLongEnough = now - lastSavedAtRef.current >= 15000
+
+    if (!hasReachedCompletion && !hasMeaningfulChange && !hasWaitedLongEnough) {
+      return
+    }
+
+    lastSavedProgressRef.current = normalizedProgress
+    lastSavedAtRef.current = now
+    void saveContinueWatching(parentShow ?? movie, normalizedProgress, parentShow ? movie.id : null)
+  }
 
   if (!movie) {
     return (
@@ -114,7 +137,11 @@ export default function Watch() {
           </button>
 
           <section className="watch-player-only-frame">
-            <BunnyPlayer videoId={movie.bunnyVideoId} title={movie.episodeTitle || movie.title} />
+            <BunnyPlayer
+              videoId={movie.bunnyVideoId}
+              title={movie.episodeTitle || movie.title}
+              onProgressChange={handleProgressChange}
+            />
           </section>
         </main>
       </div>
@@ -134,7 +161,11 @@ export default function Watch() {
           </button>
 
           <section className="watch-player-only-frame">
-            <BunnyPlayer videoId={movie.bunnyVideoId} title={movie.title} />
+            <BunnyPlayer
+              videoId={movie.bunnyVideoId}
+              title={movie.title}
+              onProgressChange={handleProgressChange}
+            />
           </section>
         </main>
       </div>
@@ -312,7 +343,11 @@ export default function Watch() {
                 </div>
               </div>
 
-              <BunnyPlayer videoId={movie.bunnyVideoId} title={movie.title} />
+              <BunnyPlayer
+                videoId={movie.bunnyVideoId}
+                title={movie.title}
+                onProgressChange={handleProgressChange}
+              />
             </div>
           </section>
 

@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useRef, useState } from 'react'
+import { createContext, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import movies from '../data/movies'
 import tvShows from '../data/tvShows'
 import { getAuthRedirectUrl, hasSupabaseConfig, supabase } from '../lib/supabase'
@@ -25,6 +25,25 @@ function findEpisodeInShow(show, episodeId) {
           season,
           episode,
         }
+      }
+    }
+  }
+
+  return null
+}
+
+function findEpisodeMatch(episodeId) {
+  if (!episodeId) {
+    return null
+  }
+
+  for (const show of tvShows) {
+    const match = findEpisodeInShow(show, episodeId)
+
+    if (match?.episode) {
+      return {
+        show,
+        ...match,
       }
     }
   }
@@ -150,9 +169,36 @@ function hydrateFavorites(records) {
     .sort((left, right) => new Date(right.addedAt) - new Date(left.addedAt))
 }
 
-function hydrateContinueWatching(records) {
+function hydrateContinueWatchingEntries(records) {
   return records
     .map((record) => {
+      if (record.itemType === 'episode') {
+        const match = findEpisodeMatch(record.itemId) ?? findEpisodeMatch(record.episodeId)
+
+        if (!match?.episode) {
+          return null
+        }
+
+        return {
+          ...match.show,
+          id: match.episode.id,
+          bunnyVideoId: match.episode.bunnyVideoId || match.show.bunnyVideoId,
+          episodeTitle: match.episode.episodeTitle || match.episode.title,
+          parentShow: match.show,
+          parentShowId: match.show.id,
+          poster: match.episode.poster || match.show.poster,
+          progress: record.progress ?? match.episode.progress ?? match.show.progress ?? 0,
+          released: match.episode.released || match.show.released,
+          resumePath: `/watch/${match.episode.id}`,
+          seasonLabel: match.season?.label ?? '',
+          updatedAt:
+            record.updatedAt ??
+            record.last_watched_at ??
+            record.lastWatchedAt ??
+            new Date().toISOString(),
+        }
+      }
+
       const item = contentById.get(record.itemId)
 
       if (!item) {
@@ -196,6 +242,21 @@ function hydrateContinueWatching(records) {
     .sort((left, right) => new Date(right.updatedAt) - new Date(left.updatedAt))
 }
 
+function collapseContinueWatchingItems(entries) {
+  const seenKeys = new Set()
+
+  return entries.filter((entry) => {
+    const key = entry.parentShowId ?? entry.id
+
+    if (seenKeys.has(key)) {
+      return false
+    }
+
+    seenKeys.add(key)
+    return true
+  })
+}
+
 export function AccountProvider({ children }) {
   const initialGuestStore = loadAccountStore(GUEST_OWNER_ID)
   const hasShownGuestPromptRef = useRef(false)
@@ -222,7 +283,25 @@ export function AccountProvider({ children }) {
 
   const ownerId = user?.id ?? GUEST_OWNER_ID
   const favoriteItems = hydrateFavorites(favoriteRecords)
-  const continueWatchingItems = hydrateContinueWatching(continueWatchingRecords)
+  const hydratedContinueWatchingEntries = useMemo(
+    () => hydrateContinueWatchingEntries(continueWatchingRecords),
+    [continueWatchingRecords]
+  )
+  const continueWatchingItems = useMemo(
+    () => collapseContinueWatchingItems(hydratedContinueWatchingEntries),
+    [hydratedContinueWatchingEntries]
+  )
+  const playbackProgressById = useMemo(() => {
+    const progressMap = new Map()
+
+    hydratedContinueWatchingEntries.forEach((entry) => {
+      if (!progressMap.has(entry.id)) {
+        progressMap.set(entry.id, entry.progress ?? 0)
+      }
+    })
+
+    return progressMap
+  }, [hydratedContinueWatchingEntries])
   const isSignedIn = Boolean(user)
 
   const applyLocalStore = (nextOwnerId, nextProfileFallback = {}) => {
@@ -526,17 +605,19 @@ export function AccountProvider({ children }) {
       return false
     }
 
+    const isEpisodeRecord = Boolean(episodeId || item.parentShowId)
+    const normalizedItemId = episodeId ?? item.id
     const nextRecord = {
-      episodeId,
-      itemId: item.id,
-      itemType: getItemType(item),
+      episodeId: isEpisodeRecord ? normalizedItemId : null,
+      itemId: normalizedItemId,
+      itemType: isEpisodeRecord ? 'episode' : getItemType(item),
       progress,
       updatedAt: new Date().toISOString(),
     }
 
     const nextRecords = [
       nextRecord,
-      ...continueWatchingRecords.filter((record) => record.itemId !== item.id),
+      ...continueWatchingRecords.filter((record) => record.itemId !== normalizedItemId),
     ].slice(0, 24)
 
     setContinueWatchingRecords(nextRecords)
@@ -802,6 +883,8 @@ export function AccountProvider({ children }) {
     closeAuthModal,
     continueWatchingItems,
     favoriteItems,
+    getPlaybackProgress: (itemId, fallback = 0) =>
+      playbackProgressById.has(itemId) ? playbackProgressById.get(itemId) : fallback,
     hasSupabaseConfig,
     isAuthModalOpen,
     isFavorite: (itemId) => favoriteRecords.some((record) => record.itemId === itemId),

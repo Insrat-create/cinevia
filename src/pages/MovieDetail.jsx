@@ -66,33 +66,6 @@ export default function MovieDetail() {
     movie.maturityRating,
     movie.duration,
   ].filter(Boolean)
-  const detailItems = [
-    {
-      label: 'Type',
-      value: 'Movie',
-    },
-    {
-      label: 'Genre',
-      value: movie.genre ?? movie.badge ?? 'Feature',
-    },
-    {
-      label: 'Released',
-      value: movie.released ?? movie.year ?? 'TBA',
-    },
-    {
-      label: 'Maturity',
-      value: movie.maturityRating ?? 'NR',
-    },
-    {
-      label: 'Runtime',
-      value: movie.duration ?? 'Unknown',
-    },
-    {
-      label: 'Rating',
-      value: ratingValue || 'N/A',
-      isRating: true,
-    },
-  ]
 
   return (
     <div className="app-shell">
@@ -152,28 +125,6 @@ export default function MovieDetail() {
                 <span className="watch-sidecard-badge">{movie.maturityRating ?? 'NR'}</span>
               </div>
             </aside>
-          </section>
-
-          <section className="watch-info-grid">
-            <article className="watch-panel">
-              <p className="watch-panel-kicker">Overview</p>
-              <h3>About this movie</h3>
-              <p className="watch-panel-text">{movie.description}</p>
-            </article>
-
-            <article className="watch-panel">
-              <p className="watch-panel-kicker">Details</p>
-              <h3>Quick facts</h3>
-
-              <dl className="watch-fact-grid">
-                {detailItems.map((detail) => (
-                  <div key={`${movie.id}-${detail.label}`} className="watch-fact-item">
-                    <dt>{detail.label}</dt>
-                    <dd>{detail.isRating && ratingValue ? <RatingInline source={movie} /> : detail.value}</dd>
-                  </div>
-                ))}
-              </dl>
-            </article>
           </section>
 
           {relatedMovies.length > 0 && (
