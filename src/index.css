@@ -757,6 +757,7 @@ img {
   background-image: var(--hero-backdrop-image);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -2181,9 +2182,10 @@ img {
   }
 
   .hero-feature {
-    background-image: var(--hero-mobile-image, var(--hero-backdrop-image));
-    background-position: center top;
-    background-size: cover;
+      background-image: var(--hero-mobile-image, var(--hero-backdrop-image));
+      background-position: center top;
+      background-size: contain;
+      background-repeat: no-repeat;
   }
 
   .hero-artwork-copy {
