@@ -2009,6 +2009,10 @@ img {
 }
 
 @media (max-width: 820px) {
+  :root {
+    --mobile-page-gutter: 6px;
+  }
+
   html,
   body,
   #root,
@@ -2110,8 +2114,8 @@ img {
   }
 
   .topbar {
-    left: 10px;
-    right: 10px;
+    left: var(--mobile-page-gutter);
+    right: var(--mobile-page-gutter);
     top: 12px;
     justify-content: flex-end;
     gap: 10px;
@@ -2170,7 +2174,7 @@ img {
   }
 
   .hero-inner {
-    padding: 140px 10px 176px;
+    padding: 140px var(--mobile-page-gutter) 176px;
   }
 
   .hero-feature {
@@ -2180,13 +2184,15 @@ img {
   }
 
   .hero-artwork-copy {
-    max-width: min(100%, 420px);
+    width: 100%;
+    max-width: none;
     padding-top: var(--hero-copy-padding-top-mobile, 284px);
     padding-bottom: var(--hero-copy-padding-bottom-mobile, 68px);
     transform: translateY(var(--hero-copy-shift-mobile, 24px));
   }
 
   .hero-copy-card {
+    max-width: none;
     width: 100%;
     padding: 18px 18px 20px;
     border-radius: 18px;
@@ -2248,12 +2254,12 @@ img {
   }
 
   .thumb-section {
-    padding: 0 12px 32px;
+    padding: 0 var(--mobile-page-gutter) 32px;
     margin-top: -48px;
   }
 
   .show-guide-shell {
-    padding: 14px;
+    padding: 12px;
     margin-bottom: 24px;
   }
 
@@ -2268,7 +2274,7 @@ img {
 
   .page-content-stack {
     margin-top: 6px;
-    padding: 0 10px calc(28px + 92px + env(safe-area-inset-bottom));
+    padding: 0 var(--mobile-page-gutter) calc(28px + 92px + env(safe-area-inset-bottom));
   }
 
   .hero-page-top .page-content-stack:not(.search-results-stack) {
@@ -2347,8 +2353,8 @@ img {
 
   .section-row {
     --rail-card-width: clamp(220px, 68vw, 272px);
-    --rail-mobile-edge: max(10px, calc((100vw - var(--rail-card-width)) / 2));
-    --rail-inline-gutter: 10px;
+    --rail-mobile-edge: max(var(--mobile-page-gutter), calc((100vw - var(--rail-card-width)) / 2));
+    --rail-inline-gutter: var(--mobile-page-gutter);
     --rail-control-space: 16px;
     margin-bottom: 22px;
   }
@@ -2396,7 +2402,7 @@ img {
   }
 
   .watch-page-inner {
-    padding: 20px 12px 40px;
+    padding: 20px var(--mobile-page-gutter) 40px;
   }
 
   .watch-page.tv-show-detail-page {
@@ -2426,7 +2432,7 @@ img {
   }
 
   .watch-page-inner.show-detail-inner {
-    padding: 128px 12px calc(32px + 92px + env(safe-area-inset-bottom));
+    padding: 128px var(--mobile-page-gutter) calc(32px + 92px + env(safe-area-inset-bottom));
   }
 
   .watch-player-only-page .back-link {
