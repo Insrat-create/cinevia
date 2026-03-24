@@ -335,7 +335,7 @@ const movies = [
       "Romance"
     ],
     "bunnyVideoId": "04018f41-2e4d-4455-9a92-c34972b41860",
-    "description": "In a nursing home, resident Duke reads a romance story to an old woman who has senile dementia with memory loss. In the late 1930s, wealthy seventeen year-old Allie Hamilton is spending summer vacation in Seabrook. Local worker Noah Calhoun meets Allie at a carnival and they soon fall in love with each other. One day, Noah brings Allie to an ancient house that he dreams of buying and restoring and they attempt to make love but get interrupted by their friend. Allie's parents do not approve of their romance since Noah belongs to another social class, and they move to New York with her. Noah writes 365 letters (A Year) to Allie, but her mother Anne Hamilton does not deliver them to her daughter. Three years later, the United States joins the World War II and Noah and his best friend Fin enlist in the army, and Allie works as an army nurse. She meets injured soldier Lon Hammond in the hospital. After the war, they meet each other again going on dates and then, Lon, who is wealthy and handsome, proposes. Meanwhile Noah buys and restores the old house and many people want to buy it. When Allie accidentally sees the photo of Noah and his house in a newspaper, she feels divided between her first love and her commitment with Lon. Meanwhile Duke stops reading to the old lady since his children are visiting him in the nursing home.",
+    "description": "An elderly man reads to a woman with dementia the story of two young lovers whose romance is threatened by the difference in their respective social classes.",
     "poster": "/The Notebook Poster.png",
     "backdrop": "/The Notebook Backdrop.png"
   },
