@@ -1,4 +1,4 @@
-const HERO_EXCLUDED_IDS = new Set(['the-dark-knight'])
+const HERO_EXCLUDED_IDS = new Set(['the-dark-knight ', 'deadpool', 'step-brothers'])
 
 function getLocalDateKey() {
   const now = new Date()

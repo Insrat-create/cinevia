@@ -5,6 +5,7 @@ import RatingInline from '../components/RatingInline'
 import movies from '../data/movies'
 import tvShows from '../data/tvShows'
 import { useAccount } from '../context/AccountContext'
+import { fetchBunnyThumbnailUrl } from '../utils/bunny'
 import { getBackgroundImageStyle } from '../utils/media'
 import { getRatingValue } from '../utils/rating'
 
@@ -98,6 +99,16 @@ function findNextEpisodeMatch(match) {
   return null
 }
 
+function buildEpisodePlayerSubtitle(seasonLabel, episodeTitle, fallbackTitle) {
+  const seasonMatch = seasonLabel?.match(/(\d+)/)
+  const episodeMatch = episodeTitle?.match(/Episode\s+(\d+):?\s*(.*)/i)
+  const seasonPart = seasonMatch ? `S${seasonMatch[1]}` : seasonLabel
+  const episodePart = episodeMatch ? `E${episodeMatch[1]}` : null
+  const titlePart = (episodeMatch?.[2] || fallbackTitle || episodeTitle || '').trim()
+
+  return [seasonPart, episodePart, titlePart].filter(Boolean).join(' • ')
+}
+
 export default function Watch() {
   const { id } = useParams()
   const location = useLocation()
@@ -113,12 +124,40 @@ export default function Watch() {
   const movie = buildEpisodeWatchItem(episodeMatch) ?? allContent.find((item) => item.id === id)
   const nextEpisode = buildEpisodeWatchItem(nextEpisodeMatch)
   const parentShow = movie?.parentShow ?? null
+  const pickerSeasons = parentShow?.seasonsData ?? []
+  const playerShellRef = useRef(null)
+  const pickerTabsRef = useRef(null)
+  const seasonTabsDragRef = useRef({
+    isDragging: false,
+    startX: 0,
+    startScrollLeft: 0,
+    shouldCancelClick: false,
+  })
   const favoriteTarget = parentShow ?? movie
   const playbackProgress = movie ? getPlaybackProgress(movie.id, movie.progress ?? 0) : 0
   const lastSavedProgressRef = useRef(playbackProgress)
   const lastSavedAtRef = useRef(0)
-  const [showNextEpisodePrompt, setShowNextEpisodePrompt] = useState(false)
   const nextEpisodePromptHandledRef = useRef(false)
+  const episodePickerRef = useRef(null)
+  const [showNextEpisodePrompt, setShowNextEpisodePrompt] = useState(false)
+  const [isEpisodePickerOpen, setIsEpisodePickerOpen] = useState(false)
+  const [activePickerSeasonId, setActivePickerSeasonId] = useState(episodeMatch?.season?.id ?? '')
+  const [episodeThumbnailUrls, setEpisodeThumbnailUrls] = useState({})
+  const [isPlayerFullscreen, setIsPlayerFullscreen] = useState(false)
+  const [isPlayerUiVisible, setIsPlayerUiVisible] = useState(true)
+  const [isSeasonTabsDragging, setIsSeasonTabsDragging] = useState(false)
+  const activePickerSeason =
+    pickerSeasons.find((season) => season.id === activePickerSeasonId) ??
+    pickerSeasons.find((season) => season.id === episodeMatch?.season?.id) ??
+    pickerSeasons[0]
+  const detailPath = parentShow ? `/tv-shows/${parentShow.id}` : `/movies/${movie?.id ?? id}`
+  const episodePlayerSubtitle = episodeMatch
+    ? buildEpisodePlayerSubtitle(
+        episodeMatch.season?.label,
+        movie?.episodeTitle || movie?.title,
+        movie?.title
+      )
+    : ''
 
   const goBackTo = (fallbackPath) => {
     const sourcePath =
@@ -145,7 +184,151 @@ export default function Watch() {
   useEffect(() => {
     nextEpisodePromptHandledRef.current = false
     setShowNextEpisodePrompt(false)
-  }, [id])
+    setIsEpisodePickerOpen(false)
+    setActivePickerSeasonId(episodeMatch?.season?.id ?? pickerSeasons[0]?.id ?? '')
+  }, [episodeMatch?.season?.id, id, pickerSeasons])
+
+  useEffect(() => {
+    if (!episodeMatch || !isEpisodePickerOpen || !activePickerSeason) {
+      return undefined
+    }
+
+    let isCancelled = false
+
+    const hydrateEpisodeThumbnails = async () => {
+      const episodes = (activePickerSeason.episodes ?? []).filter(
+        (episode) => episode.bunnyVideoId && !episodeThumbnailUrls[episode.id]
+      )
+
+      if (episodes.length === 0) {
+        return
+      }
+
+      const nextEntries = {}
+
+      for (const episode of episodes) {
+        const thumbnailUrl = await fetchBunnyThumbnailUrl(episode.bunnyVideoId)
+
+        if (isCancelled) {
+          return
+        }
+
+        if (thumbnailUrl) {
+          nextEntries[episode.id] = thumbnailUrl
+        }
+      }
+
+      if (Object.keys(nextEntries).length === 0 || isCancelled) {
+        return
+      }
+
+      setEpisodeThumbnailUrls((current) => ({
+        ...current,
+        ...nextEntries,
+      }))
+    }
+
+    void hydrateEpisodeThumbnails()
+
+    return () => {
+      isCancelled = true
+    }
+  }, [activePickerSeason, episodeMatch, episodeThumbnailUrls, isEpisodePickerOpen])
+
+  useEffect(() => {
+    if (!isEpisodePickerOpen) {
+      return undefined
+    }
+
+    const handleOutsideClick = (event) => {
+      const target = event.target
+
+      if (episodePickerRef.current?.contains(target)) {
+        return
+      }
+
+      setIsEpisodePickerOpen(false)
+    }
+
+    document.addEventListener('click', handleOutsideClick)
+
+    return () => {
+      document.removeEventListener('click', handleOutsideClick)
+    }
+  }, [isEpisodePickerOpen])
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsPlayerFullscreen(document.fullscreenElement === playerShellRef.current)
+    }
+
+    handleFullscreenChange()
+    document.addEventListener('fullscreenchange', handleFullscreenChange)
+
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange)
+    }
+  }, [])
+
+  useEffect(() => {
+    const handleMouseMove = (event) => {
+      const rail = pickerTabsRef.current
+      const dragState = seasonTabsDragRef.current
+
+      if (!rail || !dragState.isDragging) {
+        return
+      }
+
+      const deltaX = event.clientX - dragState.startX
+
+      if (Math.abs(deltaX) > 6) {
+        dragState.shouldCancelClick = true
+      }
+
+      rail.scrollLeft = dragState.startScrollLeft - deltaX
+
+      if (dragState.shouldCancelClick) {
+        event.preventDefault()
+      }
+    }
+
+    const handleMouseUp = () => {
+      if (!seasonTabsDragRef.current.isDragging) {
+        return
+      }
+
+      seasonTabsDragRef.current = {
+        ...seasonTabsDragRef.current,
+        isDragging: false,
+      }
+      setIsSeasonTabsDragging(false)
+    }
+
+    window.addEventListener('mousemove', handleMouseMove)
+    window.addEventListener('mouseup', handleMouseUp)
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove)
+      window.removeEventListener('mouseup', handleMouseUp)
+    }
+  }, [])
+
+  const togglePlayerFullscreen = async () => {
+    if (!playerShellRef.current?.requestFullscreen) {
+      return
+    }
+
+    try {
+      if (document.fullscreenElement === playerShellRef.current) {
+        await document.exitFullscreen?.()
+        return
+      }
+
+      await playerShellRef.current.requestFullscreen()
+    } catch {
+      // Ignore fullscreen API failures.
+    }
+  }
 
   const handleProgressChange = (nextProgress) => {
     if (!movie) {
@@ -166,6 +349,36 @@ export default function Watch() {
     lastSavedProgressRef.current = normalizedProgress
     lastSavedAtRef.current = now
     void saveContinueWatching(parentShow ?? movie, normalizedProgress, parentShow ? movie.id : null)
+  }
+
+  const handleSeasonTabsMouseDown = (event) => {
+    if (event.button !== 0) {
+      return
+    }
+
+    const rail = pickerTabsRef.current
+
+    if (!rail) {
+      return
+    }
+
+    seasonTabsDragRef.current = {
+      isDragging: true,
+      startX: event.clientX,
+      startScrollLeft: rail.scrollLeft,
+      shouldCancelClick: false,
+    }
+    setIsSeasonTabsDragging(true)
+  }
+
+  const handleSeasonTabsClickCapture = (event) => {
+    if (!seasonTabsDragRef.current.shouldCancelClick) {
+      return
+    }
+
+    seasonTabsDragRef.current.shouldCancelClick = false
+    event.preventDefault()
+    event.stopPropagation()
   }
 
   if (!movie) {
@@ -192,11 +405,11 @@ export default function Watch() {
   if (episodeMatch) {
     return (
       <div className="app-shell">
-        <main className="watch-page watch-player-only-page">
+        <main ref={playerShellRef} className="watch-page watch-player-only-page">
           <button
             type="button"
-            className="back-link"
-            onClick={() => goBackTo(`/tv-shows/${parentShow?.id ?? movie.id}`)}
+            className={`back-link ${isPlayerUiVisible ? 'is-visible' : 'is-hidden'}`}
+            onClick={() => goBackTo(detailPath)}
           >
             Back
           </button>
@@ -204,16 +417,113 @@ export default function Watch() {
           <section className="watch-player-only-frame">
             <BunnyPlayer
               videoId={movie.bunnyVideoId}
-              title={movie.episodeTitle || movie.title}
+              hasBlockingPanelOpen={isEpisodePickerOpen}
+              title={parentShow?.title || movie.title}
+              subtitle={episodePlayerSubtitle}
+              onDismissBlockingPanels={() => setIsEpisodePickerOpen(false)}
               onEnded={openNextEpisodePrompt}
+              onEpisodesClick={() => setIsEpisodePickerOpen((current) => !current)}
               onNearEnd={openNextEpisodePrompt}
               onProgressChange={handleProgressChange}
+              onControlsVisibilityChange={setIsPlayerUiVisible}
+              onToggleFullscreen={togglePlayerFullscreen}
+              isFullscreen={isPlayerFullscreen}
+              showEpisodesButton
             />
           </section>
 
+          {isEpisodePickerOpen && activePickerSeason && (
+            <aside
+              ref={episodePickerRef}
+              id="watch-episode-picker"
+              className="watch-episode-picker"
+              role="dialog"
+              aria-label="Episode picker"
+            >
+              <div className="watch-episode-picker-header">
+                <div>
+                  <p className="watch-next-episode-kicker">Episode Picker</p>
+                  <h2>{parentShow?.title}</h2>
+                </div>
+
+                <button
+                  type="button"
+                  className="watch-episode-picker-close"
+                  onClick={() => setIsEpisodePickerOpen(false)}
+                  aria-label="Close episode picker"
+                >
+                  Close
+                </button>
+              </div>
+
+              <div
+                ref={pickerTabsRef}
+                className={`watch-episode-picker-tabs ${isSeasonTabsDragging ? 'is-dragging' : ''}`}
+                role="tablist"
+                aria-label="Seasons"
+                onMouseDown={handleSeasonTabsMouseDown}
+                onClickCapture={handleSeasonTabsClickCapture}
+              >
+                {pickerSeasons.map((season) => (
+                  <button
+                    key={season.id}
+                    type="button"
+                    className={`watch-episode-picker-tab ${season.id === activePickerSeason?.id ? 'active' : ''}`}
+                    onClick={() => setActivePickerSeasonId(season.id)}
+                  >
+                    {season.label}
+                  </button>
+                ))}
+              </div>
+
+              <div className="watch-episode-picker-list">
+                {(activePickerSeason.episodes ?? []).map((episode) => {
+                  const isActiveEpisode = episode.id === movie.id
+
+                  return (
+                    <Link
+                      key={episode.id}
+                      to={`/watch/${episode.id}`}
+                      replace
+                      state={{ from: detailPath }}
+                      className={`watch-episode-picker-item ${isActiveEpisode ? 'active' : ''}`}
+                    >
+                      <div className="watch-episode-picker-item-thumb">
+                        <img
+                          src={
+                            episodeThumbnailUrls[episode.id] ||
+                            episode.poster ||
+                            episode.backdrop ||
+                            parentShow?.poster
+                          }
+                          alt={episode.episodeTitle || episode.title}
+                        />
+                      </div>
+
+                      <div className="watch-episode-picker-item-main">
+                        <div className="watch-episode-picker-item-copy">
+                          <span className="watch-episode-picker-item-title">
+                            {episode.episodeTitle || episode.title}
+                          </span>
+                          <span className="watch-episode-picker-item-meta">{activePickerSeason.label}</span>
+                        </div>
+
+                        {isActiveEpisode && (
+                          <span className="watch-episode-picker-item-current">Now Playing</span>
+                        )}
+                      </div>
+                    </Link>
+                  )
+                })}
+              </div>
+            </aside>
+          )}
+
           {showNextEpisodePrompt && nextEpisode && (
             <aside
-              className="watch-next-episode-popup"
+              className={`watch-next-episode-popup ${
+                isPlayerUiVisible ? 'is-with-controls' : 'is-without-controls'
+              }`}
               role="dialog"
               aria-live="polite"
               aria-label="Next episode ready"
@@ -230,9 +540,7 @@ export default function Watch() {
 
                 <div className="watch-next-episode-copy">
                   <h2>{nextEpisode.episodeTitle || nextEpisode.title}</h2>
-                  <p>
-                    {[parentShow?.title, nextEpisode.seasonLabel].filter(Boolean).join(' • ')}
-                  </p>
+                  <p>{[parentShow?.title, nextEpisode.seasonLabel].filter(Boolean).join(' / ')}</p>
                 </div>
               </div>
 
@@ -248,7 +556,7 @@ export default function Watch() {
                 <Link
                   to={`/watch/${nextEpisode.id}`}
                   replace
-                  state={{ from: `/tv-shows/${parentShow?.id ?? movie.id}` }}
+                  state={{ from: detailPath }}
                   className="watch-next-episode-play"
                 >
                   Play Next
@@ -264,10 +572,10 @@ export default function Watch() {
   if (!movie.seasons) {
     return (
       <div className="app-shell">
-        <main className="watch-page watch-player-only-page">
+        <main ref={playerShellRef} className="watch-page watch-player-only-page">
           <button
             type="button"
-            className="back-link"
+            className={`back-link ${isPlayerUiVisible ? 'is-visible' : 'is-hidden'}`}
             onClick={() => goBackTo(`/movies/${movie.id}`)}
           >
             Back
@@ -277,7 +585,11 @@ export default function Watch() {
             <BunnyPlayer
               videoId={movie.bunnyVideoId}
               title={movie.title}
+              subtitle=""
               onProgressChange={handleProgressChange}
+              onControlsVisibilityChange={setIsPlayerUiVisible}
+              onToggleFullscreen={togglePlayerFullscreen}
+              isFullscreen={isPlayerFullscreen}
             />
           </section>
         </main>
