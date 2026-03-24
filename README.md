@@ -18,4 +18,4 @@ Cinevia is a React + Vite streaming-style web app with:
 
 ## Production setup
 
-Use [DEPLOY.md](/d:/Cinevia/cinevia/DEPLOY.md) for the full backend and hosting checklist.
+Use [DEPLOY.md](/d:/Cinevia/cinevia/DEPLOY.md) for the full Supabase + Cloudflare Pages deployment checklist.
