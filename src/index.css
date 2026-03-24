@@ -3599,22 +3599,21 @@ img {
   }
 
   .watch-episode-picker-item {
-    min-height: auto;
+    min-height: 98px;
     padding: 12px;
-    grid-template-columns: 86px minmax(0, 1fr);
-    align-items: start;
+    grid-template-columns: 92px minmax(0, 1fr);
+    align-items: center;
     gap: 10px 12px;
     border-radius: 18px;
   }
 
   .watch-episode-picker-item-thumb {
-    width: 86px;
+    width: 92px;
     border-radius: 12px;
   }
 
   .watch-episode-picker-item-main {
     gap: 5px;
-    padding-top: 2px;
   }
 
   .watch-episode-picker-item-copy {
