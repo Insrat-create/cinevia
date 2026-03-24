@@ -132,6 +132,7 @@ export default function BunnyPlayer({
   onProgressChange,
   onControlsVisibilityChange,
   onToggleFullscreen,
+  onVideoRefReady,
   showEpisodesButton = false,
   subtitle,
   title,
@@ -218,6 +219,14 @@ export default function BunnyPlayer({
   useEffect(() => {
     onControlsVisibilityChange?.(areControlsVisible)
   }, [areControlsVisible, onControlsVisibilityChange])
+
+  useEffect(() => {
+    onVideoRefReady?.(videoRef.current)
+
+    return () => {
+      onVideoRefReady?.(null)
+    }
+  }, [onVideoRefReady])
 
   useEffect(() => {
     let isCancelled = false

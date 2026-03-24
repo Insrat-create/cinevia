@@ -126,6 +126,7 @@ export default function Watch() {
   const parentShow = movie?.parentShow ?? null
   const pickerSeasons = parentShow?.seasonsData ?? []
   const playerShellRef = useRef(null)
+  const playerVideoRef = useRef(null)
   const pickerTabsRef = useRef(null)
   const seasonTabsDragRef = useRef({
     isDragging: false,
@@ -259,14 +260,60 @@ export default function Watch() {
 
   useEffect(() => {
     const handleFullscreenChange = () => {
-      setIsPlayerFullscreen(document.fullscreenElement === playerShellRef.current)
+      const webkitFullscreenElement = document.webkitFullscreenElement
+      const activeFullscreenElement = document.fullscreenElement || webkitFullscreenElement
+      const isVideoFullscreen =
+        playerVideoRef.current &&
+        (activeFullscreenElement === playerVideoRef.current ||
+          document.webkitFullscreenElement === playerVideoRef.current)
+
+      setIsPlayerFullscreen(
+        activeFullscreenElement === playerShellRef.current || Boolean(isVideoFullscreen)
+      )
     }
 
     handleFullscreenChange()
     document.addEventListener('fullscreenchange', handleFullscreenChange)
+    document.addEventListener('webkitfullscreenchange', handleFullscreenChange)
 
     return () => {
       document.removeEventListener('fullscreenchange', handleFullscreenChange)
+      document.removeEventListener('webkitfullscreenchange', handleFullscreenChange)
+    }
+  }, [])
+
+  const setPlayerVideoNode = (node) => {
+    if (playerVideoRef.current === node) {
+      return
+    }
+
+    if (playerVideoRef.current) {
+      playerVideoRef.current.removeEventListener('webkitbeginfullscreen', handleVideoBeginFullscreen)
+      playerVideoRef.current.removeEventListener('webkitendfullscreen', handleVideoEndFullscreen)
+    }
+
+    playerVideoRef.current = node
+
+    if (playerVideoRef.current) {
+      playerVideoRef.current.addEventListener('webkitbeginfullscreen', handleVideoBeginFullscreen)
+      playerVideoRef.current.addEventListener('webkitendfullscreen', handleVideoEndFullscreen)
+    }
+  }
+
+  function handleVideoBeginFullscreen() {
+    setIsPlayerFullscreen(true)
+  }
+
+  function handleVideoEndFullscreen() {
+    setIsPlayerFullscreen(false)
+  }
+
+  useEffect(() => {
+    return () => {
+      if (playerVideoRef.current) {
+        playerVideoRef.current.removeEventListener('webkitbeginfullscreen', handleVideoBeginFullscreen)
+        playerVideoRef.current.removeEventListener('webkitendfullscreen', handleVideoEndFullscreen)
+      }
     }
   }, [])
 
@@ -314,17 +361,35 @@ export default function Watch() {
   }, [])
 
   const togglePlayerFullscreen = async () => {
-    if (!playerShellRef.current?.requestFullscreen) {
-      return
-    }
-
     try {
-      if (document.fullscreenElement === playerShellRef.current) {
-        await document.exitFullscreen?.()
+      const fullscreenTarget = document.fullscreenElement || document.webkitFullscreenElement
+
+      if (fullscreenTarget) {
+        if (document.exitFullscreen) {
+          await document.exitFullscreen()
+          return
+        }
+
+        if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen()
+          return
+        }
+      }
+
+      if (playerShellRef.current?.requestFullscreen) {
+        await playerShellRef.current.requestFullscreen()
         return
       }
 
-      await playerShellRef.current.requestFullscreen()
+      if (playerShellRef.current?.webkitRequestFullscreen) {
+        playerShellRef.current.webkitRequestFullscreen()
+        return
+      }
+
+      if (playerVideoRef.current?.webkitEnterFullscreen) {
+        setIsPlayerFullscreen(true)
+        playerVideoRef.current.webkitEnterFullscreen()
+      }
     } catch {
       // Ignore fullscreen API failures.
     }
@@ -427,6 +492,7 @@ export default function Watch() {
               onProgressChange={handleProgressChange}
               onControlsVisibilityChange={setIsPlayerUiVisible}
               onToggleFullscreen={togglePlayerFullscreen}
+              onVideoRefReady={setPlayerVideoNode}
               isFullscreen={isPlayerFullscreen}
               showEpisodesButton
             />
@@ -589,6 +655,7 @@ export default function Watch() {
               onProgressChange={handleProgressChange}
               onControlsVisibilityChange={setIsPlayerUiVisible}
               onToggleFullscreen={togglePlayerFullscreen}
+              onVideoRefReady={setPlayerVideoNode}
               isFullscreen={isPlayerFullscreen}
             />
           </section>
