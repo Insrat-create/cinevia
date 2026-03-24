@@ -109,6 +109,29 @@ function buildEpisodePlayerSubtitle(seasonLabel, episodeTitle, fallbackTitle) {
   return [seasonPart, episodePart, titlePart].filter(Boolean).join(' • ')
 }
 
+function getPlayerViewportStyle() {
+  if (typeof window === 'undefined') {
+    return {}
+  }
+
+  const visualViewport = window.visualViewport
+  const visibleTop = Math.max(0, Math.round(visualViewport?.offsetTop ?? 0))
+  const visibleLeft = Math.max(0, Math.round(visualViewport?.offsetLeft ?? 0))
+  const visibleWidth = Math.max(0, Math.round(visualViewport?.width ?? window.innerWidth))
+  const visibleHeight = Math.max(0, Math.round(visualViewport?.height ?? window.innerHeight))
+  const visibleRight = Math.max(0, Math.round(window.innerWidth - (visibleLeft + visibleWidth)))
+  const visibleBottom = Math.max(0, Math.round(window.innerHeight - (visibleTop + visibleHeight)))
+
+  return {
+    '--player-visible-bottom': `${visibleBottom}px`,
+    '--player-visible-height': `${visibleHeight}px`,
+    '--player-visible-left': `${visibleLeft}px`,
+    '--player-visible-right': `${visibleRight}px`,
+    '--player-visible-top': `${visibleTop}px`,
+    '--player-visible-width': `${visibleWidth}px`,
+  }
+}
+
 export default function Watch() {
   const { id } = useParams()
   const location = useLocation()
@@ -147,6 +170,7 @@ export default function Watch() {
   const [isPlayerFullscreen, setIsPlayerFullscreen] = useState(false)
   const [isPlayerUiVisible, setIsPlayerUiVisible] = useState(true)
   const [isSeasonTabsDragging, setIsSeasonTabsDragging] = useState(false)
+  const [playerViewportStyle, setPlayerViewportStyle] = useState(() => getPlayerViewportStyle())
   const activePickerSeason =
     pickerSeasons.find((season) => season.id === activePickerSeasonId) ??
     pickerSeasons.find((season) => season.id === episodeMatch?.season?.id) ??
@@ -282,6 +306,59 @@ export default function Watch() {
     return () => {
       document.removeEventListener('fullscreenchange', handleFullscreenChange)
       document.removeEventListener('webkitfullscreenchange', handleFullscreenChange)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return undefined
+    }
+
+    let animationFrameId = null
+
+    const syncPlayerViewport = () => {
+      animationFrameId = null
+      const nextViewportStyle = getPlayerViewportStyle()
+
+      setPlayerViewportStyle((currentViewportStyle) => {
+        const nextEntries = Object.entries(nextViewportStyle)
+
+        if (
+          nextEntries.length === Object.keys(currentViewportStyle).length &&
+          nextEntries.every(([key, value]) => currentViewportStyle[key] === value)
+        ) {
+          return currentViewportStyle
+        }
+
+        return nextViewportStyle
+      })
+    }
+
+    const queueViewportSync = () => {
+      if (animationFrameId !== null) {
+        return
+      }
+
+      animationFrameId = window.requestAnimationFrame(syncPlayerViewport)
+    }
+
+    const visualViewport = window.visualViewport
+
+    queueViewportSync()
+    window.addEventListener('resize', queueViewportSync)
+    window.addEventListener('orientationchange', queueViewportSync)
+    visualViewport?.addEventListener('resize', queueViewportSync)
+    visualViewport?.addEventListener('scroll', queueViewportSync)
+
+    return () => {
+      if (animationFrameId !== null) {
+        window.cancelAnimationFrame(animationFrameId)
+      }
+
+      window.removeEventListener('resize', queueViewportSync)
+      window.removeEventListener('orientationchange', queueViewportSync)
+      visualViewport?.removeEventListener('resize', queueViewportSync)
+      visualViewport?.removeEventListener('scroll', queueViewportSync)
     }
   }, [])
 
@@ -473,7 +550,11 @@ export default function Watch() {
   if (episodeMatch) {
     return (
       <div className="app-shell">
-        <main ref={playerShellRef} className="watch-page watch-player-only-page">
+        <main
+          ref={playerShellRef}
+          className="watch-page watch-player-only-page"
+          style={playerViewportStyle}
+        >
           <button
             type="button"
             className={`back-link ${isPlayerUiVisible ? 'is-visible' : 'is-hidden'}`}
@@ -641,7 +722,11 @@ export default function Watch() {
   if (!movie.seasons) {
     return (
       <div className="app-shell">
-        <main ref={playerShellRef} className="watch-page watch-player-only-page">
+        <main
+          ref={playerShellRef}
+          className="watch-page watch-player-only-page"
+          style={playerViewportStyle}
+        >
           <button
             type="button"
             className={`back-link ${isPlayerUiVisible ? 'is-visible' : 'is-hidden'}`}
