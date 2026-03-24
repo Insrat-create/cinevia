@@ -3599,8 +3599,8 @@ img {
   }
 
   .watch-episode-picker-item {
-    min-height: 98px;
-    padding: 12px;
+    min-height: 90px;
+    padding: 10px 12px;
     grid-template-columns: 92px minmax(0, 1fr);
     align-items: center;
     gap: 10px 12px;
