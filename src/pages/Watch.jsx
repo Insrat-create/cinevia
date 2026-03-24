@@ -588,11 +588,11 @@ export default function Watch() {
               id="watch-episode-picker"
               className="watch-episode-picker"
               role="dialog"
-              aria-label="Episode picker"
+              aria-label="Episodes"
             >
               <div className="watch-episode-picker-header">
                 <div>
-                  <p className="watch-next-episode-kicker">Episode Picker</p>
+                  <p className="watch-next-episode-kicker">Episodes</p>
                   <h2>{parentShow?.title}</h2>
                 </div>
 
@@ -600,7 +600,7 @@ export default function Watch() {
                   type="button"
                   className="watch-episode-picker-close"
                   onClick={() => setIsEpisodePickerOpen(false)}
-                  aria-label="Close episode picker"
+                  aria-label="Close episodes"
                 >
                   Close
                 </button>
@@ -652,15 +652,15 @@ export default function Watch() {
 
                       <div className="watch-episode-picker-item-main">
                         <div className="watch-episode-picker-item-copy">
+                          {isActiveEpisode && (
+                            <span className="watch-episode-picker-item-current">Now Playing</span>
+                          )}
+
                           <span className="watch-episode-picker-item-title">
                             {episode.episodeTitle || episode.title}
                           </span>
                           <span className="watch-episode-picker-item-meta">{activePickerSeason.label}</span>
                         </div>
-
-                        {isActiveEpisode && (
-                          <span className="watch-episode-picker-item-current">Now Playing</span>
-                        )}
                       </div>
                     </Link>
                   )

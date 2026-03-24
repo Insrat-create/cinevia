@@ -2849,7 +2849,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 8px;
+  gap: 6px;
   min-width: 0;
 }
 
@@ -2870,10 +2870,9 @@ img {
 
 .watch-episode-picker-item-copy {
   display: grid;
-  gap: 4px;
+  gap: 6px;
   min-width: 0;
   width: 100%;
-  padding-right: 94px;
 }
 
 .watch-episode-picker-item-title {
@@ -2896,9 +2895,9 @@ img {
 }
 
 .watch-episode-picker-item-current {
-  position: absolute;
-  top: 14px;
-  right: 14px;
+  position: static;
+  align-self: flex-start;
+  width: fit-content;
   padding: 5px 9px;
   border-radius: 999px;
   background: rgba(196, 181, 253, 0.14);
@@ -3565,12 +3564,25 @@ img {
     left: auto;
     width: min(276px, calc(var(--player-visible-width) - 24px));
     max-height: min(54dvh, calc(var(--player-visible-height) - 84px));
-    padding: 12px;
+    gap: 10px;
+    padding: 10px;
     border-radius: 20px;
   }
 
+  .watch-episode-picker-header {
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+
   .watch-episode-picker-header h2 {
-    font-size: 1.28rem;
+    font-size: 1.2rem;
+  }
+
+  .watch-episode-picker-close {
+    min-height: 34px;
+    padding: 0 12px;
+    font-size: 0.82rem;
   }
 
   .watch-episode-picker-tabs {
@@ -3587,23 +3599,42 @@ img {
   }
 
   .watch-episode-picker-item {
-    min-height: 76px;
-    padding: 13px 14px;
-    grid-template-columns: 92px minmax(0, 1fr);
-    gap: 12px 14px;
+    min-height: auto;
+    padding: 12px;
+    grid-template-columns: 86px minmax(0, 1fr);
+    align-items: start;
+    gap: 10px 12px;
+    border-radius: 18px;
   }
 
   .watch-episode-picker-item-thumb {
-    width: 92px;
+    width: 86px;
+    border-radius: 12px;
+  }
+
+  .watch-episode-picker-item-main {
+    gap: 5px;
+    padding-top: 2px;
   }
 
   .watch-episode-picker-item-copy {
-    padding-right: 82px;
+    gap: 5px;
+  }
+
+  .watch-episode-picker-item-title {
+    font-size: 0.92rem;
+    line-height: 1.2;
+  }
+
+  .watch-episode-picker-item-meta {
+    font-size: 0.72rem;
+    letter-spacing: 0.07em;
   }
 
   .watch-episode-picker-item-current {
-    top: 12px;
-    right: 12px;
+    padding: 4px 8px;
+    font-size: 0.6rem;
+    letter-spacing: 0.09em;
   }
 
   .watch-next-episode-popup {
