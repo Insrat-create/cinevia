@@ -244,7 +244,10 @@ export default function Watch() {
     const handleOutsideClick = (event) => {
       const target = event.target
 
-      if (episodePickerRef.current?.contains(target)) {
+      if (
+        episodePickerRef.current?.contains(target) ||
+        target?.closest?.('[data-player-episodes-toggle="true"]')
+      ) {
         return
       }
 

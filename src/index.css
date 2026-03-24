@@ -3548,12 +3548,12 @@ img {
 
   .watch-episode-picker {
     right: 12px;
-    bottom: calc(208px + env(safe-area-inset-bottom));
+    bottom: calc(236px + env(safe-area-inset-bottom));
     left: auto;
-    width: min(300px, calc(100vw - 24px));
-    max-height: min(58dvh, 500px);
-    padding: 14px;
-    border-radius: 22px;
+    width: min(276px, calc(100vw - 24px));
+    max-height: min(54dvh, 460px);
+    padding: 12px;
+    border-radius: 20px;
   }
 
   .watch-episode-picker-header h2 {
@@ -3596,13 +3596,13 @@ img {
   .watch-next-episode-popup {
     right: 16px;
     bottom: calc(16px + env(safe-area-inset-bottom));
-    width: min(288px, calc(100vw - 32px));
-    padding: 13px;
+    width: min(272px, calc(100vw - 32px));
+    padding: 12px;
     border-radius: 18px;
   }
 
   .watch-next-episode-popup.is-with-controls {
-    bottom: calc(208px + env(safe-area-inset-bottom));
+    bottom: calc(236px + env(safe-area-inset-bottom));
   }
 
   .watch-next-episode-popup.is-without-controls {
@@ -3631,10 +3631,10 @@ img {
     width: auto;
     transform: none;
     right: 12px;
-    bottom: calc(26px + env(safe-area-inset-bottom));
+    bottom: calc(48px + env(safe-area-inset-bottom));
     left: 12px;
     gap: 10px;
-    padding: 12px;
+    padding: 11px;
     border-radius: 18px;
   }
 
@@ -3667,10 +3667,10 @@ img {
 
   .custom-player-settings-panel {
     right: 12px;
-    bottom: calc(208px + env(safe-area-inset-bottom));
-    width: min(264px, calc(100vw - 24px));
-    padding: 13px;
-    border-radius: 20px;
+    bottom: calc(236px + env(safe-area-inset-bottom));
+    width: min(244px, calc(100vw - 24px));
+    padding: 12px;
+    border-radius: 18px;
   }
 
   .custom-player-scrubber-row {

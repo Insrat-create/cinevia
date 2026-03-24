@@ -897,6 +897,7 @@ export default function BunnyPlayer({
               <button
                 type="button"
                 className="custom-player-btn custom-player-icon-btn"
+                data-player-episodes-toggle="true"
                 onClick={() => {
                   if (isSettingsOpen || hasBlockingPanelOpen) {
                     if (isSettingsOpen) {
