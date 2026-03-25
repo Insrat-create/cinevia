@@ -1,7 +1,10 @@
 import { createContext, useContext, useEffect, useMemo, useRef, useState } from 'react'
+import anime from '../data/anime'
 import movies from '../data/movies'
 import tvShows from '../data/tvShows'
 import { getAuthRedirectUrl, hasSupabaseConfig, supabase } from '../lib/supabase'
+import { getDetailPath } from '../utils/catalogPaths'
+import { findEpisodeInShow, findEpisodeMatchInCollections } from '../utils/episodeMatch'
 
 const AccountContext = createContext(null)
 
@@ -9,46 +12,13 @@ const GUEST_OWNER_ID = 'guest'
 const ACCOUNT_CACHE_PREFIX = 'cinevia-account-cache:'
 const DEMO_ACCOUNTS_KEY = 'cinevia-demo-accounts'
 const DEMO_SESSION_KEY = 'cinevia-demo-session'
+const ANIME_ACCESS_USERNAMES = new Set(['skinsoftware'])
 
-const allContent = [...movies, ...tvShows]
+const allContent = [...movies, ...tvShows, ...anime]
 const contentById = new Map(allContent.map((item) => [item.id, item]))
 
-function findEpisodeInShow(show, episodeId) {
-  if (!show || !episodeId) {
-    return null
-  }
-
-  for (const season of show.seasonsData ?? []) {
-    for (const episode of season.episodes ?? []) {
-      if (episode.id === episodeId) {
-        return {
-          season,
-          episode,
-        }
-      }
-    }
-  }
-
-  return null
-}
-
 function findEpisodeMatch(episodeId) {
-  if (!episodeId) {
-    return null
-  }
-
-  for (const show of tvShows) {
-    const match = findEpisodeInShow(show, episodeId)
-
-    if (match?.episode) {
-      return {
-        show,
-        ...match,
-      }
-    }
-  }
-
-  return null
+  return findEpisodeMatchInCollections([tvShows, anime], episodeId)
 }
 
 function safeReadJson(key, fallback) {
@@ -142,12 +112,21 @@ function getDefaultDisplayName(userLike) {
   )
 }
 
+function normalizeAccessName(value) {
+  return String(value ?? '').trim().toLowerCase()
+}
+
 function getItemType(item) {
   return item.seasons ? 'show' : 'movie'
 }
 
 function getFavoritePath(item) {
-  return item.seasons ? `/tv-shows/${item.id}` : `/movies/${item.id}`
+  return getDetailPath(item)
+}
+
+function normalizePlaybackSeconds(value) {
+  const normalizedValue = Number(value)
+  return Number.isFinite(normalizedValue) && normalizedValue > 0 ? normalizedValue : 0
 }
 
 function hydrateFavorites(records) {
@@ -188,6 +167,18 @@ function hydrateContinueWatchingEntries(records) {
           parentShowId: match.show.id,
           poster: match.episode.poster || match.show.poster,
           progress: record.progress ?? match.episode.progress ?? match.show.progress ?? 0,
+          resumeTimeSeconds:
+            record.resumeTimeSeconds ??
+            record.resume_time_seconds ??
+            match.episode.resumeTimeSeconds ??
+            match.show.resumeTimeSeconds ??
+            0,
+          durationSeconds:
+            record.durationSeconds ??
+            record.duration_seconds ??
+            match.episode.durationSeconds ??
+            match.show.durationSeconds ??
+            0,
           released: match.episode.released || match.show.released,
           resumePath: `/watch/${match.episode.id}`,
           seasonLabel: match.season?.label ?? '',
@@ -218,6 +209,18 @@ function hydrateContinueWatchingEntries(records) {
             parentShowId: item.id,
             poster: match.episode.poster || item.poster,
             progress: record.progress ?? match.episode.progress ?? item.progress ?? 0,
+            resumeTimeSeconds:
+              record.resumeTimeSeconds ??
+              record.resume_time_seconds ??
+              match.episode.resumeTimeSeconds ??
+              item.resumeTimeSeconds ??
+              0,
+            durationSeconds:
+              record.durationSeconds ??
+              record.duration_seconds ??
+              match.episode.durationSeconds ??
+              item.durationSeconds ??
+              0,
             released: match.episode.released || item.released,
             resumePath: `/watch/${match.episode.id}`,
             seasonLabel: match.season?.label ?? '',
@@ -233,6 +236,10 @@ function hydrateContinueWatchingEntries(records) {
       return {
         ...item,
         progress: record.progress ?? item.progress ?? 0,
+        resumeTimeSeconds:
+          record.resumeTimeSeconds ?? record.resume_time_seconds ?? item.resumeTimeSeconds ?? 0,
+        durationSeconds:
+          record.durationSeconds ?? record.duration_seconds ?? item.durationSeconds ?? 0,
         updatedAt:
           record.updatedAt ?? record.last_watched_at ?? record.lastWatchedAt ?? new Date().toISOString(),
         resumePath: `/watch/${record.itemId}`,
@@ -257,19 +264,59 @@ function collapseContinueWatchingItems(entries) {
   })
 }
 
+function collectContinueWatchingRecordIds(item) {
+  const recordIds = new Set()
+
+  if (!item) {
+    return recordIds
+  }
+
+  const addShowRecordIds = (show) => {
+    if (!show) {
+      return
+    }
+
+    recordIds.add(show.id)
+
+    show.seasonsData?.forEach((season) => {
+      season.episodes?.forEach((episode) => {
+        if (episode?.id) {
+          recordIds.add(episode.id)
+        }
+      })
+    })
+  }
+
+  if (item.id) {
+    recordIds.add(item.id)
+  }
+
+  if (item.parentShowId) {
+    recordIds.add(item.parentShowId)
+  }
+
+  addShowRecordIds(item.parentShow)
+
+  if (item.seasonsData) {
+    addShowRecordIds(item)
+  }
+
+  return recordIds
+}
+
 export function AccountProvider({ children }) {
-  const initialGuestStore = loadAccountStore(GUEST_OWNER_ID)
+  const initialAccountStore = hasSupabaseConfig ? getEmptyAccountStore() : loadAccountStore(GUEST_OWNER_ID)
   const hasShownGuestPromptRef = useRef(false)
 
   const [session, setSession] = useState(null)
   const [user, setUser] = useState(null)
   const [profile, setProfile] = useState({
-    displayName: initialGuestStore.profile.displayName ?? 'Guest',
-    email: initialGuestStore.profile.email ?? '',
+    displayName: initialAccountStore.profile.displayName ?? '',
+    email: initialAccountStore.profile.email ?? '',
   })
-  const [favoriteRecords, setFavoriteRecords] = useState(initialGuestStore.favorites ?? [])
+  const [favoriteRecords, setFavoriteRecords] = useState(initialAccountStore.favorites ?? [])
   const [continueWatchingRecords, setContinueWatchingRecords] = useState(
-    initialGuestStore.continueWatching ?? []
+    initialAccountStore.continueWatching ?? []
   )
   const [isLoading, setIsLoading] = useState(true)
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false)
@@ -291,18 +338,35 @@ export function AccountProvider({ children }) {
     () => collapseContinueWatchingItems(hydratedContinueWatchingEntries),
     [hydratedContinueWatchingEntries]
   )
-  const playbackProgressById = useMemo(() => {
-    const progressMap = new Map()
+  const playbackStateById = useMemo(() => {
+    const playbackMap = new Map()
 
     hydratedContinueWatchingEntries.forEach((entry) => {
-      if (!progressMap.has(entry.id)) {
-        progressMap.set(entry.id, entry.progress ?? 0)
+      if (!playbackMap.has(entry.id)) {
+        playbackMap.set(entry.id, {
+          durationSeconds: normalizePlaybackSeconds(entry.durationSeconds),
+          progress: entry.progress ?? 0,
+          resumeTimeSeconds: normalizePlaybackSeconds(entry.resumeTimeSeconds),
+        })
       }
     })
 
-    return progressMap
+    return playbackMap
   }, [hydratedContinueWatchingEntries])
   const isSignedIn = Boolean(user)
+  const isAnimeAccessAllowed = useMemo(() => {
+    const accessCandidates = [
+      profile.displayName,
+      user?.user_metadata?.display_name,
+      user?.user_metadata?.full_name,
+      user?.displayName,
+      user?.email?.split('@')[0],
+    ]
+
+    return accessCandidates.some((candidate) =>
+      ANIME_ACCESS_USERNAMES.has(normalizeAccessName(candidate))
+    )
+  }, [profile.displayName, user])
 
   const applyLocalStore = (nextOwnerId, nextProfileFallback = {}) => {
     const nextStore = loadAccountStore(nextOwnerId)
@@ -353,7 +417,9 @@ export function AccountProvider({ children }) {
         .order('created_at', { ascending: false }),
       supabase
         .from('continue_watching')
-        .select('item_id, item_type, progress, episode_id, last_watched_at')
+        .select(
+          'item_id, item_type, progress, episode_id, last_watched_at, resume_time_seconds, duration_seconds'
+        )
         .eq('user_id', nextUser.id)
         .order('last_watched_at', { ascending: false }),
     ])
@@ -378,10 +444,12 @@ export function AccountProvider({ children }) {
       itemType: record.item_type,
     }))
     const nextContinue = (continueResult.data ?? []).map((record) => ({
+      durationSeconds: record.duration_seconds,
       episodeId: record.episode_id,
       itemId: record.item_id,
       itemType: record.item_type,
       progress: record.progress,
+      resumeTimeSeconds: record.resume_time_seconds,
       updatedAt: record.last_watched_at,
     }))
 
@@ -528,6 +596,8 @@ export function AccountProvider({ children }) {
         item_type: record.itemType,
         last_watched_at: record.updatedAt,
         progress: record.progress,
+        resume_time_seconds: normalizePlaybackSeconds(record.resumeTimeSeconds),
+        duration_seconds: normalizePlaybackSeconds(record.durationSeconds),
         user_id: user.id,
       },
       {
@@ -600,7 +670,13 @@ export function AccountProvider({ children }) {
     return !isAlreadyFavorite
   }
 
-  const saveContinueWatching = async (item, progress = 12, episodeId = null) => {
+  const saveContinueWatching = async (
+    item,
+    progress = 12,
+    episodeId = null,
+    resumeTimeSeconds = 0,
+    durationSeconds = 0
+  ) => {
     if (!isSignedIn) {
       return false
     }
@@ -612,6 +688,8 @@ export function AccountProvider({ children }) {
       itemId: normalizedItemId,
       itemType: isEpisodeRecord ? 'episode' : getItemType(item),
       progress,
+      resumeTimeSeconds: normalizePlaybackSeconds(resumeTimeSeconds),
+      durationSeconds: normalizePlaybackSeconds(durationSeconds),
       updatedAt: new Date().toISOString(),
     }
 
@@ -629,6 +707,64 @@ export function AccountProvider({ children }) {
         console.error('Unable to sync continue watching.', error)
         setAuthMessage(
           'Continue watching is saving locally. Add the Supabase tables from supabase/schema.sql to sync it to your account.'
+        )
+      }
+    }
+
+    return true
+  }
+
+  const isInContinueWatching = (item) => {
+    const recordIds = collectContinueWatchingRecordIds(item)
+
+    if (recordIds.size === 0) {
+      return false
+    }
+
+    return continueWatchingRecords.some(
+      (record) =>
+        recordIds.has(record.itemId) || (record.episodeId ? recordIds.has(record.episodeId) : false)
+    )
+  }
+
+  const removeContinueWatching = async (item) => {
+    if (!isSignedIn) {
+      return false
+    }
+
+    const recordIds = [...collectContinueWatchingRecordIds(item)]
+
+    if (recordIds.length === 0) {
+      return false
+    }
+
+    const nextRecords = continueWatchingRecords.filter(
+      (record) =>
+        !recordIds.includes(record.itemId) &&
+        !(record.episodeId && recordIds.includes(record.episodeId))
+    )
+
+    if (nextRecords.length === continueWatchingRecords.length) {
+      return false
+    }
+
+    setContinueWatchingRecords(nextRecords)
+
+    if (supabase && user) {
+      try {
+        const { error } = await supabase
+          .from('continue_watching')
+          .delete()
+          .eq('user_id', user.id)
+          .in('item_id', recordIds)
+
+        if (error) {
+          throw error
+        }
+      } catch (error) {
+        console.error('Unable to remove continue watching entry.', error)
+        setAuthMessage(
+          'Continue watching updated locally. Add the Supabase tables from supabase/schema.sql to sync it to your account.'
         )
       }
     }
@@ -884,14 +1020,21 @@ export function AccountProvider({ children }) {
     continueWatchingItems,
     favoriteItems,
     getPlaybackProgress: (itemId, fallback = 0) =>
-      playbackProgressById.has(itemId) ? playbackProgressById.get(itemId) : fallback,
+      playbackStateById.has(itemId) ? playbackStateById.get(itemId).progress : fallback,
+    getPlaybackResumeTime: (itemId, fallback = 0) =>
+      playbackStateById.has(itemId)
+        ? playbackStateById.get(itemId).resumeTimeSeconds
+        : fallback,
     hasSupabaseConfig,
+    isAnimeAccessAllowed,
     isAuthModalOpen,
     isFavorite: (itemId) => favoriteRecords.some((record) => record.itemId === itemId),
+    isInContinueWatching,
     isLoading,
     isSignedIn,
     openAuthModal,
     profile,
+    removeContinueWatching,
     saveContinueWatching,
     session,
     setAuthMode,

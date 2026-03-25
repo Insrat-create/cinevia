@@ -1,0 +1,363 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Solo-Main,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,0
+Style: Solo-Main-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,0
+Style: Solo-Italics,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,0
+Style: Solo-Italics-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,0
+Style: Solo-Flashback,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Flashback-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,1
+Style: Solo-Flashback-Italics,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Flashback-Italics-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,1
+Style: Solo-Flashback-Inside,Trebuchet MS,22.0,&H00CCCCCC,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Flashback-Inside-Italics,Trebuchet MS,22.0,&H00CCCCCC,&H000000FF,&H00400000,&H00400000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Narration,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: DefaultItalics,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,0
+Style: DefaultTop,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,0
+Style: DefaultItalicsTop,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,0
+Style: Sign,Tahoma,22.0,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0005,0005,0015,0
+Style: creditos,Arial,10.0,&H1EFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0000,0400,0110,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.32,0:00:15.16,Solo-Italics,Sung Jinwoo,0000,0000,0000,,O Goto Ryuji não vai lutar.
+Dialogue: 0,0:00:15.16,0:00:19.37,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Mas graças a ele posso assistir às\Nlutas dos outros Caçadores Rank S.
+Dialogue: 0,0:00:19.77,0:00:20.87,Solo-Main,Ma Dongwook,0000,0000,0000,,Certo...
+Dialogue: 0,0:00:25.05,0:00:27.01,Solo-Main,Ma Dongwook,0000,0000,0000,,Vamos começar?
+Dialogue: 0,0:00:35.72,0:00:39.48,Sign,Sign,0000,0000,0000,,{\fad(1,68)\bord0\fs12\fsp7\b1\fscx180\c&H8C8C83&\1a&H32&\pos(324,241)}-{\fscx}ERGAM-SE DAS SOMBRAS{\fscx180}-
+Dialogue: 0,0:02:06.77,0:02:08.27,Solo-Main,Tanaka Kenzo,0000,0000,0000,,Uma batalha de força, é?
+Dialogue: 0,0:02:08.74,0:02:10.73,Solo-Main,Tanaka Kenzo,0000,0000,0000,,Que bom que será simples!
+Dialogue: 0,0:02:10.73,0:02:14.46,Solo-Main,Ma Dongwook,0000,0000,0000,,Mas qual de nós dois é o mais forte?!
+Dialogue: 0,0:02:22.66,0:02:25.12,Solo-Italics,Lim Tae-gyu,0000,0000,0000,,Que rápido! No corpo a corpo,\Nestou em desvantagem!
+Dialogue: 0,0:02:29.11,0:02:32.38,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Minha especialidade\Né ataque à distância!
+Dialogue: 0,0:02:34.88,0:02:36.92,Solo-Main,Tanaka Kenzo,0000,0000,0000,,Hoshino! Cuidado aí!
+Dialogue: 0,0:02:36.92,0:02:38.74,Solo-Main,Tanaka Kenzo,0000,0000,0000,,Acabe logo com ele!
+Dialogue: 0,0:02:43.69,0:02:48.04,Solo-Main,Choi Jong-in,0000,0000,0000,,Este edifício foi reforçado com pedra\Nde essência da mais alta qualidade,
+Dialogue: 0,0:02:48.04,0:02:48.95,Solo-Main,Choi Jong-in,0000,0000,0000,,sim, presidente?
+Dialogue: 0,0:02:48.95,0:02:50.10,Solo-Main,Go Gunhee,0000,0000,0000,,Foi.
+Dialogue: 0,0:02:50.10,0:02:53.90,Solo-Main,Go Gunhee,0000,0000,0000,,Mas concordo que precisamos\Nreavaliar a sua durabilidade.
+Dialogue: 0,0:02:54.86,0:02:58.78,Solo-Italics,Baek Yoonho,0000,0000,0000,,Esses caras são a nata entre\Nos Caçadores Rank S.
+Dialogue: 0,0:02:58.78,0:03:03.41,Solo-Italics,Baek Yoonho,0000,0000,0000,,Preciso lutar como se quisessem\Nquebrar meus pulsos, não só agarrá-los!
+Dialogue: 0,0:03:07.07,0:03:08.92,Solo-Italics,Baek Yoonho,0000,0000,0000,,O nome dele era Kumamoto Atsushi?
+Dialogue: 0,0:03:09.30,0:03:12.25,Solo-Italics,Baek Yoonho,0000,0000,0000,,Ele não parece muito agressivo.
+Dialogue: 0,0:03:13.88,0:03:17.34,Solo-Italics,Kumamoto Atsushi,0000,0000,0000,,Merda. Isso não é pra mim.
+Dialogue: 0,0:03:17.34,0:03:19.59,Solo-Italics,Kumamoto Atsushi,0000,0000,0000,,Acho que não levo jeito pra isso.
+Dialogue: 0,0:03:22.06,0:03:26.50,Solo-Italics,Baek Yoonho,0000,0000,0000,,Talvez estejam nos usando\Npra testá-lo.
+Dialogue: 0,0:03:26.92,0:03:29.27,Solo-Italics,Baek Yoonho,0000,0000,0000,,Pra ver se está preparado\Npras formigas.
+Dialogue: 0,0:03:33.69,0:03:36.19,Solo-Italics,Baek Yoonho,0000,0000,0000,,Então estou aqui pra testá-lo...
+Dialogue: 0,0:03:36.51,0:03:38.66,Solo-Italics,Baek Yoonho,0000,0000,0000,,Hora de ver se você passa no teste!
+Dialogue: 0,0:03:38.66,0:03:40.68,Solo-Italics,Kumamoto Atsushi,0000,0000,0000,,Ai, droga! Não vai dar!
+Dialogue: 0,0:03:44.94,0:03:47.08,Solo-Main,Park Jongsoo,0000,0000,0000,,É um bando de monstros.
+Dialogue: 0,0:03:47.60,0:03:50.15,Solo-Main,Park Jongsoo,0000,0000,0000,,Eu, como um humilde Rank A,\Nnão teria chance.
+Dialogue: 0,0:03:50.15,0:03:51.89,Solo-Main,Jung Yoontae,0000,0000,0000,,Isso não é verdade!
+Dialogue: 0,0:03:51.89,0:03:54.15,Solo-Main,Jung Yoontae,0000,0000,0000,,Mestre, o senhor é muito forte!
+Dialogue: 0,0:03:56.71,0:03:59.19,Solo-Main,Tanaka Kenzo,0000,0000,0000,,Neste teste de força, acho que eu venci.
+Dialogue: 0,0:04:00.10,0:04:02.26,Solo-Main,Ma Dongwook,0000,0000,0000,,Você me cravou no chão!
+Dialogue: 0,0:04:02.78,0:04:04.60,Solo-Main,Ma Dongwook,0000,0000,0000,,É a primeira vez...
+Dialogue: 0,0:04:06.35,0:04:08.31,Solo-Main,Hoshino Minoru,0000,0000,0000,,Parece que venci.
+Dialogue: 0,0:04:11.32,0:04:13.24,Solo-Main,Baek Yoonho,0000,0000,0000,,Até quando vai fugir—
+Dialogue: 0,0:04:16.36,0:04:19.07,Solo-Main,Baek Yoonho,0000,0000,0000,,Eu pareço mais fraco\Nque a Caçadora Cha?
+Dialogue: 0,0:04:19.36,0:04:21.20,Solo-Main,Baek Yoonho,0000,0000,0000,,Estão me menosprezando...
+Dialogue: 0,0:04:22.74,0:04:24.12,Solo-Italics,Tawata Kanae,0000,0000,0000,,Não dá pra prever seus ataques!
+Dialogue: 0,0:04:24.60,0:04:26.45,Solo-Italics,Tawata Kanae,0000,0000,0000,,A Bailarina, Cha Hae-in...
+Dialogue: 0,0:04:26.94,0:04:31.83,Solo-Italics,Tawata Kanae,0000,0000,0000,,Vê-la lutar pessoalmente deixa claro\No quanto o nome é adequado!
+Dialogue: 0,0:04:35.10,0:04:36.30,Solo-Main,Cha Hae-in,0000,0000,0000,,Peguei.
+Dialogue: 0,0:04:36.77,0:04:38.89,Solo-Italics,Cha Hae-in,0000,0000,0000,,É melhor eu ajudar o Caçador Baek.
+Dialogue: 0,0:04:45.51,0:04:46.97,Solo-Main,Shimizu Akari,0000,0000,0000,,O que foi aquilo?!
+Dialogue: 0,0:04:46.97,0:04:49.98,Solo-Italics,Cha Hae-in,0000,0000,0000,,Essa não! Ataquei por reflexo\Ne não me contive!
+Dialogue: 0,0:04:54.87,0:04:57.19,Solo-Main,Shimizu Akari,0000,0000,0000,,Ferrou, ele surtou.
+Dialogue: 0,0:04:57.52,0:05:00.90,Solo-Main,Fujishima Tatsumi,0000,0000,0000,,Agora não tem como\Nsaber o que ele fará.
+Dialogue: 0,0:05:00.90,0:05:02.79,Solo-Main,Hanekawa,0000,0000,0000,,Devemos impedi-lo?
+Dialogue: 0,0:05:03.20,0:05:05.24,Solo-Main,Goto Ryuji,0000,0000,0000,,Só se alguém for se machucar.
+Dialogue: 0,0:05:09.87,0:05:10.79,Solo-Italics,Cha Hae-in,0000,0000,0000,,Que veloz!
+Dialogue: 0,0:05:14.92,0:05:16.34,Solo-Main,Shimizu Akari,0000,0000,0000,,A coisa tá ficando feia!
+Dialogue: 0,0:05:22.74,0:05:25.22,Solo-Main,Sung Jinwoo,0000,0000,0000,,Talvez isso não seja da minha conta,
+Dialogue: 0,0:05:25.64,0:05:28.68,Solo-Main,Sung Jinwoo,0000,0000,0000,,mas isso não parece mais\Num combate amistoso.
+Dialogue: 0,0:05:28.68,0:05:30.14,Solo-Main,Kumamoto Atsushi,0000,0000,0000,,Quem é você, seu maldito?!
+Dialogue: 0,0:05:33.60,0:05:37.11,Solo-Main,Shimizu Akari,0000,0000,0000,,N-Não acredito! O Kumamoto na fúria\Ne ele nem tomou conhecimento!
+Dialogue: 0,0:05:37.39,0:05:40.43,Solo-Main,Goto Ryuji,0000,0000,0000,,Aquele Caçador é mesmo do tipo Mago?
+Dialogue: 0,0:05:40.43,0:05:42.32,Solo-Main,Hanekawa,0000,0000,0000,,Sim. É a informação que tenho.
+Dialogue: 0,0:05:42.63,0:05:45.03,Solo-Italics,Goto Ryuji,0000,0000,0000,,Terei que confirmar\Npor conta própria, é?
+Dialogue: 0,0:05:45.42,0:05:48.87,Solo-Main,Sung Jinwoo,0000,0000,0000,,Caçadora Cha, está disposta\Na reconhecer a derrota?
+Dialogue: 0,0:05:49.54,0:05:52.10,Solo-Main,Sung Jinwoo,0000,0000,0000,,Considerando que o\NCaçador Baek já desistiu.
+Dialogue: 0,0:05:52.10,0:05:52.83,Solo-Main,Cha Hae-in,0000,0000,0000,,Sim.
+Dialogue: 0,0:05:54.72,0:05:58.29,Solo-Italics,Baek Yoonho,0000,0000,0000,,Mesmo que eu fosse ao\Nmeu limite, não teria dado.
+Dialogue: 0,0:06:00.37,0:06:01.88,Solo-Main,Hanekawa,0000,0000,0000,,Caçador Sung.
+Dialogue: 0,0:06:02.20,0:06:06.59,Solo-Main,Hanekawa,0000,0000,0000,,O Mestre da Guilda Goto está\Npedindo que duele com ele.
+Dialogue: 0,0:06:06.59,0:06:09.33,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Seu corpo irradia espírito de luta...
+Dialogue: 0,0:06:09.33,0:06:11.96,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Ele provavelmente quer\Ntestar minhas habilidades.
+Dialogue: 0,0:06:13.23,0:06:16.69,Solo-Italics,Sung Jinwoo,0000,0000,0000,,É uma boa chance de testar o poder\Nque consegui no Castelo Demoníaco.
+Dialogue: 0,0:06:17.83,0:06:19.84,Solo-Italics,Goto Ryuji,0000,0000,0000,,A ideia de me enfrentar o fez sorrir?
+Dialogue: 0,0:06:20.68,0:06:24.19,Solo-Main,Hanekawa,0000,0000,0000,,Goto-san, o Caçador Sung\Naceitou o seu desafio.
+Dialogue: 0,0:06:24.19,0:06:26.48,Solo-Main,Hanekawa,0000,0000,0000,,No entanto, sob uma condição.
+Dialogue: 0,0:06:26.48,0:06:27.76,Solo-Main,Goto Ryuji,0000,0000,0000,,Que condição?
+Dialogue: 0,0:06:27.76,0:06:30.66,Solo-Main,Hanekawa,0000,0000,0000,,Que o senhor lute sem se segurar.
+Dialogue: 0,0:06:33.55,0:06:34.89,Solo-Main,Goto Ryuji,0000,0000,0000,,Interessante.
+Dialogue: 0,0:06:35.54,0:06:39.25,Solo-Italics-Top,TV Announcer,0000,0000,0000,,A quarta raid na Ilha de Jeju\Nestá se aproximando.
+Dialogue: 0,0:06:35.54,0:06:39.25,Sign,Sign,0000,0000,0000,,{\an2\fs15\t(\fs11)\c&HFFFFFF&\3c&H2DAEF0&\move(591,67,533,91,20,3691)}Notícias {\b0}do Dia
+Dialogue: 0,0:06:35.54,0:06:39.25,Sign,Sign,0000,0000,0000,,{\fs18\t(\fs14.5)\c&HFFFFFF&\3c&H2DAEF0&\move(85,286,132,263,20,3691)}Manchete
+Dialogue: 0,0:06:35.54,0:06:39.25,Sign,Sign,0000,0000,0000,,{\an7\fs16\t(\fs12.6)\fscx90\c&H8D6E32&\3c&HEFE7DE&\move(193,286,218,265,20,3691)}Preparativos para a 4ª raid à Ilha de Jeju estão em andamento.
+Dialogue: 0,0:06:39.25,0:06:42.23,Solo-Italics-Top,TV Announcer,0000,0000,0000,,Formada a aliança com o Japão,\Nos preparativos seguem
+Dialogue: 0,0:06:42.23,0:06:44.84,Solo-Italics-Top,TV Announcer,0000,0000,0000,,para que tenhamos bons resultados.
+Dialogue: 0,0:06:43.74,0:06:46.03,Solo-Main,Joohee Mom,0000,0000,0000,,Vai trabalhar hoje?
+Dialogue: 0,0:06:46.03,0:06:48.31,Solo-Main,Lee Joohee,0000,0000,0000,,Estou de folga.\NEu te falei ontem.
+Dialogue: 0,0:06:48.31,0:06:49.75,Solo-Main,Joohee Mom,0000,0000,0000,,É mesmo?
+Dialogue: 0,0:06:49.75,0:06:54.93,Solo-Main,Joohee Mom,0000,0000,0000,,Os Caçadores estão se esforçando,\Né melhor não ficarmos paradas.
+Dialogue: 0,0:07:04.62,0:07:05.74,Solo-Main,Lee Joohee,0000,0000,0000,,Alô.
+Dialogue: 0,0:07:06.45,0:07:07.11,Solo-Main,Lee Joohee,0000,0000,0000,,É que...
+Dialogue: 0,0:07:07.98,0:07:11.43,Solo-Main,Lee Joohee,0000,0000,0000,,Eu tenho algumas perguntas sobre\Nas forças de defesa da raid de Jeju.
+Dialogue: 0,0:07:12.08,0:07:14.04,Solo-Main,Lim Tae-gyu,0000,0000,0000,,O que vai rolar agora?
+Dialogue: 0,0:07:14.04,0:07:19.75,Solo-Main,Ma Dongwook,0000,0000,0000,,Aquele é o famoso décimo Rank S?\NEle é corajoso de enfrentar o Goto!
+Dialogue: 0,0:07:19.75,0:07:22.88,Solo-Italics,Cha Hae-in,0000,0000,0000,,Já o vi lutar numa dungeon de Rank A,
+Dialogue: 0,0:07:22.88,0:07:25.68,Solo-Italics,Cha Hae-in,0000,0000,0000,,mas será que ele é páreo\Npara um Caçador de Rank S?
+Dialogue: 0,0:07:25.68,0:07:29.21,Solo-Main,Baek Yoonho,0000,0000,0000,,Você está cercada de Caçadores hoje.\NNão está incomodada?
+Dialogue: 0,0:07:29.79,0:07:33.08,Solo-Main,Cha Hae-in,0000,0000,0000,,No campo de batalha, não posso\Ntapar meu nariz o tempo todo.
+Dialogue: 0,0:07:33.99,0:07:36.35,Solo-Main,Cha Hae-in,0000,0000,0000,,Não seria melhor impedir os dois?
+Dialogue: 0,0:07:36.35,0:07:39.94,Solo-Main,Baek Yoonho,0000,0000,0000,,Um lutador contra um conjurador\Nno combate corpo a corpo...
+Dialogue: 0,0:07:40.31,0:07:42.59,Solo-Main,Baek Yoonho,0000,0000,0000,,Normalmente, eu concordaria.
+Dialogue: 0,0:07:42.59,0:07:45.82,Solo-Main,Baek Yoonho,0000,0000,0000,,Mas estou pensando o mesmo\Nque você, Caçadora Cha.
+Dialogue: 0,0:07:47.22,0:07:49.57,Solo-Main,Baek Yoonho,0000,0000,0000,,É difícil não criar expectativas.
+Dialogue: 0,0:07:49.83,0:07:51.72,Solo-Italics,Baek Yoonho,0000,0000,0000,,Se minha suspeita estiver certa,
+Dialogue: 0,0:07:51.72,0:07:55.04,Solo-Italics,Baek Yoonho,0000,0000,0000,,e o Caçador Sung for um despertado\Nque pode ficar mais forte...
+Dialogue: 0,0:07:57.47,0:07:58.54,Solo-Main,Sung Jinwoo,0000,0000,0000,,Enfim, vamos come—
+Dialogue: 0,0:08:03.23,0:08:05.13,Solo-Main,Sung Jinwoo,0000,0000,0000,,Ei, eu nem terminei a frase.
+Dialogue: 0,0:08:05.13,0:08:07.34,Solo-Italics,Goto Ryuji,0000,0000,0000,,Que velocidade e agilidade...
+Dialogue: 0,0:08:07.34,0:08:10.80,Solo-Italics,Goto Ryuji,0000,0000,0000,,Ele é do tipo Mago? Nem ferrando.
+Dialogue: 0,0:08:13.35,0:08:15.72,Solo-Italics,Goto Ryuji,0000,0000,0000,,Vou descobrir quem você é de verdade!
+Dialogue: 0,0:08:17.14,0:08:20.80,Solo-Italics,Sung Jinwoo,0000,0000,0000,,De fato, ele está num patamar\Nacima dos outros Rank S.
+Dialogue: 0,0:08:20.80,0:08:23.86,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Mas não é rápido a ponto de eu\Nnão conseguir desviar dele.
+Dialogue: 0,0:08:23.86,0:08:25.78,Solo-Italics,Goto Ryuji,0000,0000,0000,,Sorrindo de novo?
+Dialogue: 0,0:08:25.78,0:08:28.19,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Não consigo acompanhar,\Nos golpes são muito rápidos!
+Dialogue: 0,0:08:28.52,0:08:30.40,Solo-Main,Ma Dongwook,0000,0000,0000,,Ele está se desviando bem, hein?
+Dialogue: 0,0:08:30.40,0:08:33.87,Solo-Main,Ma Dongwook,0000,0000,0000,,Esquivar-se de ataques como\Naqueles é um grande feito.
+Dialogue: 0,0:08:34.14,0:08:36.33,Solo-Italics,Cha Hae-in,0000,0000,0000,,Ele não está apenas desviando.
+Dialogue: 0,0:08:36.88,0:08:38.83,Solo-Italics,Cha Hae-in,0000,0000,0000,,Também está testando\Na força do oponente.
+Dialogue: 0,0:08:43.54,0:08:46.38,Solo-Italics,Goto Ryuji,0000,0000,0000,,Ele está deitando e rolando,\Nnão estou gostando disso.
+Dialogue: 0,0:08:46.38,0:08:47.79,Solo-Italics,Goto Ryuji,0000,0000,0000,,Vamos fazer diferente.
+Dialogue: 0,0:08:48.03,0:08:49.65,Solo-Italics,Goto Ryuji,0000,0000,0000,,Vou acabar com ele pra valer!
+Dialogue: 0,0:08:56.72,0:08:58.19,Solo-Italics,Cha Hae-in,0000,0000,0000,,Caçador Sung!
+Dialogue: 0,0:09:03.31,0:09:06.52,Solo-Main,Sung Jinwoo,0000,0000,0000,,Vai com calma, uma dessas\Npode furar o olho de alguém.
+Dialogue: 0,0:09:06.52,0:09:09.23,Solo-Italics,Goto Ryuji,0000,0000,0000,,Ele pegou minha mão em vez do pulso.
+Dialogue: 0,0:09:09.23,0:09:11.11,Solo-Main,Goto Ryuji,0000,0000,0000,,Está zombando de mim?
+Dialogue: 0,0:09:11.11,0:09:13.70,Solo-Main,Sung Jinwoo,0000,0000,0000,,Não sei do que está falando, mas...
+Dialogue: 0,0:09:14.38,0:09:16.74,Solo-Main,Sung Jinwoo,0000,0000,0000,,Se eu pegasse seu pulso, era {\i1}game over{\i0}.
+Dialogue: 0,0:09:17.28,0:09:20.08,Solo-Main,Sung Jinwoo,0000,0000,0000,,E acho que nenhum de nós quer\Nque isso acabe tão rápido.
+Dialogue: 0,0:09:31.55,0:09:33.40,Solo-Main,Izawa Ippei,0000,0000,0000,,Ei, o Goto tá lutando pra valer!
+Dialogue: 0,0:09:33.40,0:09:36.55,Solo-Main,Baek Yoonho,0000,0000,0000,,Do jeito que vai, os dois podem\Nacabar com ferimentos graves!
+Dialogue: 0,0:09:45.40,0:09:46.65,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Gelo?
+Dialogue: 0,0:09:47.42,0:09:48.69,Solo-Main,Baek Yoonho,0000,0000,0000,,Caçador Sung!
+Dialogue: 0,0:09:48.97,0:09:49.90,Solo-Main,Runo,0000,0000,0000,,Goto-san!
+Dialogue: 0,0:09:49.90,0:09:54.32,Solo-Main,Baek Yoonho,0000,0000,0000,,Vamos parar por aqui.\NSe isso continuar, vai sair do controle!
+Dialogue: 0,0:09:54.75,0:09:57.03,Solo-Main,Baek Yoonho,0000,0000,0000,,Diga-o para parar a luta, por favor!
+Dialogue: 0,0:09:57.03,0:09:58.49,Solo-Main,Hanekawa,0000,0000,0000,,S-Sim!
+Dialogue: 0,0:10:01.03,0:10:02.92,Solo-Main,Baek Yoonho,0000,0000,0000,,Estraguei sua diversão?
+Dialogue: 0,0:10:02.92,0:10:03.84,Solo-Main,Sung Jinwoo,0000,0000,0000,,Não.
+Dialogue: 0,0:10:04.83,0:10:09.34,Solo-Main,Ma Dongwook,0000,0000,0000,,Lutar contra o poderoso Goto e sofrer\Nsó um arranhão é incrível, rapaz.
+Dialogue: 0,0:10:12.12,0:10:15.68,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Acabei me empolgando demais. Mas...
+Dialogue: 0,0:10:16.34,0:10:19.68,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Agora tenho uma boa noção\Ndas habilidades de todos aqui.
+Dialogue: 0,0:10:19.68,0:10:22.90,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Também consegui infiltrar soldados\Nna sombra de cinco deles.
+Dialogue: 0,0:10:24.89,0:10:29.34,Solo-Main,Go Gunhee,0000,0000,0000,,Mais tarde enviarei as informações\Nsobre os Caçadores envolvidos na raid.
+Dialogue: 0,0:10:29.34,0:10:32.70,Solo-Main,Hanekawa,0000,0000,0000,,Encaminhe também ao nosso\Nvice-mestre da guilda, por favor.
+Dialogue: 0,0:10:32.70,0:10:33.86,Solo-Main,Go Gunhee,0000,0000,0000,,É claro.
+Dialogue: 0,0:10:38.76,0:10:39.89,Solo-Main,Sung Jinwoo,0000,0000,0000,,Diretor Go.
+Dialogue: 0,0:10:41.18,0:10:43.75,Solo-Main,Go Gunhee,0000,0000,0000,,Diga, Caçador Sung.
+Dialogue: 0,0:10:44.17,0:10:46.25,Solo-Main,Sung Jinwoo,0000,0000,0000,,Sobre a raid na Ilha de Jeju...
+Dialogue: 0,0:10:49.17,0:10:53.17,Solo-Italics,Goto Ryuji,0000,0000,0000,,Reiji. Tem um Caçador\Nmuito bom por aqui.
+Dialogue: 0,0:10:54.38,0:10:57.39,Solo-Main,Sugimoto Reiji,0000,0000,0000,,Duvido que seja páreo para o Mestre\Nda Guilda Espada Empunhada.
+Dialogue: 0,0:10:57.39,0:10:58.82,Solo-Italics,Goto Ryuji,0000,0000,0000,,Quem sabe?
+Dialogue: 0,0:10:58.82,0:11:00.41,Solo-Main,Sugimoto Reiji,0000,0000,0000,,E que Caçador é esse?
+Dialogue: 0,0:11:00.41,0:11:04.68,Solo-Italics,Goto Ryuji,0000,0000,0000,,Sung Jinwoo. Ele teve um redespertar\Nrecentemente, e agora é Rank S.
+Dialogue: 0,0:11:05.71,0:11:07.32,Solo-Main,Sugimoto Reiji,0000,0000,0000,,Que estranho.
+Dialogue: 0,0:11:07.32,0:11:08.81,Solo-Main,Sugimoto Reiji,0000,0000,0000,,A lista de nomes da raid\Nnão tem o nome dele.
+Dialogue: 0,0:11:08.81,0:11:10.92,Solo-Italics,Sugimoto Reiji,0000,0000,0000,,A lista de nomes da raid\Nnão tem o nome dele.
+Dialogue: 0,0:11:10.92,0:11:11.77,Solo-Main,Goto Ryuji,0000,0000,0000,,O quê?
+Dialogue: 0,0:11:13.73,0:11:17.41,Solo-Main,Cha Hae-in,0000,0000,0000,,Então o Caçador Sung não irá\Ncom a gente na raid.
+Dialogue: 0,0:11:17.41,0:11:20.28,Solo-Main,Choi Jong-in,0000,0000,0000,,Ele deve ter seus motivos.
+Dialogue: 0,0:11:20.28,0:11:21.41,Solo-Main,Choi Jong-in,0000,0000,0000,,No entanto...
+Dialogue: 0,0:11:21.67,0:11:24.37,Solo-Italics,Baek Yoonho,0000,0000,0000,,O nome do Byung-gu\Ntambém não está aqui.
+Dialogue: 0,0:11:24.63,0:11:25.71,Solo-Italics,Baek Yoonho,0000,0000,0000,,Mas...
+Dialogue: 0,0:11:25.71,0:11:29.92,Solo-Main,Choi Jong-in,0000,0000,0000,,Ainda temos quinze Caçadores Rank S.
+Dialogue: 0,0:11:30.26,0:11:32.13,Solo-Main,Choi Jong-in,0000,0000,0000,,Desta vez, com certeza...
+Dialogue: 0,0:11:36.75,0:11:38.64,Solo-Main,Baek Yoonho,0000,0000,0000,,...nós venceremos!
+Dialogue: 0,0:11:41.60,0:11:42.48,Solo-Main,Sung Jinwoo,0000,0000,0000,,Cheguei.
+Dialogue: 0,0:11:42.48,0:11:44.68,Solo-Main,Sung Jinah,0000,0000,0000,,Jinwoo, que demora!
+Dialogue: 0,0:11:45.84,0:11:47.64,Solo-Main,Park Kyunghye,0000,0000,0000,,Bem-vindo de volta, Jinwoo.
+Dialogue: 0,0:11:47.64,0:11:49.65,Solo-Main,Park Kyunghye,0000,0000,0000,,O jantar está pronto.
+Dialogue: 0,0:11:51.17,0:11:52.18,Solo-Main,Sung Jinwoo,0000,0000,0000,,Estou de volta.
+Dialogue: 0,0:11:53.67,0:11:56.36,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Minha mãe acabou de acordar\Nde um coma de quatro anos.
+Dialogue: 0,0:11:56.36,0:11:58.08,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Ela precisa de mim.
+Dialogue: 0,0:11:58.87,0:12:00.28,Solo-Italics,Sung Jinwoo,0000,0000,0000,,É por isso que...
+Dialogue: 0,0:12:00.90,0:12:02.74,Solo-Italics,Sung Jinwoo,0000,0000,0000,,eu não vou à Ilha de Jeju.
+Dialogue: 0,0:12:06.70,0:12:10.67,Solo-Italics,Queen Ant,0000,0000,0000,,Na falta de novas presas,\Ncomeçaram a devorar uns aos outros.
+Dialogue: 0,0:12:11.55,0:12:15.95,Solo-Italics,Queen Ant,0000,0000,0000,,Não há comida suficiente aqui\Npara meus súditos se alimentarem.
+Dialogue: 0,0:12:16.83,0:12:18.55,Solo-Italics,Queen Ant,0000,0000,0000,,Isso não pode continuar assim.
+Dialogue: 0,0:12:18.93,0:12:20.95,Solo-Italics,Queen Ant,0000,0000,0000,,Precisamos sair desta ilha.
+Dialogue: 0,0:12:22.01,0:12:24.34,Solo-Italics,Queen Ant,0000,0000,0000,,Preciso de uma prole mais forte...
+Dialogue: 0,0:12:24.34,0:12:29.76,Solo-Italics,Queen Ant,0000,0000,0000,,Uma cria mais poderosa que qualquer\Noutra, capaz de liderar nosso reino.
+Dialogue: 0,0:13:05.26,0:13:08.22,Solo-Main,Queen Ant,0000,0000,0000,,Torne-se forte, meu fruto!
+Dialogue: 0,0:13:15.02,0:13:18.78,Sign,Sign,0000,0000,0000,,{\an2\fs10.5\c&HFFFFFF&\3c&H2DAEF0&\frz353.2\pos(474,84)}Notícias {\b0}do Dia
+Dialogue: 0,0:13:15.02,0:13:18.78,Sign,Sign,0000,0000,0000,,{\fs12\fax-0.2\c&HFFFFFF&\3c&H2DAEF0&\pos(169,227)\frx6\fry352\frz6.497}Manchete
+Dialogue: 0,0:13:15.02,0:13:18.78,Sign,Sign,0000,0000,0000,,{\an7\fs10.5\fscx95\c&H8D6E32&\3c&HEFE7DE&\pos(239,222)}Ameaça das formigas: evolução acelerada causa preocupação
+Dialogue: 0,0:13:15.63,0:13:18.78,Solo-Italics,TV Announcer,0000,0000,0000,,As formigas mágicas têm evoluído\Nem ritmo preocupante.
+Dialogue: 0,0:13:19.18,0:13:22.66,Solo-Italics,TV Announcer,0000,0000,0000,,Na terceira raid à Ilha de Jeju,\Nelas eram terrestres,
+Dialogue: 0,0:13:22.66,0:13:26.16,Sign,Sign,0000,0000,0000,,{\an2\fs13\c&HFFFFFF&\3c&H2DAEF0&\frz11.43\pos(500,38)}Notícias {\b0}do Dia
+Dialogue: 0,0:13:22.66,0:13:26.16,Sign,Sign,0000,0000,0000,,{\fs15\c&HFFFFFF&\3c&H2DAEF0&\frz11.08\frx16\fry354\pos(158,266)}Manchete
+Dialogue: 0,0:13:22.66,0:13:26.16,Sign,Sign,0000,0000,0000,,{\an7\fs12.5\c&H8D6E32&\3c&HEFE7DE&\frz11.86\pos(248,247)}Ameaça das formigas: evolução acelerada causa preocupação
+Dialogue: 0,0:13:23.04,0:13:26.16,Solo-Italics,TV Announcer,0000,0000,0000,,mas, como mostra esta gravação recente,
+Dialogue: 0,0:13:26.16,0:13:27.96,Solo-Italics,TV Announcer,0000,0000,0000,,elas agora têm forma mais humanoide
+Dialogue: 0,0:13:27.96,0:13:30.62,Solo-Italics,TV Announcer,0000,0000,0000,,e em suas costas há\Num par de grandes asas.
+Dialogue: 0,0:13:31.05,0:13:32.98,Solo-Italics,TV Announcer,0000,0000,0000,,A Associação de Caçadores\Nestá formulando
+Dialogue: 0,0:13:32.98,0:13:35.66,Solo-Italics,TV Announcer,0000,0000,0000,,uma estratégia para lidar\Ncom esses monstros novos.
+Dialogue: 0,0:13:39.38,0:13:40.74,Solo-Main,Kid B,0000,0000,0000,,Apareceu, monstro mágico!
+Dialogue: 0,0:13:40.74,0:13:42.89,Solo-Main,Kid B,0000,0000,0000,,Agora vai enfrentar um Caçador Rank S!
+Dialogue: 0,0:13:46.30,0:13:48.47,Solo-Main,Yoo Jinho,0000,0000,0000,,É perigoso demais, não vale a pena!
+Dialogue: 0,0:13:48.78,0:13:52.23,Solo-Main,Han Song-yi,0000,0000,0000,,Por que diz que eu não devo\Nme juntar à força de defesa?
+Dialogue: 0,0:13:52.23,0:13:55.02,Solo-Main,Yoo Jinho,0000,0000,0000,,Porque, Srta. Han, você é uma Rank E...
+Dialogue: 0,0:13:55.69,0:13:58.19,Solo-Main,Han Song-yi,0000,0000,0000,,Então é assim?!
+Dialogue: 0,0:13:56.78,0:13:59.81,Solo-Main-Top,Yoo Jinho,0000,0000,0000,,Ai, ai, ai! Desculpa!
+Dialogue: 0,0:13:59.81,0:14:03.79,Solo-Italics-Top,TV Announcer,0000,0000,0000,,Como medida preventiva para que\Nnenhuma formiga chegue ao continente,
+Dialogue: 0,0:14:03.79,0:14:08.46,Solo-Italics-Top,TV Announcer,0000,0000,0000,,Caçadores estão sendo recrutados\Npara funções de defesa.
+Dialogue: 0,0:14:13.30,0:14:15.25,Solo-Italics,Go Gunhee,0000,0000,0000,,Amanhã é o dia...
+Dialogue: 0,0:14:15.68,0:14:17.99,Solo-Italics,Go Gunhee,0000,0000,0000,,da raid na Ilha de Jeju.
+Dialogue: 0,0:14:21.73,0:14:23.29,Solo-Italics,Operator A,0000,0000,0000,,Aqui é a primeira frota.
+Dialogue: 0,0:14:23.29,0:14:25.97,Solo-Italics,Operator A,0000,0000,0000,,Chegamos ao nosso destino\Nnas proximidades de Jeju.
+Dialogue: 0,0:14:26.37,0:14:28.93,Solo-Italics,Operator B,0000,0000,0000,,Segunda frota. Também chegamos.
+Dialogue: 0,0:14:29.42,0:14:32.82,Solo-Italics,Operator C,0000,0000,0000,,Aqui é a terceira frota.\NEstamos nos aproximando do perímetro.
+Dialogue: 0,0:14:32.82,0:14:37.64,Solo-Italics,Operator D,0000,0000,0000,,Quarta frota a caminho.\NDevemos chegar em cinco minutos.
+Dialogue: 0,0:14:38.65,0:14:42.55,Solo-Main,Jung Yoontae,0000,0000,0000,,Mestre, acha que somos fortes\No bastante para enfrentar as formigas?
+Dialogue: 0,0:14:42.55,0:14:45.41,Solo-Main,Park Jongsoo,0000,0000,0000,,Isso, só saberemos se lutarmos.
+Dialogue: 0,0:14:45.41,0:14:49.30,Solo-Main,Park Jongsoo,0000,0000,0000,,Mas fomos enviados para cá para\No caso de haver uma emergência.
+Dialogue: 0,0:14:49.30,0:14:51.66,Solo-Main,Park Jongsoo,0000,0000,0000,,Vamos impedir que aquelas\Ncoisas cheguem à terra.
+Dialogue: 0,0:14:51.66,0:14:53.26,Solo-Main,Jung Yoontae,0000,0000,0000,,O senhor é demais, mestre!
+Dialogue: 0,0:14:53.26,0:14:56.58,Solo-Main,Jung Yoontae,0000,0000,0000,,Pelo resto da minha vida,\Neu vou te seguir!
+Dialogue: 0,0:14:58.75,0:15:01.34,Solo-Main,Ma Dongwook,0000,0000,0000,,Então, deixo tudo em suas mãos.
+Dialogue: 0,0:15:01.70,0:15:03.97,Solo-Main,Vice Guildmaster,0000,0000,0000,,Duvido que chegue a esse ponto.
+Dialogue: 0,0:15:03.97,0:15:05.91,Solo-Main,Vice Guildmaster,0000,0000,0000,,O senhor provavelmente\Nnem fará nada hoje...
+Dialogue: 0,0:15:05.91,0:15:08.05,Solo-Main,Ma Dongwook,0000,0000,0000,,Não dá pra saber!
+Dialogue: 0,0:15:08.05,0:15:11.16,Solo-Main,Ma Dongwook,0000,0000,0000,,Além disso, ter a vice-mestre\Nda guilda disponível
+Dialogue: 0,0:15:11.16,0:15:13.76,Solo-Main,Ma Dongwook,0000,0000,0000,,me permite ir pra batalha\Nsem preocupações.
+Dialogue: 0,0:15:15.80,0:15:17.46,Solo-Main,Vice Guildmaster,0000,0000,0000,,Tome cuidado, por favor.
+Dialogue: 0,0:15:17.46,0:15:18.18,Solo-Main,Ma Dongwook,0000,0000,0000,,Claro!
+Dialogue: 0,0:15:19.15,0:15:22.30,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Por que o Minsung está\Nposando pra fotos bem ali?!
+Dialogue: 0,0:15:22.30,0:15:24.44,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Se algo acontece agora,\Nestamos danados!
+Dialogue: 0,0:15:24.44,0:15:26.41,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Mande-o vir pra cá!
+Dialogue: 0,0:15:43.87,0:15:46.26,Solo-Main,Woo Jinchul,0000,0000,0000,,Todas as equipes entraram em contato.
+Dialogue: 0,0:15:46.26,0:15:50.43,Solo-Main,Woo Jinchul,0000,0000,0000,,A guarda costeira do continente e os\NCaçadores na Ilha de Jeju estão prontos.
+Dialogue: 0,0:15:50.86,0:15:54.13,Solo-Main,Woo Jinchul,0000,0000,0000,,A força diversionista concluiu\No desembarque na ilha.
+Dialogue: 0,0:15:56.35,0:16:01.69,Solo-Main,Go Gunhee,0000,0000,0000,,Desta vez, um número expressivo\Nde Caçadores atendeu ao chamado.
+Dialogue: 0,0:16:02.38,0:16:06.86,Solo-Italics,Go Gunhee,0000,0000,0000,,Além disso, é um alívio\Nque ele tenha decidido ir.
+Dialogue: 0,0:16:13.83,0:16:14.98,Solo-Main,Baek Yoonho,0000,0000,0000,,Byung-gu!
+Dialogue: 0,0:16:15.80,0:16:18.04,Solo-Main,Baek Yoonho,0000,0000,0000,,Estava achando que você não vinha.
+Dialogue: 0,0:16:18.04,0:16:22.50,Solo-Main,Min Byung-gu,0000,0000,0000,,Ë que eu me toquei que, sem um Healer\Npra te curar, você não dura um minuto.
+Dialogue: 0,0:16:22.94,0:16:26.09,Solo-Main,Min Byung-gu,0000,0000,0000,,Quando vê um monstro mágico, você não\Npensa em nada além de atacar, não é?
+Dialogue: 0,0:16:26.09,0:16:29.75,Solo-Main,Baek Yoonho,0000,0000,0000,,Porque, se eu não o fizer,\Neles provavelmente te matam!
+Dialogue: 0,0:16:35.93,0:16:38.39,Solo-Main,Goto Ryuji,0000,0000,0000,,Esta é a cidade no centro da ilha.
+Dialogue: 0,0:16:38.39,0:16:41.10,Solo-Main,Goto Ryuji,0000,0000,0000,,Alfa falando. Todos os\NCaçadores, fiquem atentos.
+Dialogue: 0,0:16:41.10,0:16:43.40,Solo-Main,Tawata Kanae,0000,0000,0000,,Aqui é Bravo. Estou na posição.
+Dialogue: 0,0:16:43.40,0:16:45.69,Solo-Main,Fujishima Tatsumi,0000,0000,0000,,Charlie, em posição.
+Dialogue: 0,0:16:45.69,0:16:48.24,Solo-Main,Izawa Ippei,0000,0000,0000,,Delta, pronto pra agir.
+Dialogue: 0,0:16:50.48,0:16:51.75,Solo-Main,Baek Yoonho,0000,0000,0000,,Transmissão ao vivo?
+Dialogue: 0,0:16:51.75,0:16:55.91,Solo-Main,Cameraman,0000,0000,0000,,Sim. Bom, tem dez minutos de atraso,\Npro caso de algum incidente.
+Dialogue: 0,0:16:55.91,0:16:58.45,Solo-Main,Cameraman,0000,0000,0000,,Como cinegrafista do Departamento\Nde Comunicações de Caçadores,
+Dialogue: 0,0:16:58.45,0:17:01.45,Solo-Main,Cameraman,0000,0000,0000,,vou garantir que esta batalha\Nseja documentada para o povo!
+Dialogue: 0,0:17:02.25,0:17:06.60,Solo-Main,Ma Dongwook,0000,0000,0000,,Quando tem algo para proteger,\Num Caçador consegue dar tudo de si.
+Dialogue: 0,0:17:06.60,0:17:09.56,Solo-Main,Ma Dongwook,0000,0000,0000,,Ou seja, as coisas\Npodem ficar bem intensas.
+Dialogue: 0,0:17:09.56,0:17:10.59,Solo-Main,Ma Dongwook,0000,0000,0000,,Você ficará bem?
+Dialogue: 0,0:17:10.59,0:17:14.22,Solo-Main,Cameraman,0000,0000,0000,,Não se preocupe. Pode não\Nparecer, mas sou um Rank A.
+Dialogue: 0,0:17:14.22,0:17:16.10,Solo-Main,Cameraman,0000,0000,0000,,Estou acostumado a filmar\Nno meio do perigo.
+Dialogue: 0,0:17:16.10,0:17:18.15,Solo-Main,Ma Dongwook,0000,0000,0000,,É bom saber!
+Dialogue: 0,0:17:18.67,0:17:23.98,Solo-Main,Ma Dongwook,0000,0000,0000,,Talvez esta seja a última vez que o povo\Npoderá assistir a uma raid de Rank S.
+Dialogue: 0,0:17:24.41,0:17:26.69,Solo-Main,Ma Dongwook,0000,0000,0000,,Ou melhor: esta precisa\Nser a última vez.
+Dialogue: 0,0:17:27.28,0:17:29.90,Solo-Main,Ma Dongwook,0000,0000,0000,,Dessa vez, estamos indo\Npra pôr um fim nisso!
+Dialogue: 0,0:17:30.29,0:17:34.87,Solo-Italics,Baek Yoonho,0000,0000,0000,,Se não conseguirmos, o país\Ninteiro pode desaparecer.
+Dialogue: 0,0:17:34.87,0:17:38.45,Solo-Italics,Baek Yoonho,0000,0000,0000,,E nesse país, nós\Nprecisamos de um herói.
+Dialogue: 0,0:17:39.24,0:17:43.16,Solo-Main,Woo Jinchul,0000,0000,0000,,A equipe de ataque está\Npreparada para agir.
+Dialogue: 0,0:17:43.59,0:17:48.75,Solo-Main,Go Gunhee,0000,0000,0000,,Ótimo. Então, neste momento, declaro\Niniciada a quarta raid à Ilha de Jeju!
+Dialogue: 0,0:17:48.75,0:17:50.46,Solo-Main,Goto Ryuji,0000,0000,0000,,Todos os Caçadores, força total!
+Dialogue: 0,0:17:50.46,0:17:51.76,Solo-Main,Tawata/Fujishima/Izawa,0000,0000,0000,,Entendido!
+Dialogue: 0,0:17:52.42,0:17:55.50,Solo-Main,Choi Jong-in,0000,0000,0000,,A força diversionista\Ncomeçou a operar.
+Dialogue: 0,0:17:55.50,0:17:57.43,Solo-Main,Baek Yoonho,0000,0000,0000,,Que volume incrível de mana!
+Dialogue: 0,0:17:57.43,0:17:59.52,Solo-Main,Baek Yoonho,0000,0000,0000,,As formigas começaram a sair.
+Dialogue: 0,0:18:00.72,0:18:03.11,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Epa, algumas estão vindo pra cá!
+Dialogue: 0,0:18:03.11,0:18:04.94,Solo-Main,Choi Jong-in,0000,0000,0000,,Abra a escotilha, por favor.
+Dialogue: 0,0:18:04.94,0:18:06.87,Solo-Main,Choi Jong-in,0000,0000,0000,,Eu cuido disso.
+Dialogue: 0,0:18:16.45,0:18:17.57,Solo-Main,Min Byung-gu,0000,0000,0000,,Incrível...
+Dialogue: 0,0:18:18.14,0:18:19.95,Solo-Main,Choi Jong-in,0000,0000,0000,,São muitas mesmo...
+Dialogue: 0,0:18:21.48,0:18:23.60,Solo-Main,Choi Jong-in,0000,0000,0000,,Creio que terei que\Nforçar mais um pouco.
+Dialogue: 0,0:18:31.14,0:18:35.05,Solo-Italics,Choi Jong-in,0000,0000,0000,,Depois de tanto tempo,\Nfinalmente estou de volta.
+Dialogue: 0,0:18:35.48,0:18:36.76,Solo-Italics,Choi Jong-in,0000,0000,0000,,De volta a esta ilha.
+Dialogue: 0,0:18:39.64,0:18:42.43,Solo-Main,Ma Dongwook,0000,0000,0000,,Eis a nossa arma mais poderosa!\NQue bom tê-lo aqui!
+Dialogue: 0,0:18:43.00,0:18:45.85,Solo-Main,Choi Jong-in,0000,0000,0000,,Muito bem, pessoal. Vamos pousar?
+Dialogue: 0,0:18:48.31,0:18:53.15,Solo-Main,Ma Dongwook,0000,0000,0000,,Os Caçadores japoneses devem conseguir\Ndistrair as formigas por uma hora.
+Dialogue: 0,0:18:53.48,0:18:57.90,Solo-Main,Ma Dongwook,0000,0000,0000,,Ou seja, temos esse tempo\Npara acabar com a rainha.
+Dialogue: 0,0:18:57.90,0:18:59.19,Solo-Main,Ma Dongwook,0000,0000,0000,,Todos prontos?
+Dialogue: 0,0:19:00.66,0:19:02.68,Solo-Main,Ma Dongwook,0000,0000,0000,,Nós somos mais do que capazes!
+Dialogue: 0,0:19:03.75,0:19:04.91,Solo-Main,Ma Dongwook,0000,0000,0000,,Vamos lá!
+Dialogue: 0,0:19:07.29,0:19:11.49,Solo-Main,Sugimoto Reiji,0000,0000,0000,,Aqui também estamos prontos para\Ncomeçar. Inicie a interferência!
+Dialogue: 0,0:19:11.49,0:19:13.26,Solo-Main,Navy A,0000,0000,0000,,Iniciando sinal de interferência!
+Dialogue: 0,0:19:15.47,0:19:20.18,Solo-Italics,Sugimoto Reiji,0000,0000,0000,,Agora, as formigas não receberão\No sinal de emergência da rainha.
+Dialogue: 0,0:19:22.56,0:19:25.27,Solo-Main,Tawata Kanae,0000,0000,0000,,Kumamoto!\NSe ficar paralisado, vai morrer!
+Dialogue: 0,0:19:28.55,0:19:31.09,Solo-Main,Shimizu Akari,0000,0000,0000,,Em vez de esperarmos que\Noutros peguem a rainha,
+Dialogue: 0,0:19:31.09,0:19:34.57,Solo-Main,Shimizu Akari,0000,0000,0000,,não seria mais rápido nós\Nmatarmos todas as formigas?
+Dialogue: 0,0:19:34.57,0:19:36.75,Solo-Main,Fujishima Tatsumi,0000,0000,0000,,Talvez. Cadê o Kenzo?
+Dialogue: 0,0:19:37.39,0:19:40.32,Solo-Main,Shimizu Akari,0000,0000,0000,,Foi brincar pra lá.\NEle parece uma criança.
+Dialogue: 0,0:19:40.67,0:19:42.35,Solo-Main,KEI,0000,0000,0000,,Viu aquela labareda?
+Dialogue: 0,0:19:42.35,0:19:44.66,Solo-Main,Izawa Ippei,0000,0000,0000,,Deve ser aquele tal de Choi.
+Dialogue: 0,0:19:44.66,0:19:48.33,Solo-Main,KEI,0000,0000,0000,,Se eu lutasse contra ele,\Nacha que venceria?
+Dialogue: 0,0:19:48.33,0:19:50.83,Solo-Main,Izawa Ippei,0000,0000,0000,,Eu vou chutando a resposta,\Nvocê diz se tá quente ou frio.
+Dialogue: 0,0:19:52.79,0:19:57.19,Solo-Main,Choi Jong-in,0000,0000,0000,,Selei a entrada do ninho. Vamos em frente\Nenquanto estão sob a distração.
+Dialogue: 0,0:19:57.19,0:19:59.76,Solo-Main,Baek Yoonho,0000,0000,0000,,Há muitos túneis por aqui.
+Dialogue: 0,0:19:59.76,0:20:03.59,Solo-Main,Baek Yoonho,0000,0000,0000,,Como vamos saber qual leva à rainha?
+Dialogue: 0,0:20:11.74,0:20:13.99,Solo-Main,Baek Yoonho,0000,0000,0000,,Que raios foi isso?! Tome cuidado!
+Dialogue: 0,0:20:13.99,0:20:17.65,Solo-Main,Choi Jong-in,0000,0000,0000,,Verificar um por um tomaria\Num tempo que nós não temos.
+Dialogue: 0,0:20:18.26,0:20:21.87,Solo-Main,Choi Jong-in,0000,0000,0000,,Basta encontrar o que leva\Nao ponto mais profundo, não?
+Dialogue: 0,0:20:22.28,0:20:24.27,Solo-Main,Choi Jong-in,0000,0000,0000,,Creio que seja aquele.
+Dialogue: 0,0:20:30.80,0:20:32.84,Solo-Main,Sung Jinwoo,0000,0000,0000,,Terminei a missão diária.
+Dialogue: 0,0:20:33.30,0:20:36.00,Solo-Main,Sung Jinwoo,0000,0000,0000,,Não tem ninguém por aqui hoje...
+Dialogue: 0,0:20:37.97,0:20:42.24,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Todos os Caçadores Rank S\Nnaquela raid são poderosos.
+Dialogue: 0,0:20:42.70,0:20:45.09,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Devem conseguir lidar\Ncom isso sem problemas.
+Dialogue: 0,0:20:45.85,0:20:47.46,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Mesmo sem mim.
+Dialogue: 0,0:20:50.85,0:20:53.71,Solo-Main,Min Byung-gu,0000,0000,0000,,A rainha está mesmo aqui embaixo?
+Dialogue: 0,0:20:53.71,0:20:55.86,Solo-Main,Min Byung-gu,0000,0000,0000,,Talvez tenha abandonado\No ninho e fugido.
+Dialogue: 0,0:20:55.86,0:20:58.57,Solo-Main,Baek Yoonho,0000,0000,0000,,Estamos numa ilha.\NNão tem pra onde ela fugir.
+Dialogue: 0,0:20:58.57,0:21:01.03,Solo-Main,Choi Jong-in,0000,0000,0000,,Pessoal, venham ver isso, por favor.
+Dialogue: 0,0:21:04.42,0:21:06.14,Solo-Main,Min Byung-gu,0000,0000,0000,,Uma câmara de ovos!
+Dialogue: 0,0:21:06.14,0:21:08.66,Solo-Main,Choi Jong-in,0000,0000,0000,,A câmara da rainha deve estar perto.
+Dialogue: 0,0:21:09.94,0:21:11.16,Solo-Main,Cha Hae-in,0000,0000,0000,,Vejam ali.
+Dialogue: 0,0:21:12.05,0:21:13.33,Solo-Main,Cha Hae-in,0000,0000,0000,,Aquele ovo...
+Dialogue: 0,0:21:13.69,0:21:16.73,Solo-Main,Min Byung-gu,0000,0000,0000,,Não pode ser...\NAquilo é um ovo de formiga?
+Dialogue: 0,0:21:16.73,0:21:18.47,Solo-Main,Min Byung-gu,0000,0000,0000,,Daquele tamanho?!
+Dialogue: 0,0:21:18.87,0:21:23.47,Solo-Main,Baek Yoonho,0000,0000,0000,,Nós viemos aqui atrás da rainha.\NVamos nos focar nisso.
+Dialogue: 0,0:21:24.09,0:21:26.96,Solo-Italics,Baek Yoonho,0000,0000,0000,,Mas não os recrimino\Npor ficarem nervosos.
+Dialogue: 0,0:21:26.96,0:21:29.06,Solo-Italics,Baek Yoonho,0000,0000,0000,,Elas parecem não ter limites\Nem sua evolução.
+Dialogue: 0,0:21:29.59,0:21:34.31,Solo-Italics,Baek Yoonho,0000,0000,0000,,Se tem uma formiga por aí saída\Nde um ovo daquele tamanho...
+Dialogue: 0,0:21:35.59,0:21:36.52,Solo-Main,Tanaka Kenzo,0000,0000,0000,,Que merda!
+Dialogue: 0,0:21:36.91,0:21:39.99,Solo-Main,Tanaka Kenzo,0000,0000,0000,,Bichos irritantes.\NUm deles pegou o meu ombro.
+Dialogue: 0,0:21:39.99,0:21:43.59,Solo-Main,Shimizu Akari,0000,0000,0000,,Quer que eu te cure?\NMas não será de graça, hein?
+Dialogue: 0,0:21:43.59,0:21:46.74,Solo-Main,Tanaka Kenzo,0000,0000,0000,,Shimizu... Pare de enrolar\Ne faça logo seu trabalho!
+Dialogue: 0,0:21:46.74,0:21:48.61,Solo-Main,Shimizu Akari,0000,0000,0000,,Mas quero algo em troca.
+Dialogue: 0,0:21:48.61,0:21:50.75,Solo-Main,Shimizu Akari,0000,0000,0000,,E desta vez não é dinheiro!
+Dialogue: 0,0:21:52.11,0:21:53.74,Solo-Main,Tanaka Kenzo,0000,0000,0000,,Tem mais vindo aí...
+Dialogue: 0,0:21:54.11,0:21:57.25,Solo-Main,Tanaka Kenzo,0000,0000,0000,,Tá, tudo bem. O que você—
+Dialogue: 0,0:22:13.10,0:22:20.32,creditos,Creditos,0000,0000,0000,,LEGENDAS BRASILEIRAS\N\N\N{\fs10}TRADUÇÃO\N{\fs12}Marianna Brito\N\N{\fs10}EDIÇÃO\N{\fs12}Diego M. Rodeguero\N\N{\fs10}REVISÃO\N{\fs12}Henrique Calado\N\N{\fs10}PRODUÇÃO\N{\fs12}Gustavo Hoffmann
+Dialogue: 0,0:22:44.76,0:22:48.26,Sign,Sign,0000,0000,0000,,{\an1\fs35\c&H3F00B0&\bord1\3c&H2B0172&\pos(197.02,207.22)}Precisamos\Nde um herói
+Dialogue: 0,0:23:37.27,0:23:41.02,Sign,Sign,0000,0000,0000,,{\an1\fad(1187,1)\fs16\c&HFDF5F9&\3c&H5A0A38&\blur3\b0\pos(235.46,208.22)}Vai ficar ainda mais intenso

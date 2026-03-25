@@ -1,0 +1,263 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: Italique,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0002,0002,0025,1
+Style: TiretsDefault,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,1,0020,0002,0025,1
+Style: TiretsItalique,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,1,0020,0002,0025,1
+Style: Sign,Arial,18.0,&H00FFFFFF,&H000000FF,&H00292929,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0010,0010,0030,1
+Style: Titre,Times New Roman,18.0,&H00FFFFFF,&H000000FF,&H00292929,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0010,0010,0030,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.24,0:00:15.20,Default,Kenzo Tanaka,0000,0000,0000,,Y a un truc !
+Dialogue: 0,0:00:15.49,0:00:16.53,Default,Kenzo Tanaka,0000,0000,0000,,Sois prudent !
+Dialogue: 0,0:00:16.66,0:00:17.70,Default,Tatsumi Fujishima,0000,0000,0000,,Je sais !
+Dialogue: 0,0:00:19.53,0:00:20.54,Default,Kenzo Tanaka,0000,0000,0000,,Fumier, va !
+Dialogue: 0,0:00:22.20,0:00:23.29,Default,Tatsumi Fujishima,0000,0000,0000,,Kenzo !
+Dialogue: 0,0:00:29.09,0:00:30.13,Default,Tatsumi Fujishima,0000,0000,0000,,Je te tiens !
+Dialogue: 0,0:02:20.86,0:02:23.78,Italique,Ma Dongwook,0000,0000,0000,,Chaque fourmi\Na la force d’un rang S.
+Dialogue: 0,0:02:24.24,0:02:25.95,Italique,Ma Dongwook,0000,0000,0000,,Par contre… tiens !
+Dialogue: 0,0:02:27.50,0:02:29.33,Italique,Ma Dongwook,0000,0000,0000,,Elles restent des monstres.
+Dialogue: 0,0:02:29.62,0:02:31.00,Italique,Ma Dongwook,0000,0000,0000,,Des mouvements simples.
+Dialogue: 0,0:02:31.12,0:02:34.54,Italique,Ma Dongwook,0000,0000,0000,,Face aux nombreuses stratégies\Ndes chasseurs,
+Dialogue: 0,0:02:35.17,0:02:36.55,Italique,Ma Dongwook,0000,0000,0000,,elles ont aucune chance !
+Dialogue: 0,0:02:58.28,0:03:00.74,Default,Cha Hae-In,0000,0000,0000,,Les fourmis d’ici sont coriaces.
+Dialogue: 0,0:03:00.95,0:03:04.16,Default,Ma Dongwook,0000,0000,0000,,Oui, heureusement\Nqu’elles ne sont pas très nombreuses.
+Dialogue: 0,0:03:04.28,0:03:06.70,Default,Min Byeonggu,0000,0000,0000,,Elles peuvent appeler du renfort.
+Dialogue: 0,0:03:06.91,0:03:10.54,Default,Min Byeonggu,0000,0000,0000,,J’assure vos arrières,\Nn’ayez crainte.
+Dialogue: 0,0:03:10.87,0:03:14.25,Default,Baek Yunho,0000,0000,0000,,Venant de toi qui redoutais\Nles combats, c’est cocasse.
+Dialogue: 0,0:03:14.75,0:03:18.13,Default,Min Byeonggu,0000,0000,0000,,Tu peux parler, Yunho.
+Dialogue: 0,0:03:18.84,0:03:20.72,Default,Min Byeonggu,0000,0000,0000,,Tu débutes ou quoi ?
+Dialogue: 0,0:03:20.88,0:03:25.39,Default,Min Byeonggu,0000,0000,0000,,N’oublie pas qu’elles peuvent encore\Nbouger un temps, même la tête écrasée.
+Dialogue: 0,0:03:25.85,0:03:28.64,Default,Min Byeonggu,0000,0000,0000,,Casser leurs pattes,\Nc’est le minimum à faire.
+Dialogue: 0,0:03:29.81,0:03:30.85,Default,Baek Yunho,0000,0000,0000,,D’accord…
+Dialogue: 0,0:03:32.14,0:03:34.60,Default,Ma Dongwook,0000,0000,0000,,Plus on avance,\Nplus elles sont fortes,
+Dialogue: 0,0:03:34.77,0:03:37.02,Default,Ma Dongwook,0000,0000,0000,,et on a pas encore vu les bipèdes.
+Dialogue: 0,0:03:37.40,0:03:39.19,Default,Baek Yunho,0000,0000,0000,,En effet, elles sont sûrement
+Dialogue: 0,0:03:39.32,0:03:42.45,Default,Baek Yunho,0000,0000,0000,,de l’ancienne génération\Nde gardes de la reine.
+Dialogue: 0,0:03:42.74,0:03:47.08,Default,Lim Taegyu,0000,0000,0000,,Ce n’est qu’un avant-goût.\NOn est vraiment sur le bon chemin ?
+Dialogue: 0,0:03:47.20,0:03:49.12,Default,Choi Jongin,0000,0000,0000,,C’est le bon. Enfin, je crois.
+Dialogue: 0,0:03:49.29,0:03:50.16,Default,Baek Yunho,0000,0000,0000,,Hé !
+Dialogue: 0,0:03:50.54,0:03:51.70,Default,Cha Hae-In,0000,0000,0000,,Pas d’inquiétude.
+Dialogue: 0,0:03:51.83,0:03:55.88,Default,Cha Hae-In,0000,0000,0000,,Je sens légèrement l’odeur\Nd’un puissant monstre, au fond.
+Dialogue: 0,0:03:56.21,0:03:58.47,Default,Choi Jongin,0000,0000,0000,,Oh, à cette distance,
+Dialogue: 0,0:03:58.60,0:04:01.48,Default,Choi Jongin,0000,0000,0000,,le président Baek\Ndevrait réussir à le voir, non ?
+Dialogue: 0,0:04:02.17,0:04:03.09,Default,Baek Yunho,0000,0000,0000,,Franchement…
+Dialogue: 0,0:04:18.73,0:04:19.86,Default,Baek Yunho,0000,0000,0000,,Trouvée.
+Dialogue: 0,0:04:24.07,0:04:26.49,Default,Baek Yunho,0000,0000,0000,,La reine est\Nau fin fond de ce tunnel,
+Dialogue: 0,0:04:26.61,0:04:28.83,Default,Baek Yunho,0000,0000,0000,,protégée par de nombreux gardes.
+Dialogue: 0,0:04:29.58,0:04:33.83,Default,Baek Yunho,0000,0000,0000,,L’équipe de diversion ne pouvait pas\Nleurrer toutes les fourmis.
+Dialogue: 0,0:04:34.25,0:04:38.09,Default,Baek Yunho,0000,0000,0000,,Elle a de nombreux gardes\Naussi forts que des rang S.
+Dialogue: 0,0:04:38.21,0:04:40.13,Default,Baek Yunho,0000,0000,0000,,On ignore la puissance de la reine.
+Dialogue: 0,0:04:40.25,0:04:42.01,Default,Baek Yunho,0000,0000,0000,,La bataille sera rude,
+Dialogue: 0,0:04:42.21,0:04:45.30,Default,Baek Yunho,0000,0000,0000,,mais je sais\Nque notre groupe peut gagner !
+Dialogue: 0,0:04:46.84,0:04:47.89,Default,Baek Yunho,0000,0000,0000,,En avant !
+Dialogue: 0,0:04:48.43,0:04:49.39,Default,Hae-in/Jongin/Byeonggu/Dongwook/Taegyu,0000,0000,0000,,Oui !
+Dialogue: 0,0:04:55.48,0:04:56.74,Default,Izawa Ippei,0000,0000,0000,,C’est par ici ?
+Dialogue: 0,0:04:56.87,0:05:00.04,Default,Izawa Ippei,0000,0000,0000,,On est venus\Ncar on a perdu le contact avec Charlie…
+Dialogue: 0,0:05:00.23,0:05:02.36,Default,Kei,0000,0000,0000,,Ils sont passés où ?
+Dialogue: 0,0:05:03.53,0:05:06.36,Italique,Izawa Ippei,0000,0000,0000,,Ils ont tué des fourmis\Nsans difficulté.
+Dialogue: 0,0:05:09.20,0:05:10.95,Italique,Izawa Ippei,0000,0000,0000,,Les lunettes de Fujishima ?
+Dialogue: 0,0:05:12.74,0:05:13.79,Italique,Izawa Ippei,0000,0000,0000,,Me dites pas que…
+Dialogue: 0,0:05:17.88,0:05:18.77,Default,Izawa Ippei,0000,0000,0000,,Ça va ?
+Dialogue: 0,0:05:19.71,0:05:22.92,Italique,Kei,0000,0000,0000,,C’est quoi,\Ncette odeur épouvantable ?
+Dialogue: 0,0:05:24.30,0:05:27.34,Italique,Kei,0000,0000,0000,,Je n’ai jamais senti\Nune puanteur pareille !
+Dialogue: 0,0:05:43.86,0:05:45.78,Default,Atsushi Kumamoto,0000,0000,0000,,Des nouvelles de Charlie ?
+Dialogue: 0,0:05:46.03,0:05:47.53,Default,Kanae Tawata,0000,0000,0000,,Non, aucune.
+Dialogue: 0,0:05:47.70,0:05:49.11,Default,Atsushi Kumamoto,0000,0000,0000,,Ils ont eu un problème ?
+Dialogue: 0,0:05:49.24,0:05:51.28,Default,Kanae Tawata,0000,0000,0000,,On n’a pas le temps de s’en faire.
+Dialogue: 0,0:05:54.20,0:05:56.00,Default,Kanae Tawata,0000,0000,0000,,Bats-toi bien, cette fois.
+Dialogue: 0,0:05:56.12,0:05:58.00,Default,Atsushi Kumamoto,0000,0000,0000,,Bon, pas le choix…
+Dialogue: 0,0:06:05.00,0:06:08.17,Default,Choi Jongin,0000,0000,0000,,Eh bien, quel accueil grandiose !
+Dialogue: 0,0:06:10.01,0:06:14.10,Default,Min Byeonggu,0000,0000,0000,,On doit leur répondre\Navec les mêmes égards !
+Dialogue: 0,0:06:22.11,0:06:23.73,Default,Ma Dongwook,0000,0000,0000,,Bien, comme prévu,
+Dialogue: 0,0:06:23.94,0:06:27.40,Default,Ma Dongwook,0000,0000,0000,,je compte sur toi, M. l’Arme ultime !
+Dialogue: 0,0:06:27.65,0:06:29.11,Default,Choi Jongin,0000,0000,0000,,Je me tiens prêt.
+Dialogue: 0,0:06:29.78,0:06:31.86,Default,Ma Dongwook,0000,0000,0000,,Votre adversaire, c’est moi !
+Dialogue: 0,0:06:40.87,0:06:44.09,Default,Choi Jongin,0000,0000,0000,,D’habitude, je n’utilise pas\Ntoute ma puissance,
+Dialogue: 0,0:06:44.88,0:06:48.05,Default,Choi Jongin,0000,0000,0000,,mais aujourd’hui,\Nje ne peux pas me retenir !
+Dialogue: 0,0:06:58.10,0:07:01.48,Italique,Baek Yunho,0000,0000,0000,,Il dit vrai.\NAucune raison d’y aller mollo.
+Dialogue: 0,0:07:01.64,0:07:04.36,Italique,Baek Yunho,0000,0000,0000,,Même si ça doit me rendre laid !
+Dialogue: 0,0:07:04.94,0:07:09.28,Italique,Baek Yunho,0000,0000,0000,,Je tuerai ces misérables fourmis\Njusqu’à la dernière !
+Dialogue: 0,0:07:20.66,0:07:22.08,Italique,Cha Hae-In,0000,0000,0000,,Voilà donc
+Dialogue: 0,0:07:23.21,0:07:25.33,Italique,Cha Hae-In,0000,0000,0000,,la forme bestiale\Ndu président Baek…
+Dialogue: 0,0:07:28.17,0:07:29.51,Italique,Caméraman,0000,0000,0000,,Ça a commencé.
+Dialogue: 0,0:07:30.25,0:07:34.72,Italique,Producteur TV,0000,0000,0000,,On a plus de 80 % d’audimat !\NRapproche-toi pour qu’on voie mieux !
+Dialogue: 0,0:07:34.89,0:07:37.10,Italique,Caméraman,0000,0000,0000,,Plus de 80 %, il a dit ?
+Dialogue: 0,0:07:37.51,0:07:39.18,Italique,Caméraman,0000,0000,0000,,Je dois être à la hauteur.
+Dialogue: 0,0:07:41.10,0:07:43.72,Default,Min Byeonggu,0000,0000,0000,,On est dans la salle\Nd’un boss de rang S.
+Dialogue: 0,0:07:43.84,0:07:45.11,Default,Min Byeonggu,0000,0000,0000,,Vous voulez mourir ?
+Dialogue: 0,0:07:45.24,0:07:47.36,Default,Caméraman,0000,0000,0000,,Non… bien sûr que non !
+Dialogue: 0,0:07:47.52,0:07:49.23,Default,Min Byeonggu,0000,0000,0000,,Restez derrière moi.
+Dialogue: 0,0:07:49.73,0:07:51.69,Default,Min Byeonggu,0000,0000,0000,,Ça va devenir très violent.
+Dialogue: 0,0:07:53.78,0:07:55.16,Italique,Présentatrice,0000,0000,0000,,Regardez !
+Dialogue: 0,0:07:55.28,0:07:58.45,Italique,Présentatrice,0000,0000,0000,,Les chasseurs de rang S\Nont enfin trouvé la reine.
+Dialogue: 0,0:07:58.62,0:08:03.12,Italique,Présentatrice,0000,0000,0000,,Ils poursuivent cette bataille acharnée\Npour accomplir leur objectif.
+Dialogue: 0,0:08:03.72,0:08:06.81,Italique,Présentatrice,0000,0000,0000,,Les rang S n’ont pas l’habitude\Nde combattre ensemble,
+Dialogue: 0,0:08:06.93,0:08:10.42,Italique,Présentatrice,0000,0000,0000,,mais ils nous montrent\Nun magnifique travail d’équipe.
+Dialogue: 0,0:09:14.74,0:09:18.28,Italique,Présentatrice,0000,0000,0000,,Les attaques perçantes\Nde la chasseuse Cha tranchent une fourmi.
+Dialogue: 0,0:09:19.87,0:09:21.20,Italique,Présentatrice,0000,0000,0000,,Elle l’a vaincue !
+Dialogue: 0,0:09:21.99,0:09:24.16,Italique,Présentatrice,0000,0000,0000,,Le dernier garde a été écrasé.
+Dialogue: 0,0:09:34.55,0:09:37.09,Default,Ma Dongwook,0000,0000,0000,,Maintenant !\NAttaquez tous d’un coup !
+Dialogue: 0,0:09:39.97,0:09:42.01,Default,Lim Taegyu,0000,0000,0000,,Mange-toi ça !
+Dialogue: 0,0:09:49.48,0:09:53.36,Default,Baek Yunho,0000,0000,0000,,Une reine sans garde\Nn’est qu’une cible !
+Dialogue: 0,0:10:10.17,0:10:14.17,Default,Min Byeonggu,0000,0000,0000,,Tant que je serai là,\Nvous vous relèverez sans cesse !
+Dialogue: 0,0:10:20.09,0:10:23.01,Default,Ma Dongwook,0000,0000,0000,,Je ne te laisserai pas\Napprocher notre soigneur.
+Dialogue: 0,0:10:23.39,0:10:25.47,Default,Choi Jongin,0000,0000,0000,,Continuez à l’immobiliser !
+Dialogue: 0,0:10:43.49,0:10:46.20,Default,Ma Dongwook,0000,0000,0000,,Il lui restait autant de force ?
+Dialogue: 0,0:10:49.54,0:10:52.29,Italique,Baek Yunho,0000,0000,0000,,Un ultime cri avant de mourir ?\NNon, je pense pas…
+Dialogue: 0,0:10:53.92,0:10:55.09,Default,Jongin/Taegyu,0000,0000,0000,,Reste là !
+Dialogue: 0,0:11:02.47,0:11:03.43,Default,Yunho/Dongwook,0000,0000,0000,,Chasseuse Cha !
+Dialogue: 0,0:11:03.59,0:11:04.55,Default,Cha Hae-In,0000,0000,0000,,Je me lance !
+Dialogue: 0,0:11:06.85,0:11:08.18,Default,Min Byeonggu,0000,0000,0000,,Un dernier assaut !
+Dialogue: 0,0:12:01.24,0:12:02.36,Default,Présentatrice,0000,0000,0000,,Ils ont réussi !
+Dialogue: 0,0:12:05.99,0:12:06.91,Default,Woo Jincheol,0000,0000,0000,,M. le président.
+Dialogue: 0,0:12:09.99,0:12:12.41,Default,Go Gunhee,0000,0000,0000,,Mission accomplie, je suppose ?
+Dialogue: 0,0:12:13.58,0:12:15.79,Default,Cha Hae-In,0000,0000,0000,,C’est terminé, n’est-ce pas ?
+Dialogue: 0,0:12:16.25,0:12:17.46,Default,Lim Taegyu,0000,0000,0000,,On dirait.
+Dialogue: 0,0:12:17.63,0:12:21.46,Default,Lim Taegyu,0000,0000,0000,,Sans la reine, les fourmis restantes\Nmourront dans l’année.
+Dialogue: 0,0:12:21.63,0:12:24.51,Default,Ma Dongwook,0000,0000,0000,,Les gens pourront\Nse réinstaller sur l’île.
+Dialogue: 0,0:12:24.68,0:12:27.14,Default,Baek Yunho,0000,0000,0000,,Par contre, le cri qu’elle a poussé…
+Dialogue: 0,0:12:27.68,0:12:29.43,Default,Min Byeonggu,0000,0000,0000,,Qu’est-ce que ça peut faire ?
+Dialogue: 0,0:12:29.60,0:12:31.89,Default,Min Byeonggu,0000,0000,0000,,On a battu la reine des fourmis !
+Dialogue: 0,0:12:32.39,0:12:35.27,Default,Min Byeonggu,0000,0000,0000,,On a vengé la mort d’Eunseok !
+Dialogue: 0,0:12:43.94,0:12:45.20,Default,Baek Yunho,0000,0000,0000,,Tu as raison.
+Dialogue: 0,0:12:49.91,0:12:53.08,Default,Reiji Sugimoto,0000,0000,0000,,C’est terrible !\NLes fourmis retournent dans le nid !
+Dialogue: 0,0:12:53.25,0:12:54.25,Italique,Ryûji Gotô,0000,0000,0000,,Quoi ?
+Dialogue: 0,0:12:54.37,0:12:56.00,Italique,Reiji Sugimoto,0000,0000,0000,,L’interférence ne marche plus.
+Dialogue: 0,0:12:57.17,0:12:58.67,Default,Ryûji Gotô,0000,0000,0000,,Que se passe-t-il ?
+Dialogue: 0,0:12:59.25,0:13:01.17,Default,Ryûji Gotô,0000,0000,0000,,Renseigne-toi et préviens-moi.
+Dialogue: 0,0:13:09.14,0:13:12.43,Default,Choi Jongin,0000,0000,0000,,Ma cage embrasée a été brisée ?
+Dialogue: 0,0:13:14.02,0:13:17.31,Default,Lim Taegyu,0000,0000,0000,,Comment ça se fait ?\NIl nous reste pourtant du temps !
+Dialogue: 0,0:13:17.48,0:13:20.36,Default,Min Byeonggu,0000,0000,0000,,Alors,\Nle cri de la reine était destiné…
+Dialogue: 0,0:13:20.48,0:13:21.82,Default,Ma Dongwook,0000,0000,0000,,… à ses camarades ?
+Dialogue: 0,0:13:21.94,0:13:26.20,Default,Cha Hae-In,0000,0000,0000,,Les fourmis dehors ne sont pas\Nen mesure de briser la cage !
+Dialogue: 0,0:13:26.36,0:13:27.28,Default,Min Byeonggu,0000,0000,0000,,Mais alors…
+Dialogue: 0,0:13:27.40,0:13:28.28,Default,Baek Yunho,0000,0000,0000,,Préparez-vous.
+Dialogue: 0,0:13:50.26,0:13:52.26,Default,Baek Yunho,0000,0000,0000,,Une fourmi noire ?
+Dialogue: 0,0:14:00.35,0:14:02.94,Italique,Cha Hae-In,0000,0000,0000,,Sa présence\Nme donne la chair de poule.
+Dialogue: 0,0:14:03.07,0:14:04.48,Italique,Cha Hae-In,0000,0000,0000,,Et cette odeur…
+Dialogue: 0,0:14:04.82,0:14:05.90,Italique,Cha Hae-In,0000,0000,0000,,Comment ça se fait ?
+Dialogue: 0,0:14:06.24,0:14:09.11,Italique,Cha Hae-In,0000,0000,0000,,Ce n’est pas celle\Nd’un monstre ordinaire !
+Dialogue: 0,0:14:09.36,0:14:12.58,Italique,Ma Dongwook,0000,0000,0000,,Pas le temps d’hésiter,\Nil faut l’arrêter.
+Dialogue: 0,0:14:18.66,0:14:20.75,Italique,Ma Dongwook,0000,0000,0000,,Ce monstre nous a ignorés ?
+Dialogue: 0,0:14:58.58,0:14:59.62,Default,Ma Dongwook,0000,0000,0000,,Mlle Cha !
+Dialogue: 0,0:15:02.63,0:15:03.75,Default,Ma Dongwook,0000,0000,0000,,Tu m’auras pas !
+Dialogue: 0,0:15:30.61,0:15:31.82,Italique,Lim Taegyu,0000,0000,0000,,Prends ça !
+Dialogue: 0,0:15:34.49,0:15:35.74,Italique,Lim Taegyu,0000,0000,0000,,Il l’a arrêtée ?
+Dialogue: 0,0:15:45.08,0:15:48.75,Default,Ma Dongwook,0000,0000,0000,,Surpris ? On a un puissant allié !
+Dialogue: 0,0:15:49.30,0:15:52.30,Italique,Min Byeonggu,0000,0000,0000,,Pour me protéger,\Nj’utilise la technique Camouflage.
+Dialogue: 0,0:15:52.59,0:15:55.76,Italique,Min Byeonggu,0000,0000,0000,,Elle permet de me cacher,\Ncomme la technique Invisibilité.
+Dialogue: 0,0:15:55.91,0:16:00.10,Italique,Min Byeonggu,0000,0000,0000,,Par contre, je ne peux pas bouger.\NMais pour un soigneur, ça suffit.
+Dialogue: 0,0:16:00.39,0:16:03.44,Italique,Min Byeonggu,0000,0000,0000,,Tant que je serai là,\Nnotre équipe ne perdra pas.
+Dialogue: 0,0:16:17.07,0:16:19.28,Italique,Min Byeonggu,0000,0000,0000,,J’utilise pourtant Camouflage.
+Dialogue: 0,0:16:19.62,0:16:20.66,Italique,Min Byeonggu,0000,0000,0000,,J’hallucine…
+Dialogue: 0,0:16:22.75,0:16:23.75,Default,Baek Yunho,0000,0000,0000,,Byeonggu !
+Dialogue: 0,0:16:34.13,0:16:35.93,Default,Baek Yunho,0000,0000,0000,,Byeonggu !
+Dialogue: 0,0:16:37.09,0:16:38.43,Default,Min Byeonggu,0000,0000,0000,,Yunho…
+Dialogue: 0,0:16:39.01,0:16:40.18,Default,Min Byeonggu,0000,0000,0000,,fuis…
+Dialogue: 0,0:17:05.54,0:17:08.13,Default,Roi des fourmis,0000,0000,0000,,Yunho…
+Dialogue: 0,0:17:09.75,0:17:12.09,Default,Roi des fourmis,0000,0000,0000,,fuis…
+Dialogue: 0,0:17:14.67,0:17:18.39,Default,Roi des fourmis,0000,0000,0000,,Yunho…
+Dialogue: 0,0:17:19.85,0:17:21.39,Default,Roi des fourmis/Byeonggu,0000,0000,0000,,fuis…
+Dialogue: 0,0:17:22.35,0:17:24.14,Default,Baek Yunho,0000,0000,0000,,Espèce d’enfoiré…
+Dialogue: 0,0:17:25.43,0:17:28.98,Default,Roi des fourmis,0000,0000,0000,,Vous êtes tous faibles.
+Dialogue: 0,0:17:29.65,0:17:31.73,Default,Roi des fourmis,0000,0000,0000,,Vous avez osé
+Dialogue: 0,0:17:32.07,0:17:35.24,Default,Roi des fourmis,0000,0000,0000,,tuer notre reine.
+Dialogue: 0,0:17:35.40,0:17:37.95,Default,Roi des fourmis,0000,0000,0000,,Tuer vos soldats en retour
+Dialogue: 0,0:17:38.11,0:17:40.28,Default,Roi des fourmis,0000,0000,0000,,ne suffira jamais.
+Dialogue: 0,0:17:40.78,0:17:42.66,Default,Roi des fourmis,0000,0000,0000,,Où est…
+Dialogue: 0,0:17:42.83,0:17:45.58,Default,Roi des fourmis,0000,0000,0000,,votre roi ?
+Dialogue: 0,0:17:46.12,0:17:47.25,Default,Baek Yunho,0000,0000,0000,,Notre roi ?
+Dialogue: 0,0:17:50.79,0:17:52.96,Default,Roi des fourmis,0000,0000,0000,,Dehors, je sens…
+Dialogue: 0,0:17:53.30,0:17:55.17,Default,Roi des fourmis,0000,0000,0000,,un être puissant.
+Dialogue: 0,0:18:03.10,0:18:05.97,Default,Baek Yunho,0000,0000,0000,,Dehors ? Il parle de Gotô ?
+Dialogue: 0,0:18:06.35,0:18:08.77,Default,Baek Yunho,0000,0000,0000,,Bon, je réfléchirai plus tard.
+Dialogue: 0,0:18:08.94,0:18:11.31,Default,Baek Yunho,0000,0000,0000,,On doit vite déguerpir d’ici.
+Dialogue: 0,0:18:13.82,0:18:16.61,Default,Baek Yunho,0000,0000,0000,,Bon sang,\Nvoilà les autres fourmis !
+Dialogue: 0,0:18:19.40,0:18:20.57,Default,Mari Ishida,0000,0000,0000,,C’est bizarre.
+Dialogue: 0,0:18:21.03,0:18:25.16,Default,Mari Ishida,0000,0000,0000,,Il n’y a pas que Charlie…\NDelta ne répond pas non plus.
+Dialogue: 0,0:18:25.33,0:18:27.16,Default,Ryûji Gotô,0000,0000,0000,,Le réseau est mauvais ?
+Dialogue: 0,0:18:27.75,0:18:30.58,Default,Ryûji Gotô,0000,0000,0000,,Ils doivent pourtant\Nêtre à proximité.
+Dialogue: 0,0:18:31.00,0:18:32.75,Default,Ryûji Gotô,0000,0000,0000,,Bravo, réponds.
+Dialogue: 0,0:18:33.04,0:18:34.38,Default,Kanae Tawata,0000,0000,0000,,Ici Bravo.
+Dialogue: 0,0:18:34.67,0:18:37.05,Italique,Ryûji Gotô,0000,0000,0000,,Tu arrives à contacter\NCharlie et Delta ?
+Dialogue: 0,0:18:37.59,0:18:40.59,Default,Kanae Tawata,0000,0000,0000,,Négatif. Ils ne répondent plus\Ndepuis un moment.
+Dialogue: 0,0:18:41.18,0:18:42.93,Italique,Kanae Tawata,0000,0000,0000,,Je vais les voir ?
+Dialogue: 0,0:18:43.26,0:18:45.26,Default,Ryûji Gotô,0000,0000,0000,,Non, on est déjà en route.
+Dialogue: 0,0:18:45.89,0:18:49.10,Default,Ryûji Gotô,0000,0000,0000,,On se retrouvera\Nau point de rendez-vous après.
+Dialogue: 0,0:18:49.27,0:18:50.48,Italique,Kanae Tawata,0000,0000,0000,,Entendu.
+Dialogue: 0,0:18:55.44,0:18:56.73,Default,Mari Ishida,0000,0000,0000,,Quelle horreur !
+Dialogue: 0,0:18:59.07,0:19:00.20,Italique,Shigeo Matsumoto,0000,0000,0000,,C’est moi.
+Dialogue: 0,0:19:00.70,0:19:03.41,Default,Shigeo Matsumoto,0000,0000,0000,,Tu ne m’as pas encore\Nfait ton rapport.
+Dialogue: 0,0:19:03.87,0:19:05.53,Italique,Ryûji Gotô,0000,0000,0000,,Nous avons eu des morts.
+Dialogue: 0,0:19:07.08,0:19:09.08,Default,Shigeo Matsumoto,0000,0000,0000,,Voilà qui est fâcheux.
+Dialogue: 0,0:19:09.37,0:19:13.63,Default,Shigeo Matsumoto,0000,0000,0000,,Tu n’avais pas ordonné\Nde minimiser les risques ?
+Dialogue: 0,0:19:13.96,0:19:16.17,Italique,Ryûji Gotô,0000,0000,0000,,Ils n’étaient pas assez forts.
+Dialogue: 0,0:19:16.59,0:19:18.46,Default,Shigeo Matsumoto,0000,0000,0000,,Je te reconnais bien là.
+Dialogue: 0,0:19:18.67,0:19:23.14,Default,Shigeo Matsumoto,0000,0000,0000,,Tant que tu es là, au diable\Ns’il manque quelques éléments.
+Dialogue: 0,0:19:23.72,0:19:26.81,Italique,Shigeo Matsumoto,0000,0000,0000,,À part ça,\Nnos alliés sont-ils avec la reine ?
+Dialogue: 0,0:19:26.93,0:19:27.81,Default,Ryûji Gotô,0000,0000,0000,,Oui.
+Dialogue: 0,0:19:27.97,0:19:31.56,Default,Ryûji Gotô,0000,0000,0000,,Cependant,\Nl’interférence du signal ne marche plus.
+Dialogue: 0,0:19:31.69,0:19:34.86,Default,Ryûji Gotô,0000,0000,0000,,Les fourmis retournent\Ndans le nid de la reine.
+Dialogue: 0,0:19:36.44,0:19:39.82,Italique,Shigeo Matsumoto,0000,0000,0000,,Quelles sont les probabilités\Nqu’ils s’en sortent vivants ?
+Dialogue: 0,0:19:40.02,0:19:41.80,Default,Ryûji Gotô,0000,0000,0000,,Étant donné leur force de frappe,
+Dialogue: 0,0:19:42.32,0:19:44.28,Default,Ryûji Gotô,0000,0000,0000,,aucune chance.
+Dialogue: 0,0:19:44.82,0:19:46.24,Default,Shigeo Matsumoto,0000,0000,0000,,Parfait.
+Dialogue: 0,0:19:46.70,0:19:47.88,Default,Shigeo Matsumoto,0000,0000,0000,,Nos chasseurs japonais
+Dialogue: 0,0:19:48.00,0:19:51.55,Default,Shigeo Matsumoto,0000,0000,0000,,ont tout donné dans la bataille,\Nmais avec la perte de nos alliés,
+Dialogue: 0,0:19:51.68,0:19:53.71,Default,Shigeo Matsumoto,0000,0000,0000,,ils doivent battre en retraite.
+Dialogue: 0,0:19:53.87,0:19:55.38,Default,Shigeo Matsumoto,0000,0000,0000,,Pour honorer leur sacrifice,
+Dialogue: 0,0:19:55.50,0:20:00.01,Default,Shigeo Matsumoto,0000,0000,0000,,la seconde équipe qui attend en mer\Nattaquera l’île de Jeju.
+Dialogue: 0,0:20:00.21,0:20:02.59,Default,Shigeo Matsumoto,0000,0000,0000,,Les forces armées rivales\Nseront décimées,
+Dialogue: 0,0:20:02.72,0:20:06.07,Default,Shigeo Matsumoto,0000,0000,0000,,et nous aurons la gloire\Nd’avoir conquis le portail de niveau S.
+Dialogue: 0,0:20:06.64,0:20:07.85,Italique,Shigeo Matsumoto,0000,0000,0000,,C’est une opportunité.
+Dialogue: 0,0:20:07.97,0:20:12.14,Italique,Shigeo Matsumoto,0000,0000,0000,,Retirez-vous\Net retrouvez la deuxième flotte !
+Dialogue: 0,0:20:13.69,0:20:14.69,Default,Ryûji Gotô,0000,0000,0000,,Soit.
+Dialogue: 0,0:20:15.81,0:20:18.94,Default,Ryûji Gotô,0000,0000,0000,,Le président Matsumoto\Na ordonné notre retraite.
+Dialogue: 0,0:20:19.40,0:20:20.90,Default,Ryûji Gotô,0000,0000,0000,,On récupérera les corps…
+Dialogue: 0,0:20:26.20,0:20:27.20,Default,Minoru Hoshino,0000,0000,0000,,Ishida !
+Dialogue: 0,0:20:27.37,0:20:28.24,Default,Ryûji Gotô,0000,0000,0000,,Pars.
+Dialogue: 0,0:20:29.16,0:20:33.37,Default,Ryûji Gotô,0000,0000,0000,,Rejoins la mer avec Bravo\Net préparez-vous pour la suite.
+Dialogue: 0,0:20:33.54,0:20:34.46,Default,Minoru Hoshino,0000,0000,0000,,Mais…
+Dialogue: 0,0:20:34.58,0:20:36.71,Default,Ryûji Gotô,0000,0000,0000,,Si tu restes,\Ntu ne feras que me gêner.
+Dialogue: 0,0:20:38.29,0:20:40.05,TiretsDefault,Ryûji/Minoru,0000,0000,0000,,– Va-t’en.\N– Très bien.
+Dialogue: 0,0:20:43.55,0:20:45.76,Italique,Ryûji Gotô,0000,0000,0000,,Elle a une présence effroyable.
+Dialogue: 0,0:20:46.55,0:20:49.01,Default,Roi des fourmis,0000,0000,0000,,C’est toi, le roi ?
+Dialogue: 0,0:20:50.06,0:20:52.98,Italique,Ryûji Gotô,0000,0000,0000,,Intéressant. Une fourmi qui parle.
+Dialogue: 0,0:20:54.94,0:20:55.94,Default,Ryûji Gotô,0000,0000,0000,,Le roi ?
+Dialogue: 0,0:20:56.19,0:20:58.94,Default,Ryûji Gotô,0000,0000,0000,,Tout à fait. Je suis le roi.
+Dialogue: 0,0:21:03.90,0:21:05.90,Italique,Ryûji Gotô,0000,0000,0000,,C’est quoi, ce mana ?
+Dialogue: 0,0:21:06.24,0:21:07.70,Italique,Ryûji Gotô,0000,0000,0000,,Cette sensation…
+Dialogue: 0,0:21:07.95,0:21:10.08,Italique,Ryûji Gotô,0000,0000,0000,,Je l’ai déjà ressentie, auparavant.
+Dialogue: 0,0:21:11.41,0:21:12.62,Italique,Ryûji Gotô,0000,0000,0000,,C’est…
+Dialogue: 0,0:21:22.25,0:21:24.76,Default,Baek Yunho,0000,0000,0000,,Choi Jongin,\Naugmente ta puissance de tir !
+Dialogue: 0,0:21:25.05,0:21:28.68,Default,Choi Jongin,0000,0000,0000,,Ne me demande pas l’impossible !\NJ’ai atteint mes limites !
+Dialogue: 0,0:21:28.97,0:21:31.39,Italique,Baek Yunho,0000,0000,0000,,On est tous grièvement blessés.
+Dialogue: 0,0:21:31.68,0:21:34.56,Italique,Baek Yunho,0000,0000,0000,,On peut pas se battre correctement.
+Dialogue: 0,0:21:34.81,0:21:37.52,Italique,Baek Yunho,0000,0000,0000,,Et Choi, notre dernier espoir, est…
+Dialogue: 0,0:21:43.65,0:21:45.11,Default,Baek Yunho,0000,0000,0000,,C’est fini pour nous.
+Dialogue: 0,0:21:53.70,0:21:54.75,Italique,Baek Yunho,0000,0000,0000,,Que sont…
+Dialogue: 0,0:21:55.41,0:21:57.21,Italique,Baek Yunho,0000,0000,0000,,ces soldats noirs ?
+Dialogue: 0,0:22:03.64,0:22:04.78,Default,Sung Jinwoo,0000,0000,0000,,Échange.
+Dialogue: 0,0:23:28.88,0:23:30.88,Default,credits,0000,0000,0000,,Traduction : Marylou Leclerc\NAdaptation : Kiddo Maxx
+Dialogue: 0,0:23:32.22,0:23:34.01,Default,credits,0000,0000,0000,,Repérage : Clément Hautavoine\NRelecture : DW512ZC

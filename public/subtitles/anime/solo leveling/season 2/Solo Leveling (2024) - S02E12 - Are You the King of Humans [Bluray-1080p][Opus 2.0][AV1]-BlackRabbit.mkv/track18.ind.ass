@@ -1,0 +1,342 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: OS,Arial,18.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0001,0001,0015,0
+Style: Italics,Arial,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0020,0020,0022,0
+Style: On Top,Arial,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0022,0
+Style: DefaultLow,Arial,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0020,0020,0010,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.25,0:00:10.25,Default,,0000,0000,0000,,Apa yang terjadi?
+Dialogue: 0,0:00:11.97,0:00:13.81,Default,,0000,0000,0000,,Prajurit hitam ini adalah…
+Dialogue: 0,0:00:38.47,0:00:39.93,Default,,0000,0000,0000,,Mereka ini siapa...
+Dialogue: 0,0:00:47.23,0:00:49.27,Default,,0000,0000,0000,,Mungkinkah...
+Dialogue: 0,0:00:50.65,0:00:51.55,Default,,0000,0000,0000,,Kenapa...
+Dialogue: 0,0:00:51.55,0:00:52.99,Default,,0000,0000,0000,,Kenapa dia bisa ada di sini?
+Dialogue: 0,0:01:02.21,0:01:03.51,Default,,0000,0000,0000,,SINYAL HILANG
+Dialogue: 0,0:01:03.51,0:01:04.66,Default,,0000,0000,0000,,Pak Song.
+Dialogue: 0,0:01:05.21,0:01:08.71,Default,,0000,0000,0000,,Apakah ini berarti siaran terputus?
+Dialogue: 0,0:01:11.19,0:01:14.19,Default,,0000,0000,0000,,Apa yang sebenarnya terjadi?
+Dialogue: 0,0:01:17.69,0:01:18.63,Default,,0000,0000,0000,,Telepon tidak bisa dihubungi,
+Dialogue: 0,0:01:18.63,0:01:20.19,Default,,0000,0000,0000,,dan situasinya di lapangan\Ntampaknya kacau...
+Dialogue: 0,0:01:20.81,0:01:23.13,Default,,0000,0000,0000,,Prioritas utama adalah memastikan\Nkeselamatan para pemburu,
+Dialogue: 0,0:01:23.67,0:01:25.23,Default,,0000,0000,0000,,dan kemudian mengumpulkan informasi.
+Dialogue: 0,0:01:25.53,0:01:26.21,Default,,0000,0000,0000,,Ya.
+Dialogue: 0,0:01:28.31,0:01:29.23,Default,,0000,0000,0000,,Pak.
+Dialogue: 0,0:01:29.49,0:01:32.87,Default,,0000,0000,0000,,Penonton hampir membanjiri telepon kita,
+Dialogue: 0,0:01:33.23,0:01:35.53,Default,,0000,0000,0000,,semuanya meminta kita\Nuntuk segera menyiarkan gambar langsung.
+Dialogue: 0,0:01:35.53,0:01:37.29,Default,,0000,0000,0000,,Kalau bisa, aku sudah melakukannya.
+Dialogue: 0,0:01:37.29,0:01:39.27,Default,,0000,0000,0000,,Jangankan gambar langsung,
+Dialogue: 0,0:01:39.27,0:01:40.65,Default,,0000,0000,0000,,bahkan kontak pun tidak ada sekarang.
+Dialogue: 0,0:01:41.99,0:01:45.83,Default,,0000,0000,0000,,Terlebih lagi, bagaimana jika semua\Npemburu level S terbunuh...
+Dialogue: 0,0:01:48.75,0:01:50.27,Default,,0000,0000,0000,,Hei, cepat jawab,
+Dialogue: 0,0:01:50.27,0:01:51.73,Default,,0000,0000,0000,,apa yang terjadi di sana?
+Dialogue: 0,0:01:51.87,0:01:53.65,Default,,0000,0000,0000,,SINYAL HILANG
+Dialogue: 0,0:01:53.65,0:01:54.37,Default,,0000,0000,0000,,Sial.
+Dialogue: 0,0:01:54.59,0:01:55.89,Default,,0000,0000,0000,,Kamera rusak...
+Dialogue: 0,0:01:56.47,0:01:57.59,Default,,0000,0000,0000,,Kenapa harus saat genting seperti ini...
+Dialogue: 0,0:01:58.63,0:01:59.51,Default,,0000,0000,0000,,Iron,
+Dialogue: 0,0:02:08.03,0:02:08.77,Default,,0000,0000,0000,,maju.
+Dialogue: 0,0:02:20.19,0:02:21.95,Default,,0000,0000,0000,,Aku benar-benar tidak mengerti...
+Dialogue: 0,0:02:22.69,0:02:24.31,Default,,0000,0000,0000,,Makhluk-makhluk apa ini?
+Dialogue: 0,0:02:24.87,0:02:26.21,Default,,0000,0000,0000,,Dan kenapa Pemburu Sung
+Dialogue: 0,0:02:26.67,0:02:28.07,Default,,0000,0000,0000,,ada di sini?
+Dialogue: 0,0:02:31.27,0:02:32.35,Default,,0000,0000,0000,,Pemburu Sung,
+Dialogue: 0,0:02:32.63,0:02:33.84,Default,,0000,0000,0000,,kapan kau datang ke pulau ini?
+Dialogue: 0,0:02:34.19,0:02:35.83,Default,,0000,0000,0000,,Dan bagaimana kau datang?
+Dialogue: 0,0:02:35.83,0:02:36.97,Default,,0000,0000,0000,,Itu bisa dijelaskan nanti,
+Dialogue: 0,0:02:37.55,0:02:39.53,Default,,0000,0000,0000,,aku akan mengobati luka semua orang dulu.
+Dialogue: 0,0:02:40.25,0:02:41.09,Default,,0000,0000,0000,,Tolong minum ini...
+Dialogue: 0,0:02:43.09,0:02:44.07,Default,,0000,0000,0000,,Benar...
+Dialogue: 0,0:02:44.39,0:02:46.03,Default,,0000,0000,0000,,Benda ini tidak bisa dipindahtangankan...
+Dialogue: 0,0:02:47.69,0:02:48.73,Default,,0000,0000,0000,,Obat minum?
+Dialogue: 0,0:02:49.17,0:02:50.47,Default,,0000,0000,0000,,Apakah ini sihir ruang?
+Dialogue: 0,0:02:50.81,0:02:51.51,Default,,0000,0000,0000,,Pak Ma,
+Dialogue: 0,0:02:53.39,0:02:54.69,Default,,0000,0000,0000,,tolong buka mulutmu.
+Dialogue: 0,0:02:59.47,0:03:00.65,Default,,0000,0000,0000,,Ini...
+Dialogue: 0,0:03:05.41,0:03:06.29,Default,,0000,0000,0000,,Lukanya
+Dialogue: 0,0:03:06.97,0:03:07.89,Default,,0000,0000,0000,,sembuh...
+Dialogue: 0,0:03:16.49,0:03:17.73,Default,,0000,0000,0000,,Dia tidak pulih...
+Dialogue: 0,0:03:18.43,0:03:19.57,Default,,0000,0000,0000,,Kenapa tidak berpengaruh padanya?
+Dialogue: 0,0:03:20.01,0:03:21.55,Default,,0000,0000,0000,,HP TERLALU RENDAH,\NTIDAK BISA PULIH DENGAN RAMUAN
+Dialogue: 0,0:03:22.23,0:03:23.87,Default,,0000,0000,0000,,Apakah ini sama seperti saat itu?
+Dialogue: 0,0:03:25.15,0:03:27.61,Default,,0000,0000,0000,,Gawat, napasnya makin lemah.
+Dialogue: 0,0:03:28.73,0:03:30.91,Default,,0000,0000,0000,,Luka separah ini tidak bisa aku sembuhkan.
+Dialogue: 0,0:03:31.45,0:03:32.75,Default,,0000,0000,0000,,Cepat pergi dari sini,
+Dialogue: 0,0:03:33.03,0:03:34.51,Default,,0000,0000,0000,,aku akan membuka jalan.
+Dialogue: 0,0:03:34.51,0:03:35.67,Default,,0000,0000,0000,,- Baiklah.\N- Tunggu.
+Dialogue: 0,0:03:41.07,0:03:43.33,Default,,0000,0000,0000,,Kenapa terus berdatangan...
+Dialogue: 0,0:03:43.33,0:03:45.55,Default,,0000,0000,0000,,Jumlahnya terlalu banyak.
+Dialogue: 0,0:03:50.01,0:03:50.85,Default,,0000,0000,0000,,Pak.
+Dialogue: 0,0:03:51.23,0:03:52.73,Default,,0000,0000,0000,,Bagaimana situasi tim penyerang?
+Dialogue: 0,0:03:53.03,0:03:54.25,Default,,0000,0000,0000,,Belum bisa dipastikan.
+Dialogue: 0,0:03:54.25,0:03:57.39,Default,,0000,0000,0000,,Seluruh pulau tampaknya mengalami\Ngangguan sinyal sementara.
+Dialogue: 0,0:03:58.39,0:04:00.69,Default,,0000,0000,0000,,Meskipun kami sudah\Nmenghubungi pihak Jepang,
+Dialogue: 0,0:04:00.69,0:04:01.91,Default,,0000,0000,0000,,kami tidak bisa menghubungi mereka...
+Dialogue: 0,0:04:02.09,0:04:03.43,Default,,0000,0000,0000,,Media swasta juga,
+Dialogue: 0,0:04:03.43,0:04:06.35,Default,,0000,0000,0000,,gambar terputus\Nsetelah semut hitam muncul.
+Dialogue: 0,0:04:07.07,0:04:09.21,Default,,0000,0000,0000,,Percepat pemulihan komunikasi,
+Dialogue: 0,0:04:09.83,0:04:13.03,Default,,0000,0000,0000,,perintahkan tim medis dan tim pemulihan\Nuntuk bersiap sedia.
+Dialogue: 0,0:04:13.03,0:04:13.93,Default,,0000,0000,0000,,Ya.
+Dialogue: 0,0:04:17.79,0:04:19.23,Default,,0000,0000,0000,,Aku tidak pernah
+Dialogue: 0,0:04:20.27,0:04:23.81,Default,,0000,0000,0000,,begitu membenci tubuh dan jantungku ini,
+Dialogue: 0,0:04:25.37,0:04:27.17,Default,,0000,0000,0000,,meskipun aku tidak bisa membantu,
+Dialogue: 0,0:04:27.51,0:04:29.27,Default,,0000,0000,0000,,aku ingin berjuang bersama mereka.
+Dialogue: 0,0:04:30.41,0:04:31.43,Default,,0000,0000,0000,,Pak...
+Dialogue: 0,0:04:32.13,0:04:32.97,Default,,0000,0000,0000,,Kumohon,
+Dialogue: 0,0:04:33.77,0:04:35.73,Default,,0000,0000,0000,,pastikan kalian semua selamat.
+Dialogue: 0,0:04:39.15,0:04:41.63,Default,,0000,0000,0000,,Sial, ada apa ini?
+Dialogue: 0,0:04:41.99,0:04:46.31,Default,,0000,0000,0000,,Kupikir gambarnya terputus,\Nternyata televisinya rusak juga.
+Dialogue: 0,0:04:46.31,0:04:47.55,Default,,0000,0000,0000,,Keterlaluan!
+Dialogue: 0,0:04:47.55,0:04:49.69,Default,,0000,0000,0000,,Dipukul seperti itu\Njuga tidak akan membaik.
+Dialogue: 0,0:04:50.09,0:04:52.53,Default,,0000,0000,0000,,Aku kembali ke kamar.
+Dialogue: 0,0:04:53.65,0:04:56.37,Default,,0000,0000,0000,,Mungkin bisa menemukan\Ninformasi di ponsel.
+Dialogue: 0,0:04:59.93,0:05:01.49,Default,,0000,0000,0000,,Dasar anak tidak sabaran.
+Dialogue: 0,0:05:02.89,0:05:05.19,Default,,0000,0000,0000,,Ada apa ini? Jelaskan.
+Dialogue: 0,0:05:05.65,0:05:08.15,Default,,0000,0000,0000,,Sinyal keberadaan Pak Goto terputus.
+Dialogue: 0,0:05:09.37,0:05:11.27,Default,,0000,0000,0000,,Dari isi komunikasi\Nsebelum gangguan sinyal
+Dialogue: 0,0:05:11.65,0:05:15.77,Default,,0000,0000,0000,,dan reaksi musuh kuat yang muncul\Nsaat itu, dia pasti tewas...
+Dialogue: 0,0:05:16.81,0:05:17.85,Default,,0000,0000,0000,,Ada lagi?
+Dialogue: 0,0:05:18.07,0:05:19.55,Default,,0000,0000,0000,,Sedang dikonfirmasi...
+Dialogue: 0,0:05:20.11,0:05:21.43,Default,,0000,0000,0000,,Cepatlah.
+Dialogue: 0,0:05:21.81,0:05:24.21,Default,,0000,0000,0000,,Jika terus begini,\Nrencana akan terpengaruh.
+Dialogue: 0,0:05:25.85,0:05:26.65,Default,,0000,0000,0000,,Ya.
+Dialogue: 0,0:05:31.91,0:05:33.89,Default,,0000,0000,0000,,Goto ternyata terbunuh.
+Dialogue: 0,0:05:34.41,0:05:35.44,Default,,0000,0000,0000,,Dasar tidak berguna.
+Dialogue: 0,0:05:36.75,0:05:38.99,Default,,0000,0000,0000,,Apa yang sebenarnya terjadi\Ndi pulau itu sekarang?
+Dialogue: 0,0:05:48.35,0:05:50.87,Default,,0000,0000,0000,,Igris dan Iron selevel itu seharusnya\Nbisa mengatasinya,
+Dialogue: 0,0:05:51.91,0:05:53.81,Default,,0000,0000,0000,,tapi pasukan infanteri\Nsedikit kalah jumlah?
+Dialogue: 0,0:05:54.93,0:05:57.13,Default,,0000,0000,0000,,Meskipun aku ingin memperkuat pasukan,
+Dialogue: 0,0:05:57.95,0:06:00.23,Default,,0000,0000,0000,,ada banyak mata di sini...
+Dialogue: 0,0:06:01.45,0:06:02.19,Default,,0000,0000,0000,,Tidak.
+Dialogue: 0,0:06:02.75,0:06:03.59,Default,,0000,0000,0000,,Semuanya,
+Dialogue: 0,0:06:04.71,0:06:06.17,Default,,0000,0000,0000,,jika terus begini, kita semua akan mati.
+Dialogue: 0,0:06:06.51,0:06:08.75,Default,,0000,0000,0000,,Aku akan membuka jalan paksa,
+Dialogue: 0,0:06:09.25,0:06:10.09,Default,,0000,0000,0000,,tolong ikuti
+Dialogue: 0,0:06:11.43,0:06:13.39,Default,,0000,0000,0000,,orang ini.
+Dialogue: 0,0:06:14.03,0:06:16.73,Default,,0000,0000,0000,,Makhluk hitam lainnya\Nakan menghalangi semut.
+Dialogue: 0,0:06:17.75,0:06:20.05,Default,,0000,0000,0000,,Jika ada yang lolos dan menyerang kalian,
+Dialogue: 0,0:06:20.45,0:06:21.69,Default,,0000,0000,0000,,tolong atasi mereka.
+Dialogue: 0,0:06:22.11,0:06:23.15,Default,,0000,0000,0000,,Baiklah.
+Dialogue: 0,0:06:23.37,0:06:25.29,Default,,0000,0000,0000,,Kami bisa melakukan itu.
+Dialogue: 0,0:06:25.29,0:06:26.13,Default,,0000,0000,0000,,Baiklah.
+Dialogue: 0,0:06:26.67,0:06:27.71,Default,,0000,0000,0000,,Dan
+Dialogue: 0,0:06:28.19,0:06:31.05,Default,,0000,0000,0000,,tolong jangan sebarkan\Napa yang kalian lihat selanjutnya.
+Dialogue: 0,0:06:32.81,0:06:33.58,Default,,0000,0000,0000,,Mungkinkah...
+Dialogue: 0,0:06:55.85,0:06:57.47,Default,,0000,0000,0000,,Ia kembali...
+Dialogue: 0,0:06:58.05,0:06:59.67,Default,,0000,0000,0000,,Maksudnya, mungkinkah...
+Dialogue: 0,0:07:00.29,0:07:01.87,Default,,0000,0000,0000,,Goto sudah dibunuh olehnya?
+Dialogue: 0,0:07:19.97,0:07:22.37,Default,,0000,0000,0000,,Tidak ada raja di luar.
+Dialogue: 0,0:07:23.21,0:07:24.81,Default,,0000,0000,0000,,Apakah ada di sini?
+Dialogue: 0,0:07:25.69,0:07:28.03,Default,,0000,0000,0000,,Sosok yang disebut raja.
+Dialogue: 0,0:07:29.87,0:07:32.57,Default,,0000,0000,0000,,Apakah bayangan yang menempel\Npada Goto terputus
+Dialogue: 0,0:07:32.95,0:07:34.29,Default,,0000,0000,0000,,karena ia?
+Dialogue: 0,0:07:35.13,0:07:35.77,Default,,0000,0000,0000,,Eh.
+Dialogue: 0,0:07:35.77,0:07:36.89,Default,,0000,0000,0000,,Hei.
+Dialogue: 0,0:07:56.96,0:08:01.24,Default,,0000,0000,0000,,Kau raja manusia?
+Dialogue: 0,0:08:03.88,0:08:04.70,Default,,0000,0000,0000,,Oh...
+Dialogue: 0,0:08:05.38,0:08:07.40,Default,,0000,0000,0000,,Serangga kecil berani bicara.
+Dialogue: 0,0:08:08.54,0:08:09.80,Default,,0000,0000,0000,,Manusia...
+Dialogue: 0,0:08:12.44,0:08:14.50,Default,,0000,0000,0000,,Aura yang kuat...
+Dialogue: 0,0:08:21.30,0:08:22.12,Default,,0000,0000,0000,,Benar saja.
+Dialogue: 0,0:08:22.50,0:08:24.04,Default,,0000,0000,0000,,Serangga tetaplah serangga.
+Dialogue: 0,0:08:25.04,0:08:26.90,Default,,0000,0000,0000,,Bahkan Pemburu Sung...
+Dialogue: 0,0:08:27.14,0:08:28.66,Default,,0000,0000,0000,,Harus menghadapinya sendirian...
+Dialogue: 0,0:08:28.86,0:08:30.24,Default,,0000,0000,0000,,SINYAL HILANG
+Dialogue: 0,0:08:30.24,0:08:30.83,Default,,0000,0000,0000,,HALO
+Dialogue: 0,0:08:34.18,0:08:36.36,Default,,0000,0000,0000,,Pak, gambarnya kembali.
+Dialogue: 0,0:08:37.22,0:08:38.00,Default,,0000,0000,0000,,Eh...
+Dialogue: 0,0:08:38.00,0:08:39.16,Default,,0000,0000,0000,,Ini...
+Dialogue: 0,0:08:39.88,0:08:41.90,Default,,0000,0000,0000,,Tayangkan ulang gambarnya, cepat.
+Dialogue: 0,0:08:41.90,0:08:42.76,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:08:42.76,0:08:45.92,Default,,0000,0000,0000,,Jika kita menayangkannya sekarang,\Nitu akan menjadi siaran langsung.
+Dialogue: 0,0:08:46.20,0:08:48.94,Default,,0000,0000,0000,,Jika terjadi sesuatu yang tidak terduga,\Nkita tidak akan sempat menanganinya.
+Dialogue: 0,0:08:48.94,0:08:51.08,Default,,0000,0000,0000,,Kita sudah terputus sekali,
+Dialogue: 0,0:08:51.08,0:08:52.66,Default,,0000,0000,0000,,situasinya tidak akan lebih buruk lagi.
+Dialogue: 0,0:08:52.66,0:08:53.30,Default,,0000,0000,0000,,Tayangkan.
+Dialogue: 0,0:08:53.30,0:08:54.39,Default,,0000,0000,0000,,Ya.
+Dialogue: 0,0:08:55.08,0:08:56.12,Default,,0000,0000,0000,,Kita...
+Dialogue: 0,0:08:56.52,0:08:57.20,Default,,0000,0000,0000,,Tidak benar.
+Dialogue: 0,0:08:57.46,0:08:59.10,Default,,0000,0000,0000,,Nasib pertempuran ini
+Dialogue: 0,0:08:59.46,0:09:01.16,Default,,0000,0000,0000,,dipertaruhkan pada orang ini...
+Dialogue: 0,0:09:02.32,0:09:03.78,Default,,0000,0000,0000,,Pak Song.
+Dialogue: 0,0:09:03.78,0:09:04.76,Default,,0000,0000,0000,,Mungkinkah...
+Dialogue: 0,0:09:05.62,0:09:06.74,Default,,0000,0000,0000,,Ini...
+Dialogue: 0,0:09:12.86,0:09:13.86,Default,,0000,0000,0000,,Yang benar saja.
+Dialogue: 0,0:09:14.18,0:09:15.30,Default,,0000,0000,0000,,Kenapa...
+Dialogue: 0,0:09:16.30,0:09:17.68,Default,,0000,0000,0000,,Kakak?
+Dialogue: 0,0:09:18.06,0:09:20.10,Default,,0000,0000,0000,,Katanya "Keluar sebentar"...
+Dialogue: 0,0:09:20.10,0:09:21.22,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:09:21.22,0:09:22.90,Default,,0000,0000,0000,,Dia ikut campur lagi?
+Dialogue: 0,0:09:25.28,0:09:28.24,Default,,0000,0000,0000,,Kau sudah datang, Pemburu Sung?
+Dialogue: 0,0:09:29.56,0:09:30.70,Default,,0000,0000,0000,,Namun,
+Dialogue: 0,0:09:31.08,0:09:32.26,Default,,0000,0000,0000,,bagaimana dia bisa sampai ke pulau itu?
+Dialogue: 0,0:09:32.64,0:09:34.90,Default,,0000,0000,0000,,Itu tidak penting sekarang.
+Dialogue: 0,0:09:35.46,0:09:37.12,Default,,0000,0000,0000,,Mari kita percaya padanya.
+Dialogue: 0,0:09:50.58,0:09:53.34,Default,,0000,0000,0000,,Kenapa dia sebagai pemburu\Ntipe penyihir mendekati musuh?
+Dialogue: 0,0:09:53.34,0:09:55.16,Default,,0000,0000,0000,,Dia tampaknya meremehkan semut.
+Dialogue: 0,0:09:55.70,0:09:57.58,Default,,0000,0000,0000,,Terkena pukulan langsung...
+Dialogue: 0,0:09:58.50,0:09:59.52,Default,,0000,0000,0000,,Lemah sekali...
+Dialogue: 0,0:10:00.14,0:10:01.66,Default,,0000,0000,0000,,Kau ternyata bukan...
+Dialogue: 0,0:10:25.42,0:10:26.34,Default,,0000,0000,0000,,Pak Baek.
+Dialogue: 0,0:10:26.68,0:10:27.66,Default,,0000,0000,0000,,Pak Choi.
+Dialogue: 0,0:10:28.58,0:10:30.86,Default,,0000,0000,0000,,Apakah dia benar-benar\Npemburu tipe penyihir?
+Dialogue: 0,0:10:31.14,0:10:33.54,Default,,0000,0000,0000,,Aku sendiri juga tidak yakin...
+Dialogue: 0,0:10:34.00,0:10:35.92,Default,,0000,0000,0000,,Tidak kusangka dia sekuat ini...
+Dialogue: 0,0:10:37.32,0:10:38.84,Default,,0000,0000,0000,,Dia sangat keras,
+Dialogue: 0,0:10:39.40,0:10:40.45,Default,,0000,0000,0000,,apakah karena cangkangnya?
+Dialogue: 0,0:10:58.98,0:11:00.42,Default,,0000,0000,0000,,Bagaimana bisa ada pertempuran\Nyang begitu sengit?
+Dialogue: 0,0:11:00.86,0:11:03.66,Default,,0000,0000,0000,,Sebagai pemburu level A, aku sudah\Nkehabisan tenaga hanya dengan berdiri,
+Dialogue: 0,0:11:05.38,0:11:06.92,Default,,0000,0000,0000,,bahkan guncangan kekuatan sihirnya
+Dialogue: 0,0:11:07.20,0:11:08.52,Default,,0000,0000,0000,,membuatku hampir pingsan.
+Dialogue: 0,0:11:13.68,0:11:14.92,Default,,0000,0000,0000,,Bisa-bisanya...
+Dialogue: 0,0:11:15.18,0:11:16.94,Default,,0000,0000,0000,,Aku kalah...
+Dialogue: 0,0:11:28.42,0:11:29.92,Default,,0000,0000,0000,,Kenapa?
+Dialogue: 0,0:11:31.32,0:11:32.82,Default,,0000,0000,0000,,Manusia ini
+Dialogue: 0,0:11:33.68,0:11:36.60,Default,,0000,0000,0000,,sebenarnya siapa?
+Dialogue: 0,0:12:02.42,0:12:03.56,Default,,0000,0000,0000,,Ini...
+Dialogue: 0,0:12:04.42,0:12:10.60,Default,,0000,0000,0000,,Ini racun yang diekstrak dari racun organisme laut\Ndi sekitarnya dengan kekuatan sihirku.
+Dialogue: 0,0:12:10.80,0:12:13.10,Default,,0000,0000,0000,,Kau sudah tidak bisa bergerak.
+Dialogue: 0,0:12:15.24,0:12:18.26,Default,,0000,0000,0000,,Kau sudah tamat sekarang...
+Dialogue: 0,0:12:20.68,0:12:21.86,Default,,0000,0000,0000,,Manusia,
+Dialogue: 0,0:12:22.50,0:12:23.66,Default,,0000,0000,0000,,mati kau.
+Dialogue: 0,0:12:28.14,0:12:30.36,Default,,0000,0000,0000,,Tujuh dari sepuluh orang tewas,
+Dialogue: 0,0:12:30.36,0:12:32.04,Default,,0000,0000,0000,,lelucon macam apa ini!
+Dialogue: 0,0:12:32.54,0:12:34.28,Default,,0000,0000,0000,,Tidak, ini kenyataan.
+Dialogue: 0,0:12:34.76,0:12:37.04,Default,,0000,0000,0000,,Kami sudah menghubungi\Npemburu yang tersisa
+Dialogue: 0,0:12:37.04,0:12:38.42,Default,,0000,0000,0000,,dan selesai konfirmasi.
+Dialogue: 0,0:12:40.84,0:12:42.90,Default,,0000,0000,0000,,Bukankah ini lebih dari setengahnya?
+Dialogue: 0,0:12:42.90,0:12:44.70,Default,,0000,0000,0000,,Kenapa kalian begitu tidak berguna?
+Dialogue: 0,0:12:45.40,0:12:46.56,Default,,0000,0000,0000,,Dan
+Dialogue: 0,0:12:46.56,0:12:49.79,Default,,0000,0000,0000,,ada reaksi kuat lagi\Ndi dekat gunung berapi.
+Dialogue: 0,0:12:50.26,0:12:52.75,Default,,0000,0000,0000,,Itu pasti individu yang membunuh Pak Goto.
+Dialogue: 0,0:12:53.10,0:12:55.68,Default,,0000,0000,0000,,Bagaimana bisa dia masih hidup\Nsetelah bertarung dengan Goto?
+Dialogue: 0,0:12:55.68,0:12:57.44,Default,,0000,0000,0000,,Dan kau bilang dia pergi ke sarang?
+Dialogue: 0,0:12:57.44,0:12:58.40,Default,,0000,0000,0000,,Kenapa?
+Dialogue: 0,0:12:58.40,0:12:59.42,Default,,0000,0000,0000,,Aku tidak tahu.
+Dialogue: 0,0:12:59.80,0:13:01.47,Default,,0000,0000,0000,,Mungkin ada tujuan tertentu,
+Dialogue: 0,0:13:01.90,0:13:03.68,Default,,0000,0000,0000,,atau mungkin dia kembali ke sarang\Nkarena terluka...
+Dialogue: 0,0:13:05.84,0:13:08.44,Default,,0000,0000,0000,,Para pemburu di sana hidup\Natau mati tidak diketahui,
+Dialogue: 0,0:13:08.76,0:13:10.58,Default,,0000,0000,0000,,tetapi jika mereka masih hidup,\Nmereka akan bertemu dengannya.
+Dialogue: 0,0:13:10.90,0:13:12.78,Default,,0000,0000,0000,,Bahkan Goto tidak bisa mengalahkannya,
+Dialogue: 0,0:13:13.10,0:13:15.12,Default,,0000,0000,0000,,mereka yang kelelahan\Npasti bukan tandingan.
+Dialogue: 0,0:13:15.52,0:13:17.90,Default,,0000,0000,0000,,Semut-semut itu pasti juga kelelahan\Nkarena pertempuran kekuatan fisik beruntun,
+Dialogue: 0,0:13:18.82,0:13:20.84,Default,,0000,0000,0000,,selama kita bisa menghabisinya,
+Dialogue: 0,0:13:21.32,0:13:23.36,Default,,0000,0000,0000,,sisanya hanya masalah\Nmenghabisi pasukan kecil.
+Dialogue: 0,0:13:24.94,0:13:26.52,Default,,0000,0000,0000,,Masih ada harapan...
+Dialogue: 0,0:13:27.18,0:13:29.83,Default,,0000,0000,0000,,Segera evakuasi tiga pemburu\Nyang masih hidup,
+Dialogue: 0,0:13:30.46,0:13:33.48,Default,,0000,0000,0000,,bergabung dengan tim penyerang kedua\Ndi laut
+Dialogue: 0,0:13:33.48,0:13:34.80,Default,,0000,0000,0000,,dan segera serang lagi.
+Dialogue: 0,0:13:35.78,0:13:37.00,Default,,0000,0000,0000,,Begitulah.
+Dialogue: 0,0:13:37.24,0:13:39.26,Default,,0000,0000,0000,,Helikopter akan menjemput kalian segera.
+Dialogue: 0,0:13:40.20,0:13:41.18,Default,,0000,0000,0000,,Diterima.
+Dialogue: 0,0:13:43.54,0:13:45.08,Default,,0000,0000,0000,,Rencana nomor sembilan akan dilaksanakan.
+Dialogue: 0,0:13:45.56,0:13:46.52,Default,,0000,0000,0000,,Ayo pergi.
+Dialogue: 0,0:13:47.00,0:13:47.96,Default,,0000,0000,0000,,Tidak bisa...
+Dialogue: 0,0:13:48.96,0:13:50.96,Default,,0000,0000,0000,,Itu monster...
+Dialogue: 0,0:13:51.60,0:13:54.04,Default,,0000,0000,0000,,Kita tidak bisa mengalahkannya...
+Dialogue: 0,0:13:55.04,0:13:56.18,Default,,0000,0000,0000,,Sadarkan dirimu,
+Dialogue: 0,0:13:56.40,0:13:57.76,Default,,0000,0000,0000,,tunjukkan keberanianmu.
+Dialogue: 0,0:13:58.16,0:14:00.20,Default,,0000,0000,0000,,Kita tidak mungkin menang\Nmelawan makhluk seperti itu...
+Dialogue: 0,0:14:00.64,0:14:01.36,Default,,0000,0000,0000,,Kita harus segera melarikan diri...
+Dialogue: 0,0:14:01.64,0:14:03.40,Default,,0000,0000,0000,,Jika tidak melarikan diri,\Nkita akan dibunuh...
+Dialogue: 0,0:14:05.22,0:14:06.44,Default,,0000,0000,0000,,Memalukan.
+Dialogue: 0,0:14:07.02,0:14:08.24,Default,,0000,0000,0000,,Kita hanya bisa
+Dialogue: 0,0:14:09.06,0:14:10.06,Default,,0000,0000,0000,,maju sekarang...
+Dialogue: 0,0:14:31.58,0:14:33.46,Default,,0000,0000,0000,,Bukankah dia diracuni?
+Dialogue: 0,0:14:33.46,0:14:35.26,Default,,0000,0000,0000,,Dia tidak terluka?
+Dialogue: 0,0:14:36.52,0:14:39.26,Default,,0000,0000,0000,,Aku tidak akan terkejut lagi\Njika sesuatu terjadi...
+Dialogue: 0,0:14:40.54,0:14:42.44,Default,,0000,0000,0000,,Jadi kau punya senjata rahasia?
+Dialogue: 0,0:14:43.82,0:14:46.40,Default,,0000,0000,0000,,Pantas saja kau terlihat begitu santai.
+Dialogue: 0,0:14:46.62,0:14:47.37,Default,,0000,0000,0000,,AKTIFKAN, KESEHATAN DAN UMUR PANJANG
+Dialogue: 0,0:14:47.37,0:14:48.58,Default,,0000,0000,0000,,DETOKSIFIKASI SELESAI\NAKTIFKAN, KESEHATAN DAN UMUR PANJANG
+Dialogue: 0,0:14:49.52,0:14:50.24,Default,,0000,0000,0000,,Namun,
+Dialogue: 0,0:14:50.58,0:14:52.64,Default,,0000,0000,0000,,entah karena daya cerapku yang meningkat,
+Dialogue: 0,0:14:53.16,0:14:54.96,Default,,0000,0000,0000,,aku bisa merasakan emosinya,
+Dialogue: 0,0:14:55.98,0:14:57.20,Default,,0000,0000,0000,,bisa merasakan kecemasannya.
+Dialogue: 0,0:14:58.40,0:15:00.00,Default,,0000,0000,0000,,Sebenarnya aku juga sama,
+Dialogue: 0,0:15:02.26,0:15:03.48,Default,,0000,0000,0000,,sekarang waktu sangat berharga,
+Dialogue: 0,0:15:04.32,0:15:05.58,Default,,0000,0000,0000,,aku harus segera mengakhiri\Npertempuran ini.
+Dialogue: 0,0:15:16.86,0:15:18.38,Default,,0000,0000,0000,,Racunnya tidak berpengaruh padanya,
+Dialogue: 0,0:15:18.38,0:15:20.40,Default,,0000,0000,0000,,adu kekuatan juga tidak ada artinya...
+Dialogue: 0,0:15:21.22,0:15:22.02,Default,,0000,0000,0000,,Kalau begitu...
+Dialogue: 0,0:15:43.59,0:15:44.42,Default,,0000,0000,0000,,PROP BELATI RAJA IBLIS\NJIKA BERPASANGAN AKAN ADA EFEK SET
+Dialogue: 0,0:16:36.46,0:16:38.98,Default,,0000,0000,0000,,Kecepatannya tidak kalah denganku
+Dialogue: 0,0:16:40.00,0:16:42.52,Default,,0000,0000,0000,,dan makin cepat.
+Dialogue: 0,0:16:43.62,0:16:45.64,Default,,0000,0000,0000,,Kenapa bisa begini?
+Dialogue: 0,0:17:43.79,0:17:44.13,Default,,0000,0000,0000,,KETERAMPILAN "SERANGAN TITIK FATAL" TELAH DITINGKATKAN\NKE BENTUK PAMUNGKAS KETERAMPILAN "TEBASAN GILA"
+Dialogue: 0,0:17:44.17,0:17:44.50,Default,,0000,0000,0000,,SERANGAN TITIK FATAL DITINGKATKAN MENJADI TEBASAN GILA
+Dialogue: 0,0:17:45.50,0:17:46.86,Default,,0000,0000,0000,,Peningkatan...
+Dialogue: 0,0:17:47.62,0:17:48.52,Default,,0000,0000,0000,,Tebasan Gila?
+Dialogue: 0,0:17:53.56,0:17:55.01,Default,,0000,0000,0000,,Ada apa ini?
+Dialogue: 0,0:18:00.04,0:18:01.10,Default,,0000,0000,0000,,Gawat...
+Dialogue: 0,0:18:05.24,0:18:06.50,Default,,0000,0000,0000,,Kemampuan penyembuhan?
+Dialogue: 0,0:18:07.76,0:18:09.18,Default,,0000,0000,0000,,Ada apa...
+Dialogue: 0,0:18:12.10,0:18:14.16,Default,,0000,0000,0000,,Apa yang sebenarnya terjadi tadi?
+Dialogue: 0,0:18:38.68,0:18:42.02,Default,,0000,0000,0000,,Manusia itu sebenarnya siapa?
+Dialogue: 0,0:18:42.54,0:18:46.32,Default,,0000,0000,0000,,Manusia itu...
+Dialogue: 0,0:18:50.44,0:18:51.40,Default,,0000,0000,0000,,Maju!
+Dialogue: 0,0:19:15.78,0:19:16.84,Default,,0000,0000,0000,,Kenapa?
+Dialogue: 0,0:19:17.80,0:19:21.46,Default,,0000,0000,0000,,Aku seharusnya menjadi\Nyang teratas dari segalanya...
+Dialogue: 0,0:19:22.56,0:19:24.58,Default,,0000,0000,0000,,Aku seharusnya melahap segalanya,
+Dialogue: 0,0:19:24.58,0:19:28.60,Default,,0000,0000,0000,,terus tumbuh, menuju puncak...
+Dialogue: 0,0:19:28.86,0:19:30.84,Default,,0000,0000,0000,,Aku seharusnya menjadi raja,
+Dialogue: 0,0:19:30.84,0:19:32.54,Default,,0000,0000,0000,,tapi sekarang...
+Dialogue: 0,0:19:35.22,0:19:36.52,Default,,0000,0000,0000,,Lari...
+Dialogue: 0,0:19:37.46,0:19:39.16,Default,,0000,0000,0000,,Aku harus segera lari...
+Dialogue: 0,0:19:39.74,0:19:40.96,Default,,0000,0000,0000,,Demi bertahan hidup
+Dialogue: 0,0:19:41.62,0:19:43.78,Default,,0000,0000,0000,,aku harus segera melarikan diri,
+Dialogue: 0,0:19:47.42,0:19:49.40,Default,,0000,0000,0000,,harus menjauh sejauh mungkin...
+Dialogue: 0,0:20:08.18,0:20:09.96,Default,,0000,0000,0000,,Cepat...
+Dialogue: 0,0:20:10.44,0:20:12.42,Default,,0000,0000,0000,,Cepat lari sejauh mungkin.
+Dialogue: 0,0:20:16.74,0:20:17.95,Default,,0000,0000,0000,,GUNAKAN KETERAMPILAN "TEBASAN GILA"
+Dialogue: 0,0:20:30.84,0:20:31.25,Default,,0000,0000,0000,,MUSUH TERBUNUH
+Dialogue: 0,0:20:31.25,0:20:32.80,Default,,0000,0000,0000,,NAIK LEVEL
+Dialogue: 0,0:20:45.76,0:20:46.82,Default,,0000,0000,0000,,Semut-semut itu
+Dialogue: 0,0:20:47.18,0:20:48.60,Default,,0000,0000,0000,,melarikan diri...
+Dialogue: 0,0:20:48.84,0:20:50.06,Default,,0000,0000,0000,,Apakah kita menang?
+Dialogue: 0,0:20:53.76,0:20:54.80,Default,,0000,0000,0000,,Pemburu Sung.
+Dialogue: 0,0:21:01.72,0:21:02.72,Default,,0000,0000,0000,,Napasnya sudah...
+Dialogue: 0,0:21:03.12,0:21:04.64,Default,,0000,0000,0000,,Sekarang waktu sangat berharga,
+Dialogue: 0,0:21:05.16,0:21:06.66,Default,,0000,0000,0000,,mari kita segera pergi dari sini.
+Dialogue: 0,0:21:06.66,0:21:09.12,Default,,0000,0000,0000,,Helikopter evakuasi ada di luar,
+Dialogue: 0,0:21:09.12,0:21:10.00,Default,,0000,0000,0000,,tinggal naik...
+Dialogue: 0,0:21:10.00,0:21:10.72,Default,,0000,0000,0000,,Tidak,
+Dialogue: 0,0:21:10.94,0:21:12.32,Default,,0000,0000,0000,,kita tidak tahu apakah dia\Nbisa bertahan sampai di sana...
+Dialogue: 0,0:21:12.60,0:21:14.00,Default,,0000,0000,0000,,Lalu apa yang harus kita lakukan...
+Dialogue: 0,0:21:17.94,0:21:19.98,Default,,0000,0000,0000,,Bukankah ramuan itu tidak berguna?
+Dialogue: 0,0:21:19.98,0:21:21.44,Default,,0000,0000,0000,,Ini belum dicoba.
+Dialogue: 0,0:21:26.60,0:21:29.54,Default,,0000,0000,0000,,Eliksir kehidupan yang menyembuhkan\Nnarkolepsi Ibu...
+Dialogue: 0,0:21:30.12,0:21:31.02,Default,,0000,0000,0000,,Ini adalah
+Dialogue: 0,0:21:31.66,0:21:33.20,Default,,0000,0000,0000,,cara terakhir...
+Dialogue: 0,0:21:34.86,0:21:36.16,Default,,0000,0000,0000,,KONDISI PENGGUNA DI LUAR JANGKAUAN\NPENGOBATAN RAMUAN INI, TIDAK BERPENGARUH
+Dialogue: 0,0:21:36.16,0:21:38.74,Default,,0000,0000,0000,,"Di luar jangkauan pengobatan"...
+Dialogue: 0,0:21:42.00,0:21:43.26,Default,,0000,0000,0000,,Tidak berguna?
+Dialogue: 0,0:21:44.40,0:21:46.38,Default,,0000,0000,0000,,Kita tidak akan sempat\Njika evakuasi dari sini...
+Dialogue: 0,0:21:46.64,0:21:47.80,Default,,0000,0000,0000,,Ramuan juga tidak berpengaruh...
+Dialogue: 0,0:21:48.28,0:21:51.12,Default,,0000,0000,0000,,"Pertukaran Bayangan" juga butuh waktu\Nuntuk digunakan lagi...
+Dialogue: 0,0:21:52.42,0:21:53.32,Default,,0000,0000,0000,,Tidak ada...
+Dialogue: 0,0:21:54.16,0:21:55.90,Default,,0000,0000,0000,,Tidak ada cara lain?
+Dialogue: 0,0:22:42.21,0:22:44.88,Default,,0000,0000,0000,,"Solo Leveling"
+Dialogue: 0,0:22:44.88,0:22:48.39,Default,,0000,0000,0000,,(Episode 24:\NApakah Kau Raja dari Umat Manusia?)
+Dialogue: 0,0:23:39.10,0:23:41.15,Default,,0000,0000,0000,,(Episode 25:\NMaju ke Target Berikutnya)

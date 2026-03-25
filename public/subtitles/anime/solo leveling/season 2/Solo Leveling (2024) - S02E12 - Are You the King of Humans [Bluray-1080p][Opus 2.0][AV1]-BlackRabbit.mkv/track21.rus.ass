@@ -1,0 +1,330 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Solo-Main,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,0
+Style: Solo-Main-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,0
+Style: Solo-Italics,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,0
+Style: Solo-Italics-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,0
+Style: Solo-Flashback,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Flashback-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,1
+Style: Solo-Flashback-Italics,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Flashback-Italics-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,1
+Style: Solo-Flashback-Inside,Trebuchet MS,22.0,&H00CCCCCC,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Flashback-Inside-Italics,Trebuchet MS,22.0,&H00CCCCCC,&H000000FF,&H00400000,&H00400000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Narration,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Sign,Tahoma,22.0,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0005,0005,0015,0
+Style: creditos,Arial,10.0,&H1EFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0000,0400,0110,0
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: DefaultItalics,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.84,0:00:10.04,Solo-Italics,Baek Yoonho,0000,0000,0000,,O que são...
+Dialogue: 0,0:00:11.45,0:00:13.91,Solo-Italics,Baek Yoonho,0000,0000,0000,,esses soldados sombrios?
+Dialogue: 0,0:00:37.81,0:00:39.70,Solo-Main,Baek Yoonho,0000,0000,0000,,De onde eles vieram?
+Dialogue: 0,0:00:46.87,0:00:49.00,Solo-Main,Choi Jong-in,0000,0000,0000,,N-Não pode ser...
+Dialogue: 0,0:00:50.15,0:00:51.15,Solo-Main,Choi Jong-in,0000,0000,0000,,Mas como?
+Dialogue: 0,0:00:51.15,0:00:53.07,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Como ele está aqui?
+Dialogue: 0,0:01:01.96,0:01:04.42,Sign,Sign,0000,0000,0000,,{\fs13\c&HF0F3ED&\3c&H4F3937&\pos(300.44,170.56)\frz336}Sem sinal
+Dialogue: 0,0:01:03.12,0:01:08.58,Solo-Main,Lee Joohee,0000,0000,0000,,Sr. Song, isso significa que a\Ntransmissão foi interrompida, não é?
+Dialogue: 0,0:01:10.80,0:01:14.06,Solo-Main,Song Chiyul,0000,0000,0000,,O que diabos está acontecendo por lá?
+Dialogue: 0,0:01:17.27,0:01:20.06,Solo-Main,Woo Jinchul,0000,0000,0000,,Não adianta.\NO local está caótico demais.
+Dialogue: 0,0:01:20.43,0:01:22.98,Solo-Main,Go Gunhee,0000,0000,0000,,Precisamos confirmar a\Nsituação dos Caçadores.
+Dialogue: 0,0:01:23.25,0:01:25.02,Solo-Main,Go Gunhee,0000,0000,0000,,Reúna toda a informação que puder.
+Dialogue: 0,0:01:25.02,0:01:25.97,Solo-Main,Woo Jinchul,0000,0000,0000,,Sim!
+Dialogue: 0,0:01:27.91,0:01:29.00,Solo-Main,Staff,0000,0000,0000,,Diretor!
+Dialogue: 0,0:01:29.00,0:01:32.84,Solo-Main,Staff,0000,0000,0000,,São tantas chamadas chegando que\No sistema telefônico está travando!
+Dialogue: 0,0:01:32.84,0:01:35.21,Solo-Main,Staff,0000,0000,0000,,Estão exigindo que\Na transmissão volte!
+Dialogue: 0,0:01:35.21,0:01:37.03,Solo-Main,Director,0000,0000,0000,,Se desse, já teria feito!
+Dialogue: 0,0:01:37.03,0:01:40.45,Solo-Main,Director,0000,0000,0000,,Mas não tá chegando informação\Nnenhuma da ilha, que dirá vídeo!
+Dialogue: 0,0:01:41.29,0:01:45.25,Sign,Sign,0000,0000,0000,,{\fs13\c&HF0F3ED&\3c&H4F3937&\frz7.865\move(551.11,164.34,386.67,170.57,18,3939)}Sem sinal
+Dialogue: 0,0:01:41.59,0:01:45.87,Solo-Italics,Director,0000,0000,0000,,Além disso... se todos os Rank S\Nestiverem mortos, como é que fica?!
+Dialogue: 0,0:01:48.23,0:01:51.63,Solo-Main,Director,0000,0000,0000,,Ei! Responda!\NO que está acontecendo aí?!
+Dialogue: 0,0:01:51.63,0:01:54.01,Sign,Sign,0000,0000,0000,,{\fs18\c&H210B0E&\3c&H919D86&\\b0\fnArial\frz350.7\pos(327.11,142.11)}Sem sinal
+Dialogue: 0,0:01:53.25,0:01:55.76,Solo-Main,Cameraman,0000,0000,0000,,Droga!\NA câmera não está funcionando...
+Dialogue: 0,0:01:55.76,0:01:57.36,Solo-Main,Cameraman,0000,0000,0000,,Justo agora...
+Dialogue: 0,0:01:58.22,0:01:59.03,Solo-Main,Sung Jinwoo,0000,0000,0000,,Iron!
+Dialogue: 0,0:02:07.60,0:02:08.54,Solo-Main,Sung Jinwoo,0000,0000,0000,,Vão.
+Dialogue: 0,0:02:19.89,0:02:21.79,Solo-Main,Ma Dongwook,0000,0000,0000,,Não estou entendendo mais nada.
+Dialogue: 0,0:02:22.38,0:02:24.42,Solo-Main,Ma Dongwook,0000,0000,0000,,O que são essas sombras?
+Dialogue: 0,0:02:24.42,0:02:28.14,Solo-Main,Ma Dongwook,0000,0000,0000,,E como o Caçador Sung está aqui?
+Dialogue: 0,0:02:30.94,0:02:33.61,Solo-Main,Baek Yoonho,0000,0000,0000,,Caçador Sung!\NQuando você chegou à ilha?
+Dialogue: 0,0:02:33.95,0:02:35.53,Solo-Main,Baek Yoonho,0000,0000,0000,,Ou melhor... Como chegou?
+Dialogue: 0,0:02:35.53,0:02:36.82,Solo-Main,Sung Jinwoo,0000,0000,0000,,Mais tarde eu explico.
+Dialogue: 0,0:02:37.18,0:02:39.57,Solo-Main,Sung Jinwoo,0000,0000,0000,,Antes, vamos cuidar\Ndos ferimentos de todos.
+Dialogue: 0,0:02:39.57,0:02:40.94,Solo-Main,Sung Jinwoo,0000,0000,0000,,Beba isto.
+Dialogue: 0,0:02:42.77,0:02:46.08,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Ah, é. Não dá pra transferir isto.
+Dialogue: 0,0:02:47.36,0:02:50.40,Solo-Main,Ma Dongwook,0000,0000,0000,,É algum tipo de remédio?\NDe magia de invocação?
+Dialogue: 0,0:02:50.40,0:02:51.54,Solo-Main,Sung Jinwoo,0000,0000,0000,,Sr. Ma.
+Dialogue: 0,0:02:53.03,0:02:54.75,Solo-Main,Sung Jinwoo,0000,0000,0000,,Abra a boca, por favor.
+Dialogue: 0,0:02:59.16,0:03:00.54,Solo-Main,Ma Dongwook,0000,0000,0000,,O quê?
+Dialogue: 0,0:03:04.93,0:03:07.66,Solo-Main,Baek Yoonho,0000,0000,0000,,Meus ferimentos se fecharam...
+Dialogue: 0,0:03:16.11,0:03:17.61,Solo-Main,Baek Yoonho,0000,0000,0000,,Ela não está se recuperando.
+Dialogue: 0,0:03:18.02,0:03:19.40,Solo-Main,Baek Yoonho,0000,0000,0000,,Por que não funciona?
+Dialogue: 0,0:03:19.59,0:03:21.30,Sign,Sign,0000,0000,0000,,{\fad(191,1)\an9\bord1.5\p1)\c&H2E1219&\3a&H00&\1a&H60&\3c&HD58AAE&\fscy80\pos(627.55,19.05)}m 0 0 l 270 0 270 180 0 180
+Dialogue: 1,0:03:19.59,0:03:21.30,Sign,Sign,0000,0000,0000,,{\fad(191,1)\an8\c&HFCF5F4&\3c&H8F6C54&\blur5\fs18\pos(494.17,31.64)}Notificação
+Dialogue: 1,0:03:19.59,0:03:21.30,Sign,Sign,0000,0000,0000,,{\fad(191,1)\an7\c&H360AA7&\3c&H2A1F2C&\blur5\fs14\b1\pos(380,83.64)}Como os pontos de vida do alvo estão\Nmuito baixos, a poção não funciona.
+Dialogue: 0,0:03:21.91,0:03:23.58,Solo-Italics,Sung Jinwoo,0000,0000,0000,,É como aquela vez!
+Dialogue: 0,0:03:22.18,0:03:23.06,Sign,Sign,0000,0000,0000,,{\bord1.5\p1)\c&H15213C&\3a&H00&\1a&H56&\3c&H8C817E&\pos(162.334,12.889)}m 0 0 l 300 0 300 120 0 120
+Dialogue: 1,0:03:22.18,0:03:23.06,Sign,Sign,0000,0000,0000,,{\fs18\b0\c&HF6F7E7&\3c&H897E7A&\fnArial\blur2\pos(162.212,27.504)}Notificação
+Dialogue: 1,0:03:22.18,0:03:23.06,Sign,Sign,0000,0000,0000,,{\an7\c&H2F1DC4&\3c&H141F48&\blur2\b1\fs12\fnArial\pos(30,60.978)}Como os pontos de vida do alvo estão muito baixos,\N\Na poção não funciona.
+Dialogue: 0,0:03:24.81,0:03:27.34,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Essa não. Sua aura está\Ncada vez mais fraca.
+Dialogue: 0,0:03:28.32,0:03:31.01,Solo-Main,Sung Jinwoo,0000,0000,0000,,Ela está ferida demais\Npara ser curada assim.
+Dialogue: 0,0:03:31.01,0:03:33.97,Solo-Main,Sung Jinwoo,0000,0000,0000,,Precisamos sair daqui imediatamente.\NEu vou abrir caminho.
+Dialogue: 0,0:03:33.97,0:03:34.71,Solo-Main,Ma Dongwook,0000,0000,0000,,Certo.
+Dialogue: 0,0:03:34.71,0:03:35.74,Solo-Main,Baek Yoonho,0000,0000,0000,,Esperem!
+Dialogue: 0,0:03:40.75,0:03:43.00,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Estão vindo um atrás do outro...
+Dialogue: 0,0:03:43.00,0:03:45.39,Solo-Main,Baek Yoonho,0000,0000,0000,,É um número gigantesco!
+Dialogue: 0,0:03:49.66,0:03:50.85,Solo-Main,Associates,0000,0000,0000,,Diretor!
+Dialogue: 0,0:03:50.85,0:03:52.68,Solo-Main,Go Gunhee,0000,0000,0000,,Qual é a situação da equipe de ataque?
+Dialogue: 0,0:03:52.68,0:03:53.99,Solo-Main,BG Associate A,0000,0000,0000,,Ainda não sabemos.
+Dialogue: 0,0:03:53.99,0:03:57.61,Solo-Main,BG Associate A,0000,0000,0000,,Alguma coisa interrompeu\Ntodas as comunicações na ilha.
+Dialogue: 0,0:03:58.05,0:04:01.73,Solo-Main,BG Associate B,0000,0000,0000,,Estamos tentando contato com o\Ncomando japonês, mas sem sucesso.
+Dialogue: 0,0:04:01.73,0:04:06.17,Solo-Main,BG Associate C,0000,0000,0000,,A mídia privada também não viu nada\Ndesde o aparecimento da formiga preta.
+Dialogue: 0,0:04:06.70,0:04:08.97,Solo-Main,Go Gunhee,0000,0000,0000,,Precisamos recuperar o sinal!
+Dialogue: 0,0:04:09.44,0:04:12.63,Solo-Main,Go Gunhee,0000,0000,0000,,Coloque as equipes médicas\Ne de resgate em prontidão!
+Dialogue: 0,0:04:12.63,0:04:13.71,Solo-Main,Associates,0000,0000,0000,,Sim, senhor!
+Dialogue: 0,0:04:17.39,0:04:18.83,Solo-Main,Go Gunhee,0000,0000,0000,,Eu nunca...
+Dialogue: 0,0:04:19.86,0:04:23.71,Solo-Main,Go Gunhee,0000,0000,0000,,senti tanta raiva do envelhecimento do\Nmeu corpo e do meu coração como agora.
+Dialogue: 0,0:04:24.76,0:04:29.09,Solo-Main,Go Gunhee,0000,0000,0000,,Queria poder lutar ao lado deles,\Nmesmo que não fosse de grande ajuda.
+Dialogue: 0,0:04:30.01,0:04:31.31,Solo-Main,Woo Jinchul,0000,0000,0000,,Diretor...
+Dialogue: 0,0:04:31.73,0:04:32.92,Solo-Main,Go Gunhee,0000,0000,0000,,Por favor...
+Dialogue: 0,0:04:32.92,0:04:35.47,Solo-Main,Go Gunhee,0000,0000,0000,,Por favor, que estejam bem.
+Dialogue: 0,0:04:32.92,0:04:35.88,Sign,Sign,0000,0000,0000,,{\fs11\c&HF0F3ED&\3c&H4F3937&\pos(349.24,148.16)}Sem sinal
+Dialogue: 0,0:04:38.84,0:04:41.32,Solo-Main,Sung Jinah,0000,0000,0000,,Saco, o que aconteceu?
+Dialogue: 0,0:04:41.66,0:04:47.20,Solo-Main,Sung Jinah,0000,0000,0000,,Primeiro cai o sinal, e agora\Na TV quebrou? Fala sério!
+Dialogue: 0,0:04:47.20,0:04:49.75,Solo-Main,Park Kyunghye,0000,0000,0000,,Acho que fazer isso não vai resolver.
+Dialogue: 0,0:04:49.75,0:04:52.31,Solo-Main,Sung Jinah,0000,0000,0000,,Vou assistir no meu quarto.
+Dialogue: 0,0:04:53.23,0:04:56.13,Solo-Main,Sung Jinah,0000,0000,0000,,Talvez eu ache alguma\Natualização pelo celular.
+Dialogue: 0,0:04:59.50,0:05:01.34,Solo-Main,Park Kyunghye,0000,0000,0000,,Como é impaciente.
+Dialogue: 0,0:05:02.47,0:05:05.16,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,O que está acontecendo?\NExplique agora mesmo.
+Dialogue: 0,0:05:05.16,0:05:07.97,Solo-Main,Sugimoto Reiji,0000,0000,0000,,Os sinais vitais do Goto despareceram.
+Dialogue: 0,0:05:08.95,0:05:11.27,Solo-Main,Sugimoto Reiji,0000,0000,0000,,Pelo que recebemos\Nantes do sinal ser cortado,
+Dialogue: 0,0:05:11.27,0:05:14.09,Solo-Main,Sugimoto Reiji,0000,0000,0000,,um poderoso inimigo\Napareceu diante dele.
+Dialogue: 0,0:05:14.09,0:05:15.84,Solo-Main,Sugimoto Reiji,0000,0000,0000,,É provável que ele tenha sido morto.
+Dialogue: 0,0:05:16.51,0:05:17.68,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,E quanto aos outros?
+Dialogue: 0,0:05:17.68,0:05:19.68,Solo-Main,Sugimoto Reiji,0000,0000,0000,,Estamos verificando.
+Dialogue: 0,0:05:19.68,0:05:21.35,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,Pois verifique mais rápido!
+Dialogue: 0,0:05:21.35,0:05:24.03,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,Qualquer outra perda nos\Ncustará o próximo estágio.
+Dialogue: 0,0:05:25.35,0:05:26.41,Solo-Italics,Sugimoto Reiji,0000,0000,0000,,Sim, senhor.
+Dialogue: 0,0:05:31.58,0:05:35.19,Solo-Main,Matsumoto Shigeo,0000,0000,0000,,O Goto se deixou ser morto?\NAquele inútil!
+Dialogue: 0,0:05:36.34,0:05:38.90,Solo-Main,Matsumoto Shigeo,0000,0000,0000,,O que está acontecendo naquela ilha?
+Dialogue: 0,0:05:47.98,0:05:50.68,Solo-Italics,Sung Jinwoo,0000,0000,0000,,As elites como o Igris e o Iron\Nestão se saindo bem,
+Dialogue: 0,0:05:51.33,0:05:53.76,Solo-Italics,Sung Jinwoo,0000,0000,0000,,mas os soldados de infantaria\Nestão em desvantagem.
+Dialogue: 0,0:05:54.60,0:05:57.00,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Eu bem que gostaria de\Naumentar os números...
+Dialogue: 0,0:05:57.59,0:06:00.07,Solo-Italics,Sung Jinwoo,0000,0000,0000,,...mas tem muita gente assistindo.
+Dialogue: 0,0:06:01.04,0:06:02.26,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Não.
+Dialogue: 0,0:06:02.26,0:06:03.45,Solo-Main,Sung Jinwoo,0000,0000,0000,,Pessoal.
+Dialogue: 0,0:06:04.35,0:06:06.10,Solo-Main,Sung Jinwoo,0000,0000,0000,,Assim não estamos progredindo.
+Dialogue: 0,0:06:06.10,0:06:08.83,Solo-Main,Sung Jinwoo,0000,0000,0000,,Serei mais agressivo para abrir caminho.
+Dialogue: 0,0:06:08.83,0:06:10.00,Solo-Main,Sung Jinwoo,0000,0000,0000,,Peço que vocês...
+Dialogue: 0,0:06:11.01,0:06:13.28,Solo-Main,Sung Jinwoo,0000,0000,0000,,fiquem atrás dele.
+Dialogue: 0,0:06:13.66,0:06:16.34,Solo-Main,Sung Jinwoo,0000,0000,0000,,As outras sombras\Nenfrentarão as formigas.
+Dialogue: 0,0:06:17.39,0:06:21.46,Solo-Main,Sung Jinwoo,0000,0000,0000,,Se alguma delas passar,\Ncuidem delas, por favor.
+Dialogue: 0,0:06:21.80,0:06:24.87,Solo-Main,Choi Jong-in,0000,0000,0000,,Entendido. Ao menos isso\Nnós podemos fazer.
+Dialogue: 0,0:06:24.87,0:06:25.92,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Sim!
+Dialogue: 0,0:06:26.39,0:06:30.96,Solo-Main,Sung Jinwoo,0000,0000,0000,,Mais uma coisa. Por favor, mantenham\Nem segredo o que estão prestes a ver.
+Dialogue: 0,0:06:32.40,0:06:33.35,Solo-Main,Choi Jong-in,0000,0000,0000,,Não pode ser...
+Dialogue: 0,0:06:55.44,0:06:57.67,Solo-Main,Baek Yoonho,0000,0000,0000,,Ele voltou.
+Dialogue: 0,0:06:57.67,0:06:59.37,Solo-Main,Baek Yoonho,0000,0000,0000,,Quer dizer que...
+Dialogue: 0,0:06:59.89,0:07:01.58,Solo-Main,Baek Yoonho,0000,0000,0000,,O Goto foi derrotado?!
+Dialogue: 0,0:07:19.62,0:07:22.25,Solo-Main,Ant King,0000,0000,0000,,O rei não estava lá fora.
+Dialogue: 0,0:07:22.82,0:07:24.48,Solo-Main,Ant King,0000,0000,0000,,Ele está aqui?
+Dialogue: 0,0:07:25.37,0:07:27.75,Solo-Main,Ant King,0000,0000,0000,,Aquele que vocês chamam de rei?
+Dialogue: 0,0:07:29.43,0:07:34.12,Solo-Italics,Sung Jinwoo,0000,0000,0000,,É por causa dele que não sinto mais\Na sombra que enviei com Goto.
+Dialogue: 0,0:07:34.79,0:07:35.52,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Não!
+Dialogue: 0,0:07:35.52,0:07:36.91,Solo-Main,Ma Dongwook,0000,0000,0000,,E-Ei!
+Dialogue: 0,0:07:56.52,0:07:58.10,Solo-Main,Ant King,0000,0000,0000,,É você?
+Dialogue: 0,0:07:58.60,0:08:01.09,Solo-Main,Ant King,0000,0000,0000,,Você é o rei dos humanos?
+Dialogue: 0,0:08:03.32,0:08:04.59,Solo-Main,Sung Jinwoo,0000,0000,0000,,Ué...
+Dialogue: 0,0:08:04.97,0:08:07.26,Solo-Main,Sung Jinwoo,0000,0000,0000,,Olha só, um inseto falante.
+Dialogue: 0,0:08:08.17,0:08:09.57,Solo-Main,Ant King,0000,0000,0000,,Humano...
+Dialogue: 0,0:08:12.02,0:08:14.24,Solo-Main,Ant King,0000,0000,0000,,Sua aura é poderosa.
+Dialogue: 0,0:08:20.78,0:08:21.69,Solo-Main,Sung Jinwoo,0000,0000,0000,,Já você...
+Dialogue: 0,0:08:22.06,0:08:23.84,Solo-Main,Sung Jinwoo,0000,0000,0000,,continua sendo só um inseto.
+Dialogue: 0,0:08:24.46,0:08:26.67,Solo-Main,Choi Jong-in,0000,0000,0000,,Nem mesmo o Caçador Sung...
+Dialogue: 0,0:08:26.67,0:08:28.61,Solo-Main,Baek Yoonho,0000,0000,0000,,Pode ser demais pra ele!
+Dialogue: 0,0:08:28.61,0:08:29.53,Sign,Sign,0000,0000,0000,,{\fs18\c&H210B0E&\3c&H919D86&\\b0\fnArial\frz350.7\pos(327.11,142.11)}Sem sinal
+Dialogue: 0,0:08:29.65,0:08:30.57,Sign,Sign,0000,0000,0000,,{\fad(358,1)\fs18\c&H635501&\3c&HF1FF3B&\\b0\fnArial\frz350.7\pos(327.11,142.11)}Olá!
+Dialogue: 0,0:08:33.72,0:08:36.01,Solo-Main,Staff,0000,0000,0000,,Diretor! Recebemos uma resposta!
+Dialogue: 0,0:08:36.63,0:08:37.47,Solo-Main,Director,0000,0000,0000,,Quê?!
+Dialogue: 0,0:08:37.47,0:08:38.97,Solo-Main,Director,0000,0000,0000,,A-Aquilo é...
+Dialogue: 0,0:08:39.50,0:08:41.94,Solo-Main,Director,0000,0000,0000,,Volte com a transmissão! Agora!
+Dialogue: 0,0:08:42.45,0:08:45.72,Solo-Main,Staff,0000,0000,0000,,Se fizermos isso,\Nserá ao vivo, sem o atraso!
+Dialogue: 0,0:08:45.72,0:08:48.59,Solo-Main,Staff,0000,0000,0000,,Se algo acontecer, não dá pra abafar!
+Dialogue: 0,0:08:48.59,0:08:52.25,Solo-Main,Director,0000,0000,0000,,A transmissão já ficou fora do ar\Ntodo esse tempo! Não dá pra piorar!
+Dialogue: 0,0:08:52.25,0:08:53.08,Solo-Main,Director,0000,0000,0000,,Vai!
+Dialogue: 0,0:08:53.08,0:08:54.14,Solo-Main,Staff B,0000,0000,0000,,S-Sim!
+Dialogue: 0,0:08:54.75,0:08:59.02,Solo-Italics,Staff B,0000,0000,0000,,Nosso destino...\NAliás, o destino dessa batalha...
+Dialogue: 0,0:08:59.02,0:09:01.06,Solo-Italics,Staff B,0000,0000,0000,,depende daquele homem!
+Dialogue: 0,0:09:01.96,0:09:03.31,Solo-Main,Lee Joohee,0000,0000,0000,,S-Sr. Song!
+Dialogue: 0,0:09:03.31,0:09:04.54,Solo-Main,Song Chiyul,0000,0000,0000,,Não pode ser...
+Dialogue: 0,0:09:05.19,0:09:06.49,Solo-Main,Lee Joohee,0000,0000,0000,,É ele?
+Dialogue: 0,0:09:12.57,0:09:15.28,Solo-Main,Sung Jinah,0000,0000,0000,,Mentira. Como assim?!
+Dialogue: 0,0:09:15.37,0:09:17.74,Sign,Sign,0000,0000,0000,,{\fad(142,1)\an2\fs11\c&HFFFFFF&\3c&H2DAEF0&\frz349.6\pos(503.2,153.2)}Notícias {\b0}do Dia
+Dialogue: 0,0:09:16.05,0:09:17.76,Solo-Main,Sung Jinah,0000,0000,0000,,É o meu irmão?!
+Dialogue: 0,0:09:17.76,0:09:19.92,Solo-Main,Sung Jinah,0000,0000,0000,,Ele disse que ia sair rapidinho!
+Dialogue: 0,0:09:20.85,0:09:22.73,Solo-Main,Sung Jinah,0000,0000,0000,,Isso de novo?!
+Dialogue: 0,0:09:24.93,0:09:27.94,Solo-Main,Go Gunhee,0000,0000,0000,,O Caçador Sung conseguiu!
+Dialogue: 0,0:09:29.24,0:09:32.15,Solo-Main,Woo Jinchul,0000,0000,0000,,Mas... como ele chegou à ilha?
+Dialogue: 0,0:09:32.15,0:09:34.43,Solo-Main,Go Gunhee,0000,0000,0000,,Isso não faz diferença agora.
+Dialogue: 0,0:09:35.01,0:09:37.00,Solo-Main,Go Gunhee,0000,0000,0000,,Vamos deixar nas mãos dele.
+Dialogue: 0,0:09:50.34,0:09:52.92,Solo-Main,Choi Jong-in,0000,0000,0000,,Ele é tipo Mago,\Npor que chegou tão perto?!
+Dialogue: 0,0:09:52.92,0:09:54.99,Solo-Main,Baek Yoonho,0000,0000,0000,,Ele subestimou a formiga...
+Dialogue: 0,0:09:54.99,0:09:57.51,Solo-Main,Baek Yoonho,0000,0000,0000,,e pagou por isso!
+Dialogue: 0,0:09:58.10,0:09:59.65,Solo-Main,Ant King,0000,0000,0000,,Fraco.
+Dialogue: 0,0:09:59.65,0:10:01.33,Solo-Main,Ant King,0000,0000,0000,,Você não deve ser o rei.
+Dialogue: 0,0:10:25.03,0:10:27.39,Solo-Main,Ma Dongwook,0000,0000,0000,,Mestre Baek. Mestre Choi.
+Dialogue: 0,0:10:28.19,0:10:30.78,Solo-Main,Ma Dongwook,0000,0000,0000,,Ele é mesmo Mago?
+Dialogue: 0,0:10:30.78,0:10:33.17,Solo-Main,Baek Yoonho,0000,0000,0000,,Eu já não sei mais.
+Dialogue: 0,0:10:33.64,0:10:35.79,Solo-Main,Baek Yoonho,0000,0000,0000,,Mas eu não estava esperando por isso.
+Dialogue: 0,0:10:36.95,0:10:40.22,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Ele é bem resistente.\NÉ o exoesqueleto?
+Dialogue: 0,0:10:58.43,0:11:00.53,Solo-Italics,Cameraman,0000,0000,0000,,Que batalha assustadora.
+Dialogue: 0,0:11:00.53,0:11:03.16,Solo-Italics,Cameraman,0000,0000,0000,,Eu sou um Rank A e mal\Nconsigo me manter de pé.
+Dialogue: 0,0:11:04.87,0:11:08.29,Solo-Italics,Cameraman,0000,0000,0000,,O fluxo de poder mágico é tamanho que\Nestou quase perdendo a consciência.
+Dialogue: 0,0:11:13.48,0:11:16.67,Solo-Italics,Ant King,0000,0000,0000,,Eu estou... sendo pressionado?
+Dialogue: 0,0:11:28.22,0:11:29.60,Solo-Italics,Ant King,0000,0000,0000,,Como?
+Dialogue: 0,0:11:30.81,0:11:32.69,Solo-Italics,Ant King,0000,0000,0000,,Mas o que é...
+Dialogue: 0,0:11:33.27,0:11:36.42,Solo-Italics,Ant King,0000,0000,0000,,esse humano?!
+Dialogue: 0,0:12:02.06,0:12:03.32,Solo-Italics,Sung Jinwoo,0000,0000,0000,,O que é isso?
+Dialogue: 0,0:12:04.05,0:12:07.28,Solo-Main,Ant King,0000,0000,0000,,Uma mistura de toxinas dos\Nanimais marinhos da região,
+Dialogue: 0,0:12:07.28,0:12:10.49,Solo-Main,Ant King,0000,0000,0000,,com potência amplificada\Npelo meu poder mágico.
+Dialogue: 0,0:12:10.49,0:12:12.94,Solo-Main,Ant King,0000,0000,0000,,Você não conseguirá mais se mover.
+Dialogue: 0,0:12:14.87,0:12:18.14,Solo-Main,Ant King,0000,0000,0000,,Chegou o seu fim.
+Dialogue: 0,0:12:20.26,0:12:23.74,Solo-Main,Ant King,0000,0000,0000,,Humano... Morra!
+Dialogue: 0,0:12:27.71,0:12:32.07,Solo-Main,Matsumoto Shigeo,0000,0000,0000,,Sete mortos numa equipe de dez?\NEstá brincando comigo?
+Dialogue: 0,0:12:32.07,0:12:34.04,Solo-Italics,Sugimoto Reiji,0000,0000,0000,,Não, senhor. É a verdade.
+Dialogue: 0,0:12:34.04,0:12:38.20,Solo-Italics,Sugimoto Reiji,0000,0000,0000,,Entramos em contato com os Caçadores\Nsobreviventes e confirmamos.
+Dialogue: 0,0:12:40.36,0:12:44.60,Solo-Main,Matsumoto Shigeo,0000,0000,0000,,Perdemos mais da metade dos nossos\Ncaçadores?! Isso é uma vergonha!
+Dialogue: 0,0:12:45.01,0:12:49.54,Solo-Main,Sugimoto Reiji,0000,0000,0000,,Além disso, estamos pegando algo muito\Npoderoso perto da caldeira da ilha.
+Dialogue: 0,0:12:49.54,0:12:52.52,Solo-Main,Sugimoto Reiji,0000,0000,0000,,Acredito que seja o monstro mágico\Nque derrotou o Goto.
+Dialogue: 0,0:12:52.52,0:12:55.30,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,Como essa coisa está viva\Ndepois de enfrentar o Goto?!
+Dialogue: 0,0:12:55.30,0:12:57.97,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,E está indo para o ninho? Por quê?!
+Dialogue: 0,0:12:57.97,0:13:01.22,Solo-Main,Sugimoto Reiji,0000,0000,0000,,Não sabemos.\NPode ter um objetivo, ou apenas
+Dialogue: 0,0:13:01.22,0:13:03.53,Solo-Italics,Sugimoto Reiji,0000,0000,0000,,está machucado e quer voltar para casa.
+Dialogue: 0,0:13:05.46,0:13:08.41,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,Não sabemos a situação\Ndos Caçadores coreanos.
+Dialogue: 0,0:13:08.41,0:13:12.69,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,Se ainda estiverem vivos, encontrarão\Nessa coisa que foi capaz de matar o Goto.
+Dialogue: 0,0:13:12.69,0:13:15.08,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,Se já estiverem cansados,\Nnão têm como vencer.
+Dialogue: 0,0:13:15.08,0:13:17.92,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,As formigas também estarão\Ndebilitadas pela batalha.
+Dialogue: 0,0:13:18.41,0:13:23.15,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,Se derrotarmos o mais forte,\Nos outros não terão chance!
+Dialogue: 0,0:13:24.38,0:13:26.30,Solo-Italics,Matsumoto Shigeo,0000,0000,0000,,Ainda podemos nos dar bem!
+Dialogue: 0,0:13:26.82,0:13:29.58,Solo-Main,Matsumoto Shigeo,0000,0000,0000,,Resgate os sobreviventes\Nimediatamente!
+Dialogue: 0,0:13:30.02,0:13:33.17,Solo-Main,Matsumoto Shigeo,0000,0000,0000,,Assim que eles se juntarem à\Nsegunda equipe de ataque no mar,
+Dialogue: 0,0:13:33.17,0:13:34.56,Solo-Main,Matsumoto Shigeo,0000,0000,0000,,mande-os de volta à ilha!
+Dialogue: 0,0:13:35.45,0:13:39.09,Solo-Italics,Sugimoto Reiji,0000,0000,0000,,Isso é tudo. Logo um helicóptero\Nchegará aí para buscá-los.
+Dialogue: 0,0:13:39.80,0:13:40.96,Solo-Main,Tawata Kanae,0000,0000,0000,,Entendido.
+Dialogue: 0,0:13:43.04,0:13:46.16,Solo-Main,Tawata Kanae,0000,0000,0000,,Mudamos para o plano 9. Vamos.
+Dialogue: 0,0:13:46.60,0:13:47.65,Solo-Main,Hoshino Minoru,0000,0000,0000,,Não adianta.
+Dialogue: 0,0:13:48.58,0:13:50.81,Solo-Main,Hoshino Minoru,0000,0000,0000,,Aquilo... é um monstro.
+Dialogue: 0,0:13:51.22,0:13:53.89,Solo-Main,Hoshino Minoru,0000,0000,0000,,Nós não temos a menor chance!
+Dialogue: 0,0:13:54.65,0:13:57.58,Solo-Main,Tawata Kanae,0000,0000,0000,,Recomponha-se!\NNão é hora de ter ataque de pânico!
+Dialogue: 0,0:13:57.58,0:14:00.22,Solo-Main,Hoshino Minoru,0000,0000,0000,,Ninguém pode derrotar aquela coisa!
+Dialogue: 0,0:14:00.22,0:14:03.25,Solo-Main,Hoshino Minoru,0000,0000,0000,,Temos que fugir!\NOu vamos morrer!
+Dialogue: 0,0:14:04.86,0:14:06.38,Solo-Main,Tawata Kanae,0000,0000,0000,,Que patético.
+Dialogue: 0,0:14:06.38,0:14:08.66,Solo-Main,Tawata Kanae,0000,0000,0000,,Não há outra opção.
+Dialogue: 0,0:14:08.66,0:14:09.94,Solo-Main,Tawata Kanae,0000,0000,0000,,Não para nós.
+Dialogue: 0,0:14:31.27,0:14:34.99,Solo-Main,Choi Jong-in,0000,0000,0000,,Ele não tinha sido envenenado?\NEle está bem?
+Dialogue: 0,0:14:36.12,0:14:39.08,Solo-Main,Baek Yoonho,0000,0000,0000,,A essa altura, nada mais me surpreende.
+Dialogue: 0,0:14:40.15,0:14:42.32,Solo-Main,Sung Jinwoo,0000,0000,0000,,Então você tinha uma arma secreta.
+Dialogue: 0,0:14:43.44,0:14:46.38,Solo-Main,Sung Jinwoo,0000,0000,0000,,Isso explica por que parecia\Nestar pegando leve.
+Dialogue: 0,0:14:46.36,0:14:48.32,Sign,Sign,0000,0000,0000,,{\c&HFDF8E4&\3c&H8E7A62&\blur3\pos(330.4,63)\b1\fnArial}Notificação
+Dialogue: 0,0:14:46.36,0:14:48.32,Sign,Sign,0000,0000,0000,,{\fs13\c&H2F0092&\3c&H240C24&\blur3\fnArial\pos(320.8,125.4)}Uma substância nociva {\c&HF1DABF&\3c&H826649&}foi detectada.
+Dialogue: 0,0:14:46.36,0:14:48.32,Sign,Sign,0000,0000,0000,,{\an1\fs13\c&HFCFCFC&\3c&HDDB7AB&\blur3\fnArial\pos(216.8,235)}Saúde e Longevidade\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hNv. --
+Dialogue: 0,0:14:46.95,0:14:48.32,Sign,Sign,0000,0000,0000,,{\fad(143,1)\an1\fs12\c&HFFFAD1&\3c&H8A6B41&\blur3\fnArial\pos(254.4,263)}Desintoxicação {\b0\c&HF6E3CA&\3c&H7B6646&}concluída.
+Dialogue: 0,0:14:49.07,0:14:52.69,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Talvez seja porque meu atributo\Nde percepção ficou muito alto...
+Dialogue: 0,0:14:52.69,0:14:54.79,Solo-Italics,Sung Jinwoo,0000,0000,0000,,mas consigo perceber seus sentimentos.
+Dialogue: 0,0:14:55.54,0:14:56.89,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Seu nervosismo.
+Dialogue: 0,0:14:57.95,0:14:59.82,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Mas isso também vale pra mim.
+Dialogue: 0,0:15:01.81,0:15:05.51,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Preciso acabar com isso\No mais rápido possível!
+Dialogue: 0,0:15:16.52,0:15:20.25,Solo-Italics,Ant King,0000,0000,0000,,Veneno é ineficaz.\NMedir forças é inútil.
+Dialogue: 0,0:15:20.67,0:15:22.07,Solo-Italics,Ant King,0000,0000,0000,,Sendo assim...
+Dialogue: 0,0:15:43.17,0:15:44.17,Sign,Sign,0000,0000,0000,,{\fad(188,1)\an7\bord1.5\p1)\c&H2E1219&\3a&H00&\1a&H60&\3c&HD58AAE&\pos(14.22,11.93)}m 0 0 l 310 0 310 180 0 180
+Dialogue: 1,0:15:43.17,0:15:44.17,Sign,Sign,0000,0000,0000,,{\fad(188,1)\b1\c&HFFF2E2&\3c&H72503C&\fnArial\blur2\fs12\pos(160.02,24.07)}Item: {\fs14}Adaga do Monarca Demoníaco
+Dialogue: 1,0:15:43.17,0:15:44.17,Sign,Sign,0000,0000,0000,,{\fad(188,1)\an7\c&HFFF2E2&\3c&H72503C&\blur2\b0\fs12\pos(59.73,47.38)}Dificuldade de aquisição:\N{\b1}Rank S
+Dialogue: 1,0:15:43.17,0:15:44.17,Sign,Sign,0000,0000,0000,,{\fad(188,1)\an7\c&HFFF2E2&\3c&H72503C&\blur2\b0\fs12\pos(210.13,46.58)}Categoria:\N{\b1}Adaga
+Dialogue: 1,0:15:43.17,0:15:44.17,Sign,Sign,0000,0000,0000,,{\fad(188,1)\an7\c&H7ACA39&\3c&H72503C&\blur2\fs12\pos(33.93,89.38)}Ataque +220
+Dialogue: 1,0:15:43.17,0:15:44.17,Sign,Sign,0000,0000,0000,,{\fad(188,1)\an7\c&HE5CFC9&\3c&H573824&\blur2\fs12\b0\pos(33.73,108.98)}Dois em Um (buff de conjunto): Poder de ataque adicional\Nequivalente à força atual será adicionado a cada adaga.
+Dialogue: 1,0:15:43.17,0:15:44.17,Sign,Sign,0000,0000,0000,,{\fad(188,1)\an7\c&HE5CFC9&\3c&H573824&\blur2\fs10\b0\pos(34.73,147.98)}Adaga adquirida do Monarca Demoníaco Baran. Ao usar ambas as\NAdagas do Monarca Demoníaco, o buff de conjunto será aplicado.
+Dialogue: 0,0:16:36.03,0:16:38.83,Solo-Italics,Ant King,0000,0000,0000,,Sua velocidade é comparável à minha.
+Dialogue: 0,0:16:39.65,0:16:42.40,Solo-Italics,Ant King,0000,0000,0000,,Mesmo assim, ele está\Nficando mais rápido.
+Dialogue: 0,0:16:43.12,0:16:45.52,Solo-Italics,Ant King,0000,0000,0000,,Como isso é possível?
+Dialogue: 0,0:17:43.50,0:17:43.87,Sign,Sign,0000,0000,0000,,{\an7\bord1.5\p1)\c&H2E1219&\3a&H00&\1a&H60&\3c&HD58AAE&\pos(14.22,11.93)}m 0 0 l 270 0 270 80 0 80
+Dialogue: 1,0:17:43.50,0:17:43.87,Sign,Sign,0000,0000,0000,,{\an7\c&HFEEDCD&\3c&H573824&\blur2\fs12\pos(25.73,37.86)}[Habilidade: Golpe Fatal] foi atualizado para\Nsua versão final, {\c&HB6FF35&\3c&H1B2D18&\i1}[Habilidade: Mutilação]{\i0\c&HFEEDCD&\3c&H573824&}.
+Dialogue: 0,0:17:43.87,0:17:44.25,Sign,Sign,0000,0000,0000,,{\an9\bord1.5\p1)\c&H2E1219&\3a&H00&\1a&H60&\3c&HD58AAE&\pos(627.55,19.05)}m 0 0 l 270 0 270 180 0 180
+Dialogue: 1,0:17:43.87,0:17:44.25,Sign,Sign,0000,0000,0000,,{\an8\c&HFCF5F4&\3c&H8F6C54&\blur2\fs18\pos(494.17,31.64)}Habilidades
+Dialogue: 1,0:17:43.87,0:17:44.25,Sign,Sign,0000,0000,0000,,{\an8\c&HF8EAC9&\3c&H8F6C54&\blur2\fs14\pos(494.17,62.75)}Nível de habilidade aumentado.
+Dialogue: 1,0:17:43.87,0:17:44.25,Sign,Sign,0000,0000,0000,,{\an8\bord1.5\p1)\c&H2E1219&\3a&H00&\1a&H60&\3c&H675452&\pos(493.33,91.93)}m 0 0 l 200 0 200 30 0 30
+Dialogue: 2,0:17:43.87,0:17:44.25,Sign,Sign,0000,0000,0000,,{\an8\c&HFFFAEE&\3c&H8F6C54&\blur2\fs12\b0\pos(493.28,100.97)}Golpe Fatal\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hNv. Máx
+Dialogue: 2,0:17:43.87,0:17:44.25,Sign,Sign,0000,0000,0000,,{\an8\c&HFFFAEE&\3c&H8F6C54&\blur2\pos(495.95,127.63)}↓
+Dialogue: 1,0:17:43.87,0:17:44.25,Sign,Sign,0000,0000,0000,,{\an8\bord1.5\p1)\c&H2E1219&\3a&H00&\1a&H60&\3c&H675452&\pos(492.44,157.7)}m 0 0 l 210 0 210 30 0 30
+Dialogue: 2,0:17:43.87,0:17:44.25,Sign,Sign,0000,0000,0000,,{\an8\c&HA1FB1B&\3c&H2A2E1D&\blur2\fs14\pos(492.39,164.97)}Mutilação\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h{\c&HF8F9E1&\3c&H836E40&}Nv. Máx
+Dialogue: 0,0:17:45.15,0:17:48.42,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Upgrade... "Mutilação"?
+Dialogue: 0,0:17:53.17,0:17:54.78,Solo-Italics,Ant King,0000,0000,0000,,O-O que é isso?!
+Dialogue: 0,0:17:59.78,0:18:00.83,Solo-Italics,Ant King,0000,0000,0000,,Como?!
+Dialogue: 0,0:18:04.86,0:18:06.40,Solo-Main,Sung Jinwoo,0000,0000,0000,,Regeneração, é?
+Dialogue: 0,0:18:07.59,0:18:09.08,Solo-Italics,Ant King,0000,0000,0000,,O que é isso?
+Dialogue: 0,0:18:11.56,0:18:13.67,Solo-Italics,Ant King,0000,0000,0000,,O que foi que aconteceu?!
+Dialogue: 0,0:18:38.37,0:18:41.95,Solo-Italics,Ant King,0000,0000,0000,,Quem é... esse humano?
+Dialogue: 0,0:18:42.28,0:18:46.08,Solo-Main,Ant King,0000,0000,0000,,Esse humano!!
+Dialogue: 0,0:18:49.93,0:18:50.90,Solo-Main,Sung Jinwoo,0000,0000,0000,,Vão.
+Dialogue: 0,0:19:15.38,0:19:16.61,Solo-Italics,Ant King,0000,0000,0000,,Como é possível?
+Dialogue: 0,0:19:17.41,0:19:21.17,Solo-Italics,Ant King,0000,0000,0000,,Eu nasci para ser o mais forte.
+Dialogue: 0,0:19:22.17,0:19:28.27,Solo-Italics,Ant King,0000,0000,0000,,Eu devoro tudo, e me torno\Ncada vez mais poderoso...
+Dialogue: 0,0:19:28.60,0:19:32.43,Solo-Italics,Ant King,0000,0000,0000,,Era para eu ser o rei.\NAinda assim...
+Dialogue: 0,0:19:35.09,0:19:36.24,Solo-Italics,Ant King,0000,0000,0000,,Fugir...
+Dialogue: 0,0:19:37.16,0:19:38.74,Solo-Italics,Ant King,0000,0000,0000,,Eu preciso fugir!
+Dialogue: 0,0:19:39.45,0:19:43.41,Solo-Italics,Ant King,0000,0000,0000,,Para sobreviver... eu preciso fugir!
+Dialogue: 0,0:19:47.08,0:19:49.31,Solo-Italics,Ant King,0000,0000,0000,,Preciso ir o mais longe possível!
+Dialogue: 0,0:20:07.77,0:20:10.06,Solo-Italics,Ant King,0000,0000,0000,,Rápido! Mais rápido!
+Dialogue: 0,0:20:10.06,0:20:12.12,Solo-Italics,Ant King,0000,0000,0000,,Preciso fugir e escapar daqui!
+Dialogue: 0,0:20:16.49,0:20:17.69,Sign,Sign,0000,0000,0000,,{\an7\fs15\fnArial\c&HFBF3EB&\3c&HAE7169&\blur2\pos(162.33,142.11)}[Habilidade Ativa]
+Dialogue: 0,0:20:16.49,0:20:17.69,Sign,Sign,0000,0000,0000,,{\fs18\fnArial\c&HFCFAF7&\3c&HE2ACD2&\blur5\pos(314.34,225.67)}Mutilação\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\h\hNv. Máx
+Dialogue: 0,0:20:30.58,0:20:31.88,Sign,Sign,0000,0000,0000,,{\c&HF4ECBE&\3c&H73643C&\blur3\fs15\b1\fnArial\pos(320.62,170.55)}Você derrotou o inimigo.
+Dialogue: 0,0:20:30.58,0:20:32.54,Sign,Sign,0000,0000,0000,,{\c&HFDF8E4&\3c&H8E7A62&\blur3\b1\fnArial\pos(329.51,61.22)}Notificação
+Dialogue: 0,0:20:30.79,0:20:31.83,Sign,Sign,0000,0000,0000,,{\c&HFBF8E6&\3c&HB69976&\blur3\fs15\b1\fnArial\pos(316.17,240.77)}Subiu de nível!
+Dialogue: 0,0:20:31.83,0:20:32.54,Sign,Sign,0000,0000,0000,,{\c&HFBF8E6&\3c&HB69976&\blur3\fs15\b1\fnArial\pos(316.17,240.77)}Subiu de nível!\N\NSubiu de nível!
+Dialogue: 0,0:20:45.34,0:20:46.82,Solo-Main,Choi Jong-in,0000,0000,0000,,As formigas...
+Dialogue: 0,0:20:46.82,0:20:48.45,Solo-Main,Baek Yoonho,0000,0000,0000,,Estão fugindo?
+Dialogue: 0,0:20:48.45,0:20:49.82,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Nós vencemos?
+Dialogue: 0,0:20:53.30,0:20:54.57,Solo-Main,Ma Dongwook,0000,0000,0000,,Caçador Sung!
+Dialogue: 0,0:21:01.34,0:21:04.71,Solo-Italics,Sung Jinwoo,0000,0000,0000,,A aura dela está desaparecendo...\NEstamos quase sem tempo!
+Dialogue: 0,0:21:04.71,0:21:06.29,Solo-Main,Baek Yoonho,0000,0000,0000,,Vamos sair logo daqui!
+Dialogue: 0,0:21:06.29,0:21:08.79,Solo-Main,Choi Jong-in,0000,0000,0000,,Já deve haver um helicóptero\Nde resgate lá fora!
+Dialogue: 0,0:21:08.79,0:21:09.76,Solo-Main,Choi Jong-in,0000,0000,0000,,Se chegarmos a ele—
+Dialogue: 0,0:21:09.76,0:21:12.29,Solo-Main,Sung Jinwoo,0000,0000,0000,,Não. Não acho que ela\Naguentaria por tanto tempo.
+Dialogue: 0,0:21:12.29,0:21:13.79,Solo-Main,Lim Tae-gyu,0000,0000,0000,,Então, o que faremos?!
+Dialogue: 0,0:21:17.55,0:21:19.55,Solo-Main,Ma Dongwook,0000,0000,0000,,Achei que as poções não funcionassem.
+Dialogue: 0,0:21:19.55,0:21:21.22,Solo-Main,Sung Jinwoo,0000,0000,0000,,Ainda não tentei usar esta.
+Dialogue: 0,0:21:26.16,0:21:29.39,Solo-Italics,Sung Jinwoo,0000,0000,0000,,O Elixir da Vida que curou a\NDoença do Sono Eterno da mamãe...
+Dialogue: 0,0:21:29.77,0:21:30.89,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Esta...
+Dialogue: 0,0:21:31.14,0:21:33.05,Solo-Italics,Sung Jinwoo,0000,0000,0000,,...é nossa última esperança!
+Dialogue: 0,0:21:34.60,0:21:38.28,Sign,Sign,0000,0000,0000,,{\fad(1,151)\an9\bord1.5\p1)\c&H2E1219&\3a&H00&\1a&H60&\3c&HD58AAE&\pos(627.55,19.05)}m 0 0 l 288 0 288 150 0 150
+Dialogue: 1,0:21:34.60,0:21:38.28,Sign,Sign,0000,0000,0000,,{\fad(1,151)\an8\c&HFCF5F4&\3c&HA37B4D&\blur5\fs20\pos(485.17,30.64)}Notificação
+Dialogue: 1,0:21:34.60,0:21:38.28,Sign,Sign,0000,0000,0000,,{\fad(1,151)\an7\c&H360AA7&\3c&H18120A&\blur5\fs14\pos(355,81.64)}Como a condição do alvo não é tratada pelo\Nmedicamento, ele é ineficaz.
+Dialogue: 0,0:21:35.83,0:21:38.86,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Não surtiu efeito...?
+Dialogue: 0,0:21:41.55,0:21:43.05,Solo-Main,Ma Dongwook,0000,0000,0000,,Não funcionou?
+Dialogue: 0,0:21:44.04,0:21:47.83,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Sair da ilha não será rápido o bastante.\NAs poções não funcionam...
+Dialogue: 0,0:21:47.83,0:21:51.01,Solo-Italics,Sung Jinwoo,0000,0000,0000,,E ainda não posso usar a\NTroca de Sombra de novo!
+Dialogue: 0,0:21:52.05,0:21:53.67,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Não tem nada?
+Dialogue: 0,0:21:53.67,0:21:55.70,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Não tem mais nada que eu possa fazer?!
+Dialogue: 0,0:22:12.98,0:22:20.19,creditos,Creditos,0000,0000,0000,,LEGENDAS BRASILEIRAS\N\N\N{\fs10}TRADUÇÃO\N{\fs12}Marianna Brito\N\N{\fs10}EDIÇÃO\N{\fs12}Diego M. Rodeguero\N\N{\fs10}REVISÃO\N{\fs12}Henrique Calado\N\N{\fs10}PRODUÇÃO\N{\fs12}Gustavo Hoffmann
+Dialogue: 0,0:22:44.63,0:22:48.14,Sign,Sign,0000,0000,0000,,{\an1\fs35\c&H3F00B0&\bord1\3c&H2B0172&\pos(197.02,130.22)}Você é o rei\Ndos humanos?
+Dialogue: 0,0:23:37.14,0:23:40.90,Sign,Sign,0000,0000,0000,,{\an1\fad(1359,1)\fs16\c&HFDF5F9&\3c&H5A0A38&\blur3\b0\pos(282.46,205.22)}Rumo ao próximo alvo

@@ -1,0 +1,338 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Gen_Main,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: Gen_Italics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: Gen_Main_Up,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00090909,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,1
+Style: Gen_Italics_top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,1
+Style: Gen_Nota,Trebuchet MS,20.0,&H00FFFFFF,&H000000FF,&H00262626,&H00505050,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,1
+Style: Cart_A_Tre,Trebuchet MS,20.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0020,0020,0020,1
+Style: Cart_C_Tre,Trebuchet MS,20.0,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0020,0020,0020,1
+Style: Cart_A_Ari,Arial,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00303030,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0020,1
+Style: Cart_TitleSeries,Impact,30.0,&H00000000,&H000000FF,&H00FFFFFF,&H00AC4F8A,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0010,0030,0010,1
+Style: Cart_EpiTitle,Times New Roman,22.0,&H14EEFDFF,&H008B3081,&H287688B3,&H8D2552C4,1,0,0,0,95.0,100.0,0.0,0.0,1,1,0.0,2,0020,0020,0019,0
+Style: Cart_C_Ari,Arial,24.0,&H00000000,&H000000FF,&H00FFFFFF,&H00303030,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0020,1
+Style: Cart_A_Tim,Times New Roman,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0020,0020,0020,1
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:15.49,0:00:16.77,Gen_Main,yoo jinho,0000,0000,0000,,Jefe…
+Dialogue: 0,0:00:17.83,0:00:19.59,Gen_Main,yoo jinho,0000,0000,0000,,¿Qué son esas cosas?
+Dialogue: 0,0:00:19.79,0:00:23.50,Gen_Main,jinwoo,0000,0000,0000,,¿No te lo había enseñado, Jinho?
+Dialogue: 0,0:00:23.96,0:00:25.71,Gen_Main,jinwoo,0000,0000,0000,,Es una de mis habilidades.
+Dialogue: 0,0:00:27.63,0:00:31.09,Gen_Main,yoo jinho,0000,0000,0000,,¿Se puede invocar\Nalgo así con una habilidad?
+Dialogue: 0,0:00:31.89,0:00:35.01,Gen_Main,jinwoo,0000,0000,0000,,Es difícil de explicar.
+Dialogue: 0,0:00:54.99,0:00:56.21,Gen_Main,yoo jinho,0000,0000,0000,,Jefe…
+Dialogue: 0,0:00:57.08,0:01:01.05,Gen_Main,yoo jinho,0000,0000,0000,,Al menos deje que extraiga yo\Nlas piedras mágicas.
+Dialogue: 0,0:01:05.09,0:01:08.35,Gen_Main,yoo jinho,0000,0000,0000,,Muchas gracias.
+Dialogue: 0,0:01:16.47,0:01:18.31,Gen_Italics,james,0000,0000,0000,,Oh, no!
+Dialogue: 0,0:01:20.02,0:01:21.27,Gen_Italics,james,0000,0000,0000,,Jesus!
+Dialogue: 0,0:01:23.65,0:01:26.91,Gen_Main,il-hwan,0000,0000,0000,,No grites, por favor.
+Dialogue: 0,0:01:27.11,0:01:30.59,Gen_Main,il-hwan,0000,0000,0000,,Tranquilo.\NSolo los dejé inconscientes.
+Dialogue: 0,0:01:31.61,0:01:33.67,Gen_Main,il-hwan,0000,0000,0000,,Pero no me entiendes, ¿cierto?
+Dialogue: 0,0:01:34.07,0:01:36.70,Gen_Main,il-hwan,0000,0000,0000,,Yo tampoco sé hablar inglés.
+Dialogue: 0,0:01:42.71,0:01:44.21,Gen_Italics,il-hwan,0000,0000,0000,,I'm human.
+Dialogue: 0,0:01:44.67,0:01:47.43,Gen_Italics,il-hwan,0000,0000,0000,,I want to go home.
+Dialogue: 0,0:03:22.85,0:03:23.97,Gen_Main,yoo jinho,0000,0000,0000,,¡Salud!
+Dialogue: 0,0:03:29.35,0:03:32.01,Gen_Main,jinwoo,0000,0000,0000,,Despejamos el piso 19,\Ncomo acordamos.
+Dialogue: 0,0:03:32.15,0:03:35.73,Gen_Main,yoo jinho,0000,0000,0000,,Sí. Y todo gracias a ti.
+Dialogue: 0,0:03:36.19,0:03:37.73,Gen_Main,jinwoo,0000,0000,0000,,¿Qué vas a hacer ahora?
+Dialogue: 0,0:03:38.11,0:03:42.89,Gen_Main,yoo jinho,0000,0000,0000,,Primero haré el examen escrito para\Ntener la licencia de maestro de gremio.
+Dialogue: 0,0:03:42.99,0:03:46.11,Gen_Main,yoo jinho,0000,0000,0000,,Cuando la tenga, negociaré con mi padre.
+Dialogue: 0,0:03:46.20,0:03:47.25,Gen_Main,jinwoo,0000,0000,0000,,Ya veo.
+Dialogue: 0,0:03:47.79,0:03:50.29,Gen_Main,yoo jinho,0000,0000,0000,,¿Qué hará usted, jefe?
+Dialogue: 0,0:03:54.38,0:03:56.89,Gen_Main,jinwoo,0000,0000,0000,,Puede que esté ilocalizable un tiempo.
+Dialogue: 0,0:03:57.34,0:03:59.21,Gen_Main,jinwoo,0000,0000,0000,,Tengo que ir a un sitio.
+Dialogue: 0,0:04:01.80,0:04:03.09,Gen_Main,jinwoo,0000,0000,0000,,¿Qué pasa?
+Dialogue: 0,0:04:06.64,0:04:11.33,Gen_Main,yoo jinho,0000,0000,0000,,Jefe, si cree que soy\Nun fastidio, dígamelo de frente.
+Dialogue: 0,0:04:11.65,0:04:15.03,Gen_Main,yoo jinho,0000,0000,0000,,No voy a darle más problemas.
+Dialogue: 0,0:04:17.61,0:04:19.27,Gen_Main,jinwoo,0000,0000,0000,,¿Ya estás borracho?
+Dialogue: 0,0:04:19.95,0:04:23.33,Gen_Main,yoo jinho,0000,0000,0000,,Tengo un hermano diez años mayor que yo.
+Dialogue: 0,0:04:23.74,0:04:25.81,Gen_Main,yoo jinho,0000,0000,0000,,Pero él me odia.
+Dialogue: 0,0:04:26.45,0:04:29.61,Gen_Main,yoo jinho,0000,0000,0000,,Nunca hemos hecho nada como hermanos.
+Dialogue: 0,0:04:30.29,0:04:31.55,Gen_Main,yoo jinho,0000,0000,0000,,Y en comparación…
+Dialogue: 0,0:04:32.04,0:04:34.97,Gen_Main,yoo jinho,0000,0000,0000,,Usted no solo me salvó la vida,
+Dialogue: 0,0:04:35.13,0:04:36.67,Gen_Main,yoo jinho,0000,0000,0000,,también me hace favores.
+Dialogue: 0,0:04:37.92,0:04:42.57,Gen_Main,yoo jinho,0000,0000,0000,,Ojalá usted fuera mi hermano de verdad.
+Dialogue: 0,0:05:02.32,0:05:03.53,Gen_Main,jinwoo,0000,0000,0000,,Pues…
+Dialogue: 0,0:05:08.66,0:05:11.77,Gen_Main,jinwoo,0000,0000,0000,,a partir de hoy somos hermanos.
+Dialogue: 0,0:05:16.34,0:05:18.47,Gen_Main,yoo jinho,0000,0000,0000,,¡Hermano!
+Dialogue: 0,0:05:22.63,0:05:24.95,Gen_Main,yoo jinho,0000,0000,0000,,¡Carne! Come carne.
+Dialogue: 0,0:05:25.09,0:05:26.51,Gen_Main,yoo jinho,0000,0000,0000,,¡Asaré un montón!
+Dialogue: 0,0:05:26.64,0:05:28.49,Gen_Main,jinwoo,0000,0000,0000,,No pongas tanta.
+Dialogue: 0,0:05:28.64,0:05:30.65,Gen_Main,yoo jinho/jinwoo,0000,0000,0000,,-¿Le pongo limón?\N-No.
+Dialogue: 0,0:05:30.77,0:05:32.27,Gen_Main,jinwoo,0000,0000,0000,,Estás borracho, ¿no?
+Dialogue: 0,0:05:32.81,0:05:34.71,Gen_Main,yoo jinho,0000,0000,0000,,¡Estoy más sobrio que nunca!
+Dialogue: 0,0:05:35.31,0:05:38.29,Gen_Main,jinwoo,0000,0000,0000,,Mira que eres difícil.
+Dialogue: 0,0:05:43.32,0:05:45.13,Gen_Main,subdirector,0000,0000,0000,,¿Sabemos quién es?
+Dialogue: 0,0:05:45.57,0:05:48.09,Gen_Main,empleado,0000,0000,0000,,Dice ser un Cazador del extranjero.
+Dialogue: 0,0:05:48.33,0:05:53.09,Gen_Main,empleado,0000,0000,0000,,Afirma que acabó encerrado\Ndentro de un portal hace diez años
+Dialogue: 0,0:05:53.41,0:05:56.83,Gen_Main,empleado,0000,0000,0000,,que resultó estar conectado\Ncon uno de Estados Unidos.
+Dialogue: 0,0:05:57.54,0:05:59.53,Gen_Main,subdirector,0000,0000,0000,,Eso no tiene precedentes.
+Dialogue: 0,0:05:59.88,0:06:01.11,Gen_Main,subdirector,0000,0000,0000,,¿Algo más?
+Dialogue: 0,0:06:01.34,0:06:03.29,Gen_Main,empleado,0000,0000,0000,,No sabe mucho inglés.
+Dialogue: 0,0:06:03.51,0:06:06.07,Gen_Main,empleado,0000,0000,0000,,Aún no lo hemos interrogado\Ncon intérprete.
+Dialogue: 0,0:06:06.26,0:06:09.13,Gen_Main,empleado,0000,0000,0000,,Es posible que sea\Nun monstruo antropomorfo.
+Dialogue: 0,0:06:09.47,0:06:10.72,Gen_Main,subdirector,0000,0000,0000,,¿Qué planes tenemos?
+Dialogue: 0,0:06:11.56,0:06:16.99,Gen_Main,empleado,0000,0000,0000,,Le pedimos ayuda a un Cazador\Nde rango S de Washington del mismo país.
+Dialogue: 0,0:06:17.90,0:06:19.52,Gen_Main,subdirector,0000,0000,0000,,¿El señor Hwang?
+Dialogue: 0,0:06:20.27,0:06:23.51,Gen_Main,empleado,0000,0000,0000,,Lo interrogaremos en cuanto regrese.
+Dialogue: 0,0:06:24.45,0:06:25.95,Gen_Main,subdirector,0000,0000,0000,,Perfecto.
+Dialogue: 0,0:06:26.11,0:06:28.33,Gen_Main,subdirector,0000,0000,0000,,Por cierto, ¿cómo se llama este?
+Dialogue: 0,0:06:28.66,0:06:31.19,Gen_Main,empleado,0000,0000,0000,,Es un nombre difícil de pronunciar,
+Dialogue: 0,0:06:32.41,0:06:35.21,Gen_Main,empleado,0000,0000,0000,,pero parece llamarse Il-Hwan Sung.
+Dialogue: 0,0:06:41.71,0:06:43.97,Gen_Main,jinwoo,0000,0000,0000,,No volveré en una semana.
+Dialogue: 0,0:06:44.05,0:06:46.63,Gen_Main,jinah,0000,0000,0000,,Primero por trabajo\Ny ahora por un viaje.
+Dialogue: 0,0:06:46.72,0:06:48.59,Gen_Main,jinah,0000,0000,0000,,Estás muy ocupado, ¿eh?
+Dialogue: 0,0:06:48.72,0:06:50.11,Gen_Main,jinwoo,0000,0000,0000,,Sí, tengo mis cosas.
+Dialogue: 0,0:06:51.47,0:06:53.87,Gen_Main,jinah,0000,0000,0000,,¿Y con quién vas?
+Dialogue: 0,0:06:57.44,0:06:59.35,Gen_Main,jinwoo,0000,0000,0000,,Con amigos.
+Dialogue: 0,0:06:59.44,0:07:02.05,Gen_Main,jinah,0000,0000,0000,,¿Cuándo conseguiste novia?
+Dialogue: 0,0:07:09.57,0:07:13.67,Gen_Italics,jinwoo,0000,0000,0000,,Cuando me enfrenté\Na Cerbero era de nivel veintitantos.
+Dialogue: 0,0:07:14.29,0:07:16.53,Gen_Italics,jinwoo,0000,0000,0000,,Ahora tengo el triple de nivel.
+Dialogue: 0,0:07:17.37,0:07:19.93,Gen_Italics,jinwoo,0000,0000,0000,,El combate debería ser más sencillo.
+Dialogue: 0,0:07:38.85,0:07:41.03,Gen_Main,jinwoo,0000,0000,0000,,Así que tengo que seguir adelante.
+Dialogue: 0,0:07:49.91,0:07:51.24,Gen_Main,jinwoo,0000,0000,0000,,¿Una misión?
+Dialogue: 0,0:07:51.78,0:07:54.59,Gen_Main,jinwoo,0000,0000,0000,,"El castillo está repleto de demonios.
+Dialogue: 0,0:07:54.66,0:07:57.31,Gen_Main,jinwoo,0000,0000,0000,,Reúne almas de demonios".
+Dialogue: 0,0:07:57.79,0:08:01.85,Gen_Main,jinwoo,0000,0000,0000,,Para completarla tengo\Nque reunir… ¡¿10 000 almas?!
+Dialogue: 0,0:08:03.09,0:08:05.00,Gen_Main,jinwoo,0000,0000,0000,,¿Tantas necesito?
+Dialogue: 0,0:08:08.63,0:08:11.91,Gen_Italics,jinwoo,0000,0000,0000,,Pero esta vez vengo por otra cosa.
+Dialogue: 1,0:08:12.34,0:08:14.06,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(0,0)\blur0.5\bord0\an5\fscx180\fscy56\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(532,77.71)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:08:12.34,0:08:14.06,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs16\bord1\blur3\3c&HD99E5B&\pos(535.43,63.43)}FABRICAR\N{\fs12}Objeto: Elíxir de la Vida
+Dialogue: 0,0:08:15.14,0:08:17.63,Gen_Italics,jinwoo,0000,0000,0000,,Da igual si son 10 o 100 mil.
+Dialogue: 0,0:08:19.81,0:08:21.02,Gen_Italics,jinwoo,0000,0000,0000,,Los mataré.
+Dialogue: 0,0:08:27.90,0:08:30.83,Gen_Main,yoo myunghan,0000,0000,0000,,¿Quieres que deje\Nel gremio en tus manos?
+Dialogue: 0,0:08:30.91,0:08:32.01,Gen_Main,yoo jinho,0000,0000,0000,,Sí.
+Dialogue: 0,0:08:34.83,0:08:39.11,Gen_Main,yoo myunghan,0000,0000,0000,,Sabes que Jinsung tiene\Nun proyecto en marcha.
+Dialogue: 0,0:08:40.21,0:08:43.63,Gen_Main,yoo jinho,0000,0000,0000,,Su plan de traer\Na un maestro de gremio de fuera
+Dialogue: 0,0:08:43.79,0:08:46.45,Gen_Main,yoo jinho,0000,0000,0000,,es muy arriesgado para la empresa.
+Dialogue: 0,0:08:48.01,0:08:51.15,Gen_Main,yoo myunghan,0000,0000,0000,,Sung Jinwoo.\NAsí se llama ese cazador, ¿no?
+Dialogue: 0,0:08:51.76,0:08:53.27,Gen_Main,yoo myunghan,0000,0000,0000,,La mazmorra doble,
+Dialogue: 0,0:08:53.47,0:08:56.09,Gen_Main,yoo myunghan,0000,0000,0000,,la muerte del equipo de Hwang Dongsuk
+Dialogue: 0,0:08:56.31,0:08:59.41,Gen_Main,yoo myunghan,0000,0000,0000,,y Cazador de Supervisión\Nque asesinaba a presos.
+Dialogue: 0,0:08:59.81,0:09:02.99,Gen_Main,yoo myunghan,0000,0000,0000,,Sobrevivió a esos tres incidentes.
+Dialogue: 0,0:09:04.94,0:09:08.37,Gen_Main,yoo myunghan,0000,0000,0000,,Y ha participado en todas\Ntus incursiones, ¿verdad?
+Dialogue: 0,0:09:10.28,0:09:14.35,Gen_Main,yoo myunghan,0000,0000,0000,,En el portal rojo con el que se topó\Nel gremio Tigre Blanco hace poco
+Dialogue: 0,0:09:15.28,0:09:19.19,Gen_Main,yoo myunghan,0000,0000,0000,,también fue él quien lideró\Na los sobrevivientes.
+Dialogue: 0,0:09:22.79,0:09:27.49,Gen_Main,yoo myunghan,0000,0000,0000,,Imagino que conseguiste la licencia\Ngracias a su colaboración.
+Dialogue: 0,0:09:27.96,0:09:30.21,Gen_Main,yoo myunghan,0000,0000,0000,,¿Y quieres que lo deje en tus manos?
+Dialogue: 0,0:09:34.64,0:09:35.89,Gen_Main,yoo jinho,0000,0000,0000,,Aun así…
+Dialogue: 0,0:09:38.56,0:09:39.79,Gen_Main,yoo jinho,0000,0000,0000,,Aun así,
+Dialogue: 0,0:09:41.39,0:09:43.87,Gen_Main,yoo jinho,0000,0000,0000,,quiero encargarme del gremio Yoojin.
+Dialogue: 0,0:09:46.23,0:09:48.27,Gen_Main,yoo jinho,0000,0000,0000,,Lo que hace Jinsung…
+Dialogue: 0,0:09:48.36,0:09:50.99,Gen_Main,yoo myunghan,0000,0000,0000,,De acuerdo. Lo dejaré en tus manos.
+Dialogue: 0,0:09:52.19,0:09:53.95,Gen_Main,yoo myunghan,0000,0000,0000,,Con una condición.
+Dialogue: 0,0:09:56.87,0:09:59.05,Gen_Main,yoo myunghan,0000,0000,0000,,Desde el incidente del portal rojo,
+Dialogue: 0,0:09:59.20,0:10:03.51,Gen_Main,yoo myunghan,0000,0000,0000,,el gremio Tigre Blanco está trabajando\Npara reclutar a Sung.
+Dialogue: 0,0:10:04.29,0:10:07.43,Gen_Main,yoo myunghan,0000,0000,0000,,Tráelo a nuestro gremio\Nantes de que lo logren.
+Dialogue: 0,0:10:08.25,0:10:09.47,Gen_Main,yoo myunghan,0000,0000,0000,,Podrás, ¿verdad?
+Dialogue: 0,0:10:11.55,0:10:12.67,Gen_Main,yoo jinho,0000,0000,0000,,Lo haré.
+Dialogue: 0,0:10:16.59,0:10:18.11,Gen_Main,yoo myunghan,0000,0000,0000,,Espero que tengas éxito.
+Dialogue: 1,0:10:21.09,0:10:22.51,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(50,0)\blur0.5\bord0\an5\fscx180\fscy1\t(0,200,\fscy70)\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(531.43,90.86)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:10:21.18,0:10:22.51,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs16\fad(50,0)\bord2\blur3\3c&HC6AF7A&\pos(535.43,63.43)}NOTIFICACIÓN\N\N{\fs10\bord1.5\c&H6D00F4&\3c&H410093&}Maná contaminado.\NHabilidad exclusiva de clase\NExtracción de sombra no disponible.
+Dialogue: 0,0:10:22.60,0:10:26.43,Gen_Main,jinwoo,0000,0000,0000,,Parece que no puedo\Nextraerlo de los demonios.
+Dialogue: 0,0:10:26.85,0:10:29.25,Gen_Main,jinwoo,0000,0000,0000,,Es una lástima, porque hay muchos.
+Dialogue: 1,0:10:29.23,0:10:30.48,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(0,50)\blur0.5\bord0\an5\fscx180\fscy70\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(531.43,90.86)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:10:29.23,0:10:30.48,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs16\fad(0,50)\bord2\blur3\3c&HC6AF7A&\pos(535.43,63.43)}NOTIFICACIÓN\N\N{\fs10\bord1.5\c&H6D00F4&\3c&H410093&}Maná contaminado.\NHabilidad exclusiva de clase\NExtracción de sombra no disponible.
+Dialogue: 1,0:10:30.68,0:10:33.44,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(50,0)\blur0.5\bord0\an5\fscx180\fscy1\t(0,200,\fscy50)\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(530.86,80)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:10:30.78,0:10:33.44,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs14\bord1\fad(50,0)\blur3\3c&HD99E5B&\pos(535.43,63.43)}NOTIFICACIÓN\N\N{\fs10}Obtuviste Permiso de entrada.
+Dialogue: 1,0:10:37.00,0:10:44.46,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(50,50)\blur0.5\bord0\an5\fscx180\fscy1\t(0,200,\fscy78)\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(472,47.43)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:10:37.07,0:10:44.46,Cart_A_Tre,CARTEL,0000,0000,0000,,{\c&HFDFBE7&\3c&H6F6439&\fad(150,50)\bord1\blur2\an5\fs10\pos(473.71,47.43)}OBJETO: {\fs14}Permiso de entrada\N\N{\fs12}6. º piso -> 7. º piso\N\N{\fs8}El permiso concede acceso al 7. º piso del\NCastillo del Demonio. Solo puede usarse en\Nel círculo mágico de teletransporte del 6. º piso.
+Dialogue: 0,0:10:37.62,0:10:40.81,Gen_Main,jinwoo,0000,0000,0000,,¿Un premiso\Npara entrar al piso superior?
+Dialogue: 0,0:10:43.20,0:10:46.37,Gen_Main,jinwoo,0000,0000,0000,,Ya veo. Tengo que usarlo allí.
+Dialogue: 0,0:10:47.42,0:10:49.77,Gen_Main,jinwoo,0000,0000,0000,,Es una mazmorra muy grande.
+Dialogue: 0,0:10:49.92,0:10:53.09,Gen_Main,jinwoo,0000,0000,0000,,Es como si hubiera\Nuna ciudad dentro de un edificio.
+Dialogue: 0,0:10:55.05,0:10:57.27,Gen_Main,jinwoo,0000,0000,0000,,Trasladarse a pie puede ser agotador.
+Dialogue: 0,0:11:06.56,0:11:09.03,Gen_Main,jinwoo,0000,0000,0000,,¿El oso de hielo que lideraba la manada?
+Dialogue: 0,0:11:09.19,0:11:10.41,Gen_Main,jinwoo,0000,0000,0000,,Es enorme.
+Dialogue: 0,0:11:11.48,0:11:14.05,Gen_Main,jinwoo,0000,0000,0000,,Bueno, en marcha.
+Dialogue: 0,0:11:17.36,0:11:19.97,Gen_Main,jinwoo,0000,0000,0000,,Pero qué fastidio de…
+Dialogue: 0,0:11:30.29,0:11:31.34,Gen_Main,jinwoo,0000,0000,0000,,Nada mal.
+Dialogue: 0,0:11:33.21,0:11:35.73,Gen_Main,jinwoo,0000,0000,0000,,A partir de hoy serás Tank.
+Dialogue: 0,0:11:50.48,0:11:52.63,Gen_Main,cazadora A,0000,0000,0000,,Es Hae-in.
+Dialogue: 0,0:11:52.73,0:11:54.28,Gen_Main,cazadora B,0000,0000,0000,,Qué raro verla aquí.
+Dialogue: 0,0:11:54.36,0:11:56.37,Gen_Main,cazadora A,0000,0000,0000,,Es preciosa.
+Dialogue: 0,0:11:56.44,0:11:57.75,Gen_Main,cazadora B,0000,0000,0000,,Sí.
+Dialogue: 0,0:11:59.36,0:12:00.74,Gen_Main,cha hae-in,0000,0000,0000,,¿Por qué?
+Dialogue: 0,0:12:00.82,0:12:05.67,Gen_Main,cha hae-in,0000,0000,0000,,¿Por qué no hace pública\Nla información de los que tienen alas?
+Dialogue: 0,0:12:06.41,0:12:08.29,Gen_Main,choi jong-in,0000,0000,0000,,Por orden de la Asociación.
+Dialogue: 0,0:12:08.46,0:12:12.15,Gen_Main,choi jong-in,0000,0000,0000,,Dicen que revelarlo ahora\Nsolo haría que cundiera el pánico.
+Dialogue: 0,0:12:12.38,0:12:14.99,Gen_Main,cha hae-in/choi jong-in,0000,0000,0000,,-Pero…\N-No te preocupes.
+Dialogue: 0,0:12:15.17,0:12:17.79,Gen_Main,choi jong-in,0000,0000,0000,,Es el momento de reunir fuerzas.
+Dialogue: 0,0:12:18.17,0:12:23.09,Gen_Main,choi jong-in,0000,0000,0000,,Para progresar y cumplir nuestro deber\Ncomo mayor gremio nacional.
+Dialogue: 0,0:12:25.72,0:12:27.77,Gen_Italics,jinwoo,0000,0000,0000,,Aunque cuando obtuve la llave
+Dialogue: 0,0:12:27.93,0:12:30.65,Gen_Italics,jinwoo,0000,0000,0000,,temí que fuera una mazmorra de rango S,
+Dialogue: 0,0:12:31.48,0:12:33.87,Gen_Italics,jinwoo,0000,0000,0000,,estos demonios son poco más que B.
+Dialogue: 1,0:12:34.32,0:12:35.06,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(50,0)\blur0.5\bord0\an5\fscx180\fscy1\t(0,200,\fscy78)\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(519.43,56.57)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:12:34.40,0:12:35.06,Cart_A_Tre,CARTEL,0000,0000,0000,,{\c&HFDFBE7&\3c&H6F6439&\fad(150,0)\bord1\blur2\an5\fs10\pos(521.14,56.57)}OBJETO: {\fs14}Permiso de entrada\N\N{\fs12}6. º piso -> 7. º piso\N\N{\fs8}El permiso concede acceso al 7. º piso del\NCastillo del Demonio. Solo puede usarse en\Nel círculo mágico de teletransporte del 6. º piso.
+Dialogue: 0,0:12:35.15,0:12:39.27,Gen_Italics,jinwoo,0000,0000,0000,,Hay muchos y se hacen\Nmás fuertes conforme subo,
+Dialogue: 0,0:12:39.57,0:12:43.77,Gen_Italics,jinwoo,0000,0000,0000,,pero centrándome en eliminar\Nal que tiene el permiso en cada piso,
+Dialogue: 0,0:12:43.95,0:12:45.66,Gen_Italics,jinwoo,0000,0000,0000,,he ido avanzado rápido.
+Dialogue: 1,0:12:46.18,0:12:46.88,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(50,0)\blur0.5\bord0\an5\fscx180\fscy1\t(0,200,\fscy78)\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(520,56.57)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:12:46.18,0:12:46.88,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs14\bord1\fad(50,0)\blur3\3c&HD99E5B&\an5\pos(520.57,54.86)}HABILIDADES\N\N{\fs10}Nivel de habilidad aumentado\N\NMano del gobernante   Nv. 1 -> Nv. 2
+Dialogue: 0,0:12:47.45,0:12:51.51,Gen_Italics,jinwoo,0000,0000,0000,,Pero si el Castillo del Demonio imita\Nla estructura de la torre original,
+Dialogue: 0,0:12:51.87,0:12:54.05,Gen_Italics,jinwoo,0000,0000,0000,,llegará hasta el piso 100.
+Dialogue: 0,0:12:54.67,0:12:59.19,Gen_Italics,jinwoo,0000,0000,0000,,No sé cuán fuertes serán\Npara cuando llegue allí.
+Dialogue: 0,0:13:00.08,0:13:00.88,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs16\bord2\fad(150,0)\blur3\3c&HD99E5B&\an5\pos(325.71,166.29)}Almas de demonio recogidas
+Dialogue: 0,0:13:00.97,0:13:03.19,Gen_Italics,jinwoo,0000,0000,0000,,Ni si tendré comida suficiente.
+Dialogue: 0,0:13:03.55,0:13:05.55,Gen_Italics,jinwoo,0000,0000,0000,,Y le hice una promesa a Jinah.
+Dialogue: 0,0:13:05.78,0:13:06.51,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs16\bord2\fad(100,0)\blur3\3c&HD99E5B&\an5\pos(325.71,166.29)}Almas de demonio recogidas
+Dialogue: 0,0:13:06.60,0:13:10.01,Gen_Italics,jinwoo,0000,0000,0000,,Esto va a ser\Nuna batalla contra el tiempo.
+Dialogue: 0,0:13:11.30,0:13:13.31,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs16\an5\bord2\fad(0,0)\blur3\3c&HD99E5B&\an5\move(325.71,166.29,325.71,163)\t(\fs17)}Almas de demonio recogidas
+Dialogue: 0,0:13:14.66,0:13:15.89,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs17\an5\bord2\fad(0,0)\blur3\3c&HD99E5B&\an5\move(325.71,163,325.71,160)\t(\fs18)}Almas de demonio recogidas
+Dialogue: 0,0:13:17.23,0:13:20.94,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs18\an5\bord2\fad(0,0)\blur3\3c&HDFCC91&\an5\move(325.71,159,325.71,148)\t(\fs22\bord2.5\blur4)}Almas de demonio recogidas
+Dialogue: 0,0:13:24.70,0:13:26.85,Gen_Italics,jinwoo,0000,0000,0000,,Veamos hasta dónde puedo llegar.
+Dialogue: 0,0:13:40.84,0:13:42.07,Gen_Italics,jinwoo,0000,0000,0000,,Es rojo.
+Dialogue: 0,0:13:43.24,0:13:45.01,Cart_A_Tre,CARTEL,0000,0000,0000,,{\c&H5C00F4&\3c&H1F0A55&\fs10\fad(120,0)\bord1\blur2\pos(309.14,28.57)}SEÑOR DE LOS PISOS BAJOS {\fs+5\bord2\blur3}VULCAN EL AVARICIOSO
+Dialogue: 1,0:13:45.67,0:13:47.97,Cart_A_Ari,CARTEL,0000,0000,0000,,{\c&HD2CAA1&\3c&HE4D489&\bord2.5\blur4\fax-0.2\shad0\pos(325,85.14)}Piso 49 -> Piso 50
+Dialogue: 2,0:13:45.67,0:13:47.97,Cart_A_Ari,CARTEL,0000,0000,0000,,{\c&HD2CAA1&\3c&HFEFAE8&\bord1.5\shad0\fax-0.2\blur0.2\pos(325,85.14)}Piso 49 -> Piso 50
+Dialogue: 0,0:13:51.31,0:13:53.81,Gen_Main,park heejin,0000,0000,0000,,El Cazador Sung no está aquí.
+Dialogue: 0,0:13:54.85,0:13:56.75,Gen_Main,ahn sangmin,0000,0000,0000,,Solo está su hermana,
+Dialogue: 0,0:13:56.86,0:13:59.98,Gen_Main,ahn sangmin,0000,0000,0000,,que solo sabe que se fue de viaje.
+Dialogue: 0,0:14:00.36,0:14:03.07,Gen_Main,park heejin,0000,0000,0000,,Vinimos a su casa para nada.
+Dialogue: 0,0:14:03.24,0:14:06.35,Gen_Main,ahn sangmin,0000,0000,0000,,No se ha registrado\Nen ninguna incursión hace días
+Dialogue: 0,0:14:06.53,0:14:08.57,Gen_Main,ahn sangmin,0000,0000,0000,,y no parece estar en el extranjero.
+Dialogue: 0,0:14:08.66,0:14:13.33,Gen_Main,ahn sangmin,0000,0000,0000,,La última vez que lo localizó\Nla Asociación estaba en la ciudad.
+Dialogue: 0,0:14:13.66,0:14:16.17,Gen_Main,park heejin,0000,0000,0000,,¿Cómo sabes todo eso?
+Dialogue: 0,0:14:17.46,0:14:19.03,Gen_Main,ahn sangmin,0000,0000,0000,,Es mi trabajo.
+Dialogue: 0,0:14:21.55,0:14:25.01,Gen_Main,ahn sangmin,0000,0000,0000,,¿Dónde demonios estará?
+Dialogue: 0,0:14:25.55,0:14:28.23,Gen_Main,jinwoo,0000,0000,0000,,Yo me encargo del jefe.
+Dialogue: 0,0:14:28.51,0:14:30.79,Gen_Main,jinwoo,0000,0000,0000,,Eliminen al resto.
+Dialogue: 0,0:14:45.36,0:14:48.01,Gen_Italics,jinwoo,0000,0000,0000,,Como me subí la Inteligencia,
+Dialogue: 0,0:14:48.07,0:14:51.79,Gen_Italics,jinwoo,0000,0000,0000,,ahora tengo más maná\Ny puedo controlar a más soldados,
+Dialogue: 0,0:14:51.87,0:14:54.23,Gen_Italics,jinwoo,0000,0000,0000,,lo que facilita bastante los combates.
+Dialogue: 0,0:14:54.83,0:14:58.93,Gen_Italics,jinwoo,0000,0000,0000,,¿Hasta cuándo piensa\Nquedarse sentado ese?
+Dialogue: 0,0:14:59.13,0:15:01.87,Gen_Italics,jinwoo,0000,0000,0000,,Si no se mueve, atacaré yo pri…
+Dialogue: 0,0:15:09.05,0:15:11.78,Gen_Main,jinwoo,0000,0000,0000,,¿Qué crees que haces?
+Dialogue: 0,0:15:15.81,0:15:18.87,Gen_Main,jinwoo,0000,0000,0000,,Pero si solo fue un puñetazo.
+Dialogue: 0,0:15:19.23,0:15:21.19,Gen_Main,jinwoo,0000,0000,0000,,¿Subí demasiado la Fuerza?
+Dialogue: 0,0:15:26.82,0:15:28.61,Gen_Main,jinwoo,0000,0000,0000,,Es lo mismo que hizo Cerbero.
+Dialogue: 0,0:15:33.74,0:15:34.79,Gen_Main,jinwoo,0000,0000,0000,,¡Iron!
+Dialogue: 0,0:15:44.84,0:15:48.63,Gen_Italics,jinwoo,0000,0000,0000,,No deja de golpear.\N¿Cómo puede ser tan ágil?
+Dialogue: 0,0:15:49.22,0:15:52.57,Gen_Italics,jinwoo,0000,0000,0000,,Aunque tendrá que parar\Nen algún momento.
+Dialogue: 0,0:15:53.81,0:15:54.99,Gen_Italics,jinwoo,0000,0000,0000,,¡Ahora!
+Dialogue: 0,0:15:58.23,0:15:59.45,Gen_Main,jinwoo,0000,0000,0000,,¡Te tengo!
+Dialogue: 0,0:16:01.44,0:16:02.52,Gen_Main,jinwoo,0000,0000,0000,,No…
+Dialogue: 1,0:16:01.93,0:16:02.54,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(0,0)\blur0.5\bord0\an5\fscx180\fscy78\t(0,200,\fscy78)\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(520,56.57)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:16:01.93,0:16:02.54,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs14\bord1\fad(0,0)\blur3\3c&HD99E5B&\an5\pos(520.57,54.86)}HABILIDADES\N\N{\fs10}Nivel de habilidad aumentado\N\NMano del gobernante   Nv. 1 -> Nv. 2
+Dialogue: 0,0:16:07.90,0:16:11.45,Gen_Italics,jinwoo,0000,0000,0000,,¿Previó lo que iba a hacer?
+Dialogue: 0,0:16:11.87,0:16:16.16,Gen_Italics,jinwoo,0000,0000,0000,,Creo que solo le haré daño\Nen una zona reducida.
+Dialogue: 0,0:16:20.79,0:16:23.59,Gen_Italics,jinwoo,0000,0000,0000,,Primero tengo que restringir\Nsus movimientos.
+Dialogue: 0,0:16:24.55,0:16:25.77,Gen_Italics,jinwoo,0000,0000,0000,,¿Hay algo útil?
+Dialogue: 0,0:16:27.34,0:16:28.38,Gen_Main,jinwoo,0000,0000,0000,,¡Eso!
+Dialogue: 0,0:16:39.31,0:16:41.87,Gen_Main,jinwoo,0000,0000,0000,,¿La ira te cegó?
+Dialogue: 0,0:16:44.36,0:16:45.57,Gen_Main,jinwoo,0000,0000,0000,,¡Muere!
+Dialogue: 1,0:16:59.24,0:17:00.24,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(50,0)\blur0.5\bord0\an5\fscx180\fscy1\t(0,200,\fscy70)\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(531.43,90.86)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:16:59.33,0:17:00.24,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs16\fad(50,0)\bord2\blur3\3c&HC6AF7A&\pos(535.43,63.43)}NOTIFICACIÓN\N\N{\fs10}Has derrotado a\N[Señor de los pisos bajos\NVULCAN EL AVARICIOSO]
+Dialogue: 1,0:17:00.48,0:17:01.92,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(50,0)\blur0.5\bord0\an5\fscx240\fscy1\t(0,200,\fscy110)\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(500.57,101.14)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:17:00.58,0:17:01.92,Cart_A_Tre,CARTEL,0000,0000,0000,,{\c&HFDFBE7&\3c&H6F6439&\fad(150,0)\bord1\blur2\an5\fs10\pos(506.29,105.14)}OBJETO: {\fs14}Fragmento del Árbol del Mundo\N\N{\fs10\b0}Categoría: Material | Dificultad de adquisición: --\N\NMadera purificada del garrote de Vulcan,\Nhecho con una rama del Árbol del Mundo.\N\NLa madera del Árbol del Mundo posee fuertes\Npropiedades mágicas y se usa para fabricar\Nherramientas mágicas avanzadas.
+Dialogue: 0,0:17:03.46,0:17:06.37,Gen_Main,hwang dongsoo,0000,0000,0000,,Un monstruo que habla, ¿eh?
+Dialogue: 0,0:17:07.88,0:17:10.45,Gen_Main,il-hwan,0000,0000,0000,,He dicho mil veces\Nque no soy un monstruo.
+Dialogue: 0,0:17:10.59,0:17:12.37,Gen_Main,il-hwan,0000,0000,0000,,Si tanto sospechan de mí,
+Dialogue: 0,0:17:12.47,0:17:15.11,Gen_Main,il-hwan,0000,0000,0000,,pueden hacerme un análisis de ADN.
+Dialogue: 0,0:17:15.22,0:17:16.47,Gen_Main,hwang dongsoo,0000,0000,0000,,Cállate.
+Dialogue: 0,0:17:16.68,0:17:19.41,Gen_Main,hwang dongsoo,0000,0000,0000,,Contesta solo a lo que te pregunte.
+Dialogue: 0,0:17:19.68,0:17:23.27,Gen_Main,hwang dongsoo,0000,0000,0000,,Estoy de mal humor\Nporque me interrumpieron.
+Dialogue: 0,0:17:23.60,0:17:28.31,Gen_Main,hwang dongsoo,0000,0000,0000,,En serio… Tremendo circo montaron aquí.
+Dialogue: 0,0:17:28.73,0:17:30.61,Gen_Main,il-hwan,0000,0000,0000,,Oye, ¿puedo preguntarte algo?
+Dialogue: 0,0:17:30.69,0:17:32.57,Gen_Main,hwang dongsoo,0000,0000,0000,,¡Te dije que te callaras!
+Dialogue: 0,0:17:32.99,0:17:37.27,Gen_Main,il-hwan,0000,0000,0000,,¿Cuánto sabe la humanidad\Nde los portales y los monstruos?
+Dialogue: 0,0:17:37.41,0:17:41.95,Gen_Main,hwang dongsoo/il-hwan,0000,0000,0000,,-¿Qué?\N-¿Cuánto saben de portales y monstruos?
+Dialogue: 0,0:17:42.29,0:17:44.31,Gen_Main,hwang dongsoo,0000,0000,0000,,¿De qué estás hablando?
+Dialogue: 0,0:17:44.67,0:17:47.39,Gen_Main,il-hwan,0000,0000,0000,,Mazmorras, portales, monstruos…
+Dialogue: 0,0:17:47.63,0:17:49.63,Gen_Main,il-hwan,0000,0000,0000,,Solo son la punta del {\i1}iceberg{\i0}.
+Dialogue: 0,0:17:49.96,0:17:54.21,Gen_Main,il-hwan,0000,0000,0000,,Ha despertado un poder\Nque puede resultar cataclísmico.
+Dialogue: 0,0:17:54.34,0:17:56.03,Gen_Main,hwang dongsoo,0000,0000,0000,,¿Qué dices?
+Dialogue: 0,0:17:56.47,0:17:58.23,Gen_Main,il-hwan,0000,0000,0000,,La peor calamidad posible.
+Dialogue: 0,0:17:58.35,0:18:00.01,Gen_Main,il-hwan,0000,0000,0000,,No puedo decir más.
+Dialogue: 0,0:18:01.02,0:18:02.37,Gen_Main,hwang dongsoo,0000,0000,0000,,¿Y qué?
+Dialogue: 0,0:18:04.02,0:18:07.91,Gen_Main,il-hwan,0000,0000,0000,,Mi objetivo es evitar la calamidad.
+Dialogue: 0,0:18:09.44,0:18:12.01,Gen_Main,hwang dongsoo,0000,0000,0000,,Déjate de tonterías.
+Dialogue: 0,0:18:12.11,0:18:14.87,Gen_Main,hwang dongsoo,0000,0000,0000,,¿Sabes cuántos Cazadores\Nhay en el mundo?
+Dialogue: 0,0:18:14.99,0:18:16.75,Gen_Main,hwang dongsoo,0000,0000,0000,,Si los reunimos…
+Dialogue: 0,0:18:16.87,0:18:20.66,Gen_Main,il-hwan,0000,0000,0000,,Un gran número no sirve\Nde nada ante ese poder.
+Dialogue: 0,0:18:20.74,0:18:23.11,Gen_Main,il-hwan,0000,0000,0000,,Los absorberá y los utilizará.
+Dialogue: 0,0:18:23.25,0:18:26.13,Gen_Main,il-hwan/hwang dongsoo,0000,0000,0000,,-Pareces bastante fuerte.\N-¿Qué?
+Dialogue: 0,0:18:28.42,0:18:32.47,Gen_Main,hwang dongsoo,0000,0000,0000,,Tienes agallas para presentarte\Ncon un nombre, monstruo.
+Dialogue: 0,0:18:32.67,0:18:36.34,Gen_Main,hwang dongsoo,0000,0000,0000,,Y dices que tienes esposa y dos hijos.
+Dialogue: 0,0:18:39.14,0:18:41.55,Gen_Main,hwang dongsoo,0000,0000,0000,,¿Recuerdas el nombre de tu hijo?
+Dialogue: 0,0:18:42.22,0:18:43.47,Gen_Main,il-hwan,0000,0000,0000,,Jinwoo.
+Dialogue: 0,0:18:45.39,0:18:47.81,Gen_Main,il-hwan,0000,0000,0000,,¿A qué viene esa sed de sangre?
+Dialogue: 0,0:18:49.15,0:18:51.93,Gen_Main,hwang dongsoo,0000,0000,0000,,Te dije que no te voy a contestar.
+Dialogue: 0,0:18:52.03,0:18:54.55,Gen_Main,il-hwan/hwang dongsoo,0000,0000,0000,,-Contestarás.\N-No, no lo haré.
+Dialogue: 0,0:18:55.24,0:18:58.32,Gen_Main,hwang dongsoo,0000,0000,0000,,Pero te diré algo interesante.
+Dialogue: 0,0:18:59.24,0:19:01.79,Gen_Main,hwang dongsoo,0000,0000,0000,,Tu hijo está muerto.
+Dialogue: 0,0:19:02.87,0:19:07.00,Gen_Main,hwang dongsoo,0000,0000,0000,,Si quieres decirle algo,\Ndíselo en el más allá.
+Dialogue: 0,0:19:22.51,0:19:25.47,Gen_Main,jinwoo,0000,0000,0000,,Vaya, los estoy destrozando.
+Dialogue: 0,0:19:25.98,0:19:28.37,Gen_Main,jinwoo,0000,0000,0000,,¿Te sorprende que sea tan fuerte?
+Dialogue: 0,0:19:28.85,0:19:30.97,Gen_Main,jinwoo,0000,0000,0000,,De seguro no te lo esperabas.
+Dialogue: 0,0:19:31.82,0:19:34.32,Gen_Main,jinwoo,0000,0000,0000,,¿Los no muertos también sienten miedo?
+Dialogue: 0,0:19:34.86,0:19:36.05,Gen_Main,jinwoo,0000,0000,0000,,Da igual.
+Dialogue: 1,0:19:46.32,0:19:48.02,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(50,0)\blur0.5\bord0\an5\fscx180\fscy1\t(0,200,\fscy70)\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(531.43,90.86)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:19:46.41,0:19:48.02,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs16\fad(50,0)\bord2\blur3\3c&HC6AF7A&\pos(532,68.57)}NOTIFICACIÓN\N\N{\fs10}Has derrotado a\N[METUS, GUÍA DE ALMAS]
+Dialogue: 1,0:19:48.16,0:19:50.44,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(50,0)\blur0.5\bord0\an5\fscx180\fscy1\t(0,200,\fscy70)\3c&HF841C5&\ybord4\1a&H58&\3a&H37&\pos(531.43,90.86)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:19:48.21,0:19:50.46,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs16\fad(50,0)\bord2\blur3\3c&HC6AF7A&\pos(532,68.57)}NOTIFICACIÓN\N\N{\fs12\fax-0.2}¡Subes de nivel!\N{\alpha&HFF&\t(390,520,\alpha&H00&)}¡Subes de nivel!
+Dialogue: 0,0:19:53.75,0:19:56.01,Gen_Main,bombero A/B,0000,0000,0000,,-¡Por aquí!\N-¡Dense prisa!
+Dialogue: 0,0:19:56.09,0:19:58.71,Gen_Main,empleado,0000,0000,0000,,Dicen que una batalla entre dos rangos S
+Dialogue: 0,0:19:58.84,0:20:03.21,Gen_Main,empleado,0000,0000,0000,,cambia la geografía de la zona\Ny la deja en ruinas.
+Dialogue: 0,0:20:03.60,0:20:05.72,Gen_Main,empleado,0000,0000,0000,,Que no haya sido peor es…
+Dialogue: 0,0:20:05.97,0:20:07.97,Gen_Main,subdirector,0000,0000,0000,,Sí. Tuvimos suerte.
+Dialogue: 0,0:20:08.31,0:20:10.94,Gen_Main,subdirector,0000,0000,0000,,Un segundo. Fue un solo segundo.
+Dialogue: 0,0:20:11.23,0:20:13.61,Gen_Main,subdirector,0000,0000,0000,,El señor Hwang perdió
+Dialogue: 0,0:20:13.73,0:20:16.93,Gen_Main,subdirector,0000,0000,0000,,antes de que pudieran\Nextenderse los daños.
+Dialogue: 0,0:20:21.95,0:20:24.01,Gen_Main,jinwoo,0000,0000,0000,,Se me acabó la comida.
+Dialogue: 0,0:20:24.33,0:20:26.11,Gen_Main,jinwoo,0000,0000,0000,,Tendré que dejarlo hasta aquí.
+Dialogue: 0,0:20:27.50,0:20:29.33,Gen_Main,jinwoo,0000,0000,0000,,Estoy en el piso 75.
+Dialogue: 0,0:20:29.46,0:20:31.63,Gen_Main,jinwoo,0000,0000,0000,,Puede que me queden unos 25.
+Dialogue: 0,0:20:32.08,0:20:34.23,Gen_Main,jinwoo,0000,0000,0000,,Aún me queda bastante camino.
+Dialogue: 0,0:20:34.54,0:20:37.43,Gen_Main,jinwoo,0000,0000,0000,,Pero no me voy con las manos vacías.
+Dialogue: 0,0:20:38.34,0:20:41.51,Gen_Italics,jinwoo,0000,0000,0000,,El arete del gigante del piso 50.
+Dialogue: 0,0:20:41.89,0:20:45.01,Gen_Italics,jinwoo,0000,0000,0000,,Y el collar que me dio\Nel esqueleto de hace poco.
+Dialogue: 0,0:20:45.60,0:20:50.23,Gen_Italics,jinwoo,0000,0000,0000,,Por separado ya son buenos, pero\Nlos efectos del set son aún mejores.
+Dialogue: 1,0:20:45.76,0:20:47.22,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs11\fad(0,50)\bord2\blur2\3c&H280A26&\c&HFFFFFF&\1a&H9B&\pos(340,243.43)}Oculto
+Dialogue: 1,0:20:45.76,0:20:50.22,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs16\fad(50,0)\bord2\blur3\3c&HC6AF7A&\pos(321.71,52)}EFECTO DE SET DE OBJETOS
+Dialogue: 1,0:20:45.76,0:20:50.22,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs11\fad(0,0)\bord2\blur2\3c&H280A26&\c&HFFFFFF&\1a&H9B&\pos(340,265.14)}Oculto
+Dialogue: 2,0:20:47.18,0:20:50.23,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs11\fad(50,0)\bord2\blur2\3c&H4C8C1F&\c&H97D964&\1a&H00&\pos(340,243.43)}Parámetros +5
+Dialogue: 0,0:20:50.81,0:20:55.69,Gen_Italics,jinwoo,0000,0000,0000,,Por cómo es la ventana,\Ndeduzco que falta otro jefe.
+Dialogue: 0,0:20:57.23,0:20:59.44,Gen_Italics,jinwoo,0000,0000,0000,,La esfera de la avaricia\Ntampoco está mal.
+Dialogue: 0,0:20:59.53,0:21:01.93,Gen_Italics,jinwoo,0000,0000,0000,,Yo no puedo usarla,
+Dialogue: 0,0:21:02.07,0:21:04.61,Gen_Italics,jinwoo,0000,0000,0000,,pero por suerte se puede transferir.
+Dialogue: 0,0:21:04.78,0:21:06.33,Gen_Italics,jinwoo,0000,0000,0000,,Si se la doy a los magos,
+Dialogue: 0,0:21:06.41,0:21:08.63,Gen_Italics,jinwoo,0000,0000,0000,,duplicará el poder de su magia.
+Dialogue: 0,0:21:09.37,0:21:14.97,Gen_Italics,jinwoo,0000,0000,0000,,Y elegí una caja de botín maldita\Nal completar la misión.
+Dialogue: 0,0:21:15.63,0:21:19.01,Gen_Italics,jinwoo,0000,0000,0000,,Pensaba que había perdido\Nmi oportunidad, pero no.
+Dialogue: 0,0:21:20.51,0:21:23.79,Gen_Main,jinwoo,0000,0000,0000,,Como sospechaba, es una llave.
+Dialogue: 0,0:21:24.63,0:21:30.18,Cart_A_Tre,CARTEL,0000,0000,0000,,{\an7\3c&HBC926B&\fs10\fax-0.1\fad(0,50)\blur2\bord2\frz352.4\3a&H6F&\pos(254.86,144.57)}La información será revelada cuando se cumplan las condiciones.
+Dialogue: 0,0:21:24.97,0:21:28.43,Gen_Main,jinwoo,0000,0000,0000,,¿No hay detalles?\N¿Para dónde y cuándo es?
+Dialogue: 0,0:21:29.81,0:21:32.91,Gen_Main,jinwoo,0000,0000,0000,,Bueno, esta vez no venía por esto.
+Dialogue: 0,0:21:34.98,0:21:36.19,Gen_Italics,jinwoo,0000,0000,0000,,En el piso 50,
+Dialogue: 0,0:21:36.27,0:21:39.97,Gen_Italics,jinwoo,0000,0000,0000,,Vulcan el Avaricioso me dio\Nun fragmento del Árbol del Mundo.
+Dialogue: 0,0:21:40.69,0:21:42.27,Gen_Italics,jinwoo,0000,0000,0000,,Y en el piso 75,
+Dialogue: 1,0:21:41.86,0:21:46.88,Cart_A_Tre,CARTEL,0000,0000,0000,,{\p1\c&H1F070A&\fad(700,0)\blur0.5\bord1\an5\fscx180\fscy56\3c&H878787&\1a&H58&\3a&H37&\pos(532,77.71)}m 0 0 l 100 0 100 100 0 100{\p0}
+Dialogue: 2,0:21:41.86,0:21:46.88,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fs16\bord1\fad(700,0)\blur3\3c&HD99E5B&\pos(535.43,63.43)}FABRICAR\N{\fs12}Objeto: Elíxir de la Vida
+Dialogue: 0,0:21:42.36,0:21:46.87,Gen_Italics,jinwoo,0000,0000,0000,,Metus, Guía de Almas, me dio agua\Ndel manantial del Bosque de Espíritus.
+Dialogue: 0,0:21:47.37,0:21:51.33,Gen_Italics,jinwoo,0000,0000,0000,,Tengo dos de los tres ingredientes\Npara el Elíxir de la Vida.
+Dialogue: 0,0:21:52.29,0:21:53.53,Gen_Main,jinwoo,0000,0000,0000,,Me falta uno.
+Dialogue: 0,0:21:54.08,0:21:55.98,Gen_Main,jinwoo,0000,0000,0000,,Uno más y salvaré a mamá.
+Dialogue: 0,0:21:58.25,0:22:01.15,Gen_Italics,jinwoo,0000,0000,0000,,La próxima vez que venga, lo conseguiré.
+Dialogue: 0,0:23:37.40,0:23:42.64,Cart_A_Tre,CARTEL,0000,0000,0000,,{\bord2\fs16\blur2\fad(600,0)\c&HFBDBF6&\pos(357,193)\3c&HA60261&\b1\frx8\t(\frx0\3c&H50011F&)}Tengo que dejar de fingir

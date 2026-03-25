@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link, useLocation, useParams } from 'react-router-dom'
+import MediaCardLink from '../components/MediaCardLink'
 import RatingInline from '../components/RatingInline'
 import Sidebar from '../components/Sidebar'
 import Topbar from '../components/Topbar'
@@ -45,7 +46,13 @@ function getRelatedShows(show) {
 export default function TVShowDetail() {
   const { id } = useParams()
   const location = useLocation()
-  const { continueWatchingItems, isFavorite, toggleFavorite } = useAccount()
+  const {
+    continueWatchingItems,
+    isFavorite,
+    isInContinueWatching,
+    removeContinueWatching,
+    toggleFavorite,
+  } = useAccount()
   const show = tvShows.find((item) => item.id === id)
   const seasons = show?.seasonsData ?? []
   const [activeSeasonId, setActiveSeasonId] = useState(seasons[0]?.id ?? '')
@@ -78,6 +85,7 @@ export default function TVShowDetail() {
   const totalEpisodesLabel = show.totalEpisodes
     ? `${show.totalEpisodes} Episodes`
     : `${allEpisodes.length} Episodes`
+  const canRemoveFromContinueWatching = isInContinueWatching(show)
   const ratingValue = getRatingValue(show)
   const metaItems = [
     show.genre ?? show.badge,
@@ -124,9 +132,23 @@ export default function TVShowDetail() {
               <p className="watch-description">{show.description}</p>
 
               <div className="watch-hero-actions">
-                <Link to={playHref} state={{ from: currentPath }} className="watch-primary-btn">
+                <Link
+                  to={playHref}
+                  state={{ autoplay: true, from: currentPath }}
+                  className="watch-primary-btn"
+                >
                   {playLabel}
                 </Link>
+
+                {canRemoveFromContinueWatching && (
+                  <button
+                    type="button"
+                    className="watch-secondary-btn"
+                    onClick={() => removeContinueWatching(show)}
+                  >
+                    Remove from Continue Watching
+                  </button>
+                )}
 
                 <button
                   className={`watch-list-btn ${isFavorite(show.id) ? 'active' : ''}`}
@@ -171,7 +193,12 @@ export default function TVShowDetail() {
 
               <div className="watch-related-grid">
                 {relatedShows.map((item) => (
-                  <Link to={`/tv-shows/${item.id}`} key={item.id} className="watch-related-card">
+                  <MediaCardLink
+                    item={item}
+                    to={`/tv-shows/${item.id}`}
+                    key={item.id}
+                    className="watch-related-card"
+                  >
                     <img src={item.backdrop ?? item.poster} alt={item.title} />
                     <div className="watch-related-overlay" />
 
@@ -179,7 +206,7 @@ export default function TVShowDetail() {
                       <p>{[item.year, item.maturityRating].filter(Boolean).join(' / ')}</p>
                       <h3>{item.title}</h3>
                     </div>
-                  </Link>
+                  </MediaCardLink>
                 ))}
               </div>
             </section>

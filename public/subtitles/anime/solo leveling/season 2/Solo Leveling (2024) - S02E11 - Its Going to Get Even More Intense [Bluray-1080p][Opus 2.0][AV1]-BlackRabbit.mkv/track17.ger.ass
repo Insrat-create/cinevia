@@ -1,0 +1,286 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: Internal,Arial Bold,23.0,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: Top,Arial Bold,23.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0000,0000,0020,1
+Style: Top Internal,Arial Bold,23.0,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0000,0000,0020,1
+Style: Overlap,Arial Bold,23.0,&H00F3EDE3,&H000000FF,&H00362B17,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: Overlap Internal,Arial Bold,23.0,&H00F3EDE3,&H000000FF,&H00362B17,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: Overlap Top,Arial Bold,23.0,&H00F3EDE3,&H000000FF,&H00362B17,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0000,0000,0020,0
+Style: Flashback,Arial Bold,23.0,&H00F7ECEB,&H000000FF,&H004D0701,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: Flashback Internal,Arial Bold,23.0,&H00F7ECEB,&H000000FF,&H004D0701,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: Flashback Top,Arial Bold,23.0,&H00F7ECEB,&H000000FF,&H004D0701,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0000,0000,0020,0
+Style: Narrator,Arial Bold,23.0,&H00F2F2F9,&H000000FF,&H00000050,&H00000050,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,1
+Style: TypePlaceholder,Arial Bold,19.0,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0010,0010,0020,1
+Style: TypePlaceholderBox,Arial Bold,22.0,&H00200960,&H000000FF,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100.0,100.0,0.0,0.0,3,1,0.0,8,0010,0010,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.33,0:00:15.20,Default,Kenzo Tanaka,0000,0000,0000,,Da ist irgendwas!
+Dialogue: 0,0:00:15.62,0:00:16.54,Default,Kenzo Tanaka,0000,0000,0000,,Pass auf!
+Dialogue: 0,0:00:16.54,0:00:17.70,Default,Fujishima,0000,0000,0000,,Weiß ich selbst!
+Dialogue: 0,0:00:19.29,0:00:20.54,Default,Kenzo Tanaka,0000,0000,0000,,Du Drecks…
+Dialogue: 0,0:00:22.00,0:00:23.29,Default,Fujishima,0000,0000,0000,,Kenzo!
+Dialogue: 0,0:00:29.09,0:00:30.13,Default,Fujishima,0000,0000,0000,,Dich schnapp ich mir!
+Dialogue: 0,0:02:20.62,0:02:23.96,Internal,Dong-Wook Ma,0000,0000,0000,,Jede von denen ist so stark wie ein S-Rang.
+Dialogue: 0,0:02:24.46,0:02:25.54,Internal,Dong-Wook Ma,0000,0000,0000,,Aber …
+Dialogue: 0,0:02:25.54,0:02:26.58,Default,Dong-Wook Ma,0000,0000,0000,,Hepp!
+Dialogue: 0,0:02:27.50,0:02:29.63,Internal,Dong-Wook Ma,0000,0000,0000,,… am Ende sind es eben doch nur Monster!
+Dialogue: 0,0:02:29.63,0:02:31.09,Internal,Dong-Wook Ma,0000,0000,0000,,Ihre Bewegungen sind simpel.
+Dialogue: 0,0:02:31.09,0:02:34.67,Internal,Dong-Wook Ma,0000,0000,0000,,Für uns kampferprobte Hunter,\Ndie mit allen Wassern gewaschen sind, …
+Dialogue: 0,0:02:35.18,0:02:36.63,Internal,Dong-Wook Ma,0000,0000,0000,,ist das ein Klacks!
+Dialogue: 0,0:02:58.28,0:03:00.74,Default,Hae-In Cha,0000,0000,0000,,Hier sind die Ameisen stark gepanzert.
+Dialogue: 0,0:03:00.74,0:03:04.33,Default,Dong-Wook Ma,0000,0000,0000,,Stimmt. Zum Glück sind es\Ndafür nicht gleich so viele.
+Dialogue: 0,0:03:04.33,0:03:06.71,Default,Byeong-Gu Min,0000,0000,0000,,Mehr von der Sorte wären\Naber auch kein Problem.
+Dialogue: 0,0:03:06.71,0:03:10.54,Default,Byeong-Gu Min,0000,0000,0000,,Ich unterstütze euch schließlich von hinten.\NSeid also ganz unbesorgt!
+Dialogue: 0,0:03:10.96,0:03:14.26,Default,Yun-Ho Baek,0000,0000,0000,,Und das aus dem Mund des Hasenfußes,\Nder den Kampf zuerst gescheut hat.
+Dialogue: 0,0:03:14.84,0:03:18.22,Default,Byeong-Gu Min,0000,0000,0000,,Das will ich von dir, Yun-Ho, nicht hören!
+Dialogue: 0,0:03:18.89,0:03:20.89,Default,Byeong-Gu Min,0000,0000,0000,,Machst du das zum ersten Mal?
+Dialogue: 0,0:03:20.89,0:03:25.39,Default,Byeong-Gu Min,0000,0000,0000,,Selbst mit zermatschtem Schädel\Nleben die Viecher noch eine Weile weiter.
+Dialogue: 0,0:03:25.93,0:03:28.94,Default,Byeong-Gu Min,0000,0000,0000,,Mindestens ihre Gliedmaßen\Nsollte man zerstören.
+Dialogue: 0,0:03:28.94,0:03:30.86,Default,Yun-Ho Baek,0000,0000,0000,,O-Okay.
+Dialogue: 0,0:03:32.23,0:03:34.65,Default,Dong-Wook Ma,0000,0000,0000,,Sie entwickeln sich weiter\Nund werden stärker,
+Dialogue: 0,0:03:34.65,0:03:37.40,Default,Dong-Wook Ma,0000,0000,0000,,aber auf zwei Beinen\Nkönnen sie noch nicht laufen.
+Dialogue: 0,0:03:37.40,0:03:39.28,Default,Yun-Ho Baek,0000,0000,0000,,Ja, aber sehr wahrscheinlich
+Dialogue: 0,0:03:39.28,0:03:42.45,Default,Yun-Ho Baek,0000,0000,0000,,wurde diese Generation vom\Ninneren Zirkel der Königin ausgestoßen.
+Dialogue: 0,0:03:42.78,0:03:45.08,Default,Tae-Gyu Im,0000,0000,0000,,Wir sind also immer noch beim Vorspiel.
+Dialogue: 0,0:03:45.08,0:03:47.21,Default,Tae-Gyu Im,0000,0000,0000,,Ganz sicher, dass wir hier richtig sind?
+Dialogue: 0,0:03:47.21,0:03:49.29,Default,Jong-In Choi,0000,0000,0000,,Das sind wir … vermutlich.
+Dialogue: 0,0:03:49.29,0:03:50.42,Default,Yun-Ho Baek,0000,0000,0000,,Ey!
+Dialogue: 0,0:03:50.42,0:03:51.79,Default,Hae-In Cha,0000,0000,0000,,Alles ist in bester Ordnung.
+Dialogue: 0,0:03:51.79,0:03:55.88,Default,Hae-In Cha,0000,0000,0000,,Tief aus dem Inneren steigt mir\Nein schwacher Monstergestank in die Nase.
+Dialogue: 0,0:03:56.21,0:03:58.55,Default,Jong-In Choi,0000,0000,0000,,Auf ungefähr diese Distanz
+Dialogue: 0,0:03:58.55,0:04:01.47,Default,Jong-In Choi,0000,0000,0000,,sollte Gildenmeister Baek\Nsie schon sehen können.
+Dialogue: 0,0:04:02.39,0:04:03.10,Default,Yun-Ho Baek,0000,0000,0000,,Meine Fresse!
+Dialogue: 0,0:04:18.74,0:04:19.82,Default,Yun-Ho Baek,0000,0000,0000,,Da ist sie.
+Dialogue: 0,0:04:24.12,0:04:26.62,Default,Yun-Ho Baek,0000,0000,0000,,Die Königin ist am Ende dieses Ganges.
+Dialogue: 0,0:04:26.62,0:04:28.91,Default,Yun-Ho Baek,0000,0000,0000,,Sie wird von unzähligen Wachen beschützt.
+Dialogue: 0,0:04:29.62,0:04:33.84,Default,Yun-Ho Baek,0000,0000,0000,,Hier offenbaren sich nun\Ndie Grenzen der Köderstrategie.
+Dialogue: 0,0:04:34.25,0:04:38.26,Default,Yun-Ho Baek,0000,0000,0000,,Dort warten einige Leibwachen\Nauf dem S-Rang auf uns.
+Dialogue: 0,0:04:38.26,0:04:40.13,Default,Yun-Ho Baek,0000,0000,0000,,Über die Stärke der Königin\Nwissen wir nichts.
+Dialogue: 0,0:04:40.13,0:04:42.22,Default,Yun-Ho Baek,0000,0000,0000,,Das wird ein knallharter Kampf.
+Dialogue: 0,0:04:42.22,0:04:45.31,Default,Yun-Ho Baek,0000,0000,0000,,Doch mit dieser Aufstellung\Nkönnen wir nur gewinnen!
+Dialogue: 0,0:04:46.85,0:04:47.89,Default,Yun-Ho Baek,0000,0000,0000,,Auf in den Kampf!
+Dialogue: 0,0:04:48.35,0:04:49.43,Default,Alle,0000,0000,0000,,Jawohl!
+Dialogue: 0,0:04:55.48,0:04:56.90,Default,Izawa,0000,0000,0000,,Müssten sie nicht hier sein?
+Dialogue: 0,0:04:56.90,0:05:00.19,Default,Izawa,0000,0000,0000,,Weil von Charly nichts mehr kam,\Nsind wir doch extra hergekommen.
+Dialogue: 0,0:05:00.19,0:05:02.36,Default,Kei,0000,0000,0000,,Wo sind die nur abgeblieben?
+Dialogue: 0,0:05:03.53,0:05:06.45,Internal,Izawa,0000,0000,0000,,Die Ameisen konnten sie scheinbar\Nproblemlos kaltmachen.
+Dialogue: 0,0:05:09.20,0:05:11.08,Internal,Izawa,0000,0000,0000,,Ist das nicht Fujishimas Brille?
+Dialogue: 0,0:05:12.04,0:05:13.79,Default,Izawa,0000,0000,0000,,U-Unmöglich!
+Dialogue: 0,0:05:17.92,0:05:18.84,Default,Izawa,0000,0000,0000,,Was hast du?
+Dialogue: 0,0:05:19.71,0:05:22.93,Internal,Kei,0000,0000,0000,,Was ist mir da gerade nur für\Nein Gestank in die Nase gestiegen?
+Dialogue: 0,0:05:23.47,0:05:27.35,Internal,Kei,0000,0000,0000,,S-So etwas habe ich\Nnoch nie zuvor gerochen.
+Dialogue: 0,0:05:43.86,0:05:45.78,Default,Atsushi Kumamoto,0000,0000,0000,,Hast du Charly erreicht?
+Dialogue: 0,0:05:45.78,0:05:47.62,Default,Kanae Tawata,0000,0000,0000,,Immer noch kein Mucks.
+Dialogue: 0,0:05:47.62,0:05:49.24,Default,Atsushi Kumamoto,0000,0000,0000,,Was ist nur los bei denen?
+Dialogue: 0,0:05:49.24,0:05:51.33,Default,Kanae Tawata,0000,0000,0000,,Wir haben keine Zeit,\Nuns um andere zu sorgen!
+Dialogue: 0,0:05:54.04,0:05:56.13,Default,Kanae Tawata,0000,0000,0000,,Dieses Mal musst du\Nordentlich mitkämpfen.
+Dialogue: 0,0:05:56.13,0:05:58.25,Default,Atsushi Kumamoto,0000,0000,0000,,Wenn’s denn sein muss …
+Dialogue: 0,0:06:05.09,0:06:08.18,Default,Jong-In Choi,0000,0000,0000,,Na sieh mal einer an!\NWas für ein Empfang!
+Dialogue: 0,0:06:09.97,0:06:14.48,Default,Byeong-Gu Min,0000,0000,0000,,Wenn das so ist, müssen wir\Nuns angemessen vorbereiten.
+Dialogue: 0,0:06:22.11,0:06:23.90,Default,Dong-Wook Ma,0000,0000,0000,,Alles läuft weiter nach Plan!
+Dialogue: 0,0:06:23.90,0:06:27.70,Default,Dong-Wook Ma,0000,0000,0000,,Auf gute Zusammenarbeit,\Nstärkste Waffe der Menschheit!
+Dialogue: 0,0:06:27.70,0:06:29.58,Default,Jong-In Choi,0000,0000,0000,,Die Freude ist ganz meinerseits.
+Dialogue: 0,0:06:29.87,0:06:31.83,Default,Dong-Wook Ma,0000,0000,0000,,Ich bin euer Gegner!
+Dialogue: 0,0:06:40.88,0:06:44.09,Default,Jong-In Choi,0000,0000,0000,,Für gewöhnlich schöpfe ich\Nnicht derart aus den Vollen.
+Dialogue: 0,0:06:44.88,0:06:48.05,Default,Jong-In Choi,0000,0000,0000,,Allerdings muss ich heute\Nwohl mal alle Register ziehen!
+Dialogue: 0,0:06:57.94,0:07:01.65,Internal,Yun-Ho Baek,0000,0000,0000,,Ganz recht, auch ich muss\Nmich nicht länger zügeln.
+Dialogue: 0,0:07:01.65,0:07:04.36,Internal,Yun-Ho Baek,0000,0000,0000,,Völlig egal, was für einen\Nabscheulichen Anblick ich dabei biete, …
+Dialogue: 0,0:07:04.90,0:07:09.57,Internal,Yun-Ho Baek,0000,0000,0000,,ich werde jeden einzelnen\Nverschissenen Käfer zerquetschen!
+Dialogue: 0,0:07:20.79,0:07:22.09,Internal,Hae-In Cha,0000,0000,0000,,Das ist also …
+Dialogue: 0,0:07:23.25,0:07:25.51,Internal,Hae-In Cha,0000,0000,0000,,Baeks Verwandlung in eine Bestie?
+Dialogue: 0,0:07:28.01,0:07:29.51,Internal,Kameramann,0000,0000,0000,,Jetzt geht’s los.
+Dialogue: 0,0:07:29.97,0:07:32.56,Default,TV-Mitarbeiter,0000,0000,0000,,Die Einschaltquote liegt über 80 %!
+Dialogue: 0,0:07:32.56,0:07:34.72,Default,TV-Mitarbeiter,0000,0000,0000,,Nach vorne mit dir für bessere Bilder!
+Dialogue: 0,0:07:34.72,0:07:37.48,Internal,Kameramann,0000,0000,0000,,Einschaltquoten von 80 %?!
+Dialogue: 0,0:07:37.48,0:07:39.52,Internal,Kameramann,0000,0000,0000,,Ich muss die Erwartungen erfüllen!
+Dialogue: 0,0:07:41.11,0:07:43.77,Default,Byeong-Gu Min,0000,0000,0000,,Das hier ist der Bossraum\Neines S-Rang-Dungeons.
+Dialogue: 0,0:07:43.77,0:07:45.19,Default,Byeong-Gu Min,0000,0000,0000,,Wollen Sie etwa sterben?
+Dialogue: 0,0:07:45.19,0:07:47.49,Default,Kameramann,0000,0000,0000,,Nein, das will ich ganz sicher nicht!
+Dialogue: 0,0:07:47.49,0:07:49.24,Default,Byeong-Gu Min,0000,0000,0000,,Dann bleiben Sie bitte hinter mir.
+Dialogue: 0,0:07:49.74,0:07:51.70,Default,Byeong-Gu Min,0000,0000,0000,,Ab hier wird ganz schön die Post abgehen.
+Dialogue: 0,0:07:53.83,0:07:55.16,Default,Moderatorin,0000,0000,0000,,Sehen Sie nur!
+Dialogue: 0,0:07:55.16,0:07:58.62,Default,Moderatorin,0000,0000,0000,,Die S-Rang-Hunter haben nun\Nendlich die Ameisenkönigin erreicht!
+Dialogue: 0,0:07:58.62,0:08:00.83,Default,Moderatorin,0000,0000,0000,,Jetzt in diesem Moment\Nkämpfen sie erbittert,
+Dialogue: 0,0:07:58.92,0:08:03.42,TypePlaceholder,Types,0000,0000,0000,,{\an7\fnVerdana Bold\b1\fs13\3c&H169CF3&\c&HFFFFFF&\4c&H2D2524&\fax0.153649\fscx72.90\fscy100.38\xbord2.14\ybord1.42\frx2.26\fry2.648\frz11.91\move(111.24,231.24,126.86,235.05,15,4478)\org(344.55,239.37)}Live-TV-Übertragung\h\h\h\h\h\h\h\h\h\h\h\h{\3c&HE4E0DC&\c&HAC7D4D&}Der vierte Raid auf die Insel Jeju: S-Rang-Hunter im Kampf mit der Ameisenkönigin
+Dialogue: 0,0:08:00.83,0:08:03.42,Default,Moderatorin,0000,0000,0000,,um unser aller lang gehegten\NWunsch zu verwirklichen!
+Dialogue: 0,0:08:03.79,0:08:06.92,Default,Moderatorin,0000,0000,0000,,Diese S-Rang-Hunter,\Ndie sonst nicht Seite an Seite kämpfen,
+Dialogue: 0,0:08:06.92,0:08:10.43,Default,Moderatorin,0000,0000,0000,,ziehen nun für diesen\Nkoordinierten Angriff an einem Strang!
+Dialogue: 0,0:08:23.52,0:08:24.77,Default,Dong-Wook Ma,0000,0000,0000,,Hepp!
+Dialogue: 0,0:09:14.78,0:09:18.29,Default,Moderatorin,0000,0000,0000,,Chas rasiermesserscharfe Hiebe\Nzerlegen die Ameisen!
+Dialogue: 0,0:09:19.87,0:09:21.25,Default,Moderatorin,0000,0000,0000,,Sie sind besiegt!
+Dialogue: 0,0:09:22.00,0:09:24.25,Default,Moderatorin,0000,0000,0000,,Die Leibwachen sind\Nbis auf die letzte gefallen!
+Dialogue: 0,0:09:34.55,0:09:37.26,Default,Dong-Wook Ma,0000,0000,0000,,Jetzt! Alle auf sie!
+Dialogue: 0,0:09:39.97,0:09:42.23,Default,Tae-Gyu Im,0000,0000,0000,,Friss das, Mistvieh!
+Dialogue: 0,0:09:49.48,0:09:53.49,Default,Yun-Ho Baek,0000,0000,0000,,Eine Königin ohne Leibwache\Nist bloß eine Jungfer in Nöten!
+Dialogue: 0,0:10:10.09,0:10:14.18,Default,Byeong-Gu Min,0000,0000,0000,,Mit mir an eurer Seite flicke ich\Neuch immer wieder zusammen!
+Dialogue: 0,0:10:20.10,0:10:23.02,Default,Dong-Wook Ma,0000,0000,0000,,Ich lass dich ganz sicher nicht\Nan unseren Heiler ran!
+Dialogue: 0,0:10:23.35,0:10:25.48,Default,Jong-In Choi,0000,0000,0000,,Halt sie bitte weiterhin\Nso schön in Schach!
+Dialogue: 0,0:10:43.50,0:10:46.21,Default,Dong-Wook Ma,0000,0000,0000,,Sie hat immer noch so große Kraftreserven?
+Dialogue: 0,0:10:49.42,0:10:52.30,Internal,Yun-Ho Baek,0000,0000,0000,,Ihr Todesschrei?\NNein, hier stimmt irgendwas nicht.
+Dialogue: 0,0:10:53.76,0:10:55.09,Default,Jong-In Choi & Tae-Gyu Im,0000,0000,0000,,Du entkommst uns nicht!
+Dialogue: 0,0:11:02.39,0:11:03.43,Default,Yun-Ho Baek & Dong-Wook Ma,0000,0000,0000,,Cha!
+Dialogue: 0,0:11:03.43,0:11:04.48,Default,Hae-In Cha,0000,0000,0000,,Ich lege los!
+Dialogue: 0,0:11:06.69,0:11:08.19,Default,Byeong-Gu Min,0000,0000,0000,,Nur zur Sicherheit!
+Dialogue: 0,0:12:01.24,0:12:02.37,Default,Moderatorin,0000,0000,0000,,Jippieh!
+Dialogue: 0,0:12:05.95,0:12:06.91,Default,Jin-Cheol Woo,0000,0000,0000,,Herr Go!
+Dialogue: 0,0:12:10.04,0:12:12.71,Default,Gun-Hee Go,0000,0000,0000,,Was lange währt, wird endlich gut.
+Dialogue: 0,0:12:13.54,0:12:16.26,Default,Hae-In Cha,0000,0000,0000,,Es ist … endlich vorbei!
+Dialogue: 0,0:12:16.26,0:12:17.59,Default,Tae-Gyu Im,0000,0000,0000,,Schaut ganz so aus!
+Dialogue: 0,0:12:17.59,0:12:21.64,Default,Tae-Gyu Im,0000,0000,0000,,Nach dem Tod der Königin versterben\Ndie übrigen Ameisen binnen eines Jahres.
+Dialogue: 0,0:12:21.64,0:12:24.72,Default,Dong-Wook Ma,0000,0000,0000,,Dann wird diese Insel endlich\Nwieder bewohnbar werden.
+Dialogue: 0,0:12:24.72,0:12:27.43,Default,Yun-Ho Baek,0000,0000,0000,,Aber was war das am Ende für ein Schrei?
+Dialogue: 0,0:12:27.43,0:12:29.60,Default,Byeong-Gu Min,0000,0000,0000,,Was laberst du da?
+Dialogue: 0,0:12:29.60,0:12:32.44,Default,Byeong-Gu Min,0000,0000,0000,,Wir haben diese verdammte\NAmeisenkönigin besiegt!
+Dialogue: 0,0:12:32.44,0:12:35.27,Default,Byeong-Gu Min,0000,0000,0000,,Endlich konnten wir Eun-Seok rächen!
+Dialogue: 0,0:12:43.95,0:12:45.24,Default,Yun-Ho Baek,0000,0000,0000,,Du hast völlig recht.
+Dialogue: 0,0:12:49.91,0:12:51.00,Default,Reiji,0000,0000,0000,,Wir haben einen Notfall!
+Dialogue: 0,0:12:51.00,0:12:53.17,Default,Reiji,0000,0000,0000,,Die Ameisen schwärmen auf den Bau zu!
+Dialogue: 0,0:12:53.17,0:12:54.25,Default,Ryūji Gotō,0000,0000,0000,,Wie bitte?
+Dialogue: 0,0:12:54.25,0:12:56.00,Default,Reiji,0000,0000,0000,,Die Störwellen wirken nicht mehr.
+Dialogue: 0,0:12:57.13,0:12:58.71,Default,Ryūji Gotō,0000,0000,0000,,Was geht hier nur vor sich?
+Dialogue: 0,0:12:59.17,0:13:01.30,Default,Ryūji Gotō,0000,0000,0000,,Sammle mehr Infos und erstatte mir Bericht!
+Dialogue: 0,0:13:09.14,0:13:12.52,Default,Jong-In Choi,0000,0000,0000,,Sie haben mein Flammengitter durchbrochen?
+Dialogue: 0,0:13:13.85,0:13:17.53,Default,Tae-Gyu Im,0000,0000,0000,,Wie kann das sein?\NDafür ist es noch viel zu früh!
+Dialogue: 0,0:13:17.53,0:13:20.40,Default,Byeong-Gu Min,0000,0000,0000,,Das liegt doch nicht etwa\Nan diesem Schrei der Königin, oder?
+Dialogue: 0,0:13:20.40,0:13:21.82,Default,Dong-Wook Ma,0000,0000,0000,,Hat sie die zu sich gerufen?
+Dialogue: 0,0:13:21.82,0:13:26.33,Default,Hae-In Cha,0000,0000,0000,,Unmöglich, die Ameisen von draußen\Nkönnen Chois Absperrung nicht durchbrechen!
+Dialogue: 0,0:13:26.33,0:13:27.28,Default,Byeong-Gu Min,0000,0000,0000,,Und was ist das dann?
+Dialogue: 0,0:13:27.28,0:13:28.29,Default,Yun-Ho Baek,0000,0000,0000,,Da kommt irgendwas.
+Dialogue: 0,0:13:50.27,0:13:52.27,Default,Yun-Ho Baek,0000,0000,0000,,Eine schwarze … Ameise?
+Dialogue: 0,0:14:00.44,0:14:04.45,Internal,Hae-In Cha,0000,0000,0000,,Was ist das nur für ein Gestank.\NEs läuft mir eiskalt den Rücken runter.
+Dialogue: 0,0:14:04.78,0:14:05.91,Internal,Hae-In Cha,0000,0000,0000,,Was geht hier vor sich?
+Dialogue: 0,0:14:06.28,0:14:09.37,Internal,Hae-In Cha,0000,0000,0000,,Das ist nicht bloß irgendein Monster.
+Dialogue: 0,0:14:09.37,0:14:12.58,Internal,Dong-Wook Ma,0000,0000,0000,,Wir dürfen keine Zeit verlieren.\NDas Vieh muss erledigt werden!
+Dialogue: 0,0:14:17.79,0:14:20.75,Internal,Dong-Wook Ma,0000,0000,0000,,Ah! Ist er gerade nur an mir vorbei?
+Dialogue: 0,0:14:58.63,0:14:59.63,Default,Dong-Wook Ma,0000,0000,0000,,Cha!
+Dialogue: 0,0:15:02.59,0:15:03.76,Default,Dong-Wook Ma,0000,0000,0000,,Unterschätz mich ja nicht!
+Dialogue: 0,0:15:30.45,0:15:31.91,Internal,Tae-Gyu Im,0000,0000,0000,,Friss das!
+Dialogue: 0,0:15:34.45,0:15:35.87,Internal,Tae-Gyu Im,0000,0000,0000,,Er hat ihn abgefangen?
+Dialogue: 0,0:15:45.21,0:15:46.55,Default,Dong-Wook Ma,0000,0000,0000,,Siehe und staune!
+Dialogue: 0,0:15:46.55,0:15:49.05,Default,Dong-Wook Ma,0000,0000,0000,,Wir haben einen starken Unterstützer!
+Dialogue: 0,0:15:49.05,0:15:52.51,Internal,Byeong-Gu Min,0000,0000,0000,,„Tarnung“ ist ein Skill,\Nmit dem ich mich selbst schützen kann.
+Dialogue: 0,0:15:52.51,0:15:55.77,Internal,Byeong-Gu Min,0000,0000,0000,,Damit kann ich meine Präsenz\Nverheimlichen.
+Dialogue: 0,0:15:55.77,0:15:58.06,Internal,Byeong-Gu Min,0000,0000,0000,,Der Nachteil ist nur,\Ndass ich mich nicht bewegen kann.
+Dialogue: 0,0:15:58.06,0:16:00.48,Internal,Byeong-Gu Min,0000,0000,0000,,Für einen Heiler ist\Ndas aber völlig in Ordnung.
+Dialogue: 0,0:16:00.48,0:16:03.48,Internal,Byeong-Gu Min,0000,0000,0000,,Solange ich da bin,\Nwird unser Team nicht untergehen.
+Dialogue: 0,0:16:16.79,0:16:19.67,Internal,Byeong-Gu Min,0000,0000,0000,,Trotz meiner Tarnung\Nhat er mich bemerkt?
+Dialogue: 0,0:16:19.67,0:16:20.62,Internal,Byeong-Gu Min,0000,0000,0000,,Unmöglich!
+Dialogue: 0,0:16:22.88,0:16:23.75,Default,Yun-Ho Baek,0000,0000,0000,,Byeong-Gu!
+Dialogue: 0,0:16:33.93,0:16:36.14,Default,Yun-Ho Baek,0000,0000,0000,,Byeong-Gu!
+Dialogue: 0,0:16:37.10,0:16:38.56,Default,Byeong-Gu Min,0000,0000,0000,,Yun-Ho …
+Dialogue: 0,0:16:39.06,0:16:40.19,Default,Byeong-Gu Min,0000,0000,0000,,Lauf weg …
+Dialogue: 0,0:17:05.38,0:17:08.13,Default,Ameisenkönig,0000,0000,0000,,Yun-Ho …
+Dialogue: 0,0:17:08.13,0:17:09.34,Default,Yun-Ho Baek,0000,0000,0000,,Was?
+Dialogue: 0,0:17:09.72,0:17:12.09,Default,Ameisenkönig,0000,0000,0000,,Lauf … weg …
+Dialogue: 0,0:17:14.64,0:17:18.31,Default,Ameisenkönig,0000,0000,0000,,Yun-Ho …
+Dialogue: 0,0:17:19.89,0:17:21.57,Flashback,Ameisenkönig,0000,0000,0000,,Lauf … weg …
+Dialogue: 0,0:17:22.31,0:17:24.19,Default,Yun-Ho Baek,0000,0000,0000,,Du Drecksvieh!
+Dialogue: 0,0:17:25.40,0:17:28.98,Default,Ameisenkönig,0000,0000,0000,,Ihr … seid … schwach …
+Dialogue: 0,0:17:29.74,0:17:31.78,Default,Ameisenkönig,0000,0000,0000,,Unsere … Königin …
+Dialogue: 0,0:17:32.07,0:17:35.41,Default,Ameisenkönig,0000,0000,0000,,wurde … ermordet …
+Dialogue: 0,0:17:35.41,0:17:37.95,Default,Ameisenkönig,0000,0000,0000,,Euch Soldaten … will …
+Dialogue: 0,0:17:37.95,0:17:40.33,Default,Ameisenkönig,0000,0000,0000,,ich nicht … töten …
+Dialogue: 0,0:17:40.75,0:17:45.88,Default,Ameisenkönig,0000,0000,0000,,Wo … ist … euer … König?
+Dialogue: 0,0:17:45.88,0:17:47.34,Default,Yun-Ho Baek,0000,0000,0000,,Unser König?
+Dialogue: 0,0:17:50.84,0:17:53.30,Default,Ameisenkönig,0000,0000,0000,,Dort … draußen …
+Dialogue: 0,0:17:53.30,0:17:55.05,Default,Ameisenkönig,0000,0000,0000,,ist … etwas Starkes …
+Dialogue: 0,0:18:03.10,0:18:06.19,Default,Yun-Ho Baek,0000,0000,0000,,Draußen? Meint er Gotō?
+Dialogue: 0,0:18:06.19,0:18:08.73,Default,Yun-Ho Baek,0000,0000,0000,,Das ist jetzt nicht wichtig.
+Dialogue: 0,0:18:08.73,0:18:11.53,Default,Yun-Ho Baek,0000,0000,0000,,Wir müssen schnell von hier verschwinden.
+Dialogue: 0,0:18:13.82,0:18:16.70,Default,Yun-Ho Baek,0000,0000,0000,,Scheiße! Jetzt tauchen\Nnoch mehr von denen auf!
+Dialogue: 0,0:18:19.33,0:18:20.58,Default,Mari Ishida,0000,0000,0000,,Hier ist was im Busch.
+Dialogue: 0,0:18:21.08,0:18:25.29,Default,Mari Ishida,0000,0000,0000,,Wir haben nicht nur zu Charly,\Nsondern auch zu Delta den Kontakt verloren.
+Dialogue: 0,0:18:25.29,0:18:27.54,Default,Ryūji Gotō,0000,0000,0000,,Ist der Empfang einfach nur schlecht?
+Dialogue: 0,0:18:27.54,0:18:30.63,Default,Ryūji Gotō,0000,0000,0000,,Aber sie sollten in Sendereichweite sein.
+Dialogue: 0,0:18:31.00,0:18:32.76,Default,Ryūji Gotō,0000,0000,0000,,Bravo, bitte kommen!
+Dialogue: 0,0:18:33.05,0:18:34.63,Default,Kanae Tawata,0000,0000,0000,,Hier spricht Bravo.
+Dialogue: 0,0:18:34.63,0:18:37.09,Default,Ryūji Gotō,0000,0000,0000,,Könnt ihr Charly und Delta erreichen?
+Dialogue: 0,0:18:37.47,0:18:40.93,Default,Kanae Tawata,0000,0000,0000,,Nein, auch wir haben seit einer Weile\Nkeinen Kontakt mehr.
+Dialogue: 0,0:18:40.93,0:18:43.23,Default,Kanae Tawata,0000,0000,0000,,Sollen wir nach dem Rechten sehen?
+Dialogue: 0,0:18:43.23,0:18:45.64,Default,Ryūji Gotō,0000,0000,0000,,Wir sind bereits auf dem Weg.
+Dialogue: 0,0:18:45.98,0:18:49.11,Default,Ryūji Gotō,0000,0000,0000,,Kommt bitte zum Treffpunkt,\Nsobald ihr fertig seid.
+Dialogue: 0,0:18:49.11,0:18:50.52,Default,Kanae Tawata,0000,0000,0000,,Verstanden.
+Dialogue: 0,0:18:55.36,0:18:56.74,Default,Mari Ishida,0000,0000,0000,,Was ist … das?
+Dialogue: 0,0:18:59.03,0:19:00.20,Default,Shigeo Matsumoto,0000,0000,0000,,Ich bin es.
+Dialogue: 0,0:19:00.74,0:19:03.58,Default,Shigeo Matsumoto,0000,0000,0000,,Ihr habt nicht wie vereinbart\NMeldung gemacht.
+Dialogue: 0,0:19:03.91,0:19:05.75,Default,Ryūji Gotō,0000,0000,0000,,Es gibt Tote und Verletzte.
+Dialogue: 0,0:19:05.75,0:19:07.04,Default,Shigeo Matsumoto,0000,0000,0000,,Oha?
+Dialogue: 0,0:19:07.04,0:19:09.38,Default,Shigeo Matsumoto,0000,0000,0000,,Damit hätte ich nun nicht gerechnet.
+Dialogue: 0,0:19:09.38,0:19:13.67,Default,Shigeo Matsumoto,0000,0000,0000,,Solltet ihr nicht Risiken vermeiden\Nund ausschließlich die Mutanten ausmerzen?
+Dialogue: 0,0:19:14.01,0:19:16.18,Default,Ryūji Gotō,0000,0000,0000,,Die waren auch einfach nur schwach.
+Dialogue: 0,0:19:16.55,0:19:18.72,Default,Shigeo Matsumoto,0000,0000,0000,,Das können auch nur Sie behaupten.
+Dialogue: 0,0:19:18.72,0:19:23.14,Default,Shigeo Matsumoto,0000,0000,0000,,Nun ja, solange wir Sie vor Ort haben,\Nwird es auch mit etwas Schwund rundlaufen.
+Dialogue: 0,0:19:23.72,0:19:26.89,Default,Shigeo Matsumoto,0000,0000,0000,,Hält sich eigentlich\Ndort drüben die Königin auf?
+Dialogue: 0,0:19:26.89,0:19:27.90,Default,Ryūji Gotō,0000,0000,0000,,Korrekt.
+Dialogue: 0,0:19:27.90,0:19:31.65,Default,Ryūji Gotō,0000,0000,0000,,Aber soeben wurden\Ndie Störwellen deaktiviert.
+Dialogue: 0,0:19:31.65,0:19:34.86,Default,Ryūji Gotō,0000,0000,0000,,Wir können bestätigen,\Ndass die Ameisen zurück in ihr Nest strömen.
+Dialogue: 0,0:19:35.28,0:19:39.82,Default,Shigeo Matsumoto,0000,0000,0000,,Hmm … Wie groß ist die Wahrscheinlichkeit,\Ndass die da drinnen überleben?
+Dialogue: 0,0:19:39.82,0:19:44.29,Default,Ryūji Gotō,0000,0000,0000,,Ihre Überlebenschance liegen bei … 0 %.
+Dialogue: 0,0:19:44.83,0:19:46.29,Default,Shigeo Matsumoto,0000,0000,0000,,Das ist Musik in meinen Ohren.
+Dialogue: 0,0:19:46.66,0:19:51.63,Default,Shigeo Matsumoto,0000,0000,0000,,Japan hat sich nach Kräften bemüht,\Naber unsere Verbündeten wurden ausgelöscht,
+Dialogue: 0,0:19:51.63,0:19:53.88,Default,Shigeo Matsumoto,0000,0000,0000,,sodass wir uns zähneknirschend\Nzurückziehen mussten.
+Dialogue: 0,0:19:53.88,0:19:55.42,Default,Shigeo Matsumoto,0000,0000,0000,,In ihrem Andenken
+Dialogue: 0,0:19:55.42,0:20:00.01,Default,Shigeo Matsumoto,0000,0000,0000,,erobert die zweite Angriffstruppe,\Ndie auf dem Meer wartete, die Insel Jeju.
+Dialogue: 0,0:20:00.01,0:20:02.72,Default,Shigeo Matsumoto,0000,0000,0000,,Wir werden als Nation hervorgehen,\Ndie das S-Rang-Gate erobert
+Dialogue: 0,0:20:02.72,0:20:06.48,Default,Shigeo Matsumoto,0000,0000,0000,,und gleichzeitig sein Nachbarland\Nmilitärisch schwächt.
+Dialogue: 0,0:20:06.48,0:20:08.02,Default,Shigeo Matsumoto,0000,0000,0000,,Die Zeit ist reif.
+Dialogue: 0,0:20:08.02,0:20:12.52,Default,Shigeo Matsumoto,0000,0000,0000,,Zieht euch alle zurück\Nund trefft euch mit der zweiten Angriffs…
+Dialogue: 0,0:20:13.65,0:20:14.69,Default,Ryūji Gotō,0000,0000,0000,,Was soll’s.
+Dialogue: 0,0:20:15.65,0:20:18.95,Default,Ryūji Gotō,0000,0000,0000,,Präsident Matsumoto\Nhat uns den Rückzug befohlen.
+Dialogue: 0,0:20:19.40,0:20:21.49,Default,Ryūji Gotō,0000,0000,0000,,Die Gefallenen können wir\Nspäter einsamm…
+Dialogue: 0,0:20:26.12,0:20:27.37,Default,Minoru Hoshino,0000,0000,0000,,Ishida!
+Dialogue: 0,0:20:27.37,0:20:28.21,Default,Ryūji Gotō,0000,0000,0000,,Nun geh schon.
+Dialogue: 0,0:20:29.08,0:20:33.38,Default,Ryūji Gotō,0000,0000,0000,,Schließ dich zusammen mit Bravo den Truppen\Nzur See an und bereitet alles Weitere vor.
+Dialogue: 0,0:20:33.38,0:20:34.46,Default,Minoru Hoshino,0000,0000,0000,,Ja, aber …
+Dialogue: 0,0:20:34.46,0:20:36.96,Default,Ryūji Gotō,0000,0000,0000,,Du würdest mir hier nur im Weg sein.
+Dialogue: 0,0:20:38.26,0:20:39.01,Default,Ryūji Gotō,0000,0000,0000,,Hau ab.
+Dialogue: 0,0:20:39.01,0:20:40.13,Default,Minoru Hoshino,0000,0000,0000,,Verstanden!
+Dialogue: 0,0:20:43.35,0:20:46.06,Internal,Ryūji Gotō,0000,0000,0000,,Diese Aura geht durch Mark und Bein …
+Dialogue: 0,0:20:46.56,0:20:49.02,Default,Ameisenkönig,0000,0000,0000,,Bist du … ihr König?
+Dialogue: 0,0:20:49.98,0:20:52.98,Internal,Ryūji Gotō,0000,0000,0000,,Wie amüsant! Eine sprechende Ameise!
+Dialogue: 0,0:20:54.86,0:20:55.90,Default,Ryūji Gotō,0000,0000,0000,,Stimmt.
+Dialogue: 0,0:20:56.19,0:20:58.94,Default,Ryūji Gotō,0000,0000,0000,,Ganz recht, ich bin der König.
+Dialogue: 0,0:21:03.87,0:21:05.91,Internal,Ryūji Gotō,0000,0000,0000,,Was ist das für eine magische Kraft?
+Dialogue: 0,0:21:06.24,0:21:07.95,Internal,Ryūji Gotō,0000,0000,0000,,Dieses Gefühl …
+Dialogue: 0,0:21:07.95,0:21:10.12,Internal,Ryūji Gotō,0000,0000,0000,,habe ich schon einmal zuvor gespürt.
+Dialogue: 0,0:21:11.50,0:21:12.62,Internal,Ryūji Gotō,0000,0000,0000,,Das ist …
+Dialogue: 0,0:21:22.26,0:21:24.76,Default,Yun-Ho Baek,0000,0000,0000,,Jong-In, kannst du deine Feuerkraft\Nnicht noch erhöhen?
+Dialogue: 0,0:21:25.05,0:21:27.10,Default,Jong-In Choi,0000,0000,0000,,Verlang nicht das Unmögliche!
+Dialogue: 0,0:21:27.10,0:21:28.68,Default,Jong-In Choi,0000,0000,0000,,Das hier ist das Höchste der Gefühle!
+Dialogue: 0,0:21:28.97,0:21:31.39,Internal,Yun-Ho Baek,0000,0000,0000,,Wir sind alle tödlich verletzt.
+Dialogue: 0,0:21:31.39,0:21:34.56,Internal,Yun-Ho Baek,0000,0000,0000,,Keiner von uns hat noch die Kraft,\Num Widerstand zu leisten.
+Dialogue: 0,0:21:34.86,0:21:37.52,Internal,Yun-Ho Baek,0000,0000,0000,,Selbst Choi, auf den sonst immer\NVerlass ist, kann nicht mehr.
+Dialogue: 0,0:21:43.70,0:21:45.12,Default,Yun-Ho Baek,0000,0000,0000,,Das war’s dann also?
+Dialogue: 0,0:21:53.75,0:21:54.75,Internal,Yun-Ho Baek,0000,0000,0000,,Was ist das?
+Dialogue: 0,0:21:55.42,0:21:57.21,Internal,Yun-Ho Baek,0000,0000,0000,,Wer ist dieser schwarze Soldat?
+Dialogue: 0,0:22:03.72,0:22:04.76,Default,Jin-Woo Sung,0000,0000,0000,,Austausch.
+Dialogue: 1,0:22:13.06,0:22:16.36,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Übersetzung & Spotting: Jacqueline Philippi
+Dialogue: 0,0:22:13.06,0:22:16.36,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Übersetzung & Spotting: Jacqueline Philippi
+Dialogue: 1,0:22:16.36,0:22:20.28,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Revision & Typesetting: Janik Aurich
+Dialogue: 0,0:22:16.36,0:22:20.28,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Revision & Typesetting: Janik Aurich
+Dialogue: 1,0:22:20.28,0:22:23.61,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Qualitätskontrolle: Ruben Grest
+Dialogue: 0,0:22:20.28,0:22:23.61,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Qualitätskontrolle: Ruben Grest
+Dialogue: 1,0:22:23.61,0:22:26.49,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Projektleitung: Tobias Philippi
+Dialogue: 0,0:22:23.61,0:22:26.49,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Projektleitung: Tobias Philippi
+Dialogue: 0,0:23:37.23,0:23:40.98,TypePlaceholder,Types,0000,0000,0000,,{\fnTrebuchet Ms Bold\fad(1000,0)\fs14\an8\t(,,\fscx96\fscy96)\blur4\c&HFFE162&\3c&HF510AE&\t(0,1000,\blur2.5\3c&HB10D7E&\c&HFFB9E9&)\bord1\t(1500,1700,\3c&HEB12A8&\bord1.5\blur4)\t(1700,2750,\bord0\3c&H570B3F&\c&HE0C4D7&\blur0)\frx8\fry0\pos(357.2,191.2)}Bist du der König der Menschen?

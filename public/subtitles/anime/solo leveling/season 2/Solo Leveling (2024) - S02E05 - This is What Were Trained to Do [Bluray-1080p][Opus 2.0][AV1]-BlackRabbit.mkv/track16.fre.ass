@@ -1,0 +1,328 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: Italique,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0002,0002,0025,1
+Style: TiretsDefault,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,1,0020,0002,0025,1
+Style: TiretsItalique,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,1,0020,0002,0025,1
+Style: Sign,Arial,18.0,&H00FFFFFF,&H000000FF,&H00292929,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0010,0010,0030,1
+Style: Titre,Times New Roman,18.0,&H00FFFFFF,&H000000FF,&H00292929,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0010,0010,0030,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:39.58,0:01:41.64,Default,Cha Hae-in,0000,0000,0000,,Qu’est-ce que vous faites ici ?
+Dialogue: 0,0:01:43.23,0:01:44.92,Default,Cha Hae-in,0000,0000,0000,,J’ai posé une question.
+Dialogue: 0,0:01:45.47,0:01:47.79,Default,Cha Hae-in,0000,0000,0000,,Qu’est-ce que vous faites ici ?
+Dialogue: 0,0:01:51.14,0:01:54.50,Italique,Sung Jinwoo,0000,0000,0000,,Quel imbécile je suis !\NÀ quoi je pensais ?
+Dialogue: 0,0:01:55.63,0:01:58.46,Default,Sung Jinwoo,0000,0000,0000,,Je me suis perdu\Net j’ai atterri de ce côté…
+Dialogue: 0,0:01:58.72,0:02:00.34,Default,Cha Hae-in,0000,0000,0000,,Vous vous êtes perdu ?
+Dialogue: 0,0:02:00.55,0:02:02.16,Default,Cha Hae-in,0000,0000,0000,,Vous êtes avec les mineurs ?
+Dialogue: 0,0:02:02.30,0:02:05.06,Default,Cha Hae-in,0000,0000,0000,,Ici, c’est l’antre du boss.\NÉloignez-vous !
+Dialogue: 0,0:02:05.58,0:02:06.67,Italique,Sung Jinwoo,0000,0000,0000,,Cha Hae-in…
+Dialogue: 0,0:02:07.18,0:02:09.16,Italique,Sung Jinwoo,0000,0000,0000,,Elle fait honneur à sa réputation.
+Dialogue: 0,0:02:09.40,0:02:11.74,Italique,Sung Jinwoo,0000,0000,0000,,Je l’ai absolument pas\Nsentie venir.
+Dialogue: 0,0:02:13.98,0:02:14.90,Italique,Cha Hae-in,0000,0000,0000,,J’ai rêvé ?
+Dialogue: 0,0:02:15.40,0:02:17.59,Italique,Cha Hae-in,0000,0000,0000,,Je suis sûre qu’il avait une arme !
+Dialogue: 0,0:02:17.74,0:02:18.61,Default,Sung Jinwoo,0000,0000,0000,,Désolé.
+Dialogue: 0,0:02:19.11,0:02:21.09,Default,Cha Hae-in,0000,0000,0000,,Ne restez pas dans le coin.
+Dialogue: 0,0:02:21.26,0:02:25.55,Default,Cha Hae-in,0000,0000,0000,,Si le boss se réveille,\Ntoute l’équipe des mineurs y passera.
+Dialogue: 0,0:02:25.70,0:02:26.70,Default,Sung Jinwoo,0000,0000,0000,,D’accord.
+Dialogue: 0,0:02:34.73,0:02:36.00,Default,Cha Hae-in,0000,0000,0000,,Une minute !
+Dialogue: 0,0:02:36.67,0:02:37.66,Default,Sung Jinwoo,0000,0000,0000,,Oui ?
+Dialogue: 0,0:02:44.40,0:02:46.51,Italique,Cha Hae-in,0000,0000,0000,,Mais… il ne sent pas mauvais !
+Dialogue: 0,0:02:47.06,0:02:48.58,Default,Sung Jinwoo,0000,0000,0000,,Il y a un problème ?
+Dialogue: 0,0:02:48.92,0:02:51.60,Default,Cha Hae-in,0000,0000,0000,,Vous êtes vraiment un chasseur ?
+Dialogue: 0,0:02:52.16,0:02:53.82,Default,Sung Jinwoo,0000,0000,0000,,Euh… oui…
+Dialogue: 0,0:02:55.80,0:02:58.44,Default,Cha Hae-in,0000,0000,0000,,Rang E… Sung Jinwoo ?
+Dialogue: 0,0:03:02.20,0:03:03.63,Default,Cha Hae-in,0000,0000,0000,,Ce n’est rien.
+Dialogue: 0,0:03:03.83,0:03:07.27,Default,Cha Hae-in,0000,0000,0000,,Faites attention sur le retour,\Nce donjon est vaste.
+Dialogue: 0,0:03:07.42,0:03:08.49,Default,Sung Jinwoo,0000,0000,0000,,Compris.
+Dialogue: 0,0:03:11.63,0:03:13.96,Italique,Cha Hae-in,0000,0000,0000,,Est-ce parce que son rang\Nest faible ?
+Dialogue: 0,0:03:14.43,0:03:15.92,Italique,Cha Hae-in,0000,0000,0000,,Il ne sentait pas mauvais.
+Dialogue: 0,0:03:18.27,0:03:19.44,Italique,Cha Hae-in,0000,0000,0000,,Au contraire,
+Dialogue: 0,0:03:19.81,0:03:21.20,Italique,Cha Hae-in,0000,0000,0000,,il sentait vraiment bon.
+Dialogue: 0,0:03:22.92,0:03:25.76,Default,Bae Yunsuk,0000,0000,0000,,Tu t’es perdu\Net t’es tombé sur Cha Hae-in ?
+Dialogue: 0,0:03:25.91,0:03:27.37,Default,Bae Yunsuk,0000,0000,0000,,Le petit veinard !
+Dialogue: 0,0:03:27.64,0:03:31.23,Default,Bae Yunsuk,0000,0000,0000,,Nous, on doit se contenter\Nde l’admirer de loin.
+Dialogue: 0,0:03:32.68,0:03:35.40,Default,Bae Yunsuk,0000,0000,0000,,Pour nous protéger du boss,
+Dialogue: 0,0:03:35.55,0:03:39.03,Default,Bae Yunsuk,0000,0000,0000,,elle saute son repas\Net effectue des rondes.
+Dialogue: 0,0:03:39.42,0:03:41.53,Default,Bae Yunsuk,0000,0000,0000,,Elle est jeune,\Nmais très responsable.
+Dialogue: 0,0:03:41.96,0:03:43.78,Italique,Sung Jinwoo,0000,0000,0000,,Ça explique sa présence là-bas.
+Dialogue: 0,0:03:44.62,0:03:48.46,Default,Mok Jinsoo,0000,0000,0000,,Cha Hae-in a du mal à supporter\Nl’odeur des autres chasseurs.
+Dialogue: 0,0:03:48.61,0:03:51.03,Default,Sung Jinwoo,0000,0000,0000,,L’odeur des chasseurs ?
+Dialogue: 0,0:03:51.42,0:03:53.41,Default,Mok Jinsoo,0000,0000,0000,,C’est un sens inné, chez elle.
+Dialogue: 0,0:03:53.77,0:03:56.49,Default,Mok Jinsoo,0000,0000,0000,,Elle couvre toujours son nez,\Nt’as pas remarqué ?
+Dialogue: 0,0:03:56.62,0:03:57.46,Default,Sung Jinwoo,0000,0000,0000,,Si…
+Dialogue: 0,0:03:58.43,0:04:00.17,Italique,Sung Jinwoo,0000,0000,0000,,Pourquoi elle a réagi comme ça ?
+Dialogue: 0,0:04:02.29,0:04:05.39,Italique,Sung Jinwoo,0000,0000,0000,,J’aurais pas la même odeur\Nque les chasseurs ?
+Dialogue: 0,0:04:06.14,0:04:09.98,Italique,Sung Jinwoo,0000,0000,0000,,Ça me rappelle ce qu’il m’a dit,\Ndans le portail rouge.
+Dialogue: 0,0:04:10.58,0:04:12.63,Italique,Sung Jinwoo,0000,0000,0000,,C’est parce que je suis un joueur ?
+Dialogue: 0,0:04:14.00,0:04:17.12,Italique,Sung Jinwoo,0000,0000,0000,,Le seul à recevoir\Nles bénéfices du système.
+Dialogue: 0,0:04:17.49,0:04:20.50,Italique,Sung Jinwoo,0000,0000,0000,,Mais c’est quoi, au juste,\Nêtre un joueur ?
+Dialogue: 0,0:04:21.70,0:04:23.20,Default,Bae Yunsuk,0000,0000,0000,,Voici pour toi !
+Dialogue: 0,0:04:23.45,0:04:24.74,Default,Sung Jinwoo,0000,0000,0000,,Merci beaucoup.
+Dialogue: 0,0:04:25.45,0:04:27.37,Default,Bae Yunsuk,0000,0000,0000,,Grâce à toi, on a fini rapidement.
+Dialogue: 0,0:04:27.79,0:04:30.95,Default,Bae Yunsuk,0000,0000,0000,,On a même terminé\Navant l’équipe de ramassage.
+Dialogue: 0,0:04:31.16,0:04:33.04,Default,Mok Jinsoo,0000,0000,0000,,T’as ça dans le sang !
+Dialogue: 0,0:04:33.19,0:04:36.26,Default,Mok Jinsoo,0000,0000,0000,,Avoue, tu cachais une pelleteuse\Nquelque part !
+Dialogue: 0,0:04:36.41,0:04:37.98,Default,Sung Jinwoo,0000,0000,0000,,Mais non, voyons…
+Dialogue: 0,0:04:38.29,0:04:40.07,Default,Bae Yunsuk,0000,0000,0000,,J’ai de la bouteille,
+Dialogue: 0,0:04:40.21,0:04:43.30,Default,Bae Yunsuk,0000,0000,0000,,mais j’ai jamais vu\Nquelqu’un comme toi.
+Dialogue: 0,0:04:46.44,0:04:49.51,Default,Bae Yunsuk,0000,0000,0000,,Dis…\Ntu voudrais pas bosser pour moi ?
+Dialogue: 0,0:04:50.06,0:04:51.66,Default,Bae Yunsuk,0000,0000,0000,,Je te paierai grassement !
+Dialogue: 0,0:04:51.91,0:04:54.98,Default,Sung Jinwoo,0000,0000,0000,,J’apprécie l’offre,\Nmais si je suis ici,
+Dialogue: 0,0:04:55.24,0:04:57.49,Default,Sung Jinwoo,0000,0000,0000,,c’est parce que\Nj’avais du temps libre.
+Dialogue: 0,0:04:58.18,0:05:00.94,Default,Bae Yunsuk,0000,0000,0000,,D’accord. C’est bien dommage.
+Dialogue: 0,0:05:01.53,0:05:04.68,Default,Bae Yunsuk,0000,0000,0000,,Tu pourrais pas nous aider\Nun jour de plus ?
+Dialogue: 0,0:05:04.88,0:05:06.02,Default,Sung Jinwoo,0000,0000,0000,,Comment ça ?
+Dialogue: 0,0:05:06.15,0:05:09.16,Default,Bae Yunsuk,0000,0000,0000,,Eh bien,\Nil y a deux raids prévus, demain.
+Dialogue: 0,0:05:09.29,0:05:10.91,Default,Bae Yunsuk,0000,0000,0000,,Un niveau A et un niveau C.
+Dialogue: 0,0:05:11.48,0:05:13.56,Italique,Sung Jinwoo,0000,0000,0000,,Ma réévaluation a lieu\Naprès-demain.
+Dialogue: 0,0:05:13.72,0:05:16.87,Italique,Sung Jinwoo,0000,0000,0000,,En plus, j’ai bien saisi\Nle déroulement des opérations.
+Dialogue: 0,0:05:17.41,0:05:19.08,Italique,Sung Jinwoo,0000,0000,0000,,Minute… Demain ?
+Dialogue: 0,0:05:19.79,0:05:24.02,Default,Sung Jinwoo,0000,0000,0000,,Les Hunters ont des raids demain ?\NNiveaux A et C ?
+Dialogue: 0,0:05:24.17,0:05:28.36,Default,Bae Yunsuk,0000,0000,0000,,Oui. Par contre,\Nc’est l’escadron B qui s’en occupe.
+Dialogue: 0,0:05:28.51,0:05:29.80,Default,Sung Jinwoo,0000,0000,0000,,L’escadron B ?
+Dialogue: 0,0:05:30.26,0:05:32.64,Default,Bae Yunsuk,0000,0000,0000,,C’est ce qui fait notre force.
+Dialogue: 0,0:05:32.79,0:05:35.65,Default,Bae Yunsuk,0000,0000,0000,,Seuls les Hunters\Npeuvent former deux troupes
+Dialogue: 0,0:05:35.78,0:05:38.32,Default,Bae Yunsuk,0000,0000,0000,,pour s’occuper\Nde donjons de niveau A.
+Dialogue: 0,0:05:38.97,0:05:41.24,Default,Sung Jinwoo,0000,0000,0000,,On se rejoint où, demain ?
+Dialogue: 0,0:05:41.91,0:05:43.82,Default,Bae Yunsuk,0000,0000,0000,,J’en déduis que tu participes ?
+Dialogue: 0,0:05:44.19,0:05:47.50,Default,Bae Yunsuk,0000,0000,0000,,Je ferai en sorte\Nque tu sois payé double !
+Dialogue: 0,0:05:47.89,0:05:49.01,Default,Sung Jinwoo,0000,0000,0000,,Non, je…
+Dialogue: 0,0:05:49.14,0:05:52.03,Default,Bae Yunsuk,0000,0000,0000,,Allons, tu vaux\Nplusieurs de mes hommes !
+Dialogue: 0,0:05:55.18,0:05:57.14,Default,Cha Hae-in,0000,0000,0000,,J’aimerais des informations
+Dialogue: 0,0:05:57.27,0:06:00.53,Default,Cha Hae-in,0000,0000,0000,,sur un dénommé Sung Jinwoo\Nde l’équipe des mineurs.
+Dialogue: 0,0:06:00.67,0:06:02.21,Italique,Employé,0000,0000,0000,,Le chasseur Sung ?
+Dialogue: 0,0:06:02.60,0:06:04.09,Default,Cha Hae-in,0000,0000,0000,,Vous le connaissez ?
+Dialogue: 0,0:06:04.24,0:06:08.48,Italique,Employé,0000,0000,0000,,Le président Choi\Nm’a fait la même demande, hier.
+Dialogue: 0,0:06:08.71,0:06:10.05,Default,Cha Hae-in,0000,0000,0000,,Le président Choi ?
+Dialogue: 0,0:06:10.22,0:06:14.56,Italique,Employé,0000,0000,0000,,Oui, mais son dossier\Nest actuellement inaccessible.
+Dialogue: 0,0:06:15.31,0:06:18.62,Italique,Employé,0000,0000,0000,,Malgré son faible statut,\Nl’Association a tout verrouillé.
+Dialogue: 0,0:06:18.76,0:06:20.26,Italique,Employé,0000,0000,0000,,C’est du jamais-vu.
+Dialogue: 0,0:06:20.73,0:06:22.24,Default,Cha Hae-in,0000,0000,0000,,Mince…
+Dialogue: 0,0:06:25.92,0:06:27.80,Italique,Cha Hae-in,0000,0000,0000,,Son comportement dans le donjon…
+Dialogue: 0,0:06:28.13,0:06:30.41,Italique,Cha Hae-in,0000,0000,0000,,M. Choi qui se renseigne sur lui
+Dialogue: 0,0:06:30.67,0:06:32.38,Italique,Cha Hae-in,0000,0000,0000,,et l’Association qui le couvre…
+Dialogue: 0,0:06:33.25,0:06:35.33,Italique,Cha Hae-in,0000,0000,0000,,Il y a anguille sous roche.
+Dialogue: 0,0:06:36.16,0:06:38.54,Italique,Cha Hae-in,0000,0000,0000,,De tous les chasseurs\Nque j’ai croisés…
+Dialogue: 0,0:06:40.06,0:06:43.94,Default,Cha Hae-in,0000,0000,0000,,… c’est le premier à ne pas avoir\Nune odeur qui me file la nausée.
+Dialogue: 0,0:06:49.48,0:06:51.01,Default,Bae Yunsuk,0000,0000,0000,,Ah, te voilà !
+Dialogue: 0,0:06:51.31,0:06:52.40,Default,Bae Yunsuk,0000,0000,0000,,Salut, Sung !
+Dialogue: 0,0:06:52.54,0:06:53.59,Default,Mok Jinsoo,0000,0000,0000,,Bonjour !
+Dialogue: 0,0:06:56.44,0:06:59.14,Italique,Kim Sangshik,0000,0000,0000,,Sung, tu as déjà mangé ?
+Dialogue: 0,0:06:59.58,0:07:01.02,Italique,Song Chiyul,0000,0000,0000,,Salut, Sung !
+Dialogue: 0,0:07:01.62,0:07:04.69,Italique,Lee Juhee,0000,0000,0000,,Jinwoo ! Essaie de ne pas te blesser,\Ncette fois !
+Dialogue: 0,0:07:08.48,0:07:11.58,Italique,Sung Jinwoo,0000,0000,0000,,Ça faisait un moment\Nque je n’avais pas ressenti ça.
+Dialogue: 0,0:07:12.27,0:07:14.80,Default,Mok Jinsoo,0000,0000,0000,,On mange ensemble, à midi ?
+Dialogue: 0,0:07:14.95,0:07:16.92,Default,Bae Yunsuk,0000,0000,0000,,Tu devrais te joindre à nous.
+Dialogue: 0,0:07:17.07,0:07:17.91,Default,Sung Jinwoo,0000,0000,0000,,D’accord.
+Dialogue: 0,0:07:18.33,0:07:20.35,Default,Bae Yunsuk,0000,0000,0000,,Allez, place au raid de niveau C !
+Dialogue: 0,0:07:20.48,0:07:23.46,Default,Bae Yunsuk,0000,0000,0000,,L’escadron d’attaque va bientôt sortir.\NPréparez-vous !
+Dialogue: 0,0:07:26.45,0:07:28.55,Default,Mok Jinsoo,0000,0000,0000,,Il assure encore, aujourd’hui !
+Dialogue: 0,0:07:31.18,0:07:34.22,Default,Mok Jinsoo,0000,0000,0000,,Ça avance\Ncomme sur des roulettes, avec toi !
+Dialogue: 0,0:07:34.50,0:07:38.24,Default,Mok Jinsoo,0000,0000,0000,,On a le temps de se reposer\Navant le raid de niveau A, cet aprèm.
+Dialogue: 0,0:07:38.45,0:07:40.76,Default,Bae Yunsuk,0000,0000,0000,,L’équipe de ramassage\Nn’en revenait pas.
+Dialogue: 0,0:07:40.90,0:07:43.37,Default,Bae Yunsuk,0000,0000,0000,,T’es sûr de pas vouloir\Nnous rejoindre ?
+Dialogue: 0,0:07:43.83,0:07:45.00,Default,Bae Yunsuk,0000,0000,0000,,Payé cinq fois plus !
+Dialogue: 0,0:07:45.69,0:07:46.92,Default,Sung Jinwoo,0000,0000,0000,,Non merci…
+Dialogue: 0,0:07:47.22,0:07:48.30,Default,Son Kihoon,0000,0000,0000,,Excusez-moi.
+Dialogue: 0,0:07:50.02,0:07:51.57,Default,Bae Yunsuk,0000,0000,0000,,Capitaine Son Kihoon !
+Dialogue: 0,0:07:52.22,0:07:55.56,Default,Son Kihoon,0000,0000,0000,,Pourrais-je emprunter\Nun de vos hommes ?
+Dialogue: 0,0:07:55.70,0:07:58.55,Default,Son Kihoon,0000,0000,0000,,Notre portefaix\Nnous a fait faux bond.
+Dialogue: 0,0:07:58.99,0:08:02.79,Default,Bae Yunsuk,0000,0000,0000,,Un de mes hommes ? Pourquoi pas\Nquelqu’un de l’équipe de ramassage ?
+Dialogue: 0,0:08:02.94,0:08:05.59,Default,Son Kihoon,0000,0000,0000,,Apparemment,\Nils sont aussi en sous-effectif.
+Dialogue: 0,0:08:07.36,0:08:11.05,Default,Son Kihoon,0000,0000,0000,,Celui qui nous accompagnera\Nrecevra une prime de risque !
+Dialogue: 0,0:08:13.78,0:08:17.72,Default,Bae Yunsuk,0000,0000,0000,,Portefaix dans un donjon de niveau A,\Nc’est pas à notre portée…
+Dialogue: 0,0:08:18.16,0:08:20.26,Default,Bae Yunsuk,0000,0000,0000,,Prime de risque ou pas.
+Dialogue: 0,0:08:21.79,0:08:24.10,Default,Son Kihoon,0000,0000,0000,,Bon, aucun volontaire ?
+Dialogue: 0,0:08:25.38,0:08:26.56,Default,Sung Jinwoo,0000,0000,0000,,J’accepte d’y aller.
+Dialogue: 0,0:08:29.84,0:08:30.95,Default,Bae Yunsuk,0000,0000,0000,,Sung !
+Dialogue: 0,0:08:31.09,0:08:34.77,Default,Mok Jinsoo,0000,0000,0000,,T’es pas bien ?\NÇa grouille de monstres puissants !
+Dialogue: 0,0:08:34.91,0:08:37.64,Default,Bae Yunsuk,0000,0000,0000,,Tu devrais pas risquer ta vie\Npour si peu.
+Dialogue: 0,0:08:37.78,0:08:39.12,Default,Sung Jinwoo,0000,0000,0000,,Ne vous en faites pas.
+Dialogue: 0,0:08:39.34,0:08:41.17,Default,Sung Jinwoo,0000,0000,0000,,Je suis loin d’être un froussard.
+Dialogue: 0,0:08:41.30,0:08:44.33,Default,Bae Yunsuk,0000,0000,0000,,Tu comprends pas,\Nc’est pas la question !
+Dialogue: 0,0:08:44.98,0:08:48.29,Default,Mok Jinsoo,0000,0000,0000,,C’est un nouveau,\Nil mesure pas du tout le danger…
+Dialogue: 0,0:08:49.05,0:08:49.92,Default,Son Kihoon,0000,0000,0000,,Et son rang ?
+Dialogue: 0,0:08:50.06,0:08:51.29,Default,Mok Jinsoo,0000,0000,0000,,C’est un rang E.
+Dialogue: 0,0:08:51.74,0:08:53.17,Default,Mok Jinsoo,0000,0000,0000,,Il vaut mieux choisir…
+Dialogue: 0,0:08:53.32,0:08:55.41,Default,Son Kihoon,0000,0000,0000,,Non, il fera l’affaire.
+Dialogue: 0,0:08:58.18,0:09:02.21,Default,Son Kihoon,0000,0000,0000,,On m’a demandé de mener cet escadron.\NJe m’appelle Son Kihoon.
+Dialogue: 0,0:09:02.55,0:09:03.98,Default,Sung Jinwoo,0000,0000,0000,,Sung Jinwoo, enchanté.
+Dialogue: 0,0:09:06.25,0:09:08.20,Default,Sung Jinwoo,0000,0000,0000,,Il est plus grand que celui d’hier.
+Dialogue: 0,0:09:08.52,0:09:11.57,Default,Son Kihoon,0000,0000,0000,,Mais sa fluctuation de mana\Nest plus faible.
+Dialogue: 0,0:09:12.14,0:09:13.56,Default,Son Kihoon,0000,0000,0000,,Rassure-toi,
+Dialogue: 0,0:09:13.70,0:09:17.82,Default,Son Kihoon,0000,0000,0000,,si le danger était réel,\Nla guilde n’enverrait pas l’escadron B.
+Dialogue: 0,0:09:19.03,0:09:22.02,Italique,Sung Jinwoo,0000,0000,0000,,Il y a six rang A et trois rang B.
+Dialogue: 0,0:09:22.66,0:09:24.43,Italique,Sung Jinwoo,0000,0000,0000,,Même sans rang S à leurs côtés,
+Dialogue: 0,0:09:24.56,0:09:28.83,Italique,Sung Jinwoo,0000,0000,0000,,dans une autre guilde, cet escadron\Nn’aurait jamais été mis au second plan.
+Dialogue: 0,0:09:29.79,0:09:31.04,Default,Son Kihoon,0000,0000,0000,,Bien, allons-y !
+Dialogue: 0,0:09:32.41,0:09:36.47,Italique,Sung Jinwoo,0000,0000,0000,,Les Hunters possèdent\Ndeux escadrons de ce niveau ?
+Dialogue: 0,0:09:44.21,0:09:47.16,Italique,Sung Jinwoo,0000,0000,0000,,C’est vrai que je ressens\Nmoins de mana qu’hier.
+Dialogue: 0,0:09:47.59,0:09:48.69,Italique,Sung Jinwoo,0000,0000,0000,,Et pourtant…
+Dialogue: 0,0:09:49.39,0:09:52.46,Italique,Sung Jinwoo,0000,0000,0000,,j’ai le même pressentiment\Nqu’avec le portail rouge.
+Dialogue: 0,0:09:53.08,0:09:54.65,Italique,Sung Jinwoo,0000,0000,0000,,Je m’en fais pour rien ?
+Dialogue: 0,0:09:54.99,0:09:56.98,Default,Han Semi,0000,0000,0000,,Pas besoin de paniquer.
+Dialogue: 0,0:09:57.64,0:09:58.79,Default,Han Semi,0000,0000,0000,,Kihoon…
+Dialogue: 0,0:09:59.97,0:10:02.95,Default,Han Semi,0000,0000,0000,,Le capitaine et les autres\Nsont tous très doués.
+Dialogue: 0,0:10:03.22,0:10:07.52,Default,Han Semi,0000,0000,0000,,Reste en retrait,\Net il ne t’arrivera rien.
+Dialogue: 0,0:10:08.05,0:10:09.42,Default,Sung Jinwoo,0000,0000,0000,,Merci beaucoup.
+Dialogue: 0,0:10:10.46,0:10:14.63,Italique,Son Kihoon,0000,0000,0000,,Si je mène ce raid à bien,\Non me confiera officiellement un escadron.
+Dialogue: 0,0:10:15.08,0:10:17.44,Italique,Son Kihoon,0000,0000,0000,,Je n’ai pas le niveau\Nde M. Choi ou Mlle Cha,
+Dialogue: 0,0:10:17.79,0:10:19.67,Italique,Son Kihoon,0000,0000,0000,,mais je suis quand même\Nde rang A.
+Dialogue: 0,0:10:20.02,0:10:21.53,Italique,Son Kihoon,0000,0000,0000,,C’est bien à ma portée.
+Dialogue: 0,0:10:27.45,0:10:29.77,Italique,Sung Jinwoo,0000,0000,0000,,Ils passent en formation\Nsans dire un mot !
+Dialogue: 0,0:10:34.54,0:10:35.49,Default,Son Kihoon,0000,0000,0000,,Ça vient !
+Dialogue: 0,0:10:41.45,0:10:42.91,Default,Son Kihoon,0000,0000,0000,,Des chacals de donjon !
+Dialogue: 0,0:10:55.29,0:10:56.13,Default,Gina,0000,0000,0000,,Baissez-vous !
+Dialogue: 0,0:11:08.40,0:11:10.94,Default,Son Kihoon,0000,0000,0000,,Que font-ils\Ndans un donjon de niveau A ?
+Dialogue: 0,0:11:11.66,0:11:13.96,Default,Sung Jinwoo,0000,0000,0000,,Ils devraient pas se trouver ici ?
+Dialogue: 0,0:11:14.50,0:11:17.19,Default,Han Semi,0000,0000,0000,,Ce sont des créatures de rang C.
+Dialogue: 0,0:11:17.54,0:11:20.62,Default,Han Semi,0000,0000,0000,,Elles ne sont pas censées\Nsurvivre ici.
+Dialogue: 0,0:11:22.70,0:11:23.57,Italique,Sung Jinwoo,0000,0000,0000,,Des colliers ?
+Dialogue: 0,0:11:24.47,0:11:27.28,Default,Sung Jinwoo,0000,0000,0000,,Regardez, ils ont été apprivoisés.
+Dialogue: 0,0:11:27.71,0:11:30.86,Default,Son Kihoon,0000,0000,0000,,Gardés en vie pour devenir\Ndes chiens de chasse, alors ?
+Dialogue: 0,0:11:37.27,0:11:39.54,Italique,Sung Jinwoo,0000,0000,0000,,On dirait bien\Nque j’avais vu juste.
+Dialogue: 0,0:11:49.46,0:11:50.66,Default,Lee Geonguk,0000,0000,0000,,Des hauts orcs ?
+Dialogue: 0,0:11:50.81,0:11:51.93,Default,Myung-chul,0000,0000,0000,,Pourquoi ici ?
+Dialogue: 0,0:12:06.82,0:12:08.41,Italique,Son Kihoon,0000,0000,0000,,Quelle puissance !
+Dialogue: 0,0:12:16.00,0:12:17.70,Default,Lee Geonguk,0000,0000,0000,,Provocation n’a aucun effet !
+Dialogue: 0,0:12:17.83,0:12:20.13,Default,Lee Geonguk,0000,0000,0000,,Attention !\NIls visent l’arrière-garde !
+Dialogue: 0,0:12:23.00,0:12:24.76,Default,Shin Seokjin,0000,0000,0000,,On va pas se laisser faire !
+Dialogue: 0,0:12:29.22,0:12:32.35,Default,Shin Seokjin,0000,0000,0000,,Ça leur fait rien ?\NIls résistent à la magie !
+Dialogue: 0,0:12:44.73,0:12:46.14,Default,Lee Bora,0000,0000,0000,,Il est trop fort !
+Dialogue: 0,0:12:46.27,0:12:48.86,Default,Lee Bora,0000,0000,0000,,Je ne l’immobiliserai\Nque quelques secondes !
+Dialogue: 0,0:12:49.00,0:12:50.42,Default,Shin Seokjin,0000,0000,0000,,J’invoque du renfort !
+Dialogue: 0,0:12:51.05,0:12:53.02,Default,Shin Seokjin,0000,0000,0000,,Ô, familiers, entendez mon appel…
+Dialogue: 0,0:12:54.52,0:12:56.30,Default,Shin Seokjin,0000,0000,0000,,et tranchez nos ennemis !
+Dialogue: 0,0:13:00.97,0:13:04.59,Italique,Shin Seokjin,0000,0000,0000,,Voilà ma carte maîtresse !\NMême si elle est gourmande en mana…
+Dialogue: 0,0:13:17.07,0:13:19.14,Default,Gina,0000,0000,0000,,On a besoin de soins par ici !
+Dialogue: 0,0:13:19.29,0:13:21.08,Default,Han Semi,0000,0000,0000,,Tenez bon, j’arrive !
+Dialogue: 0,0:13:22.13,0:13:25.69,Default,Son Kihoon,0000,0000,0000,,Ils sont nombreux !\NOn doit pas les laisser nous encercler !
+Dialogue: 0,0:13:25.88,0:13:28.36,Default,Son Kihoon,0000,0000,0000,,Formez des groupes de trois !\NEspacez-vous !
+Dialogue: 0,0:13:29.47,0:13:32.28,Italique,Son Kihoon,0000,0000,0000,,Un seul haut orc vaut un rang A,\Net vu leur nombre…
+Dialogue: 0,0:13:32.88,0:13:36.21,Italique,Son Kihoon,0000,0000,0000,,les chasseurs de rang B\Nne pourront rien contre eux !
+Dialogue: 0,0:13:41.09,0:13:43.42,Italique,Son Kihoon,0000,0000,0000,,Bordel ! Tenez bon, les gars !
+Dialogue: 0,0:13:53.53,0:13:54.48,Default,Lee Bora,0000,0000,0000,,Maintenant !
+Dialogue: 0,0:13:54.93,0:13:57.69,Default,Han Semi,0000,0000,0000,,Ne bouge pas, je m’en occupe.
+Dialogue: 0,0:14:38.93,0:14:41.35,Italique,Han Semi,0000,0000,0000,,Que… que vient-il de se passer ?
+Dialogue: 0,0:14:48.90,0:14:49.74,Default,Son Kihoon,0000,0000,0000,,C’est étrange.
+Dialogue: 0,0:14:51.08,0:14:53.62,Default,Son Kihoon,0000,0000,0000,,Ils sont devenus plus lents,\Ntout à coup.
+Dialogue: 0,0:14:54.40,0:14:56.99,Default,Lee Geonguk,0000,0000,0000,,Maintenant ! On les repousse !
+Dialogue: 0,0:14:57.73,0:15:00.48,Italique,Sung Jinwoo,0000,0000,0000,,Je devrais éviter d’intervenir,
+Dialogue: 0,0:15:00.70,0:15:02.67,Italique,Sung Jinwoo,0000,0000,0000,,mais je peux pas les laisser mourir.
+Dialogue: 0,0:15:08.97,0:15:11.30,Italique,Sung Jinwoo,0000,0000,0000,,Je vais les affaiblir discrètement.
+Dialogue: 0,0:15:14.68,0:15:16.22,Italique,Sung Jinwoo,0000,0000,0000,,Me gêne pas, toi !
+Dialogue: 0,0:15:55.87,0:15:57.44,Default,Son Kihoon,0000,0000,0000,,Y a-t-il des blessés ?
+Dialogue: 0,0:15:57.59,0:15:59.60,Default,Myung-chul,0000,0000,0000,,Apparemment,\Ntout le monde va bien !
+Dialogue: 0,0:15:59.92,0:16:01.89,Default,Lee Geonguk,0000,0000,0000,,C’est un véritable miracle !
+Dialogue: 0,0:16:02.45,0:16:05.54,Default,Han Semi,0000,0000,0000,,Hé, il s’est passé un truc étrange,\Npendant le combat.
+Dialogue: 0,0:16:05.92,0:16:08.92,Default,Son Kihoon,0000,0000,0000,,J’ai vu ça, oui.\NLeurs mouvements ont été ralentis.
+Dialogue: 0,0:16:09.18,0:16:10.69,Default,Son Kihoon,0000,0000,0000,,C’était toi, Gina ?
+Dialogue: 0,0:16:11.51,0:16:13.15,Default,Gina,0000,0000,0000,,Je n’ai pas cette capacité.
+Dialogue: 0,0:16:13.29,0:16:17.62,Default,Gina,0000,0000,0000,,Je maîtrise la magie offensive\Net un peu la télékinésie, c’est tout.
+Dialogue: 0,0:16:17.78,0:16:20.54,Default,Gina,0000,0000,0000,,Les autres sont spécialisés\Ndans la magie de feu.
+Dialogue: 0,0:16:20.72,0:16:24.85,Default,Lee Bora,0000,0000,0000,,Nous n’avons pas d’assassins.\NPersonne n’est capable de faire ça.
+Dialogue: 0,0:16:25.46,0:16:28.82,Default,Lee Bora,0000,0000,0000,,Enfin, peu importe.\NL’important, c’est d’avoir gagné.
+Dialogue: 0,0:16:28.97,0:16:32.20,Default,Son Kihoon,0000,0000,0000,,C’est vrai.\NOn l’a clairement échappé belle.
+Dialogue: 0,0:16:33.92,0:16:37.83,Italique,Lee Bora,0000,0000,0000,,Ce type nous prend vraiment\Npour des imbéciles.
+Dialogue: 0,0:16:38.03,0:16:42.79,Italique,Lee Bora,0000,0000,0000,,Il pense qu’une magicienne comme moi\Nn’a pas repéré son camouflage ?
+Dialogue: 0,0:16:43.47,0:16:46.92,Italique,Lee Bora,0000,0000,0000,,Mais bon,\Non est tous en vie grâce à lui.
+Dialogue: 0,0:16:47.18,0:16:50.33,Italique,Lee Bora,0000,0000,0000,,Il a sûrement ses raisons,\Nje vais laisser couler.
+Dialogue: 0,0:16:51.10,0:16:54.30,Default,Myung-chul,0000,0000,0000,,Capitaine Son,\Ndevons-nous poursuivre le raid ?
+Dialogue: 0,0:16:56.12,0:16:58.44,Default,Lee Geonguk,0000,0000,0000,,C’est trop dangereux pour nous.
+Dialogue: 0,0:16:58.59,0:17:02.79,Default,Lee Geonguk,0000,0000,0000,,Il faudrait deux soigneurs\Net trois magiciens de plus.
+Dialogue: 0,0:17:03.39,0:17:06.65,Default,Gina,0000,0000,0000,,J’ai conscience que c’est ta première\Nen tant que capitaine,
+Dialogue: 0,0:17:06.81,0:17:09.71,Default,Gina,0000,0000,0000,,mais je pense\Nqu’il vaut mieux se replier.
+Dialogue: 0,0:17:13.55,0:17:15.80,Italique,Sung Jinwoo,0000,0000,0000,,Je peux comprendre\Nce qu’il ressent.
+Dialogue: 0,0:17:16.29,0:17:18.55,Italique,Sung Jinwoo,0000,0000,0000,,Il veut nettoyer le donjon.
+Dialogue: 0,0:17:18.91,0:17:21.65,Italique,Sung Jinwoo,0000,0000,0000,,Mais s’il a véritablement\Nl’âme d’un chef…
+Dialogue: 0,0:17:22.48,0:17:23.44,Default,Son Kihoon,0000,0000,0000,,Bien,
+Dialogue: 0,0:17:24.22,0:17:26.14,Default,Son Kihoon,0000,0000,0000,,évacuons les lieux !
+Dialogue: 0,0:17:28.73,0:17:31.27,Default,Lee Geonguk,0000,0000,0000,,J’ai cru que t’allais nous forcer\Nà avancer.
+Dialogue: 0,0:17:31.72,0:17:33.77,Default,Son Kihoon,0000,0000,0000,,J’ai un minimum de jugeote.
+Dialogue: 0,0:17:35.80,0:17:36.86,Default,Son Kihoon,0000,0000,0000,,Qu’est-ce que…
+Dialogue: 0,0:17:37.37,0:17:40.14,Default,Lee Bora,0000,0000,0000,,C’est une barrière.\NDe haut niveau, qui plus est.
+Dialogue: 0,0:17:40.66,0:17:42.58,Default,Kim Eunsoo,0000,0000,0000,,Y avait rien, à notre arrivée !
+Dialogue: 0,0:17:43.04,0:17:46.54,TiretsDefault,Son Kihoon/Lee Bora,0000,0000,0000,,– C’est bon pour toi ?\N– Ça va prendre du temps, mais oui.
+Dialogue: 0,0:17:47.77,0:17:52.00,Italique,Lee Bora,0000,0000,0000,,Quelque chose dans ce donjon\Nutilise une magie de haut niveau.
+Dialogue: 0,0:17:52.62,0:17:54.41,Italique,Lee Bora,0000,0000,0000,,On fait bien de s’en aller.
+Dialogue: 0,0:17:54.58,0:17:57.97,Italique,Lee Bora,0000,0000,0000,,On n’est pas de taille\Npour cet endroit.
+Dialogue: 0,0:18:00.14,0:18:02.14,Default,Myung-chul,0000,0000,0000,,C’était quoi, ce mana ?
+Dialogue: 0,0:18:02.42,0:18:03.47,Default,Kim Eunsoo,0000,0000,0000,,C’est pas vrai…
+Dialogue: 0,0:18:03.85,0:18:05.31,Default,Lee Geonguk,0000,0000,0000,,C’est le boss du donjon ?
+Dialogue: 0,0:18:05.53,0:18:07.02,Default,Lee Bora,0000,0000,0000,,Je fais vite. Aidez-moi !
+Dialogue: 0,0:18:07.31,0:18:08.88,TiretsDefault,Ginq / Shin Seokjin,0000,0000,0000,,– D’accord.\N– J’arrive !
+Dialogue: 0,0:18:09.18,0:18:12.62,Italique,Sung Jinwoo,0000,0000,0000,,Même ce chasseur de rang B\Na pu ressentir ces fluctuations.
+Dialogue: 0,0:18:13.05,0:18:15.50,Italique,Sung Jinwoo,0000,0000,0000,,Comment ont-ils pu passer à côté,\Ndehors ?
+Dialogue: 0,0:18:21.61,0:18:23.41,Default,Son Kihoon,0000,0000,0000,,Une malédiction ? C’est un piège ?
+Dialogue: 0,0:18:23.62,0:18:25.62,Default,Son Kihoon,0000,0000,0000,,Semi ! Une magie de bénédiction !
+Dialogue: 0,0:18:27.02,0:18:28.33,Default,Son Kihoon,0000,0000,0000,,Alors ? Qu’est-ce que…
+Dialogue: 0,0:18:35.90,0:18:38.92,Default,Myung-chul,0000,0000,0000,,Kihoon,\Nils sont au moins cinquante, en face !
+Dialogue: 0,0:18:40.07,0:18:41.51,TiretsDefault,Han Semi / Son Kihoon,0000,0000,0000,,– Kihoon !\N– Ne bouge pas.
+Dialogue: 0,0:18:42.80,0:18:45.13,Default,Son Kihoon,0000,0000,0000,,Si on se bat ici,\Non est tous morts.
+Dialogue: 0,0:18:51.45,0:18:56.36,Italique,Haut orc,0000,0000,0000,,Krerak thu shwina !\NWigdu aragnaka !
+Dialogue: 0,0:18:57.16,0:19:01.57,Italique,Hauts orcs,0000,0000,0000,,Krerak thu shwina !\NWigdu aragnaka !
+Dialogue: 0,0:19:02.94,0:19:07.71,Italique,Hauts orcs,0000,0000,0000,,Krerak thu shwina !\NWigdu aragnaka !
+Dialogue: 0,0:19:14.08,0:19:16.17,Italique,Haut orc,0000,0000,0000,,Humains…
+Dialogue: 0,0:19:16.71,0:19:19.21,Italique,Haut orc,0000,0000,0000,,Je m’appelle Kargalgan…
+Dialogue: 0,0:19:19.35,0:19:22.51,Italique,Haut orc,0000,0000,0000,,Je souhaite vous rencontrer.
+Dialogue: 0,0:19:23.05,0:19:26.48,Default,Son Kihoon,0000,0000,0000,,Kargalgan,\Nc’est toi qui nous bloques la sortie ?
+Dialogue: 0,0:19:26.98,0:19:28.60,Italique,Kargalgan,0000,0000,0000,,Oui…
+Dialogue: 0,0:19:28.74,0:19:32.10,Italique,Kargalgan,0000,0000,0000,,Je suis le digne\Net grand enchanteur des orcs.
+Dialogue: 0,0:19:32.51,0:19:36.54,Default,Son Kihoon,0000,0000,0000,,Y a-t-il un être plus puissant que toi\Ndans cette grotte ?
+Dialogue: 0,0:19:38.68,0:19:42.32,Italique,Kargalgan,0000,0000,0000,,Tu penses vraiment\Nque je peux être vaincu ?
+Dialogue: 0,0:19:42.68,0:19:44.29,Italique,Kargalgan,0000,0000,0000,,Faites votre choix :
+Dialogue: 0,0:19:44.46,0:19:48.99,Italique,Kargalgan,0000,0000,0000,,crever de la main de mes soldats\Nou les suivre jusqu’à moi.
+Dialogue: 0,0:19:52.30,0:19:53.52,Default,Son Kihoon,0000,0000,0000,,Nous allons les suivre.
+Dialogue: 0,0:20:01.40,0:20:02.77,Default,Son Kihoon,0000,0000,0000,,Chasseur Sung…
+Dialogue: 0,0:20:03.14,0:20:03.98,Default,Sung Jinwoo,0000,0000,0000,,Oui ?
+Dialogue: 0,0:20:05.84,0:20:09.18,Default,Son Kihoon,0000,0000,0000,,Nous lancerons une offensive\Ndès que le boss se montrera.
+Dialogue: 0,0:20:09.77,0:20:10.99,Default,Son Kihoon,0000,0000,0000,,Qu’importe le résultat,
+Dialogue: 0,0:20:11.12,0:20:14.24,Default,Son Kihoon,0000,0000,0000,,ça devrait suffire\Nà faire lever la barrière.
+Dialogue: 0,0:20:14.40,0:20:17.73,Default,Son Kihoon,0000,0000,0000,,Sors d’ici\Net contacte l’escadron A.
+Dialogue: 0,0:20:18.12,0:20:19.86,Default,Sung Jinwoo,0000,0000,0000,,Vous êtes résignés à mourir ?
+Dialogue: 0,0:20:21.60,0:20:25.38,Default,Son Kihoon,0000,0000,0000,,Notre but n’est pas\Nde rentrer vivants des donjons,
+Dialogue: 0,0:20:25.51,0:20:27.12,Default,Son Kihoon,0000,0000,0000,,mais de les refermer.
+Dialogue: 0,0:20:27.74,0:20:29.74,Default,Han Semi,0000,0000,0000,,J’ai une faveur à te demander.
+Dialogue: 0,0:20:30.79,0:20:34.90,Default,Han Semi,0000,0000,0000,,Il s’agit de mon testament.\NTu pourrais le donner à ma famille ?
+Dialogue: 0,0:20:35.95,0:20:39.51,Default,Han Semi,0000,0000,0000,,Nous avons l’obligation\Nd’accomplir notre devoir,
+Dialogue: 0,0:20:39.66,0:20:41.26,Default,Han Semi,0000,0000,0000,,mais pas toi !
+Dialogue: 0,0:20:41.92,0:20:44.38,Default,Han Semi,0000,0000,0000,,Je te souhaite\Nde repartir d’ici vivant.
+Dialogue: 0,0:20:45.19,0:20:47.28,Italique,Sung Jinwoo,0000,0000,0000,,Cette situation désespérée
+Dialogue: 0,0:20:47.53,0:20:49.81,Italique,Sung Jinwoo,0000,0000,0000,,me rappelle le double donjon.
+Dialogue: 0,0:20:50.56,0:20:52.19,Italique,Sung Jinwoo,0000,0000,0000,,C’était chacun pour soi.
+Dialogue: 0,0:20:53.37,0:20:55.51,Italique,Sung Jinwoo,0000,0000,0000,,Mais eux, ils restent soudés.
+Dialogue: 0,0:20:55.98,0:21:00.02,Default,Sung Jinwoo,0000,0000,0000,,Je le prends, mais j’espère\Nne pas avoir à le leur remettre.
+Dialogue: 0,0:21:07.37,0:21:08.99,Italique,Cha Hae-in,0000,0000,0000,,Il n’est pas là ?
+Dialogue: 0,0:21:09.20,0:21:11.49,Italique,Cha Hae-in,0000,0000,0000,,Il aurait quitté\Nl’équipe des mineurs ?
+Dialogue: 0,0:21:12.73,0:21:13.98,Default,Bae Yunsuk,0000,0000,0000,,Chasseuse Cha ?
+Dialogue: 0,0:21:15.15,0:21:17.79,Default,Bae Yunsuk,0000,0000,0000,,Vous n’êtes pas en repos,\Naujourd’hui ?
+Dialogue: 0,0:21:17.96,0:21:21.51,Default,Cha Hae-in,0000,0000,0000,,Dites-moi, auriez-vous vu\Nun certain Sung Jinwoo ?
+Dialogue: 0,0:21:22.54,0:21:24.01,Default,Bae Yunsuk,0000,0000,0000,,Sung ?
+Dialogue: 0,0:21:24.32,0:21:27.10,Default,Bae Yunsuk,0000,0000,0000,,Il est dans ce donjon,\Nen tant que portefaix.
+Dialogue: 0,0:21:27.58,0:21:28.51,Default,Cha Hae-in,0000,0000,0000,,Mais…
+Dialogue: 0,0:21:29.08,0:21:31.51,Default,Cha Hae-in,0000,0000,0000,,il est dans ce portail, alors ?
+Dialogue: 0,0:21:57.74,0:21:59.79,Default,Kargalgan,0000,0000,0000,,Humains…
+Dialogue: 0,0:22:02.28,0:22:04.46,Default,Kargalgan,0000,0000,0000,,Je vous souhaite la bienvenue.
+Dialogue: 0,0:23:28.84,0:23:30.84,Default,credits,0000,0000,0000,,Traduction : Alexandre Mureau\NAdaptation : Kiddo Maxx
+Dialogue: 0,0:23:32.18,0:23:33.97,Default,credits,0000,0000,0000,,Repérage : Clément Hautavoine\NRelecture : DW512ZC

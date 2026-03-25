@@ -1,0 +1,346 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: OS,Arial Unicode MS,18.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0001,0001,0015,0
+Style: Italics,Arial Unicode MS,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0020,0020,0022,0
+Style: On Top,Arial Unicode MS,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0022,0
+Style: DefaultLow,Arial Unicode MS,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0020,0020,0010,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.70,0:00:12.63,Default,,0000,0000,0000,,Alô?
+Dialogue: 0,0:00:12.94,0:00:15.42,Default,,0000,0000,0000,,Hể!? Anh vẫn còn ngủ sao!?
+Dialogue: 0,0:00:17.09,0:00:18.31,Default,,0000,0000,0000,,Tại anh hơi mệt...
+Dialogue: 0,0:00:18.32,0:00:20.33,Default,,0000,0000,0000,,Có biết mấy giờ rồi không!
+Dialogue: 0,0:00:20.36,0:00:22.44,Default,,0000,0000,0000,,Vẫn nhớ hôm nay sẽ\Ngặp mặt người giám hộ chứ!?
+Dialogue: 0,0:00:26.18,0:00:27.44,Default,,0000,0000,0000,,Xem nào...
+Dialogue: 0,0:00:28.24,0:00:30.32,Default,,0000,0000,0000,,Anh là anh trai em đúng không?
+Dialogue: 0,0:00:31.27,0:00:31.79,Default,,0000,0000,0000,,Sao thế?
+Dialogue: 0,0:00:32.28,0:00:32.85,Default,,0000,0000,0000,,Lạ lắm à?
+Dialogue: 0,0:00:34.15,0:00:37.45,Default,,0000,0000,0000,,Nhiều thập kỷ qua, các cánh cổng\Nđã xuất hiện khắp nơi trên thế giới.
+Dialogue: 0,0:00:38.18,0:00:41.20,Default,,0000,0000,0000,,Đám quái vật bên trong\Ndungeon của các cánh cổng
+Dialogue: 0,0:00:41.20,0:00:46.48,Default,,0000,0000,0000,,và những con người đã thức tỉnh\Nnăng lực để chống lại chúng gọi là Hunter
+Dialogue: 0,0:00:46.48,0:00:48.38,Default,,0000,0000,0000,,vẫn luôn không ngừng chiến đấu với nhau.
+Dialogue: 0,0:00:49.81,0:00:55.38,Default,,0000,0000,0000,,Sung Jinwoo vì muốn kiếm tiền chữa bệnh\Ncho mẹ và chu cấp cho em gái còn đi học...
+Dialogue: 0,0:00:56.21,0:00:59.97,Default,,0000,0000,0000,,đã dấn thân làm Hunter\Nnhưng lại có Cấp E thấp nhất.
+Dialogue: 0,0:01:00.77,0:01:06.75,Default,,0000,0000,0000,,Về cơ bản thì kể từ khi thức tỉnh,\Nnăng lực của Hunter sẽ không phát triển.
+Dialogue: 0,0:01:07.43,0:01:11.13,Default,,0000,0000,0000,,Tuy nhiên, trong một lần\Nchinh phục dungeon hai tầng,
+Dialogue: 0,0:01:11.15,0:01:16.52,Default,,0000,0000,0000,,Sung Jinwoo đã có được sức mạnh\Ngiúp thăng cấp giống như chơi game.
+Dialogue: 0,0:01:17.51,0:01:20.77,Default,,0000,0000,0000,,Trong quá trình nâng cao năng lực\Nthông qua chiến đấu,
+Dialogue: 0,0:01:21.17,0:01:25.25,Default,,0000,0000,0000,,công thức của Thần Dược Sự Sống\Nchữa bách bệnh
+Dialogue: 0,0:01:25.35,0:01:28.71,Default,,0000,0000,0000,,cùng với chức nghiệp Chúa Tể Bóng Tối\Ncho phép thao túng các binh sĩ bóng...
+Dialogue: 0,0:01:29.13,0:01:31.11,Default,,0000,0000,0000,,là những thứ Sung Jinwoo đã có được.
+Dialogue: 0,0:01:38.62,0:01:44.41,Default,,0000,0000,0000,,SOLO LEVELING PHẦN 2\N-VÙNG LÊN TỪ BÓNG TỐI-
+Dialogue: 0,0:03:03.02,0:03:05.70,Default,,0000,0000,0000,,Chà, cũng không có gì kỳ quặc...
+Dialogue: 0,0:03:06.15,0:03:08.86,Default,,0000,0000,0000,,Đi gặp giáo viên thì làm sao\Nmặc đồ thể thao được?
+Dialogue: 0,0:03:10.11,0:03:12.42,Default,,0000,0000,0000,,Con người có thể thay đổi\Nđến mức này sao...
+Dialogue: 0,0:03:13.02,0:03:14.22,Default,,0000,0000,0000,,Oa.
+Dialogue: 0,0:03:14.22,0:03:15.73,Default,,0000,0000,0000,,Mê quá, ai vậy nhỉ?
+Dialogue: 0,0:03:16.19,0:03:18.30,Default,,0000,0000,0000,,Anh gây chú ý quá trời kìa.
+Dialogue: 0,0:03:18.36,0:03:19.38,Default,,0000,0000,0000,,Vẫn chưa có bạn gái nhỉ?
+Dialogue: 0,0:03:19.39,0:03:21.13,Default,,0000,0000,0000,,Để em giới thiệu cho ai đó nhé?
+Dialogue: 0,0:03:22.58,0:03:23.60,Default,,0000,0000,0000,,Lắm lời.
+Dialogue: 0,0:03:23.60,0:03:25.89,Default,,0000,0000,0000,,Đau đau đau đau đau đau.
+Dialogue: 0,0:03:26.77,0:03:32.68,Default,,0000,0000,0000,,Jinah rất tốt bụng, thành tích cũng cao,\Nlà một tấm gương cho mọi người,
+Dialogue: 0,0:03:32.68,0:03:34.77,Default,,0000,0000,0000,,nên quả thật không cần lo lắng gì.
+Dialogue: 0,0:03:35.41,0:03:36.12,Default,,0000,0000,0000,,Vậy ạ.
+Dialogue: 0,0:03:36.86,0:03:41.29,Default,,0000,0000,0000,,Điểm thi thử của em ấy cũng tốt và\Ncũng thuộc diện đỗ trường y mong muốn,
+Dialogue: 0,0:03:41.29,0:03:43.92,Default,,0000,0000,0000,,nên mong gia đình\Nkhông tạo áp lực cho em ấy.
+Dialogue: 0,0:03:44.06,0:03:44.83,Default,,0000,0000,0000,,Em hiểu rồi ạ.
+Dialogue: 0,0:03:45.96,0:03:48.09,Default,,0000,0000,0000,,Buổi trao đổi sẽ kết thúc tại đây...
+Dialogue: 0,0:03:48.09,0:03:51.18,Default,,0000,0000,0000,,Nhưng có thể cho tôi hỏi một câu không?
+Dialogue: 0,0:03:51.44,0:03:51.78,Default,,0000,0000,0000,,Ơ?
+Dialogue: 0,0:03:52.27,0:03:52.89,Default,,0000,0000,0000,,Chuyện gì vậy?
+Dialogue: 0,0:03:54.99,0:03:58.00,Default,,0000,0000,0000,,Nếu Jinah có thể thức tỉnh
+Dialogue: 0,0:03:58.00,0:04:01.00,Default,,0000,0000,0000,,thì người anh như anh có khuyên\Nem ấy trở thành Hunter không?
+Dialogue: 0,0:04:02.92,0:04:03.38,Default,,0000,0000,0000,,Không.
+Dialogue: 0,0:04:04.69,0:04:05.92,Default,,0000,0000,0000,,Quả nhiên là vậy sao.
+Dialogue: 0,0:04:06.59,0:04:07.06,Default,,0000,0000,0000,,Cho hỏi...
+Dialogue: 0,0:04:08.18,0:04:12.05,Default,,0000,0000,0000,,Anh Sung, tôi biết như này\Nlà quá đáng nhưng vẫn xin có lời...
+Dialogue: 0,0:04:18.19,0:04:19.95,Default,,0000,0000,0000,,À... thì...
+Dialogue: 0,0:04:23.06,0:04:24.10,Default,,0000,0000,0000,,Như này là sao?
+Dialogue: 0,0:04:25.24,0:04:26.86,Default,,0000,0000,0000,,Em biết người này chứ?
+Dialogue: 0,0:04:27.22,0:04:27.73,Default,,0000,0000,0000,,Hở?
+Dialogue: 0,0:04:28.69,0:04:30.50,Default,,0000,0000,0000,,Anh trai của Jinah!?
+Dialogue: 0,0:04:31.31,0:04:32.88,Default,,0000,0000,0000,,Thế giới này nhỏ bé thật.
+Dialogue: 0,0:04:35.23,0:04:39.19,Default,,0000,0000,0000,,Dù không biết giáo viên đã nói gì\Nnhưng em không đi học nữa đâu.
+Dialogue: 0,0:04:39.27,0:04:41.10,Default,,0000,0000,0000,,Cũng không có ý định bỏ nghiệp Hunter.
+Dialogue: 0,0:04:41.46,0:04:42.74,Default,,0000,0000,0000,,Em là cấp E mà.
+Dialogue: 0,0:04:43.04,0:04:44.64,Default,,0000,0000,0000,,Sẽ không mưu sinh nổi đâu.
+Dialogue: 0,0:04:45.69,0:04:48.95,Default,,0000,0000,0000,,Có thể vào đội chinh phạt của tôi\Nđể kiếm tiền nhưng vụ đó là đặc cách.
+Dialogue: 0,0:04:49.26,0:04:51.72,Default,,0000,0000,0000,,Nếu anh tới để thuyết giáo\Nthì xin hãy về cho.
+Dialogue: 0,0:04:52.22,0:04:54.31,Default,,0000,0000,0000,,Với cả anh giai đây cũng cấp E còn gì.
+Dialogue: 0,0:04:56.97,0:04:58.47,Default,,0000,0000,0000,,Tôi không đến để bảo em hãy từ bỏ.
+Dialogue: 0,0:04:59.16,0:04:59.66,Default,,0000,0000,0000,,Ể!?
+Dialogue: 0,0:05:00.50,0:05:00.98,Default,,0000,0000,0000,,Đi nào.
+Dialogue: 0,0:05:07.46,0:05:08.66,Default,,0000,0000,0000,,Anh tới rồi sao.
+Dialogue: 0,0:05:09.97,0:05:11.00,Default,,0000,0000,0000,,Hunter Hwang Dongsoo.
+Dialogue: 0,0:05:13.79,0:05:15.96,Default,,0000,0000,0000,,Vẫn là cái đất nước sặc mùi mốc meo.
+Dialogue: 0,0:05:16.76,0:05:21.60,Default,,0000,0000,0000,,Cơ mà tổ trưởng của hiệp hội Hunter\Ntrực tiếp nghênh đón cơ đấy.
+Dialogue: 0,0:05:22.94,0:05:24.49,Default,,0000,0000,0000,,Anh định ở đây bao lâu ạ?
+Dialogue: 0,0:05:25.01,0:05:27.86,Default,,0000,0000,0000,,Ta không coi đây là đất nước\Ncó thể ở lại lâu dài.
+Dialogue: 0,0:05:28.31,0:05:29.60,Default,,0000,0000,0000,,Khỏi lo đi.
+Dialogue: 0,0:05:30.73,0:05:34.95,Default,,0000,0000,0000,,Cất công quay về cố hương đã vứt bỏ\Ncó phải để gặp hai người đó không ạ?
+Dialogue: 0,0:05:35.80,0:05:36.78,Default,,0000,0000,0000,,Để gặp á?
+Dialogue: 0,0:05:37.08,0:05:38.91,Default,,0000,0000,0000,,Biết rồi thì đừng có hỏi.
+Dialogue: 0,0:05:39.32,0:05:42.16,Default,,0000,0000,0000,,Tổ giám sát các người\Ncứ vờ như không biết là được.
+Dialogue: 0,0:05:42.45,0:05:45.48,Default,,0000,0000,0000,,Cứ để cho ta muốn làm gì thì làm\Nvới bọn chúng trong dungeon đi.
+Dialogue: 0,0:05:45.76,0:05:48.66,Default,,0000,0000,0000,,Đầu tiên là đứa cấp E,\Nkế đến là đứa cấp D.
+Dialogue: 0,0:05:49.18,0:05:52.74,Default,,0000,0000,0000,,Hay là đang có ý ngăn cản hả.
+Dialogue: 0,0:05:53.34,0:05:56.50,Default,,0000,0000,0000,,Ngăn ta bằng cái loại như ngươi ấy.
+Dialogue: 0,0:05:58.01,0:06:00.74,Default,,0000,0000,0000,,Tôi chỉ đang tuân thủ nhiệm vụ mà thôi.
+Dialogue: 0,0:06:03.18,0:06:03.72,Default,,0000,0000,0000,,Hừ.
+Dialogue: 0,0:06:08.56,0:06:10.20,Default,,0000,0000,0000,,Cánh sao...
+Dialogue: 0,0:06:10.82,0:06:14.80,Default,,0000,0000,0000,,Vấn đề là xác đã bị rơi xuống biển.
+Dialogue: 0,0:06:15.03,0:06:18.45,Default,,0000,0000,0000,,Tức là bọn chúng đang thử bay.
+Dialogue: 0,0:06:19.25,0:06:22.53,Default,,0000,0000,0000,,Hiện vẫn chỉ là cự ly ngắn\Nnhưng sớm muộn cũng...
+Dialogue: 0,0:06:23.19,0:06:23.69,Default,,0000,0000,0000,,Hừm.
+Dialogue: 0,0:06:24.49,0:06:27.58,Default,,0000,0000,0000,,Trước mắt thì chúng ta\Ncứ tiếp tục điều tra vụ đó đi.
+Dialogue: 0,0:06:27.98,0:06:28.41,Default,,0000,0000,0000,,Ừm.
+Dialogue: 0,0:06:34.29,0:06:35.30,Default,,0000,0000,0000,,Đã lâu không gặp.
+Dialogue: 0,0:06:35.33,0:06:35.86,Default,,0000,0000,0000,,Ơ?
+Dialogue: 0,0:06:35.86,0:06:37.13,Default,,0000,0000,0000,,Tổ trưởng Ahn, anh Hyun.
+Dialogue: 0,0:06:37.73,0:06:39.01,Default,,0000,0000,0000,,Lâu rồi mới gặp.
+Dialogue: 0,0:06:39.22,0:06:42.34,Default,,0000,0000,0000,,Không ngờ lại được Hunter Sung liên lạc.
+Dialogue: 0,0:06:42.81,0:06:44.21,Default,,0000,0000,0000,,Thật vinh hạnh cho tôi.
+Dialogue: 0,0:06:44.83,0:06:45.50,Default,,0000,0000,0000,,Xin chào.
+Dialogue: 0,0:06:45.67,0:06:46.08,Default,,0000,0000,0000,,Ơ?
+Dialogue: 0,0:06:46.70,0:06:49.07,Default,,0000,0000,0000,,A, em là người hôm đó!
+Dialogue: 0,0:06:49.88,0:06:51.64,Default,,0000,0000,0000,,Xin lỗi, làm khó các anh rồi.
+Dialogue: 0,0:06:51.91,0:06:54.90,Default,,0000,0000,0000,,Không không, Hunter Sung đã có lời mà.
+Dialogue: 0,0:06:55.67,0:06:58.37,Default,,0000,0000,0000,,Nghe cậu bảo muốn kiến tập\Nlàm chúng tôi ngạc nhiên lắm.
+Dialogue: 0,0:06:58.37,0:06:59.42,Default,,0000,0000,0000,,Vì cô bé này à?
+Dialogue: 0,0:06:59.94,0:07:00.43,Default,,0000,0000,0000,,Ừ.
+Dialogue: 0,0:07:00.87,0:07:02.62,Default,,0000,0000,0000,,Đúng lúc lắm.
+Dialogue: 0,0:07:03.31,0:07:06.70,Default,,0000,0000,0000,,Khu vực này đã được xác định\Nlà nơi xuất hiện nhiều cánh cổng.
+Dialogue: 0,0:07:06.70,0:07:10.17,Default,,0000,0000,0000,,Vài bữa trước, cũng có\Nmột cánh cổng cấp C mới xuất hiện.
+Dialogue: 0,0:07:10.17,0:07:12.07,Default,,0000,0000,0000,,Còn định nói chuyện tới khi nào vậy?
+Dialogue: 0,0:07:12.47,0:07:14.38,Default,,0000,0000,0000,,Chuyến này không phải đi dã ngoại đâu.
+Dialogue: 0,0:07:15.03,0:07:16.29,Default,,0000,0000,0000,,Xin lỗi, bắt đầu ngay đây.
+Dialogue: 0,0:07:16.91,0:07:17.63,Default,,0000,0000,0000,,Đó là ai vậy?
+Dialogue: 0,0:07:18.10,0:07:20.25,Default,,0000,0000,0000,,Hunter Kim Chul cấp A.
+Dialogue: 0,0:07:20.57,0:07:22.39,Default,,0000,0000,0000,,Như cậu thấy, anh ấy là một tanker.
+Dialogue: 0,0:07:22.94,0:07:23.60,Default,,0000,0000,0000,,Cấp A?
+Dialogue: 0,0:07:24.49,0:07:28.87,Default,,0000,0000,0000,,Thật ra, đi chuyến này cũng để\Nhuấn luyện thực địa cho đám lính mới.
+Dialogue: 0,0:07:28.87,0:07:32.42,Default,,0000,0000,0000,,Anh ta cũng nằm trong số đó\Nvà là thủ lĩnh của đội chinh phạt lần này.
+Dialogue: 0,0:07:32.83,0:07:36.24,Default,,0000,0000,0000,,Lúc xin phép kiến tập\Nthì trông anh ta có vẻ khó chịu...
+Dialogue: 0,0:07:36.24,0:07:36.88,Default,,0000,0000,0000,,Nào!
+Dialogue: 0,0:07:37.35,0:07:38.40,Default,,0000,0000,0000,,Thật cạn lời.
+Dialogue: 0,0:07:38.78,0:07:40.96,Default,,0000,0000,0000,,Ép mình phải bảo vệ cấp E sao...
+Dialogue: 0,0:07:41.94,0:07:42.94,Default,,0000,0000,0000,,Lại còn hai đứa.
+Dialogue: 0,0:07:43.77,0:07:52.31,Default,,0000,0000,0000,,Ừm, do đó đội chinh phạt tám người\Ngồm một cấp A, năm cấp B, hai cấp C...
+Dialogue: 0,0:07:52.66,0:07:56.35,Default,,0000,0000,0000,,Sẽ cộng thêm hai người này\Nđể đột kích với mười người.
+Dialogue: 0,0:07:57.31,0:08:00.49,Default,,0000,0000,0000,,Vốn định cho con bé thấy\Nhiện thực tàn khốc để khiến nó nghĩ lại...
+Dialogue: 0,0:08:01.92,0:08:03.23,Default,,0000,0000,0000,,Nhưng chiến lực mạnh quá rồi.
+Dialogue: 0,0:08:03.68,0:08:05.71,Default,,0000,0000,0000,,Hoàn thành dễ dàng\Nthì không nghĩa lý gì cả.
+Dialogue: 0,0:08:06.18,0:08:06.99,Default,,0000,0000,0000,,Hunter Sung.
+Dialogue: 0,0:08:08.74,0:08:13.62,Default,,0000,0000,0000,,Để tránh Hunter mới mất đất diễn\Nmong cậu chỉ kiến tập thôi nhé.
+Dialogue: 0,0:08:14.26,0:08:15.28,Default,,0000,0000,0000,,Tôi hiểu mà.
+Dialogue: 0,0:08:16.88,0:08:18.50,Default,,0000,0000,0000,,Giờ thì bắt đầu thôi!
+Dialogue: 0,0:08:19.10,0:08:20.34,Default,,0000,0000,0000,,Không cần nói đâu.
+Dialogue: 0,0:08:23.98,0:08:25.54,Default,,0000,0000,0000,,Anh à, ta đi thôi.
+Dialogue: 0,0:08:26.20,0:08:27.46,Default,,0000,0000,0000,,Anh sẽ theo sau em.
+Dialogue: 0,0:08:41.27,0:08:42.42,Default,,0000,0000,0000,,Có gì đó rất lạ.
+Dialogue: 0,0:08:43.25,0:08:44.94,Default,,0000,0000,0000,,Cái cảm giác bất an kỳ quái này...
+Dialogue: 0,0:08:58.85,0:09:00.34,Default,,0000,0000,0000,,Không lẽ đây là...
+Dialogue: 0,0:09:02.02,0:09:03.69,Default,,0000,0000,0000,,Rốt cuộc chuyện này là sao...
+Dialogue: 0,0:09:05.28,0:09:06.23,Default,,0000,0000,0000,,Hunter Sung!
+Dialogue: 0,0:09:07.45,0:09:10.21,Default,,0000,0000,0000,,Tổ trưởng Ahn!\NHãy gọi đội chinh phạt chủ lực!
+Dialogue: 0,0:09:10.28,0:09:11.52,Default,,0000,0000,0000,,Làm ngay đi!
+Dialogue: 0,0:09:13.87,0:09:15.00,Default,,0000,0000,0000,,Cổng đỏ sao!?
+Dialogue: 0,0:09:15.11,0:09:17.84,Default,,0000,0000,0000,,Tại sao cổng cấp C lại hóa đỏ được!?
+Dialogue: 0,0:09:18.22,0:09:20.34,Default,,0000,0000,0000,,Tôi sẽ lập tức tới đó!
+Dialogue: 0,0:09:31.65,0:09:32.68,Default,,0000,0000,0000,,Chuyện gì thế này!?
+Dialogue: 0,0:09:32.72,0:09:34.18,Default,,0000,0000,0000,,Cánh cổng biến mất rồi!
+Dialogue: 0,0:09:34.45,0:09:36.17,Default,,0000,0000,0000,,Như này thì quay về làm sao được!
+Dialogue: 0,0:09:36.87,0:09:37.88,Default,,0000,0000,0000,,Cổng đỏ.
+Dialogue: 0,0:09:38.09,0:09:38.76,Default,,0000,0000,0000,,Hả!?
+Dialogue: 0,0:09:40.42,0:09:43.55,Default,,0000,0000,0000,,Anh à, cổng đỏ là cái gì vậy?
+Dialogue: 0,0:09:44.26,0:09:46.26,Default,,0000,0000,0000,,Khác với cổng bình thường,
+Dialogue: 0,0:09:46.26,0:09:47.74,Default,,0000,0000,0000,,đây là những dungeon đặc biệt,
+Dialogue: 0,0:09:47.74,0:09:50.49,Default,,0000,0000,0000,,một khi bước vào sẽ bị\Ncách ly hoàn toàn với bên ngoài.
+Dialogue: 0,0:09:51.30,0:09:54.79,Default,,0000,0000,0000,,Phải đánh bại con trùm hoặc\Nđợi Dungeon Break mới có thể thoát ra.
+Dialogue: 0,0:09:54.99,0:09:56.45,Default,,0000,0000,0000,,Bên ngoài cũng không thể tới cứu.
+Dialogue: 0,0:09:57.05,0:09:57.54,Default,,0000,0000,0000,,Hể!?
+Dialogue: 0,0:09:58.18,0:10:01.92,Default,,0000,0000,0000,,Chưa kể quái vật xuất hiện\Nsẽ vượt vài cấp so với đo lường.
+Dialogue: 0,0:10:02.99,0:10:05.20,Default,,0000,0000,0000,,Vậy ở nơi cấp C này sẽ...
+Dialogue: 0,0:10:12.47,0:10:14.15,Default,,0000,0000,0000,,Địch tập kích! Cẩn thận!
+Dialogue: 0,0:10:17.55,0:10:19.32,Default,,0000,0000,0000,,E-Em cảm ơn ạ.
+Dialogue: 0,0:10:19.72,0:10:21.13,Default,,0000,0000,0000,,Không, đừng bận tâm.
+Dialogue: 0,0:10:23.59,0:10:24.71,Default,,0000,0000,0000,,Ice Elf!?
+Dialogue: 0,0:10:25.09,0:10:26.28,Default,,0000,0000,0000,,Sao chúng lại ở đây!?
+Dialogue: 0,0:10:26.79,0:10:27.47,Default,,0000,0000,0000,,Xa thật.
+Dialogue: 0,0:10:27.90,0:10:29.80,Default,,0000,0000,0000,,Với cự ly đó thì bình thường\Nsẽ không nhận ra.
+Dialogue: 0,0:10:30.82,0:10:33.60,Default,,0000,0000,0000,,Chúng nhắm vào hai người yếu nhất đội...
+Dialogue: 0,0:10:34.28,0:10:36.47,Default,,0000,0000,0000,,Nếu là hai tháng trước\Nthì chắc chắn có mình...
+Dialogue: 0,0:10:44.46,0:10:45.25,Default,,0000,0000,0000,,Anh à.
+Dialogue: 0,0:10:46.06,0:10:47.38,Default,,0000,0000,0000,,Vừa rồi là gì vậy?
+Dialogue: 0,0:10:47.95,0:10:48.81,Default,,0000,0000,0000,,Ice Elf.
+Dialogue: 0,0:10:49.40,0:10:51.31,Default,,0000,0000,0000,,Do bản tính tàn bạo tà ác,
+Dialogue: 0,0:10:57.20,0:10:58.43,Default,,0000,0000,0000,,Tất cả chú ý!
+Dialogue: 0,0:10:58.98,0:11:00.20,Default,,0000,0000,0000,,Như mọi người đã biết.
+Dialogue: 0,0:11:00.20,0:11:03.81,Default,,0000,0000,0000,,Cổng đỏ này bị cô lập hoàn toàn\Nvà có độ khó từ cấp B trở lên.
+Dialogue: 0,0:11:04.41,0:11:05.62,Default,,0000,0000,0000,,Chuyện đã thành ra thế này
+Dialogue: 0,0:11:05.62,0:11:09.24,Default,,0000,0000,0000,,thì hãy nghe lệnh người cấp cao nhất\Nlà tôi để có thể sống sót.
+Dialogue: 0,0:11:10.43,0:11:13.88,Default,,0000,0000,0000,,Tuy nhiên, tôi không thể\Ndẫn dắt tất cả mọi người.
+Dialogue: 0,0:11:14.37,0:11:18.09,Default,,0000,0000,0000,,Nên tới đây, chúng ta sẽ\Nchia ra hai nhóm để đi tiếp.
+Dialogue: 0,0:11:18.30,0:11:18.86,Default,,0000,0000,0000,,Cái gì?
+Dialogue: 0,0:11:19.56,0:11:21.54,Default,,0000,0000,0000,,Phải tăng tỷ lệ sống sót hết mức có thể!
+Dialogue: 0,0:11:22.07,0:11:26.16,Default,,0000,0000,0000,,Cứ như này thì chỉ có nước chết cóng\Nhoặc bị bọn chúng giết!
+Dialogue: 0,0:11:27.06,0:11:30.39,Default,,0000,0000,0000,,Những người đi theo tôi\Nnhất định sẽ sống sót!
+Dialogue: 0,0:11:30.53,0:11:31.94,Default,,0000,0000,0000,,T-Tôi sẽ theo anh.
+Dialogue: 0,0:11:31.95,0:11:32.85,Default,,0000,0000,0000,,Tôi cũng đi cùng!
+Dialogue: 0,0:11:32.99,0:11:34.24,Default,,0000,0000,0000,,T-Tôi nữa!
+Dialogue: 0,0:11:36.20,0:11:37.14,Default,,0000,0000,0000,,Cậu thì không được.
+Dialogue: 0,0:11:38.29,0:11:40.85,Default,,0000,0000,0000,,Cả cô bé kiến tập và cậu nữa.
+Dialogue: 0,0:11:41.22,0:11:43.01,Default,,0000,0000,0000,,Tôi không thể dẫn theo từ cấp C trở xuống.
+Dialogue: 0,0:11:43.57,0:11:46.31,Default,,0000,0000,0000,,Một ngày ở đây bằng\Nmột giờ ngoài thế giới thực.
+Dialogue: 0,0:11:46.83,0:11:49.78,Default,,0000,0000,0000,,Dù đánh bại con trùm\Nhay đợi Dungeon Break...
+Dialogue: 0,0:11:50.19,0:11:52.08,Default,,0000,0000,0000,,Thì trường hợp tệ nhất sẽ mất vài tháng.
+Dialogue: 0,0:11:52.64,0:11:54.81,Default,,0000,0000,0000,,Chỉ còn cách bỏ bớt hành lý mà thôi.
+Dialogue: 0,0:11:56.51,0:11:58.20,Default,,0000,0000,0000,,Đừng bi quan như vậy.
+Dialogue: 0,0:11:58.40,0:12:01.00,Default,,0000,0000,0000,,Nếu chúng tôi đánh bại con trùm\Nthì mấy người sẽ được trở về.
+Dialogue: 0,0:12:01.10,0:12:01.84,Default,,0000,0000,0000,,Dạ thưa...
+Dialogue: 0,0:12:02.40,0:12:04.74,Default,,0000,0000,0000,,Tôi có thể đi cùng họ không?
+Dialogue: 0,0:12:06.10,0:12:07.04,Default,,0000,0000,0000,,Tùy cô.
+Dialogue: 0,0:12:09.57,0:12:10.82,Default,,0000,0000,0000,,Cảm thương sao.
+Dialogue: 0,0:12:11.42,0:12:12.64,Default,,0000,0000,0000,,Một ả ngu ngốc.
+Dialogue: 0,0:12:13.93,0:12:16.42,Default,,0000,0000,0000,,Anh Kim còn chẳng nhận ra mũi tên đó.
+Dialogue: 0,0:12:17.14,0:12:19.24,Default,,0000,0000,0000,,Cậu không phải cấp E nhỉ?
+Dialogue: 0,0:12:21.71,0:12:24.62,Default,,0000,0000,0000,,Cấp A... hoặc có khi còn cao hơn chăng...
+Dialogue: 0,0:12:26.90,0:12:27.66,Default,,0000,0000,0000,,Giúp đỡ nhau nhé.
+Dialogue: 0,0:12:28.46,0:12:29.17,Default,,0000,0000,0000,,Chào chị.
+Dialogue: 0,0:12:29.99,0:12:30.50,Default,,0000,0000,0000,,Này!
+Dialogue: 0,0:12:31.49,0:12:33.41,Default,,0000,0000,0000,,Chúng tôi sẽ đi đường lớn.
+Dialogue: 0,0:12:34.59,0:12:36.89,Default,,0000,0000,0000,,Nếu vậy chúng tôi sẽ vào rừng.
+Dialogue: 0,0:12:37.90,0:12:38.91,Default,,0000,0000,0000,,Chúc may mắn.
+Dialogue: 0,0:12:42.65,0:12:45.01,Default,,0000,0000,0000,,Các anh cũng vậy, mạnh giỏi nhé.
+Dialogue: 0,0:12:52.50,0:12:53.34,Default,,0000,0000,0000,,Đội trưởng?
+Dialogue: 0,0:12:53.97,0:12:54.43,Default,,0000,0000,0000,,Nhìn đi.
+Dialogue: 0,0:12:56.38,0:12:57.26,Default,,0000,0000,0000,,Đó là...
+Dialogue: 0,0:12:58.18,0:12:58.96,Default,,0000,0000,0000,,Ice Bear.
+Dialogue: 0,0:12:59.61,0:13:02.41,Default,,0000,0000,0000,,Đám cấp E đó sẽ chết hết.
+Dialogue: 0,0:13:03.32,0:13:05.86,Default,,0000,0000,0000,,Vậy là chẳng thể có được\Nmột buổi học tử tế nhỉ.
+Dialogue: 0,0:13:06.51,0:13:09.30,Default,,0000,0000,0000,,Đi kiến tập mà cũng chết\Nthì công nhận đen thật.
+Dialogue: 0,0:13:09.92,0:13:10.56,Default,,0000,0000,0000,,Khoan đã.
+Dialogue: 0,0:13:11.04,0:13:14.30,Default,,0000,0000,0000,,Bên đó có cấp C và cả Park Heejin cấp B.
+Dialogue: 0,0:13:14.85,0:13:17.14,Default,,0000,0000,0000,,Tại sao mình lại nghĩ\Ntên đó là thủ lĩnh vậy?
+Dialogue: 0,0:13:19.90,0:13:20.90,Default,,0000,0000,0000,,Tất cả chú ý!
+Dialogue: 0,0:13:31.75,0:13:34.38,Default,,0000,0000,0000,,Mấy người chỉ cần tìm cách giữ mạng thôi!
+Dialogue: 0,0:13:57.61,0:13:58.20,Default,,0000,0000,0000,,Dừng lại!
+Dialogue: 0,0:14:00.51,0:14:01.31,Default,,0000,0000,0000,,Sao thế?
+Dialogue: 0,0:14:02.62,0:14:03.94,Default,,0000,0000,0000,,Nhìn là hiểu mà.
+Dialogue: 0,0:14:04.15,0:14:04.99,Default,,0000,0000,0000,,Vết cào này ấy...
+Dialogue: 0,0:14:05.24,0:14:07.67,Default,,0000,0000,0000,,Toàn bộ khu rừng này\Nlà lãnh thổ của Ice Bear.
+Dialogue: 0,0:14:07.94,0:14:09.69,Default,,0000,0000,0000,,Hãy quay lại trước khi gặp chúng đi.
+Dialogue: 0,0:14:11.41,0:14:13.29,Default,,0000,0000,0000,,Chính vì thế phải tiến sâu vào rừng.
+Dialogue: 0,0:14:13.88,0:14:14.37,Default,,0000,0000,0000,,Hể!?
+Dialogue: 0,0:14:14.93,0:14:19.47,Default,,0000,0000,0000,,Vì đây là lãnh thổ của lũ gấu nên\Nkhi ở trong rừng chỉ cần cảnh giác chúng.
+Dialogue: 0,0:14:20.54,0:14:22.70,Default,,0000,0000,0000,,Dễ hơn đám Ice Elf có lý trí đúng không.
+Dialogue: 0,0:14:24.49,0:14:29.28,Default,,0000,0000,0000,,Việc có đông Ice Bear tức là\Nkhông có quái vật mạnh hơn chúng sao.
+Dialogue: 0,0:14:30.43,0:14:32.60,Default,,0000,0000,0000,,Tôi đã không nghĩ xa tới vậy.
+Dialogue: 0,0:14:33.94,0:14:37.02,Default,,0000,0000,0000,,Kể ra thì ở trong rừng lạnh thật.
+Dialogue: 0,0:14:37.66,0:14:38.20,Default,,0000,0000,0000,,Ể?
+Dialogue: 0,0:14:38.60,0:14:41.56,Default,,0000,0000,0000,,TÚI ĐỒ
+Dialogue: 0,0:14:42.65,0:14:43.70,Default,,0000,0000,0000,,Mỗi người một cái đi.
+Dialogue: 0,0:14:44.19,0:14:45.45,Default,,0000,0000,0000,,Ma pháp không gian!?
+Dialogue: 0,0:14:54.09,0:14:55.54,Default,,0000,0000,0000,,Ấm ghê!
+Dialogue: 0,0:14:57.36,0:14:59.08,Default,,0000,0000,0000,,Rốt cuộc anh là nhân vật nào vậy!?
+Dialogue: 0,0:15:06.91,0:15:10.32,Default,,0000,0000,0000,,Anh đã dẫn em theo\Nnên sẽ chịu trách nhiệm bảo vệ.
+Dialogue: 0,0:15:11.24,0:15:12.58,Default,,0000,0000,0000,,Đổi lại đừng có hỏi gì hết.
+Dialogue: 0,0:15:16.58,0:15:17.82,Default,,0000,0000,0000,,Cả hai người cũng vậy.
+Dialogue: 0,0:15:19.14,0:15:22.59,Default,,0000,0000,0000,,Xin đừng hỏi han cũng như yêu cầu gì hết.
+Dialogue: 0,0:15:35.20,0:15:36.47,Default,,0000,0000,0000,,KẺ VƯỢT QUA NGHỊCH CẢNH\NThay đổi danh hiệu.
+Dialogue: 0,0:15:36.47,0:15:37.41,Default,,0000,0000,0000,,SÁT THỦ DIỆT SÓI\NThay đổi danh hiệu.
+Dialogue: 0,0:15:42.29,0:15:44.12,Default,,0000,0000,0000,,Hoàn toàn đóng lại rồi.
+Dialogue: 0,0:15:44.92,0:15:49.85,Default,,0000,0000,0000,,Nếu may mắn thì sẽ có vài người\Ncấp A hoặc B sống sót trở ra sao...
+Dialogue: 0,0:15:50.99,0:15:53.72,Default,,0000,0000,0000,,Chỉ còn cách đánh cược vào Hunter Kim nhỉ.
+Dialogue: 0,0:15:55.16,0:15:59.11,Default,,0000,0000,0000,,Thật ra ngoài đội chinh phạt\Ncủa chúng ta còn có người ngoài.
+Dialogue: 0,0:15:59.68,0:16:03.18,Default,,0000,0000,0000,,Đó là Hunter Sung Jinwoo\Nđang được chú ý gần đây.
+Dialogue: 0,0:16:03.55,0:16:04.14,Default,,0000,0000,0000,,Cấp nào?
+Dialogue: 0,0:16:05.74,0:16:06.63,Default,,0000,0000,0000,,Cấp E ạ...
+Dialogue: 0,0:16:07.25,0:16:09.91,Default,,0000,0000,0000,,Nhưng có thể cậu ấy là người tái thức tỉnh.
+Dialogue: 0,0:16:10.57,0:16:11.84,Default,,0000,0000,0000,,Chuyện đó có thật không?
+Dialogue: 0,0:16:14.15,0:16:16.80,Default,,0000,0000,0000,,Cậu ấy chưa trực tiếp xác nhận...
+Dialogue: 0,0:16:23.86,0:16:25.40,Default,,0000,0000,0000,,Gì đây, gì đây?
+Dialogue: 0,0:16:26.06,0:16:31.68,Default,,0000,0000,0000,,Đầu mục của Hội Bạch Hổ cất công tới đây\Nmà chỉ có cái cổng cấp A à?
+Dialogue: 0,0:16:32.83,0:16:34.07,Default,,0000,0000,0000,,Hwang Dongsoo!?
+Dialogue: 0,0:16:34.62,0:16:36.67,Default,,0000,0000,0000,,Lâu rồi mới gặp, Baek Yoonho.
+Dialogue: 0,0:16:37.37,0:16:40.34,Default,,0000,0000,0000,,Không ngờ lại gặp ngươi ở đây.
+Dialogue: 0,0:16:40.77,0:16:41.85,Default,,0000,0000,0000,,Ngươi tới đây làm gì?
+Dialogue: 0,0:16:42.34,0:16:45.43,Default,,0000,0000,0000,,Tại sao người đã đi Mỹ như ngươi\Nlại vào địa bàn của bọn ta?
+Dialogue: 0,0:16:46.01,0:16:46.58,Default,,0000,0000,0000,,Hừ?
+Dialogue: 0,0:16:47.21,0:16:48.44,Default,,0000,0000,0000,,Địa bàn của các ngươi?
+Dialogue: 0,0:16:49.21,0:16:51.12,Default,,0000,0000,0000,,Vậy thì nghe ta hỏi một câu nhé.
+Dialogue: 0,0:16:51.74,0:16:54.02,Default,,0000,0000,0000,,Tại sao cổng của Hội Bạch Hổ danh tiếng
+Dialogue: 0,0:16:54.02,0:16:56.87,Default,,0000,0000,0000,,lại cho thứ rác rưởi cấp E\Nkhông bang hội bước vào?
+Dialogue: 0,0:16:57.33,0:16:57.88,Default,,0000,0000,0000,,Cái gì?
+Dialogue: 0,0:16:58.63,0:17:00.54,Default,,0000,0000,0000,,Thằng nhãi Sung Jinwoo ấy.
+Dialogue: 0,0:17:00.99,0:17:02.10,Default,,0000,0000,0000,,Cả tên này cũng biết sao?
+Dialogue: 0,0:17:02.65,0:17:05.70,Default,,0000,0000,0000,,Tới tận đây mà lại gặp cổng đỏ sao.
+Dialogue: 0,0:17:06.24,0:17:08.66,Default,,0000,0000,0000,,Ít ra cũng phải cho nhìn mặt một cái chứ.
+Dialogue: 0,0:17:09.47,0:17:12.29,Default,,0000,0000,0000,,Ây chà, như này có khi\Nnó chết luôn bên trong quá.
+Dialogue: 0,0:17:13.38,0:17:14.46,Default,,0000,0000,0000,,Sung Jinwoo...
+Dialogue: 0,0:17:15.06,0:17:16.22,Default,,0000,0000,0000,,Một người may mắn.
+Dialogue: 0,0:17:16.88,0:17:20.34,Default,,0000,0000,0000,,Khi biến thành cổng đỏ\Nthì Hwang Dongsoo không thể ra tay.
+Dialogue: 0,0:17:20.77,0:17:21.53,Default,,0000,0000,0000,,Tuy nhiên.
+Dialogue: 0,0:17:22.37,0:17:26.07,Default,,0000,0000,0000,,Liệu cậu ta có đủ may mắn\Nđể sống sót trở ra hay không đây.
+Dialogue: 0,0:17:29.89,0:17:30.94,Default,,0000,0000,0000,,BẠN ĐÃ LÊN CẤP!
+Dialogue: 0,0:17:31.15,0:17:32.70,Default,,0000,0000,0000,,Không hổ là cổng đỏ.
+Dialogue: 0,0:17:33.00,0:17:35.08,Default,,0000,0000,0000,,Điểm kinh nghiệm thu được\Nhoàn toàn khác biệt.
+Dialogue: 0,0:17:35.95,0:17:36.97,Default,,0000,0000,0000,,Cậu...
+Dialogue: 0,0:17:37.27,0:17:39.06,Default,,0000,0000,0000,,Thật ra là ai vậy!?
+Dialogue: 0,0:17:41.26,0:17:43.59,Default,,0000,0000,0000,,Thịt gấu ăn ngon bất ngờ.
+Dialogue: 0,0:17:44.24,0:17:47.06,Default,,0000,0000,0000,,Số lần tập kích đã giảm rõ rệt.
+Dialogue: 0,0:17:47.06,0:17:50.00,Default,,0000,0000,0000,,Có phải Hunter Sung\Nđã xử gần hết rồi không?
+Dialogue: 0,0:17:50.56,0:17:52.04,Default,,0000,0000,0000,,Kiểu gì cũng còn hang khác.
+Dialogue: 0,0:17:52.37,0:17:53.47,Default,,0000,0000,0000,,Không được chủ quan đâu.
+Dialogue: 0,0:17:54.37,0:17:55.33,Default,,0000,0000,0000,,Dẫu vậy thì...
+Dialogue: 0,0:17:56.15,0:17:59.59,Default,,0000,0000,0000,,Sau khi đánh tưng bừng như vậy\Nmà vẫn đi vận động sau bữa ăn sao...
+Dialogue: 0,0:18:02.04,0:18:03.31,Default,,0000,0000,0000,,Đúng là một người kỳ lạ.
+Dialogue: 0,0:18:05.28,0:18:06.00,Default,,0000,0000,0000,,Công nhận.
+Dialogue: 0,0:18:13.07,0:18:14.55,Default,,0000,0000,0000,,Số lượng tương đương à...
+Dialogue: 0,0:18:19.29,0:18:20.09,Default,,0000,0000,0000,,Ra đây đi.
+Dialogue: 0,0:18:38.03,0:18:40.53,Default,,0000,0000,0000,,Đây là nhiệm vụ đầu tiên của các ngươi.
+Dialogue: 0,0:18:47.52,0:18:48.06,Default,,0000,0000,0000,,Lên đi.
+Dialogue: 0,0:19:18.38,0:19:20.21,Default,,0000,0000,0000,,Lính ma pháp có hỏa lực mạnh.
+Dialogue: 0,0:19:20.28,0:19:22.12,Default,,0000,0000,0000,,Lính bộ binh tái sinh nhanh.
+Dialogue: 0,0:19:22.39,0:19:23.76,Default,,0000,0000,0000,,Vượt kỳ vọng rồi.
+Dialogue: 0,0:19:24.78,0:19:27.03,Default,,0000,0000,0000,,Cũng tốn mana ra trò.
+Dialogue: 0,0:19:32.62,0:19:34.18,Default,,0000,0000,0000,,Thủ lĩnh xuất hiện rồi sao.
+Dialogue: 0,0:19:54.77,0:19:57.10,Default,,0000,0000,0000,,Binh lính bóng bị xóa sổ trong nháy mắt.
+Dialogue: 0,0:19:57.40,0:19:58.76,Default,,0000,0000,0000,,Mana cũng cạn rồi.
+Dialogue: 0,0:20:01.44,0:20:02.35,Default,,0000,0000,0000,,Igris.
+Dialogue: 0,0:21:04.73,0:21:08.21,Default,,0000,0000,0000,,Nếu khi ấy Igris luôn sử dụng kiếm...
+Dialogue: 0,0:21:08.73,0:21:10.98,Default,,0000,0000,0000,,Thì chắc chắn mình đã bị giết rồi...
+Dialogue: 0,0:21:11.57,0:21:13.93,Default,,0000,0000,0000,,Với cấp độ hiện tại\Nchắc mình có thể ngang sức...
+Dialogue: 0,0:21:14.81,0:21:15.33,Default,,0000,0000,0000,,Không...
+Dialogue: 0,0:21:15.98,0:21:18.20,Default,,0000,0000,0000,,Có khi mình vẫn là bên yếu thế hơn.
+Dialogue: 0,0:21:21.85,0:21:22.91,Default,,0000,0000,0000,,Ngươi vất vả rồi.
+Dialogue: 0,0:21:34.11,0:21:35.15,Default,,0000,0000,0000,,Cứu với...
+Dialogue: 0,0:21:37.62,0:21:39.16,Default,,0000,0000,0000,,Không thể như vậy được.
+Dialogue: 0,0:21:40.29,0:21:41.18,Default,,0000,0000,0000,,Mình...
+Dialogue: 0,0:21:41.71,0:21:44.07,Default,,0000,0000,0000,,Sẽ trở thành tinh anh của Hội Bạch Hổ...
+Dialogue: 0,0:21:45.20,0:21:48.27,Default,,0000,0000,0000,,Sao có thể chấp nhận tình cảnh này chứ!
+Dialogue: 0,0:21:49.55,0:21:51.20,Default,,0000,0000,0000,,Đội trưởng...
+Dialogue: 0,0:22:44.67,0:22:48.17,Default,,0000,0000,0000,,TẬP 13: CẬU ĐÂU PHẢI CẤP E, ĐÚNG KHÔNG?
+Dialogue: 0,0:23:37.22,0:23:40.94,Default,,0000,0000,0000,,TẬP 14: TA ĐOÁN NGƯƠI KHÔNG NHẬN RA

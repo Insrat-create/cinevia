@@ -1,0 +1,320 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: Internal,Arial Bold,23.0,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: Flashback,Arial Bold,23.0,&H00F7ECEB,&H000000FF,&H004D0701,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: TypePlaceholder,Arial Bold,19.0,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0010,0010,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.62,0:00:17.04,Default,Jin-Ho Yoo,0000,0000,0000,,C-Chef …
+Dialogue: 0,0:00:17.91,0:00:19.83,Default,Jin-Ho Yoo,0000,0000,0000,,Was sind das für welche?
+Dialogue: 0,0:00:19.83,0:00:23.50,Default,Jin-Woo Sung,0000,0000,0000,,Ach, die hab ich dir\Nwohl noch nie gezeigt, Jin-Ho.
+Dialogue: 0,0:00:24.09,0:00:26.25,Default,Jin-Woo Sung,0000,0000,0000,,Die kommen von einem meiner Skills.
+Dialogue: 0,0:00:27.38,0:00:31.26,Default,Jin-Ho Yoo,0000,0000,0000,,D-Die willst du ernsthaft\Nmit einem Skill erschafft haben?
+Dialogue: 0,0:00:31.93,0:00:35.26,Default,Jin-Woo Sung,0000,0000,0000,,Das ließe sich gar nicht\Nmal so leicht erklären.
+Dialogue: 0,0:00:55.08,0:00:56.58,Default,Jin-Ho Yoo,0000,0000,0000,,Chef …
+Dialogue: 0,0:00:57.20,0:01:01.29,Default,Jin-Ho Yoo,0000,0000,0000,,Bitte lass mich doch wenigstens\Ndie Magiekerne einsammeln.
+Dialogue: 0,0:01:05.17,0:01:08.46,Default,Jin-Ho Yoo,0000,0000,0000,,V-Vielen lieben Dank …
+Dialogue: 0,0:01:16.51,0:01:18.60,Default,James,0000,0000,0000,,Oh no!
+Dialogue: 0,0:01:20.18,0:01:21.27,Default,James,0000,0000,0000,,Jesus!
+Dialogue: 0,0:01:23.73,0:01:27.15,Default,Il-Hwan Sung,0000,0000,0000,,Ey, jetzt schrei doch bitte nicht so.
+Dialogue: 0,0:01:27.15,0:01:30.65,Default,Il-Hwan Sung,0000,0000,0000,,Keine Sorge.\NIch habe die alle bloß ausgeknockt.
+Dialogue: 0,0:01:31.65,0:01:34.07,Default,Il-Hwan Sung,0000,0000,0000,,Na ja, du verstehst eh kein Wort, oder?
+Dialogue: 0,0:01:34.07,0:01:36.70,Default,Il-Hwan Sung,0000,0000,0000,,Englisch war jetzt nicht\Ngerade mein bestes Schulfach.
+Dialogue: 0,0:01:42.75,0:01:44.21,Default,Il-Hwan Sung,0000,0000,0000,,I’m human.
+Dialogue: 0,0:01:44.75,0:01:47.54,Default,Il-Hwan Sung,0000,0000,0000,,I want to go home.
+Dialogue: 0,0:03:22.76,0:03:23.97,Default,Jin-Ho Yoo,0000,0000,0000,,Prost!
+Dialogue: 0,0:03:29.48,0:03:32.11,Default,Jin-Woo Sung,0000,0000,0000,,Wie abgesprochen habe ich\Nfür dich 19 Stück geklärt.
+Dialogue: 0,0:03:32.11,0:03:35.86,Default,Jin-Ho Yoo,0000,0000,0000,,Stimmt! Dank dir konnten wir\Ndas unbeschadet abschließen.
+Dialogue: 0,0:03:36.32,0:03:37.86,Default,Jin-Woo Sung,0000,0000,0000,,Wie geht es ab jetzt weiter?
+Dialogue: 0,0:03:38.28,0:03:40.91,Default,Jin-Ho Yoo,0000,0000,0000,,Als Nächstes muss ich\Ndie schriftliche Prüfung
+Dialogue: 0,0:03:40.91,0:03:43.03,Default,Jin-Ho Yoo,0000,0000,0000,,zum Gildenmeister\Nbei der Vereinigung ablegen.
+Dialogue: 0,0:03:43.03,0:03:46.50,Default,Jin-Ho Yoo,0000,0000,0000,,Danach kann ich\Nmit meinem Vater verhandeln.
+Dialogue: 0,0:03:46.50,0:03:47.25,Default,Jin-Woo Sung,0000,0000,0000,,Alles klar.
+Dialogue: 0,0:03:47.87,0:03:50.42,Default,Jin-Ho Yoo,0000,0000,0000,,Was hast du jetzt vor?
+Dialogue: 0,0:03:54.50,0:03:57.26,Default,Jin-Woo Sung,0000,0000,0000,,Ich werde mich wohl ’ne Weile\Nnicht bei dir melden.
+Dialogue: 0,0:03:57.26,0:03:59.22,Default,Jin-Woo Sung,0000,0000,0000,,Ich muss vorübergehend wo hin.
+Dialogue: 0,0:04:01.93,0:04:02.97,Default,Jin-Woo Sung,0000,0000,0000,,Was hast du?
+Dialogue: 0,0:04:06.77,0:04:09.78,Default,Jin-Ho Yoo,0000,0000,0000,,Chef, wenn du meinst,\Ndass ich dir im Weg stehe,
+Dialogue: 0,0:04:09.78,0:04:11.56,Default,Jin-Ho Yoo,0000,0000,0000,,dann sag mir das bitte auch so.
+Dialogue: 0,0:04:11.56,0:04:15.15,Default,Jin-Ho Yoo,0000,0000,0000,,Ich würde dir dann auch\Nnicht weiter zur Last fallen.
+Dialogue: 0,0:04:17.53,0:04:19.45,Default,Jin-Woo Sung,0000,0000,0000,,Hast du schon zu tief ins Glas geschaut?
+Dialogue: 0,0:04:20.03,0:04:23.49,Default,Jin-Ho Yoo,0000,0000,0000,,Ich habe einen großen Bruder,\Nder zehn Jahre älter ist als ich.
+Dialogue: 0,0:04:23.91,0:04:25.87,Default,Jin-Ho Yoo,0000,0000,0000,,Er kann mich nicht gerade leiden, …
+Dialogue: 0,0:04:26.54,0:04:29.66,Default,Jin-Ho Yoo,0000,0000,0000,,weshalb wir letztlich nicht viel\Nmiteinander zu tun haben.
+Dialogue: 0,0:04:30.29,0:04:31.62,Default,Jin-Ho Yoo,0000,0000,0000,,Du dagegen …
+Dialogue: 0,0:04:32.08,0:04:36.67,Default,Jin-Ho Yoo,0000,0000,0000,,hast mir nicht nur das Leben gerettet,\Nsondern auch meine Bitte erhört.
+Dialogue: 0,0:04:38.01,0:04:42.80,Default,Jin-Ho Yoo,0000,0000,0000,,Ich wünschte,\Ndu wärst mein großer Bruder.
+Dialogue: 0,0:05:02.45,0:05:03.86,Default,Jin-Woo Sung,0000,0000,0000,,Na, wenn das so ist, …
+Dialogue: 0,0:05:08.79,0:05:12.04,Default,Jin-Woo Sung,0000,0000,0000,,bist du ab heute mein kleiner Bruder.
+Dialogue: 0,0:05:17.00,0:05:18.92,Default,Jin-Ho Yoo,0000,0000,0000,,Chef …
+Dialogue: 0,0:05:22.68,0:05:25.14,Default,Jin-Ho Yoo,0000,0000,0000,,Fleisch!\NSchlag dir den Bauch mit Fleisch voll!
+Dialogue: 0,0:05:25.14,0:05:26.51,Default,Jin-Ho Yoo,0000,0000,0000,,Ich grill, was das Zeug hält!
+Dialogue: 0,0:05:26.51,0:05:28.51,Default,Jin-Woo Sung,0000,0000,0000,,H-Hey! Das ist zu viel!
+Dialogue: 0,0:05:28.51,0:05:29.96,Default,Jin-Ho Yoo,0000,0000,0000,,Möchtest du etwas Zitrone dazu?
+Dialogue: 0,0:05:29.96,0:05:30.85,Default,Jin-Woo Sung,0000,0000,0000,,Nein!
+Dialogue: 0,0:05:30.85,0:05:32.27,Default,Jin-Woo Sung,0000,0000,0000,,Du bist so was von hackedicht!
+Dialogue: 0,0:05:32.27,0:05:34.81,Default,Jin-Ho Yoo,0000,0000,0000,,Ich bin so wie sonst auch immer!
+Dialogue: 0,0:05:35.40,0:05:38.48,Default,Jin-Woo Sung,0000,0000,0000,,Meine Fresse,\Nmit dir wird’s nie langweilig.
+Dialogue: 0,0:05:43.32,0:05:45.53,Default,Stellvertretender Behördenleiter,0000,0000,0000,,Konnten wir seine Identität lüften?
+Dialogue: 0,0:05:45.53,0:05:48.37,Default,Beamter,0000,0000,0000,,Er gibt an, ein ausländischer Hunter zu sein.
+Dialogue: 0,0:05:48.37,0:05:51.16,Default,Beamter,0000,0000,0000,,Er will vor zehn Jahren in einem Gate\Neingeschlossen worden sein,
+Dialogue: 0,0:05:51.16,0:05:53.25,Default,Beamter,0000,0000,0000,,aus dem er nicht mehr rauskam.
+Dialogue: 0,0:05:53.54,0:05:56.96,Default,Beamter,0000,0000,0000,,Er fand sich in den USA wieder, als sich\Ndas Gate mit einem hier verbunden hatte.
+Dialogue: 0,0:05:57.63,0:05:59.92,Default,Stellvertretender Behördenleiter,0000,0000,0000,,Das ist mal was ganz Neues.
+Dialogue: 0,0:05:59.92,0:06:01.42,Default,Stellvertretender Behördenleiter,0000,0000,0000,,War das alles?
+Dialogue: 0,0:06:01.42,0:06:06.09,Default,Beamter,0000,0000,0000,,Er spricht offenbar kein Englisch und für die\NBefragung fehlte uns bisher ein Dolmetscher.
+Dialogue: 0,0:06:06.39,0:06:09.64,Default,Beamter,0000,0000,0000,,Es besteht die Möglichkeit,\Ndass er ein Monster in Menschengestalt ist.
+Dialogue: 0,0:06:09.64,0:06:10.98,Default,Stellvertretender Behördenleiter,0000,0000,0000,,Wie verfahren wir weiter?
+Dialogue: 0,0:06:11.56,0:06:17.06,Default,Beamter,0000,0000,0000,,Ich habe einen S-Rang-Hunter aus Washington\Nverständigt, der sein Landsmann sein könnte.
+Dialogue: 0,0:06:17.94,0:06:19.52,Default,Stellvertretender Behördenleiter,0000,0000,0000,,Mr. Hwang, korrekt?
+Dialogue: 0,0:06:20.32,0:06:23.53,Default,Beamter,0000,0000,0000,,Sobald er hier angekommen ist,\Nwird er das Verhör durchführen.
+Dialogue: 0,0:06:24.36,0:06:26.16,Default,Stellvertretender Behördenleiter,0000,0000,0000,,Das klingt so weit gut.
+Dialogue: 0,0:06:26.16,0:06:28.66,Default,Stellvertretender Behördenleiter,0000,0000,0000,,Wie heißt dieser Mann denn eigentlich?
+Dialogue: 0,0:06:28.66,0:06:31.49,Default,Beamter,0000,0000,0000,,Sein Name ist ein wenig\Nschwierig auszusprechen.
+Dialogue: 0,0:06:32.50,0:06:35.29,Default,Beamter,0000,0000,0000,,Er lautet Il-Hwan Sung.
+Dialogue: 0,0:06:41.88,0:06:43.97,Default,Jin-Woo Sung,0000,0000,0000,,Ich werde eine Woche weg sein.
+Dialogue: 0,0:06:43.97,0:06:46.72,Default,Jin-Ah Sung,0000,0000,0000,,Nach der ganzen Plackerei\Nverreist du jetzt?
+Dialogue: 0,0:06:46.72,0:06:48.68,Default,Jin-Ah Sung,0000,0000,0000,,Bei dir ist echt immer was los.
+Dialogue: 0,0:06:48.68,0:06:50.97,Default,Jin-Woo Sung,0000,0000,0000,,Nun ja, kann man wohl so sagen.
+Dialogue: 0,0:06:51.51,0:06:54.02,Default,Jin-Ah Sung,0000,0000,0000,,Und? Wer reist mit dir?
+Dialogue: 0,0:06:57.60,0:06:59.44,Default,Jin-Woo Sung,0000,0000,0000,,Ein Freund.
+Dialogue: 0,0:06:59.44,0:07:02.36,Default,Jin-Ah Sung,0000,0000,0000,,Seit wann hast du eine Freundin?
+Dialogue: 0,0:07:09.49,0:07:13.79,Internal,Jin-Woo Sung,0000,0000,0000,,Gegen Kerberos bin ich angetreten,\Nals ich auf Level 20 war.
+Dialogue: 0,0:07:14.33,0:07:16.71,Internal,Jin-Woo Sung,0000,0000,0000,,Mittlerweile ist mein Level\Ndreimal so hoch.
+Dialogue: 0,0:07:17.42,0:07:20.04,Internal,Jin-Woo Sung,0000,0000,0000,,Die Kämpfe sollten mir\Njetzt einfacher als damals fallen.
+Dialogue: 0,0:07:38.94,0:07:41.31,Default,Jin-Woo Sung,0000,0000,0000,,Ich soll wohl einfach weitergehen.
+Dialogue: 0,0:07:49.28,0:07:51.24,Default,Jin-Woo Sung,0000,0000,0000,,Oh? Eine Quest?
+Dialogue: 0,0:07:51.78,0:07:57.46,Default,Jin-Woo Sung,0000,0000,0000,,Diese Festung ist voller Dämonen.\NSammle ihre Dämonenseelen ein.
+Dialogue: 0,0:07:57.79,0:08:00.63,Default,Jin-Woo Sung,0000,0000,0000,,Die Abschlussbedingung lautet …
+Dialogue: 0,0:08:00.63,0:08:02.00,Default,Jin-Woo Sung,0000,0000,0000,,10.000 Seelen?!
+Dialogue: 0,0:08:03.04,0:08:05.00,Default,Jin-Woo Sung,0000,0000,0000,,Gibt es hier drin überhaupt so viele?
+Dialogue: 0,0:08:08.67,0:08:12.35,Default,Jin-Woo Sung,0000,0000,0000,,Dieses Mal habe ich\Njedoch ein anderes Ziel.
+Dialogue: 1,0:08:12.35,0:08:14.06,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fnTrebuchet MS Bold\fsp0\fs16\fs-1\fad(0,0)\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HEBDE84&\bord1\blur3\4c&H000000&\3a&HA2&\pos(294.94,60.81)}HERSTELLUNG\h\h\h\h\h\h\hITEM: Elixier des Lebens
+Dialogue: 0,0:08:15.14,0:08:17.81,Default,Jin-Woo Sung,0000,0000,0000,,Egal, ob 10.000 oder 100.000, …
+Dialogue: 0,0:08:19.89,0:08:21.02,Default,Jin-Woo Sung,0000,0000,0000,,ich packe das!
+Dialogue: 0,0:08:28.03,0:08:31.16,Default,Myeong-Han Yoo,0000,0000,0000,,Du möchtest also,\Ndass ich dir die Gilde überlasse?
+Dialogue: 0,0:08:31.16,0:08:31.99,Default,Jin-Ho Yoo,0000,0000,0000,,Ja!
+Dialogue: 0,0:08:34.83,0:08:39.16,Default,Myeong-Han Yoo,0000,0000,0000,,Du kommst in dem Wissen zu mir, dass Jin-Sung\Nseinen Plan bereits in die Tat umsetzt?
+Dialogue: 0,0:08:40.25,0:08:43.75,Default,Jin-Ho Yoo,0000,0000,0000,,Sein Plan, einen Außenstehenden\Nals Gildenmeister einzusetzen,
+Dialogue: 0,0:08:43.75,0:08:46.55,Default,Jin-Ho Yoo,0000,0000,0000,,bedeutet ein großes Risiko\Nfür unseren Konzern.
+Dialogue: 0,0:08:48.09,0:08:51.38,Default,Myeong-Han Yoo,0000,0000,0000,,Und der Hunter Jin-Woo Sung nicht?
+Dialogue: 0,0:08:51.76,0:08:56.39,Default,Myeong-Han Yoo,0000,0000,0000,,Ein doppelter Dungeon,\Ndie Sache mit Dong-Suk Hwangs Gruppe
+Dialogue: 0,0:08:56.39,0:08:59.73,Default,Myeong-Han Yoo,0000,0000,0000,,sowie die Morde an Häftlingen\Ndurch ein Mitglied der Hunter-Vereinigung.
+Dialogue: 0,0:09:00.02,0:09:03.07,Default,Myeong-Han Yoo,0000,0000,0000,,Er war in alle drei Vorfälle verwickelt\Nund hat sie alle überlebt.
+Dialogue: 0,0:09:05.06,0:09:08.53,Default,Myeong-Han Yoo,0000,0000,0000,,Zudem war er an all deinen Raids beteiligt.
+Dialogue: 0,0:09:10.32,0:09:14.28,Default,Myeong-Han Yoo,0000,0000,0000,,Erst vor Kurzem war er beim Red Gate\Nder Weißer-Tiger-Gilde dabei.
+Dialogue: 0,0:09:15.37,0:09:19.29,Default,Myeong-Han Yoo,0000,0000,0000,,Er soll die Überlebenden angeführt haben,\Ndie entkommen konnten.
+Dialogue: 0,0:09:22.83,0:09:27.67,Default,Myeong-Han Yoo,0000,0000,0000,,Du verdankst sehr wahrscheinlich\Nsogar ihm deine Gildenmeisterlizenz.
+Dialogue: 0,0:09:27.96,0:09:30.21,Default,Myeong-Han Yoo,0000,0000,0000,,Und dennoch soll ich es dir überlassen?
+Dialogue: 0,0:09:34.80,0:09:35.97,Default,Jin-Ho Yoo,0000,0000,0000,,Trotz alldem …
+Dialogue: 0,0:09:38.60,0:09:39.89,Default,Jin-Ho Yoo,0000,0000,0000,,Nichtsdestotrotz …
+Dialogue: 0,0:09:41.43,0:09:43.94,Default,Jin-Ho Yoo,0000,0000,0000,,überlasse mir bitte die Yoojin-Gilde!
+Dialogue: 0,0:09:46.23,0:09:48.34,Default,Jin-Ho Yoo,0000,0000,0000,,Das Vorgehen meines Bruders wird gewiss …
+Dialogue: 0,0:09:48.34,0:09:51.15,Default,Myeong-Han Yoo,0000,0000,0000,,Verstanden. Ich lege sie in deine Hände.
+Dialogue: 0,0:09:52.32,0:09:54.11,Default,Myeong-Han Yoo,0000,0000,0000,,Ich stelle jedoch eine Bedingung.
+Dialogue: 0,0:09:56.99,0:09:59.16,Default,Myeong-Han Yoo,0000,0000,0000,,Nach dem Vorfall mit dem Red Gate
+Dialogue: 0,0:09:59.16,0:10:03.62,Default,Myeong-Han Yoo,0000,0000,0000,,kam mir zu Ohren, dass die Weißer-Tiger-Gilde\Nversucht hat, Sung für sich anzuwerben.
+Dialogue: 0,0:10:04.37,0:10:07.54,Default,Myeong-Han Yoo,0000,0000,0000,,Du musst ihnen zuvorkommen\Nund ihn zu uns holen.
+Dialogue: 0,0:10:08.29,0:10:09.46,Default,Myeong-Han Yoo,0000,0000,0000,,Schaffst du das?
+Dialogue: 0,0:10:11.80,0:10:12.67,Default,Jin-Ho Yoo,0000,0000,0000,,Das werde ich!
+Dialogue: 0,0:10:16.72,0:10:18.14,Default,Myeong-Han Yoo,0000,0000,0000,,Ich freue mich bereits darauf.
+Dialogue: 0,0:10:21.10,0:10:22.52,TypePlaceholder,Types,0000,0000,0000,,{\q2\an7\fnTrebuchet MS Bold\fad(175,0)\fsp1\fs20\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HEBDE84&\bord1\blur3\4c&H140D05&\pos(19.73,288)}BENACHRICHTIGUNG\N{\q2\an7\fad(175,0)\c&H662AFF&\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS Bold\b1\fsp0\3c&H3400C6&\fs15\3a&H60&\i1\pos(193.6,260.8)}Das Mana ist kontaminiert.\N[Job-exklusiver Skill: Schattenextraktion]{\i0} {\fnTrebuchet MS\b0}nicht verfügbar.
+Dialogue: 0,0:10:22.52,0:10:26.40,Default,Jin-Woo Sung,0000,0000,0000,,Warum auch immer kann ich\Ndie Dämonen nicht extrahieren.
+Dialogue: 0,0:10:26.90,0:10:29.23,Default,Jin-Woo Sung,0000,0000,0000,,Jammerschade, immerhin gibt es\Nhier Unmengen von denen.
+Dialogue: 0,0:10:37.70,0:10:40.83,Default,Jin-Woo Sung,0000,0000,0000,,Eine Zugangserlaubnis\Nfür ein höheres Stockwerk …
+Dialogue: 0,0:10:43.20,0:10:46.87,Default,Jin-Woo Sung,0000,0000,0000,,Alles klar, die kann ich\Nalso nur dort verwenden.
+Dialogue: 0,0:10:47.54,0:10:50.00,Default,Jin-Woo Sung,0000,0000,0000,,Das ist jedenfalls\Nein verdammt großer Dungeon.
+Dialogue: 0,0:10:50.00,0:10:53.09,Default,Jin-Woo Sung,0000,0000,0000,,Scheinbar befindet sich die gesamte Stadt\Ninnerhalb dieses Gebäudes.
+Dialogue: 0,0:10:55.09,0:10:57.30,Default,Jin-Woo Sung,0000,0000,0000,,Echt mühselig, das alles zu Fuß zu erledigen.
+Dialogue: 0,0:11:06.60,0:11:09.11,Default,Jin-Woo Sung,0000,0000,0000,,Dieser Eisbär war der Anführer\Nder Bärenfamilie, oder?
+Dialogue: 0,0:11:09.11,0:11:10.65,Default,Jin-Woo Sung,0000,0000,0000,,Der ist echt gewaltig!
+Dialogue: 0,0:11:11.52,0:11:14.24,Default,Jin-Woo Sung,0000,0000,0000,,Dann wollen wir mal loslegen!
+Dialogue: 0,0:11:18.36,0:11:20.20,Default,Jin-Woo Sung,0000,0000,0000,,Was für Nervensägen.
+Dialogue: 0,0:11:30.25,0:11:31.34,Default,Jin-Woo Sung,0000,0000,0000,,Nicht übel!
+Dialogue: 0,0:11:33.21,0:11:35.84,Default,Jin-Woo Sung,0000,0000,0000,,Ab heute bist du Tank.
+Dialogue: 0,0:11:50.40,0:11:52.65,Default,Hunterin A,0000,0000,0000,,Oh, da ist Hae-In!
+Dialogue: 0,0:11:52.65,0:11:54.28,Default,Hunterin B,0000,0000,0000,,Sonst sieht man sie hier nicht.
+Dialogue: 0,0:11:54.28,0:11:56.69,Default,Hunterin A,0000,0000,0000,,Sie ist so schön wie eh und je!
+Dialogue: 0,0:11:59.41,0:12:00.74,Flashback,Hae-In Cha,0000,0000,0000,,Wozu das Ganze?
+Dialogue: 0,0:12:00.74,0:12:04.16,Flashback,Hae-In Cha,0000,0000,0000,,Wieso werden die Infos über\Ndie geflügelten Ameisen nicht komplett,
+Dialogue: 0,0:12:04.16,0:12:05.91,Flashback,Hae-In Cha,0000,0000,0000,,sondern nur teilweise veröffentlicht?
+Dialogue: 0,0:12:06.58,0:12:08.50,Flashback,Jong-In Choi,0000,0000,0000,,So lautet die Anordnung der Vereinigung.
+Dialogue: 0,0:12:08.50,0:12:12.33,Flashback,Jong-In Choi,0000,0000,0000,,Die Veröffentlichung würde\Nwohl bloß eine Panik auslösen.
+Dialogue: 0,0:12:12.33,0:12:13.25,Flashback,Hae-In Cha,0000,0000,0000,,Aber …
+Dialogue: 0,0:12:13.25,0:12:15.21,Flashback,Jong-In Choi,0000,0000,0000,,Sei ganz unbesorgt.
+Dialogue: 0,0:12:15.21,0:12:17.84,Flashback,Jong-In Choi,0000,0000,0000,,Jetzt müssen wir erst mal\Nunsere Reihen verstärken.
+Dialogue: 0,0:12:18.22,0:12:20.51,Flashback,Jong-In Choi,0000,0000,0000,,Als größte Gilde\Ndieses Landes stellen wir uns
+Dialogue: 0,0:12:20.51,0:12:23.22,Flashback,Jong-In Choi,0000,0000,0000,,verantwortungsbewusst\Ndieser großen Herausforderung.
+Dialogue: 0,0:12:25.93,0:12:30.73,Internal,Jin-Woo Sung,0000,0000,0000,,Als ich den Schlüssel erhielt,\Nging ich von einem S-Rang-Dungeon aus, …
+Dialogue: 0,0:12:31.52,0:12:33.86,Internal,Jin-Woo Sung,0000,0000,0000,,aber die Dämonen sind hier\Nhöchstens auf dem B-Rang.
+Dialogue: 0,0:12:34.40,0:12:35.07,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(150,0)\an7\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS Bold\b1\3c&HEBDE84&\fs16\3a&H76&\pos(16,218.66)}ITEM: Zugangserlaubnis{\fnTrebuchet MS\b0}\NAUSRÜSTUNGSSTUFE: --\NKATEGORIE: --\N\N6. Stock -> 7. Stock\N\N\NDiese Erlaubnis gewährt den Zugang zum 7. Stock der Festung des Teufels.\NSie kann ausschließlich auf dem Teleportationskreis im 6. Stock verwendet werden.
+Dialogue: 0,0:12:35.23,0:12:39.57,Internal,Jin-Woo Sung,0000,0000,0000,,Hier wimmelt es nur so vor ihnen\Nund mit jedem Stockwerk werden sie stärker.
+Dialogue: 0,0:12:39.57,0:12:43.95,Internal,Jin-Woo Sung,0000,0000,0000,,Aber wenn man nur die Dämonen\Nmit den Zugangserlaubnissen anvisiert,
+Dialogue: 0,0:12:43.95,0:12:45.66,Internal,Jin-Woo Sung,0000,0000,0000,,kommt man schnell voran.
+Dialogue: 0,0:12:46.20,0:12:46.87,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(150,0)\an7\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS Bold\b1\3c&HEBDE84&\fs16\3a&H76&\pos(15.47,302.93)}SKILLS\NDas Skill-Level hat sich erhöht.\NGriff des Herrschers Lv.1 -> Griff des Herrschers Lv.2
+Dialogue: 0,0:12:47.45,0:12:51.79,Internal,Jin-Woo Sung,0000,0000,0000,,Sollte die Festung des Teufels jedoch\Nso wie der Turm zuvor aufgebaut sein,
+Dialogue: 0,0:12:51.79,0:12:54.20,Internal,Jin-Woo Sung,0000,0000,0000,,dürfte sie hundert Stockwerke haben.
+Dialogue: 0,0:12:54.92,0:12:59.42,Internal,Jin-Woo Sung,0000,0000,0000,,Wie stark werde ich wohl sein,\Nwenn ich das Ziel erreicht habe?
+Dialogue: 0,0:13:00.13,0:13:00.88,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(150,0)\an7\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS\b0\3c&HBFAC7D&\fs14\3a&H6E&\pos(244.22,145.69)}Gesammelte Dämonenseelen
+Dialogue: 0,0:13:00.88,0:13:03.22,Internal,Jin-Woo Sung,0000,0000,0000,,Wird es aber vor allem was zum Beißen geben?
+Dialogue: 0,0:13:03.72,0:13:05.55,Internal,Jin-Woo Sung,0000,0000,0000,,Ich habe Jin-Ah ein Versprechen gegeben.
+Dialogue: 0,0:13:05.76,0:13:06.51,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(150,0)\an7\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS\b0\3c&HBFAC7D&\fs14\3a&H6E&\pos(244.22,145.69)}Gesammelte Dämonenseelen
+Dialogue: 0,0:13:06.64,0:13:10.14,Internal,Jin-Woo Sung,0000,0000,0000,,Dies wird ein Wettlauf gegen die Zeit.
+Dialogue: 0,0:13:11.31,0:13:13.31,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(0,0)\an7\t(,,\fscx110\fscy110)\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS\b0\3c&HBFAC7D&\fs14\3a&H6E&\move(244.22,145.69,236.22,139.38,21,1981)}Gesammelte Dämonenseelen
+Dialogue: 0,0:13:14.65,0:13:15.90,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(0,0)\an7\t(,,\fscx107\fscy107)\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS\b0\3c&HBFAC7D&\fs14\3a&H6E&\move(242.96,142.74,237.48,138.12,17,1227)}Gesammelte Dämonenseelen
+Dialogue: 0,0:13:17.23,0:13:20.95,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(0,0)\an7\t(,,\fscx124\fscy124)\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS\b0\3c&HBFAC7D&\fs14\3a&H6E&\move(243.38,137.27,224.42,120.44,23,3694)}Gesammelte Dämonenseelen
+Dialogue: 0,0:13:24.74,0:13:27.41,Internal,Jin-Woo Sung,0000,0000,0000,,Wie weit werde ich kommen?
+Dialogue: 0,0:13:40.88,0:13:42.05,Default,Jin-Woo Sung,0000,0000,0000,,Ein Roter?
+Dialogue: 0,0:13:45.68,0:13:47.97,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(150,0)\an7\fax-0.15\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnVerdana Bold\fscx90\b1\3c&HBFAC7D&\fs25\3a&H6E&\ax0\pos(459.37,137.27)}50. Stock\N\N\N\N\N\N\N\N\N\N\N{\fscx100\fnTrebuchet MS\b0}49. Stock
+Dialogue: 0,0:13:51.39,0:13:53.89,Default,Hee-Jin Park,0000,0000,0000,,Sung war nicht zu Hause.
+Dialogue: 0,0:13:54.98,0:13:59.98,Default,Sang-Min Ahn,0000,0000,0000,,Daheim ist dann nur seine Schwester\Nund er selbst ist wohl verreist.
+Dialogue: 0,0:14:00.44,0:14:03.28,Default,Hee-Jin Park,0000,0000,0000,,Ich habe bei ihm geklingelt,\Naber niemand machte die Tür auf.
+Dialogue: 0,0:14:03.28,0:14:06.62,Default,Sang-Min Ahn,0000,0000,0000,,In den Raid-Protokollen\Nder letzten Tage kommt er nicht vor.
+Dialogue: 0,0:14:06.62,0:14:08.66,Default,Sang-Min Ahn,0000,0000,0000,,Nichts deutet darauf hin,
+Dialogue: 0,0:14:08.66,0:14:11.70,Default,Sang-Min Ahn,0000,0000,0000,,dass er das Land verlassen hat,\Nund die Vereinigung hat ihn zuletzt
+Dialogue: 0,0:14:11.70,0:14:13.58,Default,Sang-Min Ahn,0000,0000,0000,,mitten in der Stadt geortet.
+Dialogue: 0,0:14:13.58,0:14:16.17,Default,Hee-Jin Park,0000,0000,0000,,Hä? Woher wissen Sie das bitte alles?
+Dialogue: 0,0:14:17.50,0:14:19.21,Default,Sang-Min Ahn,0000,0000,0000,,Das ist halt mein Job.
+Dialogue: 0,0:14:21.47,0:14:22.46,Default,Sang-Min Ahn,0000,0000,0000,,Wo in aller Welt …
+Dialogue: 0,0:14:22.97,0:14:25.47,Default,Sang-Min Ahn,0000,0000,0000,,steckt er bloß?
+Dialogue: 0,0:14:25.47,0:14:28.51,Default,Jin-Woo Sung,0000,0000,0000,,Ich werde mich um den Dicken kümmern,\Nder hier der Boss zu sein scheint.
+Dialogue: 0,0:14:28.51,0:14:30.97,Default,Jin-Woo Sung,0000,0000,0000,,Ihr kümmert euch um den Rest.
+Dialogue: 0,0:14:45.36,0:14:49.78,Internal,Jin-Woo Sung,0000,0000,0000,,Durch die Erhöhung meiner Intelligenz konnte\Nich die magische Kraft erhöhen, die ich für
+Dialogue: 0,0:14:49.78,0:14:51.99,Internal,Jin-Woo Sung,0000,0000,0000,,den Ausbau und den Einsatz\Nmeiner Soldaten benötige.
+Dialogue: 0,0:14:51.99,0:14:54.33,Internal,Jin-Woo Sung,0000,0000,0000,,Das verschafft mir im Kampf\Nmehr Spielraum.
+Dialogue: 0,0:14:54.87,0:14:55.96,Internal,Jin-Woo Sung,0000,0000,0000,,Aber auch egal …
+Dialogue: 0,0:14:56.71,0:14:59.17,Internal,Jin-Woo Sung,0000,0000,0000,,Wie lange will der da noch hocken?
+Dialogue: 0,0:14:59.17,0:15:02.13,Internal,Jin-Woo Sung,0000,0000,0000,,Wenn der den Arsch nicht hochkriegt,\Nmach ich mich eben ans We…
+Dialogue: 0,0:15:09.14,0:15:11.76,Default,Jin-Woo Sung,0000,0000,0000,,Was fällt dir eigentlich ein?!
+Dialogue: 0,0:15:16.85,0:15:19.23,Default,Jin-Woo Sung,0000,0000,0000,,Ich hab ihn doch bloß geschlagen.
+Dialogue: 0,0:15:19.23,0:15:21.19,Default,Jin-Woo Sung,0000,0000,0000,,Hab ich zu viel in meine Muckis investiert?
+Dialogue: 0,0:15:26.99,0:15:28.61,Default,Jin-Woo Sung,0000,0000,0000,,Läuft das etwa wie bei Kerberos?
+Dialogue: 0,0:15:34.04,0:15:34.79,Default,Jin-Woo Sung,0000,0000,0000,,Iron!
+Dialogue: 0,0:15:44.76,0:15:46.72,Internal,Jin-Woo Sung,0000,0000,0000,,Der hört mit seinem Ansturm\Ngar nicht mehr auf.
+Dialogue: 0,0:15:46.72,0:15:49.13,Internal,Jin-Woo Sung,0000,0000,0000,,Was ist der so abnormal flink?
+Dialogue: 0,0:15:49.47,0:15:52.67,Internal,Jin-Woo Sung,0000,0000,0000,,Aber irgendwo wird sich\Neine Lücke finden lassen.
+Dialogue: 0,0:15:53.76,0:15:54.72,Default,Jin-Woo Sung,0000,0000,0000,,Jetzt!
+Dialogue: 0,0:15:58.14,0:15:59.73,Default,Jin-Woo Sung,0000,0000,0000,,Hab ich dich!
+Dialogue: 0,0:16:01.36,0:16:01.94,Default,Jin-Woo Sung,0000,0000,0000,,Sch…!
+Dialogue: 0,0:16:01.94,0:16:02.52,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(0,0)\an7\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS Bold\b1\3c&HEBDE84&\fs17\3a&H76&\pos(21.53,294.88)}SKILLS\NDas Skill-Level hat sich erhöht.\NGriff des Herrschers Lv.1 -> Griff des Herrschers Lv.2
+Dialogue: 0,0:16:07.99,0:16:08.99,Internal,Jin-Woo Sung,0000,0000,0000,,Drecksvieh!
+Dialogue: 0,0:16:09.32,0:16:11.45,Internal,Jin-Woo Sung,0000,0000,0000,,Hat der etwa meine\NBewegungen vorhergesehen?
+Dialogue: 0,0:16:11.95,0:16:16.16,Internal,Jin-Woo Sung,0000,0000,0000,,Einzig sein winziger Kopf scheint\Nmir eine Angriffsfläche zu bieten.
+Dialogue: 0,0:16:20.92,0:16:23.84,Internal,Jin-Woo Sung,0000,0000,0000,,Erst mal muss ich seinen aberwitzigen\NBewegungen Einhalt gebieten.
+Dialogue: 0,0:16:24.88,0:16:25.75,Internal,Jin-Woo Sung,0000,0000,0000,,Aber wie?
+Dialogue: 0,0:16:27.34,0:16:28.05,Default,Jin-Woo Sung,0000,0000,0000,,Das ist es!
+Dialogue: 0,0:16:39.44,0:16:42.35,Default,Jin-Woo Sung,0000,0000,0000,,Wie kann man nur so geblendet vor Zorn sein?
+Dialogue: 0,0:16:59.33,0:17:00.41,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(150,175)\fnTrebuchet MS Bold\fsp1\fs20\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HEBDE84&\bord1\blur3\4c&H140D05&\pos(318.73,166.31)}\h\h\h\hBENACHRICHTIGUNG{\fnTrebuchet MS\b0\fsp0\3c&HEBDE84&\fs16\3a&H76&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\NDu hast [Herrscher der unteren Ebenen,\N{\fnVerdana Bold\fscx90\fs18}der habgierige Vulcan{\fs16\fscx100\fnTrebuchet MS\b0}] besiegt.
+Dialogue: 0,0:17:00.50,0:17:01.92,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(150,0)\an7\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS Bold\b1\3c&HEBDE84&\fs16\3a&H76&\pos(14.74,232.42)}ITEM: Splitter des Weltenbaums{\fnTrebuchet MS\b0}\NAUSRÜSTUNGSSTUFE: --\NKATEGORIE: Material\N\N{\fs-2\3c&HEBDE84&\3a&H9D&}Geläutertes Holz von Vulcans Totschläger, der aus einem Ast des Weltenbaums gefertigt wurde.\NHolz vom Weltenbaum verfügt über mächtige magische Eigenschaften\Nund wird zur Herstellung hochentwickelter magischer Werkzeuge verwendet.
+Dialogue: 0,0:17:03.54,0:17:06.34,Default,Dong-Su Hwang,0000,0000,0000,,Du bist also ein sprechendes Monster.
+Dialogue: 0,0:17:07.88,0:17:10.59,Default,Il-Hwan Sung,0000,0000,0000,,Wofür würdest du mich halten,\Nwenn ich kein Monster wäre?
+Dialogue: 0,0:17:10.59,0:17:15.18,Default,Il-Hwan Sung,0000,0000,0000,,Wenn ihr euch da so unsicher seid,\Nmach ich auch gerne einen DNS-Test.
+Dialogue: 0,0:17:15.18,0:17:16.72,Default,Dong-Su Hwang,0000,0000,0000,,Halt’s Maul.
+Dialogue: 0,0:17:16.72,0:17:19.68,Default,Dong-Su Hwang,0000,0000,0000,,Beantworte einfach nur meine Fragen.
+Dialogue: 0,0:17:19.68,0:17:23.52,Default,Dong-Su Hwang,0000,0000,0000,,Ich bin echt pissig, weil mir nur deinetwegen\Njetzt der ganze Spaß entgeht.
+Dialogue: 0,0:17:23.52,0:17:25.15,Default,Dong-Su Hwang,0000,0000,0000,,Schöne Scheiße.
+Dialogue: 0,0:17:25.15,0:17:28.36,Default,Dong-Su Hwang,0000,0000,0000,,Danke auch, du hast mir\Nordentlich die Tour vermasselt.
+Dialogue: 0,0:17:28.78,0:17:30.65,Default,Il-Hwan Sung,0000,0000,0000,,Na? Darf ich dich was fragen?
+Dialogue: 0,0:17:30.65,0:17:32.91,Default,Dong-Su Hwang,0000,0000,0000,,Du sollst deine Scheißfresse halten!
+Dialogue: 0,0:17:32.91,0:17:37.45,Default,Il-Hwan Sung,0000,0000,0000,,Wie viel weiß die Menschheit\Nüber die Gates und Monster?
+Dialogue: 0,0:17:38.04,0:17:42.33,Default,Il-Hwan Sung,0000,0000,0000,,Wie viel weißt du über Gates und Monster?
+Dialogue: 0,0:17:42.33,0:17:44.29,Default,Dong-Su Hwang,0000,0000,0000,,Wovon laberst du da?
+Dialogue: 0,0:17:44.79,0:17:50.01,Default,Il-Hwan Sung,0000,0000,0000,,Dungeon, Gates, Monster …\NDas ist nichts als ein Vorspiel.
+Dialogue: 0,0:17:50.01,0:17:54.43,Default,Il-Hwan Sung,0000,0000,0000,,Eine Macht, die die größte Katastrophe\Nhervorrufen könnte, ist erwacht.
+Dialogue: 0,0:17:54.43,0:17:56.14,Default,Dong-Su Hwang,0000,0000,0000,,Was willst du eigentlich?
+Dialogue: 0,0:17:56.55,0:18:00.14,Default,Il-Hwan Sung,0000,0000,0000,,Ich kann nicht mehr dazu sagen, als dass\Nes die schlimmste Katastrophe sein wird.
+Dialogue: 0,0:18:01.10,0:18:02.31,Default,Dong-Su Hwang,0000,0000,0000,,Und weiter?
+Dialogue: 0,0:18:04.10,0:18:07.90,Default,Il-Hwan Sung,0000,0000,0000,,Mein Ziel ist es,\Ndiese Katastrophe abzuwenden.
+Dialogue: 0,0:18:09.57,0:18:12.03,Default,Dong-Su Hwang,0000,0000,0000,,Dein Scheißgelaber kannst du\Ndir sonst wo hinschieben.
+Dialogue: 0,0:18:12.03,0:18:14.99,Default,Dong-Su Hwang,0000,0000,0000,,Weißt du eigentlich,\Nwie viele Hunter es auf der Welt gibt?
+Dialogue: 0,0:18:14.99,0:18:16.87,Default,Dong-Su Hwang,0000,0000,0000,,Wenn man die alle zusammenrotten würde …
+Dialogue: 0,0:18:16.87,0:18:20.66,Default,Il-Hwan Sung,0000,0000,0000,,Man kann noch so viele versammeln,\Nihre Stärke ist bedeutungslos.
+Dialogue: 0,0:18:20.66,0:18:23.16,Default,Il-Hwan Sung,0000,0000,0000,,Sie würden einfach fertiggemacht\Nund benutzt werden.
+Dialogue: 0,0:18:23.16,0:18:25.37,Default,Il-Hwan Sung,0000,0000,0000,,Du scheinst auch was\Nauf dem Kasten zu haben.
+Dialogue: 0,0:18:25.37,0:18:26.13,Default,Dong-Su Hwang,0000,0000,0000,,Was?!
+Dialogue: 0,0:18:28.46,0:18:32.80,Default,Dong-Su Hwang,0000,0000,0000,,Du bist nur ein Monster und trotzdem\Nnennst du uns deinen Namen.
+Dialogue: 0,0:18:32.80,0:18:36.14,Default,Dong-Su Hwang,0000,0000,0000,,Du hast also mit deiner Ollen\Nzwei Blagen in die Welt gesetzt.
+Dialogue: 0,0:18:39.18,0:18:41.64,Default,Dong-Su Hwang,0000,0000,0000,,Erinnerst du dich noch\Nan den Namen deines Sohnes?
+Dialogue: 0,0:18:42.22,0:18:43.18,Default,Il-Hwan Sung,0000,0000,0000,,Jin-Woo.
+Dialogue: 0,0:18:45.48,0:18:47.81,Default,Il-Hwan Sung,0000,0000,0000,,Was soll das?\NWieso spüre ich Mordlust?
+Dialogue: 0,0:18:49.06,0:18:51.98,Default,Dong-Su Hwang,0000,0000,0000,,Ich stelle hier die Fragen und nicht du.
+Dialogue: 0,0:18:51.98,0:18:52.82,Default,Il-Hwan Sung,0000,0000,0000,,Antworte.
+Dialogue: 0,0:18:52.82,0:18:54.78,Default,Dong-Su Hwang,0000,0000,0000,,Nö, ganz sicher nicht.
+Dialogue: 0,0:18:55.36,0:18:58.32,Default,Dong-Su Hwang,0000,0000,0000,,Stattdessen erzähle ich dir\N’ne schöne Geschichte.
+Dialogue: 0,0:18:59.24,0:19:01.79,Default,Dong-Su Hwang,0000,0000,0000,,Dein Sohnemann ist tot.
+Dialogue: 0,0:19:02.91,0:19:07.00,Default,Dong-Su Hwang,0000,0000,0000,,Wenn du ihm deinen letzten Willen mitteilen\Nwillst, musst du das im Jenseits tun!
+Dialogue: 0,0:19:22.43,0:19:25.89,Default,Jin-Woo Sung,0000,0000,0000,,Was soll das?\NIst das nicht viel zu einseitig?
+Dialogue: 0,0:19:25.89,0:19:28.27,Default,Jin-Woo Sung,0000,0000,0000,,Bist du überrascht, dass ich so stark bin?
+Dialogue: 0,0:19:28.94,0:19:31.32,Default,Jin-Woo Sung,0000,0000,0000,,Damit hattest du wohl nicht gerechnet, was?
+Dialogue: 0,0:19:31.94,0:19:34.32,Default,Jin-Woo Sung,0000,0000,0000,,Können auch Untote Angst verspüren?
+Dialogue: 0,0:19:34.99,0:19:36.03,Default,Jin-Woo Sung,0000,0000,0000,,Was soll’s.
+Dialogue: 0,0:19:46.29,0:19:48.17,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(150,150)\fnTrebuchet MS Bold\\fsp2\fs20\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HEBDE84&\bord1\blur3\4c&H140D05&\pos(321.26,164.63)}\h\h\h\hBENACHRICHTIGUNG{\fnTrebuchet MS\b0\fsp0\3c&HEBDE84&\fs16\3a&H76&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\NDu hast{\i1}\N[{\\fnVerdana Bold\fscx90\fs18}Hüter der Seelen, Metus{\fs16\fscx100\fnTrebuchet MS\b0}] {\i0}besiegt.
+Dialogue: 0,0:19:53.67,0:19:55.09,Default,Feuerwehrmann A,0000,0000,0000,,Hierher!
+Dialogue: 0,0:19:55.09,0:19:56.01,Default,Feuerwehrmann B,0000,0000,0000,,Beeilung!
+Dialogue: 0,0:19:56.38,0:20:00.68,Default,Beamter,0000,0000,0000,,Beim Kampf zwischen S-Rang-Huntern soll\Ndie Landschaft in Mitleidenschaft geraten
+Dialogue: 0,0:20:00.68,0:20:03.64,Default,Beamter,0000,0000,0000,,und alles dem Erdboden\Ngleich gemacht werden.
+Dialogue: 0,0:20:03.64,0:20:05.72,Default,Beamter,0000,0000,0000,,Solche Ausmaße kann das also annehmen.
+Dialogue: 0,0:20:05.72,0:20:08.39,Default,Stellvertretender Behördenleiter,0000,0000,0000,,Ja, wir hatten noch Glück.
+Dialogue: 0,0:20:08.39,0:20:10.94,Default,Stellvertretender Behördenleiter,0000,0000,0000,,Nur einen Augenblick,\Nmehr hat es nicht gebraucht.
+Dialogue: 0,0:20:11.36,0:20:13.86,Default,Stellvertretender Behördenleiter,0000,0000,0000,,Da hatte Mr. Hwang schon verloren.
+Dialogue: 0,0:20:13.86,0:20:16.94,Default,Stellvertretender Behördenleiter,0000,0000,0000,,Noch bevor die Schäden\Nihr volles Ausmaß annehmen konnten.
+Dialogue: 0,0:20:21.87,0:20:24.16,Default,Jin-Woo Sung,0000,0000,0000,,Mein Proviant ist aufgebraucht.
+Dialogue: 0,0:20:24.49,0:20:26.16,Default,Jin-Woo Sung,0000,0000,0000,,Das war’s fürs Erste.
+Dialogue: 0,0:20:27.58,0:20:31.63,Default,Jin-Woo Sung,0000,0000,0000,,Ich bin jetzt im 75. Stock,\Nalso folgen noch etwa 25.
+Dialogue: 0,0:20:32.13,0:20:34.29,Default,Jin-Woo Sung,0000,0000,0000,,Es liegt noch ein langer Weg vor mir.
+Dialogue: 0,0:20:34.63,0:20:37.59,Default,Jin-Woo Sung,0000,0000,0000,,Die Ausbeute kann sich aber sehen lassen.
+Dialogue: 0,0:20:38.42,0:20:41.80,Internal,Jin-Woo Sung,0000,0000,0000,,Die Ohrringe hab ich\Nvon dem Fettklops aus dem 50. Stock.
+Dialogue: 0,0:20:42.09,0:20:45.14,Internal,Jin-Woo Sung,0000,0000,0000,,Die Halskette\Nhabe ich von dem Skelett gerade.
+Dialogue: 0,0:20:45.51,0:20:48.10,Internal,Jin-Woo Sung,0000,0000,0000,,Sie haben schon allein\Nfür sich einen netten Effekt
+Dialogue: 0,0:20:45.72,0:20:47.14,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(150,0)\an7\c&HFFFFFF&\fad(0,175)\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS Bold\b1\3c&HEBDE84&\fs16\3a&H76&\pos(18.1,157.9)}SET-ITEM-EFFEKT\N\NSet-Buff 1: Gesperrt\NSet-Buff 2: Gesperrt
+Dialogue: 0,0:20:47.14,0:20:50.23,TypePlaceholder,Types,0000,0000,0000,,{\q2\an7\c&HFFFFFF&\fad(0,0)\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS Bold\b1\3c&HEBDE84&\fs16\3a&H76&\pos(18.1,157.9)}SET-ITEM-EFFEKT\N\NSet-Buff 1: {\alpha&HFF&\shad0\c&H9BF151&\3c&H7EFF5C&\t(0,200,\alpha&H00&\3a&H76&)}Alle Statuswerte +5\N{\xshad2\yshad2\alpha&H00&3\4c&H140D05&\3a&H76&\c&HFFFFFF&\3c&HEBDE84&}Set-Buff 2: Gesperrt
+Dialogue: 0,0:20:48.10,0:20:50.23,Internal,Jin-Woo Sung,0000,0000,0000,,und im Set können sie sich sehen lassen.
+Dialogue: 0,0:20:50.89,0:20:55.69,Internal,Jin-Woo Sung,0000,0000,0000,,An der Darstellung im Fenster erkennt man,\Ndass es noch einen Boss geben muss.
+Dialogue: 0,0:20:57.36,0:20:59.44,Internal,Jin-Woo Sung,0000,0000,0000,,Dieser Orb der Gier\Nist auch nicht schlecht.
+Dialogue: 0,0:20:59.44,0:21:04.78,Internal,Jin-Woo Sung,0000,0000,0000,,Ich kann zwar selbst nichts damit anfangen,\Naber zum Glück ist er übertragbar.
+Dialogue: 0,0:21:04.78,0:21:08.83,Internal,Jin-Woo Sung,0000,0000,0000,,Ein Magiesoldat kann damit\Nseinen magischen Schaden verdoppeln.
+Dialogue: 0,0:21:09.29,0:21:10.87,Internal,Jin-Woo Sung,0000,0000,0000,,Außerdem …
+Dialogue: 0,0:21:11.42,0:21:14.96,Internal,Jin-Woo Sung,0000,0000,0000,,habe ich als Questbelohnung\Neine Zufallsbox ausgewählt.
+Dialogue: 0,0:21:15.75,0:21:19.09,Internal,Jin-Woo Sung,0000,0000,0000,,Ich hatte schon befürchtet, ich hätte mir\Ndie Chance dazu entgehen lassen.
+Dialogue: 0,0:21:20.47,0:21:24.09,Default,Jin-Woo Sung,0000,0000,0000,,Ich hatte irgendwie damit gerechnet,\Naber nun ist es doch ein Schlüssel geworden.
+Dialogue: 0,0:21:24.64,0:21:30.31,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(0,150)\an7\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS Bold\b1\3c&HEBDE84&\fs16\3a&H76&\pos(9.84,4.89)}ITEM: ??{\fnTrebuchet MS\b0}\NAUSRÜSTUNGSSTUFE: ??\NKATEGORIE: ??\N\N{\fs13}Die Informationen werden preisgegeben,\Nsobald die erforderlichen Bedingungen\Nerfüllt wurden.
+Dialogue: 0,0:21:24.93,0:21:28.52,Default,Jin-Woo Sung,0000,0000,0000,,Keine Infos dazu?\NWann und wo kann ich den denn einsetzen?
+Dialogue: 0,0:21:29.93,0:21:32.89,Default,Jin-Woo Sung,0000,0000,0000,,Na ja, das kann diesmal noch warten.
+Dialogue: 0,0:21:34.90,0:21:39.94,Default,Jin-Woo Sung,0000,0000,0000,,Im 50. Stock erhielt ich vom habgierigen\NVulcan den Splitter des Weltenbaums.
+Dialogue: 1,0:21:40.69,0:21:46.87,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(500,0)\an7\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS Bold\b1\3c&HEBDE84&\fs16\3a&H76&\pos(14.32,11.79)}HERSTELLUNG\NITEM: Elixier des Lebens
+Dialogue: 0,0:21:40.74,0:21:45.07,Internal,Jin-Woo Sung,0000,0000,0000,,Im 75. Stock erhielt ich\Nvom Hüter der Seelen, Metus,
+Dialogue: 0,0:21:45.07,0:21:46.87,Internal,Jin-Woo Sung,0000,0000,0000,,das Quellwasser\Ndes widerhallenden Waldes.
+Dialogue: 0,0:21:47.41,0:21:51.33,Internal,Jin-Woo Sung,0000,0000,0000,,Zwei Zutaten für\Ndas Elixier des Lebens habe ich jetzt.
+Dialogue: 0,0:21:52.29,0:21:53.67,Default,Jin-Woo Sung,0000,0000,0000,,Noch eine.
+Dialogue: 0,0:21:54.21,0:21:55.96,Default,Jin-Woo Sung,0000,0000,0000,,Noch eine und ich kann Mama heilen.
+Dialogue: 0,0:21:58.17,0:22:01.30,Internal,Jin-Woo Sung,0000,0000,0000,,Ich hole sie mir beim\Nnächsten Mal auf jeden Fall!
+Dialogue: 1,0:22:13.02,0:22:16.31,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Übersetzung & Spotting: Jacqueline Philippi
+Dialogue: 0,0:22:13.02,0:22:16.31,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Übersetzung & Spotting: Jacqueline Philippi
+Dialogue: 1,0:22:16.31,0:22:20.23,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Revision & Typesetting: Janik Aurich
+Dialogue: 0,0:22:16.31,0:22:20.23,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Revision & Typesetting: Janik Aurich
+Dialogue: 1,0:22:20.23,0:22:23.57,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Qualitätskontrolle: Ruben Grest
+Dialogue: 0,0:22:20.23,0:22:23.57,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Qualitätskontrolle: Ruben Grest
+Dialogue: 1,0:22:23.57,0:22:26.45,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Projektleitung: Tobias Philippi
+Dialogue: 0,0:22:23.57,0:22:26.45,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Projektleitung: Tobias Philippi
+Dialogue: 0,0:23:37.19,0:23:40.94,TypePlaceholder,Types,0000,0000,0000,,{\fnTrebuchet Ms Bold\fad(1000,0)\fs14\an8\t(,,\fscx96\fscy96)\blur4\c&HFFE162&\3c&HF510AE&\t(0,1000,\blur2.5\3c&HB10D7E&\c&HFFB9E9&)\bord1\t(1500,1700,\3c&HEB12A8&\bord1.5\blur4)\t(1700,2750,\bord0\3c&H570B3F&\c&HE0C4D7&\blur0)\frx8\fry0\pos(355.01,192.1)}Ich muss aufhören,\Nanderen nur etwas vorzuspielen

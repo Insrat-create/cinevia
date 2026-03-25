@@ -1,0 +1,274 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Gen_Main,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: Gen_Italics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: Gen_Main_Up,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00090909,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,1
+Style: Gen_Italics_top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,1
+Style: Gen_Nota,Trebuchet MS,20.0,&H00FFFFFF,&H000000FF,&H00262626,&H00505050,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,1
+Style: Cart_A_Tre,Trebuchet MS,20.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0020,0020,0020,1
+Style: Cart_C_Tre,Trebuchet MS,20.0,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0020,0020,0020,1
+Style: Cart_A_Ari,Arial,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00303030,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0020,1
+Style: Cart_TitleSeries,Trebuchet MS,30.0,&H00000000,&H000000FF,&H00FFFFFF,&H00AC4F8A,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0010,0030,0010,1
+Style: Cart_EpiTitle,Times New Roman,18.0,&H00F8F9F5,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,9,0030,0030,0010,0
+Style: Cart_C_Ari,Arial,24.0,&H00000000,&H000000FF,&H00FFFFFF,&H00303030,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0020,1
+Style: Cart_A_Tim,Times New Roman,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0020,0020,0020,1
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.74,0:00:10.19,Gen_Main,baek,0000,0000,0000,,¿Qué son…
+Dialogue: 0,0:00:11.53,0:00:13.67,Gen_Main,baek,0000,0000,0000,,estos soldados negros?
+Dialogue: 0,0:00:37.89,0:00:39.68,Gen_Main,baek,0000,0000,0000,,¿Qué demonios…?
+Dialogue: 0,0:00:46.82,0:00:49.01,Gen_Main,choi jong-in,0000,0000,0000,,No puede ser.
+Dialogue: 0,0:00:50.28,0:00:53.07,Gen_Main,choi jong-in/lim tae-gyu,0000,0000,0000,,-¿Cómo…?\N-¿Qué hace aquí?
+Dialogue: 0,0:01:03.12,0:01:04.42,Gen_Main,lee joohee,0000,0000,0000,,Sung…
+Dialogue: 0,0:01:04.88,0:01:08.55,Gen_Main,lee joohee,0000,0000,0000,,Esto significa que se cortó\Nla transmisión, ¿no?
+Dialogue: 0,0:01:10.80,0:01:14.01,Gen_Main,song chiyul,0000,0000,0000,,¿Qué estará pasando allí?
+Dialogue: 0,0:01:17.22,0:01:20.01,Gen_Main,woo jinchul,0000,0000,0000,,No hay caso.\NParece haber mucho caos.
+Dialogue: 0,0:01:20.39,0:01:22.99,Gen_Main,go gunhee,0000,0000,0000,,Lo principal es comprobar si están bien.
+Dialogue: 0,0:01:23.06,0:01:25.02,Gen_Main,staff,0000,0000,0000,,Y luego recabar información.
+Dialogue: 0,0:01:25.11,0:01:26.18,Gen_Main,woo jinchul,0000,0000,0000,,Sí.
+Dialogue: 0,0:01:27.94,0:01:32.82,Gen_Main,staff,0000,0000,0000,,Director, las llamadas de los\Nespectadores van a colapsar la línea.
+Dialogue: 0,0:01:32.90,0:01:35.15,Gen_Main,staff,0000,0000,0000,,Quieren que reanudemos la transmisión.
+Dialogue: 0,0:01:35.32,0:01:37.03,Gen_Main,director,0000,0000,0000,,¡Si pudiéramos, lo haríamos!
+Dialogue: 0,0:01:37.12,0:01:40.55,Gen_Main,director,0000,0000,0000,,No nos llegan imágenes\Ny no podemos contactarlos.
+Dialogue: 0,0:01:41.58,0:01:45.25,Gen_Main,director,0000,0000,0000,,¿Y qué hacemos si acabaron\Ncon todos los de rango S?
+Dialogue: 0,0:01:48.29,0:01:51.65,Gen_Main,director,0000,0000,0000,,¡Respondan! ¿Qué está pasando allí?
+Dialogue: 0,0:01:51.71,0:01:54.01,Gen_Main,director/cámara,0000,0000,0000,,-¿Qué está pasando?\N-Maldita sea.
+Dialogue: 0,0:01:54.34,0:01:57.37,Gen_Main,cámara,0000,0000,0000,,La cámara tenía\Nque estropearse justo ahora.
+Dialogue: 0,0:01:57.89,0:01:59.01,Gen_Main,jinwoo,0000,0000,0000,,Iron.
+Dialogue: 0,0:02:07.48,0:02:08.52,Gen_Main,jinwoo,0000,0000,0000,,Adelante.
+Dialogue: 0,0:02:19.78,0:02:22.00,Gen_Main,ma,0000,0000,0000,,No entiendo nada.
+Dialogue: 0,0:02:22.37,0:02:23.96,Gen_Main,ma,0000,0000,0000,,¿Qué son estas cosas?
+Dialogue: 0,0:02:24.54,0:02:28.13,Gen_Main,ma,0000,0000,0000,,¿Cómo llegó aquí el cazador Sung?
+Dialogue: 0,0:02:30.88,0:02:33.59,Gen_Main,baek,0000,0000,0000,,¿Cuándo llegaste a la isla, Sung?
+Dialogue: 0,0:02:33.67,0:02:35.47,Gen_Main,baek,0000,0000,0000,,¿Y cómo?
+Dialogue: 0,0:02:35.59,0:02:36.80,Gen_Main,jinwoo,0000,0000,0000,,Luego les explico.
+Dialogue: 0,0:02:37.14,0:02:39.55,Gen_Main,jinwoo,0000,0000,0000,,Primero hay que curarlos.
+Dialogue: 0,0:02:39.89,0:02:41.13,Gen_Main,jinwoo,0000,0000,0000,,Beban esto.
+Dialogue: 0,0:02:42.56,0:02:45.83,Gen_Italics,jinwoo,0000,0000,0000,,Olvidaba que no pueden cambiar de dueño.
+Dialogue: 0,0:02:47.31,0:02:50.33,Gen_Main,ma,0000,0000,0000,,¿Pociones?\N¿Usaste magia interdimensional?
+Dialogue: 0,0:02:50.44,0:02:51.52,Gen_Main,jinwoo,0000,0000,0000,,Señor Ma…
+Dialogue: 0,0:02:53.03,0:02:54.74,Gen_Main,jinwoo,0000,0000,0000,,abra la boca.
+Dialogue: 0,0:02:59.20,0:03:00.67,Gen_Main,ma,0000,0000,0000,,Pero si…
+Dialogue: 0,0:03:04.91,0:03:07.67,Gen_Main,baek,0000,0000,0000,,Me sanó las heridas.
+Dialogue: 0,0:03:16.09,0:03:17.59,Gen_Main,ma,0000,0000,0000,,No se recupera.
+Dialogue: 0,0:03:18.01,0:03:19.43,Gen_Main,ma,0000,0000,0000,,¿Por qué no funciona?
+Dialogue: 0,0:03:21.85,0:03:23.61,Gen_Italics,jinwoo,0000,0000,0000,,¿Será como esa vez?
+Dialogue: 0,0:03:24.72,0:03:27.47,Gen_Italics,jinwoo,0000,0000,0000,,Maldición.\NSu aura no para de debilitarse.
+Dialogue: 0,0:03:28.31,0:03:30.77,Gen_Main,jinwoo,0000,0000,0000,,No puedo curar heridas tan graves.
+Dialogue: 0,0:03:31.06,0:03:34.11,Gen_Main,jinwoo,0000,0000,0000,,Hay que salir de aquí. Abriré un camino.
+Dialogue: 0,0:03:34.23,0:03:35.53,Gen_Main,ma/baek,0000,0000,0000,,-Bien.\N-Espera.
+Dialogue: 0,0:03:40.49,0:03:42.91,Gen_Main,lim tae-gyu,0000,0000,0000,,No dejan de aparecer.
+Dialogue: 0,0:03:43.08,0:03:45.37,Gen_Main,baek,0000,0000,0000,,Son demasiadas.
+Dialogue: 0,0:03:49.58,0:03:52.61,Gen_Main,miembros asociación/go gunhee,0000,0000,0000,,-¡Presidente!\N-¿Qué saben del equipo de ataque?
+Dialogue: 0,0:03:52.75,0:03:54.01,Gen_Main,miembro asociación A,0000,0000,0000,,De momento, nada.
+Dialogue: 0,0:03:54.13,0:03:57.59,Gen_Main,miembro asociación A,0000,0000,0000,,Hay problemas de comunicación\Npor toda la isla.
+Dialogue: 0,0:03:58.05,0:04:01.59,Gen_Main,miembro asociación B (mujer),0000,0000,0000,,También llamamos a Japón,\Npero no contestan.
+Dialogue: 0,0:04:01.68,0:04:04.49,Gen_Main,miembro asociación C,0000,0000,0000,,Los medios privados\Ntambién dejaron de transmitir
+Dialogue: 0,0:04:04.56,0:04:06.29,Gen_Main,miembro asociación C,0000,0000,0000,,tras lo de la hormiga negra.
+Dialogue: 0,0:04:06.77,0:04:09.05,Gen_Main,go gunhee,0000,0000,0000,,Recuperen la conexión cuanto antes.
+Dialogue: 0,0:04:09.39,0:04:12.63,Gen_Main,go gunhee,0000,0000,0000,,Que los equipos médicos\Ny de rescate estén listos.
+Dialogue: 0,0:04:12.73,0:04:13.95,Gen_Main,miembros asociación,0000,0000,0000,,Sí.
+Dialogue: 0,0:04:17.40,0:04:18.79,Gen_Main,go gunhee,0000,0000,0000,,Nunca antes…
+Dialogue: 0,0:04:19.86,0:04:23.67,Gen_Main,go gunhee,0000,0000,0000,,había detestado tanto\Neste cuerpo y este corazón.
+Dialogue: 0,0:04:24.83,0:04:29.09,Gen_Main,go gunhee,0000,0000,0000,,Si pudiera luchar a su lado,\Naunque no fuera muy útil…
+Dialogue: 0,0:04:30.04,0:04:31.39,Gen_Main,woo jinchul,0000,0000,0000,,Presidente…
+Dialogue: 0,0:04:31.71,0:04:35.51,Gen_Main,go gunhee,0000,0000,0000,,Solo ruego que todos estén bien.
+Dialogue: 0,0:04:38.92,0:04:41.30,Gen_Main,jinah,0000,0000,0000,,¿Qué demonios pasa?
+Dialogue: 0,0:04:41.63,0:04:45.89,Gen_Main,jinah,0000,0000,0000,,Primero paran el programa\Ny ahora se echa a perder la tele.
+Dialogue: 0,0:04:45.97,0:04:49.53,Gen_Main,jinah/park kyung-hye,0000,0000,0000,,-Es increíble.\N-Así no la arreglarás.
+Dialogue: 0,0:04:49.77,0:04:52.47,Gen_Main,jinah,0000,0000,0000,,Iré a ver a mi cuarto.
+Dialogue: 0,0:04:53.23,0:04:56.17,Gen_Main,jinah,0000,0000,0000,,Puede que en el celular\Nencuentre información.
+Dialogue: 0,0:04:58.65,0:05:01.25,Gen_Main,park kyung-hye,0000,0000,0000,,No puede quedarse quieta.
+Dialogue: 0,0:05:02.45,0:05:04.93,Gen_Italics,geo?,0000,0000,0000,,¿Qué significa eso? Explícate.
+Dialogue: 0,0:05:05.24,0:05:08.03,Gen_Main,reiji,0000,0000,0000,,Perdimos la señal de Goto.
+Dialogue: 0,0:05:08.95,0:05:10.87,Gen_Main,reiji,0000,0000,0000,,La última llamada
+Dialogue: 0,0:05:11.25,0:05:13.87,Gen_Main,reiji,0000,0000,0000,,y las poderosas señales enemigas
+Dialogue: 0,0:05:14.04,0:05:15.84,Gen_Main,reiji,0000,0000,0000,,indican que falleció.
+Dialogue: 0,0:05:16.46,0:05:17.63,Gen_Italics,geo?,0000,0000,0000,,¿Y el resto?
+Dialogue: 0,0:05:17.75,0:05:19.41,Gen_Main,reiji,0000,0000,0000,,Lo estamos comprobando.
+Dialogue: 0,0:05:19.67,0:05:21.23,Gen_Italics,geo?,0000,0000,0000,,Dense prisa.
+Dialogue: 0,0:05:21.42,0:05:24.07,Gen_Italics,geo?,0000,0000,0000,,Una mayor debilitación\Nafectará nuestro futuro.
+Dialogue: 0,0:05:25.39,0:05:26.57,Gen_Italics,reiji,0000,0000,0000,,De acuerdo.
+Dialogue: 0,0:05:31.56,0:05:33.73,Gen_Main,geo?,0000,0000,0000,,¿Mataron a Goto?
+Dialogue: 0,0:05:33.98,0:05:35.19,Gen_Main,geo?,0000,0000,0000,,Inútiles.
+Dialogue: 0,0:05:36.36,0:05:38.81,Gen_Main,geo?,0000,0000,0000,,¿Qué está ocurriendo en esa isla?
+Dialogue: 0,0:05:47.91,0:05:50.63,Gen_Italics,jinwoo,0000,0000,0000,,Igrit y Iron aún están a su nivel,
+Dialogue: 0,0:05:51.41,0:05:53.71,Gen_Italics,jinwoo,0000,0000,0000,,pero superan a los soldados.
+Dialogue: 0,0:05:54.58,0:05:57.21,Gen_Italics,jinwoo,0000,0000,0000,,Me gustaría reforzar nuestras fuerzas,
+Dialogue: 0,0:05:57.59,0:06:00.11,Gen_Italics,jinwoo,0000,0000,0000,,pero hay demasiada gente mirando.
+Dialogue: 0,0:06:01.09,0:06:02.23,Gen_Italics,jinwoo,0000,0000,0000,,No…
+Dialogue: 0,0:06:02.34,0:06:03.53,Gen_Main,jinwoo,0000,0000,0000,,Escuchen.
+Dialogue: 0,0:06:04.30,0:06:06.03,Gen_Main,jinwoo,0000,0000,0000,,A este paso, nos masacrarán.
+Dialogue: 0,0:06:06.18,0:06:08.59,Gen_Main,jinwoo,0000,0000,0000,,Abriré un camino a la fuerza.
+Dialogue: 0,0:06:08.85,0:06:10.13,Gen_Main,jinwoo,0000,0000,0000,,Ustedes…
+Dialogue: 0,0:06:10.97,0:06:13.39,Gen_Main,jinwoo,0000,0000,0000,,síganme desde detrás de él.
+Dialogue: 0,0:06:13.64,0:06:16.41,Gen_Main,jinwoo,0000,0000,0000,,Los demás frenarán a las hormigas.
+Dialogue: 0,0:06:17.31,0:06:21.44,Gen_Main,jinwoo,0000,0000,0000,,Lidien con las que se escapen\Ny consigan acercarse.
+Dialogue: 0,0:06:21.53,0:06:24.60,Gen_Main,choi jong-in,0000,0000,0000,,De acuerdo. De eso podemos encargarnos.
+Dialogue: 0,0:06:24.76,0:06:25.91,Gen_Main,lim tae-gyu,0000,0000,0000,,Sí.
+Dialogue: 0,0:06:26.36,0:06:30.91,Gen_Main,jinwoo,0000,0000,0000,,Y, por favor, no digan nada\Nde lo que están por ver.
+Dialogue: 0,0:06:32.29,0:06:33.35,Gen_Main,choi jong-in,0000,0000,0000,,¿Acaso…?
+Dialogue: 0,0:06:55.44,0:06:57.43,Gen_Main,baek,0000,0000,0000,,Regresó.
+Dialogue: 0,0:06:57.65,0:06:59.36,Gen_Main,baek,0000,0000,0000,,¿Eso significa que…
+Dialogue: 0,0:06:59.81,0:07:01.57,Gen_Main,baek,0000,0000,0000,,acabó con Goto?
+Dialogue: 0,0:07:19.58,0:07:22.25,Gen_Main,rey hormiga,0000,0000,0000,,Afuera no encontré a su rey.
+Dialogue: 0,0:07:22.80,0:07:27.71,Gen_Main,rey hormiga,0000,0000,0000,,¿Está aquí aquel al que llaman rey?
+Dialogue: 0,0:07:29.51,0:07:34.13,Gen_Italics,jinwoo,0000,0000,0000,,¿Conque es culpa suya que perdiera\Nla señal de la sombra de Goto?
+Dialogue: 0,0:07:35.43,0:07:36.89,Gen_Main,ma,0000,0000,0000,,¡Oye!
+Dialogue: 0,0:07:56.50,0:08:00.91,Gen_Main,rey hormiga,0000,0000,0000,,¿Tú eres el rey de los humanos?
+Dialogue: 0,0:08:03.34,0:08:07.26,Gen_Main,jinwoo,0000,0000,0000,,Vaya… Un insecto que habla.
+Dialogue: 0,0:08:08.17,0:08:09.57,Gen_Main,rey hormiga,0000,0000,0000,,Humano,
+Dialogue: 0,0:08:12.01,0:08:14.22,Gen_Main,rey hormiga,0000,0000,0000,,tienes un aura penetrante.
+Dialogue: 0,0:08:20.85,0:08:23.73,Gen_Main,jinwoo,0000,0000,0000,,Sigues siendo un insecto.
+Dialogue: 0,0:08:24.52,0:08:26.59,Gen_Main,choi jong-in,0000,0000,0000,,Ni siquiera Sung…
+Dialogue: 0,0:08:26.69,0:08:28.61,Gen_Main,baek,0000,0000,0000,,No podrá con esa cosa.
+Dialogue: 0,0:08:33.70,0:08:36.01,Gen_Main,staff,0000,0000,0000,,¡Recuperamos las imágenes!
+Dialogue: 0,0:08:37.54,0:08:39.03,Gen_Main,director,0000,0000,0000,,¿Qué…?
+Dialogue: 0,0:08:39.41,0:08:41.67,Gen_Main,director,0000,0000,0000,,¡Reanuden la transmisión, rápido!
+Dialogue: 0,0:08:42.25,0:08:45.29,Gen_Main,staff,0000,0000,0000,,Si empezamos ahora, será en vivo.
+Dialogue: 0,0:08:45.67,0:08:48.51,Gen_Main,staff,0000,0000,0000,,No podremos reaccionar si ocurre algo.
+Dialogue: 0,0:08:48.59,0:08:50.61,Gen_Main,director,0000,0000,0000,,Ya se cortó una vez.
+Dialogue: 0,0:08:50.68,0:08:52.83,Gen_Main,director,0000,0000,0000,,No puede empeorar. ¡Háganlo!
+Dialogue: 0,0:08:52.93,0:08:54.14,Gen_Main,staff B,0000,0000,0000,,¡Bien!
+Dialogue: 0,0:08:54.64,0:08:58.37,Gen_Italics,director,0000,0000,0000,,Nuestro destino… No.\NEl destino de la batalla…
+Dialogue: 0,0:08:58.98,0:09:00.79,Gen_Italics,director,0000,0000,0000,,depende de él.
+Dialogue: 0,0:09:01.89,0:09:03.25,Gen_Main,lee joohee,0000,0000,0000,,¡Sung!
+Dialogue: 0,0:09:03.35,0:09:04.52,Gen_Main,song chiyul,0000,0000,0000,,No puede ser.
+Dialogue: 0,0:09:05.15,0:09:06.48,Gen_Main,lee joohee,0000,0000,0000,,¿Qué…?
+Dialogue: 0,0:09:12.41,0:09:13.57,Gen_Main,jinah,0000,0000,0000,,¿En serio?
+Dialogue: 0,0:09:13.66,0:09:15.28,Gen_Main,jinah,0000,0000,0000,,¿Qué…?
+Dialogue: 0,0:09:15.91,0:09:17.74,Gen_Main,jinah,0000,0000,0000,,¿Jinwoo?
+Dialogue: 0,0:09:17.83,0:09:19.67,Gen_Main,jinah,0000,0000,0000,,Cuando dijo que se iba…
+Dialogue: 0,0:09:19.75,0:09:22.73,Gen_Main,jinah,0000,0000,0000,,¿era otra vez a esto?
+Dialogue: 0,0:09:24.58,0:09:28.05,Gen_Main,go gunhee,0000,0000,0000,,¡El cazador Sung se presentó!
+Dialogue: 0,0:09:29.13,0:09:32.07,Gen_Main,woo jinchul,0000,0000,0000,,Pero ¿cómo llegó a la isla?
+Dialogue: 0,0:09:32.22,0:09:34.43,Gen_Main,go gunhee,0000,0000,0000,,Eso ahora da igual.
+Dialogue: 0,0:09:34.97,0:09:37.01,Gen_Main,go gunhee,0000,0000,0000,,Confiemos en él.
+Dialogue: 0,0:09:50.32,0:09:52.81,Gen_Main,choi jong-in,0000,0000,0000,,Un mago no debería acercarse tanto.
+Dialogue: 0,0:09:52.95,0:09:55.01,Gen_Main,baek,0000,0000,0000,,Subestimó a las hormigas.
+Dialogue: 0,0:09:55.07,0:09:57.49,Gen_Main,baek,0000,0000,0000,,Le dio de lleno.
+Dialogue: 0,0:09:58.03,0:10:01.33,Gen_Main,rey hormiga,0000,0000,0000,,Qué débil. No eres el rey.
+Dialogue: 0,0:10:24.98,0:10:27.45,Gen_Main,ma,0000,0000,0000,,Maestro Baek, maestro Choi,
+Dialogue: 0,0:10:28.11,0:10:30.59,Gen_Main,ma,0000,0000,0000,,¿de verdad es un mago?
+Dialogue: 0,0:10:30.82,0:10:33.15,Gen_Main,baek,0000,0000,0000,,Ni siquiera yo lo tengo claro.
+Dialogue: 0,0:10:33.57,0:10:35.67,Gen_Main,baek,0000,0000,0000,,No esperaba que fuera tan fuerte.
+Dialogue: 0,0:10:36.86,0:10:40.20,Gen_Italics,jinwoo,0000,0000,0000,,Es bastante resistente.\N¿Será por su caparazón?
+Dialogue: 0,0:10:58.51,0:11:00.13,Gen_Italics,cámara,0000,0000,0000,,Es un combate tremendo.
+Dialogue: 0,0:11:00.38,0:11:03.14,Gen_Italics,cámara,0000,0000,0000,,Siendo A, tengo\Nque concentrarme para no caerme.
+Dialogue: 0,0:11:04.93,0:11:08.27,Gen_Italics,cámara,0000,0000,0000,,Podría desmayarme solo\Npor el flujo de poder mágico.
+Dialogue: 0,0:11:13.28,0:11:16.65,Gen_Italics,rey hormiga,0000,0000,0000,,¿Me está ganando terreno?
+Dialogue: 0,0:11:27.96,0:11:29.57,Gen_Italics,rey hormiga,0000,0000,0000,,¿Cómo es posible?
+Dialogue: 0,0:11:30.84,0:11:32.67,Gen_Italics,rey hormiga,0000,0000,0000,,¿Quién…?
+Dialogue: 0,0:11:33.25,0:11:36.29,Gen_Italics,rey hormiga,0000,0000,0000,,¿Quién es este humano?
+Dialogue: 0,0:12:02.03,0:12:03.33,Gen_Italics,jinwoo,0000,0000,0000,,¿Y esto?
+Dialogue: 0,0:12:03.99,0:12:08.17,Gen_Main,rey hormiga,0000,0000,0000,,Extraje el veneno de los seres\Nmarinos de los alrededores
+Dialogue: 0,0:12:08.25,0:12:10.27,Gen_Main,rey hormiga,0000,0000,0000,,y mi magia lo volvió letal.
+Dialogue: 0,0:12:10.46,0:12:12.38,Gen_Main,rey hormiga,0000,0000,0000,,Ya no puedes ni moverte.
+Dialogue: 0,0:12:14.80,0:12:18.09,Gen_Main,rey hormiga,0000,0000,0000,,Ha llegado tu fin.
+Dialogue: 0,0:12:20.22,0:12:23.35,Gen_Main,rey hormiga,0000,0000,0000,,Muere, humano.
+Dialogue: 0,0:12:27.64,0:12:29.93,Gen_Main,geo?,0000,0000,0000,,¿Que murieron siete de diez?
+Dialogue: 0,0:12:30.02,0:12:31.83,Gen_Main,geo?,0000,0000,0000,,¿Qué clase de broma es esta?
+Dialogue: 0,0:12:32.10,0:12:34.02,Gen_Italics,reiji,0000,0000,0000,,No es broma. Es la verdad.
+Dialogue: 0,0:12:34.11,0:12:38.27,Gen_Italics,reiji,0000,0000,0000,,Pudimos contactar a los que quedan\Ny nos lo han confirmado.
+Dialogue: 0,0:12:40.45,0:12:44.07,Gen_Main,geo?,0000,0000,0000,,¡Es más de la mitad! ¡Es una catástrofe!
+Dialogue: 0,0:12:44.91,0:12:49.54,Gen_Main,reiji,0000,0000,0000,,Volvió a aparecer una señal\Nmuy poderosa en la caldera.
+Dialogue: 0,0:12:49.62,0:12:52.50,Gen_Main,reiji,0000,0000,0000,,Debe ser el enemigo que venció a Goto.
+Dialogue: 0,0:12:52.58,0:12:55.19,Gen_Italics,geo?,0000,0000,0000,,¿Cómo sigue vivo si luchó contra Goto?
+Dialogue: 0,0:12:55.29,0:12:57.89,Gen_Italics,geo?,0000,0000,0000,,¿Y va hacia el nido? ¿Por qué?
+Dialogue: 0,0:12:58.05,0:13:01.22,Gen_Main,reiji,0000,0000,0000,,No lo sabemos. Tal vez busque algo
+Dialogue: 0,0:13:01.30,0:13:03.53,Gen_Italics,reiji,0000,0000,0000,,o regrese porque está herido.
+Dialogue: 0,0:13:05.33,0:13:08.29,Gen_Italics,geo?,0000,0000,0000,,No sabemos cuántos\Nde sus cazadores han sobrevivido.
+Dialogue: 0,0:13:08.39,0:13:10.37,Gen_Italics,geo?,0000,0000,0000,,Pero si están vivos, se toparán.
+Dialogue: 0,0:13:10.48,0:13:12.59,Gen_Italics,geo?,0000,0000,0000,,Ni siquiera Goto pudo con esa cosa.
+Dialogue: 0,0:13:12.73,0:13:14.94,Gen_Italics,geo?,0000,0000,0000,,Estando cansados, ellos tampoco podrán.
+Dialogue: 0,0:13:15.02,0:13:17.91,Gen_Italics,geo?,0000,0000,0000,,Las hormigas se habrán debilitado\Nde tanto luchar.
+Dialogue: 0,0:13:18.36,0:13:20.67,Gen_Italics,geo?,0000,0000,0000,,Si acabamos con ese,
+Dialogue: 0,0:13:20.86,0:13:23.09,Gen_Italics,geo?,0000,0000,0000,,solo quedarán los débiles.
+Dialogue: 0,0:13:24.45,0:13:26.31,Gen_Italics,geo?,0000,0000,0000,,Aún podemos ganar.
+Dialogue: 0,0:13:26.74,0:13:29.58,Gen_Main,geo?,0000,0000,0000,,Recojan a los tres\Nsobrevivientes ya mismo.
+Dialogue: 0,0:13:29.95,0:13:34.54,Gen_Main,geo?,0000,0000,0000,,Que se reúnan con el segundo equipo\Nen mar abierto y ataquen.
+Dialogue: 0,0:13:35.38,0:13:39.05,Gen_Italics,reiji,0000,0000,0000,,Esas son las instrucciones.\NEnseguida llegará el helicóptero.
+Dialogue: 0,0:13:39.71,0:13:41.03,Gen_Main,kana,0000,0000,0000,,Recibido.
+Dialogue: 0,0:13:43.01,0:13:46.13,Gen_Main,kana,0000,0000,0000,,Pasamos al plan nueve. Vamos.
+Dialogue: 0,0:13:46.47,0:13:47.77,Gen_Main,renault(ippei),0000,0000,0000,,No.
+Dialogue: 0,0:13:48.47,0:13:50.61,Gen_Main,renault(ippei),0000,0000,0000,,Eso es un monstruo.
+Dialogue: 0,0:13:51.14,0:13:53.48,Gen_Main,renault(ippei),0000,0000,0000,,Nosotros no podemos con él.
+Dialogue: 0,0:13:54.73,0:13:57.57,Gen_Main,kana,0000,0000,0000,,¡Reacciona! No seas cobarde.
+Dialogue: 0,0:13:57.65,0:13:59.91,Gen_Main,renault(ippei),0000,0000,0000,,¡No podemos ganarle!
+Dialogue: 0,0:14:00.15,0:14:03.19,Gen_Main,renault(ippei),0000,0000,0000,,Hay que huir. O huimos o nos matará.
+Dialogue: 0,0:14:04.78,0:14:06.37,Gen_Main,kana,0000,0000,0000,,Patético.
+Dialogue: 0,0:14:06.45,0:14:09.77,Gen_Main,kana,0000,0000,0000,,No tenemos otra opción más que luchar.
+Dialogue: 0,0:14:31.06,0:14:33.03,Gen_Main,choi jong-in,0000,0000,0000,,¿No lo había envenenado?
+Dialogue: 0,0:14:33.18,0:14:35.01,Gen_Main,choi jong-in,0000,0000,0000,,¿Está bien?
+Dialogue: 0,0:14:36.06,0:14:39.06,Gen_Main,baek,0000,0000,0000,,Ya nada me extraña.
+Dialogue: 0,0:14:40.02,0:14:42.37,Gen_Main,jinwoo,0000,0000,0000,,Conque guardabas un arma secreta.
+Dialogue: 0,0:14:43.32,0:14:46.36,Gen_Main,jinwoo,0000,0000,0000,,Con razón parecías tan relajado.
+Dialogue: 0,0:14:49.03,0:14:52.47,Gen_Italics,jinwoo,0000,0000,0000,,No sé si es porque\Nha aumentado mi percepción,
+Dialogue: 0,0:14:52.66,0:14:54.79,Gen_Italics,jinwoo,0000,0000,0000,,pero puedo sentir lo que siente.
+Dialogue: 0,0:14:55.29,0:14:56.93,Gen_Italics,jinwoo,0000,0000,0000,,Está nervioso.
+Dialogue: 0,0:14:57.88,0:14:59.77,Gen_Italics,jinwoo,0000,0000,0000,,Aunque supongo que yo también.
+Dialogue: 0,0:15:01.75,0:15:05.51,Gen_Italics,jinwoo,0000,0000,0000,,Debo acabar con esto cuanto antes.
+Dialogue: 0,0:15:16.39,0:15:20.06,Gen_Italics,rey hormiga,0000,0000,0000,,Es inmune al veneno.\NNuestra fuerza es equiparable.
+Dialogue: 0,0:15:20.65,0:15:21.77,Gen_Italics,rey hormiga,0000,0000,0000,,En ese caso…
+Dialogue: 0,0:16:35.81,0:16:38.81,Gen_Italics,rey hormiga,0000,0000,0000,,Su velocidad es igual a la mía.
+Dialogue: 0,0:16:39.60,0:16:42.29,Gen_Italics,rey hormiga,0000,0000,0000,,Y es cada vez más rápido.
+Dialogue: 0,0:16:43.19,0:16:45.07,Gen_Italics,rey hormiga,0000,0000,0000,,¿Cómo es posible?
+Dialogue: 0,0:17:45.13,0:17:46.73,Gen_Italics,jinwoo,0000,0000,0000,,¿Una mejora?
+Dialogue: 0,0:17:47.21,0:17:48.42,Gen_Italics,jinwoo,0000,0000,0000,,Mutilación.
+Dialogue: 0,0:17:53.05,0:17:54.76,Gen_Italics,rey hormiga,0000,0000,0000,,¿Qué fue eso?
+Dialogue: 0,0:17:59.60,0:18:00.99,Gen_Italics,rey hormiga,0000,0000,0000,,Esto no me gusta.
+Dialogue: 0,0:18:04.69,0:18:06.49,Gen_Main,jinwoo,0000,0000,0000,,Conque puedes curarte.
+Dialogue: 0,0:18:07.11,0:18:08.40,Gen_Italics,rey hormiga,0000,0000,0000,,¿Qué…?
+Dialogue: 0,0:18:11.99,0:18:13.99,Gen_Italics,rey hormiga,0000,0000,0000,,¿Qué fue eso?
+Dialogue: 0,0:18:38.14,0:18:41.93,Gen_Main,rey hormiga,0000,0000,0000,,¿Quién es ese humano?
+Dialogue: 0,0:18:42.02,0:18:46.15,Gen_Main,rey hormiga,0000,0000,0000,,¡Ese humano!
+Dialogue: 0,0:18:49.82,0:18:50.82,Gen_Main,jinwoo,0000,0000,0000,,Adelante.
+Dialogue: 0,0:19:15.26,0:19:16.61,Gen_Main,rey hormiga,0000,0000,0000,,¿Por qué?
+Dialogue: 0,0:19:17.34,0:19:21.21,Gen_Main,rey hormiga,0000,0000,0000,,Debería haber nacido\Nsiendo más fuerte que nadie.
+Dialogue: 0,0:19:22.10,0:19:28.27,Gen_Main,rey hormiga,0000,0000,0000,,Lo absorbo todo y continúo creciendo\Npara llegar a lo más alto.
+Dialogue: 0,0:19:28.35,0:19:32.37,Gen_Italics,rey hormiga,0000,0000,0000,,Yo debería ser el rey, pero él…
+Dialogue: 0,0:19:34.86,0:19:36.25,Gen_Italics,rey hormiga,0000,0000,0000,,Tengo…
+Dialogue: 0,0:19:36.99,0:19:38.74,Gen_Italics,rey hormiga,0000,0000,0000,,Tengo que huir.
+Dialogue: 0,0:19:39.28,0:19:43.41,Gen_Italics,rey hormiga,0000,0000,0000,,¡Tengo que huir para sobrevivir!
+Dialogue: 0,0:19:47.16,0:19:48.87,Gen_Italics,rey hormiga,0000,0000,0000,,Iré lo más lejos posible.
+Dialogue: 0,0:20:07.73,0:20:11.97,Gen_Italics,rey hormiga,0000,0000,0000,,Rápido, rápido. Debo alejarme rápido.
+Dialogue: 0,0:20:45.35,0:20:48.31,Gen_Main,choi jong-in/baek,0000,0000,0000,,-Las hormigas…\N-¿Están huyendo?
+Dialogue: 0,0:20:48.39,0:20:49.85,Gen_Main,lim tae-gyu,0000,0000,0000,,¿Ganamos?
+Dialogue: 0,0:20:53.23,0:20:54.53,Gen_Main,baek,0000,0000,0000,,¡Sung!
+Dialogue: 0,0:21:01.20,0:21:04.37,Gen_Italics,jinwoo,0000,0000,0000,,Su aura… No le queda mucho tiempo.
+Dialogue: 0,0:21:04.70,0:21:06.23,Gen_Main,baek,0000,0000,0000,,Tenemos que salir de aquí.
+Dialogue: 0,0:21:06.33,0:21:09.59,Gen_Main,choi jong-in,0000,0000,0000,,Hay un helicóptero\Nesperando afuera. Si sube…
+Dialogue: 0,0:21:09.75,0:21:12.01,Gen_Main,jinwoo,0000,0000,0000,,No sé si aguantará hasta allí.
+Dialogue: 0,0:21:12.12,0:21:13.77,Gen_Main,lim tae-gyu,0000,0000,0000,,¡¿Y qué hace…?!
+Dialogue: 0,0:21:17.34,0:21:19.45,Gen_Main,ma,0000,0000,0000,,¿No decías que no funcionaba?
+Dialogue: 0,0:21:19.55,0:21:21.23,Gen_Main,jinwoo,0000,0000,0000,,No he intentado con este.
+Dialogue: 0,0:21:26.05,0:21:29.29,Gen_Italics,jinwoo,0000,0000,0000,,Es el Elíxir de la Vida que curó a mamá.
+Dialogue: 0,0:21:29.64,0:21:32.95,Gen_Italics,jinwoo,0000,0000,0000,,Esta es la última opción que me queda.
+Dialogue: 0,0:21:35.69,0:21:38.57,Gen_Italics,jinwoo,0000,0000,0000,,¿No cubre su estado?
+Dialogue: 0,0:21:41.53,0:21:42.95,Gen_Main,ma,0000,0000,0000,,¿No funcionó?
+Dialogue: 0,0:21:43.95,0:21:47.59,Gen_Italics,jinwoo,0000,0000,0000,,Si nos vamos, será tarde\Ny las pociones no funcionan.
+Dialogue: 0,0:21:47.83,0:21:50.89,Gen_Italics,jinwoo,0000,0000,0000,,Y aún no puedo usar\NIntercambio de sombras.
+Dialogue: 0,0:21:51.91,0:21:55.61,Gen_Italics,jinwoo,0000,0000,0000,,¿Acaso no puedo hacer nada más?
+Dialogue: 0,0:23:33.93,0:23:36.02,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fad(0,0)\b1\fs12\blur0\3c&H506840&\bord0\3a&H6F&}Traducción: Iris de la Fuente
+Dialogue: 0,0:23:37.23,0:23:40.85,Cart_A_Tre,CARTEL,0000,0000,0000,,{\bord2\fs16\blur2\fad(600,0)\c&HFBDBF6&\pos(357,193)\3c&HCA2383&\b1\frx8\t(\frx0\3c&H50011F&)}Al siguiente objetivo

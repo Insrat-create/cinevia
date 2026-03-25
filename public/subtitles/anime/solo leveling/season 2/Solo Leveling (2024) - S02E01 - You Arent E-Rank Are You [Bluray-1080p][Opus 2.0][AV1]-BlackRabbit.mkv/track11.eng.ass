@@ -1,0 +1,307 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: DefaultItalics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,0
+Style: DefaultTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,0
+Style: DefaultItalicsTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,0
+Style: Flashback,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: FlashbackItalics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: FlashbackTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0018,0
+Style: FlashbackItalicsTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,0
+Style: Narration,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: Signs,Arial,20.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0030,0030,0010,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.70,0:00:13.03,Default,Sung Jinwoo,0000,0000,0000,,Hello...?
+Dialogue: 0,0:00:13.68,0:00:15.59,DefaultItalics,Sung Jinah,0000,0000,0000,,Jinwoo, are you still asleep?!
+Dialogue: 0,0:00:15.59,0:00:18.20,Default,Sung Jinwoo,0000,0000,0000,,Yeah. I was a little worn out.
+Dialogue: 0,0:00:18.20,0:00:20.35,DefaultItalics,Sung Jinah,0000,0000,0000,,Do you realize what time it is?
+Dialogue: 0,0:00:20.35,0:00:22.66,DefaultItalics,Sung Jinah,0000,0000,0000,,You do remember you're supposed \Nto meet with my teacher, right?
+Dialogue: 0,0:00:26.20,0:00:30.76,Default,Sung Jinah,0000,0000,0000,,Uh... That is you, right, Jinwoo?
+Dialogue: 0,0:00:31.13,0:00:33.26,Default,Sung Jinwoo,0000,0000,0000,,What? You think it looks bad?
+Dialogue: 0,0:00:34.18,0:00:37.64,Narration,Narrator,0000,0000,0000,,It's been over ten years since gates \Nbegan appearing across the world.
+Dialogue: 0,0:00:38.27,0:00:41.53,Narration,Narrator,0000,0000,0000,,The battles between the magic beasts \Ninhabiting the dungeons through the gates
+Dialogue: 0,0:00:41.53,0:00:46.72,Narration,Narrator,0000,0000,0000,,and the human hunters who have \Nawakened the abilities to fight them
+Dialogue: 0,0:00:46.72,0:00:48.82,Narration,Narrator,0000,0000,0000,,show no signs of ending.
+Dialogue: 0,0:00:49.98,0:00:52.98,Narration,Narrator,0000,0000,0000,,Sung Jinwoo, looking to earn enough money
+Dialogue: 0,0:00:52.98,0:00:55.77,Narration,Narrator,0000,0000,0000,,to provide for his sick mother \Nand his student sister,
+Dialogue: 0,0:00:56.18,0:01:00.23,Narration,Narrator,0000,0000,0000,,started working as a hunter \Nof the lowest possible level: E-Rank.
+Dialogue: 0,0:01:00.91,0:01:04.51,Narration,Narrator,0000,0000,0000,,In most cases, a Hunter's powers do not \Nchange from the moment of their awakening,
+Dialogue: 0,0:01:04.51,0:01:07.15,Narration,Narrator,0000,0000,0000,,and nor does their rank.
+Dialogue: 0,0:01:07.46,0:01:11.41,Narration,Narrator,0000,0000,0000,,However, during a raid on a \Ndouble dungeon, Sung Jinwoo
+Dialogue: 0,0:01:11.41,0:01:17.10,Narration,Narrator,0000,0000,0000,,gained the ability to level up \Nas though in a video game.
+Dialogue: 0,0:01:17.85,0:01:21.16,Narration,Narrator,0000,0000,0000,,As he grew stronger in battle, \Nhe obtained the recipe
+Dialogue: 0,0:01:21.16,0:01:25.42,Narration,Narrator,0000,0000,0000,,for the Elixir of Life, said to \Nbe able to cure any disease,
+Dialogue: 0,0:01:25.42,0:01:31.48,Narration,Narrator,0000,0000,0000,,as well as a new job class allowing him to \Ncommand an army of shadows: shadow monarch.
+Dialogue: 0,0:03:02.99,0:03:06.07,Default,Sung Jinah,0000,0000,0000,,Not exactly bad, but...
+Dialogue: 0,0:03:06.07,0:03:08.87,Default,Sung Jinwoo,0000,0000,0000,,Well, it's not like I can meet \Nwith your teacher in a tracksuit.
+Dialogue: 0,0:03:10.09,0:03:12.71,Default,Sung Jinah,0000,0000,0000,,People sure can transform, huh?
+Dialogue: 0,0:03:14.17,0:03:15.88,Default,Student A,0000,0000,0000,,Oh my gosh, who is that?!
+Dialogue: 0,0:03:16.19,0:03:18.29,Default,Sung Jinah,0000,0000,0000,,Wow, you're the center of attention.
+Dialogue: 0,0:03:18.29,0:03:21.29,Default,Sung Jinah,0000,0000,0000,,You don't have a girlfriend, right? \NWant me to make some introductions?
+Dialogue: 0,0:03:22.56,0:03:23.56,Default,Sung Jinwoo,0000,0000,0000,,Pipe down.
+Dialogue: 0,0:03:23.56,0:03:25.85,Default,Sung Jinah,0000,0000,0000,,Ow, ow, ow, ow, ow!
+Dialogue: 0,0:03:26.81,0:03:30.68,Default,Homeroom Teacher,0000,0000,0000,,Miss Jinah is very well behaved, \Nand she gets wonderful grades.
+Dialogue: 0,0:03:30.68,0:03:34.95,Default,Homeroom Teacher,0000,0000,0000,,She's a role model to the other students, \Nwhich is a relief to those of us on staff.
+Dialogue: 0,0:03:35.40,0:03:36.48,Default,Sung Jinwoo,0000,0000,0000,,I see.
+Dialogue: 0,0:03:36.89,0:03:38.52,Default,Homeroom Teacher,0000,0000,0000,,Her mock exam results have been excellent,
+Dialogue: 0,0:03:38.52,0:03:41.38,Default,Homeroom Teacher,0000,0000,0000,,enough to qualify her for the \Nmedical school she's aiming for,
+Dialogue: 0,0:03:41.38,0:03:43.93,Default,Homeroom Teacher,0000,0000,0000,,so I only ask you not to put \Nadditional pressure on her.
+Dialogue: 0,0:03:43.93,0:03:45.20,Default,Sung Jinwoo,0000,0000,0000,,Understood.
+Dialogue: 0,0:03:45.96,0:03:51.32,Default,Homeroom Teacher,0000,0000,0000,,That's everything I needed to cover, \Nbut there was one other thing...
+Dialogue: 0,0:03:51.32,0:03:53.17,Default,Sung Jinwoo,0000,0000,0000,,What's that?
+Dialogue: 0,0:03:54.94,0:04:01.13,Default,Homeroom Teacher,0000,0000,0000,,If Jinah were to awaken, would you \Nallow her to become a hunter?
+Dialogue: 0,0:04:02.69,0:04:03.72,Default,Sung Jinwoo,0000,0000,0000,,No.
+Dialogue: 0,0:04:04.61,0:04:06.49,Default,Homeroom Teacher,0000,0000,0000,,I thought so.
+Dialogue: 0,0:04:06.49,0:04:07.44,Default,Sung Jinwoo,0000,0000,0000,,Why do you ask?
+Dialogue: 0,0:04:08.11,0:04:12.39,Default,Homeroom Teacher,0000,0000,0000,,Mr. Sung, I realize \Nthat I'm asking a lot here...
+Dialogue: 0,0:04:18.24,0:04:20.24,Default,Han Song-yi,0000,0000,0000,,Uh...
+Dialogue: 0,0:04:23.01,0:04:24.62,Default,Han Song-yi,0000,0000,0000,,What's going on here?
+Dialogue: 0,0:04:24.95,0:04:27.19,Default,Sung Jinwoo,0000,0000,0000,,You recognize her?
+Dialogue: 0,0:04:27.19,0:04:30.84,Default,Han Song-yi,0000,0000,0000,,Wait... You're Jinah's brother?!
+Dialogue: 0,0:04:31.28,0:04:33.04,Default,Sung Jinwoo,0000,0000,0000,,Small world, isn't it?
+Dialogue: 0,0:04:35.17,0:04:37.78,Default,Han Song-yi,0000,0000,0000,,I have no idea what our teacher told you,
+Dialogue: 0,0:04:37.78,0:04:41.41,Default,Han Song-yi,0000,0000,0000,,but I'm not going back to school \Nor quitting hunting.
+Dialogue: 0,0:04:41.41,0:04:44.76,Default,Sung Jinwoo,0000,0000,0000,,You're an E-Rank. \NYou can't earn a living like that.
+Dialogue: 0,0:04:45.65,0:04:49.21,Default,Sung Jinwoo,0000,0000,0000,,I'm sure you made some money with our \Nstrike team, but that was a one-time thing.
+Dialogue: 0,0:04:49.21,0:04:52.11,Default,Han Song-yi,0000,0000,0000,,If you're here to lecture me, \Nyou can go home now.
+Dialogue: 0,0:04:52.11,0:04:54.65,Default,Han Song-yi,0000,0000,0000,,Besides, you're E-Rank, too, aren't you?
+Dialogue: 0,0:04:56.91,0:04:58.95,Default,Sung Jinwoo,0000,0000,0000,,I'm not here to tell you to stop.
+Dialogue: 0,0:05:00.46,0:05:01.52,Default,Sung Jinwoo,0000,0000,0000,,Come on.
+Dialogue: 0,0:05:07.57,0:05:11.64,Default,Woo Jinchul,0000,0000,0000,,Welcome home, Hunter Hwang Dongsoo.
+Dialogue: 0,0:05:13.73,0:05:16.30,Default,Hwang Dongsoo,0000,0000,0000,,Like I'd call an old-fashioned \Ndump like this home.
+Dialogue: 0,0:05:16.74,0:05:17.96,Default,Hwang Dongsoo,0000,0000,0000,,Gotta admit, I'm surprised
+Dialogue: 0,0:05:17.96,0:05:21.88,Default,Hwang Dongsoo,0000,0000,0000,,a Hunter's Association manager \Nwould deign to meet me in person.
+Dialogue: 0,0:05:22.91,0:05:25.00,Default,Woo Jinchul,0000,0000,0000,,How long will you be staying?
+Dialogue: 0,0:05:25.00,0:05:29.76,Default,Hwang Dongsoo,0000,0000,0000,,I don't like this country enough \Nto stick around. You can unclench.
+Dialogue: 0,0:05:30.72,0:05:35.06,Default,Woo Jinchul,0000,0000,0000,,Did you come all the way back to your \Nabandoned homeland to find the two of them?
+Dialogue: 0,0:05:35.68,0:05:36.77,Default,Hwang Dongsoo,0000,0000,0000,,"Find" them?
+Dialogue: 0,0:05:36.77,0:05:39.25,Default,Hwang Dongsoo,0000,0000,0000,,Don't ask when you already know the answer.
+Dialogue: 0,0:05:39.25,0:05:42.46,Default,Hwang Dongsoo,0000,0000,0000,,You folks in the Surveillance Team \Ncan just pretend you had no idea...
+Dialogue: 0,0:05:42.46,0:05:45.53,Default,Hwang Dongsoo,0000,0000,0000,,what I plan on doing to them inside a dungeon.
+Dialogue: 0,0:05:45.53,0:05:48.86,Default,Hwang Dongsoo,0000,0000,0000,,First the E-Rank, and then the D-Rank.
+Dialogue: 0,0:05:49.17,0:05:52.96,Default,Hwang Dongsoo,0000,0000,0000,,Or are you really stupid enough \Nto try and stop me?
+Dialogue: 0,0:05:53.70,0:05:56.74,Default,Hwang Dongsoo,0000,0000,0000,,A scrub like you?
+Dialogue: 0,0:05:57.94,0:06:01.12,Default,Woo Jinchul,0000,0000,0000,,All I intend on doing is my job.
+Dialogue: 0,0:06:08.42,0:06:10.56,Default,Go Gunghee,0000,0000,0000,,So they had wings...
+Dialogue: 0,0:06:10.56,0:06:15.01,Default,Choi Jong-in,0000,0000,0000,,The real issue is that \Nthe bodies fell into the sea.
+Dialogue: 0,0:06:15.01,0:06:18.42,Default,Go Gunghee,0000,0000,0000,,You're saying these beasts \Nare now capable of flight?
+Dialogue: 0,0:06:19.17,0:06:22.48,Default,Choi Jong-in,0000,0000,0000,,Only over short distances, \Nfor now, but in time...?
+Dialogue: 0,0:06:24.38,0:06:27.78,Default,Go Gunghee,0000,0000,0000,,I'll have to arrange for it \Nto be looked into on this end.
+Dialogue: 0,0:06:34.16,0:06:37.50,Default,Sung Jinwoo,0000,0000,0000,,Manager Ahn, Mr. Hyun. \NIt's good to see you again.
+Dialogue: 0,0:06:37.50,0:06:39.22,Default,Ahn Sangmin,0000,0000,0000,,It's been a while!
+Dialogue: 0,0:06:39.22,0:06:42.71,Default,Ahn Sangmin,0000,0000,0000,,I didn't expect to hear from you, Mr. Sung.
+Dialogue: 0,0:06:42.71,0:06:44.58,Default,Ahn Sangmin,0000,0000,0000,,What a pleasant surprise!
+Dialogue: 0,0:06:44.58,0:06:46.00,Default,Han Song-yi,0000,0000,0000,,Good evening.
+Dialogue: 0,0:06:46.42,0:06:49.38,Default,Ahn Sangmin,0000,0000,0000,,Hey, I remember you from the other day!
+Dialogue: 0,0:06:49.82,0:06:51.89,Default,Sung Jinwoo,0000,0000,0000,,Sorry to impose.
+Dialogue: 0,0:06:51.89,0:06:54.97,Default,Ahn Sangmin,0000,0000,0000,,Oh, not at all. \NIf it's for you, Hunter Sung...
+Dialogue: 0,0:06:55.61,0:06:59.87,Default,Hyun Kichul,0000,0000,0000,,I was surprised to hear you wanted to \Nsit in on some training. Is it for that girl?
+Dialogue: 0,0:06:59.87,0:07:00.69,Default,Sung Jinwoo,0000,0000,0000,,That's right.
+Dialogue: 0,0:07:00.69,0:07:03.22,Default,Ahn Sangmin,0000,0000,0000,,You timed it perfectly, actually.
+Dialogue: 0,0:07:03.22,0:07:06.75,Default,Ahn Sangmin,0000,0000,0000,,This area has been designated \Na high-frequency gate zone.
+Dialogue: 0,0:07:06.75,0:07:10.16,Default,Ahn Sangmin,0000,0000,0000,,A C-Rank one opened up this morning, in fact.
+Dialogue: 0,0:07:10.16,0:07:14.94,Default,Kim Chul,0000,0000,0000,,How long are you going to stand around \Nand chat? We're not here on a field trip.
+Dialogue: 0,0:07:14.94,0:07:16.83,Default,Ahn Sangmin,0000,0000,0000,,Sorry about that. We're almost done.
+Dialogue: 0,0:07:16.83,0:07:17.91,Default,Sung Jinwoo,0000,0000,0000,,Who's that?
+Dialogue: 0,0:07:17.91,0:07:22.85,Default,Ahn Sangmin,0000,0000,0000,,Kim Chul, an A-Rank. \NAs you can see, he's a tank.
+Dialogue: 0,0:07:22.85,0:07:24.04,Default,Sung Jinwoo,0000,0000,0000,,He's A-Rank...?
+Dialogue: 0,0:07:24.47,0:07:29.04,Default,Ahn Sangmin,0000,0000,0000,,This excursion was actually designated as a \Ntraining experience for our younger hunters,
+Dialogue: 0,0:07:29.04,0:07:32.81,Default,Ahn Sangmin,0000,0000,0000,,him included. He'll be serving \Nas the leader of the strike team.
+Dialogue: 0,0:07:32.81,0:07:37.06,Default,Choi Jong-in,0000,0000,0000,,When we asked him about you tagging along, \Nit seems to have put him in a mood...
+Dialogue: 0,0:07:36.06,0:07:37.06,DefaultTop,Ahn Sangmin,0000,0000,0000,,Hey!
+Dialogue: 0,0:07:37.06,0:07:41.26,Default,Kim Chul,0000,0000,0000,,Unbelievable. Can't believe I'm stuck \Nwith babysitting a couple of E-Ranks.
+Dialogue: 0,0:07:41.86,0:07:43.52,Default,Kim Chul,0000,0000,0000,,One would be bad enough, but two?
+Dialogue: 0,0:07:43.52,0:07:50.00,Default,Ahn Sangmin,0000,0000,0000,,Now, today's strike team will consist \Nof one A-Rank, five B-Ranks,
+Dialogue: 0,0:07:50.00,0:07:52.28,Default,Ahn Sangmin,0000,0000,0000,,and two C-Ranks. Eight in total.
+Dialogue: 0,0:07:52.65,0:07:56.49,Default,Ahn Sangmin,0000,0000,0000,,With the addition of you two, \Nthat makes ten members.
+Dialogue: 0,0:07:57.20,0:08:00.80,DefaultItalics,Sung Jinwoo,0000,0000,0000,,I had hoped she might reconsider \Nupon seeing how brutal raids can be,
+Dialogue: 0,0:08:01.90,0:08:03.60,DefaultItalics,Sung Jinwoo,0000,0000,0000,,but that's a stacked lineup.
+Dialogue: 0,0:08:03.60,0:08:06.06,DefaultItalics,Sung Jinwoo,0000,0000,0000,,If they succeed too easily, \Nit'll defeat the purpose.
+Dialogue: 0,0:08:06.06,0:08:07.30,Default,Choi Jong-in,0000,0000,0000,,Hunter Sung?
+Dialogue: 0,0:08:08.75,0:08:11.64,Default,Choi Jong-in,0000,0000,0000,,In order to ensure the rookie hunters \Nhave something to do,
+Dialogue: 0,0:08:11.64,0:08:13.93,Default,Choi Jong-in,0000,0000,0000,,try to limit your participation, okay?
+Dialogue: 0,0:08:13.93,0:08:15.61,Default,Sung Jinwoo,0000,0000,0000,,I'll keep that in mind.
+Dialogue: 0,0:08:16.94,0:08:18.85,Default,Ahn Sangmin,0000,0000,0000,,Let's get underway, then.
+Dialogue: 0,0:08:18.85,0:08:20.81,Default,Kim Chul,0000,0000,0000,,Don't have to tell me twice.
+Dialogue: 0,0:08:24.00,0:08:26.07,Default,Han Song-yi,0000,0000,0000,,Let's go, mister.
+Dialogue: 0,0:08:26.07,0:08:27.86,Default,Sung Jinwoo,0000,0000,0000,,I'll be right behind you.
+Dialogue: 0,0:08:41.33,0:08:42.72,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Something feels off.
+Dialogue: 0,0:08:43.24,0:08:44.94,DefaultItalics,Sung Jinwoo,0000,0000,0000,,This bizarre sensation...
+Dialogue: 0,0:08:58.88,0:09:00.30,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Don't tell me...
+Dialogue: 0,0:09:02.25,0:09:03.73,Default,Choi Jong-in,0000,0000,0000,,What in the world...?
+Dialogue: 0,0:09:05.18,0:09:06.51,Default,Choi Jong-in,0000,0000,0000,,Hunter Sung?
+Dialogue: 0,0:09:07.27,0:09:10.23,Default,Sung Jinwoo,0000,0000,0000,,Manager Ahn! Contact the primary strike team!
+Dialogue: 0,0:09:10.23,0:09:11.64,Default,Sung Jinwoo,0000,0000,0000,,Right now!
+Dialogue: 0,0:09:13.94,0:09:18.11,Default,Baek Yoonho,0000,0000,0000,,A red gate?! How did a C-Rank gate turn red?!
+Dialogue: 0,0:09:18.11,0:09:20.59,Default,Baek Yoonho,0000,0000,0000,,I'm headed there right now!
+Dialogue: 0,0:09:31.51,0:09:32.74,Default,Go Myunghwan,0000,0000,0000,,What happened back there?
+Dialogue: 0,0:09:32.74,0:09:34.29,Default,Go Myunghwan,0000,0000,0000,,The gate's disappeared!
+Dialogue: 0,0:09:34.29,0:09:35.97,Default,Yada,0000,0000,0000,,How do we get back now?!
+Dialogue: 0,0:09:36.79,0:09:37.93,Default,Kim Chul,0000,0000,0000,,That was a red gate.
+Dialogue: 0,0:09:40.42,0:09:43.73,Default,Han Song-yi,0000,0000,0000,,What exactly is a red gate, mister?
+Dialogue: 0,0:09:44.37,0:09:47.84,Default,Sung Jinwoo,0000,0000,0000,,Unlike typical gates, once you step through,
+Dialogue: 0,0:09:47.84,0:09:50.44,Default,Sung Jinwoo,0000,0000,0000,,it takes you to a dungeon \Ncompletely isolated from the outside.
+Dialogue: 0,0:09:51.22,0:09:54.96,Default,Sung Jinwoo,0000,0000,0000,,You can't leave until the boss is defeated or a dungeon break occurs,
+Dialogue: 0,0:09:54.96,0:09:56.74,Default,Sung Jinwoo,0000,0000,0000,,and no one can send help from the outside.
+Dialogue: 0,0:09:58.19,0:10:02.10,Default,Sung Jinwoo,0000,0000,0000,,Not only that, but the magic beasts \Ninside are usually stronger than normal.
+Dialogue: 0,0:10:03.12,0:10:05.62,Default,Han Song-yi,0000,0000,0000,,So if this is a C-Rank dungeon...
+Dialogue: 0,0:10:12.53,0:10:14.28,Default,Kim Chul,0000,0000,0000,,An ambush! On your guard!
+Dialogue: 0,0:10:17.22,0:10:19.43,Default,Han Song-yi,0000,0000,0000,,Uh... Thank you.
+Dialogue: 0,0:10:19.43,0:10:21.14,Default,Sung Jinwoo,0000,0000,0000,,It's fine. Don't worry about it.
+Dialogue: 0,0:10:23.60,0:10:25.05,Default,Kim Chul,0000,0000,0000,,Ice elves?
+Dialogue: 0,0:10:25.05,0:10:26.52,Default,Go Myunghwan,0000,0000,0000,,And they're way up there!
+Dialogue: 0,0:10:26.52,0:10:29.89,DefaultItalics,Sung Jinwoo,0000,0000,0000,,That's a lot of distance. \NMost people wouldn't have noticed.
+Dialogue: 0,0:10:30.76,0:10:33.40,DefaultItalics,Sung Jinwoo,0000,0000,0000,,They went after our weakest two members...
+Dialogue: 0,0:10:34.29,0:10:36.40,DefaultItalics,Sung Jinwoo,0000,0000,0000,,which would've included me, two months ago.
+Dialogue: 0,0:10:44.38,0:10:47.41,Default,Han Song-yi,0000,0000,0000,,Mister... What were those?
+Dialogue: 0,0:10:47.90,0:10:49.29,Default,Sung Jinwoo,0000,0000,0000,,Ice elves.
+Dialogue: 0,0:10:49.29,0:10:54.18,Default,Sung Jinwoo,0000,0000,0000,,Though due to their cruel nature, hunters \Ncall them something more befitting of demons:
+Dialogue: 0,0:10:54.18,0:10:56.21,Default,Sung Jinwoo,0000,0000,0000,,Ice Slayers.
+Dialogue: 0,0:10:57.13,0:10:58.59,Default,Kim Chul,0000,0000,0000,,Attention!
+Dialogue: 0,0:10:58.96,0:11:02.35,Default,Kim Chul,0000,0000,0000,,As you know, a red gate means \Nwe're completely cut off from support,
+Dialogue: 0,0:11:02.35,0:11:04.35,Default,Kim Chul,0000,0000,0000,,facing enemies of B-Rank or higher.
+Dialogue: 0,0:11:04.35,0:11:05.62,Default,Kim Chul,0000,0000,0000,,Given the situation,
+Dialogue: 0,0:11:05.62,0:11:09.63,Default,Kim Chul,0000,0000,0000,,I expect you to obey the highest-ranked \Nhunter here in order to survive.
+Dialogue: 0,0:11:10.43,0:11:14.24,Default,Kim Chul,0000,0000,0000,,That said, even I can't \Ncommand all of you by myself.
+Dialogue: 0,0:11:14.65,0:11:18.03,Default,Kim Chul,0000,0000,0000,,Which is why I'll be forming a \Nsecond group to proceed onward.
+Dialogue: 0,0:11:18.03,0:11:19.24,DefaultItalics,Sung Jinwoo,0000,0000,0000,,What?
+Dialogue: 0,0:11:19.24,0:11:21.98,Default,Kim Chul,0000,0000,0000,,This is to raise our chances of survival!
+Dialogue: 0,0:11:21.98,0:11:23.31,Default,Kim Chul,0000,0000,0000,,If we stand around debating,
+Dialogue: 0,0:11:23.31,0:11:26.44,Default,Kim Chul,0000,0000,0000,,our only outcomes will be freezing to death \Nor getting slaughtered!
+Dialogue: 0,0:11:27.04,0:11:30.41,Default,Kim Chul,0000,0000,0000,,I guarantee that anyone who follows me \Nwill make it out of here alive!
+Dialogue: 0,0:11:30.41,0:11:31.97,Default,B Rank A,0000,0000,0000,,I-I'll join you.
+Dialogue: 0,0:11:31.97,0:11:32.92,Default,B Rank B,0000,0000,0000,,Let me go with you!
+Dialogue: 0,0:11:32.92,0:11:34.21,Default,Go Myunghwan,0000,0000,0000,,M-Me, too!
+Dialogue: 0,0:11:36.16,0:11:37.59,Default,Kim Chul,0000,0000,0000,,Not you.
+Dialogue: 0,0:11:38.26,0:11:43.05,Default,Kim Chul,0000,0000,0000,,The girl who's here to observe, and you... \Nand anyone C-Rank or lower.
+Dialogue: 0,0:11:43.47,0:11:46.81,Default,Kim Chul,0000,0000,0000,,Every day we spend in here, \Nan hour passes on the outside.
+Dialogue: 0,0:11:46.81,0:11:49.64,Default,Kim Chul,0000,0000,0000,,Whether we end up beating the boss \Nor waiting for a dungeon break,
+Dialogue: 0,0:11:50.24,0:11:52.57,Default,Kim Chul,0000,0000,0000,,we could be here for up to several months.
+Dialogue: 0,0:11:52.57,0:11:54.86,Default,Kim Chul,0000,0000,0000,,That's too long to spend \Nlooking after dead weight.
+Dialogue: 0,0:11:56.32,0:12:01.09,Default,Kim Chul,0000,0000,0000,,Don't look so depressed. Just stay alive until\Nwe beat the boss, and we can all go home.
+Dialogue: 0,0:12:01.09,0:12:04.78,Default,Park Heejin,0000,0000,0000,,Excuse me. Is it okay if I join them?
+Dialogue: 0,0:12:05.99,0:12:07.36,Default,Kim Chul,0000,0000,0000,,Suit yourself.
+Dialogue: 0,0:12:09.53,0:12:12.71,DefaultItalics,Kim Chul,0000,0000,0000,,Does she pity them? What a fool.
+Dialogue: 0,0:12:13.76,0:12:16.67,Default,Park Heejin,0000,0000,0000,,Mr. Kim didn't even notice that arrow.
+Dialogue: 0,0:12:17.02,0:12:19.38,Default,Park Heejin,0000,0000,0000,,You aren't E-Rank, are you?
+Dialogue: 0,0:12:21.67,0:12:25.02,DefaultItalics,Park Heejin,0000,0000,0000,,A-Rank... or maybe even higher.
+Dialogue: 0,0:12:26.85,0:12:27.83,Default,Park Heejin,0000,0000,0000,,Good to meet you.
+Dialogue: 0,0:12:27.83,0:12:29.52,Default,Han Song-yi,0000,0000,0000,,H-Hello.
+Dialogue: 0,0:12:29.89,0:12:30.82,Default,Kim Chul,0000,0000,0000,,Hey.
+Dialogue: 0,0:12:31.27,0:12:33.48,Default,Kim Chul,0000,0000,0000,,We'll be taking the path through the clearing.
+Dialogue: 0,0:12:34.51,0:12:37.32,Default,Sung Jinwoo,0000,0000,0000,,In that case, we'll head for the woods.
+Dialogue: 0,0:12:37.77,0:12:39.32,Default,Kim Chul,0000,0000,0000,,I wish you luck.
+Dialogue: 0,0:12:42.58,0:12:45.26,Default,Sung Jinwoo,0000,0000,0000,,Likewise. Be careful out there.
+Dialogue: 0,0:12:52.51,0:12:53.71,Default,B Rank A,0000,0000,0000,,Captain?
+Dialogue: 0,0:12:53.71,0:12:54.74,Default,Kim Chul,0000,0000,0000,,Look.
+Dialogue: 0,0:12:56.29,0:12:57.50,Default,B Rank A,0000,0000,0000,,Those are...
+Dialogue: 0,0:12:58.14,0:12:59.74,Default,Kim Chul,0000,0000,0000,,An ice bear did that.
+Dialogue: 0,0:12:59.74,0:13:03.30,Default,Kim Chul,0000,0000,0000,,We're basically leaving \Nthat E-Rank's group to die.
+Dialogue: 0,0:13:03.30,0:13:05.85,Default,B Rank B,0000,0000,0000,,They probably haven't had \Nproper training or anything.
+Dialogue: 0,0:13:06.37,0:13:09.31,Default,B Rank B,0000,0000,0000,,Dying after coming to observe a raid... \NTalk about rotten luck.
+Dialogue: 0,0:13:09.82,0:13:14.82,DefaultItalics,Kim Chul,0000,0000,0000,,Hang on. They've got a C-Rank, \Nand Park Heejin, who's a B-Rank...
+Dialogue: 0,0:13:14.82,0:13:17.49,DefaultItalics,Kim Chul,0000,0000,0000,,So why did I assume the \NE-Rank was their leader?
+Dialogue: 0,0:13:19.81,0:13:20.86,Default,Kim Chul,0000,0000,0000,,Get ready, people!
+Dialogue: 0,0:13:31.71,0:13:34.67,Default,Kim Chul,0000,0000,0000,,I want all of you to focus on staying alive.
+Dialogue: 0,0:13:57.43,0:13:58.56,Default,Park Heejin,0000,0000,0000,,Stop!
+Dialogue: 0,0:14:00.27,0:14:01.62,Default,Sung Jinwoo,0000,0000,0000,,What is it?
+Dialogue: 0,0:14:02.48,0:14:04.09,Default,Park Heejin,0000,0000,0000,,That should be obvious.
+Dialogue: 0,0:14:04.09,0:14:07.90,Default,Park Heejin,0000,0000,0000,,Look at those claw marks. \NThis entire forest is ice bear territory.
+Dialogue: 0,0:14:07.90,0:14:09.66,Default,Park Heejin,0000,0000,0000,,We should turn back before we run into any.
+Dialogue: 0,0:14:11.36,0:14:13.60,Default,Sung Jinwoo,0000,0000,0000,,That's exactly why we'll keep going further.
+Dialogue: 0,0:14:14.88,0:14:19.78,Default,Sung Jinwoo,0000,0000,0000,,If this is bear territory, we'll only need to \Nworry about bears while we're inside of it.
+Dialogue: 0,0:14:20.55,0:14:23.26,Default,Sung Jinwoo,0000,0000,0000,,It beats dealing with an \Nintelligent enemy like ice elves.
+Dialogue: 0,0:14:24.47,0:14:29.62,DefaultItalics,Park Heejin,0000,0000,0000,,If ice bears can thrive here, there must be \Nno stronger beasts that'd prey on them.
+Dialogue: 0,0:14:30.18,0:14:32.92,Default,Park Heejin,0000,0000,0000,,I hadn't thought that far ahead.
+Dialogue: 0,0:14:33.86,0:14:37.28,Default,Sung Jinwoo,0000,0000,0000,,That said, it's as cold as \Nyou'd expect out in the woods.
+Dialogue: 0,0:14:42.53,0:14:43.82,Default,Sung Jinwoo,0000,0000,0000,,I've got one for each of us.
+Dialogue: 0,0:14:43.82,0:14:45.83,Default,Park Heejin,0000,0000,0000,,Was that summoning magic?!
+Dialogue: 0,0:14:45.83,0:14:51.17,Default,Go Myunghwan,0000,0000,0000,,But even high-ranked hunters have trouble \Nstoring more than two or three low-level items!
+Dialogue: 0,0:14:53.83,0:14:55.80,Default,Go Myunghwan,0000,0000,0000,,So warm!
+Dialogue: 0,0:14:57.21,0:14:59.39,Default,Han Song-Yi,0000,0000,0000,,Seriously, mister, who are you really?
+Dialogue: 0,0:15:06.82,0:15:10.66,Default,Sung Jinwoo,0000,0000,0000,,I brought you in here, so it's my \Nresponsibility to keep you safe.
+Dialogue: 0,0:15:11.17,0:15:12.98,Default,Sung Jinwoo,0000,0000,0000,,All I ask is you don't ask questions.
+Dialogue: 0,0:15:16.39,0:15:18.06,Default,Sung Jinwoo,0000,0000,0000,,That goes for the two of you, as well.
+Dialogue: 0,0:15:19.04,0:15:23.02,Default,Sung Jinwoo,0000,0000,0000,,Don't ask me about anything, or for anything.
+Dialogue: 0,0:15:35.04,0:15:37.46,Default,Sung Jinwoo,0000,0000,0000,,Change title.
+Dialogue: 0,0:15:42.28,0:15:44.48,Default,Baek Yoonho,0000,0000,0000,,It's sealed shut.
+Dialogue: 0,0:15:44.91,0:15:49.80,Default,Baek Yoonho,0000,0000,0000,,If we're lucky, a few of the A and \NB-Ranks will make it back alive...
+Dialogue: 0,0:15:50.99,0:15:53.98,Default,Baek Yoonho,0000,0000,0000,,It's all going to depend on Hunter Kim.
+Dialogue: 0,0:15:55.11,0:15:59.06,Default,Ahn Sangmin,0000,0000,0000,,There's actually someone else \Nwho accompanied our strike team.
+Dialogue: 0,0:15:59.65,0:16:03.52,Default,Ahn Sangmin,0000,0000,0000,,His name is Sung Jinwoo. \NHe caught my eye recently, and—
+Dialogue: 0,0:16:03.52,0:16:04.40,Default,Baek Yoonho,0000,0000,0000,,What's his rank?
+Dialogue: 0,0:16:05.66,0:16:07.18,Default,Ahn Snagmin,0000,0000,0000,,E-Rank, sir.
+Dialogue: 0,0:16:07.18,0:16:10.08,Default,Ahn Snagmin,0000,0000,0000,,But I suspect he might have reawakened!
+Dialogue: 0,0:16:10.55,0:16:12.10,Default,Baek Yoonho,0000,0000,0000,,Have you confirmed it?
+Dialogue: 0,0:16:14.12,0:16:16.72,Default,Ahn Sangmin,0000,0000,0000,,Not... directly, no.
+Dialogue: 0,0:16:23.72,0:16:25.57,Default,Hwang Dongsoo,0000,0000,0000,,Get a load of this.
+Dialogue: 0,0:16:26.13,0:16:29.40,Default,Hwang Dongsoo,0000,0000,0000,,It's like a who's who \Nof White Tiger Guild bigwigs.
+Dialogue: 0,0:16:29.40,0:16:32.00,Default,Hwang Dongsoo,0000,0000,0000,,There an A-Rank gate \Naround here or something?
+Dialogue: 0,0:16:32.74,0:16:34.47,Default,Baek Yioonho,0000,0000,0000,,Hwang Dongsoo...
+Dialogue: 0,0:16:34.47,0:16:40.31,Default,Hwang Dongsoo,0000,0000,0000,,It's been a while, Baek Yoonho. \NDidn't think I'd run into you.
+Dialogue: 0,0:16:40.71,0:16:42.28,Default,Baek Yoonho,0000,0000,0000,,Why are you here?
+Dialogue: 0,0:16:42.28,0:16:45.77,Default,Baek Yoonho,0000,0000,0000,,You're supposed to be in America. \NWhat are you doing in our jurisdiction?
+Dialogue: 0,0:16:47.06,0:16:48.86,Default,Hwang Dongsoo,0000,0000,0000,,Your "jurisdiction"?
+Dialogue: 0,0:16:49.22,0:16:51.07,Default,Hwang Dongsoo,0000,0000,0000,,I got a question for you, then.
+Dialogue: 0,0:16:51.85,0:16:57.31,Default,Hwang Dongsoo,0000,0000,0000,,What the hell's some unaffiliated E-Rank trash \Ndoing inside of a White Tiger Guild gate?
+Dialogue: 0,0:16:57.31,0:16:58.53,Default,Baek Yoonho,0000,0000,0000,,What?
+Dialogue: 0,0:16:58.53,0:17:00.93,Default,Hwang Dongsoo,0000,0000,0000,,This Sung Jinwoo guy.
+Dialogue: 0,0:17:00.93,0:17:02.54,DefaultItalics,Baek Yoonho,0000,0000,0000,,Hwang's after him, too?
+Dialogue: 0,0:17:02.54,0:17:06.31,Default,Hwang Dongsoo,0000,0000,0000,,I bothered coming down here, \Nand he's stuck behind a red gate?
+Dialogue: 0,0:17:06.31,0:17:09.21,Default,Hwang Dongsoo,0000,0000,0000,,I was hoping to at least \Nget a look at the bastard.
+Dialogue: 0,0:17:09.21,0:17:12.95,Default,Hwang Dongsoo,0000,0000,0000,,And now he's probably gonna \Nbite it on the other side.
+Dialogue: 0,0:17:13.36,0:17:16.30,DefaultItalics,Woo Jinchul,0000,0000,0000,,Sung Jinwoo... You're a lucky man.
+Dialogue: 0,0:17:16.97,0:17:20.77,DefaultItalics,Woo Jinchul,0000,0000,0000,,Even Hwang Dongsoo can't do anything \Nto someone on the other side of a red gate.
+Dialogue: 0,0:17:20.77,0:17:26.35,DefaultItalics,Woo Jinchul,0000,0000,0000,,The question then becomes: are you \Nlucky enough to get out of there alive?
+Dialogue: 0,0:17:30.99,0:17:34.99,Default,Sung Jinwoo,0000,0000,0000,,The experience payout here is way higher. \NI guess that's a red gate for you.
+Dialogue: 0,0:17:35.46,0:17:39.12,Default,Park Heejin,0000,0000,0000,,Wh-Who in the world are you?
+Dialogue: 0,0:17:41.21,0:17:43.75,Default,Han Song-yi,0000,0000,0000,,Bear meat tastes better than I expected.
+Dialogue: 0,0:17:44.22,0:17:47.12,Default,Go Myunghwan,0000,0000,0000,,We're not getting attacked as much...
+Dialogue: 0,0:17:47.12,0:17:50.48,Default,Go Myunghwan,0000,0000,0000,,Did Hunter Sung kill most \Nof the bears already?
+Dialogue: 0,0:17:50.48,0:17:53.88,Default,Park Heejin,0000,0000,0000,,There should still be some in their dens. \NWe have to be careful.
+Dialogue: 0,0:17:54.24,0:17:55.63,Default,Han Song-yi,0000,0000,0000,,I can't help but wonder...
+Dialogue: 0,0:17:56.02,0:17:59.94,Default,Han Song-yi,0000,0000,0000,,After all of that fighting, \Nhe still wants after-meal exercise?
+Dialogue: 0,0:18:01.68,0:18:03.61,Default,Park Heejin,0000,0000,0000,,He's definitely a strange one.
+Dialogue: 0,0:18:05.17,0:18:06.41,Default,Han Song-Yi,0000,0000,0000,,Sure is.
+Dialogue: 0,0:18:13.04,0:18:15.03,Default,Sung Jinwoo,0000,0000,0000,,Looks like an even match, numbers-wise.
+Dialogue: 0,0:18:19.21,0:18:20.45,Default,Sung Jinwoo,0000,0000,0000,,Get out here.
+Dialogue: 0,0:18:38.12,0:18:40.84,Default,Sung Jinwoo,0000,0000,0000,,This'll be your first job.
+Dialogue: 0,0:18:47.35,0:18:48.41,Default,Sung Jinwoo,0000,0000,0000,,Go.
+Dialogue: 0,0:19:18.13,0:19:22.49,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Artillery with high firepower. \NInfantry that can regenerate quickly.
+Dialogue: 0,0:19:22.49,0:19:24.75,DefaultItalics,Sung Jinwoo,0000,0000,0000,,They're outperforming my expectations.
+Dialogue: 0,0:19:24.75,0:19:27.35,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Although they do drain a ton of mana...
+Dialogue: 0,0:19:32.52,0:19:34.19,Default,Sung Jinwoo,0000,0000,0000,,You must be the leader of the pack.
+Dialogue: 0,0:19:54.79,0:19:58.84,DefaultItalics,Sung Jinwoo,0000,0000,0000,,The shadow soldiers were wiped out instantly. \NI don't have the mana to resummon them.
+Dialogue: 0,0:20:01.34,0:20:02.56,Default,Sung Jinwoo,0000,0000,0000,,Igris.
+Dialogue: 0,0:20:38.88,0:20:40.17,Default,Sung Jinwoo,0000,0000,0000,,Wow.
+Dialogue: 0,0:21:04.63,0:21:08.71,DefaultItalics,Sung Jinwoo,0000,0000,0000,,If Igris had been fighting \Nwith his sword the entire time,
+Dialogue: 0,0:21:08.71,0:21:10.83,DefaultItalics,Sung Jinwoo,0000,0000,0000,,he definitely would've killed me.
+Dialogue: 0,0:21:11.83,0:21:14.17,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Only at my current level \Nare we on equal footing...
+Dialogue: 0,0:21:14.78,0:21:18.46,DefaultItalics,Sung Jinwoo,0000,0000,0000,,No. I might still be weaker.
+Dialogue: 0,0:21:21.86,0:21:23.34,Default,Sung Jinwoo,0000,0000,0000,,Nice work.
+Dialogue: 0,0:21:34.04,0:21:34.94,Default,B Rank B,0000,0000,0000,,Help—
+Dialogue: 0,0:21:37.53,0:21:39.61,DefaultItalics,Kim Chul,0000,0000,0000,,This shouldn't be possible...
+Dialogue: 0,0:21:40.24,0:21:44.57,DefaultItalics,Kim Chul,0000,0000,0000,,I... I'm going to join the elite \Nof the White Tiger Guild!
+Dialogue: 0,0:21:45.11,0:21:48.03,DefaultItalics,Kim Chul,0000,0000,0000,,This can't be happening to me!
+Dialogue: 0,0:21:49.48,0:21:51.25,Default,B Rank C,0000,0000,0000,,Captain...!

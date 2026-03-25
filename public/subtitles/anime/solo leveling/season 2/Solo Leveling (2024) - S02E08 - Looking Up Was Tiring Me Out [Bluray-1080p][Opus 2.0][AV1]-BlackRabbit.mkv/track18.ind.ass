@@ -1,0 +1,363 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: OS,Arial,18.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0001,0001,0015,0
+Style: Italics,Arial,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0020,0020,0022,0
+Style: On Top,Arial,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0022,0
+Style: DefaultLow,Arial,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0020,0020,0010,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.67,0:00:11.27,Default,,0000,0000,0000,,Menyerah!
+Dialogue: 0,0:00:12.21,0:00:13.53,Default,,0000,0000,0000,,Aku menyerah.
+Dialogue: 0,0:00:13.53,0:00:14.69,Default,,0000,0000,0000,,Mohon ampuni nyawaku.
+Dialogue: 0,0:00:16.45,0:00:17.59,Default,,0000,0000,0000,,Suara itu...
+Dialogue: 0,0:00:17.97,0:00:19.07,Default,,0000,0000,0000,,Mungkinkah kau adalah...
+Dialogue: 0,0:00:27.53,0:00:29.17,Default,,0000,0000,0000,,Maaf.
+Dialogue: 0,0:00:29.17,0:00:30.85,Default,,0000,0000,0000,,Kami yang sudah kalah.
+Dialogue: 0,0:00:30.85,0:00:32.99,Default,,0000,0000,0000,,Mohon ampuni aku.
+Dialogue: 0,0:00:42.68,0:00:46.39,Default,,0000,0000,0000,,(Solo Leveling Season 2\N-Arise from the Shadow-)
+Dialogue: 0,0:02:05.27,0:02:08.01,Default,,0000,0000,0000,,Kau menyerang kami dan masih mau aku\Nampuni nyawamu?
+Dialogue: 0,0:02:08.53,0:02:10.91,Default,,0000,0000,0000,,Selain itu, rekanmu semuanya\Nmati di tanganku.
+Dialogue: 0,0:02:11.39,0:02:14.43,Default,,0000,0000,0000,,Melindungiku adalah tugas kesatria.
+Dialogue: 0,0:02:14.43,0:02:15.79,Default,,0000,0000,0000,,Selama aku selamat,
+Dialogue: 0,0:02:15.79,0:02:17.63,Default,,0000,0000,0000,,aku yakin mereka pasti akan sangat senang.
+Dialogue: 0,0:02:19.15,0:02:20.85,Default,,0000,0000,0000,,Kau malah mengatakan hal seperti ini...
+Dialogue: 0,0:02:21.53,0:02:22.57,Default,,0000,0000,0000,,Sudahlah.
+Dialogue: 0,0:02:28.79,0:02:29.91,Default,,0000,0000,0000,,Ini kesempatan bagus.
+Dialogue: 0,0:02:34.92,0:02:36.25,Default,,0000,0000,0000,,KIBA MENGGUNAKAN KEAHLIAN NYANYIAN PELINDUNG
+Dialogue: 0,0:02:36.25,0:02:37.31,Default,,0000,0000,0000,,Apa maksudmu dengan ini?
+Dialogue: 0,0:02:37.73,0:02:41.05,Default,,0000,0000,0000,,Selama kau bisa mengampuni nyawaku,\Naku rela memberikan apa pun.
+Dialogue: 0,0:02:41.05,0:02:42.45,Default,,0000,0000,0000,,Jadi kumohon, berilah aku kesempatan.
+Dialogue: 0,0:02:42.71,0:02:43.89,Default,,0000,0000,0000,,Orang ini...
+Dialogue: 0,0:02:45.21,0:02:48.55,Default,,0000,0000,0000,,Bisakah kau mendapatkan\Nlisensi masuk lantai atas?
+Dialogue: 0,0:02:48.99,0:02:50.73,Default,,0000,0000,0000,,Untuk lisensinya
+Dialogue: 0,0:02:50.73,0:02:53.21,Default,,0000,0000,0000,,saat ini sedang disimpan\Noleh keluarga kami.
+Dialogue: 0,0:02:53.21,0:02:55.69,Default,,0000,0000,0000,,Selama kau bisa mengampuni nyawaku,\Naku bisa memberikannya padamu.
+Dialogue: 0,0:02:56.35,0:02:59.91,Default,,0000,0000,0000,,Aku juga tahu semua lokasi lisensi\Ndi lantai atas.
+Dialogue: 0,0:02:59.91,0:03:03.37,Default,,0000,0000,0000,,Jika kau bisa menjamin keselamatanku\Ndan keluarga kami,
+Dialogue: 0,0:03:03.37,0:03:04.40,Default,,0000,0000,0000,,aku bisa membantumu menunjukkan jalan.
+Dialogue: 0,0:03:04.93,0:03:07.03,Default,,0000,0000,0000,,Ternyata disembunyikan oleh kalian.
+Dialogue: 0,0:03:07.69,0:03:10.51,Default,,0000,0000,0000,,Tidak heran aku tidak bisa mendapatkannya\Nmeskipun aku mengalahkan musuh.
+Dialogue: 0,0:03:11.09,0:03:12.23,Default,,0000,0000,0000,,Namun, masalahnya adalah...
+Dialogue: 0,0:03:14.87,0:03:18.23,Default,,0000,0000,0000,,Bisakah aku benar-benar mempercayaimu?
+Dialogue: 0,0:03:19.23,0:03:20.92,Default,,0000,0000,0000,,I... Tentu saja...
+Dialogue: 0,0:03:21.41,0:03:24.81,Default,,0000,0000,0000,,Aku tidak berbohong padamu...
+Dialogue: 0,0:03:27.93,0:03:28.79,Default,,0000,0000,0000,,Baiklah.
+Dialogue: 0,0:03:29.11,0:03:31.55,Default,,0000,0000,0000,,Selama aku bisa mendapatkan lisensinya,\Naku tidak akan menyentuh kalian.
+Dialogue: 0,0:03:32.79,0:03:35.43,Default,,0000,0000,0000,,Terima kasih banyak.
+Dialogue: 0,0:03:36.59,0:03:37.63,Default,,0000,0000,0000,,Omong-omong,
+Dialogue: 0,0:03:38.51,0:03:40.09,Default,,0000,0000,0000,,kalian sebenarnya siapa?
+Dialogue: 0,0:03:57.43,0:04:00.38,Default,,0000,0000,0000,,Aku Esil, putri tertua\Ndari keluarga Radiru.
+Dialogue: 0,0:04:00.81,0:04:03.41,Default,,0000,0000,0000,,Bukan, bukan itu yang ingin kutanyakan.
+Dialogue: 0,0:04:05.29,0:04:10.25,Default,,0000,0000,0000,,Kupikir aku bisa mendapatkan informasi\Ntentang sistem dari iblis selain Baruka...
+Dialogue: 0,0:04:12.03,0:04:13.57,Default,,0000,0000,0000,,Apakah di kepala kalian
+Dialogue: 0,0:04:13.83,0:04:16.35,Default,,0000,0000,0000,,juga terus-menerus mendengar suara\Nyang menyuruh kalian "membunuh manusia"?
+Dialogue: 0,0:04:16.63,0:04:17.49,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:04:17.83,0:04:19.13,Default,,0000,0000,0000,,Hmm...
+Dialogue: 0,0:04:19.55,0:04:20.33,Default,,0000,0000,0000,,Tidak.
+Dialogue: 0,0:04:20.33,0:04:22.89,Default,,0000,0000,0000,,Namun, kami mendengar perintah lain.
+Dialogue: 0,0:04:22.89,0:04:23.91,Default,,0000,0000,0000,,Perintah apa?
+Dialogue: 0,0:04:24.77,0:04:26.61,Default,,0000,0000,0000,,"Lindungi ruang tempat kami berada."
+Dialogue: 0,0:04:27.77,0:04:28.67,Default,,0000,0000,0000,,Mulai kapan?
+Dialogue: 0,0:04:28.99,0:04:30.69,Default,,0000,0000,0000,,Sejak kami datang ke sini.
+Dialogue: 0,0:04:30.69,0:04:32.39,Default,,0000,0000,0000,,"Datang ke sini"?
+Dialogue: 0,0:04:33.27,0:04:34.43,Default,,0000,0000,0000,,Lalu sebelum ini, kalian ada di mana?
+Dialogue: 0,0:04:34.81,0:04:35.87,Default,,0000,0000,0000,,Di Dunia Iblis.
+Dialogue: 0,0:04:35.87,0:04:39.17,Default,,0000,0000,0000,,Namun, suatu hari aku tersadar\Ndan ternyata aku sudah berada di tempat ini.
+Dialogue: 0,0:04:40.05,0:04:42.95,Default,,0000,0000,0000,,Apa yang kalian lakukan di Dunia Iblis?
+Dialogue: 0,0:04:45.85,0:04:47.13,Default,,0000,0000,0000,,Perang...
+Dialogue: 0,0:04:48.05,0:04:50.33,Default,,0000,0000,0000,,Kami sedang mempersiapkan perang.
+Dialogue: 0,0:04:50.63,0:04:51.77,Default,,0000,0000,0000,,Perang?
+Dialogue: 0,0:04:52.35,0:04:53.39,Default,,0000,0000,0000,,Kalian akan berperang dengan siapa?
+Dialogue: 0,0:04:54.39,0:04:58.59,Default,,0000,0000,0000,,Dengan musuh yang sangat kuat sehingga\Nseluruh iblis dikumpulkan untuk melawannya.
+Dialogue: 0,0:04:59.17,0:05:02.29,Default,,0000,0000,0000,,Saat itu kami berada di ambang perang\Ndengan musuh yang kuat itu.
+Dialogue: 0,0:05:04.49,0:05:06.87,Default,,0000,0000,0000,,Sudah di luar informasi\Nyang bisa diungkapkan.
+Dialogue: 0,0:05:06.87,0:05:08.47,Default,,0000,0000,0000,,Isi percakapan telah diblokir.
+Dialogue: 0,0:05:08.47,0:05:10.89,Default,,0000,0000,0000,,Sudah di luar informasi\Nyang bisa diungkapkan.
+Dialogue: 0,0:05:10.89,0:05:12.25,Default,,0000,0000,0000,,Isi percakapan telah diblokir.
+Dialogue: 0,0:05:12.49,0:05:13.39,Default,,0000,0000,0000,,Sudah di luar...
+Dialogue: 0,0:05:18.43,0:05:20.25,Default,,0000,0000,0000,,Sepertinya aku tidak bisa\Nbertanya lebih lanjut.
+Dialogue: 0,0:05:23.31,0:05:29.45,Default,,0000,0000,0000,,Berikut adalah catatan kerusakan\Ndan catatan penaklukan yang disebabkan
+Dialogue: 0,0:05:29.45,0:05:31.05,Default,,0000,0000,0000,,hewan iblis bertipe semut bersayap\Nmendarat di pulau terpencil Jepang kali ini.
+Dialogue: 0,0:05:31.73,0:05:34.13,Default,,0000,0000,0000,,Total menyebabkan 294 masyarakat\Nterluka dan tewas.
+Dialogue: 0,0:05:34.67,0:05:37.33,Default,,0000,0000,0000,,Jumlah pemburu yang terjun\Ndalam pertempuran adalah 108 orang.
+Dialogue: 0,0:05:37.87,0:05:39.29,Default,,0000,0000,0000,,Di antara mereka yang tewas\Ndalam pertempuran
+Dialogue: 0,0:05:39.29,0:05:42.91,Default,,0000,0000,0000,,adalah 4 orang level E, 1 orang level C,\Ndan 1 orang level B.
+Dialogue: 0,0:05:43.97,0:05:46.73,Default,,0000,0000,0000,,Hanya satu ekor saja menyebabkan\Nkorban jiwa seperti ini...
+Dialogue: 0,0:05:47.13,0:05:50.95,Default,,0000,0000,0000,,Pemburu level A yang datang kemudian\Nmemberikan pukulan mematikan padanya
+Dialogue: 0,0:05:50.95,0:05:52.27,Default,,0000,0000,0000,,sehingga berhasil ditaklukkan.
+Dialogue: 0,0:05:52.67,0:05:56.21,Default,,0000,0000,0000,,Artinya, kekuatan semut bersayap\Nadalah level A.
+Dialogue: 0,0:05:56.93,0:06:01.71,Default,,0000,0000,0000,,Ini sesuai dengan kesimpulan yang ditarik\Nbagian investigasi setelah melakukan otopsi.
+Dialogue: 0,0:06:04.53,0:06:08.75,Default,,0000,0000,0000,,Pulau yang terkena bencana kali ini\Nberjarak 120 kilometer dari Pulau Jeju.
+Dialogue: 0,0:06:09.37,0:06:12.73,Default,,0000,0000,0000,,Jika semut-semut itu memperoleh\Nkemampuan terbang yang lebih kuat,
+Dialogue: 0,0:06:12.73,0:06:15.01,Default,,0000,0000,0000,,ujung selatan wilayah negara juga akan masuk\Nke dalam jangkauan pendaratan mereka.
+Dialogue: 0,0:06:16.05,0:06:18.51,Default,,0000,0000,0000,,Segera minta bantuan dari Jepang.
+Dialogue: 0,0:06:19.23,0:06:22.99,Default,,0000,0000,0000,,Juga ajukan peringatan kepada negara tetangga,\Nmeminta mereka meningkatkan kewaspadaan.
+Dialogue: 0,0:06:23.10,0:06:23.52,Default,,0000,0000,0000,,Ya.
+Dialogue: 0,0:06:23.97,0:06:25.75,Default,,0000,0000,0000,,Yang seharusnya datang tetap datang juga.
+Dialogue: 0,0:06:25.75,0:06:27.27,Default,,0000,0000,0000,,Sekarang setiap detik sangat penting.
+Dialogue: 0,0:06:27.81,0:06:31.77,Default,,0000,0000,0000,,Sebenarnya aku sangat ingin bertindak\Nlebih dulu sebelum muncul korban jiwa...
+Dialogue: 0,0:06:33.03,0:06:36.65,Default,,0000,0000,0000,,Sekarang aku atas nama\NPresiden Asosiasi Pemburu memerintahkan
+Dialogue: 0,0:06:37.05,0:06:40.31,Default,,0000,0000,0000,,untuk memulai Misi Serangan keempat\NPulau Jeju.
+Dialogue: 0,0:06:42.49,0:06:43.79,Default,,0000,0000,0000,,Maaf...
+Dialogue: 0,0:06:44.15,0:06:47.29,Default,,0000,0000,0000,,Aku juga tidak tahu kenapa aku\Ntiba-tiba pingsan...
+Dialogue: 0,0:06:47.77,0:06:49.55,Default,,0000,0000,0000,,Tidak apa-apa, jangan dipikirkan.
+Dialogue: 0,0:06:50.15,0:06:51.69,Default,,0000,0000,0000,,Apakah ada yang aneh dengan tubuhmu?
+Dialogue: 0,0:06:52.13,0:06:53.83,Default,,0000,0000,0000,,Tidak apa-apa, aku baik-baik saja.
+Dialogue: 0,0:06:54.15,0:06:56.53,Default,,0000,0000,0000,,Apakah kau mengkhawatirkanku?
+Dialogue: 0,0:06:56.79,0:06:58.43,Default,,0000,0000,0000,,Bisa dibilang begitu.
+Dialogue: 0,0:06:59.63,0:07:02.49,Default,,0000,0000,0000,,Omong-omong, apakah kita\Nsudah hampir sampai?
+Dialogue: 0,0:07:02.49,0:07:04.19,Default,,0000,0000,0000,,Ah, iya.
+Dialogue: 0,0:07:04.19,0:07:06.51,Default,,0000,0000,0000,,Itu adalah kastil tempat\Nkeluarga Radiru tinggal.
+Dialogue: 0,0:07:06.51,0:07:08.33,Default,,0000,0000,0000,,Lisensinya ada di dalam sana.
+Dialogue: 0,0:07:09.79,0:07:12.47,Default,,0000,0000,0000,,Sebenarnya siapa yang kau bawa kembali,
+Dialogue: 0,0:07:12.47,0:07:13.47,Default,,0000,0000,0000,,Esil?
+Dialogue: 0,0:07:13.47,0:07:14.20,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:07:14.45,0:07:16.49,Default,,0000,0000,0000,,Masa kau tidak melihatnya?
+Dialogue: 0,0:07:16.49,0:07:20.33,Default,,0000,0000,0000,,Tentara yang tidak terhitung jumlahnya\Ntersembunyi di bayangan pria itu.
+Dialogue: 0,0:07:20.33,0:07:21.41,Default,,0000,0000,0000,,Oh...
+Dialogue: 0,0:07:21.41,0:07:22.75,Default,,0000,0000,0000,,Dia sangat tajam.
+Dialogue: 0,0:07:23.07,0:07:26.33,Default,,0000,0000,0000,,Jika kau ingin menipu putriku\Ndan kemudian menyerang kastil,
+Dialogue: 0,0:07:26.63,0:07:27.99,Default,,0000,0000,0000,,maka jangan harap bisa keluar hidup-hidup.
+Dialogue: 0,0:07:28.25,0:07:30.57,Default,,0000,0000,0000,,Ayah, tunggu sebentar.
+Dialogue: 0,0:07:31.03,0:07:32.99,Default,,0000,0000,0000,,Aku sudah berjanji pada orang ini,
+Dialogue: 0,0:07:33.33,0:07:36.47,Default,,0000,0000,0000,,selama lisensi masuk diberikan padaku,\Naku tidak akan menyakiti kalian.
+Dialogue: 0,0:07:38.83,0:07:42.15,Default,,0000,0000,0000,,Aku dengar Vulcan dan Metus\Ndikalahkan olehnya...
+Dialogue: 0,0:07:42.51,0:07:46.31,Default,,0000,0000,0000,,Itu berarti dia bukan lawan\Nyang bisa kami kalahkan?
+Dialogue: 0,0:07:47.97,0:07:49.33,Default,,0000,0000,0000,,Hah...
+Dialogue: 0,0:07:54.28,0:07:56.24,Default,,0000,0000,0000,,PROP LISENSI MASUK\NLISENSI UNTUK BISA MASUK KE LANTAI 81 KASTIL IBLIS/HANYA BISA DIGUNAKAN DALAM /FORMASI SIHIR PEMINDAHAN DI LANTAI 80
+Dialogue: 0,0:07:57.34,0:07:58.88,Default,,0000,0000,0000,,Aku menerimanya.
+Dialogue: 0,0:07:59.88,0:08:02.42,Default,,0000,0000,0000,,Jadi kau sudah menyelesaikan urusanmu?
+Dialogue: 0,0:08:02.84,0:08:04.82,Default,,0000,0000,0000,,Kalau begitu cepat pergi.
+Dialogue: 0,0:08:04.82,0:08:06.20,Default,,0000,0000,0000,,Ada satu hal lagi.
+Dialogue: 0,0:08:07.24,0:08:08.42,Default,,0000,0000,0000,,Aku ingin meminjamnya sebentar.
+Dialogue: 0,0:08:08.74,0:08:09.52,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:08:09.52,0:08:10.38,Default,,0000,0000,0000,,A...
+Dialogue: 0,0:08:12.58,0:08:13.74,Default,,0000,0000,0000,,Bukan begitu.
+Dialogue: 0,0:08:13.74,0:08:15.20,Default,,0000,0000,0000,,Aku ingin memintanya\Nuntuk membantuku menunjukkan jalan.
+Dialogue: 0,0:08:15.56,0:08:18.46,Default,,0000,0000,0000,,Karena dia bilang dia tahu lokasi lisensi\Ndi setiap lantai.
+Dialogue: 0,0:08:20.18,0:08:22.16,Default,,0000,0000,0000,,Bisakah kau menjamin keselamatan putriku?
+Dialogue: 0,0:08:22.16,0:08:23.18,Default,,0000,0000,0000,,Bisa.
+Dialogue: 0,0:08:26.14,0:08:27.18,Default,,0000,0000,0000,,Baiklah kalau begitu.
+Dialogue: 0,0:08:27.46,0:08:28.58,Default,,0000,0000,0000,,Aku mengerti.
+Dialogue: 0,0:08:29.10,0:08:30.10,Default,,0000,0000,0000,,Beginilah situasinya.
+Dialogue: 0,0:08:30.40,0:08:31.88,Default,,0000,0000,0000,,Mohon bantuanmu, Esil.
+Dialogue: 0,0:08:31.88,0:08:33.04,Default,,0000,0000,0000,,Baik.
+Dialogue: 0,0:08:45.44,0:08:46.45,Default,,0000,0000,0000,,Presiden Asosiasi.
+Dialogue: 0,0:08:51.25,0:08:53.13,Default,,0000,0000,0000,,KESATRIA IBLIS TELAH DIKALAHKAN
+Dialogue: 0,0:08:53.13,0:08:54.34,Default,,0000,0000,0000,,BANGSAWAN IBLIS TELAH DIKALAHKAN
+Dialogue: 0,0:08:54.92,0:08:56.72,Default,,0000,0000,0000,,PROP LISENSI MASUK LANTAI 90
+Dialogue: 0,0:08:57.20,0:08:58.20,Default,,0000,0000,0000,,Baik.
+Dialogue: 0,0:08:58.20,0:09:00.20,Default,,0000,0000,0000,,Dengan begini lantai 89 sudah selesai.
+Dialogue: 0,0:09:02.20,0:09:04.94,Default,,0000,0000,0000,,Igris dan Tank juga naik level.
+Dialogue: 0,0:09:05.06,0:09:06.52,Default,,0000,0000,0000,,IGRIS LEVEL 1 KELAS KESATRIA ELIT\NTANK LEVEL 1 KELAS KESATRIA
+Dialogue: 0,0:09:07.04,0:09:09.38,Default,,0000,0000,0000,,Kekuatannya mungkin sekitar\Nlevel S dan level A.
+Dialogue: 0,0:09:09.68,0:09:11.58,Default,,0000,0000,0000,,Kekuatanku juga makin cukup.
+Dialogue: 0,0:09:13.82,0:09:14.76,Default,,0000,0000,0000,,Dasar.
+Dialogue: 0,0:09:15.06,0:09:20.00,Default,,0000,0000,0000,,Kalau begini hadiah untuk negosiasi\Njadi sia-sia...
+Dialogue: 0,0:09:20.24,0:09:22.00,Default,,0000,0000,0000,,Kau bisa langsung membawanya kembali,\Ntidak apa-apa.
+Dialogue: 0,0:09:22.26,0:09:23.88,Default,,0000,0000,0000,,Tidak bisa.
+Dialogue: 0,0:09:23.88,0:09:27.04,Default,,0000,0000,0000,,Lantai di atas 90 dikelola\Noleh bangsawan tingkat tinggi.
+Dialogue: 0,0:09:27.76,0:09:30.50,Default,,0000,0000,0000,,Level mereka sama sekali berbeda\Ndengan yang di bawah.
+Dialogue: 0,0:09:31.06,0:09:34.38,Default,,0000,0000,0000,,Jadi mencoba menggunakan percakapan\Nuntuk mendapatkan lisensi mungkin lebih...
+Dialogue: 0,0:09:34.38,0:09:36.90,Default,,0000,0000,0000,,Jika saat itu aku lebih lemah dari kalian,
+Dialogue: 0,0:09:37.40,0:09:38.72,Default,,0000,0000,0000,,apakah kalian akan mencoba\Nberbicara denganku?
+Dialogue: 0,0:09:40.20,0:09:41.38,Default,,0000,0000,0000,,Beginilah situasinya.
+Dialogue: 0,0:09:42.20,0:09:45.14,Default,,0000,0000,0000,,Bukankah kalian sedang bersaing peringkat\Ndengan Bangsawan Iblis lainnya?
+Dialogue: 0,0:09:45.90,0:09:49.52,Default,,0000,0000,0000,,Aku akan menjadikan keluarga Ladis\Nyang pertama.
+Dialogue: 0,0:09:49.92,0:09:51.60,Default,,0000,0000,0000,,Yang benar itu Radiru...
+Dialogue: 0,0:09:52.14,0:09:53.10,Default,,0000,0000,0000,,Itu...
+Dialogue: 0,0:09:53.10,0:09:57.38,Default,,0000,0000,0000,,Pak Jinwoo, kenapa kau\Nmelepaskan keluarga kami?
+Dialogue: 0,0:09:58.14,0:09:59.86,Default,,0000,0000,0000,,Karena aku sangat menyukaimu.
+Dialogue: 0,0:09:59.86,0:10:00.70,Default,,0000,0000,0000,,A...
+Dialogue: 0,0:10:00.70,0:10:01.90,Default,,0000,0000,0000,,Apa...
+Dialogue: 0,0:10:02.36,0:10:03.94,Default,,0000,0000,0000,,Mulai dari Jinho, lalu Esil,
+Dialogue: 0,0:10:04.50,0:10:08.38,Default,,0000,0000,0000,,sepertinya aku sangat cocok dengan orang\Nyang kurang berpikir seperti ini.
+Dialogue: 0,0:10:09.40,0:10:10.88,Default,,0000,0000,0000,,Esil, kau boleh kembali.
+Dialogue: 0,0:10:10.88,0:10:11.64,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:10:11.64,0:10:13.20,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:10:13.70,0:10:16.00,Default,,0000,0000,0000,,Kau bilang musuh selanjutnya\Nakan lebih kuat, 'kan?
+Dialogue: 0,0:10:16.70,0:10:18.34,Default,,0000,0000,0000,,Aku juga sudah berjanji pada ayahmu,
+Dialogue: 0,0:10:18.62,0:10:20.88,Default,,0000,0000,0000,,selama kau memberitahuku\Nlokasi lisensinya,
+Dialogue: 0,0:10:21.12,0:10:22.66,Default,,0000,0000,0000,,sisanya biar aku yang urus sendiri.
+Dialogue: 0,0:10:23.22,0:10:26.14,Default,,0000,0000,0000,,Apa aku benar-benar tidak berguna?
+Dialogue: 0,0:10:26.54,0:10:27.80,Default,,0000,0000,0000,,Bukan begitu.
+Dialogue: 0,0:10:28.12,0:10:29.20,Default,,0000,0000,0000,,Aku hanya merasa kau pasti lelah.
+Dialogue: 0,0:10:29.96,0:10:30.86,Default,,0000,0000,0000,,Terima kasih atas kerja kerasmu.
+Dialogue: 0,0:10:31.34,0:10:32.20,Default,,0000,0000,0000,,Terima kasih.
+Dialogue: 0,0:10:33.18,0:10:35.64,Default,,0000,0000,0000,,Aku akan mengikutimu sampai akhir.
+Dialogue: 0,0:10:35.64,0:10:36.90,Default,,0000,0000,0000,,Aku ingin melihat sendiri,
+Dialogue: 0,0:10:37.20,0:10:39.40,Default,,0000,0000,0000,,melihat apa yang akan\Nkau capai, Pak Jinwoo.
+Dialogue: 0,0:10:41.26,0:10:42.34,Default,,0000,0000,0000,,Aku mengerti.
+Dialogue: 0,0:10:42.66,0:10:43.70,Default,,0000,0000,0000,,Kalau begitu, mari kita pergi.
+Dialogue: 0,0:10:45.38,0:10:46.32,Default,,0000,0000,0000,,Ya.
+Dialogue: 0,0:10:50.02,0:10:51.18,Default,,0000,0000,0000,,Seperti yang dikatakan Esil,
+Dialogue: 0,0:10:51.68,0:10:54.06,Default,,0000,0000,0000,,setelah naik ke lantai 90,\Ntingkat kesulitannya langsung naik drastis.
+Dialogue: 0,0:10:54.82,0:10:57.28,Default,,0000,0000,0000,,Kekuatan dan jumlah\Nhewan iblis penjaga kota
+Dialogue: 0,0:10:57.78,0:10:59.96,Default,,0000,0000,0000,,menjadi sangat berbeda dari sebelumnya.
+Dialogue: 0,0:11:00.54,0:11:02.34,Default,,0000,0000,0000,,Namun, aku tetap selangkah
+Dialogue: 0,0:11:02.34,0:11:03.30,Default,,0000,0000,0000,,SUDAH TIBA DI LANTAI 92\Ndemi selangkah
+Dialogue: 0,0:11:03.30,0:11:04.28,Default,,0000,0000,0000,,mendaki ke puncak.
+Dialogue: 0,0:11:04.51,0:11:05.72,Default,,0000,0000,0000,,SUDAH TIBA DI LANTAI 95
+Dialogue: 0,0:11:06.18,0:11:07.18,Default,,0000,0000,0000,,Aku harus
+Dialogue: 0,0:11:07.52,0:11:08.39,Default,,0000,0000,0000,,SUDAH TIBA DI LANTAI 97\Nmendapatkan bahan
+Dialogue: 0,0:11:08.39,0:11:09.88,Default,,0000,0000,0000,,"eliksir kehidupan".
+Dialogue: 0,0:11:10.30,0:11:11.38,Default,,0000,0000,0000,,Untuk itu...
+Dialogue: 0,0:11:15.36,0:11:20.26,Default,,0000,0000,0000,,Aku dan Pemburu Cha menerima panggilan\Nuntuk Misi Serangan Pulau Jeju keempat.
+Dialogue: 0,0:11:20.26,0:11:21.02,Default,,0000,0000,0000,,Ya.
+Dialogue: 0,0:11:21.26,0:11:25.02,Default,,0000,0000,0000,,Selain kita, sepertinya panggilan juga diberikan\Nkepada Pak Baek dari Asosiasi Macan Putih
+Dialogue: 0,0:11:25.22,0:11:28.82,Default,,0000,0000,0000,,dan semua pemburu level S di dalam negeri.
+Dialogue: 0,0:11:29.48,0:11:31.52,Default,,0000,0000,0000,,Artinya, Pemburu Sung juga...
+Dialogue: 0,0:11:31.98,0:11:37.58,Default,,0000,0000,0000,,Dan kali ini secara resmi diputuskan untuk\Nmelakukan operasi bersama dengan negara tetangga.
+Dialogue: 0,0:11:38.20,0:11:39.34,Default,,0000,0000,0000,,Maksud Anda Jepang?
+Dialogue: 0,0:11:39.74,0:11:40.58,Default,,0000,0000,0000,,Ya.
+Dialogue: 0,0:11:41.12,0:11:43.52,Default,,0000,0000,0000,,Mempertimbangkan kemampuan terbang\Nsemut bersayap,
+Dialogue: 0,0:11:43.52,0:11:45.58,Default,,0000,0000,0000,,mereka juga berada dalam jangkauan\Nserangan hewan iblis.
+Dialogue: 0,0:11:46.00,0:11:47.60,Default,,0000,0000,0000,,Ini adalah keputusan yang wajar.
+Dialogue: 0,0:11:49.12,0:11:50.40,Default,,0000,0000,0000,,Selama mereka bisa dimusnahkan,
+Dialogue: 0,0:11:50.84,0:11:53.04,Default,,0000,0000,0000,,siapa pun boleh datang.
+Dialogue: 0,0:11:54.58,0:11:56.04,Default,,0000,0000,0000,,Kapan akan bertindak?
+Dialogue: 0,0:11:56.38,0:11:57.62,Default,,0000,0000,0000,,Belum diputuskan.
+Dialogue: 0,0:11:57.84,0:12:00.30,Default,,0000,0000,0000,,Namun, aku rasa akan segera dimulai
+Dialogue: 0,0:12:00.96,0:12:02.02,Default,,0000,0000,0000,,dan
+Dialogue: 0,0:12:02.02,0:12:04.18,Default,,0000,0000,0000,,untuk mendiskusikan rencana operasi,
+Dialogue: 0,0:12:04.52,0:12:08.74,Default,,0000,0000,0000,,kabarnya hari ini akan ada pemburu dari asosiasi\Nsuper besar yang datang ke dalam negeri.
+Dialogue: 0,0:12:13.26,0:12:14.66,Default,,0000,0000,0000,,SUDAH TIBA DI LANTAI 100, LANTAI TERATAS\NApakah ini akhirnya sampai di lantai teratas?
+Dialogue: 0,0:12:15.20,0:12:17.16,Default,,0000,0000,0000,,Namun, tidak ada siapa-siapa di sini...
+Dialogue: 0,0:12:32.42,0:12:33.36,Default,,0000,0000,0000,,Itu adalah
+Dialogue: 0,0:12:33.74,0:12:35.02,Default,,0000,0000,0000,,raja dari para iblis,
+Dialogue: 0,0:12:36.26,0:12:37.18,Default,,0000,0000,0000,,Baran.
+Dialogue: 0,0:12:42.86,0:12:44.57,Default,,0000,0000,0000,,RAJA IBLIS BARAN
+Dialogue: 0,0:12:45.24,0:12:46.82,Default,,0000,0000,0000,,Aura kekuatan yang sangat kuat.
+Dialogue: 0,0:12:47.16,0:12:48.94,Default,,0000,0000,0000,,Apakah aku bisa mengalahkan orang ini?
+Dialogue: 0,0:12:49.68,0:12:52.10,Default,,0000,0000,0000,,Rasanya tubuhku akan dipotong-potong\Noleh niat membunuhnya...
+Dialogue: 0,0:12:53.12,0:12:55.00,Default,,0000,0000,0000,,Begitu kuatnya sampai Esil pun\Nbisa merasakannya.
+Dialogue: 0,0:12:55.92,0:12:56.74,Default,,0000,0000,0000,,Baiklah.
+Dialogue: 0,0:12:57.36,0:12:58.70,Default,,0000,0000,0000,,Dia terbang di udara\Ndan tidak mudah dihadapi.
+Dialogue: 0,0:12:58.70,0:12:59.41,Default,,0000,0000,0000,,WIVERN KAISELLIN
+Dialogue: 0,0:12:59.98,0:13:01.02,Default,,0000,0000,0000,,Wivern?
+Dialogue: 0,0:13:01.02,0:13:02.70,Default,,0000,0000,0000,,Apakah ada makhluk selain iblis juga?
+Dialogue: 0,0:13:16.93,0:13:20.23,Default,,0000,0000,0000,,PASUKAN IBLIS TELAH DIPANGGIL
+Dialogue: 0,0:13:28.12,0:13:29.54,Default,,0000,0000,0000,,Jumlahnya cukup banyak.
+Dialogue: 0,0:13:30.12,0:13:32.20,Default,,0000,0000,0000,,Bagaimana ini?
+Dialogue: 0,0:13:34.56,0:13:35.28,Default,,0000,0000,0000,,Pak Jinwoo.
+Dialogue: 0,0:13:35.82,0:13:36.86,Default,,0000,0000,0000,,Aku tahu.
+Dialogue: 0,0:13:39.75,0:13:40.08,Default,,0000,0000,0000,,GUNAKAN KEAHLIAN DOMAIN PENGUASA
+Dialogue: 0,0:13:40.08,0:13:41.34,Default,,0000,0000,0000,,Bangkitlah.
+Dialogue: 0,0:14:01.34,0:14:02.70,Default,,0000,0000,0000,,Hebat sekali.
+Dialogue: 0,0:14:02.70,0:14:05.42,Default,,0000,0000,0000,,Ternyata Pak Jinwoo dia masih bisa\Nmenggunakan taktik ini...
+Dialogue: 0,0:14:06.36,0:14:07.28,Default,,0000,0000,0000,,Namun,
+Dialogue: 0,0:14:07.28,0:14:09.12,Default,,0000,0000,0000,,ia adalah raja iblis Baran,
+Dialogue: 0,0:14:09.12,0:14:10.80,Default,,0000,0000,0000,,penguasa tempat ini.
+Dialogue: 0,0:14:10.80,0:14:13.30,Default,,0000,0000,0000,,Pak Jinwoo dia hanyalah penjajah,
+Dialogue: 0,0:14:13.30,0:14:14.98,Default,,0000,0000,0000,,target yang harus dimusnahkan.
+Dialogue: 0,0:14:15.80,0:14:16.94,Default,,0000,0000,0000,,Sebenarnya
+Dialogue: 0,0:14:17.46,0:14:19.26,Default,,0000,0000,0000,,di sisi mana aku harus berpihak...
+Dialogue: 0,0:14:49.24,0:14:50.60,Default,,0000,0000,0000,,Ini bukan petir biasa,
+Dialogue: 0,0:14:51.12,0:14:53.34,Default,,0000,0000,0000,,ini serangan area luas dengan efek pusing.
+Dialogue: 0,0:14:54.34,0:14:56.26,Default,,0000,0000,0000,,Meskipun para prajurit bisa hidup kembali,
+Dialogue: 0,0:14:56.50,0:14:59.46,Default,,0000,0000,0000,,kalau terus menerus terkena serangan itu,\NMana-ku akan langsung habis.
+Dialogue: 0,0:15:00.06,0:15:01.42,Default,,0000,0000,0000,,Harus sebelum itu...
+Dialogue: 0,0:15:03.50,0:15:05.12,Default,,0000,0000,0000,,GUNAKAN KEAHLIAN MENGHILANG
+Dialogue: 0,0:15:05.37,0:15:06.62,Default,,0000,0000,0000,,GUNAKAN KEAHLIAN LARI CEPAT
+Dialogue: 0,0:15:11.28,0:15:12.76,Default,,0000,0000,0000,,Mulai dari sayapnya dulu.
+Dialogue: 0,0:15:14.68,0:15:16.36,Default,,0000,0000,0000,,Penghilangan diriku ketahuan.
+Dialogue: 0,0:15:25.52,0:15:27.12,Default,,0000,0000,0000,,Ternyata masih bisa melacak...
+Dialogue: 0,0:15:27.30,0:15:28.84,Default,,0000,0000,0000,,Gawat, aku akan tertangkap.
+Dialogue: 0,0:15:29.20,0:15:30.68,Default,,0000,0000,0000,,Kiba, Igris.
+Dialogue: 0,0:15:57.66,0:15:59.22,Default,,0000,0000,0000,,Akhirnya turun juga?
+Dialogue: 0,0:16:00.34,0:16:02.72,Default,,0000,0000,0000,,Terus mendongak ke atas\Nmembuat leherku sakit.
+Dialogue: 0,0:16:03.06,0:16:04.32,Default,,0000,0000,0000,,Begini jauh lebih baik.
+Dialogue: 0,0:16:12.38,0:16:13.38,Default,,0000,0000,0000,,Senang bisa mengenal kalian semua.
+Dialogue: 0,0:16:13.66,0:16:16.66,Default,,0000,0000,0000,,Aku Hanekawa dari Asosiasi Draw Sword.
+Dialogue: 0,0:16:17.04,0:16:19.40,Default,,0000,0000,0000,,Dia adalah Presiden Asosiasi,\NGoto Ryuji.
+Dialogue: 0,0:16:20.28,0:16:23.45,Default,,0000,0000,0000,,Kali ini dia akan berbicara\Ndengan kalian melalui terjemahanku.
+Dialogue: 0,0:16:23.98,0:16:25.36,Default,,0000,0000,0000,,Asosiasi Draw Sword.
+Dialogue: 0,0:16:25.96,0:16:30.06,Default,,0000,0000,0000,,Sebuah asosiasi super besar Jepang\Ndengan 11 pemburu level S,
+Dialogue: 0,0:16:30.68,0:16:33.86,Default,,0000,0000,0000,,skala mereka dianggap sebagai\Nyang kedua di Asia
+Dialogue: 0,0:16:34.28,0:16:35.36,Default,,0000,0000,0000,,dan
+Dialogue: 0,0:16:35.64,0:16:38.70,Default,,0000,0000,0000,,Goto Ryuji yang mengelola\Nseluruh asosiasi.
+Dialogue: 0,0:16:38.70,0:16:41.60,Default,,0000,0000,0000,,Benar saja, sesuai dengan reputasinya,\Nmemancarkan aura yang menakjubkan.
+Dialogue: 0,0:16:42.30,0:16:43.24,Default,,0000,0000,0000,,Pertama-tama,
+Dialogue: 0,0:16:43.24,0:16:48.00,Default,,0000,0000,0000,,aku berterima kasih karena menerima proposal\Nmembentuk tim penyerang dan bekerja sama.
+Dialogue: 0,0:16:48.36,0:16:49.24,Default,,0000,0000,0000,,Jangan berkata begitu.
+Dialogue: 0,0:16:49.24,0:16:52.28,Default,,0000,0000,0000,,Kamilah yang pertama mengajukan\Npermintaan bantuan.
+Dialogue: 0,0:16:52.54,0:16:54.44,Default,,0000,0000,0000,,Kamilah yang harus berterima kasih\Natas persetujuan kalian.
+Dialogue: 0,0:16:54.92,0:16:56.68,Default,,0000,0000,0000,,Seperti yang tertera pada data\Ndi tangan kalian.
+Dialogue: 0,0:16:56.98,0:16:59.46,Default,,0000,0000,0000,,Dari data yang kalian berikan
+Dialogue: 0,0:16:59.88,0:17:02.32,Default,,0000,0000,0000,,dan hasil otopsi semut bersayap\Nyang terbunuh kali ini,
+Dialogue: 0,0:17:02.78,0:17:04.76,Default,,0000,0000,0000,,kami menarik banyak kesimpulan.
+Dialogue: 0,0:17:05.64,0:17:06.78,Default,,0000,0000,0000,,Di antara mereka,
+Dialogue: 0,0:17:06.78,0:17:09.66,Default,,0000,0000,0000,,ada dua poin penting\Nyang terkait erat dengan operasi kali ini.
+Dialogue: 0,0:17:10.62,0:17:11.76,Default,,0000,0000,0000,,Pertama adalah umur.
+Dialogue: 0,0:17:12.34,0:17:14.88,Default,,0000,0000,0000,,Semut akan tumbuh dengan cepat\Nsetelah menetas
+Dialogue: 0,0:17:15.28,0:17:17.08,Default,,0000,0000,0000,,tetapi hanya akan hidup\Nsekitar satu tahun.
+Dialogue: 0,0:17:17.46,0:17:18.28,Default,,0000,0000,0000,,Artinya,
+Dialogue: 0,0:17:18.54,0:17:20.06,Default,,0000,0000,0000,,selama kita bisa membunuh ratu semut,
+Dialogue: 0,0:17:20.26,0:17:23.34,Default,,0000,0000,0000,,semut yang tersisa akan mati\Nsecara otomatis setelah satu tahun.
+Dialogue: 0,0:17:23.96,0:17:26.92,Default,,0000,0000,0000,,Poin lainnya adalah pola perilaku semut.
+Dialogue: 0,0:17:26.92,0:17:29.52,Default,,0000,0000,0000,,Dibandingkan dengan catatan\NMisi Serangan ketiga sebelumnya,
+Dialogue: 0,0:17:29.52,0:17:35.10,Default,,0000,0000,0000,,dapat ditemukan semut memiliki kebiasaan tertarik\Noleh musuh yang kuat, yaitu kekuatan sihir kuat.
+Dialogue: 0,0:17:35.66,0:17:39.53,Default,,0000,0000,0000,,Kali ini kita akan memanfaatkan kebiasaan mereka\Nuntuk menyusun strategi operasi.
+Dialogue: 0,0:17:40.78,0:17:44.26,Default,,0000,0000,0000,,Kami juga telah menyadari\Ntanda-tanda perilaku semut.
+Dialogue: 0,0:17:44.70,0:17:47.86,Default,,0000,0000,0000,,Tidak disangka mereka menganalisanya\Ndengan begitu teliti...
+Dialogue: 0,0:17:49.10,0:17:50.74,Default,,0000,0000,0000,,Mengenai operasi kali ini,
+Dialogue: 0,0:17:51.04,0:17:55.10,Default,,0000,0000,0000,,Asosiasi Draw Sword kami akan mengirimkan\Nsepuluh orang untuk berpartisipasi,
+Dialogue: 0,0:17:55.10,0:17:57.84,Default,,0000,0000,0000,,termasuk aku, dari 11 pemburu level S.
+Dialogue: 0,0:17:58.98,0:18:00.62,Default,,0000,0000,0000,,Mengirim sepuluh orang dari 11 orang...
+Dialogue: 0,0:18:01.10,0:18:03.42,Default,,0000,0000,0000,,Kami akan memancing semua semut keluar.
+Dialogue: 0,0:18:03.74,0:18:07.50,Default,,0000,0000,0000,,Silakan gunakan kesempatan ini\Nuntuk membunuh ratu semut.
+Dialogue: 0,0:18:07.88,0:18:10.66,Default,,0000,0000,0000,,Namun, dengan begitu kalian harus\Nmenghadapi ribuan semut...
+Dialogue: 0,0:18:11.26,0:18:14.14,Default,,0000,0000,0000,,Jika hanya untuk memancing musuh,\Nini tidak menjadi masalah.
+Dialogue: 0,0:18:14.56,0:18:19.10,Default,,0000,0000,0000,,Saat memakai AI untuk simulasi juga menunjukkan\Nini taktik dengan tingkat keberhasilan tertinggi.
+Dialogue: 0,0:18:20.12,0:18:24.28,Default,,0000,0000,0000,,Memang, pihak kita hanya bisa mengirimkan\Nkurang dari sepuluh pemburu level S...
+Dialogue: 0,0:18:24.66,0:18:25.56,Default,,0000,0000,0000,,Kalau begitu...
+Dialogue: 0,0:18:26.10,0:18:27.38,Default,,0000,0000,0000,,Aku mengerti.
+Dialogue: 0,0:18:27.62,0:18:31.38,Default,,0000,0000,0000,,Kalau begitu, mari kita susun\Nrincian operasi ke arah ini.
+Dialogue: 0,0:18:40.14,0:18:40.46,Default,,0000,0000,0000,,Aku sama sekali tidak punya kesempatan
+Dialogue: 0,0:18:40.46,0:18:42.55,Default,,0000,0000,0000,,MANA\Nmenggunakan ramuan untuk memulihkan Mana.
+Dialogue: 0,0:19:01.96,0:19:03.86,Default,,0000,0000,0000,,Titik lemahnya tertutup.
+Dialogue: 0,0:19:33.44,0:19:35.14,Default,,0000,0000,0000,,MANA\NMana-ku habis?
+Dialogue: 0,0:20:19.00,0:20:20.46,Default,,0000,0000,0000,,Sial, belatinya...
+Dialogue: 0,0:20:31.18,0:20:32.88,Default,,0000,0000,0000,,Kekuatannya ternyata begitu besar...
+Dialogue: 0,0:20:34.90,0:20:35.54,Default,,0000,0000,0000,,Tidak mungkin...
+Dialogue: 0,0:20:37.44,0:20:38.21,Default,,0000,0000,0000,,Tidak bisa menghindar...
+Dialogue: 0,0:20:44.98,0:20:45.92,Default,,0000,0000,0000,,Sekaranglah saatnya.
+Dialogue: 0,0:20:45.92,0:20:47.70,Default,,0000,0000,0000,,Hanya dengan kekuatan\Nyang sengaja aku tingkatkan
+Dialogue: 0,0:20:47.70,0:20:50.26,Default,,0000,0000,0000,,dan "Tangan Penguasa"...
+Dialogue: 0,0:21:06.90,0:21:10.84,Default,,0000,0000,0000,,Semuanya berakhir di sini.
+Dialogue: 0,0:21:23.94,0:21:25.28,Default,,0000,0000,0000,,Pak Jinwoo.
+Dialogue: 0,0:21:31.05,0:21:32.05,Default,,0000,0000,0000,,RAJA IBLIS BARAN TELAH DIBUNUH
+Dialogue: 0,0:21:32.30,0:21:33.43,Default,,0000,0000,0000,,SUDAH MENDAPATKAN JIWA BARAN
+Dialogue: 0,0:21:33.68,0:21:35.60,Default,,0000,0000,0000,,MISI DISELESAIKAN\NMENGUMPULKAN JIWA IBLIS 2
+Dialogue: 0,0:21:46.74,0:21:47.94,Default,,0000,0000,0000,,Pak Jinwoo.
+Dialogue: 0,0:21:48.38,0:21:49.42,Default,,0000,0000,0000,,Esil...
+Dialogue: 0,0:21:49.42,0:21:51.36,Default,,0000,0000,0000,,Kembalilah dan laporkan pada ayahmu.
+Dialogue: 0,0:21:52.38,0:21:53.50,Default,,0000,0000,0000,,Mulai sekarang
+Dialogue: 0,0:21:53.50,0:21:55.72,Default,,0000,0000,0000,,keluarga Ladis adalah\Nkeluarga peringkat pertama.
+Dialogue: 0,0:21:56.74,0:21:57.84,Default,,0000,0000,0000,,Pak Jinwoo.
+Dialogue: 0,0:22:01.84,0:22:03.32,Default,,0000,0000,0000,,Bukan Ladis
+Dialogue: 0,0:22:03.84,0:22:04.98,Default,,0000,0000,0000,,tetapi Radiru.
+Dialogue: 0,0:22:42.04,0:22:44.71,Default,,0000,0000,0000,,"Solo Leveling"
+Dialogue: 0,0:22:44.71,0:22:48.21,Default,,0000,0000,0000,,(Episode 20:\NMelihat ke Atas Membuatku Lelah)
+Dialogue: 0,0:23:38.76,0:23:40.97,Default,,0000,0000,0000,,(Episode 21:\NSemua ini Sepadan)

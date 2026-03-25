@@ -171,6 +171,26 @@ export function getTvRows(items) {
   ])
 }
 
+export function getAnimeRows(items) {
+  return getTvRows(items).map((row) => {
+    if (row.title === 'Popular TV Shows') {
+      return {
+        ...row,
+        title: 'Popular Anime',
+      }
+    }
+
+    if (row.title === 'Long Running Series') {
+      return {
+        ...row,
+        title: 'Long Running Anime',
+      }
+    }
+
+    return row
+  })
+}
+
 export function getHomeRows(movies, shows) {
   const movieRows = getMovieRows(movies)
   const popularMovies = movieRows[0]?.items ?? []

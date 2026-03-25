@@ -1,3 +1,213 @@
+const movieSubtitleTracks = {
+  "five-nights-at-freddy's": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Five.Nights.at.Freddys.2023.1080p.WEB.H264-HUZZAH.srt",
+      "default": true
+    }
+  ],
+  "five-nights-at-freddys-2": [
+    {
+      "id": "en-sdh",
+      "label": "English (SDH)",
+      "srclang": "en",
+      "src": "/subtitles/movies/Five.Nights.at.Freddys.2.2025.1080p.MA.WEB-DL.DDP5.1.Atmos.H.264 (SDH).srt",
+      "default": true
+    }
+  ],
+  "madagascar": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Madagascar[2005]DvDrip-aXXo.en.srt",
+      "default": true
+    }
+  ],
+  "robots": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Robots (2005).srt",
+      "default": true
+    }
+  ],
+  "interstellar": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Interstellar.2014.720p.BluRay.x264-DAA.srt",
+      "default": true
+    }
+  ],
+  "scream-7": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Scream.7.2026.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.srt",
+      "default": true
+    }
+  ],
+  "the-dark-knight": [
+    {
+      "id": "en-hi",
+      "label": "English (Hearing Impaired)",
+      "srclang": "en",
+      "src": "/subtitles/movies/The Dark Knight 2008 IMAX 3Li BluRay 720p English (Hearing Impaired).srt",
+      "default": true
+    }
+  ],
+  "tron-ares": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Tron.Ares.2025.1080p.MA.WEB-DL.DDP5.1.Atmos.H.264.srt",
+      "default": true
+    }
+  ],
+  "zootopia-2": [
+    {
+      "id": "en-sdh",
+      "label": "English (SDH)",
+      "srclang": "en",
+      "src": "/subtitles/movies/Zootopia.2.2025.1080p.MA.WEB-DL.DDP5.1.Atmos.H.264 (SDH).srt",
+      "default": true
+    }
+  ],
+  "inception": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Inception.2010.DVDRip.XviD.AC3-ViSiON.srt",
+      "default": true
+    }
+  ],
+  "frankenstein": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Frankenstein.2025.720p.NF.WEB-DL.DDP5.1.Atmos.H.264-FLUX.srt",
+      "default": true
+    }
+  ],
+  "whiplash": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Whiplash.2014.720p.BluRay.x264.YIFY.eng.srt",
+      "default": true
+    }
+  ],
+  "toy-story": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Toy.Story.1995.720p.BluRay.x264.srt",
+      "default": true
+    }
+  ],
+  "the-social-network": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/The.Social.Network.2010.DVDSCR.XviD-NoSCR.srt",
+      "default": true
+    }
+  ],
+  "the-matrix": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/The.Matrix.1999.720p.HDDVD.DTS.x264-ESiR.ENG.srt",
+      "default": true
+    }
+  ],
+  "hereditary": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Hereditary.2018.HDRip.XviD.AC3-EVO.srt",
+      "default": true
+    }
+  ],
+  "the-notebook": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/The.Notebook.2004.1080p.BluRay.x264-HiDt.ENG.srt",
+      "default": true
+    }
+  ],
+  "get-out": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Get.Out.2017.720p.BluRay.srt",
+      "default": true
+    }
+  ],
+  "gladiator": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Gladiator.EXTENDED.EDITION.2000.BluRay.1080p.DTS.x264.dxva-EuReKA.ENG.srt",
+      "default": true
+    }
+  ],
+  "top-gun": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Top Gun _1986_ [720p.BluRay.DTS.x264.srt",
+      "default": true
+    }
+  ],
+  "avengers-age-of-ultron": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Avengers.Age.of.Ultron.2015.UHD.BluRay.2160p.TrueHD.Atmos.7.1.HEVC.REMUX-FraMeSToR.srt",
+      "default": true
+    }
+  ],
+  "avengers-infinity-war": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Avengers.Infinity.War.2018.1080p.BluRay.x264-Replica.srt",
+      "default": true
+    }
+  ],
+  "avengers-endgame": [
+    {
+      "id": "en",
+      "label": "English",
+      "srclang": "en",
+      "src": "/subtitles/movies/Avengers.Endgame.2019.720p.BluRay.x264-SPARKS.srt",
+      "default": true
+    }
+  ]
+}
+
 const movies = [
   {
     "id": "five-nights-at-freddy's",
@@ -46,6 +256,7 @@ const movies = [
     "description": "A group of animals who have spent all their life in a New York zoo end up in the jungles of Madagascar, and must adjust to living in the wild.",
     "poster": "/Madagascar Poster.png",
     "backdrop": "/Madagascar Backdroppng.png"
+      
   },
   {
     "id": "wall-e",
@@ -861,4 +1072,17 @@ const movies = [
   }
 ]
 
-export default movies
+const moviesWithSubtitles = movies.map((movie) => {
+  const subtitleTracks = movieSubtitleTracks[movie.id]
+
+  if (!subtitleTracks) {
+    return movie
+  }
+
+  return {
+    ...movie,
+    subtitleTracks: subtitleTracks.map((track) => ({ ...track })),
+  }
+})
+
+export default moviesWithSubtitles

@@ -1,0 +1,530 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScarledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,18,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.04,0:00:04.25,Default,,0,0,0,,[panting]
+Dialogue: 0,0:00:05.42,0:00:06.96,Default,,0,0,0,,♪
+Dialogue: 0,0:00:09.01,0:00:10.13,Default,,0,0,0,,[BAEK]\NThese are...
+Dialogue: 0,0:00:11.64,0:00:13.26,Default,,0,0,0,,But how did they get here?
+Dialogue: 0,0:00:13.35,0:00:14.56,Default,,0,0,0,,♪
+Dialogue: 0,0:00:14.64,0:00:16.39,Default,,0,0,0,,[ants buzzing]
+Dialogue: 0,0:00:17.52,0:00:19.44,Default,,0,0,0,,[whooshes]
+Dialogue: 0,0:00:20.35,0:00:21.77,Default,,0,0,0,,[whacks]
+Dialogue: 0,0:00:22.10,0:00:23.19,Default,,0,0,0,,[ants chirping]
+Dialogue: 0,0:00:23.27,0:00:24.90,Default,,0,0,0,,[growls]
+Dialogue: 0,0:00:26.44,0:00:28.24,Default,,0,0,0,,[blasts]
+Dialogue: 0,0:00:30.70,0:00:32.37,Default,,0,0,0,,[fire roaring]
+Dialogue: 0,0:00:32.45,0:00:38.20,Default,,0,0,0,,♪
+Dialogue: 0,0:00:38.29,0:00:39.83,Default,,0,0,0,,It doesn't make sense.
+Dialogue: 0,0:00:39.91,0:00:43.75,Default,,0,0,0,,♪
+Dialogue: 0,0:00:43.84,0:00:45.13,Default,,0,0,0,,Uh?
+Dialogue: 0,0:00:45.59,0:00:46.50,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:00:47.09,0:00:49.26,Default,,0,0,0,,That's impossible.
+Dialogue: 0,0:00:50.26,0:00:51.43,Default,,0,0,0,,Isn't it?
+Dialogue: 0,0:00:51.51,0:00:52.93,Default,,0,0,0,,How did he get in here?
+Dialogue: 0,0:00:53.43,0:00:55.39,Default,,0,0,0,,[wind whooshing]
+Dialogue: 0,0:00:55.47,0:00:59.39,Default,,0,0,0,,♪
+Dialogue: 0,0:01:03.15,0:01:04.61,Default,,0,0,0,,[LEE]\NMister Song.
+Dialogue: 0,0:01:04.69,0:01:05.77,Default,,0,0,0,,This means,
+Dialogue: 0,0:01:05.86,0:01:07.40,Default,,0,0,0,,they had to shut\Nthe broadcast down
+Dialogue: 0,0:01:07.48,0:01:08.90,Default,,0,0,0,,for something, right?
+Dialogue: 0,0:01:09.28,0:01:10.53,Default,,0,0,0,,Hm.
+Dialogue: 0,0:01:11.07,0:01:12.28,Default,,0,0,0,,But why?
+Dialogue: 0,0:01:12.36,0:01:13.82,Default,,0,0,0,,What's happening over there?
+Dialogue: 0,0:01:13.91,0:01:17.08,Default,,0,0,0,,♪
+Dialogue: 0,0:01:17.16,0:01:18.24,Default,,0,0,0,,It's no good.
+Dialogue: 0,0:01:18.33,0:01:20.25,Default,,0,0,0,,Too much confusion\Nat the scene.
+Dialogue: 0,0:01:20.33,0:01:23.29,Default,,0,0,0,,There must be a way\Nto confirm their status.
+Dialogue: 0,0:01:23.37,0:01:25.25,Default,,0,0,0,,Gather all the intel we can.
+Dialogue: 0,0:01:25.33,0:01:26.59,Default,,0,0,0,,[JINCHUL]\NYes, sir.
+Dialogue: 0,0:01:26.67,0:01:27.96,Default,,0,0,0,,[telephone ringing]
+Dialogue: 0,0:01:28.05,0:01:29.17,Default,,0,0,0,,[STAFF 24A]\NDirector!
+Dialogue: 0,0:01:29.26,0:01:30.97,Default,,0,0,0,,So many viewers\Nare calling in at once
+Dialogue: 0,0:01:31.05,0:01:32.93,Default,,0,0,0,,that it's crashing\Nthe phone system!
+Dialogue: 0,0:01:33.01,0:01:35.14,Default,,0,0,0,,They're demanding\Nwe resume the broadcast!
+Dialogue: 0,0:01:35.22,0:01:37.01,Default,,0,0,0,,And we would if we could!
+Dialogue: 0,0:01:37.10,0:01:38.68,Default,,0,0,0,,But in case\Nyou haven't noticed,
+Dialogue: 0,0:01:38.76,0:01:40.93,Default,,0,0,0,,we lost contact,\Nso there's nothing to show!
+Dialogue: 0,0:01:41.02,0:01:43.14,Default,,0,0,0,,[grunts]\NBesides, what do we do
+Dialogue: 0,0:01:43.23,0:01:45.19,Default,,0,0,0,,if all the S-ranks\Nare already dead?
+Dialogue: 0,0:01:45.98,0:01:47.82,Default,,0,0,0,,-[indistinct chatter]\N-[angry grunt]
+Dialogue: 0,0:01:48.44,0:01:49.90,Default,,0,0,0,,Hey!\NWhat's going on?
+Dialogue: 0,0:01:49.98,0:01:51.61,Default,,0,0,0,,We need an update, right now!
+Dialogue: 0,0:01:52.15,0:01:54.24,Default,,0,0,0,,-Are you still alive out there?\N-Damn it!
+Dialogue: 0,0:01:54.32,0:01:55.87,Default,,0,0,0,,My camera quit working!
+Dialogue: 0,0:01:56.12,0:01:57.62,Default,,0,0,0,,Of all the times?
+Dialogue: 0,0:01:58.45,0:01:59.45,Default,,0,0,0,,Iron!
+Dialogue: 0,0:01:59.54,0:02:01.79,Default,,0,0,0,,[roaring]
+Dialogue: 0,0:02:01.87,0:02:03.71,Default,,0,0,0,,[wind gusting]
+Dialogue: 0,0:02:03.79,0:02:07.75,Default,,0,0,0,,♪
+Dialogue: 0,0:02:07.84,0:02:09.00,Default,,0,0,0,,[JINWOO]\NGo.
+Dialogue: 0,0:02:11.21,0:02:13.51,Default,,0,0,0,,[sword clanking]
+Dialogue: 0,0:02:13.59,0:02:15.51,Default,,0,0,0,,[growls]
+Dialogue: 0,0:02:17.14,0:02:18.64,Default,,0,0,0,,[electricity crackling]
+Dialogue: 0,0:02:20.22,0:02:22.06,Default,,0,0,0,,[DONGWOOK]\NI'm not following any of this.
+Dialogue: 0,0:02:22.64,0:02:24.14,Default,,0,0,0,,Who are these shadows?
+Dialogue: 0,0:02:24.73,0:02:26.40,Default,,0,0,0,,And how did Hunter Sung...
+Dialogue: 0,0:02:26.48,0:02:28.06,Default,,0,0,0,,even get to the island?
+Dialogue: 0,0:02:29.98,0:02:30.94,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:02:31.03,0:02:33.65,Default,,0,0,0,,Oh, there you are,\Nand just in time.
+Dialogue: 0,0:02:33.74,0:02:35.32,Default,,0,0,0,,But how the hell did you...
+Dialogue: 0,0:02:35.40,0:02:36.99,Default,,0,0,0,,I can explain it later.
+Dialogue: 0,0:02:37.37,0:02:39.58,Default,,0,0,0,,Let's take care\Nof your wounds in the meantime.
+Dialogue: 0,0:02:39.99,0:02:41.24,Default,,0,0,0,,Here, this should help.
+Dialogue: 0,0:02:41.66,0:02:42.87,Default,,0,0,0,,Huh?
+Dialogue: 0,0:02:42.95,0:02:45.79,Default,,0,0,0,,[JINWOO] Right. The system\Nwon't let me hand these off.
+Dialogue: 0,0:02:47.25,0:02:48.46,Default,,0,0,0,,You summoned that?
+Dialogue: 0,0:02:48.54,0:02:50.25,Default,,0,0,0,,Your magic sure is handy.
+Dialogue: 0,0:02:50.34,0:02:51.80,Default,,0,0,0,,Hunter Ma.
+Dialogue: 0,0:02:53.01,0:02:54.72,Default,,0,0,0,,I need you to open your mouth.
+Dialogue: 0,0:02:54.80,0:02:56.47,Default,,0,0,0,,Aah!
+Dialogue: 0,0:02:57.13,0:02:58.30,Default,,0,0,0,,[gulps]
+Dialogue: 0,0:02:58.39,0:02:59.43,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:02:59.51,0:03:00.93,Default,,0,0,0,,That's unreal.
+Dialogue: 0,0:03:01.01,0:03:02.47,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:03:05.18,0:03:06.31,Default,,0,0,0,,[BAEK]\NI'm healed.
+Dialogue: 0,0:03:06.39,0:03:07.77,Default,,0,0,0,,Completely.
+Dialogue: 0,0:03:10.23,0:03:11.98,Default,,0,0,0,,[groaning]
+Dialogue: 0,0:03:13.90,0:03:16.07,Default,,0,0,0,,[coughs]
+Dialogue: 0,0:03:16.15,0:03:17.66,Default,,0,0,0,,She's still in bad shape.
+Dialogue: 0,0:03:18.07,0:03:19.41,Default,,0,0,0,,Why isn't it working?
+Dialogue: 0,0:03:20.78,0:03:22.45,Default,,0,0,0,,[JINWOO]\NDamn, just like before,
+Dialogue: 0,0:03:22.54,0:03:25.00,Default,,0,0,0,,these can't work\Nwhen your health is too low.
+Dialogue: 0,0:03:25.50,0:03:27.42,Default,,0,0,0,,And her aura is getting weaker.
+Dialogue: 0,0:03:28.54,0:03:30.79,Default,,0,0,0,,Her wounds are too severe\Nfor potions to heal.
+Dialogue: 0,0:03:31.17,0:03:32.59,Default,,0,0,0,,We have to leave now.
+Dialogue: 0,0:03:32.67,0:03:34.05,Default,,0,0,0,,I can clear a path for us.
+Dialogue: 0,0:03:34.13,0:03:35.34,Default,,0,0,0,,-All right.\N-[BAEK] Hold on!
+Dialogue: 0,0:03:35.42,0:03:36.55,Default,,0,0,0,,-Huh?\N-Huh?
+Dialogue: 0,0:03:38.09,0:03:40.22,Default,,0,0,0,,[ants chirping]
+Dialogue: 0,0:03:40.80,0:03:43.10,Default,,0,0,0,,They certainly swarm like\Nthe bugs they are.
+Dialogue: 0,0:03:43.18,0:03:45.31,Default,,0,0,0,,How are we gonna\Ntake down so many of them?
+Dialogue: 0,0:03:46.56,0:03:47.77,Default,,0,0,0,,[scoffs]
+Dialogue: 0,0:03:48.10,0:03:49.40,Default,,0,0,0,,[door rattles]
+Dialogue: 0,0:03:49.48,0:03:50.90,Default,,0,0,0,,[ASSOCIATE 24D, 24A]\NChairman Go!
+Dialogue: 0,0:03:50.98,0:03:52.57,Default,,0,0,0,,Any news on the strike team?
+Dialogue: 0,0:03:52.65,0:03:53.69,Default,,0,0,0,,[ASSOCIATE 24E]\NNo. Not yet.
+Dialogue: 0,0:03:53.77,0:03:55.94,Default,,0,0,0,,Something's jamming\Nall comms from the island,
+Dialogue: 0,0:03:56.03,0:03:57.74,Default,,0,0,0,,but hopefully\Nit's only temporary.
+Dialogue: 0,0:03:58.07,0:03:58.86,Default,,0,0,0,,[ASSOCIATE 24A]\NWe can't get through
+Dialogue: 0,0:03:58.95,0:04:00.28,Default,,0,0,0,,to Japanese command either.
+Dialogue: 0,0:04:00.36,0:04:01.70,Default,,0,0,0,,Not sure why.
+Dialogue: 0,0:04:01.78,0:04:03.41,Default,,0,0,0,,[ASSOCIATE 24D] Touched base\Nwith the civilian media,
+Dialogue: 0,0:04:03.49,0:04:06.16,Default,,0,0,0,,though, and the last thing\Nthey saw was the black ant.
+Dialogue: 0,0:04:06.58,0:04:08.92,Default,,0,0,0,,It's imperative\Nwe get that signal back.
+Dialogue: 0,0:04:09.58,0:04:10.63,Default,,0,0,0,,And I want those medic
+Dialogue: 0,0:04:10.71,0:04:12.67,Default,,0,0,0,,and retrieval teams\Nready to move out.
+Dialogue: 0,0:04:12.75,0:04:13.92,Default,,0,0,0,,[HUNTER'S ASSOCIATION]\NYes, sir!
+Dialogue: 0,0:04:14.00,0:04:16.09,Default,,0,0,0,,[indistinct chatter]
+Dialogue: 0,0:04:16.34,0:04:17.59,Default,,0,0,0,,[door rattles shut]
+Dialogue: 0,0:04:17.67,0:04:19.09,Default,,0,0,0,,[GUNHEE]\NYou know, Jinchul.
+Dialogue: 0,0:04:19.43,0:04:20.68,Default,,0,0,0,,This has to be the most
+Dialogue: 0,0:04:20.76,0:04:23.76,Default,,0,0,0,,I've ever resented\Nthis aging body of mine.
+Dialogue: 0,0:04:25.10,0:04:27.10,Default,,0,0,0,,Even if I'd be\Nof no help to them,
+Dialogue: 0,0:04:27.18,0:04:29.02,Default,,0,0,0,,I wish I could join the fight.
+Dialogue: 0,0:04:30.27,0:04:31.48,Default,,0,0,0,,Chairman Go.
+Dialogue: 0,0:04:31.77,0:04:32.90,Default,,0,0,0,,Instead...
+Dialogue: 0,0:04:33.52,0:04:35.40,Default,,0,0,0,,all I can do is pray.
+Dialogue: 0,0:04:35.48,0:04:36.69,Default,,0,0,0,,♪
+Dialogue: 0,0:04:36.78,0:04:38.28,Default,,0,0,0,,[thumping]
+Dialogue: 0,0:04:38.86,0:04:41.20,Default,,0,0,0,,[JINAH] [grunting]\NStupid technology!
+Dialogue: 0,0:04:41.70,0:04:44.20,Default,,0,0,0,,First the feed cuts\Nthen the whole dang TV decides
+Dialogue: 0,0:04:44.28,0:04:45.99,Default,,0,0,0,,this is the perfect time\Nto break!
+Dialogue: 0,0:04:46.08,0:04:47.08,Default,,0,0,0,,We're jinxed!
+Dialogue: 0,0:04:47.16,0:04:49.37,Default,,0,0,0,,Well, beating it up\Nwon't fix it, honey.
+Dialogue: 0,0:04:49.71,0:04:51.08,Default,,0,0,0,,[JINAH] [sighs]\NWhatever.
+Dialogue: 0,0:04:51.17,0:04:52.63,Default,,0,0,0,,I'll watch it in my room.
+Dialogue: 0,0:04:53.17,0:04:55.00,Default,,0,0,0,,Bet my phone\Nwill have updates!
+Dialogue: 0,0:04:55.38,0:04:56.50,Default,,0,0,0,,Maybe.
+Dialogue: 0,0:04:58.51,0:04:59.59,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:04:59.67,0:05:01.34,Default,,0,0,0,,That girl is so restless.
+Dialogue: 0,0:05:02.68,0:05:05.30,Default,,0,0,0,,[SHIGEO]\NI want answers, so explain.
+Dialogue: 0,0:05:05.39,0:05:07.81,Default,,0,0,0,,Goto-san's vital signs\Nwent silent, sir.
+Dialogue: 0,0:05:09.18,0:05:11.06,Default,,0,0,0,,Right before\Nthe signal was cut.
+Dialogue: 0,0:05:11.69,0:05:13.65,Default,,0,0,0,,He was confronted\Nby a powerful enemy,
+Dialogue: 0,0:05:13.73,0:05:15.40,Default,,0,0,0,,and likely killed.
+Dialogue: 0,0:05:16.77,0:05:17.82,Default,,0,0,0,,[SHIGEO]\NAnd the others?
+Dialogue: 0,0:05:17.90,0:05:19.24,Default,,0,0,0,,We haven't verified.
+Dialogue: 0,0:05:19.65,0:05:20.99,Default,,0,0,0,,[SHIGEO]\NWell, figure it out!
+Dialogue: 0,0:05:21.32,0:05:24.20,Default,,0,0,0,,Any further losses\Nwill cost us in the next phase.
+Dialogue: 0,0:05:25.66,0:05:26.78,Default,,0,0,0,,[REIJI]\NOn it.
+Dialogue: 0,0:05:27.08,0:05:28.79,Default,,0,0,0,,[phone beeps]
+Dialogue: 0,0:05:30.16,0:05:31.33,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:05:31.83,0:05:33.67,Default,,0,0,0,,[SHIGEO]\NGoto got himself killed?
+Dialogue: 0,0:05:34.00,0:05:35.33,Default,,0,0,0,,Useless moron.
+Dialogue: 0,0:05:36.34,0:05:38.59,Default,,0,0,0,,What in the hell\Nis happening on that island?
+Dialogue: 0,0:05:40.80,0:05:41.84,Default,,0,0,0,,[growls]
+Dialogue: 0,0:05:41.92,0:05:43.38,Default,,0,0,0,,[roaring]
+Dialogue: 0,0:05:43.47,0:05:45.47,Default,,0,0,0,,[wind gusting]
+Dialogue: 0,0:05:45.55,0:05:47.10,Default,,0,0,0,,[all gasp]
+Dialogue: 0,0:05:48.14,0:05:51.06,Default,,0,0,0,,[JINWOO] Elites like Igris\Nand Iron are holding their own.
+Dialogue: 0,0:05:51.52,0:05:54.15,Default,,0,0,0,,But the foot soldiers\Naren't doing so hot.
+Dialogue: 0,0:05:55.48,0:05:57.57,Default,,0,0,0,,Part of me wants\Nto boost their numbers.
+Dialogue: 0,0:05:58.27,0:06:00.53,Default,,0,0,0,,I just wish that\NI didn't have an audience.
+Dialogue: 0,0:06:00.61,0:06:02.49,Default,,0,0,0,,♪
+Dialogue: 0,0:06:02.57,0:06:04.07,Default,,0,0,0,,-New plan.\N-[ALL] Hm?
+Dialogue: 0,0:06:04.32,0:06:06.03,Default,,0,0,0,,We're not making any progress.
+Dialogue: 0,0:06:06.12,0:06:08.37,Default,,0,0,0,,Time to try a more\Naggressive strategy.
+Dialogue: 0,0:06:08.91,0:06:10.24,Default,,0,0,0,,See that mage?
+Dialogue: 0,0:06:11.33,0:06:13.46,Default,,0,0,0,,You all hang back\Nand stay behind him.
+Dialogue: 0,0:06:13.92,0:06:16.42,Default,,0,0,0,,My other shadows\Nwill deal with the ant problem.
+Dialogue: 0,0:06:17.50,0:06:20.00,Default,,0,0,0,,If any of 'em do get\Npast my soldiers,
+Dialogue: 0,0:06:20.09,0:06:21.51,Default,,0,0,0,,make them regret it.
+Dialogue: 0,0:06:21.80,0:06:22.88,Default,,0,0,0,,Easy enough.
+Dialogue: 0,0:06:22.97,0:06:24.84,Default,,0,0,0,,We can handle a plan like that.
+Dialogue: 0,0:06:24.93,0:06:26.01,Default,,0,0,0,,For sure!
+Dialogue: 0,0:06:26.09,0:06:27.43,Default,,0,0,0,,[JINWOO]\NOne last thing.
+Dialogue: 0,0:06:27.89,0:06:30.43,Default,,0,0,0,,Please keep what you're about\Nto see to yourselves.
+Dialogue: 0,0:06:31.97,0:06:33.48,Default,,0,0,0,,Uh. Is he?
+Dialogue: 0,0:06:35.60,0:06:37.15,Default,,0,0,0,,[exhales]
+Dialogue: 0,0:06:40.23,0:06:42.15,Default,,0,0,0,,[ants buzzing]
+Dialogue: 0,0:06:45.53,0:06:47.62,Default,,0,0,0,,[wind gusting]
+Dialogue: 0,0:06:49.08,0:06:50.33,Default,,0,0,0,,[all gasp]
+Dialogue: 0,0:06:50.41,0:06:52.20,Default,,0,0,0,,[wind whooshing]
+Dialogue: 0,0:06:52.29,0:06:55.46,Default,,0,0,0,,♪
+Dialogue: 0,0:06:55.54,0:06:57.29,Default,,0,0,0,,It came back already?
+Dialogue: 0,0:06:57.58,0:06:59.38,Default,,0,0,0,,I thought it went after Goto.
+Dialogue: 0,0:07:00.04,0:07:01.50,Default,,0,0,0,,Does that mean he lost?
+Dialogue: 0,0:07:01.59,0:07:08.47,Default,,0,0,0,,♪
+Dialogue: 0,0:07:12.43,0:07:13.89,Default,,0,0,0,,[loud screeching]
+Dialogue: 0,0:07:13.98,0:07:15.48,Default,,0,0,0,,-[gasps]\N-[wind gusting]
+Dialogue: 0,0:07:15.56,0:07:19.69,Default,,0,0,0,,♪
+Dialogue: 0,0:07:19.77,0:07:22.36,Default,,0,0,0,,[ANT KING]\NThere was no king outside.
+Dialogue: 0,0:07:23.03,0:07:24.40,Default,,0,0,0,,Is he in here?
+Dialogue: 0,0:07:25.70,0:07:27.91,Default,,0,0,0,,The one you call king?
+Dialogue: 0,0:07:27.99,0:07:29.70,Default,,0,0,0,,♪
+Dialogue: 0,0:07:29.78,0:07:32.49,Default,,0,0,0,,[JINWOO] I can't sense\Nthe shadow I sent with Goto.
+Dialogue: 0,0:07:32.74,0:07:34.50,Default,,0,0,0,,Now, I know why.
+Dialogue: 0,0:07:34.75,0:07:36.50,Default,,0,0,0,,-Uh!\N-Wait!
+Dialogue: 0,0:07:36.58,0:07:43.50,Default,,0,0,0,,♪
+Dialogue: 0,0:07:56.56,0:07:57.94,Default,,0,0,0,,[ANT KING]\NIs it you?
+Dialogue: 0,0:07:59.06,0:08:01.56,Default,,0,0,0,,Are you the king of humans?
+Dialogue: 0,0:08:03.19,0:08:04.57,Default,,0,0,0,,Cute.
+Dialogue: 0,0:08:04.98,0:08:07.32,Default,,0,0,0,,They got bugs\Nthat can talk now.
+Dialogue: 0,0:08:08.40,0:08:09.61,Default,,0,0,0,,[ANT KING]\NHuman.
+Dialogue: 0,0:08:11.99,0:08:14.12,Default,,0,0,0,,Quite the remarkable aura.
+Dialogue: 0,0:08:14.20,0:08:15.37,Default,,0,0,0,,Huh?
+Dialogue: 0,0:08:15.45,0:08:17.62,Default,,0,0,0,,[loud roaring]
+Dialogue: 0,0:08:21.04,0:08:22.17,Default,,0,0,0,,Okay.
+Dialogue: 0,0:08:22.25,0:08:24.55,Default,,0,0,0,,But, you're still just a bug.
+Dialogue: 0,0:08:24.63,0:08:26.80,Default,,0,0,0,,This might be\Ntoo much even for him!
+Dialogue: 0,0:08:26.88,0:08:28.63,Default,,0,0,0,,I guess we're about to see.
+Dialogue: 0,0:08:28.72,0:08:30.51,Default,,0,0,0,,-[grunting]\N-[camera chimes]
+Dialogue: 0,0:08:30.84,0:08:31.80,Default,,0,0,0,,Uh?!
+Dialogue: 0,0:08:31.89,0:08:33.14,Default,,0,0,0,,[laughs]
+Dialogue: 0,0:08:33.89,0:08:36.02,Default,,0,0,0,,[STAFF 24A] Director!\NThe feed is up again!
+Dialogue: 0,0:08:36.68,0:08:38.56,Default,,0,0,0,,Wha...\NIsn't he the...
+Dialogue: 0,0:08:39.48,0:08:41.56,Default,,0,0,0,,It doesn't matter!\NLet's just air it!
+Dialogue: 0,0:08:41.65,0:08:42.69,Default,,0,0,0,,Sir!
+Dialogue: 0,0:08:42.77,0:08:45.73,Default,,0,0,0,,You realize we'll be\Nbroadcasting without any delay!
+Dialogue: 0,0:08:45.82,0:08:46.94,Default,,0,0,0,,If something happens live,
+Dialogue: 0,0:08:47.03,0:08:48.53,Default,,0,0,0,,we've no way\Nto stop it getting out!
+Dialogue: 0,0:08:48.61,0:08:50.57,Default,,0,0,0,,We already cut\Nthe broadcast once.
+Dialogue: 0,0:08:50.66,0:08:52.28,Default,,0,0,0,,Can't get any worse than that!
+Dialogue: 0,0:08:52.37,0:08:53.78,Default,,0,0,0,,-Do it!\N-Yes! Right!
+Dialogue: 0,0:08:53.87,0:08:54.91,Default,,0,0,0,,[keys clanking]
+Dialogue: 0,0:08:54.99,0:08:58.58,Default,,0,0,0,,[PRODUCER 23A] Our future,\Nthe battle, everything.
+Dialogue: 0,0:08:59.21,0:09:00.92,Default,,0,0,0,,Is riding on this man!
+Dialogue: 0,0:09:02.04,0:09:03.38,Default,,0,0,0,,[JOOHEE]\NI can't believe it!
+Dialogue: 0,0:09:03.46,0:09:04.71,Default,,0,0,0,,Me neither.
+Dialogue: 0,0:09:05.29,0:09:06.63,Default,,0,0,0,,He's really there!
+Dialogue: 0,0:09:06.71,0:09:12.59,Default,,0,0,0,,♪
+Dialogue: 0,0:09:12.68,0:09:14.14,Default,,0,0,0,,[JINAH]\NNo...
+Dialogue: 0,0:09:14.22,0:09:15.51,Default,,0,0,0,,way.
+Dialogue: 0,0:09:16.31,0:09:17.56,Default,,0,0,0,,[JINAH]\NJinwoo?
+Dialogue: 0,0:09:17.81,0:09:19.81,Default,,0,0,0,,He said\Nhe was just stepping out!
+Dialogue: 0,0:09:19.89,0:09:21.14,Default,,0,0,0,,What the heck?
+Dialogue: 0,0:09:21.23,0:09:22.81,Default,,0,0,0,,He better break this habit!
+Dialogue: 0,0:09:23.44,0:09:24.86,Default,,0,0,0,,[rattles]
+Dialogue: 0,0:09:25.15,0:09:26.40,Default,,0,0,0,,He made it there!
+Dialogue: 0,0:09:26.48,0:09:28.11,Default,,0,0,0,,Thank you, Hunter Sung!
+Dialogue: 0,0:09:29.19,0:09:30.53,Default,,0,0,0,,It's him all right.
+Dialogue: 0,0:09:30.90,0:09:32.15,Default,,0,0,0,,But how'd he reach them?
+Dialogue: 0,0:09:32.24,0:09:34.74,Default,,0,0,0,,Point is he did it,\NI don't care how!
+Dialogue: 0,0:09:35.12,0:09:36.62,Default,,0,0,0,,Let's put our faith in him!
+Dialogue: 0,0:09:36.70,0:09:38.79,Default,,0,0,0,,♪
+Dialogue: 0,0:09:38.87,0:09:40.91,Default,,0,0,0,,[wind whooshing]
+Dialogue: 0,0:09:41.00,0:09:44.54,Default,,0,0,0,,♪
+Dialogue: 0,0:09:44.63,0:09:45.92,Default,,0,0,0,,[thwacks]
+Dialogue: 0,0:09:46.00,0:09:47.50,Default,,0,0,0,,-[wind gusting]\N-[rumbling]
+Dialogue: 0,0:09:48.63,0:09:50.51,Default,,0,0,0,,[all groaning]
+Dialogue: 0,0:09:50.59,0:09:52.68,Default,,0,0,0,,Why would a mage\Ntype get that close to it?
+Dialogue: 0,0:09:52.76,0:09:55.09,Default,,0,0,0,,He underestimated\Nthat ant's power.
+Dialogue: 0,0:09:55.39,0:09:57.26,Default,,0,0,0,,And got clobbered for it!
+Dialogue: 0,0:09:58.35,0:09:59.64,Default,,0,0,0,,[ANT KING]\NWeak.
+Dialogue: 0,0:09:59.72,0:10:01.31,Default,,0,0,0,,You are no king.
+Dialogue: 0,0:10:01.39,0:10:02.64,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:10:02.73,0:10:05.90,Default,,0,0,0,,♪
+Dialogue: 0,0:10:05.98,0:10:06.98,Default,,0,0,0,,[scoffs]\N[spits]
+Dialogue: 0,0:10:11.32,0:10:12.70,Default,,0,0,0,,[thwacks]
+Dialogue: 0,0:10:17.16,0:10:18.66,Default,,0,0,0,,[wind gusting]
+Dialogue: 0,0:10:18.74,0:10:20.49,Default,,0,0,0,,[rumbling]
+Dialogue: 0,0:10:20.58,0:10:25.21,Default,,0,0,0,,♪
+Dialogue: 0,0:10:25.29,0:10:27.25,Default,,0,0,0,,[DONGWOOK]\NUm. Hey, guys.
+Dialogue: 0,0:10:28.25,0:10:30.59,Default,,0,0,0,,Are you sure that\NHunter Sung is a mage?
+Dialogue: 0,0:10:30.67,0:10:33.22,Default,,0,0,0,,I'm not sure about anything\Nwhen it comes to him.
+Dialogue: 0,0:10:33.59,0:10:35.93,Default,,0,0,0,,And I definitely\Ndidn't expect this.
+Dialogue: 0,0:10:37.22,0:10:38.64,Default,,0,0,0,,[JINWOO]\NHe's pretty durable.
+Dialogue: 0,0:10:38.93,0:10:40.56,Default,,0,0,0,,The exoskeleton maybe?
+Dialogue: 0,0:10:44.02,0:10:45.56,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:10:46.27,0:10:47.77,Default,,0,0,0,,[growls softly]
+Dialogue: 0,0:10:48.23,0:10:49.48,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:10:52.15,0:10:53.69,Default,,0,0,0,,[growls]
+Dialogue: 0,0:10:55.15,0:10:56.70,Default,,0,0,0,,[battle grunts]
+Dialogue: 0,0:10:56.78,0:10:58.57,Default,,0,0,0,,[rumbling]
+Dialogue: 0,0:10:58.66,0:11:00.41,Default,,0,0,0,,[CAMERAMAN 22A]\NTheir punches are insane!
+Dialogue: 0,0:11:00.49,0:11:03.33,Default,,0,0,0,,Even as an A-rank,\NI can barely stay on my feet!
+Dialogue: 0,0:11:03.41,0:11:04.62,Default,,0,0,0,,[thwacks]
+Dialogue: 0,0:11:05.16,0:11:08.00,Default,,0,0,0,,I might pass out just\Nfrom the force of their magic!
+Dialogue: 0,0:11:10.42,0:11:12.51,Default,,0,0,0,,[battle thuds]
+Dialogue: 0,0:11:12.59,0:11:13.63,Default,,0,0,0,,[wind gusting]
+Dialogue: 0,0:11:13.71,0:11:16.38,Default,,0,0,0,,[ANT KING]\NAm I...being overpowered?
+Dialogue: 0,0:11:16.47,0:11:17.97,Default,,0,0,0,,[thwacks]
+Dialogue: 0,0:11:20.93,0:11:22.89,Default,,0,0,0,,[rumbling]
+Dialogue: 0,0:11:22.97,0:11:28.35,Default,,0,0,0,,♪
+Dialogue: 0,0:11:28.44,0:11:29.65,Default,,0,0,0,,How?
+Dialogue: 0,0:11:31.23,0:11:33.28,Default,,0,0,0,,I do not understand.
+Dialogue: 0,0:11:33.36,0:11:36.40,Default,,0,0,0,,How could a human\Nbe so strong?
+Dialogue: 0,0:11:36.82,0:11:38.49,Default,,0,0,0,,[thwacks]
+Dialogue: 0,0:11:38.95,0:11:40.70,Default,,0,0,0,,[loud thud]
+Dialogue: 0,0:11:40.78,0:11:44.58,Default,,0,0,0,,♪
+Dialogue: 0,0:11:44.66,0:11:46.41,Default,,0,0,0,,[yelling]
+Dialogue: 0,0:11:49.92,0:11:51.38,Default,,0,0,0,,[thwacks]
+Dialogue: 0,0:11:53.63,0:11:54.63,Default,,0,0,0,,[groans]
+Dialogue: 0,0:11:54.71,0:11:56.30,Default,,0,0,0,,-[heart pounding]\N-[gasps]
+Dialogue: 0,0:11:58.59,0:12:00.01,Default,,0,0,0,,[groans]
+Dialogue: 0,0:12:02.51,0:12:03.56,Default,,0,0,0,,[JINWOO]\NPoison?
+Dialogue: 0,0:12:03.97,0:12:08.56,Default,,0,0,0,,[ANT KING] A mixture of toxins,\Nfrom the marine life here.
+Dialogue: 0,0:12:08.64,0:12:12.61,Default,,0,0,0,,Its potency, amplified\Nby my magic power.
+Dialogue: 0,0:12:15.28,0:12:18.61,Default,,0,0,0,,You will lose all ability\Nto move before long.
+Dialogue: 0,0:12:20.20,0:12:21.99,Default,,0,0,0,,This is the end for you.
+Dialogue: 0,0:12:22.58,0:12:24.12,Default,,0,0,0,,Die, human!
+Dialogue: 0,0:12:26.45,0:12:28.00,Default,,0,0,0,,[laughs]
+Dialogue: 0,0:12:28.08,0:12:30.75,Default,,0,0,0,,Seven KIA in a ten-man team?
+Dialogue: 0,0:12:31.04,0:12:32.34,Default,,0,0,0,,Is that a joke?
+Dialogue: 0,0:12:32.42,0:12:34.21,Default,,0,0,0,,[REIJI]\NNo. It's the facts.
+Dialogue: 0,0:12:34.63,0:12:36.96,Default,,0,0,0,,We were able\Nto contact the three survivors,
+Dialogue: 0,0:12:37.05,0:12:38.38,Default,,0,0,0,,and they confirmed it.
+Dialogue: 0,0:12:38.88,0:12:40.51,Default,,0,0,0,,[groaning]
+Dialogue: 0,0:12:40.59,0:12:42.47,Default,,0,0,0,,We lost over half our hunters?
+Dialogue: 0,0:12:42.55,0:12:44.51,Default,,0,0,0,,This mission is a catastrophe!
+Dialogue: 0,0:12:45.14,0:12:48.02,Default,,0,0,0,,Oh, and, we've also\Ndetected a strong reading
+Dialogue: 0,0:12:48.10,0:12:49.69,Default,,0,0,0,,near the island's caldera.
+Dialogue: 0,0:12:50.06,0:12:52.52,Default,,0,0,0,,We think it's whatever\Nbeat Goto-san, sir.
+Dialogue: 0,0:12:52.77,0:12:55.07,Default,,0,0,0,,[SHIGEO] How is it alive\Nafter fighting him?
+Dialogue: 0,0:12:55.32,0:12:56.94,Default,,0,0,0,,And it's headed into the nest?
+Dialogue: 0,0:12:57.03,0:12:58.03,Default,,0,0,0,,Why?
+Dialogue: 0,0:12:58.11,0:12:59.32,Default,,0,0,0,,[REIJI]\NNo idea.
+Dialogue: 0,0:12:59.40,0:13:01.03,Default,,0,0,0,,It could have some objective.
+Dialogue: 0,0:13:01.53,0:13:03.78,Default,,0,0,0,,Or maybe it needs\Na safe place to heal.
+Dialogue: 0,0:13:04.03,0:13:05.20,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:13:05.87,0:13:08.29,Default,,0,0,0,,[SHIGEO] We don't know\Nif the Korean team is alive,
+Dialogue: 0,0:13:08.79,0:13:10.83,Default,,0,0,0,,but if they are hanging\Non by a thread,
+Dialogue: 0,0:13:10.92,0:13:12.63,Default,,0,0,0,,Goto's killer will cut it.
+Dialogue: 0,0:13:13.08,0:13:15.04,Default,,0,0,0,,They'll fall easily\Nin their state,
+Dialogue: 0,0:13:15.13,0:13:17.59,Default,,0,0,0,,and the ants will be worn out\Nfrom fighting, too.
+Dialogue: 0,0:13:18.76,0:13:21.01,Default,,0,0,0,,If we can strike down\Nthe strong one,
+Dialogue: 0,0:13:21.09,0:13:22.89,Default,,0,0,0,,the others will just be fodder.
+Dialogue: 0,0:13:23.26,0:13:24.64,Default,,0,0,0,,[evil chuckle]
+Dialogue: 0,0:13:24.72,0:13:26.43,Default,,0,0,0,,Victory is not lost!
+Dialogue: 0,0:13:26.89,0:13:29.89,Default,,0,0,0,,Hurry up and recover\Nthe three surviving S-ranks!
+Dialogue: 0,0:13:30.48,0:13:32.65,Default,,0,0,0,,Once they've joined\Nthe second strike team at sea,
+Dialogue: 0,0:13:32.73,0:13:34.44,Default,,0,0,0,,send them back to the island!
+Dialogue: 0,0:13:35.69,0:13:36.98,Default,,0,0,0,,[REIJI]\NThose are your orders.
+Dialogue: 0,0:13:37.07,0:13:38.86,Default,,0,0,0,,A chopper will be there soon.
+Dialogue: 0,0:13:39.99,0:13:41.07,Default,,0,0,0,,Roger that.
+Dialogue: 0,0:13:41.15,0:13:43.16,Default,,0,0,0,,♪
+Dialogue: 0,0:13:43.24,0:13:45.03,Default,,0,0,0,,He wants to move ahead\Nwith plan nine.
+Dialogue: 0,0:13:45.12,0:13:46.58,Default,,0,0,0,,Let's go.
+Dialogue: 0,0:13:46.66,0:13:48.33,Default,,0,0,0,,[HOSHINO]\NIt's hopeless.
+Dialogue: 0,0:13:48.58,0:13:50.75,Default,,0,0,0,,That thing is a monster.
+Dialogue: 0,0:13:51.33,0:13:53.54,Default,,0,0,0,,If we don't run,\Nthen we're history.
+Dialogue: 0,0:13:53.62,0:13:54.67,Default,,0,0,0,,[groans]
+Dialogue: 0,0:13:54.75,0:13:55.84,Default,,0,0,0,,Get a grip!
+Dialogue: 0,0:13:55.92,0:13:57.67,Default,,0,0,0,,No time for panic attacks!
+Dialogue: 0,0:13:57.75,0:13:59.76,Default,,0,0,0,,Everyone who faced\Nthat ant is dead!
+Dialogue: 0,0:14:00.26,0:14:01.26,Default,,0,0,0,,All S-ranks!
+Dialogue: 0,0:14:01.34,0:14:03.30,Default,,0,0,0,,And you wanna\Nvolunteer to be next?
+Dialogue: 0,0:14:03.38,0:14:04.80,Default,,0,0,0,,-[grunts]\N-[groans]
+Dialogue: 0,0:14:04.89,0:14:06.10,Default,,0,0,0,,[TAWATA]\NYou're pathetic.
+Dialogue: 0,0:14:06.51,0:14:08.31,Default,,0,0,0,,We don't have any choice.
+Dialogue: 0,0:14:08.81,0:14:10.14,Default,,0,0,0,,Deal with it.
+Dialogue: 0,0:14:10.47,0:14:12.23,Default,,0,0,0,,[helicopter whirring]
+Dialogue: 0,0:14:12.31,0:14:16.48,Default,,0,0,0,,♪
+Dialogue: 0,0:14:16.56,0:14:18.52,Default,,0,0,0,,[growling]
+Dialogue: 0,0:14:22.90,0:14:24.53,Default,,0,0,0,,[thwacks]
+Dialogue: 0,0:14:25.24,0:14:27.07,Default,,0,0,0,,[bones cracking]
+Dialogue: 0,0:14:27.16,0:14:28.45,Default,,0,0,0,,[screaming]
+Dialogue: 0,0:14:28.53,0:14:30.54,Default,,0,0,0,,-[thuds]\N-[rumbling]
+Dialogue: 0,0:14:30.95,0:14:32.91,Default,,0,0,0,,Wait, I thought\Nhe was just poisoned.
+Dialogue: 0,0:14:33.00,0:14:34.96,Default,,0,0,0,,He seems okay,\Nbut is he really?
+Dialogue: 0,0:14:35.04,0:14:36.21,Default,,0,0,0,,[laughs]
+Dialogue: 0,0:14:36.29,0:14:38.09,Default,,0,0,0,,At this point nothing\NHunter Sung does
+Dialogue: 0,0:14:38.17,0:14:39.42,Default,,0,0,0,,will surprise me.
+Dialogue: 0,0:14:40.46,0:14:42.26,Default,,0,0,0,,[JINWOO]\NSo, you had a secret weapon.
+Dialogue: 0,0:14:43.22,0:14:44.43,Default,,0,0,0,,Ah, I was wondering
+Dialogue: 0,0:14:44.51,0:14:46.55,Default,,0,0,0,,why you were holding\Nback earlier.
+Dialogue: 0,0:14:46.93,0:14:48.47,Default,,0,0,0,,[system chimes]
+Dialogue: 0,0:14:49.35,0:14:51.10,Default,,0,0,0,,[JINWOO] Maybe it's 'cause\Nmy perception stat's
+Dialogue: 0,0:14:51.18,0:14:52.52,Default,,0,0,0,,gotten so high.
+Dialogue: 0,0:14:52.85,0:14:54.73,Default,,0,0,0,,But I can sense his emotions.
+Dialogue: 0,0:14:55.48,0:14:56.98,Default,,0,0,0,,He's anxious.
+Dialogue: 0,0:14:58.02,0:14:59.57,Default,,0,0,0,,That makes two of us.
+Dialogue: 0,0:14:59.90,0:15:01.11,Default,,0,0,0,,Huh?
+Dialogue: 0,0:15:01.57,0:15:03.53,Default,,0,0,0,,I can't waste any more time.
+Dialogue: 0,0:15:04.61,0:15:05.99,Default,,0,0,0,,This ends now!
+Dialogue: 0,0:15:09.20,0:15:10.74,Default,,0,0,0,,[thwacks]
+Dialogue: 0,0:15:13.16,0:15:15.50,Default,,0,0,0,,[ant buzzing]
+Dialogue: 0,0:15:16.75,0:15:18.00,Default,,0,0,0,,[ANT KING]\NPoison is ineffective
+Dialogue: 0,0:15:18.08,0:15:20.25,Default,,0,0,0,,and tests of strength\Nare pointless.
+Dialogue: 0,0:15:20.55,0:15:21.80,Default,,0,0,0,,In that case...
+Dialogue: 0,0:15:23.97,0:15:30.93,Default,,0,0,0,,♪
+Dialogue: 0,0:15:33.10,0:15:35.14,Default,,0,0,0,,[wind whooshing]
+Dialogue: 0,0:15:35.23,0:15:42.19,Default,,0,0,0,,♪
+Dialogue: 0,0:15:43.19,0:15:44.49,Default,,0,0,0,,[system chimes]
+Dialogue: 0,0:15:45.57,0:15:47.11,Default,,0,0,0,,[sword clanks]
+Dialogue: 0,0:15:47.20,0:15:51.08,Default,,0,0,0,,♪
+Dialogue: 0,0:15:51.66,0:15:52.91,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:15:52.99,0:15:54.33,Default,,0,0,0,,[groaning]
+Dialogue: 0,0:15:55.37,0:15:57.08,Default,,0,0,0,,[roars]
+Dialogue: 0,0:15:59.75,0:16:00.59,Default,,0,0,0,,[electricity crackling]
+Dialogue: 0,0:16:00.67,0:16:02.50,Default,,0,0,0,,-[battle grunts]\N-[wind gusting]
+Dialogue: 0,0:16:03.38,0:16:05.63,Default,,0,0,0,,[sword clanking]
+Dialogue: 0,0:16:06.13,0:16:07.22,Default,,0,0,0,,[grunting]
+Dialogue: 0,0:16:09.18,0:16:10.64,Default,,0,0,0,,[groans]
+Dialogue: 0,0:16:10.72,0:16:13.31,Default,,0,0,0,,[swords clanking]
+Dialogue: 0,0:16:13.64,0:16:15.31,Default,,0,0,0,,[battle grunts]
+Dialogue: 0,0:16:17.81,0:16:19.69,Default,,0,0,0,,[roars]
+Dialogue: 0,0:16:19.77,0:16:21.23,Default,,0,0,0,,[angry grunts]
+Dialogue: 0,0:16:21.61,0:16:23.57,Default,,0,0,0,,[sword clanking]
+Dialogue: 0,0:16:24.44,0:16:26.53,Default,,0,0,0,,-[rumbling]\N-[panting]
+Dialogue: 0,0:16:27.74,0:16:29.70,Default,,0,0,0,,[thudding]
+Dialogue: 0,0:16:29.78,0:16:36.25,Default,,0,0,0,,♪
+Dialogue: 0,0:16:36.33,0:16:38.41,Default,,0,0,0,,[ANT KING]\NSpeed that is equal to mine...
+Dialogue: 0,0:16:38.50,0:16:39.71,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:16:39.79,0:16:41.92,Default,,0,0,0,,...and growing even faster.
+Dialogue: 0,0:16:42.17,0:16:43.34,Default,,0,0,0,,[groans]
+Dialogue: 0,0:16:43.42,0:16:45.17,Default,,0,0,0,,How is this possible?
+Dialogue: 0,0:16:45.25,0:16:50.01,Default,,0,0,0,,♪
+Dialogue: 0,0:16:50.09,0:16:51.47,Default,,0,0,0,,[all groan]
+Dialogue: 0,0:16:55.47,0:16:57.14,Default,,0,0,0,,[electricity crackling]
+Dialogue: 0,0:16:57.64,0:16:59.60,Default,,0,0,0,,[gasping]
+Dialogue: 0,0:16:59.69,0:17:01.40,Default,,0,0,0,,[explosion]
+Dialogue: 0,0:17:01.48,0:17:03.27,Default,,0,0,0,,[swords clanking]
+Dialogue: 0,0:17:04.02,0:17:05.65,Default,,0,0,0,,[rumbling]
+Dialogue: 0,0:17:05.73,0:17:09.53,Default,,0,0,0,,♪
+Dialogue: 0,0:17:09.61,0:17:10.95,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:17:11.03,0:17:13.41,Default,,0,0,0,,[both grunting]
+Dialogue: 0,0:17:14.49,0:17:16.49,Default,,0,0,0,,[swords clanking]
+Dialogue: 0,0:17:20.96,0:17:22.96,Default,,0,0,0,,[roaring]
+Dialogue: 0,0:17:23.96,0:17:25.29,Default,,0,0,0,,[grunting]
+Dialogue: 0,0:17:26.05,0:17:28.63,Default,,0,0,0,,[roaring]
+Dialogue: 0,0:17:30.72,0:17:33.01,Default,,0,0,0,,-[wind gusting]\N-[groans]
+Dialogue: 0,0:17:33.09,0:17:39.98,Default,,0,0,0,,♪
+Dialogue: 0,0:17:40.23,0:17:41.64,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:17:41.73,0:17:45.36,Default,,0,0,0,,♪
+Dialogue: 0,0:17:45.44,0:17:46.86,Default,,0,0,0,,[JINWOO]\NUpgrade.
+Dialogue: 0,0:17:47.28,0:17:48.44,Default,,0,0,0,,Mutilation.
+Dialogue: 0,0:17:48.53,0:17:50.03,Default,,0,0,0,,[sword clanks]
+Dialogue: 0,0:17:53.36,0:17:54.62,Default,,0,0,0,,[ANT KING]\NWhat happened?
+Dialogue: 0,0:17:56.58,0:17:58.29,Default,,0,0,0,,-[angry grunt]\N-[sword clanking]
+Dialogue: 0,0:18:00.12,0:18:01.37,Default,,0,0,0,,[ANT KING]\NHow?
+Dialogue: 0,0:18:01.46,0:18:04.71,Default,,0,0,0,,♪
+Dialogue: 0,0:18:04.79,0:18:06.63,Default,,0,0,0,,'Course you regenerate.
+Dialogue: 0,0:18:07.50,0:18:08.92,Default,,0,0,0,,[ANT KING]\NWhat was that?
+Dialogue: 0,0:18:09.01,0:18:10.42,Default,,0,0,0,,-[cracks]\N-[blasts]
+Dialogue: 0,0:18:11.84,0:18:13.97,Default,,0,0,0,,What in the world was that?
+Dialogue: 0,0:18:14.80,0:18:17.47,Default,,0,0,0,,[roaring]
+Dialogue: 0,0:18:24.10,0:18:26.36,Default,,0,0,0,,[roaring]
+Dialogue: 0,0:18:26.44,0:18:28.36,Default,,0,0,0,,[screeches]
+Dialogue: 0,0:18:30.19,0:18:31.78,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:18:32.90,0:18:34.86,Default,,0,0,0,,[wind gusting]
+Dialogue: 0,0:18:38.58,0:18:41.91,Default,,0,0,0,,[ANT KING]\NHow dare you, you human?
+Dialogue: 0,0:18:42.16,0:18:46.13,Default,,0,0,0,,You filthy human!\N[screaming]
+Dialogue: 0,0:18:46.88,0:18:48.09,Default,,0,0,0,,[electricity crackling]
+Dialogue: 0,0:18:48.42,0:18:50.71,Default,,0,0,0,,Boys, get 'em.
+Dialogue: 0,0:18:51.01,0:18:52.55,Default,,0,0,0,,[wind gusting]
+Dialogue: 0,0:18:52.63,0:18:54.43,Default,,0,0,0,,[roaring]
+Dialogue: 0,0:18:58.14,0:19:00.22,Default,,0,0,0,,[battle cries]
+Dialogue: 0,0:19:01.06,0:19:03.06,Default,,0,0,0,,[ants chirping]
+Dialogue: 0,0:19:03.14,0:19:09.98,Default,,0,0,0,,♪
+Dialogue: 0,0:19:10.69,0:19:12.53,Default,,0,0,0,,[explosion]
+Dialogue: 0,0:19:13.03,0:19:15.32,Default,,0,0,0,,[big explosion]
+Dialogue: 0,0:19:15.99,0:19:17.37,Default,,0,0,0,,[fire roaring]\N[ANT KING] But...
+Dialogue: 0,0:19:17.45,0:19:21.74,Default,,0,0,0,,I was born to be\Nthe absolute strongest being.
+Dialogue: 0,0:19:22.33,0:19:25.50,Default,,0,0,0,,I devour all,\Ngrowing more powerful
+Dialogue: 0,0:19:25.58,0:19:27.50,Default,,0,0,0,,with each enemy I consume.
+Dialogue: 0,0:19:28.13,0:19:30.50,Default,,0,0,0,,I am supposed to be king.
+Dialogue: 0,0:19:30.59,0:19:33.34,Default,,0,0,0,,I am supposed to...
+Dialogue: 0,0:19:34.17,0:19:35.76,Default,,0,0,0,,[fire crackling]
+Dialogue: 0,0:19:35.84,0:19:37.05,Default,,0,0,0,,Run away.
+Dialogue: 0,0:19:37.13,0:19:38.55,Default,,0,0,0,,I must run away!
+Dialogue: 0,0:19:38.64,0:19:41.64,Default,,0,0,0,,In order to survive,\NI need to run away!
+Dialogue: 0,0:19:44.02,0:19:45.60,Default,,0,0,0,,[whooshes]
+Dialogue: 0,0:19:47.35,0:19:49.23,Default,,0,0,0,,[ANT KING]\NGet as far as possible!
+Dialogue: 0,0:19:49.73,0:19:51.36,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:19:52.15,0:19:53.69,Default,,0,0,0,,[screams]
+Dialogue: 0,0:19:53.78,0:20:00.58,Default,,0,0,0,,♪
+Dialogue: 0,0:20:02.66,0:20:04.25,Default,,0,0,0,,[screeching]
+Dialogue: 0,0:20:08.21,0:20:10.00,Default,,0,0,0,,[ANT KING]\NHurry! Hurry!
+Dialogue: 0,0:20:11.17,0:20:12.63,Default,,0,0,0,,Hurry and escape!
+Dialogue: 0,0:20:12.71,0:20:14.38,Default,,0,0,0,,♪
+Dialogue: 0,0:20:14.46,0:20:16.05,Default,,0,0,0,,[swords clanking]
+Dialogue: 0,0:20:19.93,0:20:22.85,Default,,0,0,0,,[thudding]
+Dialogue: 0,0:20:22.93,0:20:29.77,Default,,0,0,0,,♪
+Dialogue: 0,0:20:30.90,0:20:32.52,Default,,0,0,0,,[system chiming]
+Dialogue: 0,0:20:32.61,0:20:39.45,Default,,0,0,0,,♪
+Dialogue: 0,0:20:42.49,0:20:44.20,Default,,0,0,0,,[ants buzzing]
+Dialogue: 0,0:20:45.45,0:20:46.70,Default,,0,0,0,,They're running scared.
+Dialogue: 0,0:20:46.79,0:20:48.33,Default,,0,0,0,,Can't say I blame them.
+Dialogue: 0,0:20:48.41,0:20:49.71,Default,,0,0,0,,Did we just win?
+Dialogue: 0,0:20:49.79,0:20:51.92,Default,,0,0,0,,♪
+Dialogue: 0,0:20:52.00,0:20:53.42,Default,,0,0,0,,[exhales]
+Dialogue: 0,0:20:53.50,0:20:54.80,Default,,0,0,0,,[BAEK]\NHunter Sung!
+Dialogue: 0,0:20:54.88,0:20:57.76,Default,,0,0,0,,♪
+Dialogue: 0,0:20:57.84,0:20:59.22,Default,,0,0,0,,[whimpering]
+Dialogue: 0,0:21:01.59,0:21:03.05,Default,,0,0,0,,[JINWOO]\NHer aura's fading.
+Dialogue: 0,0:21:03.14,0:21:04.56,Default,,0,0,0,,We don't have much time
+Dialogue: 0,0:21:04.64,0:21:06.14,Default,,0,0,0,,We have to get her to a doctor!
+Dialogue: 0,0:21:06.22,0:21:07.85,Default,,0,0,0,,There should be\Na recovery helicopter
+Dialogue: 0,0:21:07.93,0:21:08.98,Default,,0,0,0,,right outside!
+Dialogue: 0,0:21:09.06,0:21:10.60,Default,,0,0,0,,-If we go now!\N-No.
+Dialogue: 0,0:21:10.69,0:21:12.31,Default,,0,0,0,,She won't\Nshe'll last that long.
+Dialogue: 0,0:21:12.40,0:21:13.81,Default,,0,0,0,,So we stay?
+Dialogue: 0,0:21:17.57,0:21:19.61,Default,,0,0,0,,Thought your potions\Nwere useless on her.
+Dialogue: 0,0:21:19.70,0:21:21.28,Default,,0,0,0,,I haven't tried this one.
+Dialogue: 0,0:21:21.66,0:21:23.07,Default,,0,0,0,,[hard breaths]
+Dialogue: 0,0:21:24.83,0:21:26.08,Default,,0,0,0,,[gulps]
+Dialogue: 0,0:21:26.16,0:21:29.37,Default,,0,0,0,,[JINWOO] The Elixir of Life\Neven cured Mom's Eternal Sleep.
+Dialogue: 0,0:21:29.91,0:21:32.79,Default,,0,0,0,,This is, this is our last hope!
+Dialogue: 0,0:21:33.38,0:21:34.54,Default,,0,0,0,,-[chimes]\N-Huh?
+Dialogue: 0,0:21:36.00,0:21:38.30,Default,,0,0,0,,No, no.
+Dialogue: 0,0:21:41.63,0:21:42.93,Default,,0,0,0,,[DONGWOOK]\NDid it not work?
+Dialogue: 0,0:21:45.43,0:21:47.39,Default,,0,0,0,,[JINWOO] I can't leave\Nthe island fast enough.
+Dialogue: 0,0:21:47.47,0:21:48.89,Default,,0,0,0,,I can't use potions.
+Dialogue: 0,0:21:48.98,0:21:51.89,Default,,0,0,0,,I can't use Shadow Exchange\Nbecause of the cooldown time!
+Dialogue: 0,0:21:51.98,0:21:53.06,Default,,0,0,0,,So what?
+Dialogue: 0,0:21:53.15,0:21:55.44,Default,,0,0,0,,What?\NWhat the hell can I do?
+Dialogue: 0,0:21:55.52,0:21:57.32,Default,,0,0,0,,♪
+Dialogue: 0,0:22:03.66,0:22:05.78,Default,,0,0,0,,[ANT KING]\N[unintelligible]

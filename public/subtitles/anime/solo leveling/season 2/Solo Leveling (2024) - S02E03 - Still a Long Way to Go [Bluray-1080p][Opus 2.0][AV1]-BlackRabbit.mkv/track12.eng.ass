@@ -1,0 +1,552 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScarledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,18,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.67,0:00:04.38,Default,,0,0,0,,[roaring]
+Dialogue: 0,0:00:04.46,0:00:05.71,Default,,0,0,0,,[groans]
+Dialogue: 0,0:00:06.01,0:00:07.17,Default,,0,0,0,,-[thuds]\N-[gasps]
+Dialogue: 0,0:00:07.42,0:00:08.59,Default,,0,0,0,,[growling]
+Dialogue: 0,0:00:08.67,0:00:11.01,Default,,0,0,0,,♪
+Dialogue: 0,0:00:11.09,0:00:12.89,Default,,0,0,0,,[groans]
+Dialogue: 0,0:00:14.85,0:00:16.22,Default,,0,0,0,,[YOO JINHO] Um, Boss?
+Dialogue: 0,0:00:17.52,0:00:19.19,Default,,0,0,0,,Wanna introduce us?
+Dialogue: 0,0:00:20.23,0:00:21.44,Default,,0,0,0,,[SUNG JINWOO] Oh, right.
+Dialogue: 0,0:00:21.52,0:00:23.40,Default,,0,0,0,,I guess you've never\Nseen them before, huh?
+Dialogue: 0,0:00:24.11,0:00:25.61,Default,,0,0,0,,They're a part\Nof one of my skills.
+Dialogue: 0,0:00:27.86,0:00:29.57,Default,,0,0,0,,I didn't know\Nthat was even possible.
+Dialogue: 0,0:00:29.90,0:00:31.78,Default,,0,0,0,,So they're, like, your minions?
+Dialogue: 0,0:00:32.11,0:00:33.45,Default,,0,0,0,,[SUNG JINWOO]\NIt's kinda hard to explain,
+Dialogue: 0,0:00:33.53,0:00:35.16,Default,,0,0,0,,but yup, something like that.
+Dialogue: 0,0:00:35.58,0:00:37.95,Default,,0,0,0,,[roaring]
+Dialogue: 0,0:00:38.20,0:00:39.50,Default,,0,0,0,,-Huh.\N-[snaps]
+Dialogue: 0,0:00:39.58,0:00:43.96,Default,,0,0,0,,♪
+Dialogue: 0,0:00:44.25,0:00:45.50,Default,,0,0,0,,-[hammers]\N-[crackling]
+Dialogue: 0,0:00:47.21,0:00:50.22,Default,,0,0,0,,[hammering]
+Dialogue: 0,0:00:51.55,0:00:52.55,Default,,0,0,0,,-[grunts]\N-[thuds]
+Dialogue: 0,0:00:53.47,0:00:54.51,Default,,0,0,0,,[groans]
+Dialogue: 0,0:00:55.30,0:00:56.68,Default,,0,0,0,,-[YOO JINHO] Please, Boss.\N-Hm?
+Dialogue: 0,0:00:57.27,0:00:59.14,Default,,0,0,0,,Let me collect\Nsome essence stones.
+Dialogue: 0,0:00:59.43,0:01:01.02,Default,,0,0,0,,Otherwise, I'm useless here.
+Dialogue: 0,0:01:01.98,0:01:02.98,Default,,0,0,0,,Huh?
+Dialogue: 0,0:01:05.36,0:01:06.40,Default,,0,0,0,,For me?
+Dialogue: 0,0:01:06.69,0:01:08.57,Default,,0,0,0,,-Thank you so much!\N-[chuckles]
+Dialogue: 0,0:01:09.49,0:01:10.57,Default,,0,0,0,,Huh?
+Dialogue: 0,0:01:11.20,0:01:14.28,Default,,0,0,0,,♪
+Dialogue: 0,0:01:14.37,0:01:15.45,Default,,0,0,0,,[water drips]
+Dialogue: 0,0:01:16.74,0:01:17.91,Default,,0,0,0,,[JAMES] Stay away!
+Dialogue: 0,0:01:18.54,0:01:19.58,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:01:19.66,0:01:21.00,Default,,0,0,0,,Oh, Christ!
+Dialogue: 0,0:01:21.29,0:01:22.54,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:01:23.83,0:01:24.92,Default,,0,0,0,,Hey.
+Dialogue: 0,0:01:25.00,0:01:27.00,Default,,0,0,0,,Could you not scream like that?
+Dialogue: 0,0:01:27.75,0:01:28.88,Default,,0,0,0,,Everything's fine.
+Dialogue: 0,0:01:29.21,0:01:31.01,Default,,0,0,0,,Your friends are unconscious,\Nnot dead.
+Dialogue: 0,0:01:31.09,0:01:33.13,Default,,0,0,0,,-[James screams]\N-Can't blame you, though.
+Dialogue: 0,0:01:33.22,0:01:34.76,Default,,0,0,0,,I'm sure I look\Nmore like a beast
+Dialogue: 0,0:01:34.84,0:01:36.51,Default,,0,0,0,,than a person right now, huh?
+Dialogue: 0,0:01:36.60,0:01:37.60,Default,,0,0,0,,[chuckles]
+Dialogue: 0,0:01:38.18,0:01:39.22,Default,,0,0,0,,Listen.
+Dialogue: 0,0:01:39.47,0:01:42.31,Default,,0,0,0,,♪
+Dialogue: 0,0:01:42.73,0:01:44.40,Default,,0,0,0,,I'll talk slowly.
+Dialogue: 0,0:01:44.73,0:01:47.32,Default,,0,0,0,,I'm human, too. Just lost.
+Dialogue: 0,0:01:48.02,0:01:49.03,Default,,0,0,0,,[chuckles]
+Dialogue: 0,0:03:20.45,0:03:22.74,Default,,0,0,0,,[sizzling]
+Dialogue: 0,0:03:23.08,0:03:24.33,Default,,0,0,0,,-[glasses clink]\N-[YOO JINHO] Bottoms up!
+Dialogue: 0,0:03:24.91,0:03:26.96,Default,,0,0,0,,[gulping]
+Dialogue: 0,0:03:27.04,0:03:28.12,Default,,0,0,0,,[exhales]
+Dialogue: 0,0:03:28.21,0:03:29.21,Default,,0,0,0,,[exhales loudly]
+Dialogue: 0,0:03:29.71,0:03:31.88,Default,,0,0,0,,That's nineteen raids cleared,\Nas per our deal.
+Dialogue: 0,0:03:32.38,0:03:33.71,Default,,0,0,0,,Yeah, and thanks to you
+Dialogue: 0,0:03:33.80,0:03:35.59,Default,,0,0,0,,we pulled it off\Nwithout too much trouble.
+Dialogue: 0,0:03:36.51,0:03:37.59,Default,,0,0,0,,What you got next?
+Dialogue: 0,0:03:38.34,0:03:40.93,Default,,0,0,0,,Let's see, first is\Npassing the written exam,
+Dialogue: 0,0:03:41.01,0:03:42.89,Default,,0,0,0,,and getting\Nmy guild master's license.
+Dialogue: 0,0:03:43.31,0:03:44.31,Default,,0,0,0,,After that,
+Dialogue: 0,0:03:44.39,0:03:46.02,Default,,0,0,0,,I'll start negotiating\Nwith my dad.
+Dialogue: 0,0:03:46.52,0:03:47.56,Default,,0,0,0,,-Huh?\N-Makes sense.
+Dialogue: 0,0:03:47.98,0:03:49.02,Default,,0,0,0,,[YOO JINHO]\NWhat about you?
+Dialogue: 0,0:03:49.10,0:03:50.27,Default,,0,0,0,,Got any big plans?
+Dialogue: 0,0:03:50.52,0:03:53.52,Default,,0,0,0,,[sizzling]
+Dialogue: 0,0:03:54.61,0:03:56.69,Default,,0,0,0,,I'll probably be\Nout of contact for a while.
+Dialogue: 0,0:03:57.45,0:03:58.95,Default,,0,0,0,,Got some traveling\NI need to do.
+Dialogue: 0,0:03:59.28,0:04:00.45,Default,,0,0,0,,Hm? Dude.
+Dialogue: 0,0:04:01.28,0:04:02.99,Default,,0,0,0,,-Hmm.\N-[SUNG JINWOO] You okay?
+Dialogue: 0,0:04:04.04,0:04:05.04,Default,,0,0,0,,[gulps]
+Dialogue: 0,0:04:05.12,0:04:06.12,Default,,0,0,0,,[exhales loudly]
+Dialogue: 0,0:04:07.00,0:04:09.33,Default,,0,0,0,,[YOO JINHO] Boss. If it's\Na pain to put up with me,
+Dialogue: 0,0:04:09.42,0:04:11.00,Default,,0,0,0,,you can just\Ncome out and say it.
+Dialogue: 0,0:04:11.63,0:04:14.92,Default,,0,0,0,,And...I promise that\NI won't bother you anymore.
+Dialogue: 0,0:04:16.59,0:04:17.76,Default,,0,0,0,,[chuckles]
+Dialogue: 0,0:04:17.84,0:04:19.05,Default,,0,0,0,,[SUNG JINWOO]\NAre you drunk already?
+Dialogue: 0,0:04:19.80,0:04:20.80,Default,,0,0,0,,[YOO JINHO] Truth is.
+Dialogue: 0,0:04:21.14,0:04:23.30,Default,,0,0,0,,There's a good decade\Nbetween me and my brother,
+Dialogue: 0,0:04:23.97,0:04:25.89,Default,,0,0,0,,and I don't think\Nhe likes me very much.
+Dialogue: 0,0:04:26.52,0:04:29.48,Default,,0,0,0,,He's never once shown me any\Nsort of brotherly affection.
+Dialogue: 0,0:04:30.31,0:04:31.40,Default,,0,0,0,,On the other hand,
+Dialogue: 0,0:04:31.90,0:04:34.94,Default,,0,0,0,,you not only saved my life,\Nbut kept helping me afterward.
+Dialogue: 0,0:04:35.36,0:04:36.44,Default,,0,0,0,,So, y'know.
+Dialogue: 0,0:04:37.82,0:04:38.99,Default,,0,0,0,,Sometimes I think
+Dialogue: 0,0:04:39.24,0:04:40.40,Default,,0,0,0,,it would be better...
+Dialogue: 0,0:04:40.86,0:04:42.62,Default,,0,0,0,,if you were my older brother.
+Dialogue: 0,0:04:42.70,0:04:45.70,Default,,0,0,0,,[sizzling]
+Dialogue: 0,0:04:46.16,0:04:47.16,Default,,0,0,0,,[exhales]
+Dialogue: 0,0:04:52.50,0:04:53.50,Default,,0,0,0,,[gulps]
+Dialogue: 0,0:04:53.58,0:04:54.59,Default,,0,0,0,,[glass thuds]
+Dialogue: 0,0:04:58.17,0:04:59.47,Default,,0,0,0,,-[liquid trickling]\N-[YOO JINHO] Huh?
+Dialogue: 0,0:05:01.51,0:05:02.51,Default,,0,0,0,,[bottle thuds]
+Dialogue: 0,0:05:02.59,0:05:03.72,Default,,0,0,0,,[SUNG JINWOO]\NThen you're in luck,
+Dialogue: 0,0:05:03.80,0:05:04.97,Default,,0,0,0,,-'cause from now on...\N-[glass clinks]
+Dialogue: 0,0:05:08.89,0:05:11.77,Default,,0,0,0,,I'll consider you my friend,\Nand my younger brother.
+Dialogue: 0,0:05:12.19,0:05:13.27,Default,,0,0,0,,[shudders]
+Dialogue: 0,0:05:14.69,0:05:15.69,Default,,0,0,0,,Huh.
+Dialogue: 0,0:05:16.57,0:05:18.19,Default,,0,0,0,,We're brothers?
+Dialogue: 0,0:05:18.57,0:05:19.57,Default,,0,0,0,,[sniffles]
+Dialogue: 0,0:05:19.94,0:05:21.11,Default,,0,0,0,,[gulps]
+Dialogue: 0,0:05:21.20,0:05:22.41,Default,,0,0,0,,[exhales]
+Dialogue: 0,0:05:23.03,0:05:24.74,Default,,0,0,0,,Go on.\NEat as much as you want.
+Dialogue: 0,0:05:24.82,0:05:26.24,Default,,0,0,0,,I'll grill you up a ton!
+Dialogue: 0,0:05:26.33,0:05:27.41,Default,,0,0,0,,[SUNG JINWOO]\NWha... no, no, no, no,
+Dialogue: 0,0:05:27.49,0:05:28.66,Default,,0,0,0,,you don't have to do that.
+Dialogue: 0,0:05:28.74,0:05:30.00,Default,,0,0,0,,[YOO JINHO]\NWant me to add lemon juice?
+Dialogue: 0,0:05:30.08,0:05:31.21,Default,,0,0,0,,[SUNG JINWOO]\NNo! [chuckles]
+Dialogue: 0,0:05:31.29,0:05:32.54,Default,,0,0,0,,You're drunk drunk, huh?
+Dialogue: 0,0:05:32.62,0:05:34.54,Default,,0,0,0,,[YOO JINHO]\NI've never been more sober!
+Dialogue: 0,0:05:34.63,0:05:35.63,Default,,0,0,0,,[both laugh]
+Dialogue: 0,0:05:35.71,0:05:37.04,Default,,0,0,0,,[SUNG JINWOO]\NUh-huh, sure buddy.
+Dialogue: 0,0:05:38.88,0:05:43.34,Default,,0,0,0,,♪
+Dialogue: 0,0:05:43.59,0:05:44.97,Default,,0,0,0,,[MALE DEPUTY CHIEF 15A]\NHave we confirmed his origin?
+Dialogue: 0,0:05:45.93,0:05:47.05,Default,,0,0,0,,[MALE OFFICER 15A]\NHe claims to be a hunter
+Dialogue: 0,0:05:47.14,0:05:48.18,Default,,0,0,0,,from another country.
+Dialogue: 0,0:05:48.51,0:05:49.64,Default,,0,0,0,,According to him,
+Dialogue: 0,0:05:49.72,0:05:50.85,Default,,0,0,0,,he only just escaped the gate
+Dialogue: 0,0:05:50.93,0:05:52.73,Default,,0,0,0,,he'd been trapped in\Nfor the last ten years.
+Dialogue: 0,0:05:54.27,0:05:55.35,Default,,0,0,0,,Seems the exit he took
+Dialogue: 0,0:05:55.44,0:05:56.94,Default,,0,0,0,,spit him out of a gate\Nin the US.
+Dialogue: 0,0:05:57.73,0:05:59.44,Default,,0,0,0,,[MALE DEPUTY CHIEF 15A]\NWell, that's quite a story.
+Dialogue: 0,0:06:00.03,0:06:01.03,Default,,0,0,0,,Anything else?
+Dialogue: 0,0:06:01.44,0:06:02.57,Default,,0,0,0,,[MALE OFFICER 15A]\NSome of the things he's said
+Dialogue: 0,0:06:02.65,0:06:04.20,Default,,0,0,0,,aren't adding up,\Nso we're consulting
+Dialogue: 0,0:06:04.28,0:06:05.95,Default,,0,0,0,,with a hunter\Nfrom his home country.
+Dialogue: 0,0:06:06.66,0:06:08.16,Default,,0,0,0,,We can't rule out\Nthe possibility
+Dialogue: 0,0:06:08.24,0:06:09.24,Default,,0,0,0,,that he's a beast.
+Dialogue: 0,0:06:09.62,0:06:10.95,Default,,0,0,0,,[MALE DEPUTY CHIEF 15A]\NAnd if that's the case?
+Dialogue: 0,0:06:11.91,0:06:13.00,Default,,0,0,0,,[MALE OFFICER 15A]\NDon't worry, sir.
+Dialogue: 0,0:06:13.33,0:06:14.92,Default,,0,0,0,,The hunter we've requested\Nassistance from
+Dialogue: 0,0:06:15.00,0:06:17.21,Default,,0,0,0,,is an S-ranked\Nex-pat living in DC.
+Dialogue: 0,0:06:17.88,0:06:19.46,Default,,0,0,0,,[MALE DEPUTY CHIEF 15A]\NMister Hwang, huh?
+Dialogue: 0,0:06:20.17,0:06:22.22,Default,,0,0,0,,[MALE OFFICER 15A]\NMhm. As soon as he arrives,
+Dialogue: 0,0:06:22.30,0:06:23.59,Default,,0,0,0,,we'll start the interrogation.
+Dialogue: 0,0:06:24.01,0:06:25.93,Default,,0,0,0,,[scoffs]\NThe sooner, the better.
+Dialogue: 0,0:06:26.26,0:06:28.35,Default,,0,0,0,,Has this guy given us\Nany name to call him?
+Dialogue: 0,0:06:28.72,0:06:31.06,Default,,0,0,0,,He has, but it didn't show\Nin our databases.
+Dialogue: 0,0:06:32.56,0:06:34.06,Default,,0,0,0,,Name's Il-hwan Sung,
+Dialogue: 0,0:06:34.14,0:06:35.27,Default,,0,0,0,,or so he says.
+Dialogue: 0,0:06:35.35,0:06:38.19,Default,,0,0,0,,♪
+Dialogue: 0,0:06:39.82,0:06:41.90,Default,,0,0,0,,[clattering]
+Dialogue: 0,0:06:41.98,0:06:43.36,Default,,0,0,0,,[SUNG JINWOO]\NI'll be gone for about a week.
+Dialogue: 0,0:06:44.15,0:06:46.41,Default,,0,0,0,,First it's work\Nand now you're off traveling?
+Dialogue: 0,0:06:46.86,0:06:48.32,Default,,0,0,0,,Well, someone's been\Nbusy lately.
+Dialogue: 0,0:06:48.91,0:06:50.79,Default,,0,0,0,,[SUNG JINWOO] Huh,\Njust a lot to do, that's all.
+Dialogue: 0,0:06:51.49,0:06:53.79,Default,,0,0,0,,So, who's the lucky lady, then?
+Dialogue: 0,0:06:53.87,0:06:54.87,Default,,0,0,0,,[Sung Jinwoo groans]
+Dialogue: 0,0:06:55.79,0:06:56.83,Default,,0,0,0,,[exhales]
+Dialogue: 0,0:06:56.92,0:06:57.92,Default,,0,0,0,,[door opens]
+Dialogue: 0,0:06:58.00,0:06:59.50,Default,,0,0,0,,Like I told you, a friend.
+Dialogue: 0,0:06:59.59,0:07:01.88,Default,,0,0,0,,You know you can just bring her\Nhere sometime, right?
+Dialogue: 0,0:07:02.38,0:07:03.59,Default,,0,0,0,,-Hm.\N-[door shuts]
+Dialogue: 0,0:07:03.88,0:07:06.88,Default,,0,0,0,,[fire roaring]
+Dialogue: 0,0:07:10.30,0:07:11.51,Default,,0,0,0,,[SUNG JINWOO]\NI was around level 20
+Dialogue: 0,0:07:11.60,0:07:12.81,Default,,0,0,0,,when I fought the Cerberus.
+Dialogue: 0,0:07:13.10,0:07:15.27,Default,,0,0,0,,Since then,\NI've gotten a lot stronger.
+Dialogue: 0,0:07:16.39,0:07:17.40,Default,,0,0,0,,[key clicks]
+Dialogue: 0,0:07:17.73,0:07:19.61,Default,,0,0,0,,[SUNG JINWOO] My level's now\Nthree times higher.
+Dialogue: 0,0:07:20.52,0:07:23.07,Default,,0,0,0,,I should be able to handle\Nwhat's behind this door.
+Dialogue: 0,0:07:24.53,0:07:25.53,Default,,0,0,0,,[key clicks]
+Dialogue: 0,0:07:25.61,0:07:27.45,Default,,0,0,0,,[electricity crackling]
+Dialogue: 0,0:07:28.70,0:07:31.03,Default,,0,0,0,,[door slides open]
+Dialogue: 0,0:07:31.12,0:07:38.12,Default,,0,0,0,,♪
+Dialogue: 0,0:07:38.96,0:07:40.92,Default,,0,0,0,,Let's see what\Nwe're working with here.
+Dialogue: 0,0:07:42.30,0:07:44.42,Default,,0,0,0,,-Hm.\N-[door creaks]
+Dialogue: 0,0:07:44.96,0:07:46.30,Default,,0,0,0,,[door shuts]
+Dialogue: 0,0:07:46.38,0:07:49.30,Default,,0,0,0,,♪
+Dialogue: 0,0:07:49.39,0:07:51.01,Default,,0,0,0,,[SUNG JINWOO] Hm? A quest?
+Dialogue: 0,0:07:51.39,0:07:53.68,Default,,0,0,0,,"The castle is\Nswarming with demons.
+Dialogue: 0,0:07:53.76,0:07:55.35,Default,,0,0,0,,You will receive\Na special reward
+Dialogue: 0,0:07:55.43,0:07:57.73,Default,,0,0,0,,for defeating them\Nand collecting their souls."
+Dialogue: 0,0:07:58.06,0:07:59.40,Default,,0,0,0,,In order to clear the quest,
+Dialogue: 0,0:07:59.48,0:08:02.06,Default,,0,0,0,,I need to collect\Nten thousand souls?
+Dialogue: 0,0:08:03.36,0:08:04.82,Default,,0,0,0,,There's that many in here?
+Dialogue: 0,0:08:05.86,0:08:08.49,Default,,0,0,0,,[fire crackling]
+Dialogue: 0,0:08:08.91,0:08:09.99,Default,,0,0,0,,[SUNG JINWOO] Whatever.
+Dialogue: 0,0:08:10.07,0:08:12.33,Default,,0,0,0,,I haven't lost sight\Nof my real objective.
+Dialogue: 0,0:08:14.16,0:08:15.45,Default,,0,0,0,,[demons laughing]
+Dialogue: 0,0:08:15.54,0:08:17.87,Default,,0,0,0,,[SUNG JINWOO] Whether it's\Nten thousand or ten million...
+Dialogue: 0,0:08:20.17,0:08:21.63,Default,,0,0,0,,I'll kill them all.
+Dialogue: 0,0:08:22.92,0:08:24.55,Default,,0,0,0,,[demons laughing]
+Dialogue: 0,0:08:25.46,0:08:27.63,Default,,0,0,0,,[birds chirping]
+Dialogue: 0,0:08:28.13,0:08:31.26,Default,,0,0,0,,[YOO MYUNGHAN] You wish to take\Nover the guild, is that it?
+Dialogue: 0,0:08:31.34,0:08:32.47,Default,,0,0,0,,Yes.
+Dialogue: 0,0:08:32.55,0:08:33.64,Default,,0,0,0,,[YOO MYUNGHAN] Hmm.
+Dialogue: 0,0:08:34.89,0:08:37.18,Default,,0,0,0,,And you're asking this,\Nknowing full well
+Dialogue: 0,0:08:37.27,0:08:38.81,Default,,0,0,0,,that Jinsung's already\Nworking on it?
+Dialogue: 0,0:08:39.94,0:08:42.06,Default,,0,0,0,,[YOO JINHO] Well, I think his\Nplan to bring in an outsider
+Dialogue: 0,0:08:42.15,0:08:43.73,Default,,0,0,0,,to run the guild is too risky.
+Dialogue: 0,0:08:43.81,0:08:45.78,Default,,0,0,0,,Respectfully, sir,\NI would be a be a be--
+Dialogue: 0,0:08:46.11,0:08:47.11,Default,,0,0,0,,Huh.
+Dialogue: 0,0:08:48.15,0:08:50.24,Default,,0,0,0,,[YOO MYUNGHAN] This hunter\Nyou've been working with.
+Dialogue: 0,0:08:50.32,0:08:51.41,Default,,0,0,0,,Jinwoo Sung.
+Dialogue: 0,0:08:51.82,0:08:53.32,Default,,0,0,0,,Present at the double dungeon,
+Dialogue: 0,0:08:53.57,0:08:56.12,Default,,0,0,0,,also the raid that wiped out\NDongsuk Hwang's team,
+Dialogue: 0,0:08:56.54,0:08:57.87,Default,,0,0,0,,and that murderous incident
+Dialogue: 0,0:08:57.95,0:08:59.41,Default,,0,0,0,,with the Surveillance Team\Nhunter.
+Dialogue: 0,0:09:00.04,0:09:01.62,Default,,0,0,0,,It's incredible\Nhow he's managed
+Dialogue: 0,0:09:01.71,0:09:02.83,Default,,0,0,0,,to survive all that.
+Dialogue: 0,0:09:03.58,0:09:04.59,Default,,0,0,0,,[exhales]
+Dialogue: 0,0:09:04.96,0:09:07.13,Default,,0,0,0,,He's participated\Nin every single one
+Dialogue: 0,0:09:07.21,0:09:08.55,Default,,0,0,0,,of your raids, correct?
+Dialogue: 0,0:09:08.63,0:09:09.63,Default,,0,0,0,,Uh...
+Dialogue: 0,0:09:10.51,0:09:11.55,Default,,0,0,0,,Not only that,
+Dialogue: 0,0:09:11.63,0:09:14.30,Default,,0,0,0,,but during the red gate\Nincident from the other day.
+Dialogue: 0,0:09:15.43,0:09:17.10,Default,,0,0,0,,It was apparently Hunter Sung
+Dialogue: 0,0:09:17.18,0:09:19.06,Default,,0,0,0,,who led the survivors\Nto safety.
+Dialogue: 0,0:09:19.14,0:09:20.60,Default,,0,0,0,,Uh... Huh.
+Dialogue: 0,0:09:21.23,0:09:22.56,Default,,0,0,0,,[liquid trickling]
+Dialogue: 0,0:09:22.65,0:09:24.69,Default,,0,0,0,,I assume you were\Nonly able to earn
+Dialogue: 0,0:09:24.77,0:09:27.73,Default,,0,0,0,,that guild master's license\Nby borrowing his strength,
+Dialogue: 0,0:09:28.36,0:09:30.15,Default,,0,0,0,,yet you still\Nwant to be guild leader?
+Dialogue: 0,0:09:30.57,0:09:33.57,Default,,0,0,0,,[birds chirping]
+Dialogue: 0,0:09:34.57,0:09:35.74,Default,,0,0,0,,-[thuds]\N-[YOO JINHO] You're right.
+Dialogue: 0,0:09:35.83,0:09:38.29,Default,,0,0,0,,[birds chirping]
+Dialogue: 0,0:09:38.58,0:09:39.62,Default,,0,0,0,,But even so...
+Dialogue: 0,0:09:41.46,0:09:43.75,Default,,0,0,0,,the one running\Nthe Yoojin Guild should be me.
+Dialogue: 0,0:09:43.83,0:09:46.21,Default,,0,0,0,,[birds chirping]
+Dialogue: 0,0:09:46.29,0:09:48.50,Default,,0,0,0,,As things stand now,\NJinsung's plan--
+Dialogue: 0,0:09:48.59,0:09:50.80,Default,,0,0,0,,Very well,\Nwe'll try things your way.
+Dialogue: 0,0:09:51.22,0:09:52.26,Default,,0,0,0,,Wha...?
+Dialogue: 0,0:09:52.34,0:09:53.89,Default,,0,0,0,,Under one condition.
+Dialogue: 0,0:09:54.72,0:09:55.72,Default,,0,0,0,,Hm.
+Dialogue: 0,0:09:55.97,0:09:57.01,Default,,0,0,0,,[exhales]
+Dialogue: 0,0:09:57.10,0:09:58.97,Default,,0,0,0,,After what happened\Nwith the red gate,
+Dialogue: 0,0:09:59.27,0:10:01.31,Default,,0,0,0,,I've heard rumors\Nthat the White Tiger Guild
+Dialogue: 0,0:10:01.39,0:10:03.31,Default,,0,0,0,,has been looking\Nto scout Hunter Sung.
+Dialogue: 0,0:10:03.39,0:10:04.48,Default,,0,0,0,,But...
+Dialogue: 0,0:10:04.56,0:10:07.32,Default,,0,0,0,,I want you to convince him\Nto join up with us instead.
+Dialogue: 0,0:10:08.40,0:10:09.44,Default,,0,0,0,,Can you do that?
+Dialogue: 0,0:10:09.53,0:10:10.61,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:10:11.90,0:10:13.07,Default,,0,0,0,,Yes, sir!
+Dialogue: 0,0:10:14.57,0:10:16.74,Default,,0,0,0,,-[chuckles softly]\N-[water splashing]
+Dialogue: 0,0:10:16.82,0:10:18.08,Default,,0,0,0,,[YOO MYUNGHAN]\NDon't disappoint me.
+Dialogue: 0,0:10:19.58,0:10:22.87,Default,,0,0,0,,♪
+Dialogue: 0,0:10:22.96,0:10:24.96,Default,,0,0,0,,[SUNG JINWOO]\NA literal mountain of demons,
+Dialogue: 0,0:10:25.04,0:10:26.92,Default,,0,0,0,,and I can't extract\Nany of them.
+Dialogue: 0,0:10:27.46,0:10:28.88,Default,,0,0,0,,What a waste.
+Dialogue: 0,0:10:28.96,0:10:31.34,Default,,0,0,0,,♪
+Dialogue: 0,0:10:31.42,0:10:32.59,Default,,0,0,0,,Hm.
+Dialogue: 0,0:10:32.67,0:10:34.59,Default,,0,0,0,,[fire crackling]
+Dialogue: 0,0:10:34.88,0:10:35.97,Default,,0,0,0,,[paper rustles]
+Dialogue: 0,0:10:37.93,0:10:39.06,Default,,0,0,0,,An entry permit.
+Dialogue: 0,0:10:39.72,0:10:42.10,Default,,0,0,0,,Looks like it's time to head up\Nto the second floor.
+Dialogue: 0,0:10:43.27,0:10:45.98,Default,,0,0,0,,Hmm...guess I know\Nhow I'm getting there.
+Dialogue: 0,0:10:47.69,0:10:49.61,Default,,0,0,0,,This dungeon is\Nsurprisingly big.
+Dialogue: 0,0:10:50.02,0:10:51.65,Default,,0,0,0,,Who'd've thought\Nthere'd be a whole city
+Dialogue: 0,0:10:51.73,0:10:52.86,Default,,0,0,0,,inside of a building.
+Dialogue: 0,0:10:55.24,0:10:58.20,Default,,0,0,0,,Though all this walking is\Ngetting pretty annoying.
+Dialogue: 0,0:10:58.28,0:11:02.58,Default,,0,0,0,,♪
+Dialogue: 0,0:11:02.66,0:11:05.25,Default,,0,0,0,,[roars]
+Dialogue: 0,0:11:05.33,0:11:06.42,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:11:06.50,0:11:08.75,Default,,0,0,0,,You're about to save me\Na lot of time and effort.
+Dialogue: 0,0:11:09.25,0:11:10.38,Default,,0,0,0,,You're a big boy.
+Dialogue: 0,0:11:11.75,0:11:13.05,Default,,0,0,0,,All right, then.
+Dialogue: 0,0:11:13.13,0:11:14.34,Default,,0,0,0,,Let's get moving.
+Dialogue: 0,0:11:14.67,0:11:15.72,Default,,0,0,0,,[Tank growls]
+Dialogue: 0,0:11:17.55,0:11:19.89,Default,,0,0,0,,[Jinwoo sighs]\NWhat a pain in the a...
+Dialogue: 0,0:11:19.97,0:11:21.06,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:11:21.14,0:11:22.93,Default,,0,0,0,,[growls]
+Dialogue: 0,0:11:23.27,0:11:25.35,Default,,0,0,0,,[roars]
+Dialogue: 0,0:11:25.77,0:11:27.35,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:11:27.44,0:11:28.77,Default,,0,0,0,,[Tank roars]
+Dialogue: 0,0:11:29.61,0:11:31.15,Default,,0,0,0,,[chuckles]\NNice one.
+Dialogue: 0,0:11:31.23,0:11:33.23,Default,,0,0,0,,♪
+Dialogue: 0,0:11:33.32,0:11:35.57,Default,,0,0,0,,I think I'll call you "Tank".\NSound good?
+Dialogue: 0,0:11:37.78,0:11:40.78,Default,,0,0,0,,[water splashing]
+Dialogue: 0,0:11:41.41,0:11:43.49,Default,,0,0,0,,[machine whirring]
+Dialogue: 0,0:11:46.83,0:11:48.04,Default,,0,0,0,,[water splashes]
+Dialogue: 0,0:11:48.33,0:11:49.33,Default,,0,0,0,,[exhales]
+Dialogue: 0,0:11:50.38,0:11:52.50,Default,,0,0,0,,[FEMALE HUNTER 15A] No!\NMiss Hae-in is here?
+Dialogue: 0,0:11:52.59,0:11:54.38,Default,,0,0,0,,[FEMALE HUNTER 15B]\NFeels lucky just seeing her.
+Dialogue: 0,0:11:54.46,0:11:56.13,Default,,0,0,0,,[FEMALE HUNTER 15A]\NAnd she always looks amazing!
+Dialogue: 0,0:11:56.22,0:11:57.97,Default,,0,0,0,,[FEMALE HUNTER 15B]\NMhm, always!
+Dialogue: 0,0:11:59.64,0:12:00.68,Default,,0,0,0,,[CHA HAE-IN]\NI don't get it.
+Dialogue: 0,0:12:01.05,0:12:02.18,Default,,0,0,0,,Why would we keep the reports
+Dialogue: 0,0:12:02.26,0:12:03.81,Default,,0,0,0,,of the flying ants\Nconfidential?
+Dialogue: 0,0:12:04.31,0:12:05.77,Default,,0,0,0,,People deserve the truth.
+Dialogue: 0,0:12:06.64,0:12:08.31,Default,,0,0,0,,It's on Association orders.
+Dialogue: 0,0:12:08.69,0:12:10.02,Default,,0,0,0,,They say it would cause a panic
+Dialogue: 0,0:12:10.10,0:12:12.06,Default,,0,0,0,,if we make the intel public\Nat this stage.
+Dialogue: 0,0:12:12.65,0:12:14.78,Default,,0,0,0,,-[CHA HAE-IN] But sir!\N-It'll be fine.
+Dialogue: 0,0:12:15.23,0:12:17.65,Default,,0,0,0,,For the time being, let's focus\Non gaining strength.
+Dialogue: 0,0:12:18.11,0:12:19.53,Default,,0,0,0,,As the largest domestic guild,
+Dialogue: 0,0:12:19.61,0:12:22.41,Default,,0,0,0,,doing so will help us\Nexecute our duties and expand.
+Dialogue: 0,0:12:24.29,0:12:25.58,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:12:26.04,0:12:27.21,Default,,0,0,0,,[SUNG JINWOO]\NI thought this was gonna be
+Dialogue: 0,0:12:27.29,0:12:29.12,Default,,0,0,0,,an S-Rank dungeon\Nwhen I got the key,
+Dialogue: 0,0:12:29.21,0:12:31.08,Default,,0,0,0,,but these guys\Nweren't that tough.
+Dialogue: 0,0:12:31.58,0:12:33.38,Default,,0,0,0,,More like the upper end\Nof B-Rank.
+Dialogue: 0,0:12:35.46,0:12:36.80,Default,,0,0,0,,They come in droves,
+Dialogue: 0,0:12:36.88,0:12:39.05,Default,,0,0,0,,and they get fiercer\Nthe higher up I go.
+Dialogue: 0,0:12:39.51,0:12:41.22,Default,,0,0,0,,I'm making\Ndecent progress though,
+Dialogue: 0,0:12:41.30,0:12:43.93,Default,,0,0,0,,by only killing the demons\NI need to, to advance.
+Dialogue: 0,0:12:44.43,0:12:45.47,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:12:47.43,0:12:48.64,Default,,0,0,0,,[SUNG JINWOO] A good strategy.
+Dialogue: 0,0:12:48.73,0:12:50.56,Default,,0,0,0,,Because if the Demon's Castle\Nis laid out
+Dialogue: 0,0:12:50.65,0:12:52.06,Default,,0,0,0,,like the original tower,
+Dialogue: 0,0:12:52.15,0:12:54.19,Default,,0,0,0,,there are a hundred floors\Nto get through.
+Dialogue: 0,0:12:54.82,0:12:56.23,Default,,0,0,0,,That's a ton of XP,
+Dialogue: 0,0:12:56.53,0:12:58.99,Default,,0,0,0,,so how strong will I be\Nonce I reach the top?
+Dialogue: 0,0:12:59.40,0:13:01.16,Default,,0,0,0,,-[thuds]\N-[slurps]
+Dialogue: 0,0:13:01.24,0:13:02.91,Default,,0,0,0,,[SUNG JINWOO] My supplies\Nwon't last forever,
+Dialogue: 0,0:13:03.49,0:13:05.58,Default,,0,0,0,,and Jinah thinks\NI'll be back in a week.
+Dialogue: 0,0:13:06.87,0:13:08.16,Default,,0,0,0,,This fight...
+Dialogue: 0,0:13:08.25,0:13:10.58,Default,,0,0,0,,is really\Na battle against time.
+Dialogue: 0,0:13:10.67,0:13:13.50,Default,,0,0,0,,♪
+Dialogue: 0,0:13:13.58,0:13:14.63,Default,,0,0,0,,[chomps]
+Dialogue: 0,0:13:16.13,0:13:17.34,Default,,0,0,0,,[chomps]
+Dialogue: 0,0:13:17.42,0:13:24.43,Default,,0,0,0,,♪
+Dialogue: 0,0:13:25.01,0:13:26.93,Default,,0,0,0,,[SUNG JINWOO]\NLet's see how far I can get.
+Dialogue: 0,0:13:27.27,0:13:34.23,Default,,0,0,0,,♪
+Dialogue: 0,0:13:41.11,0:13:42.28,Default,,0,0,0,,[SUNG JINWOO] A red one.
+Dialogue: 0,0:13:42.36,0:13:46.58,Default,,0,0,0,,♪
+Dialogue: 0,0:13:49.91,0:13:51.41,Default,,0,0,0,,[rustling]
+Dialogue: 0,0:13:51.50,0:13:53.58,Default,,0,0,0,,[PARK HEEJIN] Of course\NHunter Sung would be out.
+Dialogue: 0,0:13:54.96,0:13:56.75,Default,,0,0,0,,[AHN SANGMIN] Well, at least\Nhis sister was home.
+Dialogue: 0,0:13:56.84,0:13:59.42,Default,,0,0,0,,Thanks to her, we know\Nhe's off on some kind of trip.
+Dialogue: 0,0:14:00.55,0:14:02.84,Default,,0,0,0,,Meaning, we came all this way\Nfor nothing, then.
+Dialogue: 0,0:14:02.93,0:14:05.05,Default,,0,0,0,,Meh. We're gathering intel,\Nwhich is crucial
+Dialogue: 0,0:14:05.14,0:14:06.35,Default,,0,0,0,,since he quit doing raids.
+Dialogue: 0,0:14:06.76,0:14:08.43,Default,,0,0,0,,He can't have\Nleft the country, though.
+Dialogue: 0,0:14:08.68,0:14:10.52,Default,,0,0,0,,The Association has been\Nkeeping tabs on him,
+Dialogue: 0,0:14:10.60,0:14:11.73,Default,,0,0,0,,and when they lost him,
+Dialogue: 0,0:14:11.98,0:14:13.23,Default,,0,0,0,,he was in the middle of a city.
+Dialogue: 0,0:14:13.69,0:14:15.94,Default,,0,0,0,,Wait. You knew all of that\Nabout him already?
+Dialogue: 0,0:14:16.69,0:14:18.90,Default,,0,0,0,,[chuckles]\NI have to, it's my job.
+Dialogue: 0,0:14:20.48,0:14:21.53,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:14:21.61,0:14:22.61,Default,,0,0,0,,But, man.
+Dialogue: 0,0:14:23.07,0:14:24.74,Default,,0,0,0,,I wish I knew where he was.
+Dialogue: 0,0:14:25.70,0:14:27.99,Default,,0,0,0,,Think I'll take on\Nthat boss there myself.
+Dialogue: 0,0:14:28.58,0:14:30.49,Default,,0,0,0,,You guys, you know what to do.
+Dialogue: 0,0:14:30.83,0:14:32.37,Default,,0,0,0,,[roaring]
+Dialogue: 0,0:14:35.46,0:14:37.54,Default,,0,0,0,,[fire roaring]
+Dialogue: 0,0:14:37.92,0:14:38.92,Default,,0,0,0,,[explosion]
+Dialogue: 0,0:14:39.55,0:14:41.09,Default,,0,0,0,,[slashing]
+Dialogue: 0,0:14:41.17,0:14:44.09,Default,,0,0,0,,♪
+Dialogue: 0,0:14:44.34,0:14:45.64,Default,,0,0,0,,[slashing]
+Dialogue: 0,0:14:45.72,0:14:48.01,Default,,0,0,0,,[SUNG JINWOO] With a good chunk\Nof points in my intellect now,
+Dialogue: 0,0:14:48.10,0:14:49.76,Default,,0,0,0,,I can summon more soldiers,
+Dialogue: 0,0:14:49.85,0:14:52.06,Default,,0,0,0,,and have more magical power\Nto maintain them,
+Dialogue: 0,0:14:52.31,0:14:53.64,Default,,0,0,0,,which makes fighting easier.
+Dialogue: 0,0:14:55.14,0:14:56.31,Default,,0,0,0,,But, I mean,
+Dialogue: 0,0:14:56.69,0:14:57.73,Default,,0,0,0,,can it be called a fight
+Dialogue: 0,0:14:57.81,0:14:59.44,Default,,0,0,0,,if your opponent\Ndoesn't even move?
+Dialogue: 0,0:14:59.98,0:15:01.65,Default,,0,0,0,,If it's not gonna attack,\NI guess I'll...
+Dialogue: 0,0:15:01.73,0:15:02.74,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:15:04.45,0:15:05.86,Default,,0,0,0,,[roars]
+Dialogue: 0,0:15:09.37,0:15:11.41,Default,,0,0,0,,Do you think\Nthat's gonna work on me?
+Dialogue: 0,0:15:11.91,0:15:13.58,Default,,0,0,0,,[crashes]
+Dialogue: 0,0:15:16.00,0:15:17.00,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:15:17.08,0:15:18.84,Default,,0,0,0,,I did that with a single punch?
+Dialogue: 0,0:15:19.25,0:15:21.00,Default,,0,0,0,,My strength stat's\Npretty broken.
+Dialogue: 0,0:15:22.13,0:15:23.38,Default,,0,0,0,,[growls]
+Dialogue: 0,0:15:24.22,0:15:26.34,Default,,0,0,0,,[roars]
+Dialogue: 0,0:15:27.13,0:15:28.97,Default,,0,0,0,,This happened\Nwith the Cerberus, too!
+Dialogue: 0,0:15:29.05,0:15:30.51,Default,,0,0,0,,[roars]
+Dialogue: 0,0:15:31.51,0:15:32.56,Default,,0,0,0,,[growls]
+Dialogue: 0,0:15:34.14,0:15:35.18,Default,,0,0,0,,Iron!
+Dialogue: 0,0:15:35.43,0:15:36.60,Default,,0,0,0,,[roars]
+Dialogue: 0,0:15:37.56,0:15:38.81,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:15:38.90,0:15:40.02,Default,,0,0,0,,[clangs]
+Dialogue: 0,0:15:40.31,0:15:41.36,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:15:43.11,0:15:44.90,Default,,0,0,0,,-[thumping]\N-[grunting]
+Dialogue: 0,0:15:45.19,0:15:46.53,Default,,0,0,0,,[SUNG JINWOO]\NIt is not slowing down!
+Dialogue: 0,0:15:46.99,0:15:49.07,Default,,0,0,0,,How's something\Nthat big so fast?
+Dialogue: 0,0:15:49.53,0:15:52.08,Default,,0,0,0,,But, I just need to wait\Nfor an opening.
+Dialogue: 0,0:15:52.58,0:15:53.79,Default,,0,0,0,,[growls]
+Dialogue: 0,0:15:53.87,0:15:55.33,Default,,0,0,0,,-Now!\N-[thumping]
+Dialogue: 0,0:15:55.58,0:15:56.58,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:15:56.87,0:15:57.92,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:15:58.21,0:15:59.42,Default,,0,0,0,,I got you!
+Dialogue: 0,0:15:59.50,0:16:00.59,Default,,0,0,0,,[growls]
+Dialogue: 0,0:16:01.13,0:16:03.00,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:16:04.09,0:16:05.09,Default,,0,0,0,,[smacks]
+Dialogue: 0,0:16:05.97,0:16:07.13,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:16:07.38,0:16:09.01,Default,,0,0,0,,[Sung Jinwoo grunts]\NIt's smart.
+Dialogue: 0,0:16:09.55,0:16:11.30,Default,,0,0,0,,Predicts my moves\Nand everything.
+Dialogue: 0,0:16:12.01,0:16:13.39,Default,,0,0,0,,It'd seem invulnerable,
+Dialogue: 0,0:16:13.81,0:16:15.60,Default,,0,0,0,,if not for those\Nbeady little eyes.
+Dialogue: 0,0:16:15.68,0:16:16.73,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:16:16.81,0:16:21.02,Default,,0,0,0,,♪
+Dialogue: 0,0:16:21.52,0:16:23.61,Default,,0,0,0,,[SUNG JINWOO] Gotta stop\Nthis thing from zipping around.
+Dialogue: 0,0:16:24.90,0:16:26.03,Default,,0,0,0,,But how?
+Dialogue: 0,0:16:27.28,0:16:28.28,Default,,0,0,0,,That'll work!
+Dialogue: 0,0:16:28.36,0:16:29.41,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:16:29.49,0:16:33.45,Default,,0,0,0,,♪
+Dialogue: 0,0:16:33.53,0:16:34.87,Default,,0,0,0,,[growls]
+Dialogue: 0,0:16:35.12,0:16:36.12,Default,,0,0,0,,[roars]
+Dialogue: 0,0:16:36.20,0:16:37.37,Default,,0,0,0,,[crashes]
+Dialogue: 0,0:16:37.83,0:16:38.83,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:16:39.50,0:16:41.33,Default,,0,0,0,,Should've been\Nwatching your step there.
+Dialogue: 0,0:16:43.00,0:16:44.13,Default,,0,0,0,,[growls]
+Dialogue: 0,0:16:45.00,0:16:46.05,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:16:46.92,0:16:49.59,Default,,0,0,0,,[groans]
+Dialogue: 0,0:16:50.01,0:16:51.05,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:16:51.14,0:16:53.35,Default,,0,0,0,,[rocks thudding]
+Dialogue: 0,0:16:53.43,0:16:55.77,Default,,0,0,0,,♪
+Dialogue: 0,0:16:55.85,0:16:57.39,Default,,0,0,0,,[explosion]
+Dialogue: 0,0:16:57.48,0:17:00.85,Default,,0,0,0,,♪
+Dialogue: 0,0:17:03.73,0:17:05.32,Default,,0,0,0,,[HWANG DONGSOO] They say\Nyou're a magic beast
+Dialogue: 0,0:17:05.40,0:17:06.53,Default,,0,0,0,,that can talk.
+Dialogue: 0,0:17:06.86,0:17:07.78,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:17:07.86,0:17:10.57,Default,,0,0,0,,Yeah, and I keep\Ntelling them I'm no beast.
+Dialogue: 0,0:17:10.66,0:17:12.41,Default,,0,0,0,,If what you're after is proof,
+Dialogue: 0,0:17:12.49,0:17:15.28,Default,,0,0,0,,I have zero issues whatsoever\Ndoing a DNA test.
+Dialogue: 0,0:17:15.37,0:17:16.49,Default,,0,0,0,,Can it, you creep.
+Dialogue: 0,0:17:16.87,0:17:19.62,Default,,0,0,0,,If I don't ask a question,\Nthen you stay silent.
+Dialogue: 0,0:17:20.00,0:17:21.37,Default,,0,0,0,,I'm pissed off as it is,
+Dialogue: 0,0:17:21.46,0:17:23.33,Default,,0,0,0,,what with all of my fun\Nput on hold.
+Dialogue: 0,0:17:23.42,0:17:24.71,Default,,0,0,0,,-[chair clatters]\N-I swear.
+Dialogue: 0,0:17:25.46,0:17:26.50,Default,,0,0,0,,They even went\Nand wrote a bunch
+Dialogue: 0,0:17:26.59,0:17:28.17,Default,,0,0,0,,of dumb paperwork for you.
+Dialogue: 0,0:17:28.88,0:17:30.76,Default,,0,0,0,,[SUNG IL-HWAN]\NHey, let me ask something.
+Dialogue: 0,0:17:30.84,0:17:32.18,Default,,0,0,0,,Can it, I said.
+Dialogue: 0,0:17:33.30,0:17:34.64,Default,,0,0,0,,[SUNG IL-HWAN]\NHow much has humanity
+Dialogue: 0,0:17:34.72,0:17:37.10,Default,,0,0,0,,learned about the gates\Nand magic beasts?
+Dialogue: 0,0:17:37.43,0:17:38.35,Default,,0,0,0,,What?
+Dialogue: 0,0:17:38.43,0:17:40.31,Default,,0,0,0,,Since gates and beasts\Nfirst appeared,
+Dialogue: 0,0:17:40.39,0:17:41.77,Default,,0,0,0,,how much have you learned?
+Dialogue: 0,0:17:42.35,0:17:44.40,Default,,0,0,0,,What are you getting at?\NFreak show.
+Dialogue: 0,0:17:44.98,0:17:47.23,Default,,0,0,0,,[SUNG IL-HWAN] The dungeons,\Nthe gates, the beasts.
+Dialogue: 0,0:17:47.82,0:17:49.36,Default,,0,0,0,,They're just\Nthe tip of the iceberg.
+Dialogue: 0,0:17:50.03,0:17:52.99,Default,,0,0,0,,The power to bring forth\Nthe ultimate catastrophe
+Dialogue: 0,0:17:53.07,0:17:54.16,Default,,0,0,0,,has awakened.
+Dialogue: 0,0:17:54.45,0:17:55.78,Default,,0,0,0,,[HWANG DONGSOO]\NWhat catastrophe?
+Dialogue: 0,0:17:56.53,0:17:57.74,Default,,0,0,0,,[SUNG IL-HWAN]\NThe ultimate one.
+Dialogue: 0,0:17:58.45,0:17:59.75,Default,,0,0,0,,Not much else I can say.
+Dialogue: 0,0:18:01.25,0:18:02.33,Default,,0,0,0,,[scoffs]\NSo?
+Dialogue: 0,0:18:04.08,0:18:05.59,Default,,0,0,0,,My primary goal
+Dialogue: 0,0:18:05.67,0:18:08.00,Default,,0,0,0,,is to prevent it\Nfrom coming to pass.
+Dialogue: 0,0:18:09.42,0:18:12.09,Default,,0,0,0,,Whatever you are,\Nit's not a conversationalist.
+Dialogue: 0,0:18:12.18,0:18:13.63,Default,,0,0,0,,And even if\Nthis threat did exist,
+Dialogue: 0,0:18:13.72,0:18:15.47,Default,,0,0,0,,every corner of the world's\Ngot hunters
+Dialogue: 0,0:18:15.55,0:18:16.89,Default,,0,0,0,,who'd be willing to take it on.
+Dialogue: 0,0:18:16.97,0:18:18.14,Default,,0,0,0,,[SUNG IL-HWAN]\NNumbers won't help.
+Dialogue: 0,0:18:18.56,0:18:20.22,Default,,0,0,0,,Most will either be devoured.
+Dialogue: 0,0:18:20.81,0:18:22.98,Default,,0,0,0,,Or enslaved\Nand used against us.
+Dialogue: 0,0:18:23.23,0:18:25.40,Default,,0,0,0,,You seem fairly strong\Nyourself, but...
+Dialogue: 0,0:18:25.48,0:18:26.56,Default,,0,0,0,,[DONGSOO]\NBut what?
+Dialogue: 0,0:18:27.36,0:18:28.40,Default,,0,0,0,,[scoffs]
+Dialogue: 0,0:18:28.48,0:18:30.19,Default,,0,0,0,,Not every day you see\Na magic beast
+Dialogue: 0,0:18:30.28,0:18:31.49,Default,,0,0,0,,with a name of his own.
+Dialogue: 0,0:18:32.78,0:18:33.95,Default,,0,0,0,,And look at that.
+Dialogue: 0,0:18:34.03,0:18:35.70,Default,,0,0,0,,A wife and kids, too?
+Dialogue: 0,0:18:36.24,0:18:37.49,Default,,0,0,0,,Huh.
+Dialogue: 0,0:18:37.58,0:18:38.66,Default,,0,0,0,,[chuckles]
+Dialogue: 0,0:18:39.24,0:18:41.37,Default,,0,0,0,,Do you remember\Nyour son's name?
+Dialogue: 0,0:18:42.29,0:18:43.29,Default,,0,0,0,,Jinwoo.
+Dialogue: 0,0:18:45.75,0:18:47.92,Default,,0,0,0,,Did that trigger you somehow?
+Dialogue: 0,0:18:48.00,0:18:49.09,Default,,0,0,0,,[pad clatters]
+Dialogue: 0,0:18:49.42,0:18:51.96,Default,,0,0,0,,[HWANG DONGSOO] I'm the one\Nasking questions, not you.
+Dialogue: 0,0:18:52.05,0:18:53.09,Default,,0,0,0,,You'll answer that.
+Dialogue: 0,0:18:53.17,0:18:54.63,Default,,0,0,0,,[HWANG DONGSOO]\NMy answer's "screw you".
+Dialogue: 0,0:18:55.13,0:18:58.14,Default,,0,0,0,,But I'll also fill you in\Non a little secret.
+Dialogue: 0,0:18:59.64,0:19:01.47,Default,,0,0,0,,Your son is dead.
+Dialogue: 0,0:19:02.85,0:19:04.44,Default,,0,0,0,,You got anything to say,
+Dialogue: 0,0:19:04.52,0:19:07.19,Default,,0,0,0,,tell him in the next life\Nonce you eat it, too!
+Dialogue: 0,0:19:07.73,0:19:09.44,Default,,0,0,0,,[growls]
+Dialogue: 0,0:19:09.86,0:19:12.86,Default,,0,0,0,,[flags fluttering]
+Dialogue: 0,0:19:13.24,0:19:14.45,Default,,0,0,0,,[slashing]
+Dialogue: 0,0:19:15.07,0:19:18.07,Default,,0,0,0,,[rumbling]
+Dialogue: 0,0:19:22.83,0:19:25.08,Default,,0,0,0,,[SUNG JINWOO] Come on.\NIt's almost too easy.
+Dialogue: 0,0:19:25.37,0:19:26.71,Default,,0,0,0,,[chuckles]\NSorry,
+Dialogue: 0,0:19:26.79,0:19:28.42,Default,,0,0,0,,but did my boys\Ngive you trouble?
+Dialogue: 0,0:19:28.75,0:19:30.84,Default,,0,0,0,,Weren't expecting it\Nto go this way, huh?
+Dialogue: 0,0:19:31.67,0:19:34.22,Default,,0,0,0,,I'd wonder\Nif the undead feel fear, but...
+Dialogue: 0,0:19:35.05,0:19:36.05,Default,,0,0,0,,Who cares?
+Dialogue: 0,0:19:38.14,0:19:39.93,Default,,0,0,0,,[slashing]
+Dialogue: 0,0:19:42.31,0:19:43.31,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:19:44.06,0:19:45.35,Default,,0,0,0,,[squelching]
+Dialogue: 0,0:19:45.43,0:19:50.73,Default,,0,0,0,,♪
+Dialogue: 0,0:19:50.82,0:19:53.73,Default,,0,0,0,,[siren wailing]
+Dialogue: 0,0:19:54.07,0:19:55.28,Default,,0,0,0,,[MALE FIREFIGHTER 15A]\NOver here!
+Dialogue: 0,0:19:55.36,0:19:56.53,Default,,0,0,0,,[MALE FIREFIGHTER 15B]\NMove! Move!
+Dialogue: 0,0:19:56.61,0:19:58.45,Default,,0,0,0,,[MALE OFFICER 15A] I've heard\Nthat fights between S-Ranks
+Dialogue: 0,0:19:58.53,0:20:00.24,Default,,0,0,0,,can affect entire landscapes,
+Dialogue: 0,0:20:00.66,0:20:02.66,Default,,0,0,0,,laying waste\Nto everything around them.
+Dialogue: 0,0:20:03.08,0:20:05.50,Default,,0,0,0,,Damn, maybe we were\Nfortunate.
+Dialogue: 0,0:20:05.96,0:20:08.00,Default,,0,0,0,,Could've been much worse,\NI agree.
+Dialogue: 0,0:20:08.46,0:20:09.63,Default,,0,0,0,,Would've been,
+Dialogue: 0,0:20:09.71,0:20:11.96,Default,,0,0,0,,but it was over so fast.
+Dialogue: 0,0:20:12.25,0:20:13.88,Default,,0,0,0,,Before they could do\Nany more damage,
+Dialogue: 0,0:20:13.96,0:20:16.92,Default,,0,0,0,,Mister Hwang\Nlost almost instantly.
+Dialogue: 0,0:20:17.30,0:20:20.26,Default,,0,0,0,,♪
+Dialogue: 0,0:20:20.34,0:20:21.55,Default,,0,0,0,,[Sung Jinwoo sighs]
+Dialogue: 0,0:20:22.10,0:20:23.76,Default,,0,0,0,,That was\Nthe last of my rations.
+Dialogue: 0,0:20:24.39,0:20:26.06,Default,,0,0,0,,I guess I'm done for now.
+Dialogue: 0,0:20:27.69,0:20:29.02,Default,,0,0,0,,The seventy-fifth floor.
+Dialogue: 0,0:20:29.73,0:20:31.44,Default,,0,0,0,,Twenty-five floors left, maybe.
+Dialogue: 0,0:20:32.32,0:20:33.98,Default,,0,0,0,,Which is still\Na long way to go.
+Dialogue: 0,0:20:35.03,0:20:37.07,Default,,0,0,0,,Well, can't be mad\Nat the gains.
+Dialogue: 0,0:20:38.61,0:20:39.66,Default,,0,0,0,,Like the earring I got
+Dialogue: 0,0:20:39.74,0:20:41.57,Default,,0,0,0,,from the giant\Non the fiftieth floor.
+Dialogue: 0,0:20:42.53,0:20:44.62,Default,,0,0,0,,And the necklace\Nfrom the skeleton just now.
+Dialogue: 0,0:20:45.83,0:20:47.50,Default,,0,0,0,,They're useful enough\Non their own,
+Dialogue: 0,0:20:47.58,0:20:49.92,Default,,0,0,0,,but the set bonus\Nis the cherry on top.
+Dialogue: 0,0:20:50.75,0:20:52.50,Default,,0,0,0,,And that empty space tells me
+Dialogue: 0,0:20:52.59,0:20:55.05,Default,,0,0,0,,there's one more boss\Nwith some accessory to win.
+Dialogue: 0,0:20:56.88,0:20:58.34,Default,,0,0,0,,-[thuds]\N-[SUNG JINWOO] Then there's
+Dialogue: 0,0:20:58.42,0:20:59.97,Default,,0,0,0,,this Sphere of Avarice.
+Dialogue: 0,0:21:00.43,0:21:02.60,Default,,0,0,0,,It doesn't affect\Nmy stats directly, but...
+Dialogue: 0,0:21:02.93,0:21:04.51,Default,,0,0,0,,I don't have to be the one\Nwho uses it.
+Dialogue: 0,0:21:04.97,0:21:06.52,Default,,0,0,0,,In the hands of my mages,
+Dialogue: 0,0:21:06.60,0:21:08.39,Default,,0,0,0,,it'll double their firepower.
+Dialogue: 0,0:21:09.69,0:21:10.85,Default,,0,0,0,,And, of course,
+Dialogue: 0,0:21:10.94,0:21:12.52,Default,,0,0,0,,getting the cursed\Nrandom loot box
+Dialogue: 0,0:21:12.61,0:21:14.57,Default,,0,0,0,,as a quest reward\Nwas a win, too.
+Dialogue: 0,0:21:15.90,0:21:18.44,Default,,0,0,0,,I was worried I'd never\Nget another chance at it.
+Dialogue: 0,0:21:20.61,0:21:22.32,Default,,0,0,0,,Oh wow, another key.
+Dialogue: 0,0:21:22.41,0:21:23.82,Default,,0,0,0,,I am so shocked.
+Dialogue: 0,0:21:25.03,0:21:27.95,Default,,0,0,0,,Really? Not gonna tell me\Nwhere or when to use it?
+Dialogue: 0,0:21:28.45,0:21:29.46,Default,,0,0,0,,[inhales]
+Dialogue: 0,0:21:30.08,0:21:32.67,Default,,0,0,0,,Well, not like I was really\Nafter the key anyway.
+Dialogue: 0,0:21:35.25,0:21:36.46,Default,,0,0,0,,On the fiftieth floor,
+Dialogue: 0,0:21:36.71,0:21:39.59,Default,,0,0,0,,I got a World-Tree Fragment\Nfrom Avaricious Vulcan.
+Dialogue: 0,0:21:40.68,0:21:42.13,Default,,0,0,0,,And on the seventy-fifth,
+Dialogue: 0,0:21:42.22,0:21:43.93,Default,,0,0,0,,I got Echo-Forest Spring Water
+Dialogue: 0,0:21:44.01,0:21:46.43,Default,,0,0,0,,by defeating Metus,\Nthe Guide of Souls.
+Dialogue: 0,0:21:47.68,0:21:50.27,Default,,0,0,0,,The Elixir of Life only needs\Nthree ingredients,
+Dialogue: 0,0:21:50.35,0:21:51.52,Default,,0,0,0,,and I have two of them.
+Dialogue: 0,0:21:52.48,0:21:53.52,Default,,0,0,0,,One more.
+Dialogue: 0,0:21:54.31,0:21:55.77,Default,,0,0,0,,One more and I save Mom.
+Dialogue: 0,0:21:58.53,0:21:59.69,Default,,0,0,0,,When I come back,
+Dialogue: 0,0:22:00.07,0:22:01.11,Default,,0,0,0,,it's on.
+Dialogue: 0,0:22:02.45,0:22:05.45,Default,,0,0,0,,[rumbling]
+Dialogue: 0,0:23:36.37,0:23:38.50,Default,,0,0,0,,♪

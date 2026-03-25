@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
+import { getDetailPath } from '../utils/catalogPaths'
 
 export default function HeroFeature({ movie, isAtTop = false, showInfoButton = true }) {
   const location = useLocation()
@@ -14,7 +15,7 @@ export default function HeroFeature({ movie, isAtTop = false, showInfoButton = t
     )
   }
 
-  const infoHref = movie.seasons ? `/tv-shows/${movie.id}` : `/movies/${movie.id}`
+  const infoHref = getDetailPath(movie)
   const currentPath = `${location.pathname}${location.search}${location.hash}`
   const heroLayout = movie.heroLayout ?? {}
   const heroStyle = {

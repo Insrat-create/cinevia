@@ -1,0 +1,315 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: Italique,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0002,0002,0025,1
+Style: TiretsDefault,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,1,0020,0002,0025,1
+Style: TiretsItalique,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,1,0020,0002,0025,1
+Style: Sign,Arial,18.0,&H00FFFFFF,&H000000FF,&H00292929,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0010,0010,0030,1
+Style: Titre,Times New Roman,18.0,&H00FFFFFF,&H000000FF,&H00292929,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0010,0010,0030,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:36.88,0:01:39.16,Default,Sung Jinwoo,0000,0000,0000,,Le Sang purifié du roi des démons.
+Dialogue: 0,0:01:39.58,0:01:41.40,Default,Sung Jinwoo,0000,0000,0000,,Avec ça, j’ai tout ce qu’il faut.
+Dialogue: 0,0:01:44.93,0:01:49.26,Italique,Sung Jinwoo,0000,0000,0000,,La réussite et le nombre de fioles\Ndépendent de mon niveau d’intelligence ?
+Dialogue: 0,0:01:49.95,0:01:52.30,Default,Esil,0000,0000,0000,,Sire Jinwoo, vous allez bien ?
+Dialogue: 0,0:01:55.84,0:01:56.76,Default,Sung Jinwoo,0000,0000,0000,,Fabriquer.
+Dialogue: 0,0:02:16.95,0:02:18.99,Italique,Sung Jinwoo,0000,0000,0000,,J’ai enfin l’Élixir de vie sacré.
+Dialogue: 0,0:02:19.52,0:02:24.37,Italique,Sung Jinwoo,0000,0000,0000,,Maintenant, est-ce que ça suffira\Nà soigner le sommeil éternel de maman ?
+Dialogue: 0,0:02:29.08,0:02:31.88,Default,Sung Jinwoo,0000,0000,0000,,Iron ! C’est gentil de ta part.
+Dialogue: 0,0:02:34.87,0:02:35.87,Default,Sung Jinwoo,0000,0000,0000,,Lève-toi.
+Dialogue: 0,0:02:47.61,0:02:49.02,Default,Sung Jinwoo,0000,0000,0000,,Son nom ?
+Dialogue: 0,0:02:49.46,0:02:52.25,Default,Sung Jinwoo,0000,0000,0000,,Kaiselelin ? Kalekalin ?
+Dialogue: 0,0:02:52.46,0:02:53.75,Default,Sung Jinwoo,0000,0000,0000,,J’ai déjà oublié.
+Dialogue: 0,0:02:53.88,0:02:57.45,Default,Esil,0000,0000,0000,,Vous n’êtes pas doué\Npour retenir les noms.
+Dialogue: 0,0:02:57.73,0:02:58.78,Default,Sung Jinwoo,0000,0000,0000,,Bah, tant pis.
+Dialogue: 0,0:02:59.23,0:03:00.42,Default,Sung Jinwoo,0000,0000,0000,,Tu t’appelleras…
+Dialogue: 0,0:03:00.90,0:03:02.11,Default,Sung Jinwoo,0000,0000,0000,,Kaisel.
+Dialogue: 0,0:03:07.45,0:03:09.84,Default,Esil,0000,0000,0000,,Avec elle,\Non pourra rentrer rapidement !
+Dialogue: 0,0:03:09.98,0:03:14.17,Default,Esil,0000,0000,0000,,On organisera un banquet au château.\NPère sera vraiment heureux !
+Dialogue: 0,0:03:16.31,0:03:19.46,Italique,Sung Jinwoo,0000,0000,0000,,J’aimerais rentrer\Net tester l’élixir au plus vite.
+Dialogue: 0,0:03:20.76,0:03:23.51,Italique,Sung Jinwoo,0000,0000,0000,,Mais il y avait une rune\Ndans les récompenses !
+Dialogue: 0,0:03:24.57,0:03:25.64,Italique,Sung Jinwoo,0000,0000,0000,,C’est pas ça.
+Dialogue: 0,0:03:26.54,0:03:27.88,Italique,Sung Jinwoo,0000,0000,0000,,Pas ça non plus.
+Dialogue: 0,0:03:28.13,0:03:29.56,Italique,Sung Jinwoo,0000,0000,0000,,Voyons…
+Dialogue: 0,0:03:30.69,0:03:31.73,Italique,Sung Jinwoo,0000,0000,0000,,La voilà !
+Dialogue: 0,0:03:37.91,0:03:39.73,Default,Sung Jinwoo,0000,0000,0000,,Échange avec une ombre…
+Dialogue: 0,0:03:40.14,0:03:42.62,Default,Sung Jinwoo,0000,0000,0000,,Je peux échanger ma place\Navec une ombre,
+Dialogue: 0,0:03:42.75,0:03:44.46,Default,Sung Jinwoo,0000,0000,0000,,où qu’elle soit ?
+Dialogue: 0,0:03:45.13,0:03:46.35,Default,Sung Jinwoo,0000,0000,0000,,Dans ce cas…
+Dialogue: 0,0:03:48.06,0:03:50.70,Default,Sung Jinwoo,0000,0000,0000,,Navré, Esil,\Nmais tu vas devoir rentrer seule.
+Dialogue: 0,0:03:50.83,0:03:52.41,Default,Esil,0000,0000,0000,,Quoi ? Et le banquet, alors ?
+Dialogue: 0,0:03:52.61,0:03:54.99,Default,Sung Jinwoo,0000,0000,0000,,Le clan Radis\Nse trouve au 80e étage.
+Dialogue: 0,0:03:55.15,0:03:56.88,Default,Sung Jinwoo,0000,0000,0000,,C’est trop loin pour moi.
+Dialogue: 0,0:03:57.02,0:03:58.63,Default,Esil,0000,0000,0000,,Oh non…
+Dialogue: 0,0:03:59.53,0:04:01.38,Default,Sung Jinwoo,0000,0000,0000,,On se reverra à l’occasion.
+Dialogue: 0,0:04:01.81,0:04:02.92,Default,Sung Jinwoo,0000,0000,0000,,Prends soin de toi.
+Dialogue: 0,0:04:03.66,0:04:05.52,Default,Esil,0000,0000,0000,,Sire Jinwoo ! Je…
+Dialogue: 0,0:04:13.60,0:04:15.81,Sign,sign,0000,0000,0000,,VOUS AVEZ VAINCU LE BOSS.\NLE DONJON VA RETROUVER SON ÉTAT D’ORIGINE.
+Dialogue: 0,0:04:21.23,0:04:24.24,Default,Sung Jinwoo,0000,0000,0000,,J’ai pris la place\Nd’une ombre qui patrouillait.
+Dialogue: 0,0:04:25.26,0:04:29.51,Default,Sung Jinwoo,0000,0000,0000,,Je dois attendre trois heures\Npour réutiliser la technique, alors…
+Dialogue: 0,0:04:31.22,0:04:32.12,Default,Sung Jinwoo,0000,0000,0000,,Kaisel !
+Dialogue: 0,0:04:38.51,0:04:42.25,Default,Go Gunhee,0000,0000,0000,,On appâtera les fourmis\Navec le mana des chasseurs
+Dialogue: 0,0:04:42.38,0:04:46.09,Default,Go Gunhee,0000,0000,0000,,et on brouillera leurs communications\Navec des signaux spéciaux.
+Dialogue: 0,0:04:46.47,0:04:50.56,Default,Go Gunhee,0000,0000,0000,,Pendant ce temps,\Nun autre groupe infiltrera le nid déserté
+Dialogue: 0,0:04:50.74,0:04:53.31,Default,Go Gunhee,0000,0000,0000,,et s’occupera de tuer la reine,\Nc’est ça ?
+Dialogue: 0,0:04:53.87,0:04:57.40,Default,Woo Jincheol,0000,0000,0000,,On ignore cependant\Nsi les brouilleurs fonctionneront.
+Dialogue: 0,0:04:59.46,0:05:02.87,Default,Go Gunhee,0000,0000,0000,,Ce serait mentir de dire\Nqu’il n’y a pas à s’en faire,
+Dialogue: 0,0:05:03.01,0:05:04.59,Default,Go Gunhee,0000,0000,0000,,mais ces données sont fiables.
+Dialogue: 0,0:05:04.71,0:05:07.11,Default,Go Gunhee,0000,0000,0000,,Elles confirment nos hypothèses.
+Dialogue: 0,0:05:07.52,0:05:08.37,Default,Go Gunhee,0000,0000,0000,,De plus,
+Dialogue: 0,0:05:08.49,0:05:12.74,Default,Go Gunhee,0000,0000,0000,,ce programme prévoit un plan d’évasion\Nsi jamais ça tourne au vinaigre.
+Dialogue: 0,0:05:14.21,0:05:18.20,Default,Go Gunhee,0000,0000,0000,,Nous devons prendre\Ntoutes les précautions
+Dialogue: 0,0:05:18.34,0:05:20.88,Default,Go Gunhee,0000,0000,0000,,avant d’y envoyer nos chasseurs.
+Dialogue: 0,0:05:21.32,0:05:22.22,Default,Woo Jincheol,0000,0000,0000,,Bien.
+Dialogue: 0,0:05:22.81,0:05:24.01,Default,Go Gunhee,0000,0000,0000,,Au fait,
+Dialogue: 0,0:05:24.61,0:05:26.75,Default,Go Gunhee,0000,0000,0000,,avez-vous pu contacter\NSung Jinwoo ?
+Dialogue: 0,0:05:27.00,0:05:28.44,Default,Woo Jincheol,0000,0000,0000,,Pas encore.
+Dialogue: 0,0:05:31.21,0:05:32.76,Default,Min Byeonggu,0000,0000,0000,,Yunho !
+Dialogue: 0,0:05:32.90,0:05:36.19,Default,Min Byeonggu,0000,0000,0000,,Tu pourrais esquisser un sourire !\NOn est là pour picoler.
+Dialogue: 0,0:05:36.32,0:05:39.14,Default,Min Byeonggu,0000,0000,0000,,C’était super drôle,\Ntu trouves pas ?
+Dialogue: 0,0:05:39.97,0:05:42.55,Default,Baek Yunho,0000,0000,0000,,Byeonggu,\Nj’ai rien compris à ta blague.
+Dialogue: 0,0:05:42.81,0:05:45.22,Default,Min Byeonggu,0000,0000,0000,,Détends-toi,\Ntu vas finir tout fripé !
+Dialogue: 0,0:05:45.35,0:05:46.80,Default,Baek Yunho,0000,0000,0000,,Laisse-moi tranquille !
+Dialogue: 0,0:05:49.62,0:05:52.08,Italique,Baek Yunho,0000,0000,0000,,Min Byeonggu,\Nguérisseur de rang S.
+Dialogue: 0,0:05:52.22,0:05:56.80,Italique,Baek Yunho,0000,0000,0000,,Il a pris sa retraite très tôt,\Nsans jamais se blesser sérieusement.
+Dialogue: 0,0:05:56.93,0:06:00.54,Italique,Baek Yunho,0000,0000,0000,,Sans oublier\Nque c’était un compagnon de bataille.
+Dialogue: 0,0:06:01.94,0:06:03.13,Italique,Baek Yunho,0000,0000,0000,,Fidèle à lui-même,
+Dialogue: 0,0:06:03.26,0:06:06.54,Italique,Baek Yunho,0000,0000,0000,,c’est un type farfelu,\Nau sens de l’humour assez spécial.
+Dialogue: 0,0:06:07.97,0:06:09.23,Default,Baek Yunho,0000,0000,0000,,T’es bien aimable.
+Dialogue: 0,0:06:09.70,0:06:10.82,Default,Min Byeonggu,0000,0000,0000,,Yunho…
+Dialogue: 0,0:06:12.41,0:06:14.14,Default,Min Byeonggu,0000,0000,0000,,tu vas vraiment y aller ?
+Dialogue: 0,0:06:15.12,0:06:16.09,Default,Baek Yunho,0000,0000,0000,,Oui.
+Dialogue: 0,0:06:17.75,0:06:20.10,Default,Min Byeonggu,0000,0000,0000,,Tu as vu\Ncomment Eunseok est mort…
+Dialogue: 0,0:06:24.80,0:06:26.30,Default,Baek Yunho,0000,0000,0000,,Raison de plus.
+Dialogue: 0,0:06:27.89,0:06:32.72,Default,Baek Yunho,0000,0000,0000,,Si on ne fait rien pour les arrêter,\Nle pays tout entier subira le même sort.
+Dialogue: 0,0:06:33.06,0:06:35.68,Default,Min Byeonggu,0000,0000,0000,,Je ne te savais pas aussi patriote.
+Dialogue: 0,0:06:35.83,0:06:37.48,Default,Baek Yunho,0000,0000,0000,,Je suis obligé d’y aller,
+Dialogue: 0,0:06:37.62,0:06:40.58,Default,Baek Yunho,0000,0000,0000,,alors autant se donner\Nune raison valable.
+Dialogue: 0,0:06:44.67,0:06:48.05,Default,Min Byeonggu,0000,0000,0000,,Il disait pareil, tu te souviens ?
+Dialogue: 0,0:06:49.74,0:06:52.01,Default,Min Byeonggu,0000,0000,0000,,Quoi qu’il en soit, ce sera sans moi.
+Dialogue: 0,0:06:52.42,0:06:55.44,TiretsDefault,Min Byeonggu/Baek Yunho,0000,0000,0000,,– Si t’es là pour tenter…\N– Je suis venu te saluer,
+Dialogue: 0,0:06:55.67,0:06:57.90,Default,Baek Yunho,0000,0000,0000,,car c’est peut-être la dernière fois.
+Dialogue: 0,0:07:00.55,0:07:03.54,Default,Min Byeonggu,0000,0000,0000,,Je vais passer\Nle concours de la fonction publique.
+Dialogue: 0,0:07:03.85,0:07:05.35,Default,Baek Yunho,0000,0000,0000,,La fonction publique ?
+Dialogue: 0,0:07:06.14,0:07:10.03,Default,Min Byeonggu,0000,0000,0000,,Je ne supporte plus les combats\Net la vue du sang.
+Dialogue: 0,0:07:11.56,0:07:13.53,Default,Min Byeonggu,0000,0000,0000,,J’aspire à devenir fonctionnaire.
+Dialogue: 0,0:07:14.31,0:07:17.45,Default,Min Byeonggu,0000,0000,0000,,Mais je suis bon qu’en histoire,\Nc’est pas gagné…
+Dialogue: 0,0:07:17.97,0:07:19.79,Default,Baek Yunho,0000,0000,0000,,T’es calé en histoire, toi ?
+Dialogue: 0,0:07:19.95,0:07:22.79,Default,Min Byeonggu,0000,0000,0000,,Tu sais que j’adore\Nles fictions historiques.
+Dialogue: 0,0:07:22.94,0:07:24.17,Default,Baek Yunho,0000,0000,0000,,T’es vraiment bizarre.
+Dialogue: 0,0:07:24.71,0:07:27.19,Default,Min Byeonggu,0000,0000,0000,,Non,\Nje suis un être humain normal.
+Dialogue: 0,0:07:27.69,0:07:30.78,Default,Min Byeonggu,0000,0000,0000,,Les guerres\Npeuvent rester dans les livres.
+Dialogue: 0,0:07:31.47,0:07:33.75,Default,Baek Yunho,0000,0000,0000,,C’est vrai, tu as raison.
+Dialogue: 0,0:07:34.56,0:07:36.80,Italique,Baek Yunho,0000,0000,0000,,Ce sont les chasseurs\Nqui sont bizarres.
+Dialogue: 0,0:07:37.37,0:07:41.05,Italique,Baek Yunho,0000,0000,0000,,Quand j’y pense,\Nj’ai rarement vu des chasseurs
+Dialogue: 0,0:07:41.19,0:07:43.31,Italique,Baek Yunho,0000,0000,0000,,rechigner à combattre\Nces créatures.
+Dialogue: 0,0:07:43.80,0:07:48.02,Italique,Baek Yunho,0000,0000,0000,,C’est notre routine,\Net certains adorent ça…
+Dialogue: 0,0:07:48.96,0:07:51.75,Italique,Baek Yunho,0000,0000,0000,,Serait-ce la condition\Npour éveiller ses pouvoirs ?
+Dialogue: 0,0:07:51.88,0:07:55.72,Default,Min Byeonggu,0000,0000,0000,,Yunho, t’es encore crispé.\NGare aux rides !
+Dialogue: 0,0:07:56.32,0:07:57.45,Default,Baek Yunho,0000,0000,0000,,Tais-toi et bois !
+Dialogue: 0,0:07:58.48,0:08:00.79,Default,Min Byeonggu,0000,0000,0000,,Pour se venger,\Nil faut savoir souffrir.
+Dialogue: 0,0:08:03.90,0:08:05.38,Default,Baek Yunho,0000,0000,0000,,Qu’est-ce que tu racontes ?
+Dialogue: 0,0:08:29.72,0:08:31.94,Italique,Sung Jinwoo,0000,0000,0000,,Cette cicatrice, c’était ma faute…
+Dialogue: 0,0:08:43.96,0:08:45.84,Italique,Sung Jinwoo,0000,0000,0000,,Elle pourra peut-être pas avaler.
+Dialogue: 0,0:08:46.72,0:08:50.32,Italique,Sung Jinwoo,0000,0000,0000,,Et même si elle y arrive,\Nça pourrait ne rien faire…
+Dialogue: 0,0:08:51.59,0:08:52.71,Italique,Sung Jinwoo,0000,0000,0000,,Mais bon…
+Dialogue: 0,0:08:53.18,0:08:56.76,Italique,Sung Jinwoo,0000,0000,0000,,jusqu’à présent, j’ai vu le système\Naccomplir de nombreux miracles.
+Dialogue: 0,0:08:57.59,0:09:00.01,Italique,Sung Jinwoo,0000,0000,0000,,Grâce à lui,\Nj’ai pu atteindre ce niveau.
+Dialogue: 0,0:09:03.99,0:09:05.46,Italique,Sung Jinwoo,0000,0000,0000,,Faisons-lui confiance.
+Dialogue: 0,0:10:04.31,0:10:05.37,Italique,Sung Jinwoo,0000,0000,0000,,Maman…
+Dialogue: 0,0:10:10.40,0:10:13.34,Italique,Sung Jinwoo,0000,0000,0000,,Je t’en prie, réveille-toi.
+Dialogue: 0,0:10:14.09,0:10:17.50,Italique,Sung Jinwoo,0000,0000,0000,,J’ai voulu devenir plus fort\Npour une seule raison…
+Dialogue: 0,0:10:20.68,0:10:22.51,Italique,Sung Jinwoo,0000,0000,0000,,Alors, réveille-toi vite.
+Dialogue: 0,0:10:23.15,0:10:24.30,Italique,Sung Jinwoo,0000,0000,0000,,Maman…
+Dialogue: 0,0:10:29.04,0:10:32.48,Default,Sung Jinah,0000,0000,0000,,J’arrive pas à me concentrer,\Nce soir.
+Dialogue: 0,0:10:42.87,0:10:44.76,Default,Sung Jinah,0000,0000,0000,,Le vent est agréable.
+Dialogue: 0,0:11:16.92,0:11:19.40,Default,Park Kyung-Hye,0000,0000,0000,,Jinwoo… c’est toi ?
+Dialogue: 0,0:11:22.10,0:11:24.80,Default,Park Kyung-Hye,0000,0000,0000,,Combien de temps ai-je dormi ?
+Dialogue: 0,0:11:27.21,0:11:29.72,Default,Sung Jinwoo,0000,0000,0000,,Quatre ans… Ça fait quatre ans…
+Dialogue: 0,0:11:30.40,0:11:31.45,Default,Park Kyung-Hye,0000,0000,0000,,Et Jinah ?
+Dialogue: 0,0:11:33.43,0:11:34.70,Default,Sung Jinwoo,0000,0000,0000,,Elle va bien.
+Dialogue: 0,0:11:38.49,0:11:40.38,Default,Park Kyung-Hye,0000,0000,0000,,Merci, mon fils.
+Dialogue: 0,0:11:41.48,0:11:44.08,Default,Park Kyung-Hye,0000,0000,0000,,Tu as tenu ta promesse.
+Dialogue: 0,0:11:46.98,0:11:49.10,Default,Park Kyung-Hye,0000,0000,0000,,Tu as un visage d’adulte.
+Dialogue: 0,0:11:49.67,0:11:52.10,Default,Park Kyung-Hye,0000,0000,0000,,Regarde-moi toutes ces blessures…
+Dialogue: 0,0:11:52.42,0:11:55.92,Default,Park Kyung-Hye,0000,0000,0000,,À cause de moi,\Ntu as beaucoup souffert.
+Dialogue: 0,0:12:00.74,0:12:02.35,Default,Park Kyung-Hye,0000,0000,0000,,Ça n’a pas dû être facile.
+Dialogue: 0,0:12:10.91,0:12:11.94,Default,Sung Jinwoo,0000,0000,0000,,Ça va…
+Dialogue: 0,0:12:12.68,0:12:13.69,Default,Sung Jinwoo,0000,0000,0000,,Je…
+Dialogue: 0,0:12:16.40,0:12:17.66,Default,Sung Jinwoo,0000,0000,0000,,Ça va…
+Dialogue: 0,0:12:29.43,0:12:30.56,Default,Park Kyung-Hye,0000,0000,0000,,Merci,
+Dialogue: 0,0:12:31.71,0:12:32.71,Default,Park Kyung-Hye,0000,0000,0000,,Jinwoo.
+Dialogue: 0,0:12:39.25,0:12:40.15,Default,Sung Jinwoo,0000,0000,0000,,Je t’en prie…
+Dialogue: 0,0:12:42.78,0:12:44.99,Default,Médecin en chef,0000,0000,0000,,Elle est sortie\Nde son sommeil éternel ?
+Dialogue: 0,0:12:45.14,0:12:47.36,Default,Médecin A,0000,0000,0000,,Oui, j’ai aussi du mal à y croire…
+Dialogue: 0,0:12:47.78,0:12:50.99,Default,Médecin A,0000,0000,0000,,La patiente est en pleine forme
+Dialogue: 0,0:12:51.47,0:12:55.60,Default,Médecin A,0000,0000,0000,,et insiste pour sortir rapidement\Nde l’hôpital.
+Dialogue: 0,0:13:00.54,0:13:03.05,Default,Park Kyung-Hye,0000,0000,0000,,Comme tu as grandi, Jinah !
+Dialogue: 0,0:13:03.96,0:13:05.46,Default,Sung Jinah,0000,0000,0000,,Maman !
+Dialogue: 0,0:13:10.09,0:13:12.64,Default,Park Kyung-Hye,0000,0000,0000,,Désolée,\Nje vous ai causé du souci.
+Dialogue: 0,0:13:13.74,0:13:16.27,Italique,Sung Jinwoo,0000,0000,0000,,Mes efforts ont enfin payé.
+Dialogue: 0,0:13:16.89,0:13:20.50,Italique,Sung Jinwoo,0000,0000,0000,,C’est ma récompense ultime.
+Dialogue: 0,0:13:24.36,0:13:28.14,Default,Go Gunhee,0000,0000,0000,,Merci de vous être réunis\Naujourd’hui.
+Dialogue: 0,0:13:28.55,0:13:33.42,Default,Go Gunhee,0000,0000,0000,,Comme vous le savez déjà,\Ndivers endroits sont touchés
+Dialogue: 0,0:13:33.55,0:13:37.71,Default,Go Gunhee,0000,0000,0000,,par les attaques de fourmis ailées\Nen provenance de l’île de Jeju.
+Dialogue: 0,0:13:38.04,0:13:41.29,Default,Go Gunhee,0000,0000,0000,,Face à cette situation,\Nl’Association des chasseurs
+Dialogue: 0,0:13:41.54,0:13:45.51,Default,Go Gunhee,0000,0000,0000,,a décidé de lancer\Nle quatrième raid sur ce lieu.
+Dialogue: 0,0:13:45.96,0:13:50.22,Default,Go Gunhee,0000,0000,0000,,Pour cette opération,\Nen plus des chasseurs coréens de rang S,
+Dialogue: 0,0:13:50.53,0:13:52.35,Default,Go Gunhee,0000,0000,0000,,nous aurons le soutien
+Dialogue: 0,0:13:52.48,0:13:55.60,Default,Go Gunhee,0000,0000,0000,,de dix autres chasseurs japonais.
+Dialogue: 0,0:13:56.18,0:13:59.90,Default,Go Gunhee,0000,0000,0000,,De plus,\Nles chasseurs de rang inférieur à A
+Dialogue: 0,0:14:00.25,0:14:04.65,Default,Go Gunhee,0000,0000,0000,,seront postés en mer pour surveiller\Nle continent et l’opération
+Dialogue: 0,0:14:04.78,0:14:07.32,Default,Go Gunhee,0000,0000,0000,,afin d’assurer votre sécurité.
+Dialogue: 0,0:14:08.38,0:14:09.58,Default,Go Gunhee,0000,0000,0000,,Cette fois-ci,
+Dialogue: 0,0:14:09.71,0:14:12.24,Default,Go Gunhee,0000,0000,0000,,nous allons en finir pour de bon.
+Dialogue: 0,0:14:17.56,0:14:18.75,Italique,Min Byeonggu,0000,0000,0000,,Eunseok,
+Dialogue: 0,0:14:19.37,0:14:21.69,Italique,Min Byeonggu,0000,0000,0000,,j’ai vraiment la trouille, tu sais.
+Dialogue: 0,0:14:22.17,0:14:23.96,Italique,Eunseok,0000,0000,0000,,C’est pareil pour moi.
+Dialogue: 0,0:14:25.40,0:14:27.75,Italique,Eunseok,0000,0000,0000,,Mais ceux\Nqui ne peuvent pas combattre
+Dialogue: 0,0:14:27.89,0:14:30.37,Italique,Eunseok,0000,0000,0000,,doivent être morts de peur.
+Dialogue: 0,0:14:31.04,0:14:35.11,Italique,Eunseok,0000,0000,0000,,Mettons-y un terme.\NNous sommes les seuls à pouvoir le faire.
+Dialogue: 0,0:14:35.61,0:14:38.95,Italique,Eunseok,0000,0000,0000,,Pas question que ce pays\Ndevienne une fourmilière géante.
+Dialogue: 0,0:14:39.26,0:14:40.31,Italique,Baek Yunho,0000,0000,0000,,Imbéciles !
+Dialogue: 0,0:14:41.65,0:14:44.30,Italique,Baek Yunho,0000,0000,0000,,Je vais les écraser\Nd’un coup de poing !
+Dialogue: 0,0:14:46.18,0:14:50.15,Italique,Eunseok,0000,0000,0000,,Yunho peut se montrer féroce,\Ntant en caractère qu’en capacités !
+Dialogue: 0,0:14:51.01,0:14:54.01,Italique,Eunseok,0000,0000,0000,,Toi et moi, on se doit\Nde soutenir les gens comme lui
+Dialogue: 0,0:14:54.84,0:14:56.40,Italique,Eunseok,0000,0000,0000,,dans les moments difficiles.
+Dialogue: 0,0:15:07.93,0:15:08.90,Default,Sung Jinwoo,0000,0000,0000,,Hé…
+Dialogue: 0,0:15:09.31,0:15:11.62,Default,Sung Jinwoo,0000,0000,0000,,T’étais seule que quelques jours…
+Dialogue: 0,0:15:11.84,0:15:15.38,Default,Park Kyung-Hye,0000,0000,0000,,Je n’ai pas fait le ménage\Ndepuis quatre ans.
+Dialogue: 0,0:15:15.53,0:15:17.46,Default,Park Kyung-Hye,0000,0000,0000,,On s’y met tous les trois ?
+Dialogue: 0,0:15:19.45,0:15:24.09,Default,Park Kyung-Hye,0000,0000,0000,,Cet appartement a fait son temps.\NCes taches ne partent plus…
+Dialogue: 0,0:15:24.22,0:15:27.75,Default,Sung Jinah,0000,0000,0000,,Normal,\Non vit ici depuis que je suis née.
+Dialogue: 0,0:15:27.98,0:15:29.19,Default,Park Kyung-Hye,0000,0000,0000,,C’est vrai.
+Dialogue: 0,0:15:30.18,0:15:32.38,Italique,Sung Jinwoo,0000,0000,0000,,C’est ce que j’ai toujours souhaité.
+Dialogue: 0,0:15:33.32,0:15:36.19,Italique,Sung Jinwoo,0000,0000,0000,,Et pourtant,\Nje ne suis pas à l’aise.
+Dialogue: 0,0:15:37.96,0:15:40.34,Italique,Sung Jinwoo,0000,0000,0000,,Je me demande\Nsi ma vie de chasseur
+Dialogue: 0,0:15:40.98,0:15:44.74,Italique,Sung Jinwoo,0000,0000,0000,,ne m’a pas fait franchir\Nun point de non-retour.
+Dialogue: 0,0:15:46.59,0:15:47.54,Default,Park Kyung-Hye,0000,0000,0000,,Jinwoo.
+Dialogue: 0,0:15:48.45,0:15:49.40,Default,Sung Jinwoo,0000,0000,0000,,Oui ?
+Dialogue: 0,0:15:51.66,0:15:54.65,Default,Park Kyung-Hye,0000,0000,0000,,Ton père vous a-t-il contactés ?
+Dialogue: 0,0:15:59.32,0:16:03.31,Default,Park Kyung-Hye,0000,0000,0000,,Au fait, j’ai vu les infos.\NTu es devenu chasseur, alors ?
+Dialogue: 0,0:16:04.50,0:16:08.29,Default,Park Kyung-Hye,0000,0000,0000,,Avant d’être chasseur,\Nton père était pompier.
+Dialogue: 0,0:16:08.51,0:16:12.74,Default,Park Kyung-Hye,0000,0000,0000,,Son altruisme m’a conquise,\Nje l’ai épousé pour ça.
+Dialogue: 0,0:16:12.99,0:16:15.85,Default,Park Kyung-Hye,0000,0000,0000,,Tu as hérité\Nde ce trait de caractère.
+Dialogue: 0,0:16:17.65,0:16:20.79,Default,Sung Jinah,0000,0000,0000,,Moi aussi, j’étudie la médecine\Npour aider les autres !
+Dialogue: 0,0:16:21.26,0:16:24.22,Default,Park Kyung-Hye,0000,0000,0000,,C’est vrai.\NC’est pareil pour toi, Jinah !
+Dialogue: 0,0:16:24.37,0:16:26.38,Default,Sung Jinah,0000,0000,0000,,Eh ouais ! T’as vu ça ?
+Dialogue: 0,0:16:27.02,0:16:27.91,Default,Sung Jinwoo,0000,0000,0000,,Allô ?
+Dialogue: 0,0:16:30.44,0:16:32.55,Default,Woo Jincheol,0000,0000,0000,,Vous avez géré la conférence\Navec brio.
+Dialogue: 0,0:16:34.01,0:16:35.92,Default,Go Gunhee,0000,0000,0000,,Merci d’y avoir participé.
+Dialogue: 0,0:16:36.06,0:16:36.98,Default,Woo Jincheol,0000,0000,0000,,Je vous en prie.
+Dialogue: 0,0:16:37.80,0:16:41.14,Default,Go Gunhee,0000,0000,0000,,Par contre, je n’aurais jamais cru\Nvoir cet homme ici.
+Dialogue: 0,0:16:41.90,0:16:43.47,Default,Woo Jincheol,0000,0000,0000,,Thomas Andre.
+Dialogue: 0,0:16:43.79,0:16:46.98,Default,Woo Jincheol,0000,0000,0000,,Le chasseur américain\Nde rang nation…
+Dialogue: 0,0:16:47.70,0:16:50.62,Default,Woo Jincheol,0000,0000,0000,,J’espérais qu’il serait des nôtres…
+Dialogue: 0,0:16:51.03,0:16:53.46,Default,Go Gunhee,0000,0000,0000,,Le timing était trop serré.
+Dialogue: 0,0:16:53.99,0:16:54.90,Default,Go Gunhee,0000,0000,0000,,Mais jamais
+Dialogue: 0,0:16:55.02,0:16:58.90,Default,Go Gunhee,0000,0000,0000,,une personne possédant\Nla puissance militaire d’une nation
+Dialogue: 0,0:16:59.03,0:17:02.09,Default,Go Gunhee,0000,0000,0000,,n’interviendrait\Npour un autre pays.
+Dialogue: 0,0:17:02.26,0:17:03.15,Default,Woo Jincheol,0000,0000,0000,,Je le conçois.
+Dialogue: 0,0:17:04.49,0:17:06.82,Default,Woo Jincheol,0000,0000,0000,,Mais que faisait-il là, alors ?
+Dialogue: 0,0:17:06.98,0:17:08.65,Default,Go Gunhee,0000,0000,0000,,Comme il l’a dit,
+Dialogue: 0,0:17:08.78,0:17:11.82,Default,Go Gunhee,0000,0000,0000,,une visite de courtoisie\Nau retour de ses vacances…
+Dialogue: 0,0:17:11.96,0:17:15.59,Default,Go Gunhee,0000,0000,0000,,ou pour régler\Nle cas du chasseur Dongsoo.
+Dialogue: 0,0:17:15.92,0:17:19.80,Default,Go Gunhee,0000,0000,0000,,Il en avait peut-être\Naprès quelqu’un d’autre…
+Dialogue: 0,0:17:20.87,0:17:23.62,Default,Go Gunhee,0000,0000,0000,,Sung Jinwoo reste-t-il injoignable ?
+Dialogue: 0,0:17:23.75,0:17:25.48,Default,Woo Jincheol,0000,0000,0000,,Non, j’ai pu le contacter.
+Dialogue: 0,0:17:25.80,0:17:27.44,Default,Woo Jincheol,0000,0000,0000,,Il ne devrait pas tarder.
+Dialogue: 0,0:17:29.44,0:17:31.33,Default,Go Gunhee,0000,0000,0000,,Nous partons dans quatre jours.
+Dialogue: 0,0:17:31.94,0:17:34.72,Default,Go Gunhee,0000,0000,0000,,Ce raid est notre dernière chance.
+Dialogue: 0,0:17:34.93,0:17:37.11,Default,Go Gunhee,0000,0000,0000,,Pourriez-vous\Nnous prêter main-forte ?
+Dialogue: 0,0:17:38.79,0:17:42.90,Italique,Sung Jinwoo,0000,0000,0000,,C’est idéal pour gagner des niveaux.\NRefuser serait du gâchis…
+Dialogue: 0,0:17:43.71,0:17:45.83,Italique,Sung Jinwoo,0000,0000,0000,,C’est ce que j’aurais dit, mais…
+Dialogue: 0,0:17:50.76,0:17:51.83,Default,Sung Jinwoo,0000,0000,0000,,Je…
+Dialogue: 0,0:17:53.80,0:17:55.29,Italique,Sung Jinwoo,0000,0000,0000,,Une onde de mana ?
+Dialogue: 0,0:17:56.76,0:18:00.14,Default,Go Gunhee,0000,0000,0000,,Eh bah !\NVous l’avez sentie à cette distance ?
+Dialogue: 0,0:18:00.77,0:18:05.32,Default,Go Gunhee,0000,0000,0000,,Les rang S\Ns’entraînent dans le gymnase.
+Dialogue: 0,0:18:06.01,0:18:09.46,Default,Go Gunhee,0000,0000,0000,,Si ça vous intéresse,\Nvous pourriez aller jeter un œil.
+Dialogue: 0,0:18:23.33,0:18:24.68,Default,Ma Dongwook,0000,0000,0000,,Maître Baek !
+Dialogue: 0,0:18:24.83,0:18:29.08,Default,Ma Dongwook,0000,0000,0000,,Vous êtes encore jeune,\Nalors renforcez vos appuis !
+Dialogue: 0,0:18:29.22,0:18:32.84,Default,Baek Yunho,0000,0000,0000,,Je ne suis qu’un simple employé,\Nmaître Ma !
+Dialogue: 0,0:18:34.29,0:18:38.80,Default,Go Gunhee,0000,0000,0000,,Il est rare de voir les rang S\Nrassemblés au même endroit.
+Dialogue: 0,0:18:39.21,0:18:43.94,Default,Go Gunhee,0000,0000,0000,,L’onde de mana que vous avez ressentie\Nvenait probablement d’eux.
+Dialogue: 0,0:18:44.60,0:18:46.58,Default,Sung Jinwoo,0000,0000,0000,,Le chasseur Baek semble en baver.
+Dialogue: 0,0:18:46.72,0:18:51.48,Default,Choi Jongin,0000,0000,0000,,Si le président Baek se donnait à fond,\Nle chasseur Ma ne ferait pas le poids.
+Dialogue: 0,0:18:52.08,0:18:53.05,Default,Sung Jinwoo,0000,0000,0000,,Bonjour.
+Dialogue: 0,0:18:53.54,0:18:56.51,Default,Choi Jongin,0000,0000,0000,,Celui en tenue d’arts martiaux\Nest Ma Dongwook,
+Dialogue: 0,0:18:56.63,0:18:58.10,Default,Choi Jongin,0000,0000,0000,,de la guilde Glorious.
+Dialogue: 0,0:18:58.86,0:19:00.90,Default,Sung Jinwoo,0000,0000,0000,,Pourquoi Baek Yunho se retient-il ?
+Dialogue: 0,0:19:01.19,0:19:04.23,Default,Sung Jinwoo,0000,0000,0000,,Son adversaire\Nn’est pas n’importe qui.
+Dialogue: 0,0:19:04.61,0:19:08.00,Default,Choi Jongin,0000,0000,0000,,Il contient toujours sa force\Nen public.
+Dialogue: 0,0:19:08.27,0:19:12.71,Default,Choi Jongin,0000,0000,0000,,Quand il utilise toute sa puissance,\Nil se change en bête.
+Dialogue: 0,0:19:13.05,0:19:15.73,Italique,Sung Jinwoo,0000,0000,0000,,Il peut vraiment se transformer,\Nalors ?
+Dialogue: 0,0:19:15.87,0:19:19.88,Default,Choi Jongin,0000,0000,0000,,Ces deux hommes là-bas\Nsont de la guilde des Chevaliers.
+Dialogue: 0,0:19:22.38,0:19:25.10,Default,Choi Jongin,0000,0000,0000,,Ah, regardez qui voilà…
+Dialogue: 0,0:19:26.77,0:19:28.97,Default,Choi Jongin,0000,0000,0000,,Les rang S du Japon.
+Dialogue: 0,0:19:29.11,0:19:32.56,Default,Choi Jongin,0000,0000,0000,,Et leur maître de guilde,\NRyûji Gotô.
+Dialogue: 0,0:19:34.02,0:19:35.27,Default,Akari Shimizu,0000,0000,0000,,C’est qui, ça ?
+Dialogue: 0,0:19:36.56,0:19:40.39,Default,Hanekawa,0000,0000,0000,,Sung Jinwoo, un chasseur\Nayant récemment obtenu le rang S.
+Dialogue: 0,0:19:40.54,0:19:42.56,Default,Ryûji Gotô,0000,0000,0000,,Ça doit être un assassin hors pair.
+Dialogue: 0,0:19:42.90,0:19:45.49,Default,Hanekawa,0000,0000,0000,,Non, c’est un chasseur\Nde type magicien.
+Dialogue: 0,0:19:47.76,0:19:48.80,Default,Ryûji Gotô,0000,0000,0000,,Vraiment ?
+Dialogue: 0,0:19:51.58,0:19:54.83,Default,Lim Taegyu,0000,0000,0000,,Ah, mais c’est Sung Jinwoo,\Ncelui qui a volé la vedette
+Dialogue: 0,0:19:54.96,0:19:56.47,Default,Lim Taegyu,0000,0000,0000,,à notre Lee Minsung.
+Dialogue: 0,0:19:57.51,0:19:59.88,Italique,Cha Hae-in,0000,0000,0000,,Ça explique\Nle changement d’atmosphère.
+Dialogue: 0,0:20:07.40,0:20:10.89,Default,Hanekawa,0000,0000,0000,,Ce sont eux, les meilleurs de Corée ?\NJ’avoue être déçue.
+Dialogue: 0,0:20:11.39,0:20:14.46,Default,Hanekawa,0000,0000,0000,,Mon jugement est peut-être faussé\Nà cause de vous,
+Dialogue: 0,0:20:14.59,0:20:16.67,Default,Hanekawa,0000,0000,0000,,mais ils n’ont pas l’air de rang S.
+Dialogue: 0,0:20:16.90,0:20:18.50,Default,Ryûji Gotô,0000,0000,0000,,N’en sois pas si sûre.
+Dialogue: 0,0:20:18.63,0:20:20.53,Default,Park Jongsu,0000,0000,0000,,Je peux pas te laisser dire ça.
+Dialogue: 0,0:20:21.00,0:20:24.20,Default,Park Jongsu,0000,0000,0000,,Tu te paies nos têtes,\NMlle l’interprète ?
+Dialogue: 0,0:20:24.46,0:20:26.35,Default,Park Jongsu,0000,0000,0000,,Je pige ce que tu dis, tu sais !
+Dialogue: 0,0:20:26.48,0:20:28.08,Default,Yuntae,0000,0000,0000,,Quelle prestance, patron !
+Dialogue: 0,0:20:28.43,0:20:29.38,Default,Hanekawa,0000,0000,0000,,Et vous êtes ?
+Dialogue: 0,0:20:29.50,0:20:34.21,Default,Yuntae,0000,0000,0000,,C’est le maître de guilde des Chevaliers,\NPark Jongsu !
+Dialogue: 0,0:20:34.35,0:20:37.18,Default,Hanekawa,0000,0000,0000,,Park Jongsu ? Inconnu au bataillon.
+Dialogue: 0,0:20:38.13,0:20:40.89,Default,Yuntae,0000,0000,0000,,Le boss n’est pas de rang S,\Nmais de rang A !
+Dialogue: 0,0:20:41.01,0:20:42.94,Default,Yuntae,0000,0000,0000,,C’est sûrement pour ça.
+Dialogue: 0,0:20:43.08,0:20:46.07,Default,Yuntae,0000,0000,0000,,Mais on est classés 5es de Corée !
+Dialogue: 0,0:20:46.20,0:20:48.00,TiretsDefault,Yuntae / Lim Taegyu,0000,0000,0000,,– On sera…\N– Il se passe quoi ?
+Dialogue: 0,0:20:48.64,0:20:51.72,Default,Cha Hae-in,0000,0000,0000,,On se passera bien d’une dispute.
+Dialogue: 0,0:20:51.87,0:20:55.27,Default,Park Jongsu,0000,0000,0000,,En même temps,\Nc’est eux qui nous prennent de haut !
+Dialogue: 0,0:20:55.54,0:20:57.36,Default,Lim Taegyu,0000,0000,0000,,Allons, calme-toi.
+Dialogue: 0,0:20:57.51,0:20:58.69,Default,Ryûji Gotô,0000,0000,0000,,Ça tombe bien.
+Dialogue: 0,0:20:58.92,0:21:03.26,Default,Ryûji Gotô & Hanekawa,0000,0000,0000,,Profitons-en pour faire un match amical,\Nuniquement entre rang S.
+Dialogue: 0,0:21:04.15,0:21:06.15,Default,Park Jongsu,0000,0000,0000,,Et moi ?\NJe compte pour du beurre ?
+Dialogue: 0,0:21:06.35,0:21:09.50,Default,Ryûji Gotô,0000,0000,0000,,Je vous laisse libres\Nde décider des règles.
+Dialogue: 0,0:21:09.98,0:21:11.42,Default,Go Gunhee,0000,0000,0000,,Pourquoi pas ?
+Dialogue: 0,0:21:12.21,0:21:15.68,Default,Go Gunhee,0000,0000,0000,,Par contre,\Nje propose de ne pas inclure
+Dialogue: 0,0:21:15.81,0:21:18.30,Default,Go Gunhee,0000,0000,0000,,les types magicien\Net non-combattant.
+Dialogue: 0,0:21:18.68,0:21:19.84,Default,Ryûji Gotô,0000,0000,0000,,Ça me va.
+Dialogue: 0,0:21:20.09,0:21:23.26,Default,Baek Yunho,0000,0000,0000,,Bien,\Nseuls les types combattants participeront.
+Dialogue: 0,0:21:23.40,0:21:26.26,Default,Baek Yunho,0000,0000,0000,,Attraper le poignet,\Ntoucher le dos de son adversaire
+Dialogue: 0,0:21:26.43,0:21:29.02,Default,Baek Yunho,0000,0000,0000,,ou le mettre à terre\Napportera la victoire.
+Dialogue: 0,0:21:29.15,0:21:30.35,Default,Baek Yunho,0000,0000,0000,,Quant au match,
+Dialogue: 0,0:21:30.74,0:21:34.06,Default,Baek Yunho,0000,0000,0000,,au lieu de faire des un contre un,\Nce sera un match en équipe.
+Dialogue: 0,0:21:34.19,0:21:35.08,Default,Park Jongsu,0000,0000,0000,,Quoi ?
+Dialogue: 0,0:21:35.22,0:21:39.40,Default,Baek Yunho,0000,0000,0000,,Ça donnera un aperçu\Ndes conditions réelles une fois sur place.
+Dialogue: 0,0:21:42.34,0:21:44.61,Default,Ryûji Gotô,0000,0000,0000,,C’est d’accord. Procédons ainsi.
+Dialogue: 0,0:21:47.30,0:21:49.02,Default,Go Gunhee,0000,0000,0000,,Du côté coréen,
+Dialogue: 0,0:21:49.18,0:21:53.29,Default,Go Gunhee,0000,0000,0000,,il y aura Cha Hae-in, Lim Taegyu,\NMa Dongwook et Baek Yunho.
+Dialogue: 0,0:21:53.61,0:21:58.25,Default,Ryûji Gotô,0000,0000,0000,,Du côté japonais, il y aura Tawata,\NKumamoto, Hoshino et Tanaka.
+Dialogue: 0,0:22:00.16,0:22:04.03,Default,Ryûji Gotô,0000,0000,0000,,Bien, que le match amical\Nen équipe commence !
+Dialogue: 0,0:23:28.88,0:23:30.88,Default,credits,0000,0000,0000,,Traduction : Alexandre Mureau\NAdaptation : Kiddo Maxx
+Dialogue: 0,0:23:32.22,0:23:34.01,Default,credits,0000,0000,0000,,Repérage : Clément Hautavoine\NRelecture : DW512ZC

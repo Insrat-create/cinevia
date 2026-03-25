@@ -1,0 +1,321 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: Internal,Arial Bold,23.0,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: Top,Arial Bold,23.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0000,0000,0020,1
+Style: Top Internal,Arial Bold,23.0,&H00FFFFFF,&H000000FF,&H001E0200,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0000,0000,0020,1
+Style: Overlap,Arial Bold,23.0,&H00F3EDE3,&H000000FF,&H00362B17,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: Overlap Internal,Arial Bold,23.0,&H00F3EDE3,&H000000FF,&H00362B17,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: Overlap Top,Arial Bold,23.0,&H00F3EDE3,&H000000FF,&H00362B17,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0000,0000,0020,0
+Style: Flashback,Arial Bold,23.0,&H00F7ECEB,&H000000FF,&H004D0701,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: Flashback Internal,Arial Bold,23.0,&H00F7ECEB,&H000000FF,&H004D0701,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,0
+Style: Flashback Top,Arial Bold,23.0,&H00F7ECEB,&H000000FF,&H004D0701,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0000,0000,0020,0
+Style: Narrator,Arial Bold,23.0,&H00F2F2F9,&H000000FF,&H00000050,&H00000050,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0000,0000,0020,1
+Style: TypePlaceholder,Arial Bold,19.0,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0010,0010,0020,1
+Style: TypePlaceholderBox,Arial Bold,22.0,&H00200960,&H000000FF,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100.0,100.0,0.0,0.0,3,1,0.0,8,0010,0010,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.68,0:00:11.30,Default,Esil,0000,0000,0000,,Ich ergebe mich!
+Dialogue: 0,0:00:12.14,0:00:14.74,Default,Esil,0000,0000,0000,,Ich ergebe mich!\NBitte lasst mir zumindest mein Leben!
+Dialogue: 0,0:00:16.33,0:00:19.31,Default,Jin-Woo Sung,0000,0000,0000,,Diese Stimme …\NDu bist doch nicht etwa das, was ich denke …
+Dialogue: 0,0:00:27.53,0:00:30.80,Default,Esil,0000,0000,0000,,V-Verzeiht mir!\NIch akzeptiere meine Niederlage!
+Dialogue: 0,0:00:30.80,0:00:33.15,Default,Esil,0000,0000,0000,,Bitte verschont mich!
+Dialogue: 0,0:02:05.18,0:02:08.48,Default,Jin-Woo Sung,0000,0000,0000,,Erst greift ihr uns an und\Njetzt bettelst du um dein Leben?
+Dialogue: 0,0:02:08.48,0:02:10.94,Default,Jin-Woo Sung,0000,0000,0000,,Deine Kameraden sind bereits alle tot.
+Dialogue: 0,0:02:11.33,0:02:14.38,Default,Esil,0000,0000,0000,,Die Aufgabe eines Ritters ist es,\Nseinen Herrn zu schützen,
+Dialogue: 0,0:02:14.38,0:02:17.72,Default,Esil,0000,0000,0000,,daher wären sie bestimmt froh,\Nsolange ich nur in Sicherheit bin.
+Dialogue: 0,0:02:18.87,0:02:21.38,Internal,Jin-Woo Sung,0000,0000,0000,,„Solange ich nur“?
+Dialogue: 0,0:02:21.38,0:02:22.25,Default,Jin-Woo Sung,0000,0000,0000,,Was soll’s.
+Dialogue: 0,0:02:28.75,0:02:29.96,Internal,Esil,0000,0000,0000,,Das ist meine Chance!
+Dialogue: 0,0:02:34.92,0:02:37.39,TypePlaceholder,Types,0000,0000,0000,,{\q2\an7\fad(100,0)\fnTrebuchet MS Fett\fs12.\fax-0.12\c&HFFFFFF&\3c&HEBAA85&\bord1\blur3\4c&H140D05&\frz9.246\frx0\fry358\3a&H4A&\pos(335.12,170.22)}Hauer setzte [Skill: Lied des Schutzes] ein.
+Dialogue: 0,0:02:36.02,0:02:37.39,Default,Jin-Woo Sung,0000,0000,0000,,Was sollte das werden?
+Dialogue: 0,0:02:37.70,0:02:41.05,Default,Esil,0000,0000,0000,,Ich würde schlichtweg alles tun,\Nwenn Ihr nur mein Leben verschont!
+Dialogue: 0,0:02:41.05,0:02:42.68,Default,Esil,0000,0000,0000,,Ich flehe Euch an!
+Dialogue: 0,0:02:42.68,0:02:44.20,Internal,Jin-Woo Sung,0000,0000,0000,,Also echt …
+Dialogue: 0,0:02:45.13,0:02:49.02,Default,Jin-Woo Sung,0000,0000,0000,,Wäre es dir also möglich,\Nmir eine Zugangserlaubnis zu besorgen?
+Dialogue: 0,0:02:49.02,0:02:53.10,Default,Esil,0000,0000,0000,,M-Meine Familie hütet\Ndie Zugangserlaubnis.
+Dialogue: 0,0:02:53.10,0:02:55.74,Default,Esil,0000,0000,0000,,Im Austausch für mein Leben\Nbesorge ich sie Euch.
+Dialogue: 0,0:02:56.28,0:02:59.92,Default,Esil,0000,0000,0000,,Ich weiß außerdem, wo die Zugangserlaubnisse\Naller höheren Ebenen sind.
+Dialogue: 0,0:02:59.92,0:03:04.45,Default,Esil,0000,0000,0000,,Wenn Ihr also meine Sicherheit und die meiner\NFamilie garantiert, führe ich Euch zu ihnen.
+Dialogue: 0,0:03:04.88,0:03:07.51,Default,Jin-Woo Sung,0000,0000,0000,,Habt ihr sie versteckt?
+Dialogue: 0,0:03:07.51,0:03:10.67,Default,Jin-Woo Sung,0000,0000,0000,,Dann kann ich noch so sehr um mich schlagen\Nund werde sie nicht finden.
+Dialogue: 0,0:03:10.98,0:03:12.59,Default,Jin-Woo Sung,0000,0000,0000,,Die Frage ist bloß, …
+Dialogue: 0,0:03:14.55,0:03:18.26,Default,Jin-Woo Sung,0000,0000,0000,,ob ich dir vertrauen kann?
+Dialogue: 0,0:03:19.29,0:03:20.97,Default,Esil,0000,0000,0000,,A-Aber natürlich.
+Dialogue: 0,0:03:21.52,0:03:25.18,Default,Esil,0000,0000,0000,,I-Ich würde Euch niemals hintergehen.
+Dialogue: 0,0:03:27.69,0:03:28.84,Default,Jin-Woo Sung,0000,0000,0000,,Na schön.
+Dialogue: 0,0:03:28.84,0:03:31.90,Default,Jin-Woo Sung,0000,0000,0000,,Solange ich die Zugangserlaubnis erhalte,\Nwerde ich euch nichts antun.
+Dialogue: 0,0:03:32.57,0:03:35.49,Default,Esil,0000,0000,0000,,Z-Zu gnädig …
+Dialogue: 0,0:03:36.52,0:03:37.82,Default,Jin-Woo Sung,0000,0000,0000,,Ach ja …
+Dialogue: 0,0:03:38.46,0:03:40.30,Default,Jin-Woo Sung,0000,0000,0000,,Was genau seid ihr eigentlich?
+Dialogue: 0,0:03:57.42,0:04:00.43,Default,Esil,0000,0000,0000,,Ich bin Esil, die älteste Tochter\Nder Familie Radiru!
+Dialogue: 0,0:04:00.71,0:04:03.74,Default,Jin-Woo Sung,0000,0000,0000,,Nein, so habe ich das jetzt nicht gemeint.
+Dialogue: 0,0:04:05.28,0:04:10.48,Internal,Jin-Woo Sung,0000,0000,0000,,Ich hatte gehofft, dass ich neben Barca noch\Nauf anderem Wege Infos zum System ergattere.
+Dialogue: 0,0:04:11.94,0:04:16.67,Default,Jin-Woo Sung,0000,0000,0000,,Hört ihr ständig eine Stimme in eurem Kopf,\Ndie euch befiehlt, alle Menschen zu töten?
+Dialogue: 0,0:04:19.45,0:04:22.78,Default,Esil,0000,0000,0000,,Nein, dafür höre ich jedoch\Neinen anderen Befehl.
+Dialogue: 0,0:04:22.78,0:04:23.70,Default,Jin-Woo Sung,0000,0000,0000,,Welchen?
+Dialogue: 0,0:04:24.70,0:04:26.66,Default,Esil,0000,0000,0000,,„Beschütze diesen Ort“.
+Dialogue: 0,0:04:27.66,0:04:28.62,Default,Jin-Woo Sung,0000,0000,0000,,Seit wann geht das?
+Dialogue: 0,0:04:28.62,0:04:30.83,Default,Esil,0000,0000,0000,,Seit ich hier hergekommen bin.
+Dialogue: 0,0:04:30.83,0:04:32.46,Internal,Jin-Woo Sung,0000,0000,0000,,Seit sie hier ist?
+Dialogue: 0,0:04:33.20,0:04:34.73,Default,Jin-Woo Sung,0000,0000,0000,,Wo warst du denn vorher?
+Dialogue: 0,0:04:34.73,0:04:35.89,Default,Esil,0000,0000,0000,,Im Pandämonium.
+Dialogue: 0,0:04:35.89,0:04:39.46,Default,Esil,0000,0000,0000,,Doch eines Tages\Nfand ich mich hier wieder.
+Dialogue: 0,0:04:40.04,0:04:43.18,Default,Jin-Woo Sung,0000,0000,0000,,Was genau hast du\Nin diesem Pandämonium gemacht?
+Dialogue: 0,0:04:46.02,0:04:46.93,Default,Esil,0000,0000,0000,,Krieg …
+Dialogue: 0,0:04:48.05,0:04:50.39,Default,Esil,0000,0000,0000,,Wir haben uns auf den Krieg vorbereitet.
+Dialogue: 0,0:04:50.39,0:04:52.10,Internal,Jin-Woo Sung,0000,0000,0000,,Auf einen Krieg?
+Dialogue: 0,0:04:52.10,0:04:53.24,Default,Jin-Woo Sung,0000,0000,0000,,Gegen wen?
+Dialogue: 0,0:04:54.32,0:04:58.65,Default,Esil,0000,0000,0000,,Gegen einen Feind, der so stark ist,\Ndass sich alle Dämonen zusammenrotten müssen.
+Dialogue: 0,0:04:59.14,0:05:02.67,Default,Esil,0000,0000,0000,,Ein Krieg gegen diesen Feind\Nstand unweigerlich bevor.
+Dialogue: 0,0:05:04.45,0:05:08.44,Default,Esil,0000,0000,0000,,Das Gespräch wird beendet, da die erlaubte\NInformationsmenge überschritten wurde.
+Dialogue: 0,0:05:08.44,0:05:12.36,Default,Esil,0000,0000,0000,,Das Gespräch wird beendet, da die erlaubte\NInformationsmenge überschritten wurde.
+Dialogue: 0,0:05:12.36,0:05:14.08,Default,Esil,0000,0000,0000,,Das Gespräch wi…
+Dialogue: 0,0:05:18.32,0:05:20.71,Internal,Jin-Woo Sung,0000,0000,0000,,Mehr scheint wohl nicht drin zu sein.
+Dialogue: 0,0:05:23.13,0:05:26.64,Default,Jin-Cheol Woo,0000,0000,0000,,Dies sind Aufzeichnungen der Schäden,\Ndie die geflügelte Ameise
+Dialogue: 0,0:05:26.64,0:05:30.93,Default,Jin-Cheol Woo,0000,0000,0000,,an einer abgelegenen japanischen Insel\Nhinterlassen hat, bevor sie ausgelöscht wurde.
+Dialogue: 0,0:05:31.65,0:05:34.51,Default,Jin-Cheol Woo,0000,0000,0000,,Es kam zu 294 zivilen Opfern.
+Dialogue: 0,0:05:34.51,0:05:37.74,Default,Jin-Cheol Woo,0000,0000,0000,,Insgesamt wurden 108 Hunter eingesetzt.
+Dialogue: 0,0:05:37.74,0:05:42.65,Default,Jin-Cheol Woo,0000,0000,0000,,Davon fielen vier E-Ränge,\Nein C-Rang und ein B-Rang im Kampf.
+Dialogue: 0,0:05:43.94,0:05:46.62,Default,Gun-Hee Go,0000,0000,0000,,Nur ein Exemplar richtet\Neinen solchen Schaden an.
+Dialogue: 0,0:05:47.01,0:05:49.19,Default,Jin-Cheol Woo,0000,0000,0000,,Ein A-Rang-Hunter,\Nder später dazustieß,
+Dialogue: 0,0:05:49.19,0:05:52.62,Default,Jin-Cheol Woo,0000,0000,0000,,landete den entscheidenden Schlag\Nund tötete sie.
+Dialogue: 0,0:05:52.62,0:05:55.83,Default,Gun-Hee Go,0000,0000,0000,,Dann lassen sich die geflügelten Ameisen\Nin den A-Rang einordnen.
+Dialogue: 0,0:05:56.77,0:06:00.56,Default,Jin-Cheol Woo,0000,0000,0000,,Dies stimmt mit der Einschätzung der Ermittler\Nüberein, die eine Autopsie am Kadaver
+Dialogue: 0,0:06:00.56,0:06:01.55,Default,Jin-Cheol Woo,0000,0000,0000,,durchgeführt haben.
+Dialogue: 0,0:06:04.46,0:06:08.55,Default,Gun-Hee Go,0000,0000,0000,,Die betroffene Insel liegt 120 km\Nvon der Insel Jeju entfernt.
+Dialogue: 0,0:06:09.24,0:06:12.61,Default,Gun-Hee Go,0000,0000,0000,,Sollten die Ameisen lernen,\Nnoch weitere Distanzen zurückzulegen,
+Dialogue: 0,0:06:12.61,0:06:15.06,Default,Gun-Hee Go,0000,0000,0000,,wäre die Südspitze unseres\NFestlandes für sie erreichbar.
+Dialogue: 0,0:06:15.97,0:06:18.56,Default,Gun-Hee Go,0000,0000,0000,,Wir müssen Japan umgehend\Num Zusammenarbeit bitten.
+Dialogue: 0,0:06:19.13,0:06:22.98,Default,Gun-Hee Go,0000,0000,0000,,Ebenfalls müssen unsere\NNachbarstaaten alarmiert werden.
+Dialogue: 0,0:06:22.98,0:06:23.57,Default,Jin-Cheol Woo,0000,0000,0000,,Jawohl.
+Dialogue: 0,0:06:23.87,0:06:27.53,Default,Gun-Hee Go,0000,0000,0000,,Es ist nun so weit.\NWir dürfen keine Zeit verlieren.
+Dialogue: 0,0:06:27.53,0:06:32.08,Default,Gun-Hee Go,0000,0000,0000,,Am liebsten wäre ich ihnen zuvorgekommen,\Nbevor es zu Opfern kam.
+Dialogue: 0,0:06:32.96,0:06:36.96,Default,Gun-Hee Go,0000,0000,0000,,Kraft meines Amtes als Präsident\Nder Hunter-Vereinigung
+Dialogue: 0,0:06:36.96,0:06:40.56,Default,Gun-Hee Go,0000,0000,0000,,initiiere ich den Plan\Nzum vierten Jeju-Raid.
+Dialogue: 0,0:06:42.36,0:06:44.06,Default,Esil,0000,0000,0000,,Verzeiht mir.
+Dialogue: 0,0:06:44.06,0:06:47.43,Default,Esil,0000,0000,0000,,Wieso habe ich nur auf einmal\Ndas Bewusstsein verloren?
+Dialogue: 0,0:06:47.43,0:06:49.76,Default,Jin-Woo Sung,0000,0000,0000,,Ach, mach dir keinen Kopf.
+Dialogue: 0,0:06:50.08,0:06:51.89,Default,Jin-Woo Sung,0000,0000,0000,,Hast du noch irgendwelche Beschwerden?
+Dialogue: 0,0:06:51.89,0:06:54.13,Default,Esil,0000,0000,0000,,Nein, ich fühle mich prima!
+Dialogue: 0,0:06:54.13,0:06:56.72,Default,Esil,0000,0000,0000,,Ihr macht Euch also Sorgen\Num mein Wohlbefinden?
+Dialogue: 0,0:06:56.72,0:06:58.31,Default,Jin-Woo Sung,0000,0000,0000,,Na ja, nur für den Fall der Fälle.
+Dialogue: 0,0:06:59.69,0:07:02.48,Default,Jin-Woo Sung,0000,0000,0000,,Mich interessiert eher,\Nob es noch weit bis an unser Ziel ist.
+Dialogue: 0,0:07:02.48,0:07:04.10,Default,Esil,0000,0000,0000,,Oh, sicher!
+Dialogue: 0,0:07:04.10,0:07:06.40,Default,Esil,0000,0000,0000,,Die Familie Radiru\Nresidiert in diesem Schloss.
+Dialogue: 0,0:07:06.40,0:07:08.54,Default,Esil,0000,0000,0000,,Dort befindet sich auch die Erlaubnis.
+Dialogue: 0,0:07:09.70,0:07:12.29,Default,Esils Vater,0000,0000,0000,,Wen in drei Gottes Namen\Nhast du da angeschleppt?
+Dialogue: 0,0:07:12.29,0:07:13.76,Default,Esils Vater,0000,0000,0000,,Esil!
+Dialogue: 0,0:07:14.24,0:07:19.92,Default,Esils Vater,0000,0000,0000,,H-Hast du denn nicht gesehen,\Nwie in seinem Schatten eine Armee lauert?
+Dialogue: 0,0:07:20.33,0:07:22.88,Internal,Jin-Woo Sung,0000,0000,0000,,Holla, der hat aber gute Augen.
+Dialogue: 0,0:07:22.88,0:07:26.48,Default,Esils Vater,0000,0000,0000,,Wer meine Tochter reinlegt\Nund mein Schloss erobern möchte,
+Dialogue: 0,0:07:26.48,0:07:28.22,Default,Esils Vater,0000,0000,0000,,den lasse ich nicht am Leben!
+Dialogue: 0,0:07:28.22,0:07:30.80,Default,Esil,0000,0000,0000,,W-Warte doch mal, Vater!
+Dialogue: 0,0:07:30.80,0:07:33.29,Default,Jin-Woo Sung,0000,0000,0000,,Ich habe es ihr versprochen.
+Dialogue: 0,0:07:33.29,0:07:36.52,Default,Jin-Woo Sung,0000,0000,0000,,Solange ich die Zugangserlaubnis erhalte,\Nwerde ich niemandem schaden.
+Dialogue: 0,0:07:38.80,0:07:42.19,Internal,Esils Vater,0000,0000,0000,,Mir kam zu Ohren, dass Vulcan\Nund Metus besiegt wurden.
+Dialogue: 0,0:07:42.45,0:07:46.58,Internal,Esils Vater,0000,0000,0000,,Gegen so einen Gegner\Nkönnen wir unmöglich ankommen.
+Dialogue: 0,0:07:47.93,0:07:49.38,Default,Esils Vater,0000,0000,0000,,Welch Schmach!
+Dialogue: 0,0:07:54.33,0:07:56.29,TypePlaceholder,Types,0000,0000,0000,,{\q2\fad(0,0)\an7\c&HFFFFFF&\fry0\xshad2\yshad2\bord1\blur3\4c&H140D05&\fnTrebuchet MS Bold\b1\3c&HEBDE84&\fs16\3a&H76&\pos(16,218.66)}ITEM: Zugangserlaubnis{\fnTrebuchet MS\b0}\NAUSRÜSTUNGSSTUFE: --\NKATEGORIE: --\N\N80. Ebene -> 81. Ebene\N\N\NDiese Erlaubnis gewährt den Zugang zum 81. Stock der Festung des Teufels.\NSie kann ausschließlich auf dem Teleportationskreis im 80. Ebene verwendet werden.
+Dialogue: 0,0:07:57.30,0:07:59.00,Default,Jin-Woo Sung,0000,0000,0000,,Ich habe sie erfolgreich erhalten.
+Dialogue: 0,0:07:59.67,0:08:02.80,Default,Esils Vater,0000,0000,0000,,Damit solltest du hier fertig sein.
+Dialogue: 0,0:08:02.80,0:08:04.50,Default,Esils Vater,0000,0000,0000,,Zieh schleunigst von dannen!
+Dialogue: 0,0:08:04.50,0:08:08.42,Default,Jin-Woo Sung,0000,0000,0000,,Deine Tochter werde ich\Nmir noch ein wenig ausleihen.
+Dialogue: 0,0:08:12.49,0:08:15.43,Default,Jin-Woo Sung,0000,0000,0000,,Ah, bitte nicht falsch verstehen!\NSie soll mir bloß den Weg zeigen!
+Dialogue: 0,0:08:15.43,0:08:18.71,Default,Jin-Woo Sung,0000,0000,0000,,Sie meinte, sie wisse, wo sich die Erlaubnisse\Nder einzelnen Ebenen befinden.
+Dialogue: 0,0:08:20.08,0:08:21.77,Default,Esils Vater,0000,0000,0000,,Sorgst du für ihre Sicherheit?
+Dialogue: 0,0:08:22.07,0:08:23.48,Default,Jin-Woo Sung,0000,0000,0000,,Ich garantiere dafür.
+Dialogue: 0,0:08:26.02,0:08:28.69,Default,Esils Vater,0000,0000,0000,,Na schön. Dann soll es so sein.
+Dialogue: 0,0:08:28.98,0:08:31.77,Default,Jin-Woo Sung,0000,0000,0000,,Dann sei doch bitte so gut, Esil.
+Dialogue: 0,0:08:31.77,0:08:33.02,Default,Esil,0000,0000,0000,,Gerne doch!
+Dialogue: 0,0:08:45.26,0:08:46.50,Default,Hanekawa,0000,0000,0000,,Gildenmeister.
+Dialogue: 0,0:08:51.30,0:08:54.39,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(150,0)\fnTrebuchet MS\fsp1\fs20\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HEBDE84&\bord1\blur3\4c&H140D05&\pos(318.73,179.2)}\h\h\h\hBENACHRICHTIGUNG{\fnTrebuchet MS\b0\fsp0\3c&HEBDE84&\fs16\3a&H76&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\NDu hast einen [Dämonenritter] besiegt.\NDu hast einen [Dämonenritter] besiegt.\NDu hast einen [Dämonenadeligen] besiegt.
+Dialogue: 0,0:08:57.05,0:09:00.23,Default,Jin-Woo Sung,0000,0000,0000,,Gut, damit wäre die 89. Ebene geschafft.
+Dialogue: 0,0:09:02.08,0:09:05.26,Default,Jin-Woo Sung,0000,0000,0000,,Igris und Tank sind beide im Rang\Naufgestiegen und wurden befördert.
+Dialogue: 0,0:09:04.94,0:09:06.73,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(150,0)\fnTrebuchet MS Bold\fsp1\fs9\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HFFC1B4&\bord1\blur3\4c&H140D05&\pos(455.11,102.67)\3a&H5F&}\h\h\h\hBENACHRICHTIGUNG{\fnTrebuchet MS\b0\fsp0\3c&HFEC1A7&\fs9\3a&H88&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\NIgris wurde befördert.\N[Ritter-Rang] Lv. MAX -> {\c&H39FE3F&}[Elite-Ritter-Rang] Lv. 1
+Dialogue: 0,0:09:05.31,0:09:06.73,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(150,0)\fnTrebuchet MS Bold\fsp1\fs9\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HFFC1B4&\bord1\blur3\4c&H140D05&\3a&H5F&\pos(173.34,253.77)}\h\h\h\hBENACHRICHTIGUNG{\fnTrebuchet MS\b0\fsp0\3c&HFEC1A7&\fs9\3a&H88&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\NTank wurde befördert.\N[Elite-Rang] Lv. MAX -> {\c&H39FE3F&}[Ritter-Rang] Lv. 1
+Dialogue: 0,0:09:06.73,0:09:09.67,Default,Jin-Woo Sung,0000,0000,0000,,Sie dürften jetzt irgendwo\Nzwischen dem A- und S-Rang liegen.
+Dialogue: 0,0:09:09.67,0:09:11.82,Default,Jin-Woo Sung,0000,0000,0000,,Damit ist meine Streitmacht\Nnoch stärker geworden.
+Dialogue: 0,0:09:14.97,0:09:20.13,Default,Esil,0000,0000,0000,,Da hätte ich die Geschenke für die\NVerhandlungen gar nicht mitnehmen müssen.
+Dialogue: 0,0:09:20.13,0:09:21.91,Default,Jin-Woo Sung,0000,0000,0000,,Nimm sie einfach wieder mit nach Hause.
+Dialogue: 0,0:09:22.17,0:09:23.84,Default,Esil,0000,0000,0000,,Das geht doch nicht!
+Dialogue: 0,0:09:23.84,0:09:27.09,Default,Esil,0000,0000,0000,,Ab der 90. Ebene\Nherrschen hochrangige Adelige!
+Dialogue: 0,0:09:27.69,0:09:30.55,Default,Esil,0000,0000,0000,,Ihre Stärke ist mit allen\Ndavor nicht vergleichbar.
+Dialogue: 0,0:09:31.02,0:09:34.39,Default,Esil,0000,0000,0000,,Daher sollten wir die Zugangserlaubnis\Nlieber im Gespräch beschaffen.
+Dialogue: 0,0:09:34.39,0:09:37.30,Default,Jin-Woo Sung,0000,0000,0000,,Würden sie denn überhaupt mit uns reden,
+Dialogue: 0,0:09:37.30,0:09:38.76,Default,Jin-Woo Sung,0000,0000,0000,,wenn wir schwächer wären als sie?
+Dialogue: 0,0:09:40.12,0:09:41.73,Default,Jin-Woo Sung,0000,0000,0000,,Das dachte ich mir bereits.
+Dialogue: 0,0:09:42.14,0:09:45.28,Default,Jin-Woo Sung,0000,0000,0000,,Der Dämonenadel streitet\Num die Rangfolge, nicht wahr?
+Dialogue: 0,0:09:45.84,0:09:49.57,Default,Jin-Woo Sung,0000,0000,0000,,Ich werde die Radieschen-Familie\Nauf Platz eins in der Hierarchie hieven.
+Dialogue: 0,0:09:49.87,0:09:51.99,Default,Esil,0000,0000,0000,,Wir heißen Radiru …
+Dialogue: 0,0:09:51.99,0:09:52.82,Default,Esil,0000,0000,0000,,Entschuldigt!
+Dialogue: 0,0:09:52.82,0:09:57.54,Default,Esil,0000,0000,0000,,Wieso habt Ihr meine Familie verschont,\NMeister Jin-Woo?
+Dialogue: 0,0:09:58.01,0:09:59.74,Default,Jin-Woo Sung,0000,0000,0000,,Na, weil ich dich gut leiden kann.
+Dialogue: 0,0:10:00.56,0:10:01.95,Default,Esil,0000,0000,0000,,Wie bitte?!
+Dialogue: 0,0:10:02.21,0:10:04.37,Internal,Jin-Woo Sung,0000,0000,0000,,Jin-Ho und Esil …
+Dialogue: 0,0:10:04.37,0:10:08.67,Internal,Jin-Woo Sung,0000,0000,0000,,Offenbar kann ich ganz gut mit Leuten,\Ndie ’ne Schraube locker haben.
+Dialogue: 0,0:10:09.32,0:10:11.16,Default,Jin-Woo Sung,0000,0000,0000,,Du kannst jetzt nach Hause gehen, Esil.
+Dialogue: 0,0:10:13.61,0:10:16.34,Default,Jin-Woo Sung,0000,0000,0000,,Ab hier werden die Gegner immer stärker.
+Dialogue: 0,0:10:16.61,0:10:18.61,Default,Jin-Woo Sung,0000,0000,0000,,Ich habe es deinem\Nalten Herrn versprochen.
+Dialogue: 0,0:10:18.61,0:10:22.84,Default,Jin-Woo Sung,0000,0000,0000,,Sag mir, wo ich die Zugangserlaubnisse finde,\Nund ich erledige den Rest.
+Dialogue: 0,0:10:23.26,0:10:26.15,Default,Esil,0000,0000,0000,,Bin ich Euch etwa nicht mehr von Nutzen?
+Dialogue: 0,0:10:26.58,0:10:29.74,Default,Jin-Woo Sung,0000,0000,0000,,Aber nicht doch. Ich weiß bloß,\Nwie schwer das alles sein muss.
+Dialogue: 0,0:10:29.74,0:10:30.86,Default,Jin-Woo Sung,0000,0000,0000,,Für deine Mühen …
+Dialogue: 0,0:10:31.19,0:10:32.19,Default,Jin-Woo Sung,0000,0000,0000,,bedanke ich mich.
+Dialogue: 0,0:10:33.09,0:10:36.82,Default,Esil,0000,0000,0000,,Ich werde Euch bis zum Schluss begleiten!\NIch möchte dabei sein!
+Dialogue: 0,0:10:36.82,0:10:39.47,Default,Esil,0000,0000,0000,,Was werdet Ihr wohl noch alles\Nerreichen, Meister Jin-Woo?
+Dialogue: 0,0:10:41.04,0:10:43.58,Default,Jin-Woo Sung,0000,0000,0000,,Meinetwegen. Dann lass uns gehen.
+Dialogue: 0,0:10:45.16,0:10:46.31,Default,Esil,0000,0000,0000,,Sehr wohl!
+Dialogue: 0,0:10:49.88,0:10:54.05,Internal,Jin-Woo Sung,0000,0000,0000,,Der Schwierigkeitsgrad stieg Esils Warnung\Nentsprechend ab der 90. Ebene sprunghaft an.
+Dialogue: 0,0:10:54.72,0:10:57.26,Internal,Jin-Woo Sung,0000,0000,0000,,Dies bezog sich auf die Anzahl\Nund die Stärke der Monster.
+Dialogue: 0,0:10:57.63,0:10:59.93,Internal,Jin-Woo Sung,0000,0000,0000,,Das war mit den Ebenen\Nzuvor unvergleichbar.
+Dialogue: 0,0:11:00.46,0:11:04.03,Internal,Jin-Woo Sung,0000,0000,0000,,Trotzdem erklomm ich Ebene für Ebene.
+Dialogue: 0,0:11:02.39,0:11:03.35,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(0,0)\fnTrebuchet MS Bold\fsp1\fs18\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HEBDE84&\bord1\blur3\4c&H140D05&\pos(321.4,147.2)}\h\h\h\hBENACHRICHTIGUNG{\fsp0\3c&HEBDE84&\fs14\fax-0.1\3a&H43&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\NDu hast die 92. Ebene erreicht.
+Dialogue: 0,0:11:04.56,0:11:05.77,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(0,0)\fnTrebuchet MS Bold\fsp1\fs18\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HEBDE84&\bord1\blur3\4c&H140D05&\pos(321.4,147.2)}\h\h\h\hBENACHRICHTIGUNG{\fsp0\3c&HEBDE84&\fs14\fax-0.1\3a&H43&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\NDu hast die 95. Ebene erreicht.
+Dialogue: 0,0:11:06.10,0:11:10.23,Internal,Jin-Woo Sung,0000,0000,0000,,Ich musste unter allen Umständen\Ndas „Elixier des Lebens“ erhalten.
+Dialogue: 0,0:11:07.23,0:11:08.44,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(0,0)\fnTrebuchet MS Bold\fsp1\fs18\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HEBDE84&\bord1\blur3\4c&H140D05&\pos(321.4,147.2)}\h\h\h\hBENACHRICHTIGUNG{\fsp0\3c&HEBDE84&\fs14\fax-0.1\3a&H43&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\NDu hast die 97. Ebene erreicht.
+Dialogue: 0,0:11:10.24,0:11:11.48,Internal,Jin-Woo Sung,0000,0000,0000,,Nur zu diesem Zweck …
+Dialogue: 0,0:11:15.28,0:11:20.18,Default,Jong-In Choi,0000,0000,0000,,Dies ist deine und meine Einladung\Nzum vierten Jeju-Raid, Hae-In.
+Dialogue: 0,0:11:20.18,0:11:21.12,Default,Hae-In Cha,0000,0000,0000,,Verstanden.
+Dialogue: 0,0:11:21.12,0:11:24.95,Default,Jong-In Choi,0000,0000,0000,,Neben uns wurden Baek,\Nder Gildenmeister der Weißer-Tiger-Gilde,
+Dialogue: 0,0:11:24.95,0:11:28.98,Default,Jong-In Choi,0000,0000,0000,,und alle übrigen S-Rang-Hunter\Ndes Landes benachrichtigt.
+Dialogue: 0,0:11:29.38,0:11:31.67,Internal,Hae-In Cha,0000,0000,0000,,Dann wurde also auch Sung informiert.
+Dialogue: 0,0:11:31.94,0:11:33.43,Default,Jong-In Choi,0000,0000,0000,,Zudem wurde dieses Mal
+Dialogue: 0,0:11:33.43,0:11:37.63,Default,Jong-In Choi,0000,0000,0000,,offiziell die Zusammenarbeit\Nmit einem Nachbarstaat beschlossen.
+Dialogue: 0,0:11:38.10,0:11:39.61,Default,Hae-In Cha,0000,0000,0000,,Mit Japan, korrekt?
+Dialogue: 0,0:11:39.61,0:11:40.60,Default,Jong-In Choi,0000,0000,0000,,So ist es.
+Dialogue: 0,0:11:41.00,0:11:43.39,Default,Jong-In Choi,0000,0000,0000,,Angesichts der Flugfähigkeit\Nder Ameisen könnte
+Dialogue: 0,0:11:43.39,0:11:45.91,Default,Jong-In Choi,0000,0000,0000,,auch ihr Staatsgebiet\Nvon einer Invasion betroffen sein.
+Dialogue: 0,0:11:45.91,0:11:47.64,Default,Jong-In Choi,0000,0000,0000,,Die Entscheidung ist nachvollziehbar.
+Dialogue: 0,0:11:49.08,0:11:53.57,Default,Jong-In Choi,0000,0000,0000,,Mir ist jeder recht,\Nsolange wir sie auslöschen können.
+Dialogue: 0,0:11:54.53,0:11:56.03,Default,Hae-In Cha,0000,0000,0000,,Wann findet der Raid statt?
+Dialogue: 0,0:11:56.29,0:12:00.31,Default,Jong-In Choi,0000,0000,0000,,Man sucht noch ein Datum.\NAber er wird eher früher als später kommen.
+Dialogue: 0,0:12:00.90,0:12:04.42,Default,Jong-In Choi,0000,0000,0000,,Außerdem trifft heute ein Hunter\Neiner sehr großen Gilde ein,
+Dialogue: 0,0:12:04.42,0:12:08.88,Default,Jong-In Choi,0000,0000,0000,,um die Details der anstehenden\NOperation zu besprechen.
+Dialogue: 0,0:12:12.88,0:12:14.71,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(175,0)\fnTrebuchet MS Bold\fsp1\fs18\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HEBDE84&\bord1\blur3\4c&H140D05&\pos(321.4,147.2)}\h\h\h\hBENACHRICHTIGUNG{\fsp0\3c&HEBDE84&\fnTrebuchet MS\b0\fs14\3a&H43&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\NDu hast die {\fnTrebuchet MS Bold\b1\fax-0.1\3c&HFFF292&\3a&H22&}100. Ebene {\fnTrebuchet MS\3c&HEBDE84&\3a&H43&\b0\fax0}erreicht.
+Dialogue: 0,0:12:12.92,0:12:14.71,Default,Jin-Woo Sung,0000,0000,0000,,Endlich bin ich auf der obersten Ebene.
+Dialogue: 0,0:12:15.14,0:12:16.92,Default,Esil,0000,0000,0000,,Aber irgendwie ist hier niemand.
+Dialogue: 0,0:12:32.37,0:12:35.07,Default,Jin-Woo Sung,0000,0000,0000,,Das ist also der Herrscher\Nüber die Dämonen:
+Dialogue: 0,0:12:36.14,0:12:37.11,Default,Jin-Woo Sung,0000,0000,0000,,Baran!
+Dialogue: 0,0:12:45.10,0:12:47.05,Internal,Jin-Woo Sung,0000,0000,0000,,Was für eine Aura!
+Dialogue: 0,0:12:47.05,0:12:49.08,Internal,Jin-Woo Sung,0000,0000,0000,,Kann ich gegen den überhaupt gewinnen?
+Dialogue: 0,0:12:49.74,0:12:52.44,Internal,Esil,0000,0000,0000,,Es ist, als würde mein Körper\Nvon seiner Mordlust zerfetzt werden.
+Dialogue: 0,0:12:52.79,0:12:55.20,Internal,Jin-Woo Sung,0000,0000,0000,,Esil spürt es offenbar auch.
+Dialogue: 0,0:12:55.81,0:12:56.50,Internal,Jin-Woo Sung,0000,0000,0000,,Na gut.
+Dialogue: 0,0:12:57.22,0:12:59.07,Internal,Jin-Woo Sung,0000,0000,0000,,Seine Flugfähigkeit ist ein Problem.
+Dialogue: 0,0:12:59.92,0:13:02.80,Internal,Jin-Woo Sung,0000,0000,0000,,Ein Flugdrache?\NHier sind also nicht nur Dämonen?
+Dialogue: 0,0:13:27.97,0:13:29.75,Default,Jin-Woo Sung,0000,0000,0000,,Das ist ein ganz schöner Haufen.
+Dialogue: 0,0:13:30.09,0:13:32.16,Default,Esil,0000,0000,0000,,W-Was machen wir denn jetzt?
+Dialogue: 0,0:13:34.38,0:13:35.33,Default,Esil,0000,0000,0000,,Meister Jin-Woo!
+Dialogue: 0,0:13:35.62,0:13:36.59,Default,Jin-Woo Sung,0000,0000,0000,,Schon klar!
+Dialogue: 0,0:13:39.80,0:13:40.59,TypePlaceholder,Types,0000,0000,0000,,{\q2\an7\fad(0,175)\fnTrebuchet MS Bold\fs17\c&HFFFFFF&\xshad2\yshad2\3c&HC56B93&\bord1\blur3\4c&H140D05&\pos(174.22,154.67)}[Aktiver Skill]\N\N\N\N\N\N\N\N\h\h\h\h\h\hDomäne des Monarchen
+Dialogue: 0,0:13:39.80,0:13:41.42,Default,Jin-Woo Sung,0000,0000,0000,,Zeigt euch!
+Dialogue: 0,0:14:01.19,0:14:05.45,Default,Esil,0000,0000,0000,,Unfassbar … Meister Jin-Woo\Nvermag also auch, so zu kämpfen?
+Dialogue: 0,0:14:06.38,0:14:10.45,Internal,Esil,0000,0000,0000,,Aber er hat es mit Dämonenkönig Baran,\Ndem hiesigen Herrscher, zu tun.
+Dialogue: 0,0:14:10.83,0:14:13.20,Internal,Esil,0000,0000,0000,,Meister Jin-Woo ist für ihn\Nbloß ein Eindringling.
+Dialogue: 0,0:14:13.20,0:14:14.92,Internal,Esil,0000,0000,0000,,Ein Subjekt, das es auszumerzen gilt.
+Dialogue: 0,0:14:15.86,0:14:19.42,Internal,Esil,0000,0000,0000,,Auf welche Seite …\Nsollte ich mich schlagen?
+Dialogue: 0,0:14:49.10,0:14:51.04,Internal,Jin-Woo Sung,0000,0000,0000,,Das war kein einfacher Blitz.
+Dialogue: 0,0:14:51.04,0:14:53.33,Internal,Jin-Woo Sung,0000,0000,0000,,Er hat eine immense Reichweite\Nund lähmt das Ziel.
+Dialogue: 0,0:14:54.24,0:14:56.46,Internal,Jin-Woo Sung,0000,0000,0000,,Meine Soldaten kommen zwar zurück,
+Dialogue: 0,0:14:56.46,0:14:59.63,Internal,Jin-Woo Sung,0000,0000,0000,,aber wenn das so weitergeht,\Ngeht mir bald das Mana aus.
+Dialogue: 0,0:14:59.98,0:15:01.46,Internal,Jin-Woo Sung,0000,0000,0000,,Ich muss ihm also zuvorkommen.
+Dialogue: 0,0:15:11.01,0:15:12.87,Internal,Jin-Woo Sung,0000,0000,0000,,Zuerst stutz ich ihm die Flügel!
+Dialogue: 0,0:15:14.43,0:15:16.54,Internal,Jin-Woo Sung,0000,0000,0000,,Er hat meine Verstohlenheit durchschaut?
+Dialogue: 0,0:15:25.53,0:15:29.14,Internal,Jin-Woo Sung,0000,0000,0000,,Hat er eine Verfolgungseigenschaft?\NScheiße, er holt mich ein!
+Dialogue: 0,0:15:29.14,0:15:30.91,Default,Jin-Woo Sung,0000,0000,0000,,Hauer! Igris!
+Dialogue: 0,0:15:57.54,0:15:59.18,Default,Jin-Woo Sung,0000,0000,0000,,Bist du endlich runtergekommen?
+Dialogue: 0,0:16:00.10,0:16:04.07,Default,Jin-Woo Sung,0000,0000,0000,,Mir tut vom ständigen Schauen nach oben\Nschon der Nacken weh. So ist es besser.
+Dialogue: 0,0:16:11.95,0:16:13.61,Default,Hanekawa,0000,0000,0000,,Es freut mich sehr.
+Dialogue: 0,0:16:13.61,0:16:16.96,Default,Hanekawa,0000,0000,0000,,Ich heiße Hanekawa\Nund gehöre der Schwert-Gilde an.
+Dialogue: 0,0:16:16.96,0:16:19.92,Default,Hanekawa,0000,0000,0000,,Dies ist unser Gildenmeister Ryūji Gotō.
+Dialogue: 0,0:16:20.18,0:16:23.50,Default,Hanekawa,0000,0000,0000,,Ich werde für ihn entsprechend dolmetschen.
+Dialogue: 0,0:16:23.81,0:16:25.48,Internal,Gun-Hee Go,0000,0000,0000,,Die Schwert-Gilde.
+Dialogue: 0,0:16:25.84,0:16:30.24,Internal,Gun-Hee Go,0000,0000,0000,,Eine extrem große Gilde aus Japan,\Ndie über ganze elf S-Rang-Hunter verfügt.
+Dialogue: 0,0:16:30.58,0:16:34.16,Internal,Gun-Hee Go,0000,0000,0000,,Von ihrem Umfang her sollten sie\Nauf Platz zwei in ganz Asien stehen.
+Dialogue: 0,0:16:34.16,0:16:38.54,Internal,Gun-Hee Go,0000,0000,0000,,Und an ihrer Spitze steht\Nihr Gildenmeister Ryūji Gotō.
+Dialogue: 0,0:16:38.54,0:16:41.44,Internal,Gun-Hee Go,0000,0000,0000,,Gerüchten zufolge besitzt er\Neine einzigartige Aura.
+Dialogue: 0,0:16:42.17,0:16:43.19,Default,Hanekawa,0000,0000,0000,,Zuerst einmal
+Dialogue: 0,0:16:43.19,0:16:46.64,Default,Hanekawa,0000,0000,0000,,bedanken wir uns, dass Sie dem Vorschlag\Nfür eine gemeinsame Einsatztruppe
+Dialogue: 0,0:16:46.64,0:16:47.90,Default,Hanekawa,0000,0000,0000,,zugestimmt haben.
+Dialogue: 0,0:16:48.23,0:16:52.42,Default,Gun-Hee Go,0000,0000,0000,,Nicht doch, wir baten zuerst\Num Ihre Unterstützung
+Dialogue: 0,0:16:52.42,0:16:54.49,Default,Gun-Hee Go,0000,0000,0000,,und danken daher für Ihr Einverständnis.
+Dialogue: 0,0:16:54.77,0:16:56.93,Default,Hanekawa,0000,0000,0000,,Wie Sie den Unterlagen entnehmen können,
+Dialogue: 0,0:16:56.93,0:16:59.76,Default,Hanekawa,0000,0000,0000,,hat unsere Untersuchung\Nder geflügelten Ameisen
+Dialogue: 0,0:16:59.76,0:17:02.71,Default,Hanekawa,0000,0000,0000,,und die Autopsie des besiegten Exemplars
+Dialogue: 0,0:17:02.71,0:17:04.50,Default,Hanekawa,0000,0000,0000,,neue Erkenntnisse zutage gefördert.
+Dialogue: 0,0:17:05.21,0:17:09.72,Default,Hanekawa,0000,0000,0000,,Zwei davon werden ausschlaggebend\Nfür unser Vorgehen sein.
+Dialogue: 0,0:17:10.57,0:17:12.24,Default,Hanekawa,0000,0000,0000,,Der erste Punkt ist ihre Lebensdauer.
+Dialogue: 0,0:17:12.24,0:17:15.28,Default,Hanekawa,0000,0000,0000,,Die Ameisen wachsen nach\Ndem Schlüpfen schnell heran.
+Dialogue: 0,0:17:15.28,0:17:17.18,Default,Hanekawa,0000,0000,0000,,Ihre Lebensdauer beträgt jedoch ein Jahr.
+Dialogue: 0,0:17:17.18,0:17:20.17,Default,Hanekawa,0000,0000,0000,,Würden wir also ihre Königin besiegen,
+Dialogue: 0,0:17:20.17,0:17:23.40,Default,Hanekawa,0000,0000,0000,,würde der Restbestand innerhalb\Neines Jahres auf natürliche Weise vergehen.
+Dialogue: 0,0:17:23.86,0:17:26.89,Default,Hanekawa,0000,0000,0000,,Das Nächste wäre\Ndas Verhaltensmuster der Ameisen.
+Dialogue: 0,0:17:26.89,0:17:31.66,Default,Hanekawa,0000,0000,0000,,Auf Grundlage der Kampfberichte\Nder letzten drei Raids wurde klar,
+Dialogue: 0,0:17:31.66,0:17:35.37,Default,Hanekawa,0000,0000,0000,,dass sie sich von starken Feinden, also\Nstarker magischer Kraft, angezogen fühlen.
+Dialogue: 0,0:17:35.37,0:17:36.68,Default,Hanekawa,0000,0000,0000,,Daher werden wir dieses Mal
+Dialogue: 0,0:17:36.68,0:17:40.15,Default,Hanekawa,0000,0000,0000,,eine Strategie aufstellen,\Ndie sich diesen Umstand zunutze macht.
+Dialogue: 0,0:17:40.64,0:17:44.62,Internal,Gun-Hee Go,0000,0000,0000,,Auch uns waren die Bewegungsmuster\Nder Ameisen aufgefallen.
+Dialogue: 0,0:17:44.62,0:17:47.83,Internal,Gun-Hee Go,0000,0000,0000,,Doch zu so einer detaillierten\NAnalyse kamen wir nicht.
+Dialogue: 0,0:17:49.05,0:17:50.42,Default,Hanekawa,0000,0000,0000,,Bei dieser Strategie …
+Dialogue: 0,0:17:50.87,0:17:54.97,Default,Hanekawa / Ryūji Gotō,0000,0000,0000,,werden zehn der\Nelf S-Rang-Hunter meiner Gilde,
+Dialogue: 0,0:17:54.97,0:17:57.89,Default,Hanekawa / Ryūji Gotō,0000,0000,0000,,inklusive mir selbst, beteiligt sein.
+Dialogue: 0,0:17:58.88,0:18:00.77,Default,Jin-Cheol Woo,0000,0000,0000,,Ganze zehn von elf?!
+Dialogue: 0,0:18:00.77,0:18:03.63,Default,Ryūji Gotō,0000,0000,0000,,Wir werden die Ameisen anlocken.
+Dialogue: 0,0:18:03.63,0:18:07.56,Default,Ryūji Gotō,0000,0000,0000,,Nutzen Sie diese Gelegenheit, um die\NAmeisenkönigin mit Ihren Leuten zu besiegen.
+Dialogue: 0,0:18:07.56,0:18:10.75,Default,Jin-Cheol Woo,0000,0000,0000,,Aber wir reden hier von tausenden Ameisen!
+Dialogue: 0,0:18:11.17,0:18:14.46,Default,Ryūji Gotō,0000,0000,0000,,Da wir sie nur ablenken,\Nstellt das kein Problem dar.
+Dialogue: 0,0:18:14.46,0:18:19.18,Default,Ryūji Gotō,0000,0000,0000,,KI-Simulationen haben hierfür\Ndie höchste Erfolgsrate ergeben.
+Dialogue: 0,0:18:19.83,0:18:24.54,Internal,Gun-Hee Go,0000,0000,0000,,Wir haben in der Tat weniger\Nals zehn S-Rang-Hunter zur Verfügung.
+Dialogue: 0,0:18:24.54,0:18:25.68,Internal,Gun-Hee Go,0000,0000,0000,,In dem Fall …
+Dialogue: 0,0:18:26.00,0:18:27.50,Default,Gun-Hee Go,0000,0000,0000,,Ich habe verstanden.
+Dialogue: 0,0:18:27.50,0:18:31.48,Default,Gun-Hee Go,0000,0000,0000,,Lassen Sie uns nun eine Strategie ausarbeiten,\Ndie sich an diesem Vorhaben orientiert.
+Dialogue: 0,0:18:40.06,0:18:42.60,Internal,Jin-Woo Sung,0000,0000,0000,,Ich komme kaum\Nmit den Manatränken hinterher!
+Dialogue: 0,0:19:02.04,0:19:03.79,Internal,Jin-Woo Sung,0000,0000,0000,,Er hat meinen Blitzangriff abgewehrt?
+Dialogue: 0,0:19:33.41,0:19:35.19,Internal,Jin-Woo Sung,0000,0000,0000,,Mein Mana ist erschöpft?
+Dialogue: 0,0:20:18.90,0:20:20.50,Default,Jin-Woo Sung,0000,0000,0000,,Scheiße! Mein Dolch!
+Dialogue: 0,0:20:31.10,0:20:33.42,Internal,Jin-Woo Sung,0000,0000,0000,,Was für eine Kraft!
+Dialogue: 0,0:20:34.80,0:20:35.59,Internal,Jin-Woo Sung,0000,0000,0000,,Ich glaub’s nicht!
+Dialogue: 0,0:20:37.34,0:20:38.76,Internal,Jin-Woo Sung,0000,0000,0000,,Ich kann nicht ausweichen!
+Dialogue: 0,0:20:44.81,0:20:45.80,Internal,Jin-Woo Sung,0000,0000,0000,,Jetzt!
+Dialogue: 0,0:20:45.80,0:20:47.81,Internal,Jin-Woo Sung,0000,0000,0000,,Ich bündle all meine Kraft
+Dialogue: 0,0:20:47.81,0:20:50.23,Internal,Jin-Woo Sung,0000,0000,0000,,in den Griff des Herrschers!
+Dialogue: 0,0:21:06.84,0:21:11.46,Default,Jin-Woo Sung,0000,0000,0000,,Hier ist Endstation!
+Dialogue: 0,0:21:23.98,0:21:25.72,Default,Esil,0000,0000,0000,,Meister Jin-Woo!
+Dialogue: 0,0:21:31.02,0:21:32.27,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(175,175)\fnTrebuchet MS Fett\fsp1\fs18\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HFFF8C5&\bord1\blur3\4c&H140D05&\3a&H48&\pos(319.99,157.77)}\h\h\h\hBENACHRICHTIGUNG{\fsp0\fnTrebuchet Ms\b0\fs14\shad0\3c&HFFF8C5&\3a&H8D&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\NDu hast {\fax-0.1\fnTrebuchet MS Fett\b1\3c&HFFF8C5&\3a&H55&}[Dämonenkönig Baran] {\fax0\fnTrebuchet Ms\3a&H8D&\b0}besiegt.
+Dialogue: 0,0:21:32.31,0:21:33.65,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(175,175)\fnTrebuchet MS Fett\fsp1\fs18\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HFFF8C5&\bord1\blur3\4c&H140D05&\3a&H48&\pos(321.77,148.88)}\h\h\h\hBENACHRICHTIGUNG{\fsp0\fnTrebuchet Ms\b0\fs14\shad0\3c&HF4B867&\3a&H7C&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N{\fnTrebuchet MS Fett\b1}Du hast Barans Seele erhalten.
+Dialogue: 0,0:21:33.65,0:21:35.65,TypePlaceholder,Types,0000,0000,0000,,{\q2\an5\fad(175,0)\fnTrebuchet MS Fett\fsp1\fs18\c&HFFFFFF&\fry0\xshad2\yshad2\3c&HFFF8C5&\bord1\blur3\4c&H140D05&\3a&H48&\pos(321.77,144.88)}\h\h\h\hBENACHRICHTIGUNG{\fsp0\fnTrebuchet Ms\b0\fs14\shad0\3c&HF4B867&\3a&H7C&}\N\N\N\N\N\N\N\N\N\N\N\N\N\N\N{\fnTrebuchet MS Fett\b1}[Quest: Sammle Dämonenseelen 2]
+Dialogue: 0,0:21:46.73,0:21:47.91,Default,Esil,0000,0000,0000,,Meister Jin-Woo!
+Dialogue: 0,0:21:48.30,0:21:51.41,Default,Jin-Woo Sung,0000,0000,0000,,Esil, kehr zu deinem alten Herrn zurück\Nund erstatte ihm Bericht.
+Dialogue: 0,0:21:52.28,0:21:55.92,Default,Jin-Woo Sung,0000,0000,0000,,Ab sofort steht die Radieschen-Familie\Nganz oben in der Rangordnung.
+Dialogue: 0,0:21:56.35,0:21:57.98,Default,Esil,0000,0000,0000,,Meister Jin-Woo …
+Dialogue: 0,0:22:01.70,0:22:05.16,Default,Esil,0000,0000,0000,,Wir heißen aber nicht „Radieschen“,\Nsondern „Radiru“!
+Dialogue: 1,0:22:13.10,0:22:16.40,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Übersetzung & Spotting: Jacqueline Philippi
+Dialogue: 0,0:22:13.10,0:22:16.40,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Übersetzung & Spotting: Jacqueline Philippi
+Dialogue: 1,0:22:16.40,0:22:20.32,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Revision & Typesetting: Janik Aurich
+Dialogue: 0,0:22:16.40,0:22:20.32,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Revision & Typesetting: Janik Aurich
+Dialogue: 1,0:22:20.32,0:22:23.65,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Qualitätskontrolle: Ruben Grest
+Dialogue: 0,0:22:20.32,0:22:23.65,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Qualitätskontrolle: Ruben Grest
+Dialogue: 1,0:22:23.65,0:22:26.53,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord1\blur1\3c&H585858&\c&HFFFFFF&\3a&H80&\iclip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Projektleitung: Tobias Philippi
+Dialogue: 0,0:22:23.65,0:22:26.53,TypePlaceholder,Credits,0000,0000,0000,,{\fnTahoma\bord0.7\blur0.6\3c&HFFFFFF&\c&H000000&\3a&H17&\clip(m 298.29 12.57 l 320.38 43.05 525.71 44.19 553.9 12.57)}Projektleitung: Tobias Philippi
+Dialogue: 0,0:23:37.27,0:23:41.02,TypePlaceholder,Types,0000,0000,0000,,{\fnTrebuchet Ms Bold\fad(1000,0)\fs15\an8\t(,,\fscx96\fscy96)\blur4\c&HFFE162&\3c&HF510AE&\t(0,1000,\blur2.5\3c&HB10D7E&\c&HFFB9E9&)\bord1\t(1500,1700,\3c&HEB12A8&\bord1.5\blur4)\t(1700,2750,\bord0\3c&H570B3F&\c&HE0C4D7&\blur0)\frx8\fry0\pos(352.79,191.66)}Das war es alles wert

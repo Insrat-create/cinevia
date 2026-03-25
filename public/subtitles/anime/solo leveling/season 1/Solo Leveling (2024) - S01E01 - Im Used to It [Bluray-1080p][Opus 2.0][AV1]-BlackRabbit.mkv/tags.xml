@@ -1,0 +1,258 @@
+﻿<?xml version="1.0"?>
+<!-- <!DOCTYPE Tags SYSTEM "matroskatags.dtd"> -->
+<Tags>
+  <Tag>
+    <Targets />
+    <Simple>
+      <Name>Title</Name>
+      <String>Solo Leveling (2024) - S01E01 - Im Used to It</String>
+      <TagLanguageIETF>und</TagLanguageIETF>
+    </Simple>
+    <Simple>
+      <Name>Encoder</Name>
+      <String>RabbitEncoder v1.0.2</String>
+      <TagLanguageIETF>und</TagLanguageIETF>
+    </Simple>
+    <Simple>
+      <Name>Encoder Settings</Name>
+      <String>Quality medium, Speed slow</String>
+      <TagLanguageIETF>und</TagLanguageIETF>
+    </Simple>
+  </Tag>
+  <Tag>
+    <Targets>
+      <TrackUID>9897384537566644</TrackUID>
+    </Targets>
+    <Simple>
+      <Name>ENCODER</Name>
+      <String>SVT-AV1-Essential v4.0.1</String>
+    </Simple>
+    <Simple>
+      <Name>ENCODER_SETTINGS</Name>
+      <String>--progress 0 --speed slow --quality medium --config /data/temp/1ad3f3c1/abe_temp/source_video_zones.cfg</String>
+    </Simple>
+    <Simple>
+      <Name>BPS</Name>
+      <String>1309701</String>
+    </Simple>
+    <Simple>
+      <Name>DURATION</Name>
+      <String>00:23:42.004000000</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_FRAMES</Name>
+      <String>34094</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_BYTES</Name>
+      <String>232800150</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_APP</Name>
+      <String>mkvmerge v97.0 ('You Don't Have A Clue') 64-bit</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_DATE_UTC</Name>
+      <String>2026-03-21 23:30:56</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_TAGS</Name>
+      <String>BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES</String>
+    </Simple>
+  </Tag>
+  <Tag>
+    <Targets>
+      <TargetTypeValue>30</TargetTypeValue>
+      <TargetType>TRACK</TargetType>
+      <TrackUID>17458831399025864253</TrackUID>
+    </Targets>
+    <Simple>
+      <Name>ENCODER</Name>
+      <String>opusenc from opus-tools 0.2</String>
+    </Simple>
+    <Simple>
+      <Name>ENCODER_OPTIONS</Name>
+      <String>--bitrate 128 --discard-comments --discard-pictures</String>
+    </Simple>
+  </Tag>
+  <Tag>
+    <Targets>
+      <TargetTypeValue>30</TargetTypeValue>
+      <TargetType>TRACK</TargetType>
+      <TrackUID>800077223388479002</TrackUID>
+    </Targets>
+    <Simple>
+      <Name>ENCODER</Name>
+      <String>opusenc from opus-tools 0.2</String>
+    </Simple>
+    <Simple>
+      <Name>ENCODER_OPTIONS</Name>
+      <String>--bitrate 256 --discard-comments --discard-pictures</String>
+    </Simple>
+  </Tag>
+  <Tag>
+    <Targets>
+      <TrackUID>17458831399025864253</TrackUID>
+    </Targets>
+    <Simple>
+      <Name>BPS</Name>
+      <String>119891</String>
+    </Simple>
+    <Simple>
+      <Name>DURATION</Name>
+      <String>00:23:42.011000000</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_FRAMES</Name>
+      <String>71101</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_BYTES</Name>
+      <String>21310870</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_APP</Name>
+      <String>mkvmerge v97.0 ('You Don't Have A Clue') 64-bit</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_DATE_UTC</Name>
+      <String>2026-03-21 23:30:56</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_TAGS</Name>
+      <String>BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES</String>
+    </Simple>
+  </Tag>
+  <Tag>
+    <Targets>
+      <TrackUID>800077223388479002</TrackUID>
+    </Targets>
+    <Simple>
+      <Name>BPS</Name>
+      <String>210525</String>
+    </Simple>
+    <Simple>
+      <Name>DURATION</Name>
+      <String>00:23:42.011000000</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_FRAMES</Name>
+      <String>71101</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_BYTES</Name>
+      <String>37421148</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_APP</Name>
+      <String>mkvmerge v97.0 ('You Don't Have A Clue') 64-bit</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_DATE_UTC</Name>
+      <String>2026-03-21 23:30:56</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_TAGS</Name>
+      <String>BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES</String>
+    </Simple>
+  </Tag>
+  <Tag>
+    <Targets>
+      <TrackUID>12068042653003074056</TrackUID>
+    </Targets>
+    <Simple>
+      <Name>BPS</Name>
+      <String>3029</String>
+    </Simple>
+    <Simple>
+      <Name>DURATION</Name>
+      <String>00:23:24.650000000</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_FRAMES</Name>
+      <String>3689</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_BYTES</Name>
+      <String>531851</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_APP</Name>
+      <String>mkvmerge v97.0 ('You Don't Have A Clue') 64-bit</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_DATE_UTC</Name>
+      <String>2026-03-21 23:30:56</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_TAGS</Name>
+      <String>BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES</String>
+    </Simple>
+  </Tag>
+  <Tag>
+    <Targets>
+      <TrackUID>4537153753572970901</TrackUID>
+    </Targets>
+    <Simple>
+      <Name>BPS</Name>
+      <String>3029</String>
+    </Simple>
+    <Simple>
+      <Name>DURATION</Name>
+      <String>00:23:24.650000000</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_FRAMES</Name>
+      <String>3689</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_BYTES</Name>
+      <String>531851</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_APP</Name>
+      <String>mkvmerge v97.0 ('You Don't Have A Clue') 64-bit</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_DATE_UTC</Name>
+      <String>2026-03-21 23:30:56</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_TAGS</Name>
+      <String>BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES</String>
+    </Simple>
+  </Tag>
+  <Tag>
+    <Targets>
+      <TrackUID>7256911786177553718</TrackUID>
+    </Targets>
+    <Simple>
+      <Name>BPS</Name>
+      <String>45122</String>
+    </Simple>
+    <Simple>
+      <Name>DURATION</Name>
+      <String>00:01:29.960000000</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_FRAMES</Name>
+      <String>3346</String>
+    </Simple>
+    <Simple>
+      <Name>NUMBER_OF_BYTES</Name>
+      <String>507397</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_APP</Name>
+      <String>mkvmerge v97.0 ('You Don't Have A Clue') 64-bit</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_WRITING_DATE_UTC</Name>
+      <String>2026-03-21 23:30:56</String>
+    </Simple>
+    <Simple>
+      <Name>_STATISTICS_TAGS</Name>
+      <String>BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES</String>
+    </Simple>
+  </Tag>
+</Tags>

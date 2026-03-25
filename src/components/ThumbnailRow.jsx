@@ -9,6 +9,7 @@ export default function ThumbnailRow({
   activeTab,
   onTabChange,
   embedded = false,
+  afterTabsContent = null,
   getItemHref = (movie) => `/watch/${movie.id}`,
 }) {
   const [thumbnailUrls, setThumbnailUrls] = useState({})
@@ -75,6 +76,8 @@ export default function ThumbnailRow({
           )
         })}
       </div>
+
+      {afterTabsContent ? <div className="thumb-after-tabs">{afterTabsContent}</div> : null}
 
       <div className="thumb-row">
         {movies.map((movie) => {

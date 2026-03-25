@@ -1,0 +1,367 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: OS,Arial,18.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0001,0001,0015,0
+Style: Italics,Arial,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0020,0020,0022,0
+Style: On Top,Arial,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0022,0
+Style: DefaultLow,Arial,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0020,0020,0010,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.65,0:00:13.36,Default,,0000,0000,0000,,(Solo Leveling Season 2\N-Arise from the Shadow-)
+Dialogue: 0,0:01:36.97,0:01:39.69,Default,,0000,0000,0000,,DARAH RAJA IBLIS YANG DISUCIKAN\N"Darah Raja Iblis yang Disucikan".
+Dialogue: 0,0:01:39.69,0:01:40.56,Default,,0000,0000,0000,,DARAH RAJA IBLIS YANG DISUCIKAN\NSemuanya sudah lengkap sekarang.
+Dialogue: 0,0:01:40.56,0:01:41.27,Default,,0000,0000,0000,,Semuanya sudah lengkap sekarang.
+Dialogue: 0,0:01:41.27,0:01:43.19,Default,,0000,0000,0000,,CARA MEMBUAT ELIKSIR KEHIDUPAN
+Dialogue: 0,0:01:43.19,0:01:44.07,Default,,0000,0000,0000,,KADAR KEJAYAAN DAN BILANGAN ITEM BERGANTUNG\NPADA KECERDASAN. MEMBUAT ELIKSIR KEHIDUPAN?
+Dialogue: 0,0:01:45.05,0:01:49.05,Default,,0000,0000,0000,,Kadar kejayaan dan bilangan item\Nbergantung pada kecerdasan.
+Dialogue: 0,0:01:50.05,0:01:52.19,Default,,0000,0000,0000,,Tuan Jinwoo, awak baik-baik saja?
+Dialogue: 0,0:01:55.97,0:01:56.70,Default,,0000,0000,0000,,Ya.
+Dialogue: 0,0:01:59.87,0:02:00.67,Default,,0000,0000,0000,,MEMBUAT...
+Dialogue: 0,0:02:06.80,0:02:10.30,Default,,0000,0000,0000,,MEMBUAT...
+Dialogue: 0,0:02:10.47,0:02:11.55,Default,,0000,0000,0000,,PEMBUATAN BERJAYA
+Dialogue: 0,0:02:11.72,0:02:13.01,Default,,0000,0000,0000,,MENDAPAT ENAM ELIKSIR KEHIDUPAN
+Dialogue: 0,0:02:16.99,0:02:18.94,Default,,0000,0000,0000,,POSYEN MISTERI YANG MERAWAT SEMUA PENYAKIT DENGAN KUASA SIHIR,\NHARUS MINUM SELURUH BOTOL UNTUK KESAN PENUH\NEliksir Kehidupan sudah siap.
+Dialogue: 0,0:02:19.51,0:02:20.27,Default,,0000,0000,0000,,Namun,
+Dialogue: 0,0:02:20.53,0:02:24.09,Default,,0000,0000,0000,,benarkah ia dapat merawat narkolepsi mak?
+Dialogue: 0,0:02:29.23,0:02:29.99,Default,,0000,0000,0000,,Iron.
+Dialogue: 0,0:02:30.33,0:02:31.71,Default,,0000,0000,0000,,Jarang-jarang awak tajam akal.
+Dialogue: 0,0:02:34.99,0:02:35.83,Default,,0000,0000,0000,,Bangkitlah.
+Dialogue: 0,0:02:47.65,0:02:48.93,Default,,0000,0000,0000,,Nama...
+Dialogue: 0,0:02:49.57,0:02:52.21,Default,,0000,0000,0000,,Kesslin… Kekalin…
+Dialogue: 0,0:02:52.61,0:02:53.55,Default,,0000,0000,0000,,Siapakah namanya?
+Dialogue: 0,0:02:53.93,0:02:57.21,Default,,0000,0000,0000,,Tuan Jinwoo, awak memang\Ntak pandai ingat nama orang.
+Dialogue: 0,0:02:57.81,0:02:58.81,Default,,0000,0000,0000,,Biarlah.
+Dialogue: 0,0:02:59.35,0:03:00.27,Default,,0000,0000,0000,,Nama awak
+Dialogue: 0,0:03:00.95,0:03:01.95,Default,,0000,0000,0000,,Kaiser.
+Dialogue: 0,0:03:07.59,0:03:10.03,Default,,0000,0000,0000,,Dengan naga ini,\Nkita dapat balik dengan cepat.
+Dialogue: 0,0:03:10.03,0:03:12.21,Default,,0000,0000,0000,,Mari kita anjurkan pesta selepas balik.
+Dialogue: 0,0:03:12.21,0:03:14.07,Default,,0000,0000,0000,,Ayah saya pastinya gembira juga.
+Dialogue: 0,0:03:15.89,0:03:19.31,Default,,0000,0000,0000,,- Hei.\N- Saya ingin cuba kesan eliksir sekarang.
+Dialogue: 0,0:03:19.31,0:03:20.87,Default,,0000,0000,0000,,Adakah awak dengar?
+Dialogue: 0,0:03:20.87,0:03:23.51,Default,,0000,0000,0000,,- Kita akan anjurkan pesta.\N- Oh ya, ada batu azimat dalam ganjaran misi.
+Dialogue: 0,0:03:23.51,0:03:23.63,Default,,0000,0000,0000,,Pesta yang menggembirakan.
+Dialogue: 0,0:03:23.63,0:03:24.73,Default,,0000,0000,0000,,MENDAPAT ITEM: PEDANG RAJA IBLIS, BELATI RAJA IBLIS,\NTANDUK BARAN, CINCIN RAJA IBLIS\NPesta yang menggembirakan.
+Dialogue: 0,0:03:24.73,0:03:25.46,Default,,0000,0000,0000,,MENDAPAT ITEM: PEDANG RAJA IBLIS, BELATI RAJA IBLIS,\NTANDUK BARAN, CINCIN RAJA IBLIS\NTidak.
+Dialogue: 0,0:03:26.73,0:03:28.23,Default,,0000,0000,0000,,KESAN ITEM SET 2: SEMUA NILAI KEUPAYAAN +10\NBukan ini juga.
+Dialogue: 0,0:03:28.23,0:03:29.21,Default,,0000,0000,0000,,KESAN ITEM SET 2: SEMUA NILAI KEUPAYAAN +10\NEh.
+Dialogue: 0,0:03:30.29,0:03:31.67,Default,,0000,0000,0000,,GANJARAN MISI: BATU AZIMAT GRED TERTINGGI, PERTUKARAN BAYANGAN\NOh, dah jumpa.
+Dialogue: 0,0:03:38.11,0:03:39.68,Default,,0000,0000,0000,,PERTUKARAN BAYANGAN TAHAP 1\NBOLEH MENUKAR POSISI DENGAN ASKAR BAYANGAN\NPertukaran Bayangan.
+Dialogue: 0,0:03:40.21,0:03:44.51,Default,,0000,0000,0000,,Saya boleh tukar posisi dengan\NAskar Bayangan tanpa mengira lokasinya?
+Dialogue: 0,0:03:45.25,0:03:46.37,Default,,0000,0000,0000,,Jika begitu...
+Dialogue: 0,0:03:48.11,0:03:50.81,Default,,0000,0000,0000,,Maaf, Esil. Awak baliklah sendiri.
+Dialogue: 0,0:03:50.81,0:03:52.67,Default,,0000,0000,0000,,Eh? Bagaimana dengan pesta?
+Dialogue: 0,0:03:52.67,0:03:55.13,Default,,0000,0000,0000,,Keluarga Radis tinggal di tingkat 80.
+Dialogue: 0,0:03:55.13,0:03:57.05,Default,,0000,0000,0000,,Ia terlalu jauh\Njika kita pergi sebelum balik.
+Dialogue: 0,0:03:57.05,0:03:58.57,Default,,0000,0000,0000,,Kenapa begitu?
+Dialogue: 0,0:03:59.61,0:04:01.33,Default,,0000,0000,0000,,GUNA KEMAHIRAN: PERTUKARAN BAYANGAN TAHAP 1\NKita jumpa lagi jika ada nasib.
+Dialogue: 0,0:04:01.93,0:04:02.91,Default,,0000,0000,0000,,Jaga diri.
+Dialogue: 0,0:04:03.71,0:04:05.55,Default,,0000,0000,0000,,Tuan Jinwoo, saya...
+Dialogue: 0,0:04:06.65,0:04:07.35,Default,,0000,0000,0000,,Hm?
+Dialogue: 0,0:04:08.87,0:04:09.67,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:04:13.72,0:04:15.76,Default,,0000,0000,0000,,BOS SUDAH DIBUNUH, PENJARA BAWAH TANAH\NAKAN KEMBALI KEPADA KEADAAN ASAL
+Dialogue: 0,0:04:21.33,0:04:24.07,Default,,0000,0000,0000,,Saya telah tukar posisi\Ndengan askar peronda.
+Dialogue: 0,0:04:25.37,0:04:27.75,Default,,0000,0000,0000,,Saya harus tunggu tiga jam\Nsebelum dapat gunanya lagi.
+Dialogue: 0,0:04:28.03,0:04:29.35,Default,,0000,0000,0000,,Jika begitu, perjalanan selebihnya...
+Dialogue: 0,0:04:31.35,0:04:32.21,Default,,0000,0000,0000,,Kaiser.
+Dialogue: 0,0:04:38.67,0:04:42.37,Default,,0000,0000,0000,,Guna kuasa sihir pemburu\Nuntuk mengumpan semut keluar.
+Dialogue: 0,0:04:42.37,0:04:46.05,Default,,0000,0000,0000,,Kemudian, guna gelombang gangguan khas\Nuntuk ganggu keupayaan deria mereka.
+Dialogue: 0,0:04:46.63,0:04:50.41,Default,,0000,0000,0000,,Pasukan khas akan ambil kesempatan\Nuntuk menyusup ke dalam sarang
+Dialogue: 0,0:04:50.77,0:04:53.17,Default,,0000,0000,0000,,dan menghapuskan ratu semut?
+Dialogue: 0,0:04:53.97,0:04:57.35,Default,,0000,0000,0000,,Masalahnya, kita tak pasti\Ngelombang gangguan berkesan atau tidak.
+Dialogue: 0,0:04:59.57,0:05:02.71,Default,,0000,0000,0000,,Sudah tentu saya berasa khuatir.
+Dialogue: 0,0:05:03.23,0:05:04.67,Default,,0000,0000,0000,,Namun, hasil siasatan adalah tepat.
+Dialogue: 0,0:05:04.67,0:05:06.93,Default,,0000,0000,0000,,Kesimpulannya juga sama\Ndengan pandangan kita.
+Dialogue: 0,0:05:07.63,0:05:12.70,Default,,0000,0000,0000,,Kita juga telah sediakan rancangan undur\Nsekiranya gelombang gangguan tak berfungsi.
+Dialogue: 0,0:05:14.31,0:05:16.59,Default,,0000,0000,0000,,Perkara yang patut kita lakukan
+Dialogue: 0,0:05:16.59,0:05:20.75,Default,,0000,0000,0000,,adalah melakukan persediaan rapi\Nuntuk hantar pemburu ke pulau itu.
+Dialogue: 0,0:05:21.37,0:05:22.25,Default,,0000,0000,0000,,Baik.
+Dialogue: 0,0:05:22.91,0:05:23.97,Default,,0000,0000,0000,,Selain itu,
+Dialogue: 0,0:05:24.69,0:05:26.69,Default,,0000,0000,0000,,adakah awak menghubungi Pemburu Sung?
+Dialogue: 0,0:05:27.05,0:05:28.41,Default,,0000,0000,0000,,Saya masih belum dapat menghubunginya.
+Dialogue: 0,0:05:31.33,0:05:32.83,Default,,0000,0000,0000,,Abang Yoonho.
+Dialogue: 0,0:05:32.83,0:05:36.45,Default,,0000,0000,0000,,Jarang-jarang kita keluar minum,\Nsenyumlah sikit.
+Dialogue: 0,0:05:36.45,0:05:39.13,Default,,0000,0000,0000,,Topik tadi amat kelakar, kan?
+Dialogue: 0,0:05:40.05,0:05:42.41,Default,,0000,0000,0000,,Byung-gu, saya tak faham langsung.
+Dialogue: 0,0:05:42.89,0:05:45.45,Default,,0000,0000,0000,,Berkerut dahi akan\Nmembuat awak menua lebih cepat.
+Dialogue: 0,0:05:45.45,0:05:46.75,Default,,0000,0000,0000,,Jangan sibuk.
+Dialogue: 0,0:05:49.75,0:05:51.95,Default,,0000,0000,0000,,Penyembuh tahap S, Min Byung-gu
+Dialogue: 0,0:05:52.37,0:05:53.71,Default,,0000,0000,0000,,ialah salah seorang pemburu muda
+Dialogue: 0,0:05:53.71,0:05:56.89,Default,,0000,0000,0000,,yang bersara dengan\Nanggota badan yang lengkap.
+Dialogue: 0,0:05:57.03,0:06:00.39,Default,,0000,0000,0000,,Dia juga rakan yang\Npernah berjuang bersama saya.
+Dialogue: 0,0:06:02.03,0:06:05.01,Default,,0000,0000,0000,,Dia masih seorang yang aneh,
+Dialogue: 0,0:06:05.01,0:06:06.81,Default,,0000,0000,0000,,termasuk rasa humornya yang pelik.
+Dialogue: 0,0:06:08.05,0:06:09.51,Default,,0000,0000,0000,,Sejak bila awak begitu tangkas?
+Dialogue: 0,0:06:09.85,0:06:10.87,Default,,0000,0000,0000,,Abang Yoonho.
+Dialogue: 0,0:06:12.57,0:06:13.91,Default,,0000,0000,0000,,Benarkah awak nak pergi?
+Dialogue: 0,0:06:15.31,0:06:16.17,Default,,0000,0000,0000,,Ya.
+Dialogue: 0,0:06:17.91,0:06:20.09,Default,,0000,0000,0000,,Awak sudah menyaksikan kematian Eunseok.
+Dialogue: 0,0:06:24.89,0:06:26.19,Default,,0000,0000,0000,,Sebab itulah saya nak pergi.
+Dialogue: 0,0:06:28.05,0:06:30.45,Default,,0000,0000,0000,,Jika semut itu dibiarkan begitu saja,
+Dialogue: 0,0:06:30.45,0:06:32.61,Default,,0000,0000,0000,,seluruh negara akan\Nmenjadi begitu tak lama lagi.
+Dialogue: 0,0:06:33.11,0:06:35.65,Default,,0000,0000,0000,,Sejak bila awak menjadi patriot?
+Dialogue: 0,0:06:35.97,0:06:37.67,Default,,0000,0000,0000,,Apa-apa pun, saya mesti pergi.
+Dialogue: 0,0:06:37.67,0:06:40.67,Default,,0000,0000,0000,,Bukankah ini kedengaran lebih kacak?
+Dialogue: 0,0:06:44.79,0:06:47.85,Default,,0000,0000,0000,,Orang itu pun pernah kata begitu.
+Dialogue: 0,0:06:49.83,0:06:52.03,Default,,0000,0000,0000,,Saya takkan pergi.
+Dialogue: 0,0:06:52.49,0:06:53.75,Default,,0000,0000,0000,,Jika awak datang menjemput saya,\Nlupakan saja...
+Dialogue: 0,0:06:53.75,0:06:55.41,Default,,0000,0000,0000,,Saya datang untuk ucapkan selamat tinggal.
+Dialogue: 0,0:06:55.81,0:06:57.97,Default,,0000,0000,0000,,Lagipun, mungkin saya\Ntak dapat kembali lagi.
+Dialogue: 0,0:07:00.67,0:07:03.53,Default,,0000,0000,0000,,Saya bercadang untuk\Nmengambil ujian penjawat awam.
+Dialogue: 0,0:07:03.93,0:07:05.35,Default,,0000,0000,0000,,Penjawat awam?
+Dialogue: 0,0:07:06.25,0:07:09.93,Default,,0000,0000,0000,,Saya enggan melihat\Nadegan yang berdarah lagi.
+Dialogue: 0,0:07:11.67,0:07:13.45,Default,,0000,0000,0000,,Sebab itu saya ingin jadi penjawat awam.
+Dialogue: 0,0:07:14.39,0:07:16.37,Default,,0000,0000,0000,,Namun, saya cuma mahir subjek sejarah.
+Dialogue: 0,0:07:16.37,0:07:17.75,Default,,0000,0000,0000,,Ujian ini mungkin tak mudah.
+Dialogue: 0,0:07:18.07,0:07:19.71,Default,,0000,0000,0000,,Awak mahir subjek sejarah?
+Dialogue: 0,0:07:20.07,0:07:22.71,Default,,0000,0000,0000,,Saya amat menyukai drama sejarah.
+Dialogue: 0,0:07:23.03,0:07:24.01,Default,,0000,0000,0000,,Yakah?
+Dialogue: 0,0:07:24.77,0:07:27.11,Default,,0000,0000,0000,,Namun, ini barulah normal.
+Dialogue: 0,0:07:27.81,0:07:30.75,Default,,0000,0000,0000,,Pertarungan sepatutnya\Nwujud dalam sejarah saja.
+Dialogue: 0,0:07:31.55,0:07:33.75,Default,,0000,0000,0000,,Ya, tepat sekali.
+Dialogue: 0,0:07:34.67,0:07:37.13,Default,,0000,0000,0000,,Kewujudan pemburu barulah tidak normal.
+Dialogue: 0,0:07:37.53,0:07:38.55,Default,,0000,0000,0000,,Jika difikirkan,
+Dialogue: 0,0:07:38.93,0:07:43.35,Default,,0000,0000,0000,,saya tak pernah bertemu pemburu\Nyang benci untuk melawan haiwan iblis.
+Dialogue: 0,0:07:43.91,0:07:46.29,Default,,0000,0000,0000,,Pertarungan sudah jadi\Nperkara biasa sekarang.
+Dialogue: 0,0:07:46.29,0:07:48.35,Default,,0000,0000,0000,,Bahkan ada orang yang menikmatinya.
+Dialogue: 0,0:07:49.11,0:07:51.97,Default,,0000,0000,0000,,Jangan-jangan itulah syarat kebangkitan?
+Dialogue: 0,0:07:51.97,0:07:53.07,Default,,0000,0000,0000,,Abang Yoonho.
+Dialogue: 0,0:07:53.07,0:07:55.87,Default,,0000,0000,0000,,Awak mula berkerut dahi lagi.
+Dialogue: 0,0:07:56.45,0:07:57.41,Default,,0000,0000,0000,,Diam dan minum arak awak.
+Dialogue: 0,0:07:58.65,0:08:00.73,Default,,0000,0000,0000,,Jahatnya awak.
+Dialogue: 0,0:08:03.95,0:08:05.41,Default,,0000,0000,0000,,Kenapa awak bercakap macam itu?
+Dialogue: 0,0:08:29.79,0:08:31.81,Default,,0000,0000,0000,,Saya menyebabkannya\Nmengalami luka bakar itu.
+Dialogue: 0,0:08:44.07,0:08:45.69,Default,,0000,0000,0000,,Dia mungkin tak dapat minum.
+Dialogue: 0,0:08:46.89,0:08:48.15,Default,,0000,0000,0000,,Biarpun dia minum,
+Dialogue: 0,0:08:48.75,0:08:50.31,Default,,0000,0000,0000,,entah apa-apa yang akan berlaku.
+Dialogue: 0,0:08:51.71,0:08:52.59,Default,,0000,0000,0000,,Namun,
+Dialogue: 0,0:08:53.41,0:08:56.95,Default,,0000,0000,0000,,saya telah saksikan banyak keajaiban\Nyang dicetuskan oleh sistem.
+Dialogue: 0,0:08:57.69,0:08:59.89,Default,,0000,0000,0000,,Begitu juga dengan saya\Nyang tumbuh daripada tahap E.
+Dialogue: 0,0:09:04.15,0:09:05.41,Default,,0000,0000,0000,,Saya akan mempercayainya.
+Dialogue: 0,0:10:04.39,0:10:05.31,Default,,0000,0000,0000,,Mak.
+Dialogue: 0,0:10:10.51,0:10:11.41,Default,,0000,0000,0000,,Tolonglah.
+Dialogue: 0,0:10:11.81,0:10:13.05,Default,,0000,0000,0000,,Bangun.
+Dialogue: 0,0:10:14.23,0:10:17.41,Default,,0000,0000,0000,,Saya berjuang dan menjadi kuat demi awak.
+Dialogue: 0,0:10:21.01,0:10:22.27,Default,,0000,0000,0000,,Tolonglah bangun.
+Dialogue: 0,0:10:23.35,0:10:24.31,Default,,0000,0000,0000,,Mak.
+Dialogue: 0,0:10:29.07,0:10:32.51,Default,,0000,0000,0000,,Kenapa saya tak dapat berfokus hari ini?
+Dialogue: 0,0:10:42.99,0:10:44.61,Default,,0000,0000,0000,,Hangatnya angin ini.
+Dialogue: 0,0:11:17.03,0:11:18.15,Default,,0000,0000,0000,,Awak Jinwoo.
+Dialogue: 0,0:11:18.43,0:11:19.39,Default,,0000,0000,0000,,Betul?
+Dialogue: 0,0:11:22.15,0:11:24.69,Default,,0000,0000,0000,,Sudah berapa lama saya tidur?
+Dialogue: 0,0:11:27.27,0:11:28.31,Default,,0000,0000,0000,,Empat tahun.
+Dialogue: 0,0:11:28.75,0:11:29.73,Default,,0000,0000,0000,,Awak telah tidur selama empat tahun.
+Dialogue: 0,0:11:30.39,0:11:31.45,Default,,0000,0000,0000,,Manakah Jinah?
+Dialogue: 0,0:11:33.53,0:11:34.61,Default,,0000,0000,0000,,Dia baik-baik saja.
+Dialogue: 0,0:11:38.57,0:11:40.45,Default,,0000,0000,0000,,Terima kasih, Jinwoo.
+Dialogue: 0,0:11:41.55,0:11:44.05,Default,,0000,0000,0000,,Awak telah menepati janji.
+Dialogue: 0,0:11:46.97,0:11:48.97,Default,,0000,0000,0000,,Awak telah menjadi amat matang.
+Dialogue: 0,0:11:49.71,0:11:51.87,Default,,0000,0000,0000,,Namun, badan awak penuh dengan luka.
+Dialogue: 0,0:11:52.45,0:11:55.85,Default,,0000,0000,0000,,Awak pasti telah mendesakkan diri, betul?
+Dialogue: 0,0:12:00.77,0:12:02.31,Default,,0000,0000,0000,,Awak pastinya amat menderita.
+Dialogue: 0,0:12:10.91,0:12:11.97,Default,,0000,0000,0000,,Saya baik-baik saja.
+Dialogue: 0,0:12:12.69,0:12:13.89,Default,,0000,0000,0000,,Saya baik-baik saja.
+Dialogue: 0,0:12:16.45,0:12:17.61,Default,,0000,0000,0000,,Saya baik-baik saja.
+Dialogue: 0,0:12:29.43,0:12:30.61,Default,,0000,0000,0000,,Terima kasih.
+Dialogue: 0,0:12:31.77,0:12:32.67,Default,,0000,0000,0000,,Jinwoo.
+Dialogue: 0,0:12:39.33,0:12:40.21,Default,,0000,0000,0000,,Hm.
+Dialogue: 0,0:12:42.89,0:12:45.19,Default,,0000,0000,0000,,Pesakit dengan narkolepsi telah bangun?
+Dialogue: 0,0:12:45.19,0:12:47.32,Default,,0000,0000,0000,,Ya, saya tahu ini sukar dipercayai.
+Dialogue: 0,0:12:47.83,0:12:51.53,Default,,0000,0000,0000,,Selain itu, tubuh pesakit\Ntiada sebarang keanehan.
+Dialogue: 0,0:12:51.53,0:12:55.55,Default,,0000,0000,0000,,Pesakit dan keluarganya\Ningin keluar wad dengan segera.
+Dialogue: 0,0:13:00.63,0:13:02.93,Default,,0000,0000,0000,,Jinah, awak sudah besar.
+Dialogue: 0,0:13:03.99,0:13:05.61,Default,,0000,0000,0000,,Mak.
+Dialogue: 0,0:13:10.17,0:13:12.51,Default,,0000,0000,0000,,Maaf, saya telah merisaukan awak.
+Dialogue: 0,0:13:13.89,0:13:16.07,Default,,0000,0000,0000,,Semua usaha telah mendapat balasan.
+Dialogue: 0,0:13:16.97,0:13:20.29,Default,,0000,0000,0000,,Saya akhirnya telah mendapat\Nganjaran yang sebenar.
+Dialogue: 0,0:13:24.47,0:13:28.07,Default,,0000,0000,0000,,Terima kasih sebab sudi datang hari ini.
+Dialogue: 0,0:13:28.63,0:13:30.77,Default,,0000,0000,0000,,Seperti yang sedia maklum,
+Dialogue: 0,0:13:30.77,0:13:33.69,Default,,0000,0000,0000,,pelbagai bencana sedang berlaku\Ndi pelbagai tempat
+Dialogue: 0,0:13:33.69,0:13:37.65,Default,,0000,0000,0000,,akibat haiwan iblis semut bersayap\Ndari Pulau Jeju.
+Dialogue: 0,0:13:38.13,0:13:39.53,Default,,0000,0000,0000,,Untuk menghadapi keadaan ini,
+Dialogue: 0,0:13:39.53,0:13:45.13,Default,,0000,0000,0000,,Persatuan Pemburu memutuskan untuk\Nmulakan misi serangan Pulau Jeju keempat.
+Dialogue: 0,0:13:46.07,0:13:50.07,Default,,0000,0000,0000,,Operasi ini bukan saja akan melibatkan\Npemburu tahap S tempatan,
+Dialogue: 0,0:13:50.59,0:13:52.59,Default,,0000,0000,0000,,malah sepuluh pemburu tahap S
+Dialogue: 0,0:13:52.59,0:13:55.43,Default,,0000,0000,0000,,dari Jepun pun akan terlibat.
+Dialogue: 0,0:13:56.19,0:13:59.01,Default,,0000,0000,0000,,Pemburu tahap A ke bawah
+Dialogue: 0,0:13:59.01,0:14:01.95,Default,,0000,0000,0000,,juga akan melakukan pengawasan maritim\Ndan pertahanan tanah air
+Dialogue: 0,0:14:01.95,0:14:04.63,Default,,0000,0000,0000,,untuk memberikan sokongan\Ndalam operasi ini
+Dialogue: 0,0:14:04.89,0:14:07.09,Default,,0000,0000,0000,,dan melindungi keselamatan semua orang.
+Dialogue: 0,0:14:08.47,0:14:12.23,Default,,0000,0000,0000,,Kita mesti berjaya kali ini.
+Dialogue: 0,0:14:17.67,0:14:18.69,Default,,0000,0000,0000,,Abang Eunseok.
+Dialogue: 0,0:14:19.37,0:14:21.59,Default,,0000,0000,0000,,Secara jujurnya, saya amat takut.
+Dialogue: 0,0:14:22.23,0:14:23.73,Default,,0000,0000,0000,,Saya pun sama.
+Dialogue: 0,0:14:25.45,0:14:30.35,Default,,0000,0000,0000,,Namun, orang yang tak mampu bertarung\Npastinya lebih takut daripada kita.
+Dialogue: 0,0:14:31.11,0:14:32.03,Default,,0000,0000,0000,,Mari kita tamatkannya.
+Dialogue: 0,0:14:32.55,0:14:35.13,Default,,0000,0000,0000,,Hanya kita yang memiliki kekuatan ini\Nmampu menyelesaikannya.
+Dialogue: 0,0:14:35.71,0:14:38.87,Default,,0000,0000,0000,,Kita tak boleh biar negara ini\Nmenjadi sarang semut.
+Dialogue: 0,0:14:39.37,0:14:40.27,Default,,0000,0000,0000,,Tak guna.
+Dialogue: 0,0:14:41.73,0:14:44.23,Default,,0000,0000,0000,,Saya akan hancurkannya.
+Dialogue: 0,0:14:46.23,0:14:48.11,Default,,0000,0000,0000,,Abang Yoonho juga amat merisaukan orang,
+Dialogue: 0,0:14:48.59,0:14:50.11,Default,,0000,0000,0000,,tak kira personaliti mahupun keupayaan.
+Dialogue: 0,0:14:51.13,0:14:53.99,Default,,0000,0000,0000,,Orang yang dapat bantunya\Npada saat genting
+Dialogue: 0,0:14:54.87,0:14:56.13,Default,,0000,0000,0000,,hanyalah saya dan awak.
+Dialogue: 0,0:15:07.99,0:15:08.95,Default,,0000,0000,0000,,Hei.
+Dialogue: 0,0:15:09.37,0:15:11.53,Default,,0000,0000,0000,,Awak asyik begini\Napabila saya tak lihat awak.
+Dialogue: 0,0:15:11.93,0:15:15.39,Default,,0000,0000,0000,,Baiklah, mari kita bersihkan rumah\Nselepas empat tahun.
+Dialogue: 0,0:15:15.61,0:15:17.33,Default,,0000,0000,0000,,Kita bertiga akan bersihkan bersama-sama.
+Dialogue: 0,0:15:19.49,0:15:22.01,Default,,0000,0000,0000,,Rumah ini sudah usang.
+Dialogue: 0,0:15:22.01,0:15:24.07,Default,,0000,0000,0000,,Kotoran tak dapat dibersihkan.
+Dialogue: 0,0:15:24.25,0:15:27.35,Default,,0000,0000,0000,,Lagipun, kita tinggal di sini\Nsejak kecil lagi.
+Dialogue: 0,0:15:28.09,0:15:29.15,Default,,0000,0000,0000,,Betul juga.
+Dialogue: 0,0:15:30.25,0:15:32.13,Default,,0000,0000,0000,,Inilah yang saya mahukan selama ini.
+Dialogue: 0,0:15:33.43,0:15:34.09,Default,,0000,0000,0000,,Namun,
+Dialogue: 0,0:15:34.69,0:15:36.11,Default,,0000,0000,0000,,hati saya masih tidak tenang.
+Dialogue: 0,0:15:38.07,0:15:40.35,Default,,0000,0000,0000,,Semasa bertindak sebagai pemburu,
+Dialogue: 0,0:15:41.07,0:15:44.65,Default,,0000,0000,0000,,adakah saya melangkaui\Nbatas yang tak patut dilangkau?
+Dialogue: 0,0:15:46.67,0:15:47.59,Default,,0000,0000,0000,,Jinwoo.
+Dialogue: 0,0:15:48.15,0:15:49.39,Default,,0000,0000,0000,,Eh, ada apa?
+Dialogue: 0,0:15:51.73,0:15:54.61,Default,,0000,0000,0000,,Adakah ayah awak menghubungi awak?
+Dialogue: 0,0:15:59.47,0:16:01.21,Default,,0000,0000,0000,,Oh ya, saya telah nampak berita.
+Dialogue: 0,0:16:01.59,0:16:03.17,Default,,0000,0000,0000,,Awak telah menjadi pemburu.
+Dialogue: 0,0:16:03.69,0:16:04.29,Default,,0000,0000,0000,,Ya.
+Dialogue: 0,0:16:04.55,0:16:08.11,Default,,0000,0000,0000,,Ayah awak seorang ahli bomba\Nsebelum menjadi pemburu.
+Dialogue: 0,0:16:08.61,0:16:11.57,Default,,0000,0000,0000,,Saya berkahwin dengannya\Nsebab rasa dia kacak
+Dialogue: 0,0:16:11.57,0:16:12.69,Default,,0000,0000,0000,,apabila berjuang keras.
+Dialogue: 0,0:16:13.05,0:16:15.77,Default,,0000,0000,0000,,Awak telah mewarisi semua cirinya.
+Dialogue: 0,0:16:17.71,0:16:21.33,Default,,0000,0000,0000,,Saya juga ingin menjadi doktor\Nyang merawat orang ramai.
+Dialogue: 0,0:16:21.33,0:16:22.69,Default,,0000,0000,0000,,Ya, betul.
+Dialogue: 0,0:16:22.69,0:16:24.39,Default,,0000,0000,0000,,Jinah, awak pun mewarisinya.
+Dialogue: 0,0:16:24.39,0:16:26.33,Default,,0000,0000,0000,,Bukan?
+Dialogue: 0,0:16:27.03,0:16:27.95,Default,,0000,0000,0000,,Helo
+Dialogue: 0,0:16:29.17,0:16:30.03,Default,,0000,0000,0000,,Hm.
+Dialogue: 0,0:16:30.55,0:16:32.41,Default,,0000,0000,0000,,Terima kasih atas usaha awak\Nuntuk sidang media.
+Dialogue: 0,0:16:32.97,0:16:33.63,Default,,0000,0000,0000,,Hm.
+Dialogue: 0,0:16:34.17,0:16:36.15,Default,,0000,0000,0000,,Terima kasih sebab sudi hadir juga.
+Dialogue: 0,0:16:36.15,0:16:36.95,Default,,0000,0000,0000,,Sama-sama.
+Dialogue: 0,0:16:37.87,0:16:41.10,Default,,0000,0000,0000,,Namun, saya tak sangka dia akan\Ndatang selepas sidang media.
+Dialogue: 0,0:16:41.99,0:16:43.35,Default,,0000,0000,0000,,Thomas Andre.
+Dialogue: 0,0:16:43.79,0:16:46.69,Default,,0000,0000,0000,,Pemburu berkuasa negara tahap S Amerika.
+Dialogue: 0,0:16:47.73,0:16:50.53,Default,,0000,0000,0000,,Saya nantikannya untuk datang membantu.
+Dialogue: 0,0:16:51.13,0:16:52.47,Default,,0000,0000,0000,,Dengan masa sekarang,
+Dialogue: 0,0:16:52.47,0:16:53.57,Default,,0000,0000,0000,,penantian awak adalah munasabah.
+Dialogue: 0,0:16:54.11,0:16:59.09,Default,,0000,0000,0000,,Namun, seseorang dengan kekuatan\Nsetara ketenteraan negara
+Dialogue: 0,0:16:59.09,0:17:01.97,Default,,0000,0000,0000,,biasanya takkan terlibat\Ndalam operasi negara asing.
+Dialogue: 0,0:17:02.35,0:17:03.27,Default,,0000,0000,0000,,Betul.
+Dialogue: 0,0:17:04.51,0:17:05.53,Default,,0000,0000,0000,,Namun, jika begitu,
+Dialogue: 0,0:17:05.53,0:17:06.75,Default,,0000,0000,0000,,kenapa dia...
+Dialogue: 0,0:17:07.09,0:17:08.65,Default,,0000,0000,0000,,Mungkin sama seperti yang dikatakannya,
+Dialogue: 0,0:17:08.89,0:17:11.71,Default,,0000,0000,0000,,dia cuma melalui secara kebetulan.
+Dialogue: 0,0:17:12.01,0:17:15.61,Default,,0000,0000,0000,,Mungkin dia datang untuk menakutkan kita\Nberikutan peristiwa Pemburu Hwang
+Dialogue: 0,0:17:16.03,0:17:19.65,Default,,0000,0000,0000,,atau untuk mengenal pasti sesuatu.
+Dialogue: 0,0:17:20.91,0:17:23.79,Default,,0000,0000,0000,,Oh ya, Pemburu Sung\Nmasih tak dapat dihubungi?
+Dialogue: 0,0:17:23.79,0:17:25.43,Default,,0000,0000,0000,,Tak, saya telah menghubunginya tadi.
+Dialogue: 0,0:17:25.85,0:17:27.37,Default,,0000,0000,0000,,Dia sepatutnya sudah hampir tiba.
+Dialogue: 0,0:17:29.51,0:17:31.19,Default,,0000,0000,0000,,Kita bertolak selepas empat hari.
+Dialogue: 0,0:17:32.05,0:17:34.69,Default,,0000,0000,0000,,Misi serangan ini ialah\Nharapan kami selama ini.
+Dialogue: 0,0:17:34.97,0:17:36.99,Default,,0000,0000,0000,,Bolehkah awak bantu kami?
+Dialogue: 0,0:17:38.87,0:17:41.25,Default,,0000,0000,0000,,Ini peluang baik untuk naik tahap.
+Dialogue: 0,0:17:41.49,0:17:42.87,Default,,0000,0000,0000,,Sungguh sayang jika terlepas.
+Dialogue: 0,0:17:43.79,0:17:45.71,Default,,0000,0000,0000,,Dulu saya pasti akan fikir begitu.
+Dialogue: 0,0:17:50.89,0:17:51.54,Default,,0000,0000,0000,,Saya...
+Dialogue: 0,0:17:53.81,0:17:55.17,Default,,0000,0000,0000,,Panjang gelombang kuasa sihir...
+Dialogue: 0,0:17:56.91,0:17:58.19,Default,,0000,0000,0000,,Benar-benar hebat.
+Dialogue: 0,0:17:58.19,0:18:00.13,Default,,0000,0000,0000,,Awak dapat rasakannya dari jarak ini.
+Dialogue: 0,0:18:00.89,0:18:05.23,Default,,0000,0000,0000,,Pemburu tahap S sedang\Nmemanaskan badan di pusat sukan.
+Dialogue: 0,0:18:06.09,0:18:07.73,Default,,0000,0000,0000,,Jika berminat,
+Dialogue: 0,0:18:07.73,0:18:09.41,Default,,0000,0000,0000,,awak boleh pergi lihat.
+Dialogue: 0,0:18:23.41,0:18:24.59,Default,,0000,0000,0000,,Tuan Baek.
+Dialogue: 0,0:18:24.89,0:18:29.03,Default,,0000,0000,0000,,Awak masih muda, apa kata\Nmelatih semula bahagian bawah tubuh awak?
+Dialogue: 0,0:18:29.03,0:18:31.93,Default,,0000,0000,0000,,Saya cuma pekerja pejabat sekarang.
+Dialogue: 0,0:18:32.25,0:18:33.09,Default,,0000,0000,0000,,Tuan Ma.
+Dialogue: 0,0:18:34.31,0:18:38.57,Default,,0000,0000,0000,,Jarang-jarang pemburu tahap S\Nberkumpul seperti ini.
+Dialogue: 0,0:18:39.27,0:18:41.27,Default,,0000,0000,0000,,Panjang gelombang kuasa sihir tadi
+Dialogue: 0,0:18:41.27,0:18:43.79,Default,,0000,0000,0000,,dilancarkan oleh mereka, betul?
+Dialogue: 0,0:18:44.65,0:18:46.49,Default,,0000,0000,0000,,Pemburu Baek telah ditahan.
+Dialogue: 0,0:18:46.85,0:18:49.59,Default,,0000,0000,0000,,Namun, jika Presiden Baek\Nguna kekuatan penuh,
+Dialogue: 0,0:18:49.59,0:18:51.43,Default,,0000,0000,0000,,Pemburu Ma sepatutnya tak dapat menahan.
+Dialogue: 0,0:18:52.15,0:18:53.07,Default,,0000,0000,0000,,Helo.
+Dialogue: 0,0:18:53.67,0:18:55.33,Default,,0000,0000,0000,,Orang yang berpakaian dobok itu
+Dialogue: 0,0:18:55.33,0:18:58.05,Default,,0000,0000,0000,,ialah Encik Ma Dongwook\Ndari Persatuan Reputasi.
+Dialogue: 0,0:18:58.89,0:19:00.83,Default,,0000,0000,0000,,Kenapa dia tak guna kekuatan penuh?
+Dialogue: 0,0:19:01.27,0:19:04.13,Default,,0000,0000,0000,,Rasanya pihak lawan tak perlu\Ndia berikan peluang.
+Dialogue: 0,0:19:04.63,0:19:07.77,Default,,0000,0000,0000,,Dia tak boleh menunjukkan\Nkekuatan sebenar di depan orang ramai.
+Dialogue: 0,0:19:08.33,0:19:10.43,Default,,0000,0000,0000,,Apabila dia bertarung\Ndengan kekuatan penuh,
+Dialogue: 0,0:19:10.69,0:19:12.71,Default,,0000,0000,0000,,dia akan menjadi raksasa sebenar.
+Dialogue: 0,0:19:13.09,0:19:15.59,Default,,0000,0000,0000,,Rupanya khabar angin bahawa dia pemburu\Njenis transformasi adalah benar.
+Dialogue: 0,0:19:15.91,0:19:19.93,Default,,0000,0000,0000,,Selain itu, beberapa orang di sana\Nialah ahli Persatuan Kesateria.
+Dialogue: 0,0:19:22.41,0:19:23.25,Default,,0000,0000,0000,,Amboi.
+Dialogue: 0,0:19:23.25,0:19:24.97,Default,,0000,0000,0000,,Mereka telah datang juga.
+Dialogue: 0,0:19:26.83,0:19:29.05,Default,,0000,0000,0000,,Pemburu tahap S Jepun
+Dialogue: 0,0:19:29.05,0:19:32.39,Default,,0000,0000,0000,,dan juga ketua persatuan, Goto Ryuji.
+Dialogue: 0,0:19:32.91,0:19:33.71,Default,,0000,0000,0000,,Hm?
+Dialogue: 0,0:19:34.07,0:19:35.11,Default,,0000,0000,0000,,Siapakah orang itu?
+Dialogue: 0,0:19:35.75,0:19:36.71,Default,,0000,0000,0000,,Ah.
+Dialogue: 0,0:19:36.71,0:19:40.33,Default,,0000,0000,0000,,Dia pemburu Sung Jinwoo\Nyang menjadi tahap S baru-baru ini.
+Dialogue: 0,0:19:40.67,0:19:42.53,Default,,0000,0000,0000,,Nampaknya dia pemburu\Njenis pembunuh yang amat hebat.
+Dialogue: 0,0:19:42.93,0:19:43.81,Default,,0000,0000,0000,,Tak.
+Dialogue: 0,0:19:43.81,0:19:45.69,Default,,0000,0000,0000,,Dia pemburu jenis penyihir.
+Dialogue: 0,0:19:47.85,0:19:48.87,Default,,0000,0000,0000,,Itu ialah jenis penyihir?
+Dialogue: 0,0:19:50.91,0:19:51.73,Default,,0000,0000,0000,,Oh.
+Dialogue: 0,0:19:51.73,0:19:56.33,Default,,0000,0000,0000,,Bukankah itu Pemburu Sung\Nyang memalukan Minsung?
+Dialogue: 0,0:19:57.45,0:19:59.75,Default,,0000,0000,0000,,Patutlah bau di sini telah berubah.
+Dialogue: 0,0:20:07.53,0:20:09.73,Default,,0000,0000,0000,,Tak sangka inilah\Nkuasa tempur tertinggi negara ini.
+Dialogue: 0,0:20:09.73,0:20:10.85,Default,,0000,0000,0000,,Saya agak kecewa.
+Dialogue: 0,0:20:11.45,0:20:14.61,Default,,0000,0000,0000,,Mungkin sebab saya selalu\Nmelihat pertarungan Encik Goto,
+Dialogue: 0,0:20:14.61,0:20:16.63,Default,,0000,0000,0000,,saya tak rasa mereka tahap S.
+Dialogue: 0,0:20:17.01,0:20:18.57,Default,,0000,0000,0000,,Saya rasa ini belum tentu lagi.
+Dialogue: 0,0:20:18.57,0:20:20.45,Default,,0000,0000,0000,,Saya tak boleh anggap tak dengar.
+Dialogue: 0,0:20:21.03,0:20:22.19,Default,,0000,0000,0000,,Cik Penterjemah.
+Dialogue: 0,0:20:22.19,0:20:24.07,Default,,0000,0000,0000,,Awak mengetawakan kami tadi, betul?
+Dialogue: 0,0:20:24.49,0:20:26.27,Default,,0000,0000,0000,,Saya dapat faham\Nbiarpun bahasanya berbeza.
+Dialogue: 0,0:20:26.57,0:20:28.49,Default,,0000,0000,0000,,Ketua persatuan memang hebat.
+Dialogue: 0,0:20:28.49,0:20:29.31,Default,,0000,0000,0000,,Awak ialah...
+Dialogue: 0,0:20:29.53,0:20:32.55,Default,,0000,0000,0000,,Inilah ketua Persatuan Kesateria,
+Dialogue: 0,0:20:32.55,0:20:34.13,Default,,0000,0000,0000,,Encik Park Jongsoo.
+Dialogue: 0,0:20:34.39,0:20:35.41,Default,,0000,0000,0000,,Park Jongsoo?
+Dialogue: 0,0:20:35.69,0:20:37.11,Default,,0000,0000,0000,,Saya tak pernah dengar.
+Dialogue: 0,0:20:37.71,0:20:41.03,Default,,0000,0000,0000,,Ketua persatuan bertahap A,\Nbukannya tahap S.
+Dialogue: 0,0:20:41.03,0:20:43.13,Default,,0000,0000,0000,,Jadi mungkin awak\Ntak pernah dengar tentang dia.
+Dialogue: 0,0:20:43.13,0:20:46.17,Default,,0000,0000,0000,,Namun, kami tetap salah satu daripada\Nlima persatuan utama di negara ini.
+Dialogue: 0,0:20:46.17,0:20:48.03,Default,,0000,0000,0000,,- Semasa misi serangan...\N- Apa yang kamu lakukan?
+Dialogue: 0,0:20:48.65,0:20:51.65,Default,,0000,0000,0000,,Lebih baik kamu jangan timbulkan masalah.
+Dialogue: 0,0:20:51.97,0:20:55.22,Default,,0000,0000,0000,,Tak, mereka yang kata kita lemah.
+Dialogue: 0,0:20:55.65,0:20:57.35,Default,,0000,0000,0000,,Baik, bawa bertenang.
+Dialogue: 0,0:20:57.53,0:20:58.45,Default,,0000,0000,0000,,Ini peluang baik.
+Dialogue: 0,0:20:59.01,0:21:01.63,Default,,0000,0000,0000,,Memandangkan semua orang ada di sini,\Nmari kita anjur perlawanan persahabatan.
+Dialogue: 0,0:21:01.63,0:21:03.15,Default,,0000,0000,0000,,Hanya pemburu tahap S\Nakan mengambil bahagian.
+Dialogue: 0,0:21:04.31,0:21:05.97,Default,,0000,0000,0000,,Awak mengejek saya?
+Dialogue: 0,0:21:06.47,0:21:09.21,Default,,0000,0000,0000,,Awak boleh menentukan\Nperaturan perlawanan.
+Dialogue: 0,0:21:09.97,0:21:11.17,Default,,0000,0000,0000,,Kedengaran baik.
+Dialogue: 0,0:21:12.21,0:21:18.33,Default,,0000,0000,0000,,Namun, penyihir dan pemburu bukan\Njenis tempur patut dikecualikan juga.
+Dialogue: 0,0:21:18.77,0:21:19.71,Default,,0000,0000,0000,,Tiada masalah.
+Dialogue: 0,0:21:20.17,0:21:23.19,Default,,0000,0000,0000,,Jika begitu, hanya pemburu jenis tempur\Nboleh mengambil bahagian.
+Dialogue: 0,0:21:23.51,0:21:26.23,Default,,0000,0000,0000,,Orang yang pergelangan tangan ditangkap,\Nbahagian belakang disentuh
+Dialogue: 0,0:21:26.49,0:21:29.17,Default,,0000,0000,0000,,dan jatuh di atas lantai\Nakan dianggap kalah.
+Dialogue: 0,0:21:29.17,0:21:32.37,Default,,0000,0000,0000,,Perlawanan ini bukan satu lawan satu,
+Dialogue: 0,0:21:32.37,0:21:34.25,Default,,0000,0000,0000,,tapi semua ahli akan maju bersama.
+Dialogue: 0,0:21:35.25,0:21:39.19,Default,,0000,0000,0000,,Keadaan pulau pasti huru-hara masa itu.
+Dialogue: 0,0:21:42.39,0:21:43.55,Default,,0000,0000,0000,,Baiklah.
+Dialogue: 0,0:21:43.55,0:21:44.67,Default,,0000,0000,0000,,Kita putuskan macam ini saja.
+Dialogue: 0,0:21:47.37,0:21:48.93,Default,,0000,0000,0000,,Peserta kami ialah
+Dialogue: 0,0:21:49.23,0:21:53.21,Default,,0000,0000,0000,,Pemburu Cha, Pemburu Lim,\NPemburu Ma dan Pemburu Baek.
+Dialogue: 0,0:21:53.71,0:21:58.17,Default,,0000,0000,0000,,Peserta kami ialah Pemburu Tawata, Pemburu Kumamoto,\NPemburu Hoshino dan Pemburu Tanaka.
+Dialogue: 0,0:22:00.23,0:22:01.05,Default,,0000,0000,0000,,Baik.
+Dialogue: 0,0:22:01.37,0:22:03.95,Default,,0000,0000,0000,,Mari kita mulakan\Nperlawanan persahabatan ini.
+Dialogue: 0,0:22:42.00,0:22:44.67,Default,,0000,0000,0000,,(Solo Leveling)
+Dialogue: 0,0:22:44.67,0:22:48.17,Default,,0000,0000,0000,,(Episod 21: Semuanya Berbaloi)
+Dialogue: 0,0:23:38.51,0:23:40.93,Default,,0000,0000,0000,,(Episod 22: Kita Perlukan Wira)

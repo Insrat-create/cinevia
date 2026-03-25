@@ -1,0 +1,257 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: DefaultItalics,adobe arabic,26.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0010,0010,0030,0
+Style: DefaultTop,adobe arabic,26.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0010,0010,0030,0
+Style: DefaultItalicsTop,adobe arabic,26.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0010,0010,0030,0
+Style: Flashback,adobe arabic,26.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0010,0010,0030,1
+Style: FlashbackItalics,adobe arabic,26.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0010,0010,0030,1
+Style: FlashbackTop,adobe arabic,26.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0020,0020,0030,0
+Style: FlashbackItalicsTop,adobe arabic,26.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0010,0010,0030,0
+Style: Narration,adobe arabic,26.0,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0010,0010,0030,1
+Style: Signs,Adobe Arabic,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0030,0030,0010,0
+Style: Centipede,Adobe Arabic,24.0,&H000506E1,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,25.0,1,0.0,0.0,8,0030,0030,0010,0
+Style: TypePlaceholder,Adobe Arabic,19.0,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0010,0010,0020,1
+Style: TypePlaceholderBox,Arial Bold,22.0,&H00200960,&H000000FF,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100.0,100.0,0.0,0.0,3,1,0.0,8,0010,0010,0020,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.33,0:00:16.57,Default,Tanaka Kenzo,0000,0000,0000,,‫شيء ما هنا! احترس!
+Dialogue: 0,0:00:16.57,0:00:17.68,Default,Fujishima Tatsumi,0000,0000,0000,,‫أعلم ذلك!
+Dialogue: 0,0:00:19.31,0:00:20.56,Default,Tanaka Kenzo,0000,0000,0000,,‫أيّها الـ—
+Dialogue: 0,0:00:22.06,0:00:23.24,Default,Fujishima Tatsumi,0000,0000,0000,,‫كينزو!
+Dialogue: 0,0:00:29.11,0:00:30.14,Default,Fujishima Tatsumi,0000,0000,0000,,‫أمسكت به!
+Dialogue: 0,0:02:20.88,0:02:23.84,DefaultItalics,Ma Dongwook,0000,0000,0000,,‫كل واحدة منها بقوة صياد من الدرجة س.
+Dialogue: 0,0:02:24.52,0:02:25.48,DefaultItalics,Ma Dongwook,0000,0000,0000,,‫لكن...
+Dialogue: 0,0:02:27.52,0:02:29.63,DefaultItalics,Ma Dongwook,0000,0000,0000,,‫ما والت مجرد وحوش!
+Dialogue: 0,0:02:29.63,0:02:34.55,DefaultItalics,Ma Dongwook,0000,0000,0000,,‫لا يوجد لديها أي براعة في حركاتها. مقابل \N‫التكتيكات المتنوعة التي نستخدمها كصيادين...
+Dialogue: 0,0:02:35.18,0:02:36.55,DefaultItalics,Ma Dongwook,0000,0000,0000,,‫لا يمكنها الفوز!
+Dialogue: 0,0:02:58.34,0:03:00.74,Default,Cha Hae-in,0000,0000,0000,,‫النمل هنا شديد الصلابة.
+Dialogue: 0,0:03:00.74,0:03:04.38,Default,Ma Dongwook,0000,0000,0000,,‫أجل. من الجيد أنه \N‫لم يكن هناك الكثير منها.
+Dialogue: 0,0:03:04.38,0:03:06.71,Default,Min Byung-gu,0000,0000,0000,,‫حتى لو ظهر المزيد، سنكون بخير.
+Dialogue: 0,0:03:06.71,0:03:10.54,Default,Min Byung-gu,0000,0000,0000,,‫سأساندكم من الخلف. اطمئنوا رجاءً!
+Dialogue: 0,0:03:10.86,0:03:14.26,Default,Baek Yoonho,0000,0000,0000,,‫من الصعب تصديق أنك نفس الشخص \N‫الذي كان خائفًا جدًا من الذهاب للمعركة.
+Dialogue: 0,0:03:14.82,0:03:18.13,Default,Min Byung-gu,0000,0000,0000,,‫وأنت آخر من يتكلم يا يونهو-سان.
+Dialogue: 0,0:03:18.87,0:03:20.90,Default,Min Byung-gu,0000,0000,0000,,‫هل هذه هي المرة الأولى لك؟
+Dialogue: 0,0:03:20.90,0:03:25.39,Default,Min Byung-gu,0000,0000,0000,,‫وإلا لكنت تذكرت أن هذه المخلوقات \N‫يمكنها التحرك لفترة حتى بدون رؤوسها.
+Dialogue: 0,0:03:25.85,0:03:28.98,Default,Min Byung-gu,0000,0000,0000,,‫ينبغي عليك حقًا أن تقطع أطرافها أيضًا.
+Dialogue: 0,0:03:28.98,0:03:30.86,Default,Baek Yoonho,0000,0000,0000,,‫نـ-نعم...
+Dialogue: 0,0:03:32.01,0:03:34.75,Default,Ma Dongwook,0000,0000,0000,,‫كلما توغلنا أكثر، زادت قوتها،
+Dialogue: 0,0:03:34.75,0:03:37.40,Default,Ma Dongwook,0000,0000,0000,,‫لكننا لم نرَ أيًا من ذوي القدمين حتى الآن.
+Dialogue: 0,0:03:37.40,0:03:39.31,Default,Baek Yoonho,0000,0000,0000,,‫صحيح. لو كان عليّ التخمين،
+Dialogue: 0,0:03:39.31,0:03:42.45,Default,Baek Yoonho,0000,0000,0000,,‫فإها من جيل سابق من حرس الملكة ولم تبق لها فائدة.
+Dialogue: 0,0:03:42.73,0:03:47.23,Default,Lim Tae-gyu,0000,0000,0000,,‫هذه مجرد عرض تمهيدي إذًا؟ هل نحن\N‫متأكدون أننا في الطريق الصحيح؟
+Dialogue: 0,0:03:47.23,0:03:49.27,Default,Choi Jong-in,0000,0000,0000,,‫نعم. على ما أظن.
+Dialogue: 0,0:03:49.27,0:03:50.42,Default,Baek Yoonho,0000,0000,0000,,‫حقًا؟
+Dialogue: 0,0:03:50.42,0:03:55.88,Default,Cha Hae-in,0000,0000,0000,,‫لا داعي للقلق. يمكنني أن أشتم رائحة \N‫وحش قوي في الداخل.
+Dialogue: 0,0:03:56.27,0:04:01.46,Default,Choi Jong-in,0000,0000,0000,,‫على تلك المسافة، ألن يتمكن \N‫الرئيس بيك من رؤيتها؟
+Dialogue: 0,0:04:02.19,0:04:03.10,Default,Baek Yoonho,0000,0000,0000,,‫يا إلهي.
+Dialogue: 0,0:04:18.73,0:04:19.82,Default,Baek Yoonho,0000,0000,0000,,‫هناك!
+Dialogue: 0,0:04:24.09,0:04:26.61,Default,Baek Yoonho,0000,0000,0000,,‫الملكة في الأمام، في أعمق غرفة.
+Dialogue: 0,0:04:26.61,0:04:28.90,Default,Baek Yoonho,0000,0000,0000,,‫ولديها حماية وفيرة أيضًا.
+Dialogue: 0,0:04:29.65,0:04:33.84,Default,Baek Yoonho,0000,0000,0000,,‫أعتقد أنه كان هناك حد لعدد النمل \N‫الذي يمكن لقوات التمويه جذبه بعيدًا.
+Dialogue: 0,0:04:34.26,0:04:38.29,Default,Baek Yoonho,0000,0000,0000,,‫ومن بينها حراسها الشخصيون، كلّ منها بقوة الدرجة س.
+Dialogue: 0,0:04:38.29,0:04:40.23,Default,Baek Yoonho,0000,0000,0000,,‫لم أستطع تحديد مدى قوة \N‫الملكة نفسها.
+Dialogue: 0,0:04:40.23,0:04:42.24,Default,Baek Yoonho,0000,0000,0000,,‫ستكون هذه معركة صعبة.
+Dialogue: 0,0:04:42.24,0:04:45.31,Default,Baek Yoonho,0000,0000,0000,,‫لكن مع هذا الفريق، أعلم أننا سننتصر!
+Dialogue: 0,0:04:46.87,0:04:47.89,Default,Baek Yoonho,0000,0000,0000,,‫لنذهب!
+Dialogue: 0,0:04:48.43,0:04:49.43,Default,Other Hunters,0000,0000,0000,,‫حسنًا!
+Dialogue: 0,0:04:55.51,0:04:56.93,Default,Izawa Ippei,0000,0000,0000,,‫هل هذا هو المكان الصحيح؟
+Dialogue: 0,0:04:56.93,0:05:00.22,Default,Izawa Ippei,0000,0000,0000,,‫أتينا للتحقق بعد فقدان \N‫الاتصال بفريق تشارلي، لكن...
+Dialogue: 0,0:05:00.22,0:05:02.36,Default,KEI,0000,0000,0000,,‫إلى أين ذهبوا بالضبط؟
+Dialogue: 0,0:05:03.60,0:05:06.45,DefaultItalics,Izawa Ippei,0000,0000,0000,,‫لم يكن لديهم أي مشكلة \N‫في قتل النمل.
+Dialogue: 0,0:05:09.27,0:05:11.06,DefaultItalics,Izawa Ippei,0000,0000,0000,,‫نظارات فوجيشيما...
+Dialogue: 0,0:05:12.04,0:05:13.79,Default,Izawa Ippei,0000,0000,0000,,‫لـ-لا يمكن!
+Dialogue: 0,0:05:17.87,0:05:18.89,Default,Izawa Ippei,0000,0000,0000,,‫ما الخطب؟!
+Dialogue: 0,0:05:19.71,0:05:22.93,DefaultItalics,KEI,0000,0000,0000,,‫ما هذه الرائحة الكريهة؟!
+Dialogue: 0,0:05:24.29,0:05:27.29,DefaultItalics,KEI,0000,0000,0000,,‫لم أشتم شيئًا كهذا من قبل!
+Dialogue: 0,0:05:43.87,0:05:45.78,Default,Kumamoto Atsushi,0000,0000,0000,,‫هل تمكنت من الاتصال بتشارلي؟
+Dialogue: 0,0:05:45.78,0:05:47.62,Default,Tawata Kanae,0000,0000,0000,,‫ليس بعد.
+Dialogue: 0,0:05:47.62,0:05:49.24,Default,Kumamoto Atsushi,0000,0000,0000,,‫هل حدث لهم شيء ما؟
+Dialogue: 0,0:05:49.24,0:05:51.22,Default,Tawata Kanae,0000,0000,0000,,‫لا وقت للقلق بشأن ذلك الآن!
+Dialogue: 0,0:05:54.04,0:05:56.12,Default,Tawata Kanae,0000,0000,0000,,‫حاول القتال بشكل صحيح هذه المرة!
+Dialogue: 0,0:05:56.12,0:05:58.25,Default,Kumamoto Atsushi,0000,0000,0000,,‫ما باليد حيلة.
+Dialogue: 0,0:06:04.72,0:06:08.18,Default,Choi Jong-in,0000,0000,0000,,‫عجبًا، عجبًا. يا له من استقبال!
+Dialogue: 0,0:06:10.04,0:06:14.17,Default,Min Byung-gu,0000,0000,0000,,‫من الأفضل أن نرد بالمثل إذًا.
+Dialogue: 0,0:06:22.11,0:06:24.01,Default,Ma Dongwook,0000,0000,0000,,‫التزموا بالخطة!
+Dialogue: 0,0:06:24.01,0:06:27.67,Default,Ma Dongwook,0000,0000,0000,,‫استعدّ لإشعال المكان أيها السلاح المطلق!
+Dialogue: 0,0:06:27.67,0:06:29.58,Default,Choi Jong-in,0000,0000,0000,,‫أعلم ذلك.
+Dialogue: 0,0:06:29.96,0:06:32.28,Default,Ma Dongwook,0000,0000,0000,,‫يجب أن تتجاوزيني أوّلًا!
+Dialogue: 0,0:06:40.88,0:06:44.09,Default,Choi Jong-in,0000,0000,0000,,‫أنا لا أستخدم هذا النوع من القوة عادةً.
+Dialogue: 0,0:06:44.91,0:06:48.05,Default,Choi Jong-in,0000,0000,0000,,‫لكن اليوم، لا أعتقد \N‫أن بإمكاني التهاون!
+Dialogue: 0,0:06:57.94,0:07:01.64,DefaultItalics,Baek Yoonho,0000,0000,0000,,‫إنه محق. لا يوجد سبب للتهاون.
+Dialogue: 0,0:07:01.64,0:07:04.36,DefaultItalics,Baek Yoonho,0000,0000,0000,,‫بغض النظر عن مدى بشاعة الأمر...
+Dialogue: 0,0:07:04.98,0:07:09.23,DefaultItalics,Baek Yoonho,0000,0000,0000,,‫سأسحق كل واحدة من هذه الحشرات!
+Dialogue: 0,0:07:20.80,0:07:22.09,DefaultItalics,Cha Hae-in,0000,0000,0000,,‫ها هو.
+Dialogue: 0,0:07:23.26,0:07:25.34,DefaultItalics,Cha Hae-in,0000,0000,0000,,‫تحول الرئيس بيك إلى وحش سحري.
+Dialogue: 0,0:07:28.01,0:07:29.54,DefaultItalics,Cameraman,0000,0000,0000,,‫بدأ الأمر...
+Dialogue: 0,0:07:30.33,0:07:34.72,DefaultItalics,TV Producer,0000,0000,0000,,‫لدينا أكثر من 80% من المشاهدين! \N‫تقدم أكثر حتى تحصل على لقطة أفضل!
+Dialogue: 0,0:07:34.72,0:07:37.08,DefaultItalics,Cameraman,0000,0000,0000,,‫أكثر من 80%؟!
+Dialogue: 0,0:07:37.55,0:07:39.34,DefaultItalics,Cameraman,0000,0000,0000,,‫لا أريد أن أخيب آمالهم...
+Dialogue: 0,0:07:41.16,0:07:43.77,Default,Min Byung-gu,0000,0000,0000,,‫نحن في غرفة الزعيم في ديماس من الدرجة س.
+Dialogue: 0,0:07:43.77,0:07:45.22,Default,Min Byung-gu,0000,0000,0000,,‫هل تحاول الموت؟
+Dialogue: 0,0:07:45.22,0:07:47.52,Default,Cameraman,0000,0000,0000,,‫لا! أنا متأكد من أن...
+Dialogue: 0,0:07:47.52,0:07:49.24,Default,Min Byung-gu,0000,0000,0000,,‫ابق خلفي فحسب.
+Dialogue: 0,0:07:49.71,0:07:51.70,Default,Min Byung-gu,0000,0000,0000,,‫سيزداد الأمر حدّة.
+Dialogue: 0,0:07:53.81,0:07:55.16,DefaultItalics,Announcer,0000,0000,0000,,‫انظروا إلى ذلك!
+Dialogue: 0,0:07:55.16,0:07:58.92,DefaultItalics,Announcer,0000,0000,0000,,‫وصل صيادو الدرجة س إلى ملكة النمل أخيرًا.
+Dialogue: 0,0:07:58.92,0:08:03.42,DefaultItalics,Announcer,0000,0000,0000,,‫ويقاتلون الآن من أجل تحقيق هدفهم!
+Dialogue: 0,0:08:03.81,0:08:06.97,DefaultItalics,Announcer,0000,0000,0000,,‫لدينا صيادون من الدرجة س لا يعملون معًا عادةً،
+Dialogue: 0,0:08:06.97,0:08:10.43,DefaultItalics,Announcer,0000,0000,0000,,‫يقاتلون بتناغم باستخدام تكتيكات جماعية مذهلة!
+Dialogue: 0,0:09:14.79,0:09:18.29,DefaultItalics,Announcer,0000,0000,0000,,‫هجوم الصيادة تشا الحاد يخترق نملة!
+Dialogue: 0,0:09:19.86,0:09:21.27,DefaultItalics,Announcer,0000,0000,0000,,‫لقد هُزمت!
+Dialogue: 0,0:09:22.00,0:09:24.27,DefaultItalics,Announcer,0000,0000,0000,,‫سقط آخر حراس الملكة الملكيين!
+Dialogue: 0,0:09:34.56,0:09:37.13,Default,Ma Dongwook,0000,0000,0000,,‫الآن! لننهِ الأمر!
+Dialogue: 0,0:09:39.97,0:09:42.02,Default,Lim Tae-gyu,0000,0000,0000,,‫خذي هذه!
+Dialogue: 0,0:09:49.53,0:09:53.38,Default,Baek Yoonho,0000,0000,0000,,‫الملكة مجرد كيس ملاكمة كبير دون حراسها!
+Dialogue: 0,0:10:10.18,0:10:14.18,Default,Min Byung-gu,0000,0000,0000,,‫طالما أنا هنا، يمكنني دائمًا إعادة \N‫البقية للوقوف على أقدامهم!
+Dialogue: 0,0:10:20.13,0:10:23.02,Default,Ma Dongwook,0000,0000,0000,,‫لن تقتربي من معالجنا!
+Dialogue: 0,0:10:23.44,0:10:25.48,Default,Choi Jong-in,0000,0000,0000,,‫أبقوها مشغولة!
+Dialogue: 0,0:10:43.50,0:10:46.21,Default,Ma Dongwook,0000,0000,0000,,‫لا تزال تملك كل هذه القوة؟!
+Dialogue: 0,0:10:49.42,0:10:52.30,DefaultItalics,Baek Yoonho,0000,0000,0000,,‫هل كانت تلك صرخة موتها؟ \N‫لا... إنه شيء آخر!
+Dialogue: 0,0:10:53.76,0:10:55.13,DefaultTop,Choi Jong-in,0000,0000,0000,,‫لن تهربي!
+Dialogue: 0,0:10:53.76,0:10:55.13,Default,Lim Tae-gyu,0000,0000,0000,,‫قفي مكانك!
+Dialogue: 0,0:11:02.35,0:11:03.43,Default,Baek Yoonho,0000,0000,0000,,‫أيتها الصيادة تشا!
+Dialogue: 0,0:11:02.35,0:11:03.43,DefaultTop,Ma Dongwook,0000,0000,0000,,‫آنسة تشا!
+Dialogue: 0,0:11:03.43,0:11:04.53,Default,Cha Hae-in,0000,0000,0000,,‫أنا قادمة!
+Dialogue: 0,0:11:06.83,0:11:08.03,Default,Min Byung-gu,0000,0000,0000,,‫آخر دفعة!
+Dialogue: 0,0:12:01.30,0:12:02.37,Default,Announcer,0000,0000,0000,,‫لقد نجحوا!
+Dialogue: 0,0:12:05.79,0:12:06.97,Default,Woo Jinchul,0000,0000,0000,,‫أيها الرئيس!
+Dialogue: 0,0:12:10.01,0:12:12.71,Default,Go Gunhee,0000,0000,0000,,‫تمت المهمة، أليس كذلك؟
+Dialogue: 0,0:12:13.61,0:12:15.85,Default,Cha Hae-in,0000,0000,0000,,‫انتهى... الأمر الآن، صحيح؟
+Dialogue: 0,0:12:16.27,0:12:17.58,Default,Lim Tae-gyu,0000,0000,0000,,‫يبدو ذلك.
+Dialogue: 0,0:12:17.58,0:12:21.63,Default,Lim Tae-gyu,0000,0000,0000,,‫بموت الملكة، ستموت بقية النمل خلال عام.
+Dialogue: 0,0:12:21.63,0:12:24.71,Default,Ma Dongwook,0000,0000,0000,,‫ثم سيتمكن الناس من \N‫العودة إلى الجزيرة.
+Dialogue: 0,0:12:24.71,0:12:27.43,Default,Baek Yoonho,0000,0000,0000,,‫لكن تلك الصرخة في النهاية...
+Dialogue: 0,0:12:27.43,0:12:31.90,Default,Min Byung-gu,0000,0000,0000,,‫ما الذي تقوله؟! لقد تمكنا من هزيمة ملكة النمل!
+Dialogue: 0,0:12:32.42,0:12:35.21,Default,Min Byung-gu,0000,0000,0000,,‫لقد انتقمنا لأونسوك-سان!
+Dialogue: 0,0:12:43.98,0:12:45.26,Default,Baek Yoonho,0000,0000,0000,,‫معك حق.
+Dialogue: 0,0:12:49.62,0:12:51.00,Default,Sugimoto Reiji,0000,0000,0000,,‫أخبار سيئة!
+Dialogue: 0,0:12:51.00,0:12:53.22,Default,Sugimoto Reiji,0000,0000,0000,,‫النمل يعود إلى العش!
+Dialogue: 0,0:12:53.22,0:12:54.25,DefaultItalics,Goto Ryuji,0000,0000,0000,,‫ماذا؟
+Dialogue: 0,0:12:54.25,0:12:56.00,DefaultItalics,Sugimoto Reiji,0000,0000,0000,,‫فقد التشويش على الإشارة فعاليته!
+Dialogue: 0,0:12:57.24,0:13:01.16,Default,Goto Ryuji,0000,0000,0000,,‫ما الذي يجري؟ أعطني تقريرًا سريعًا.
+Dialogue: 0,0:13:09.11,0:13:12.53,Default,Choi Jong-in,0000,0000,0000,,‫قفصي الناري... تحطّم؟
+Dialogue: 0,0:13:13.85,0:13:17.55,Default,Lim Tae-gyu,0000,0000,0000,,‫ما الذي يحدث هنا؟! \N‫يفترض أنه لا يزال لدينا وقت!
+Dialogue: 0,0:13:17.55,0:13:20.48,Default,Min Byung-gu,0000,0000,0000,,‫عندما صرخت الملكة قبل قليل...
+Dialogue: 0,0:13:20.48,0:13:21.82,Default,Ma Dongwook,0000,0000,0000,,‫كانت تطلب المساعدة!
+Dialogue: 0,0:13:21.82,0:13:26.30,Default,Cha Hae-in,0000,0000,0000,,‫ومع ذلك، لا ينبغي أن يكون النمل في الخارج قادرًا \N‫على كسر تقنية سيد النقابة
+Dialogue: 0,0:13:26.30,0:13:27.28,Default,Min Byung-gu,0000,0000,0000,,‫إذًا ما الذي...
+Dialogue: 0,0:13:27.28,0:13:28.29,Default,Baek Yoonho,0000,0000,0000,,‫شيء ما قادم!
+Dialogue: 0,0:13:50.23,0:13:52.27,Default,Baek Yoonho,0000,0000,0000,,‫نملة... سوداء؟
+Dialogue: 0,0:14:00.39,0:14:04.70,DefaultItalics,Cha Hae-in,0000,0000,0000,,‫بين وجوده المرعب وهذه الرائحة...
+Dialogue: 0,0:14:04.70,0:14:05.91,DefaultItalics,Cha Hae-in,0000,0000,0000,,‫ما هذا الشيء؟!
+Dialogue: 0,0:14:06.29,0:14:09.37,DefaultItalics,Cha Hae-in,0000,0000,0000,,‫هذا... ليس وحشًا عاديًّا!
+Dialogue: 0,0:14:09.37,0:14:12.60,DefaultItalics,Ma Dongwook,0000,0000,0000,,‫لا وقت للتردد. علينا القضاء عليه—
+Dialogue: 0,0:14:18.74,0:14:20.75,DefaultItalics,Ma Dongwook,0000,0000,0000,,‫تجاهلنا؟
+Dialogue: 0,0:14:58.63,0:14:59.53,Default,Ma Dongwook,0000,0000,0000,,‫آنسة تشا!
+Dialogue: 0,0:15:02.72,0:15:03.76,Default,Ma Dongwook,0000,0000,0000,,‫لا تعبث معنا!
+Dialogue: 0,0:15:30.47,0:15:31.93,DefaultItalics,Lim Tae-gyu,0000,0000,0000,,‫خذ هذا!
+Dialogue: 0,0:15:34.58,0:15:35.85,DefaultItalics,Lim Tae-gyu,0000,0000,0000,,‫أوقفه؟!
+Dialogue: 0,0:15:45.20,0:15:48.62,Default,Ma Dongwook,0000,0000,0000,,‫هل تفاجأت؟ لدينا معالج رائع يدعمنا!
+Dialogue: 0,0:15:49.36,0:15:52.54,DefaultItalics,Min Byung-gu,0000,0000,0000,,‫هذه هي المهارة التي أستخدمها للحفاظ \N‫على سلامتي: التمويه.
+Dialogue: 0,0:15:52.54,0:15:55.77,DefaultItalics,Min Byung-gu,0000,0000,0000,,‫يمكنها إخفاء وجودي \N‫كما تفعل مهارة التسلل.
+Dialogue: 0,0:15:55.77,0:15:58.09,DefaultItalics,Min Byung-gu,0000,0000,0000,,‫يعبها أنّها لا تسمح لي بالتحرك أثناء استعمالها،
+Dialogue: 0,0:15:58.09,0:16:00.44,DefaultItalics,Min Byung-gu,0000,0000,0000,,‫لكنها ليست مشكلة بالنسبة لمعالج.
+Dialogue: 0,0:16:00.44,0:16:03.45,DefaultItalics,Min Byung-gu,0000,0000,0000,,‫لن ينهزم فريقي ما دمت هنا!
+Dialogue: 0,0:16:17.16,0:16:20.69,DefaultItalics,Min Byung-gu,0000,0000,0000,,‫لا... لا يعقل أنّ حتّى التمويه لا...
+Dialogue: 0,0:16:22.75,0:16:23.75,Default,Baek Yoonho,0000,0000,0000,,‫بيونغ-غو!
+Dialogue: 0,0:16:34.15,0:16:35.97,Default,Baek Yoonho,0000,0000,0000,,‫بيونغ-غو!
+Dialogue: 0,0:16:37.13,0:16:40.16,Default,Min Byung-gu,0000,0000,0000,,‫يونهو-سان... اهرب...
+Dialogue: 0,0:17:05.36,0:17:08.13,Default,Ant King,0000,0000,0000,,‫يونـ...هو-سان...
+Dialogue: 0,0:17:09.75,0:17:12.09,Default,Ant King,0000,0000,0000,,‫اهرب...
+Dialogue: 0,0:17:14.64,0:17:18.42,Default,Ant King,0000,0000,0000,,‫بونـ...هو-سان...
+Dialogue: 0,0:17:19.87,0:17:21.59,Default,Min Byung-gu/Ant King,0000,0000,0000,,‫اهرب.
+Dialogue: 0,0:17:22.36,0:17:24.20,Default,Baek Yoonho,0000,0000,0000,,‫أيها اللعين...
+Dialogue: 0,0:17:25.47,0:17:28.98,Default,Ant King,0000,0000,0000,,‫أنتم جميعًا... ضعفاء.
+Dialogue: 0,0:17:29.62,0:17:35.42,Default,Ant King,0000,0000,0000,,‫لقد... قتلتم... ملكتنا.
+Dialogue: 0,0:17:35.42,0:17:40.31,Default,Ant King,0000,0000,0000,,‫قتل جنودكم... لن يعوض عن ذلك.
+Dialogue: 0,0:17:40.82,0:17:45.64,Default,Ant King,0000,0000,0000,,‫أين... ملككم؟
+Dialogue: 0,0:17:46.14,0:17:47.34,Default,Baek Yoonho,0000,0000,0000,,‫ملك...؟
+Dialogue: 0,0:17:50.80,0:17:53.30,Default,Ant King,0000,0000,0000,,‫في الخارج...
+Dialogue: 0,0:17:53.30,0:17:55.14,Default,Ant King,0000,0000,0000,,‫هناك واحد... أقوى.
+Dialogue: 0,0:18:03.16,0:18:06.19,Default,Baek Yoonho,0000,0000,0000,,‫في الخارج؟ هل يقصد غوتو؟
+Dialogue: 0,0:18:06.19,0:18:11.50,Default,Baek Yoonho,0000,0000,0000,,‫لا، سأفكر في ذلك لاحقًا. \N‫علينا الخروج من هنا الآن!
+Dialogue: 0,0:18:13.81,0:18:16.68,Default,Baek Yoonho,0000,0000,0000,,‫اللعنة! عادت البقية أيضًا!
+Dialogue: 0,0:18:19.34,0:18:20.58,Default,Ishida Mari,0000,0000,0000,,‫هذا غريب.
+Dialogue: 0,0:18:21.07,0:18:25.40,Default,Ishida Mari,0000,0000,0000,,‫الأمر لا يتعلق بتشارلي فقط. \N‫الآن دلتا لا تستجيب أيضًا.
+Dialogue: 0,0:18:25.40,0:18:27.54,Default,Goto Ryuji,0000,0000,0000,,‫قد تكون إشارة ضعيفة.
+Dialogue: 0,0:18:27.54,0:18:30.55,Default,Goto Ryuji,0000,0000,0000,,‫لكن ينبغي أنّهم لا يزالون ضمن النطاق.
+Dialogue: 0,0:18:31.02,0:18:32.76,Default,Goto Ryuji,0000,0000,0000,,‫برافو، أجيبوا.
+Dialogue: 0,0:18:33.14,0:18:34.61,Default,Tawata Kanae,0000,0000,0000,,‫هنا برافو.
+Dialogue: 0,0:18:34.61,0:18:37.04,DefaultItalics,Goto Ryuji,0000,0000,0000,,‫هل يمكنكم الاتصال بتشارلي ودلتا؟
+Dialogue: 0,0:18:37.47,0:18:40.93,Default,Tawata Kanae,0000,0000,0000,,‫لا. لم نتمكن من \N‫التواصل معهم من جهتنا أيضًا.
+Dialogue: 0,0:18:40.93,0:18:42.93,DefaultItalics,Tawata Kanae,0000,0000,0000,,‫هل نتحقق من الأمر؟
+Dialogue: 0,0:18:43.31,0:18:45.32,Default,Goto Ryuji,0000,0000,0000,,‫نحن في طريقنا إلى هناك الآن.
+Dialogue: 0,0:18:45.97,0:18:49.11,Default,Goto Ryuji,0000,0000,0000,,‫عندما تنتهون هناك، سنلتقي عند نقطة الالتقاء.
+Dialogue: 0,0:18:49.11,0:18:50.42,DefaultItalics,Tawata Kanae,0000,0000,0000,,‫مفهوم.
+Dialogue: 0,0:18:55.41,0:18:56.74,Default,Ishida Mari,0000,0000,0000,,‫كيف...؟
+Dialogue: 0,0:18:59.04,0:19:00.20,DefaultItalics,Matsumoto Shigeo,0000,0000,0000,,‫هذا أنا.
+Dialogue: 0,0:19:00.73,0:19:03.54,Default,Matsumoto Shigeo,0000,0000,0000,,‫لماذا لم تتصلوا وفق الجدول الزمني؟
+Dialogue: 0,0:19:03.94,0:19:05.71,DefaultItalics,Goto Ryuji,0000,0000,0000,,‫لقد تكبدنا خسائر.
+Dialogue: 0,0:19:05.71,0:19:09.36,Default,Matsumoto Shigeo,0000,0000,0000,,‫حقًّا؟ هذا ليس جيدًا.
+Dialogue: 0,0:19:09.36,0:19:10.95,Default,Matsumoto Shigeo,0000,0000,0000,,‫ظننت أنّكم أُمرتم
+Dialogue: 0,0:19:10.95,0:19:13.92,Default,Matsumoto Shigeo,0000,0000,0000,,‫بالقضاء فقط على الأنواع المتطورة \N‫لتقليل المخاطر؟
+Dialogue: 0,0:19:13.92,0:19:16.18,DefaultItalics,Goto Ryuji,0000,0000,0000,,‫لم تكن قوية بما يكفي حسب.
+Dialogue: 0,0:19:16.57,0:19:18.70,Default,Matsumoto Shigeo,0000,0000,0000,,‫هذا هو نوع الردود الذي أتوقعه منك.
+Dialogue: 0,0:19:18.70,0:19:23.14,Default,Matsumoto Shigeo,0000,0000,0000,,‫حسنًا، ما دمت هناك، فالقليل من الخسائر مقبولة.
+Dialogue: 0,0:19:23.70,0:19:26.88,DefaultItalics,Matsumoto Shigeo,0000,0000,0000,,‫بالمناسبة، هل يتولى حلفاؤنا \N‫التعامل مع الملكة؟
+Dialogue: 0,0:19:26.88,0:19:31.69,Default,Goto Ryuji,0000,0000,0000,,‫نعم، ولكن تعطيل الإشارة فقد \N‫فعاليته قبل لحظات،
+Dialogue: 0,0:19:31.69,0:19:34.86,Default,Goto Ryuji,0000,0000,0000,,‫وتأكّدت من عودة النمل إلى عش الملكة.
+Dialogue: 0,0:19:36.44,0:19:39.82,DefaultItalics,Matsumoto Shigeo,0000,0000,0000,,‫وما هو تقديرك لاحتمالية نجاتهم؟
+Dialogue: 0,0:19:39.82,0:19:44.29,Default,Goto Ryuji,0000,0000,0000,,‫بالنظر إلى حجم القوة \N‫التي يواجهونها... صفر بالمئة.
+Dialogue: 0,0:19:44.85,0:19:46.30,Default,Matsumoto Shigeo,0000,0000,0000,,‫جيد.
+Dialogue: 0,0:19:46.69,0:19:49.38,Default,Matsumoto Shigeo,0000,0000,0000,,‫رغم قتالهم بأقصى قوتهم، \N‫اضطر صيادونا اليابانيون
+Dialogue: 0,0:19:49.38,0:19:53.91,Default,Matsumoto Shigeo,0000,0000,0000,,‫إلى التراجع مؤقتًا بعد إبادة حلفائنا.
+Dialogue: 0,0:19:53.91,0:19:58.06,Default,Matsumoto Shigeo,0000,0000,0000,,‫تكريمًا لتضحياتهم، \N‫ستقوم فرقة الهجوم الثانية المنتظرة في البحر
+Dialogue: 0,0:19:58.06,0:20:00.01,Default,Matsumoto Shigeo,0000,0000,0000,,‫بإكمال عملية تطهير جزيرة جيجو.
+Dialogue: 0,0:20:00.01,0:20:02.77,Default,Matsumoto Shigeo,0000,0000,0000,,‫تم القضاء على القوة العسكرية \N‫لدولة منافسة،
+Dialogue: 0,0:20:02.77,0:20:06.07,Default,Matsumoto Shigeo,0000,0000,0000,,‫وتحصل بلادنا على مجد هزيمة بوابة من الدرجة س.
+Dialogue: 0,0:20:06.48,0:20:08.00,DefaultItalics,Matsumoto Shigeo,0000,0000,0000,,‫التوقيت مثالي.
+Dialogue: 0,0:20:08.00,0:20:12.41,DefaultItalics,Matsumoto Shigeo,0000,0000,0000,,‫إلى جميع الصيادين، انسحبوا \N‫واجتمعوا مع قوات الهجوم الثانية في الأسطول.
+Dialogue: 0,0:20:13.68,0:20:14.69,Default,Goto Ryuji,0000,0000,0000,,‫حسنًا.
+Dialogue: 0,0:20:15.76,0:20:17.74,Default,Goto Ryuji,0000,0000,0000,,‫وصلت الأوامر من الرئيس ماتسوموتو.
+Dialogue: 0,0:20:17.74,0:20:18.95,Default,Goto Ryuji,0000,0000,0000,,‫سننسحب.
+Dialogue: 0,0:20:19.43,0:20:21.49,Default,Goto Ryuji,0000,0000,0000,,‫سنضطر لجمع الجثث في—
+Dialogue: 0,0:20:26.16,0:20:27.35,Default,Hoshino Minoru,0000,0000,0000,,‫إيشيدا!
+Dialogue: 0,0:20:27.35,0:20:28.35,Default,Goto Ryuji,0000,0000,0000,,‫اذهب.
+Dialogue: 0,0:20:28.91,0:20:33.38,Default,Goto Ryuji,0000,0000,0000,,‫توجه إلى البحر مع برافو \N‫واستعد للمرحلة التالية.
+Dialogue: 0,0:20:33.38,0:20:34.50,Default,Hoshino Minoru,0000,0000,0000,,‫لكن...
+Dialogue: 0,0:20:34.50,0:20:36.91,Default,Goto Ryuji,0000,0000,0000,,‫ستعيقني فحسب إن بقيت هنا.
+Dialogue: 0,0:20:38.26,0:20:39.05,Default,Goto Ryuji,0000,0000,0000,,‫اذهب.
+Dialogue: 0,0:20:39.05,0:20:40.15,Default,Hoshino Minoru,0000,0000,0000,,‫عُلم!
+Dialogue: 0,0:20:43.35,0:20:45.76,DefaultItalics,Goto Ryuji,0000,0000,0000,,‫يا لها من هالة قوية.
+Dialogue: 0,0:20:46.58,0:20:49.02,Default,Ant King,0000,0000,0000,,‫هل أنت... ملكهم؟
+Dialogue: 0,0:20:50.01,0:20:53.00,DefaultItalics,Goto Ryuji,0000,0000,0000,,‫نملة تتحدث. مثير للاهتمام.
+Dialogue: 0,0:20:54.93,0:20:58.94,Default,Goto Ryuji,0000,0000,0000,,‫الملك... نعم، أنا الملك.
+Dialogue: 0,0:21:04.02,0:21:05.61,DefaultItalics,Goto Ryuji,0000,0000,0000,,‫ما هذه القوة السحرية؟!
+Dialogue: 0,0:21:06.21,0:21:10.11,DefaultItalics,Goto Ryuji,0000,0000,0000,,‫أشعر أنني... واجهت \N‫شيئًا كهذا من قبل.
+Dialogue: 0,0:21:11.42,0:21:12.62,DefaultItalics,Goto Ryuji,0000,0000,0000,,‫أعتقد أنه كان...
+Dialogue: 0,0:21:22.26,0:21:25.11,Default,Baek Yoonho,0000,0000,0000,,‫تشوي جونغ-إن! ارفع الحرارة!
+Dialogue: 0,0:21:25.11,0:21:28.68,Default,Choi Jong-in,0000,0000,0000,,‫لا تكن سخيفًا! \N‫هذا أقصى حد ممكن!
+Dialogue: 0,0:21:29.01,0:21:31.39,DefaultItalics,Baek Yoonho,0000,0000,0000,,‫كلنا مصابون بشدة.
+Dialogue: 0,0:21:31.39,0:21:34.56,DefaultItalics,Baek Yoonho,0000,0000,0000,,‫مصابون لدرجة أننا لا نستطيع \N‫القتال بشكل صحيح.
+Dialogue: 0,0:21:34.87,0:21:37.52,DefaultItalics,Baek Yoonho,0000,0000,0000,,‫وأملنا الأخير، تشوي، بدأ يـ...
+Dialogue: 0,0:21:43.67,0:21:45.12,Default,Baek Yoonho,0000,0000,0000,,‫انتهى أمرنا.
+Dialogue: 0,0:21:53.70,0:21:54.76,DefaultItalics,Baek Yoonho,0000,0000,0000,,‫من هؤلاء...
+Dialogue: 0,0:21:55.44,0:21:57.21,DefaultItalics,Baek Yoonho,0000,0000,0000,,‫الجنود السود؟!
+Dialogue: 0,0:22:03.64,0:22:04.86,Default,Sung Jinwoo,0000,0000,0000,,‫تبادل.

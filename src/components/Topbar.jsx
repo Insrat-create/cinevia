@@ -12,7 +12,7 @@ export default function Topbar({
 }) {
   const location = useLocation()
   const [searchParams, setSearchParams] = useSearchParams()
-  const { openAuthModal, profile, user } = useAccount()
+  const { isAnimeAccessAllowed, isLoading, openAuthModal, profile, user } = useAccount()
   const query = searchParams.get('q') ?? ''
   const searchBoxRef = useRef(null)
   const searchTone = useHeroSearchTone({
@@ -43,8 +43,8 @@ export default function Topbar({
     setSearchParams(nextParams, { replace: true })
   }
 
-  const displayName = profile.displayName || user?.email?.split('@')[0] || 'Guest'
-  const initial = displayName.slice(0, 1).toUpperCase()
+  const displayName = isLoading ? '' : profile.displayName || user?.email?.split('@')[0] || 'Guest'
+  const initial = displayName ? displayName.slice(0, 1).toUpperCase() : ''
 
   return (
     <>
@@ -59,6 +59,11 @@ export default function Topbar({
           <Link to="/tv-shows" className={linkClass('/tv-shows')}>
             TV Shows
           </Link>
+          {!isLoading && isAnimeAccessAllowed && (
+            <Link to="/anime" className={linkClass('/anime')}>
+              Anime
+            </Link>
+          )}
           <Link to="/favorites" className={linkClass('/favorites')}>
             My List
           </Link>
@@ -80,9 +85,16 @@ export default function Topbar({
               />
             </label>
           )}
-          <button className="profile-pill profile-trigger" type="button" onClick={() => openAuthModal()}>
-            <div className="profile-avatar">{initial}</div>
-            <span>{displayName}</span>
+          <button
+            className={`profile-pill profile-trigger ${isLoading ? 'is-loading' : ''}`}
+            type="button"
+            onClick={() => openAuthModal()}
+            aria-busy={isLoading}
+          >
+            <div className={`profile-avatar ${isLoading ? 'is-loading' : ''}`}>{initial}</div>
+            <span className={isLoading ? 'profile-pill-placeholder' : ''}>
+              {isLoading ? '' : displayName}
+            </span>
           </button>
         </div>
       </header>

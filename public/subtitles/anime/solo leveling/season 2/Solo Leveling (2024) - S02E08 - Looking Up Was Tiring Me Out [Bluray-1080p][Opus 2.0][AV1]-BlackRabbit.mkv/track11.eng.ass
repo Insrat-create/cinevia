@@ -1,0 +1,280 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: DefaultItalics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,0
+Style: DefaultTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,0
+Style: DefaultItalicsTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,0
+Style: Flashback,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: FlashbackItalics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: FlashbackTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0018,0
+Style: FlashbackItalicsTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,0
+Style: Narration,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: Signs,Arial,20.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0030,0030,0010,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.63,0:00:11.06,Default,Esil,0000,0000,0000,,I surrender!
+Dialogue: 0,0:00:12.10,0:00:15.09,Default,Esil,0000,0000,0000,,I surrender to you! So please spare my life!
+Dialogue: 0,0:00:16.30,0:00:19.03,Default,Sung Jinwoo,0000,0000,0000,,That voice... Are you...?
+Dialogue: 0,0:00:27.51,0:00:30.78,Default,Esil,0000,0000,0000,,I-I'm so sorry! You win!
+Dialogue: 0,0:00:30.78,0:00:32.83,Default,Esil,0000,0000,0000,,So please, don't kill me!
+Dialogue: 0,0:02:05.16,0:02:08.01,Default,Sung Jinwoo,0000,0000,0000,,You attack us and then beg for your life?
+Dialogue: 0,0:02:08.43,0:02:10.94,Default,Sung Jinwoo,0000,0000,0000,,And after the rest of your people \Nare already dead.
+Dialogue: 0,0:02:11.29,0:02:14.32,Default,Esil,0000,0000,0000,,A knight's duty is to protect their lord,
+Dialogue: 0,0:02:14.32,0:02:17.76,Default,Esil,0000,0000,0000,,so as long as I live,\NI'm sure they'd be happy.
+Dialogue: 0,0:02:19.10,0:02:20.82,DefaultItalics,Sung Jinwoo,0000,0000,0000,,They'd be happy?
+Dialogue: 0,0:02:21.31,0:02:22.25,Default,Sung Jinwoo,0000,0000,0000,,Whatever.
+Dialogue: 0,0:02:28.75,0:02:29.96,DefaultItalics,Esil,0000,0000,0000,,Here's my chance!
+Dialogue: 0,0:02:36.11,0:02:37.39,Default,Sung Jinwoo,0000,0000,0000,,What do you think you're doing?
+Dialogue: 0,0:02:37.79,0:02:42.67,Default,Esil,0000,0000,0000,,Spare my life, and you can \Nhave anything you want! Please!
+Dialogue: 0,0:02:42.67,0:02:43.94,DefaultItalics,Sung Jinwoo,0000,0000,0000,,This demon...
+Dialogue: 0,0:02:45.11,0:02:49.02,Default,Sung Jinwoo,0000,0000,0000,,In that case, do you know where \Nthe entry permit for the next floor is?
+Dialogue: 0,0:02:49.02,0:02:53.10,Default,Esil,0000,0000,0000,,M-My family is actually holding onto it.
+Dialogue: 0,0:02:53.10,0:02:56.30,Default,Esil,0000,0000,0000,,Since you didn't kill me, I offer it gladly!
+Dialogue: 0,0:02:56.30,0:02:59.96,Default,Esil,0000,0000,0000,,I also know where all the rest \Nfor the upper floors are,
+Dialogue: 0,0:02:59.96,0:03:04.45,Default,Esil,0000,0000,0000,,so if you can guarantee my family's \Nand my safety, I'll show you the way!
+Dialogue: 0,0:03:04.88,0:03:07.17,Default,Sung Jinwoo,0000,0000,0000,,So your family's been hiding it, huh?
+Dialogue: 0,0:03:07.56,0:03:10.67,Default,Sung Jinwoo,0000,0000,0000,,No wonder I couldn't seem to find it, \Nno matter how many I killed.
+Dialogue: 0,0:03:10.92,0:03:12.59,Default,Sung Jinwoo,0000,0000,0000,,That leaves one last question.
+Dialogue: 0,0:03:14.55,0:03:18.26,Default,Sung Jinwoo,0000,0000,0000,,Can I really trust you?
+Dialogue: 0,0:03:19.20,0:03:20.97,Default,Esil,0000,0000,0000,,O-Of course.
+Dialogue: 0,0:03:21.50,0:03:25.18,Default,Esil,0000,0000,0000,,I-I'd never lie to you.
+Dialogue: 0,0:03:27.69,0:03:31.67,Default,Sung Jinwoo,0000,0000,0000,,Fine, then. If you hand over \Nthe permit, I won't hurt you.
+Dialogue: 0,0:03:32.98,0:03:35.49,Default,Esil,0000,0000,0000,,Th-Thank you so much.
+Dialogue: 0,0:03:36.55,0:03:37.82,Default,Sung Jinwoo,0000,0000,0000,,I'm curious.
+Dialogue: 0,0:03:38.49,0:03:40.25,Default,Sung Jinwoo,0000,0000,0000,,What exactly are you?
+Dialogue: 0,0:03:57.42,0:04:00.43,Default,Esil,0000,0000,0000,,I am the eldest daughter \Nof the Radiru family, Esil.
+Dialogue: 0,0:04:00.43,0:04:03.64,Default,Sung Jinwoo,0000,0000,0000,,Not exactly what I meant.
+Dialogue: 0,0:04:05.33,0:04:08.74,DefaultItalics,Sung Jinwoo,0000,0000,0000,,I was hoping to get more \Ninformation about the system
+Dialogue: 0,0:04:08.74,0:04:10.51,DefaultItalics,Sung Jinwoo,0000,0000,0000,,like what I learned from Barca, but...
+Dialogue: 0,0:04:11.86,0:04:16.63,Default,Sung Jinwoo,0000,0000,0000,,Do you demons hear a voice in your head \Nthat never stops telling you to kill humans?
+Dialogue: 0,0:04:19.41,0:04:22.79,Default,Esil,0000,0000,0000,,No, but I do hear a different order.
+Dialogue: 0,0:04:22.79,0:04:23.70,Default,Sung Jinwoo,0000,0000,0000,,What is it?
+Dialogue: 0,0:04:24.66,0:04:26.66,Default,Esil,0000,0000,0000,,"Protect the place you're in."
+Dialogue: 0,0:04:27.68,0:04:28.62,Default,Sung Jinwoo,0000,0000,0000,,When did it start?
+Dialogue: 0,0:04:28.62,0:04:30.83,Default,Esil,0000,0000,0000,,When we first got here.
+Dialogue: 0,0:04:30.83,0:04:32.46,DefaultItalics,Sung Jinwoo,0000,0000,0000,,When they first {\i0}got{\i1} here...?
+Dialogue: 0,0:04:33.18,0:04:34.62,Default,Sung Jinwoo,0000,0000,0000,,Where were you before that?
+Dialogue: 0,0:04:34.62,0:04:39.31,Default,Esil,0000,0000,0000,,The demon realm. But then one day, \Nwe found ourselves here.
+Dialogue: 0,0:04:40.03,0:04:43.01,Default,Sung Jinwoo,0000,0000,0000,,And what were you doing in the demon realm?
+Dialogue: 0,0:04:45.95,0:04:46.93,Default,Esil,0000,0000,0000,,War.
+Dialogue: 0,0:04:48.03,0:04:50.39,Default,Esil,0000,0000,0000,,We were preparing for war.
+Dialogue: 0,0:04:50.68,0:04:52.10,DefaultItalics,Sung Jinwoo,0000,0000,0000,,War?
+Dialogue: 0,0:04:52.10,0:04:53.20,Default,Sung Jinwoo,0000,0000,0000,,With whom?
+Dialogue: 0,0:04:54.28,0:04:58.65,Default,Esil,0000,0000,0000,,An enemy so strong that we had to \Nunite all of demonkind to face it.
+Dialogue: 0,0:04:59.11,0:05:02.47,Default,Esil,0000,0000,0000,,It looked like war with them \Nwas on the horizon when—
+Dialogue: 0,0:05:04.45,0:05:08.36,Default,Esil,0000,0000,0000,,The permitted amount of information has been \Nexceeded, so this conversation is terminated.
+Dialogue: 0,0:05:08.36,0:05:12.38,Default,Esil,0000,0000,0000,,The permitted amount of information has been \Nexceeded, so this conversation is terminated.
+Dialogue: 0,0:05:12.38,0:05:13.17,Default,Esil,0000,0000,0000,,The permitted...
+Dialogue: 0,0:05:18.28,0:05:20.42,DefaultItalics,Sung Jinwoo,0000,0000,0000,,I guess I'm not getting anything else.
+Dialogue: 0,0:05:23.13,0:05:26.67,Default,Woo Jinchul,0000,0000,0000,,This is the damage assessment and combat log
+Dialogue: 0,0:05:26.67,0:05:30.93,Default,Woo Jinchul,0000,0000,0000,,of the winged ant appearance on the \Nnearby island within Japan's borders.
+Dialogue: 0,0:05:31.63,0:05:37.68,Default,Woo Jinchul,0000,0000,0000,,There were 294 civilian casualties,\Nand 108 hunters deployed to contain the threat.
+Dialogue: 0,0:05:37.68,0:05:42.65,Default,Woo Jinchul,0000,0000,0000,,Of the latter, four E-Ranks, one C-Rank, \Nand one B-Rank have been KIA.
+Dialogue: 0,0:05:43.86,0:05:46.62,Default,Go Gunhee,0000,0000,0000,,All this from a single ant...
+Dialogue: 0,0:05:47.05,0:05:52.54,Default,Woo Jinchul,0000,0000,0000,,An A-Rank hunter who arrived later landed \Na critical blow, completing the extermination.
+Dialogue: 0,0:05:52.54,0:05:56.29,Default,Go Gunhee,0000,0000,0000,,Then one of these winged ants \Nis on par with an A-Rank.
+Dialogue: 0,0:05:56.80,0:06:01.55,Default,Woo Jinchul,0000,0000,0000,,That matches the conclusions drawn \Nfrom the Surveillance Team's necropsy.
+Dialogue: 0,0:06:04.40,0:06:08.55,Default,Go Gunhee,0000,0000,0000,,The attack was 120 kilometers from Jeju Island.
+Dialogue: 0,0:06:09.23,0:06:15.06,Default,Go Gunhee,0000,0000,0000,,If the ants gain any further mastery \Nover flight, they could reach the mainland.
+Dialogue: 0,0:06:15.99,0:06:18.55,Default,Go Gunhee,0000,0000,0000,,Contact Japan to request \Na joint operation ASAP.
+Dialogue: 0,0:06:19.07,0:06:22.87,Default,Go Gunhee,0000,0000,0000,,Let other neighboring countries know \Nto raise the threat level, as well.
+Dialogue: 0,0:06:22.87,0:06:23.87,Default,Woo Jinchul,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:06:23.87,0:06:27.53,Default,Go Gunhee,0000,0000,0000,,The time has finally come. \NWe've not a moment to spare.
+Dialogue: 0,0:06:27.53,0:06:31.94,Default,Go Gunhee,0000,0000,0000,,I was hoping to handle this before \Nany more lives were lost, but...
+Dialogue: 0,0:06:32.84,0:06:36.98,Default,Go Gunhee,0000,0000,0000,,On my authority as chairman of the \NHunter's Association, I hereby initiate...
+Dialogue: 0,0:06:36.98,0:06:40.42,Default,Go Gunhee,0000,0000,0000,,the fourth raid operation on Jeju Island!
+Dialogue: 0,0:06:42.31,0:06:44.01,Default,Esil,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:06:44.01,0:06:47.43,Default,Esil,0000,0000,0000,,I don't know why I suddenly \Npassed out like that.
+Dialogue: 0,0:06:47.43,0:06:49.62,Default,Sung Jinwoo,0000,0000,0000,,No, it's fine.
+Dialogue: 0,0:06:50.10,0:06:51.89,Default,Sung Jinwoo,0000,0000,0000,,Do you feel all right now?
+Dialogue: 0,0:06:51.89,0:06:54.11,Default,Esil,0000,0000,0000,,Yes, I'm okay.
+Dialogue: 0,0:06:54.11,0:06:56.61,Default,Esil,0000,0000,0000,,I appreciate your concern...
+Dialogue: 0,0:06:56.61,0:06:58.31,Default,Sung Jinwoo,0000,0000,0000,,Just thought I'd ask.
+Dialogue: 0,0:06:59.56,0:07:02.53,Default,Sung Jinwoo,0000,0000,0000,,More importantly, \Nare we close to our destination?
+Dialogue: 0,0:07:03.15,0:07:06.40,Default,Esil,0000,0000,0000,,Oh, right! The Radiru family castle.
+Dialogue: 0,0:07:06.40,0:07:08.44,Default,Esil,0000,0000,0000,,That's where the permit can be found.
+Dialogue: 0,0:07:09.70,0:07:12.29,Default,Borgon,0000,0000,0000,,What in the blazes have you brought home?!
+Dialogue: 0,0:07:12.29,0:07:13.67,Default,Borgon,0000,0000,0000,,Esil!
+Dialogue: 0,0:07:14.25,0:07:16.41,Default,Borgon,0000,0000,0000,,C-Can't you see them?!
+Dialogue: 0,0:07:16.41,0:07:19.92,Default,Borgon,0000,0000,0000,,The hordes of soldiers \Ndwelling within his shadow!
+Dialogue: 0,0:07:20.29,0:07:22.88,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Huh. I'm impressed he noticed.
+Dialogue: 0,0:07:22.88,0:07:26.35,Default,Borgon,0000,0000,0000,,If you've deceived my daughter \Nin some attempt to seize our castle,
+Dialogue: 0,0:07:26.35,0:07:27.97,Default,Borgon,0000,0000,0000,,I won't let you leave alive!
+Dialogue: 0,0:07:27.97,0:07:30.80,Default,Esil,0000,0000,0000,,F-Father! Please wait!
+Dialogue: 0,0:07:30.80,0:07:33.24,Default,Sung Jinwoo,0000,0000,0000,,She and I have a deal.
+Dialogue: 0,0:07:33.24,0:07:36.52,Default,Sung Jinwoo,0000,0000,0000,,I won't hurt anybody as long as \NI get the permit I need to proceed.
+Dialogue: 0,0:07:38.81,0:07:42.19,DefaultItalics,Borgon,0000,0000,0000,,I had heard that Vulcan and Metus \Nhad been slain...
+Dialogue: 0,0:07:42.19,0:07:46.45,DefaultItalics,Borgon,0000,0000,0000,,I suppose it stands to reason we'd stand \Nno chance against someone capable of that.
+Dialogue: 0,0:07:57.26,0:07:59.07,Default,Sung Jinwoo,0000,0000,0000,,This is it, all right.
+Dialogue: 0,0:07:59.67,0:08:02.76,Default,Borgon,0000,0000,0000,,I believe your business here is complete.
+Dialogue: 0,0:08:02.76,0:08:04.50,Default,Borgon,0000,0000,0000,,Now, begone at once!
+Dialogue: 0,0:08:04.50,0:08:05.96,Default,Sung Jinwoo,0000,0000,0000,,One other thing.
+Dialogue: 0,0:08:07.11,0:08:08.42,Default,Sung Jinwoo,0000,0000,0000,,I need to borrow the girl.
+Dialogue: 0,0:08:10.43,0:08:12.51,Default,Borgon,0000,0000,0000,,Y-You—
+Dialogue: 0,0:08:12.51,0:08:15.43,Default,Sung Jinwoo,0000,0000,0000,,No, hang on. I just want her \Nto show me the way.
+Dialogue: 0,0:08:15.43,0:08:18.80,Default,Sung Jinwoo,0000,0000,0000,,She said she knows where the permits \NI need to move from floor to floor are.
+Dialogue: 0,0:08:20.06,0:08:22.06,Default,Borgon,0000,0000,0000,,And you'll guarantee her safety?
+Dialogue: 0,0:08:22.06,0:08:23.08,Default,Sung Jinwoo,0000,0000,0000,,I will.
+Dialogue: 0,0:08:26.02,0:08:28.69,Default,Borgon,0000,0000,0000,,Very well. I understand.
+Dialogue: 0,0:08:28.69,0:08:31.80,Default,Sung Jinwoo,0000,0000,0000,,That being the case, \NI'm counting on you, Esil.
+Dialogue: 0,0:08:31.80,0:08:32.95,Default,Esil,0000,0000,0000,,Right!
+Dialogue: 0,0:08:45.34,0:08:46.50,Default,Hanekawa,0000,0000,0000,,Guildmaster.
+Dialogue: 0,0:08:57.09,0:09:00.23,Default,Sung Jinwoo,0000,0000,0000,,And that wraps up the 89th floor.
+Dialogue: 0,0:09:02.10,0:09:05.11,Default,Sung Jinwoo,0000,0000,0000,,Igris and Tank have both ranked up \Nfrom the levels they gained.
+Dialogue: 0,0:09:06.73,0:09:09.54,Default,Sung Jinwoo,0000,0000,0000,,They're comparable to an \NS-Rank and A-Rank now.
+Dialogue: 0,0:09:09.54,0:09:11.64,Default,Sung Jinwoo,0000,0000,0000,,That rounds out my forces nicely.
+Dialogue: 0,0:09:14.91,0:09:20.05,Default,Esil,0000,0000,0000,,So much for the gifts I brought \Nfrom home for trade...
+Dialogue: 0,0:09:20.05,0:09:21.91,Default,Sung Jinwoo,0000,0000,0000,,You can always just take them back home.
+Dialogue: 0,0:09:21.91,0:09:23.80,Default,Esil,0000,0000,0000,,I'm afraid not.
+Dialogue: 0,0:09:23.80,0:09:27.09,Default,Esil,0000,0000,0000,,The 90th floor and above are under \Nthe stewardship of elite nobles.
+Dialogue: 0,0:09:27.58,0:09:30.55,Default,Esil,0000,0000,0000,,They're incomparably stronger \Nthan anything up to this point.
+Dialogue: 0,0:09:31.01,0:09:34.36,Default,Esil,0000,0000,0000,,Which is why it'd be wiser to secure \Nthe permits through negotiation—
+Dialogue: 0,0:09:34.36,0:09:38.76,Default,Sung Jinwoo,0000,0000,0000,,If I were weaker than you guys, would you \Nhave agreed to make a deal with me?
+Dialogue: 0,0:09:40.00,0:09:41.73,Default,Sung Jinwoo,0000,0000,0000,,That's just how it goes.
+Dialogue: 0,0:09:42.15,0:09:45.81,Default,Sung Jinwoo,0000,0000,0000,,You demon nobles are always jockeying \Nfor positions in the hierarchy, right?
+Dialogue: 0,0:09:45.81,0:09:49.57,Default,Sung Jinwoo,0000,0000,0000,,I'm about to put the Radisu family \Non the top of the ladder.
+Dialogue: 0,0:09:49.94,0:09:51.92,Default,Esil,0000,0000,0000,,It's Radiru, actually...
+Dialogue: 0,0:09:51.92,0:09:57.53,Default,Esil,0000,0000,0000,,Um, Sir Jinwoo, why did you \Nchoose to spare my family?
+Dialogue: 0,0:09:57.98,0:09:59.74,Default,Sung Jinwoo,0000,0000,0000,,Because I like you.
+Dialogue: 0,0:09:59.74,0:10:01.95,Default,Esil,0000,0000,0000,,E-Excuse me?!
+Dialogue: 0,0:10:02.33,0:10:03.95,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Between her and Jinho...
+Dialogue: 0,0:10:04.38,0:10:08.67,DefaultItalics,Sung Jinwoo,0000,0000,0000,,I think I might work well with people \Nwho have a screw loose.
+Dialogue: 0,0:10:09.22,0:10:11.05,Default,Sung Jinwoo,0000,0000,0000,,You can head back now.
+Dialogue: 0,0:10:13.58,0:10:16.34,Default,Sung Jinwoo,0000,0000,0000,,The enemies up ahead \Nare gonna be stronger, right?
+Dialogue: 0,0:10:16.62,0:10:18.54,Default,Sung Jinwoo,0000,0000,0000,,I made a promise with your father.
+Dialogue: 0,0:10:18.54,0:10:22.68,Default,Sung Jinwoo,0000,0000,0000,,Just tell me where to find the permits, \Nand I'll take it from there.
+Dialogue: 0,0:10:23.12,0:10:26.40,Default,Esil,0000,0000,0000,,Am I really so... useless?
+Dialogue: 0,0:10:26.40,0:10:29.76,Default,Sung Jinwoo,0000,0000,0000,,It's not that. \NI just thought it'd be dangerous.
+Dialogue: 0,0:10:29.76,0:10:32.10,Default,Sung Jinwoo,0000,0000,0000,,You've done great. I appreciate it.
+Dialogue: 0,0:10:33.15,0:10:35.57,Default,Esil,0000,0000,0000,,I'm going to accompany you to the end.
+Dialogue: 0,0:10:35.57,0:10:39.43,Default,Esil,0000,0000,0000,,I want to see with my own eyes \Nwhat you'll accomplish, Sir Jinwoo!
+Dialogue: 0,0:10:41.04,0:10:42.50,Default,Sung Jinwoo,0000,0000,0000,,Okay.
+Dialogue: 0,0:10:42.50,0:10:43.78,Default,Sung Jinwoo,0000,0000,0000,,Let's get going, then.
+Dialogue: 0,0:10:45.16,0:10:46.21,Default,Esil,0000,0000,0000,,Right.
+Dialogue: 0,0:10:49.84,0:10:54.05,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Esil was right. The difficulty level hit \Na genuine spike with the 90th floor.
+Dialogue: 0,0:10:54.75,0:10:57.58,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Each encampment of magic beasts, \Nin both strength and numbers,
+Dialogue: 0,0:10:57.58,0:10:59.93,DefaultItalics,Sung Jinwoo,0000,0000,0000,,is quite literally on a different level.
+Dialogue: 0,0:11:00.43,0:11:04.56,DefaultItalics,Sung Jinwoo,0000,0000,0000,,But I'm continuing apace, \Nclearing the floors one step at a time.
+Dialogue: 0,0:11:06.11,0:11:11.42,DefaultItalics,Sung Jinwoo,0000,0000,0000,,I need to collect the ingredients \Nfor the Elixir of Life, no matter what.
+Dialogue: 0,0:11:15.28,0:11:20.16,Default,Choi Jong-in,0000,0000,0000,,You and I have been summoned for the \Nfourth Jeju Island raid, Hunter Cha.
+Dialogue: 0,0:11:20.16,0:11:21.16,Default,Cha Hae-in,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:11:21.16,0:11:24.95,Default,Choi Jong-in,0000,0000,0000,,President Baek from the White Tiger Guild \Nhas also been called upon,
+Dialogue: 0,0:11:24.95,0:11:28.82,Default,Choi Jong-in,0000,0000,0000,,along with every other S-Rank \Nhunter in the country.
+Dialogue: 0,0:11:29.27,0:11:31.67,DefaultItalics,Cha Hae-in,0000,0000,0000,,Then Hunter Sung, too...
+Dialogue: 0,0:11:31.67,0:11:33.35,Default,Choi Jong-in,0000,0000,0000,,In addition,
+Dialogue: 0,0:11:33.35,0:11:37.63,Default,Choi Jong-in,0000,0000,0000,,this will officially be a joint operation \Nbetween us and our close neighbor.
+Dialogue: 0,0:11:38.10,0:11:39.59,Default,Cha Hae-in,0000,0000,0000,,You mean Japan?
+Dialogue: 0,0:11:39.59,0:11:40.84,Default,Choi Jong-in,0000,0000,0000,,Exactly.
+Dialogue: 0,0:11:40.84,0:11:45.85,Default,Choi Jong-in,0000,0000,0000,,Considering the winged ants' ability \Nto fly, they're at risk, as well.
+Dialogue: 0,0:11:45.85,0:11:47.66,Default,Choi Jong-in,0000,0000,0000,,It's the right call to make.
+Dialogue: 0,0:11:49.07,0:11:53.57,DefaultItalics,Choi Jong-in,0000,0000,0000,,I honestly don't care, \Nas long as we can kill them all.
+Dialogue: 0,0:11:54.43,0:11:56.03,Default,Cha Hae-in,0000,0000,0000,,Is there a date set?
+Dialogue: 0,0:11:56.29,0:11:57.73,Default,Choi Jong-in,0000,0000,0000,,Still under consideration.
+Dialogue: 0,0:11:57.73,0:12:00.41,Default,Choi Jong-in,0000,0000,0000,,But I doubt we'll be waiting long.
+Dialogue: 0,0:12:00.83,0:12:04.41,Default,Choi Jong-in,0000,0000,0000,,And in order to decide upon a plan of action,
+Dialogue: 0,0:12:04.41,0:12:08.73,Default,Choi Jong-in,0000,0000,0000,,hunters from their largest guild \Nwill be joining us today.
+Dialogue: 0,0:12:13.06,0:12:14.71,Default,Sung Jinwoo,0000,0000,0000,,So this is the top floor.
+Dialogue: 0,0:12:15.09,0:12:17.42,Default,Esil,0000,0000,0000,,No one seems to be around, though...
+Dialogue: 0,0:12:32.30,0:12:35.07,Default,Sung Jinwoo,0000,0000,0000,,So this is the Demon Monarch...
+Dialogue: 0,0:12:36.03,0:12:37.16,Default,Sung Jinwoo,0000,0000,0000,,Baran.
+Dialogue: 0,0:12:45.08,0:12:47.03,DefaultItalics,Sung Jinwoo,0000,0000,0000,,What incredible aura.
+Dialogue: 0,0:12:47.03,0:12:49.08,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Can I really beat him?
+Dialogue: 0,0:12:49.66,0:12:52.06,DefaultItalics,Esil,0000,0000,0000,,His sheer bloodlust is wearing me down...
+Dialogue: 0,0:12:52.79,0:12:55.02,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Even Esil is feeling it.
+Dialogue: 0,0:12:55.83,0:12:58.92,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Well, I'm in for real trouble \Nif he gets airborne.
+Dialogue: 0,0:12:59.92,0:13:02.80,DefaultItalics,Sung Jinwoo,0000,0000,0000,,A wyvern? I guess he commands \Nmore than just demons.
+Dialogue: 0,0:13:27.99,0:13:29.57,Default,Sung Jinwoo,0000,0000,0000,,There's no shortage of them.
+Dialogue: 0,0:13:30.12,0:13:32.16,Default,Esil,0000,0000,0000,,Wh-What do we do?!
+Dialogue: 0,0:13:34.38,0:13:35.33,Default,Esil,0000,0000,0000,,Sir Jinwoo!
+Dialogue: 0,0:13:35.62,0:13:36.79,Default,Sung Jinwoo,0000,0000,0000,,I know!
+Dialogue: 0,0:13:39.80,0:13:41.06,Default,Sung Jinwoo,0000,0000,0000,,Get out here!
+Dialogue: 0,0:14:01.19,0:14:05.45,Default,Esil,0000,0000,0000,,Incredible! I had no idea \Nhe could fight like that.
+Dialogue: 0,0:14:06.35,0:14:09.18,DefaultItalics,Esil,0000,0000,0000,,But... that's the Demon Monarch, Baran.
+Dialogue: 0,0:14:09.18,0:14:10.45,DefaultItalics,Esil,0000,0000,0000,,He is the ruler here,
+Dialogue: 0,0:14:10.83,0:14:14.92,DefaultItalics,Esil,0000,0000,0000,,and Sir Jinwoo is a simple invader—\Na target for elimination.
+Dialogue: 0,0:14:15.71,0:14:19.42,DefaultItalics,Esil,0000,0000,0000,,Who... should I side with?
+Dialogue: 0,0:14:49.14,0:14:51.01,DefaultItalics,Sung Jinwoo,0000,0000,0000,,That's no ordinary lightning.
+Dialogue: 0,0:14:51.01,0:14:53.33,DefaultItalics,Sung Jinwoo,0000,0000,0000,,It has a wide area of effect and inflicts stun.
+Dialogue: 0,0:14:54.24,0:14:56.37,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Even if my soldiers can be brought back,
+Dialogue: 0,0:14:56.37,0:14:59.47,DefaultItalics,Sung Jinwoo,0000,0000,0000,,taking much more of this \Nwill deplete my mana fast.
+Dialogue: 0,0:14:59.94,0:15:01.55,DefaultItalics,Sung Jinwoo,0000,0000,0000,,So before that happens...
+Dialogue: 0,0:15:11.32,0:15:12.89,DefaultItalics,Sung Jinwoo,0000,0000,0000,,I'll clip those wings!
+Dialogue: 0,0:15:14.43,0:15:16.56,DefaultItalics,Sung Jinwoo,0000,0000,0000,,He saw through my Stealth?!
+Dialogue: 0,0:15:25.53,0:15:27.22,DefaultItalics,Sung Jinwoo,0000,0000,0000,,A homing attack?!
+Dialogue: 0,0:15:27.22,0:15:29.08,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Not good! It's gaining on me!
+Dialogue: 0,0:15:29.08,0:15:30.91,Default,Sung Jinwoo,0000,0000,0000,,Tusk! Igris!
+Dialogue: 0,0:15:57.47,0:15:59.33,Default,Sung Jinwoo,0000,0000,0000,,You're finally grounded.
+Dialogue: 0,0:16:00.10,0:16:04.07,Default,Sung Jinwoo,0000,0000,0000,,That's a relief.\NLooking up was tiring me out.
+Dialogue: 0,0:16:12.27,0:16:16.95,Default,Hanekawa,0000,0000,0000,,It's nice to meet you. My name is Hanekawa, \Nand I'm with the Drawn Sword Guild.
+Dialogue: 0,0:16:16.95,0:16:19.55,Default,Hanekawa,0000,0000,0000,,This is Goto Ryuji, our guild master.
+Dialogue: 0,0:16:20.18,0:16:23.50,Default,Hanekawa,0000,0000,0000,,I'll be acting as his interpreter.
+Dialogue: 0,0:16:23.79,0:16:25.76,DefaultItalics,Go Gunhee,0000,0000,0000,,The Drawn Sword Guild...
+Dialogue: 0,0:16:25.76,0:16:30.17,DefaultItalics,Go Gunhee,0000,0000,0000,,As the largest guild in Japan, \Nwith eleven S-Ranks,
+Dialogue: 0,0:16:30.53,0:16:34.17,DefaultItalics,Go Gunhee,0000,0000,0000,,they're also said to be the \Nsecond biggest in all of Asia.
+Dialogue: 0,0:16:34.17,0:16:38.52,DefaultItalics,Go Gunhee,0000,0000,0000,,And leading them is Guildmaster Goto Ryuji.
+Dialogue: 0,0:16:38.52,0:16:41.44,DefaultItalics,Go Gunhee,0000,0000,0000,,His aura does not betray his reputation.
+Dialogue: 0,0:16:42.16,0:16:46.59,Default,Hanekawa,0000,0000,0000,,First, we'd like to thank you \Nfor inviting us to the joint operation
+Dialogue: 0,0:16:46.59,0:16:48.21,Default,Hanekawa,0000,0000,0000,,and the mixed forces strike team.
+Dialogue: 0,0:16:48.21,0:16:52.35,Default,Go Gunhee,0000,0000,0000,,No, we should be thanking you \Nfor accepting our invitation.
+Dialogue: 0,0:16:52.35,0:16:54.49,Default,Go Gunhee,0000,0000,0000,,We are most grateful.
+Dialogue: 0,0:16:54.82,0:16:56.89,Default,Hanekawa,0000,0000,0000,,As the documents you've received say,
+Dialogue: 0,0:16:56.89,0:17:04.74,Default,Hanekawa,0000,0000,0000,,the investigation into the winged ants \Nhas revealed a fair bit of information.
+Dialogue: 0,0:17:05.47,0:17:09.72,Default,Hanekawa,0000,0000,0000,,Two points within \Nwill be critical to this operation.
+Dialogue: 0,0:17:10.48,0:17:12.22,Default,Hanekawa,0000,0000,0000,,One is their lifespan.
+Dialogue: 0,0:17:12.22,0:17:17.18,Default,Hanekawa,0000,0000,0000,,The ants grow at an accelerated rate after \Nhatching but only live for about a year.
+Dialogue: 0,0:17:17.18,0:17:20.13,Default,Hanekawa,0000,0000,0000,,In other words, if we can kill the ant queen,
+Dialogue: 0,0:17:20.13,0:17:23.40,Default,Hanekawa,0000,0000,0000,,the remaining numbers will \Ndie off in about a year.
+Dialogue: 0,0:17:23.88,0:17:26.80,Default,Hanekawa,0000,0000,0000,,The other is regarding their behavior.
+Dialogue: 0,0:17:26.80,0:17:31.58,Default,Hanekawa,0000,0000,0000,,From the previous three raids, we know that \Nthe ants are drawn to stronger enemies—
+Dialogue: 0,0:17:31.58,0:17:35.37,Default,Hanekawa,0000,0000,0000,,those with greater magic power.
+Dialogue: 0,0:17:35.37,0:17:40.01,Default,Hanekawa,0000,0000,0000,,We're going to plan the operation \Naround that and use it against them.
+Dialogue: 0,0:17:40.65,0:17:44.56,DefaultItalics,Go Gunhee,0000,0000,0000,,We'd been aware of the ants' tendencies.
+Dialogue: 0,0:17:44.56,0:17:47.89,DefaultItalics,Go Gunhee,0000,0000,0000,,But this is quite the elaborate breakdown.
+Dialogue: 0,0:17:48.93,0:17:50.85,Default,Hanekawa,0000,0000,0000,,Regarding the plan...
+Dialogue: 0,0:17:50.85,0:17:57.89,Default,Goto Ryuji,0000,0000,0000,,Of the Drawn Sword Guild's eleven S-Ranks, \Nten will be participating, including myself.
+Dialogue: 0,0:17:58.84,0:18:00.77,Default,Woo Jinchul,0000,0000,0000,,Ten of the full eleven?
+Dialogue: 0,0:18:01.09,0:18:03.56,Default,Goto Ryuji,0000,0000,0000,,We'll draw the ants out.
+Dialogue: 0,0:18:03.56,0:18:07.56,Default,Goto Ryuji,0000,0000,0000,,We'd like your team to take out \Nthe ant queen while that happens.
+Dialogue: 0,0:18:07.56,0:18:10.67,Default,Woo Jinchul,0000,0000,0000,,That would involve you fighting \Nthousands of ants...
+Dialogue: 0,0:18:11.15,0:18:14.43,Default,Goto Ryuji,0000,0000,0000,,If we only need to cause a distraction, \Nit should be fine.
+Dialogue: 0,0:18:14.43,0:18:19.16,Default,Goto Ryuji,0000,0000,0000,,AI simulations have shown that this plan \Nhas the best chance of succeeding.
+Dialogue: 0,0:18:19.83,0:18:24.52,DefaultItalics,Go Gunhee,0000,0000,0000,,Ten S-Rank hunters is certainly more \Nthan we would be able to field.
+Dialogue: 0,0:18:24.52,0:18:26.00,DefaultItalics,Go Gunhee,0000,0000,0000,,In that case...
+Dialogue: 0,0:18:26.00,0:18:31.47,Default,Go Gunhee,0000,0000,0000,,Very well. We'll head into tactical planning \Nunder that broader strategy.
+Dialogue: 0,0:18:40.15,0:18:42.60,DefaultItalics,Sung Jinwoo,0000,0000,0000,,I don't even have time \Nto restore my mana with potions.
+Dialogue: 0,0:19:02.04,0:19:03.79,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Fatal Strike was blocked?!
+Dialogue: 0,0:19:33.44,0:19:35.19,DefaultItalics,Sung Jinwoo,0000,0000,0000,,There goes the last of my mana.
+Dialogue: 0,0:20:18.90,0:20:20.49,Default,Sung Jinwoo,0000,0000,0000,,Damn it! My dagger!
+Dialogue: 0,0:20:31.09,0:20:32.95,DefaultItalics,Sung Jinwoo,0000,0000,0000,,He's so strong!
+Dialogue: 0,0:20:34.46,0:20:35.59,DefaultItalics,Sung Jinwoo,0000,0000,0000,,Are you kidding me?!
+Dialogue: 0,0:20:37.34,0:20:38.26,DefaultItalics,Sung Jinwoo,0000,0000,0000,,I can't dodge—
+Dialogue: 0,0:20:44.81,0:20:45.80,Default,Sung Jinwoo,0000,0000,0000,,This is it!
+Dialogue: 0,0:20:45.80,0:20:47.81,DefaultItalics,Sung Jinwoo,0000,0000,0000,,It's time to put all my investment in strength
+Dialogue: 0,0:20:47.81,0:20:50.14,DefaultItalics,Sung Jinwoo,0000,0000,0000,,and Ruler's Hand to use!
+Dialogue: 0,0:21:06.91,0:21:10.33,Default,Sung Jinwoo,0000,0000,0000,,You're done!
+Dialogue: 0,0:21:23.94,0:21:25.23,Default,Esil,0000,0000,0000,,Sir Jinwoo?
+Dialogue: 0,0:21:46.66,0:21:47.91,Default,Esil,0000,0000,0000,,Sir Jinwoo!
+Dialogue: 0,0:21:48.25,0:21:51.41,Default,Sung Jinwoo,0000,0000,0000,,Esil... Head home and tell your dad...
+Dialogue: 0,0:21:52.21,0:21:55.92,Default,Sung Jinwoo,0000,0000,0000,,From now on, the Radisu family \Nruns things around here.
+Dialogue: 0,0:21:56.59,0:21:58.05,Default,Esil,0000,0000,0000,,Sir Jinwoo...
+Dialogue: 0,0:22:01.65,0:22:05.03,Default,Esil,0000,0000,0000,,It's Radiru, not Radisu.

@@ -7,6 +7,7 @@ function SidebarIcon({ name }) {
     home: '/icons/clean/home.png',
     movies: '/icons/clean/movies.png',
     tv: '/icons/clean/tv shows.png',
+    anime: '/icons/clean/tv shows.png',
     favorites: '/icons/clean/favorites.png',
     search: '/icons/clean/search.png',
   }
@@ -23,18 +24,19 @@ function SidebarIcon({ name }) {
 
 export default function Sidebar() {
   const location = useLocation()
-  const { profile, user } = useAccount()
-  const displayName = profile.displayName || user?.email?.split('@')[0] || 'Guest'
-  const initial = displayName.slice(0, 1).toUpperCase()
+  const { isAnimeAccessAllowed, isLoading, profile, user } = useAccount()
+  const displayName = isLoading ? '' : profile.displayName || user?.email?.split('@')[0] || 'Guest'
+  const initial = displayName ? displayName.slice(0, 1).toUpperCase() : ''
 
   const primaryItems = [
     { icon: 'home', to: '/', label: 'Home' },
     { icon: 'movies', to: '/movies', label: 'Movies' },
     { icon: 'tv', to: '/tv-shows', label: 'TV Shows' },
+    ...(!isLoading && isAnimeAccessAllowed ? [{ icon: 'anime', to: '/anime', label: 'Anime' }] : []),
   ]
 
   const secondaryItems = [
-    { icon: 'favorites', to: '/favorites', label: 'Favorites' },
+    { icon: 'favorites', to: '/favorites', label: 'My List' },
     { icon: 'search', to: '/search', label: 'Search' },
   ]
 
@@ -97,8 +99,8 @@ export default function Sidebar() {
       </div>
 
       <div className="sidebar-bottom">
-        <div className="sidebar-avatar-wrap">
-          <div className="sidebar-avatar">{initial}</div>
+        <div className={`sidebar-avatar-wrap ${isLoading ? 'is-loading' : ''}`}>
+          <div className={`sidebar-avatar ${isLoading ? 'is-loading' : ''}`}>{initial}</div>
         </div>
       </div>
     </aside>

@@ -6,6 +6,383 @@ const VOLUME_COLLAPSE_DELAY_MS = 1
 const CONTROLS_HIDE_DELAY_MS = 2500
 const PLAYBACK_SPEED_OPTIONS = [0.5, 0.75, 1, 1.25, 1.5, 2]
 const PLAYBACK_QUALITY_OPTIONS = [360, 720, 1080]
+const EMPTY_SUBTITLE_TRACKS = []
+const SUBTITLE_OFF_OPTION = {
+  id: 'subtitles-off',
+  label: 'Off',
+  kind: 'off',
+}
+
+function getSubtitleTrackFormat(track) {
+  const explicitFormat = track?.format?.trim()?.toLowerCase()
+
+  if (explicitFormat) {
+    return explicitFormat
+  }
+
+  const normalizedSrc = track?.src?.split('?')[0]?.toLowerCase() ?? ''
+
+  if (normalizedSrc.endsWith('.ass') || normalizedSrc.endsWith('.ssa')) {
+    return 'ass'
+  }
+
+  if (normalizedSrc.endsWith('.srt')) {
+    return 'srt'
+  }
+
+  return 'vtt'
+}
+
+function getAudioTrackLabel(track, index) {
+  const name = track?.name?.trim()
+  const language = track?.lang?.trim() || track?.language?.trim()
+
+  if (name && language && name.toLowerCase() !== language.toLowerCase()) {
+    return `${name} (${language.toUpperCase()})`
+  }
+
+  if (name) {
+    return name
+  }
+
+  if (language) {
+    return language.toUpperCase()
+  }
+
+  return `Track ${index + 1}`
+}
+
+function getAudioTrackLanguageCode(track) {
+  const rawLanguage =
+    track?.lang?.trim() ||
+    track?.language?.trim() ||
+    track?.srclang?.trim() ||
+    track?.name?.trim() ||
+    ''
+  const normalizedLanguage = rawLanguage.toLowerCase()
+
+  if (
+    normalizedLanguage === 'japanese' ||
+    normalizedLanguage === 'ja' ||
+    normalizedLanguage.startsWith('ja-')
+  ) {
+    return 'ja'
+  }
+
+  if (
+    normalizedLanguage === 'english' ||
+    normalizedLanguage === 'en' ||
+    normalizedLanguage.startsWith('en-')
+  ) {
+    return 'en'
+  }
+
+  return normalizedLanguage
+}
+
+function getNativeAudioTracks(video) {
+  const trackList = video?.audioTracks
+
+  if (!trackList?.length) {
+    return []
+  }
+
+  return Array.from({ length: trackList.length }, (_, index) => trackList[index]).filter(Boolean)
+}
+
+function getSubtitleTrackLabel(track, index) {
+  const label = track?.label?.trim()
+  const language = track?.srclang?.trim() || track?.language?.trim() || track?.lang?.trim()
+
+  if (label && language && label.toLowerCase() !== language.toLowerCase()) {
+    return `${label} (${language.toUpperCase()})`
+  }
+
+  if (label) {
+    return label
+  }
+
+  if (language) {
+    return language.toUpperCase()
+  }
+
+  return `Subtitle ${index + 1}`
+}
+
+function getSubtitleTrackOptions(tracks = []) {
+  return tracks
+    .filter((track) => track?.src)
+    .map((track, index) => ({
+      default: Boolean(track.default),
+      format: getSubtitleTrackFormat(track),
+      id: track.id?.trim() || `subtitle-track-${index}`,
+      kind: track.kind?.trim() || 'subtitles',
+      label: getSubtitleTrackLabel(track, index),
+      offsetSeconds: Number.isFinite(Number(track.offsetSeconds)) ? Number(track.offsetSeconds) : 0,
+      src: encodeURI(track.src),
+      srcLang: track.srclang?.trim() || track.language?.trim() || track.lang?.trim() || 'en',
+    }))
+}
+
+function parseAssTimestamp(value) {
+  if (!value) {
+    return 0
+  }
+
+  const match = String(value).trim().match(/(\d+):(\d{2}):(\d{2})\.(\d{1,2})/)
+
+  if (!match) {
+    return 0
+  }
+
+  const [, hours, minutes, seconds, centiseconds] = match
+
+  return (
+    Number(hours) * 3600 +
+    Number(minutes) * 60 +
+    Number(seconds) +
+    Number(centiseconds.padEnd(2, '0')) / 100
+  )
+}
+
+function splitAssDialogueValues(value, expectedCount) {
+  const parts = []
+  let current = ''
+  let separatorCount = 0
+
+  for (let index = 0; index < value.length; index += 1) {
+    const character = value[index]
+
+    if (character === ',' && separatorCount < expectedCount - 1) {
+      parts.push(current)
+      current = ''
+      separatorCount += 1
+      continue
+    }
+
+    current += character
+  }
+
+  parts.push(current)
+  return parts
+}
+
+function cleanAssText(value) {
+  return String(value ?? '')
+    .replace(/\{[^}]*\}/g, '')
+    .replace(/\\N/g, '\n')
+    .replace(/\\n/g, '\n')
+    .replace(/\\h/g, ' ')
+    .replace(/\r/g, '')
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .join('\n')
+}
+
+function parseSrtTimestamp(value) {
+  if (!value) {
+    return 0
+  }
+
+  const match = String(value).trim().match(/(\d+):(\d{2}):(\d{2})[,.](\d{1,3})/)
+
+  if (!match) {
+    return 0
+  }
+
+  const [, hours, minutes, seconds, milliseconds] = match
+
+  return (
+    Number(hours) * 3600 +
+    Number(minutes) * 60 +
+    Number(seconds) +
+    Number(milliseconds.padEnd(3, '0')) / 1000
+  )
+}
+
+function cleanSrtText(value) {
+  return String(value ?? '')
+    .replace(/\r/g, '')
+    .split('\n')
+    .map((line) => line.replace(/<[^>]+>/g, '').trim())
+    .filter(Boolean)
+    .join('\n')
+}
+
+function parseSrtSubtitles(rawSrt, offsetSeconds = 0) {
+  const blocks = String(rawSrt ?? '')
+    .replace(/\r/g, '')
+    .trim()
+    .split(/\n{2,}/)
+  const cues = []
+
+  for (const block of blocks) {
+    const lines = block
+      .split('\n')
+      .map((line) => line.trim())
+      .filter(Boolean)
+
+    if (lines.length === 0) {
+      continue
+    }
+
+    const timingLineIndex = lines.findIndex((line) => line.includes('-->'))
+
+    if (timingLineIndex === -1) {
+      continue
+    }
+
+    const timingLine = lines[timingLineIndex]
+    const [rawStart, rawEnd] = timingLine.split('-->')
+
+    if (!rawStart || !rawEnd) {
+      continue
+    }
+
+    const text = cleanSrtText(lines.slice(timingLineIndex + 1).join('\n'))
+
+    if (!text) {
+      continue
+    }
+
+    const start = parseSrtTimestamp(rawStart.trim().split(/\s+/)[0]) + offsetSeconds
+    const end = parseSrtTimestamp(rawEnd.trim().split(/\s+/)[0]) + offsetSeconds
+
+    if (end <= 0) {
+      continue
+    }
+
+    cues.push({
+      end: Math.max(start, end),
+      start: Math.max(0, start),
+      text,
+    })
+  }
+
+  return cues
+}
+
+function parseAssSubtitles(rawAss, offsetSeconds = 0) {
+  const lines = String(rawAss ?? '').split(/\r?\n/)
+  let isInsideEventsSection = false
+  let dialogueFormat = []
+  const cues = []
+
+  for (const line of lines) {
+    const trimmedLine = line.trim()
+
+    if (!trimmedLine) {
+      continue
+    }
+
+    if (trimmedLine.startsWith('[') && trimmedLine.endsWith(']')) {
+      isInsideEventsSection = trimmedLine.toLowerCase() === '[events]'
+      continue
+    }
+
+    if (!isInsideEventsSection) {
+      continue
+    }
+
+    if (trimmedLine.startsWith('Format:')) {
+      dialogueFormat = trimmedLine
+        .slice('Format:'.length)
+        .split(',')
+        .map((item) => item.trim().toLowerCase())
+      continue
+    }
+
+    if (!trimmedLine.startsWith('Dialogue:') || dialogueFormat.length === 0) {
+      continue
+    }
+
+    const dialogueValues = splitAssDialogueValues(
+      trimmedLine.slice('Dialogue:'.length).trim(),
+      dialogueFormat.length
+    )
+    const getFieldValue = (fieldName) => dialogueValues[dialogueFormat.indexOf(fieldName)] ?? ''
+    const rawText = getFieldValue('text')
+
+    if (/\\p\d/i.test(rawText)) {
+      continue
+    }
+
+    const text = cleanAssText(rawText)
+
+    if (!text) {
+      continue
+    }
+
+    const start = parseAssTimestamp(getFieldValue('start')) + offsetSeconds
+    const end = parseAssTimestamp(getFieldValue('end')) + offsetSeconds
+
+    if (end <= 0) {
+      continue
+    }
+
+    cues.push({
+      end: Math.max(start, end),
+      start: Math.max(0, start),
+      text,
+    })
+  }
+
+  return cues
+}
+
+function getActiveSubtitleText(cues, timeInSeconds) {
+  if (!cues.length || !Number.isFinite(timeInSeconds)) {
+    return ''
+  }
+
+  const activeTexts = []
+
+  for (const cue of cues) {
+    if (cue.start > timeInSeconds) {
+      break
+    }
+
+    if (cue.start <= timeInSeconds && cue.end >= timeInSeconds) {
+      activeTexts.push(cue.text)
+    }
+  }
+
+  return activeTexts.join('\n').trim()
+}
+
+function isKeyboardShortcutBlockingElement(element) {
+  if (!element) {
+    return false
+  }
+
+  if (
+    element instanceof HTMLTextAreaElement ||
+    element instanceof HTMLSelectElement ||
+    element.isContentEditable
+  ) {
+    return true
+  }
+
+  if (!(element instanceof HTMLInputElement)) {
+    return false
+  }
+
+  const inputType = element.type?.trim().toLowerCase() || 'text'
+
+  return ![
+    'button',
+    'checkbox',
+    'color',
+    'file',
+    'hidden',
+    'image',
+    'radio',
+    'range',
+    'reset',
+    'submit',
+  ].includes(inputType)
+}
 
 function formatTime(seconds) {
   if (!Number.isFinite(seconds) || seconds < 0) {
@@ -124,6 +501,7 @@ function VolumeIcon({ muted = false }) {
 
 export default function BunnyPlayer({
   hasBlockingPanelOpen = false,
+  initialResumeTime = 0,
   isFullscreen = false,
   onEnded,
   onDismissBlockingPanels,
@@ -134,7 +512,11 @@ export default function BunnyPlayer({
   onToggleFullscreen,
   onVideoRefReady,
   showEpisodesButton = false,
+  shouldAutoplay = false,
   subtitle,
+  subtitleTracks = EMPTY_SUBTITLE_TRACKS,
+  preferredAudioLanguage = null,
+  preferredSubtitleMode = null,
   title,
   videoId,
 }) {
@@ -145,9 +527,12 @@ export default function BunnyPlayer({
   const isVolumeHoveredRef = useRef(false)
   const settingsPanelRef = useRef(null)
   const settingsButtonRef = useRef(null)
+  const subtitlesPanelRef = useRef(null)
+  const subtitlesButtonRef = useRef(null)
   const onEndedRef = useRef(onEnded)
   const onNearEndRef = useRef(onNearEnd)
   const onProgressChangeRef = useRef(onProgressChange)
+  const hasAppliedInitialResumeRef = useRef(false)
   const hasTriggeredNearEndRef = useRef(false)
   const uiFrameRef = useRef(null)
   const playbackSnapshotRef = useRef({
@@ -155,7 +540,9 @@ export default function BunnyPlayer({
     duration: 0,
     lastProgress: -1,
   })
+  const hasAttemptedAutoplayRef = useRef(false)
   const lastAudibleVolumeRef = useRef(1)
+  const parsedSubtitleCacheRef = useRef(new Map())
   const [playbackInfo, setPlaybackInfo] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
   const [isPlaying, setIsPlaying] = useState(false)
@@ -165,9 +552,33 @@ export default function BunnyPlayer({
   const [areControlsVisible, setAreControlsVisible] = useState(true)
   const [isVolumeExpanded, setIsVolumeExpanded] = useState(true)
   const [isSettingsOpen, setIsSettingsOpen] = useState(false)
+  const [isSubtitlesOpen, setIsSubtitlesOpen] = useState(false)
   const [selectedSettingsTab, setSelectedSettingsTab] = useState('speed')
   const [playbackRate, setPlaybackRate] = useState(1)
   const [selectedQuality, setSelectedQuality] = useState(1080)
+  const [audioOptions, setAudioOptions] = useState([])
+  const [selectedAudioTrackId, setSelectedAudioTrackId] = useState('')
+  const [selectedSubtitleTrackId, setSelectedSubtitleTrackId] = useState(SUBTITLE_OFF_OPTION.id)
+  const [parsedSubtitleCues, setParsedSubtitleCues] = useState([])
+  const [isParsedSubtitleLoading, setIsParsedSubtitleLoading] = useState(false)
+  const [parsedSubtitleLoadError, setParsedSubtitleLoadError] = useState('')
+  const subtitleOptions = getSubtitleTrackOptions(subtitleTracks)
+  const nativeSubtitleOptions = subtitleOptions.filter((track) => track.format === 'vtt')
+  const selectedSubtitleOption =
+    subtitleOptions.find((track) => track.id === selectedSubtitleTrackId) ?? null
+  const selectedSubtitleTrackOffsetSeconds = selectedSubtitleOption?.offsetSeconds ?? 0
+  const selectedSubtitleTrackSrc = selectedSubtitleOption?.src ?? ''
+  const hasSubtitleTrackSupport = subtitleOptions.length > 0
+  const selectedSubtitleTrackFormat = selectedSubtitleOption?.format ?? null
+  const areOverlayPanelsOpen = isSettingsOpen || isSubtitlesOpen
+  const areSubtitlesEnabled = selectedSubtitleTrackId !== SUBTITLE_OFF_OPTION.id
+  const isUsingParsedSubtitles =
+    areSubtitlesEnabled &&
+    (selectedSubtitleTrackFormat === 'ass' || selectedSubtitleTrackFormat === 'srt')
+  const activeParsedSubtitleText =
+    isUsingParsedSubtitles && !isParsedSubtitleLoading
+      ? getActiveSubtitleText(parsedSubtitleCues, currentTime)
+      : ''
 
   const updateVolume = (nextVolume) => {
     const normalizedVolume = Math.min(1, Math.max(0, nextVolume))
@@ -204,6 +615,55 @@ export default function BunnyPlayer({
     hlsInstance.nextLevel = bestLevelIndex
   }
 
+  const applyAudioOptions = (nextOptions = []) => {
+    setAudioOptions(nextOptions)
+    setSelectedAudioTrackId((currentTrackId) => {
+      if (nextOptions.some((option) => option.id === currentTrackId)) {
+        return currentTrackId
+      }
+
+      return nextOptions.find((option) => option.isActive)?.id ?? nextOptions[0]?.id ?? ''
+    })
+  }
+
+  const handleAudioTrackSelection = (audioTrackId) => {
+    const selectedOption = audioOptions.find((option) => option.id === audioTrackId)
+
+    if (!selectedOption) {
+      return
+    }
+
+    setSelectedAudioTrackId(audioTrackId)
+
+    if (selectedOption.source === 'hls' && hlsRef.current) {
+      hlsRef.current.audioTrack = selectedOption.trackIndex
+      return
+    }
+
+    if (selectedOption.source === 'native') {
+      const nativeTracks = getNativeAudioTracks(videoRef.current)
+
+      nativeTracks.forEach((track, index) => {
+        track.enabled = index === selectedOption.trackIndex
+      })
+    }
+  }
+
+  const syncSubtitleTrackModes = () => {
+    const subtitleTrackElements = Array.from(
+      videoRef.current?.querySelectorAll('track[data-player-subtitle-track="true"]') ?? []
+    )
+
+    subtitleTrackElements.forEach((trackElement) => {
+      const trackId = trackElement.getAttribute('data-track-id')
+
+      if (trackElement.track) {
+        trackElement.track.mode =
+          trackId === selectedSubtitleTrackId ? 'showing' : 'disabled'
+      }
+    })
+  }
+
   useEffect(() => {
     onEndedRef.current = onEnded
   }, [onEnded])
@@ -215,6 +675,115 @@ export default function BunnyPlayer({
   useEffect(() => {
     onProgressChangeRef.current = onProgressChange
   }, [onProgressChange])
+
+  useEffect(() => {
+    setSelectedSubtitleTrackId((currentTrackId) => {
+      if (preferredSubtitleMode === 'off') {
+        return SUBTITLE_OFF_OPTION.id
+      }
+
+      if (preferredSubtitleMode === 'on') {
+        return subtitleOptions.find((track) => track.default)?.id ?? subtitleOptions[0]?.id ?? SUBTITLE_OFF_OPTION.id
+      }
+
+      if (subtitleOptions.some((track) => track.id === currentTrackId)) {
+        return currentTrackId
+      }
+
+      return subtitleOptions.find((track) => track.default)?.id ?? SUBTITLE_OFF_OPTION.id
+    })
+  }, [preferredSubtitleMode, subtitleTracks, videoId])
+
+  useEffect(() => {
+    if (!preferredAudioLanguage || audioOptions.length === 0) {
+      return
+    }
+
+    const currentAudioOption = audioOptions.find((option) => option.id === selectedAudioTrackId)
+
+    if (currentAudioOption?.languageCode === preferredAudioLanguage) {
+      return
+    }
+
+    const preferredAudioOption = audioOptions.find(
+      (option) => option.languageCode === preferredAudioLanguage
+    )
+
+    if (!preferredAudioOption || preferredAudioOption.id === selectedAudioTrackId) {
+      return
+    }
+
+    handleAudioTrackSelection(preferredAudioOption.id)
+  }, [audioOptions, preferredAudioLanguage, selectedAudioTrackId, videoId])
+
+  useEffect(() => {
+    let isCancelled = false
+
+    if (!isUsingParsedSubtitles || !selectedSubtitleTrackSrc) {
+      setParsedSubtitleCues([])
+      setIsParsedSubtitleLoading(false)
+      setParsedSubtitleLoadError('')
+      return undefined
+    }
+
+    const cacheKey = `${selectedSubtitleTrackId}:${selectedSubtitleTrackSrc}:${selectedSubtitleTrackOffsetSeconds}`
+    const cachedParsedSubtitles = parsedSubtitleCacheRef.current.get(cacheKey)
+
+    if (cachedParsedSubtitles) {
+      setParsedSubtitleCues(cachedParsedSubtitles)
+      setIsParsedSubtitleLoading(false)
+      setParsedSubtitleLoadError('')
+      return undefined
+    }
+
+    setParsedSubtitleCues([])
+    setIsParsedSubtitleLoading(true)
+    setParsedSubtitleLoadError('')
+
+    const loadParsedSubtitles = async () => {
+      try {
+        const response = await fetch(selectedSubtitleTrackSrc)
+
+        if (!response.ok) {
+          throw new Error(`Unable to fetch subtitle track: ${response.status}`)
+        }
+
+        const rawSubtitleText = await response.text()
+
+        if (isCancelled) {
+          return
+        }
+
+        const nextParsedSubtitles =
+          selectedSubtitleTrackFormat === 'srt'
+            ? parseSrtSubtitles(rawSubtitleText, selectedSubtitleTrackOffsetSeconds)
+            : parseAssSubtitles(rawSubtitleText, selectedSubtitleTrackOffsetSeconds)
+        parsedSubtitleCacheRef.current.set(cacheKey, nextParsedSubtitles)
+        setParsedSubtitleCues(nextParsedSubtitles)
+        setIsParsedSubtitleLoading(false)
+      } catch {
+        if (isCancelled) {
+          return
+        }
+
+        setParsedSubtitleCues([])
+        setIsParsedSubtitleLoading(false)
+        setParsedSubtitleLoadError('This subtitle track could not be loaded.')
+      }
+    }
+
+    void loadParsedSubtitles()
+
+    return () => {
+      isCancelled = true
+    }
+  }, [
+    isUsingParsedSubtitles,
+    selectedSubtitleTrackFormat,
+    selectedSubtitleTrackId,
+    selectedSubtitleTrackOffsetSeconds,
+    selectedSubtitleTrackSrc,
+  ])
 
   useEffect(() => {
     onControlsVisibilityChange?.(areControlsVisible)
@@ -234,6 +803,12 @@ export default function BunnyPlayer({
     const loadPlaybackInfo = async () => {
       setIsLoading(true)
       hasTriggeredNearEndRef.current = false
+      applyAudioOptions([])
+      setParsedSubtitleCues([])
+      setIsParsedSubtitleLoading(false)
+      setParsedSubtitleLoadError('')
+      setIsSettingsOpen(false)
+      setIsSubtitlesOpen(false)
       const nextPlaybackInfo = await fetchBunnyPlaybackInfo(videoId)
 
       if (isCancelled) {
@@ -250,6 +825,14 @@ export default function BunnyPlayer({
       isCancelled = true
     }
   }, [videoId])
+
+  useEffect(() => {
+    hasAttemptedAutoplayRef.current = false
+  }, [shouldAutoplay, videoId])
+
+  useEffect(() => {
+    hasAppliedInitialResumeRef.current = false
+  }, [initialResumeTime, videoId])
 
   useEffect(() => {
     return () => {
@@ -332,7 +915,7 @@ export default function BunnyPlayer({
       hideControlsTimeoutRef.current = null
     }
 
-    if (!isPlaying || isSettingsOpen) {
+    if (!isPlaying || areOverlayPanelsOpen) {
       setAreControlsVisible(true)
       return
     }
@@ -352,7 +935,7 @@ export default function BunnyPlayer({
         hideControlsTimeoutRef.current = null
       }
     }
-  }, [areControlsVisible, isPlaying, isSettingsOpen])
+  }, [areControlsVisible, areOverlayPanelsOpen, isPlaying])
 
   useEffect(() => {
     const video = videoRef.current
@@ -373,6 +956,39 @@ export default function BunnyPlayer({
       })
     }
 
+    const reportPlaybackProgress = (force = false) => {
+      const snapshotDuration =
+        Number.isFinite(video.duration) && video.duration > 0
+          ? video.duration
+          : playbackSnapshotRef.current.duration
+      const snapshotCurrentTime = Number.isFinite(video.currentTime)
+        ? video.currentTime
+        : playbackSnapshotRef.current.currentTime
+
+      if (!Number.isFinite(snapshotCurrentTime) || snapshotCurrentTime < 0) {
+        return
+      }
+
+      const nextProgress =
+        snapshotDuration > 0
+          ? Math.min(100, Math.max(0, Math.round((snapshotCurrentTime / snapshotDuration) * 100)))
+          : Math.max(0, playbackSnapshotRef.current.lastProgress)
+
+      playbackSnapshotRef.current.currentTime = snapshotCurrentTime
+      playbackSnapshotRef.current.duration = snapshotDuration
+
+      if (nextProgress !== playbackSnapshotRef.current.lastProgress) {
+        playbackSnapshotRef.current.lastProgress = nextProgress
+      }
+
+      onProgressChangeRef.current?.({
+        currentTime: snapshotCurrentTime,
+        duration: snapshotDuration,
+        force,
+        progress: nextProgress,
+      })
+    }
+
     const handleTimeUpdate = () => {
       if (!video.duration || Number.isNaN(video.duration)) {
         return
@@ -390,8 +1006,9 @@ export default function BunnyPlayer({
 
       if (nextProgress !== playbackSnapshotRef.current.lastProgress) {
         playbackSnapshotRef.current.lastProgress = nextProgress
-        onProgressChangeRef.current?.(nextProgress)
       }
+
+      reportPlaybackProgress()
 
       if (!hasTriggeredNearEndRef.current && (remainingSeconds <= 45 || nextProgress >= 92)) {
         hasTriggeredNearEndRef.current = true
@@ -410,20 +1027,154 @@ export default function BunnyPlayer({
       onEndedRef.current?.()
     }
 
-    const handleLoadedData = () => {
-      setIsLoading(false)
-      playbackSnapshotRef.current.duration = video.duration || 0
+    const tryAutoplay = async () => {
+      if (!shouldAutoplay || hasAttemptedAutoplayRef.current || !video.paused) {
+        return
+      }
+
+      hasAttemptedAutoplayRef.current = true
+
+      try {
+        await video.play()
+      } catch {
+        hasAttemptedAutoplayRef.current = false
+      }
+    }
+
+    const applyInitialResumeTime = () => {
+      if (hasAppliedInitialResumeRef.current) {
+        return
+      }
+
+      const normalizedResumeTime = Number(initialResumeTime)
+
+      if (!Number.isFinite(normalizedResumeTime) || normalizedResumeTime <= 0) {
+        hasAppliedInitialResumeRef.current = true
+        return
+      }
+
+      const hasKnownDuration = Number.isFinite(video.duration) && video.duration > 0
+      const maxResumeTime = hasKnownDuration
+        ? Math.max(0, Math.min(normalizedResumeTime, Math.max(0, video.duration - 2)))
+        : Math.max(0, normalizedResumeTime)
+
+      if (maxResumeTime <= 0) {
+        hasAppliedInitialResumeRef.current = true
+        return
+      }
+
+      if (shouldAutoplay) {
+        hasAttemptedAutoplayRef.current = false
+      }
+
+      video.currentTime = maxResumeTime
+      playbackSnapshotRef.current.currentTime = maxResumeTime
+      setCurrentTime(maxResumeTime)
+      hasAppliedInitialResumeRef.current = true
       queueUiSync()
     }
 
+    const syncNativeAudioOptions = () => {
+      const nativeAudioOptions = getNativeAudioTracks(video).map((track, index) => ({
+        id: `native-audio-${index}`,
+        isActive: Boolean(track.enabled),
+        label: getAudioTrackLabel(track, index),
+        languageCode: getAudioTrackLanguageCode(track),
+        source: 'native',
+        trackIndex: index,
+      }))
+
+      if (!nativeAudioOptions.length) {
+        return false
+      }
+
+      applyAudioOptions(nativeAudioOptions)
+      return true
+    }
+
+    const syncHlsAudioOptions = (hlsInstance = hlsRef.current) => {
+      const hlsAudioOptions = (hlsInstance?.audioTracks ?? []).map((track, index) => ({
+        id: `hls-audio-${index}`,
+        isActive: index === hlsInstance.audioTrack,
+        label: getAudioTrackLabel(track, index),
+        languageCode: getAudioTrackLanguageCode(track),
+        source: 'hls',
+        trackIndex: index,
+      }))
+
+      if (!hlsAudioOptions.length) {
+        return false
+      }
+
+      applyAudioOptions(hlsAudioOptions)
+      return true
+    }
+
+    const syncAvailableAudioOptions = () => {
+      if (syncHlsAudioOptions()) {
+        return
+      }
+
+      if (syncNativeAudioOptions()) {
+        return
+      }
+
+      applyAudioOptions([])
+    }
+
+    const handleLoadedData = () => {
+      setIsLoading(false)
+      playbackSnapshotRef.current.duration = video.duration || 0
+      applyInitialResumeTime()
+      queueUiSync()
+      syncAvailableAudioOptions()
+      void tryAutoplay()
+    }
+
+    const handleCanPlay = () => {
+      applyInitialResumeTime()
+      syncAvailableAudioOptions()
+      void tryAutoplay()
+    }
+
+    const handleLoadedMetadata = () => {
+      applyInitialResumeTime()
+      syncAvailableAudioOptions()
+      syncSubtitleTrackModes()
+      void tryAutoplay()
+    }
+
     const handlePlay = () => setIsPlaying(true)
-    const handlePause = () => setIsPlaying(false)
+    const handlePause = () => {
+      setIsPlaying(false)
+      reportPlaybackProgress(true)
+    }
+    const handleSeeked = () => {
+      playbackSnapshotRef.current.currentTime = video.currentTime
+      queueUiSync()
+      void tryAutoplay()
+    }
+
+    const handlePageHide = () => {
+      reportPlaybackProgress(true)
+    }
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') {
+        reportPlaybackProgress(true)
+      }
+    }
 
     video.addEventListener('timeupdate', handleTimeUpdate)
     video.addEventListener('ended', handleEnded)
     video.addEventListener('loadeddata', handleLoadedData)
+    video.addEventListener('loadedmetadata', handleLoadedMetadata)
+    video.addEventListener('canplay', handleCanPlay)
     video.addEventListener('play', handlePlay)
     video.addEventListener('pause', handlePause)
+    video.addEventListener('seeked', handleSeeked)
+    window.addEventListener('pagehide', handlePageHide)
+    document.addEventListener('visibilitychange', handleVisibilityChange)
 
     if (Hls.isSupported()) {
       const hls = new Hls({
@@ -432,9 +1183,13 @@ export default function BunnyPlayer({
       })
 
       hlsRef.current = hls
+
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
         applyQualitySelection(selectedQuality, hls)
+        syncHlsAudioOptions()
       })
+      hls.on(Hls.Events.AUDIO_TRACKS_UPDATED, syncHlsAudioOptions)
+      hls.on(Hls.Events.AUDIO_TRACK_SWITCHED, syncHlsAudioOptions)
       hls.loadSource(playbackInfo.hlsUrl)
       hls.attachMedia(video)
     } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
@@ -447,8 +1202,15 @@ export default function BunnyPlayer({
       video.removeEventListener('timeupdate', handleTimeUpdate)
       video.removeEventListener('ended', handleEnded)
       video.removeEventListener('loadeddata', handleLoadedData)
+      video.removeEventListener('loadedmetadata', handleLoadedMetadata)
+      video.removeEventListener('canplay', handleCanPlay)
       video.removeEventListener('play', handlePlay)
       video.removeEventListener('pause', handlePause)
+      video.removeEventListener('seeked', handleSeeked)
+      window.removeEventListener('pagehide', handlePageHide)
+      document.removeEventListener('visibilitychange', handleVisibilityChange)
+
+      reportPlaybackProgress(true)
 
       if (hlsRef.current) {
         hlsRef.current.destroy()
@@ -463,7 +1225,32 @@ export default function BunnyPlayer({
       video.removeAttribute('src')
       video.load()
     }
-  }, [playbackInfo, selectedQuality])
+  }, [initialResumeTime, playbackInfo, selectedQuality])
+
+  useEffect(() => {
+    const video = videoRef.current
+
+    if (!video || !playbackInfo?.hlsUrl || !shouldAutoplay || hasAttemptedAutoplayRef.current) {
+      return
+    }
+
+    const tryAutoplay = async () => {
+      if (!video.paused) {
+        hasAttemptedAutoplayRef.current = true
+        return
+      }
+
+      hasAttemptedAutoplayRef.current = true
+
+      try {
+        await video.play()
+      } catch {
+        hasAttemptedAutoplayRef.current = false
+      }
+    }
+
+    void tryAutoplay()
+  }, [playbackInfo, shouldAutoplay, videoId])
 
   useEffect(() => {
     const video = videoRef.current
@@ -487,7 +1274,42 @@ export default function BunnyPlayer({
   }, [playbackRate])
 
   useEffect(() => {
-    if (!isSettingsOpen) {
+    if (typeof window === 'undefined') {
+      return undefined
+    }
+
+    let animationFrameId = window.requestAnimationFrame(() => {
+      animationFrameId = null
+      syncSubtitleTrackModes()
+    })
+
+    const video = videoRef.current
+
+    if (!video) {
+      return () => {
+        if (animationFrameId !== null) {
+          window.cancelAnimationFrame(animationFrameId)
+        }
+      }
+    }
+
+    const handleLoadedMetadata = () => {
+      syncSubtitleTrackModes()
+    }
+
+    video.addEventListener('loadedmetadata', handleLoadedMetadata)
+
+    return () => {
+      if (animationFrameId !== null) {
+        window.cancelAnimationFrame(animationFrameId)
+      }
+
+      video.removeEventListener('loadedmetadata', handleLoadedMetadata)
+    }
+  }, [selectedSubtitleTrackId, subtitleTracks, videoId])
+
+  useEffect(() => {
+    if (!areOverlayPanelsOpen) {
       return
     }
 
@@ -496,17 +1318,21 @@ export default function BunnyPlayer({
 
       if (
         settingsPanelRef.current?.contains(target) ||
-        settingsButtonRef.current?.contains(target)
+        settingsButtonRef.current?.contains(target) ||
+        subtitlesPanelRef.current?.contains(target) ||
+        subtitlesButtonRef.current?.contains(target)
       ) {
         return
       }
 
       setIsSettingsOpen(false)
+      setIsSubtitlesOpen(false)
     }
 
     const handleEscape = (event) => {
       if (event.key === 'Escape') {
         setIsSettingsOpen(false)
+        setIsSubtitlesOpen(false)
       }
     }
 
@@ -517,7 +1343,7 @@ export default function BunnyPlayer({
       document.removeEventListener('click', handlePointerDown)
       window.removeEventListener('keydown', handleEscape)
     }
-  }, [isSettingsOpen])
+  }, [areOverlayPanelsOpen])
 
   if (!videoId) {
     return <p>Video is not available yet.</p>
@@ -583,7 +1409,7 @@ export default function BunnyPlayer({
       hideControlsTimeoutRef.current = null
     }
 
-    if (!isPlaying || isSettingsOpen) {
+    if (!isPlaying || areOverlayPanelsOpen) {
       return
     }
 
@@ -594,9 +1420,13 @@ export default function BunnyPlayer({
   }
 
   const handleSurfaceClick = async () => {
-    if (isSettingsOpen || hasBlockingPanelOpen) {
+    if (areOverlayPanelsOpen || hasBlockingPanelOpen) {
       if (isSettingsOpen) {
         setIsSettingsOpen(false)
+      }
+
+      if (isSubtitlesOpen) {
+        setIsSubtitlesOpen(false)
       }
 
       onDismissBlockingPanels?.()
@@ -607,14 +1437,26 @@ export default function BunnyPlayer({
     await togglePlayback()
   }
 
+  const blurPlayerControl = (target) => {
+    if (typeof window === 'undefined' || !(target instanceof Element)) {
+      return
+    }
+
+    const interactiveElement = target.closest('button, input, [role="tab"]')
+
+    if (!(interactiveElement instanceof HTMLElement)) {
+      return
+    }
+
+    window.requestAnimationFrame(() => {
+      interactiveElement.blur()
+    })
+  }
+
   useEffect(() => {
     const handleKeyDown = (event) => {
       const activeElement = document.activeElement
-      const isTypingTarget =
-        activeElement instanceof HTMLInputElement ||
-        activeElement instanceof HTMLTextAreaElement ||
-        activeElement instanceof HTMLSelectElement ||
-        activeElement?.isContentEditable
+      const isTypingTarget = isKeyboardShortcutBlockingElement(activeElement)
 
       if (isTypingTarget || event.altKey || event.ctrlKey || event.metaKey) {
         return
@@ -627,6 +1469,7 @@ export default function BunnyPlayer({
         event.key !== 'ArrowLeft' &&
         event.key !== 'ArrowUp' &&
         event.key !== 'ArrowDown' &&
+        event.key.toLowerCase() !== 'c' &&
         event.key.toLowerCase() !== 'm' &&
         event.key.toLowerCase() !== 'f'
       ) {
@@ -665,6 +1508,23 @@ export default function BunnyPlayer({
         return
       }
 
+      if (event.key.toLowerCase() === 'c') {
+        if (!hasSubtitleTrackSupport) {
+          setIsSettingsOpen(false)
+          setIsSubtitlesOpen((current) => !current)
+          return
+        }
+
+        setSelectedSubtitleTrackId((currentTrackId) =>
+          currentTrackId === SUBTITLE_OFF_OPTION.id
+            ? subtitleOptions.find((track) => track.default)?.id ??
+              subtitleOptions[0]?.id ??
+              SUBTITLE_OFF_OPTION.id
+            : SUBTITLE_OFF_OPTION.id
+        )
+        return
+      }
+
       if (event.key.toLowerCase() === 'm') {
         if (volume === 0) {
           updateVolume(lastAudibleVolumeRef.current || 1)
@@ -680,7 +1540,7 @@ export default function BunnyPlayer({
     return () => {
       window.removeEventListener('keydown', handleKeyDown)
     }
-  }, [volume])
+  }, [hasSubtitleTrackSupport, subtitleTracks, videoId, volume])
 
   const seekFillPercent =
     duration > 0 ? `${Math.min(100, Math.max(0, (currentTime / duration) * 100))}%` : '0%'
@@ -689,7 +1549,9 @@ export default function BunnyPlayer({
   return (
     <div
       className={`bunny-player-wrap ${areControlsVisible ? 'controls-visible' : 'controls-hidden'}`}
+      onClickCapture={(event) => blurPlayerControl(event.target)}
       onMouseMove={revealControls}
+      onPointerUpCapture={(event) => blurPlayerControl(event.target)}
       onTouchStart={revealControls}
     >
       {isLoading && <div className="custom-player-loading">Loading stream...</div>}
@@ -699,10 +1561,23 @@ export default function BunnyPlayer({
         className="bunny-player custom-video-player"
         aria-label={title}
         onClick={handleSurfaceClick}
+        crossOrigin="anonymous"
         playsInline
         preload="metadata"
         poster={playbackInfo?.posterUrl ?? ''}
-      />
+      >
+        {nativeSubtitleOptions.map((track) => (
+          <track
+            key={track.id}
+            data-player-subtitle-track="true"
+            data-track-id={track.id}
+            kind={track.kind}
+            label={track.label}
+            src={track.src}
+            srcLang={track.srcLang}
+          />
+        ))}
+      </video>
 
       {title && (
         <div className={`custom-player-title ${areControlsVisible ? 'is-visible' : 'is-hidden'}`}>
@@ -710,6 +1585,16 @@ export default function BunnyPlayer({
             <span className="custom-player-title-primary">{title}</span>
             {subtitle ? <span className="custom-player-title-secondary">{subtitle}</span> : null}
           </div>
+        </div>
+      )}
+
+      {isUsingParsedSubtitles && activeParsedSubtitleText && (
+        <div
+          className={`custom-player-ass-subtitles ${
+            areControlsVisible ? 'is-with-controls' : ''
+          }`}
+        >
+          <span>{activeParsedSubtitleText}</span>
         </div>
       )}
 
@@ -754,7 +1639,7 @@ export default function BunnyPlayer({
 
           <div
             className="custom-player-settings-section"
-            id={selectedSettingsTab === 'speed' ? 'player-settings-speed' : 'player-settings-quality'}
+            id={`player-settings-${selectedSettingsTab}`}
             role="tabpanel"
           >
             {selectedSettingsTab === 'speed' ? (
@@ -776,7 +1661,7 @@ export default function BunnyPlayer({
                   ))}
                 </div>
               </>
-            ) : (
+            ) : selectedSettingsTab === 'quality' ? (
               <>
                 <span className="custom-player-settings-label">Playback Quality</span>
 
@@ -795,6 +1680,62 @@ export default function BunnyPlayer({
                   ))}
                 </div>
               </>
+            ) : null}
+          </div>
+        </aside>
+      )}
+
+      {isSubtitlesOpen && (
+        <aside
+          ref={subtitlesPanelRef}
+          className="custom-player-subtitles-panel"
+          role="dialog"
+          aria-label="Subtitles"
+        >
+          <div className="custom-player-settings-header">
+            <p className="custom-player-settings-kicker">Subtitles</p>
+          </div>
+
+          <div className="custom-player-settings-section">
+            <span className="custom-player-settings-label">Subtitle Tracks</span>
+
+            <div className="custom-player-settings-list">
+              <button
+                type="button"
+                className={`custom-player-settings-list-item ${
+                  selectedSubtitleTrackId === SUBTITLE_OFF_OPTION.id ? 'is-active' : ''
+                }`}
+                onClick={() => setSelectedSubtitleTrackId(SUBTITLE_OFF_OPTION.id)}
+              >
+                <span>{SUBTITLE_OFF_OPTION.label}</span>
+              </button>
+
+              {subtitleOptions.map((subtitleOption) => (
+                <button
+                  key={subtitleOption.id}
+                  type="button"
+                  className={`custom-player-settings-list-item ${
+                    selectedSubtitleTrackId === subtitleOption.id ? 'is-active' : ''
+                  }`}
+                  onClick={() => setSelectedSubtitleTrackId(subtitleOption.id)}
+                >
+                  <span>{subtitleOption.label}</span>
+                </button>
+              ))}
+            </div>
+
+            {!hasSubtitleTrackSupport && (
+              <p className="custom-player-settings-note">
+                No subtitles have been added for this title yet.
+              </p>
+            )}
+
+            {isUsingParsedSubtitles && isParsedSubtitleLoading && !parsedSubtitleLoadError && (
+              <p className="custom-player-settings-note">Loading subtitle track...</p>
+            )}
+
+            {isUsingParsedSubtitles && parsedSubtitleLoadError && (
+              <p className="custom-player-settings-note">{parsedSubtitleLoadError}</p>
             )}
           </div>
         </aside>
@@ -899,9 +1840,13 @@ export default function BunnyPlayer({
                 className="custom-player-btn custom-player-icon-btn"
                 data-player-episodes-toggle="true"
                 onClick={() => {
-                  if (isSettingsOpen || hasBlockingPanelOpen) {
+                  if (isSettingsOpen || isSubtitlesOpen || hasBlockingPanelOpen) {
                     if (isSettingsOpen) {
                       setIsSettingsOpen(false)
+                    }
+
+                    if (isSubtitlesOpen) {
+                      setIsSubtitlesOpen(false)
                     }
 
                     onDismissBlockingPanels?.()
@@ -919,10 +1864,23 @@ export default function BunnyPlayer({
             )}
 
             <button
+              ref={subtitlesButtonRef}
               type="button"
-              className="custom-player-btn custom-player-icon-btn"
+              className={`custom-player-btn custom-player-icon-btn ${
+                isSubtitlesOpen || areSubtitlesEnabled ? 'is-active' : ''
+              }`}
               aria-label="Subtitles"
+              aria-expanded={isSubtitlesOpen}
               title="Subtitles"
+              onClick={() => {
+                if (hasBlockingPanelOpen) {
+                  onDismissBlockingPanels?.()
+                }
+
+                setIsSettingsOpen(false)
+                setIsSubtitlesOpen((current) => !current)
+                setAreControlsVisible(true)
+              }}
             >
               <SubtitlesIcon />
             </button>
@@ -935,12 +1893,11 @@ export default function BunnyPlayer({
               aria-expanded={isSettingsOpen}
               title="Settings"
               onClick={() => {
-                if (hasBlockingPanelOpen && !isSettingsOpen) {
+                if (hasBlockingPanelOpen) {
                   onDismissBlockingPanels?.()
-                  setAreControlsVisible(true)
-                  return
                 }
 
+                setIsSubtitlesOpen(false)
                 setIsSettingsOpen((current) => !current)
                 setAreControlsVisible(true)
               }}

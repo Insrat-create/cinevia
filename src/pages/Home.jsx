@@ -44,6 +44,7 @@ export default function Home() {
                 title="Continue Watching"
                 items={continueWatchingItems}
                 getItemHref={(item) => item.resumePath ?? `/watch/${item.id}`}
+                showProgress
                 emptyMessage={
                   isSignedIn
                     ? 'Keep watching and your saved titles will show up here.'

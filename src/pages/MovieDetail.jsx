@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { Link, useLocation, useParams } from 'react-router-dom'
+import MediaCardLink from '../components/MediaCardLink'
 import RatingInline from '../components/RatingInline'
 import Sidebar from '../components/Sidebar'
 import Topbar from '../components/Topbar'
@@ -44,7 +45,7 @@ function getRelatedMovies(movie) {
 export default function MovieDetail() {
   const { id } = useParams()
   const location = useLocation()
-  const { isFavorite, toggleFavorite } = useAccount()
+  const { isFavorite, isInContinueWatching, removeContinueWatching, toggleFavorite } = useAccount()
   const movie = movies.find((item) => item.id === id)
   const relatedMovies = useMemo(() => (movie ? getRelatedMovies(movie) : []), [movie])
   const currentPath = `${location.pathname}${location.search}${location.hash}`
@@ -68,6 +69,7 @@ export default function MovieDetail() {
     movie.maturityRating,
     movie.duration,
   ].filter(Boolean)
+  const canRemoveFromContinueWatching = isInContinueWatching(movie)
 
   return (
     <div className="app-shell">
@@ -106,9 +108,23 @@ export default function MovieDetail() {
               <p className="watch-description">{movie.description}</p>
 
               <div className="watch-hero-actions">
-                <Link to={`/watch/${movie.id}`} state={{ from: currentPath }} className="watch-primary-btn">
+                <Link
+                  to={`/watch/${movie.id}`}
+                  state={{ autoplay: true, from: currentPath }}
+                  className="watch-primary-btn"
+                >
                   Play Movie
                 </Link>
+
+                {canRemoveFromContinueWatching && (
+                  <button
+                    type="button"
+                    className="watch-secondary-btn"
+                    onClick={() => removeContinueWatching(movie)}
+                  >
+                    Remove from Continue Watching
+                  </button>
+                )}
 
                 <button
                   className={`watch-list-btn ${isFavorite(movie.id) ? 'active' : ''}`}
@@ -138,7 +154,7 @@ export default function MovieDetail() {
 
               <div className="watch-related-grid">
                 {relatedMovies.map((item) => (
-                  <Link to={`/movies/${item.id}`} key={item.id} className="watch-related-card">
+                  <MediaCardLink item={item} to={`/movies/${item.id}`} key={item.id} className="watch-related-card">
                     <img src={item.backdrop ?? item.poster} alt={item.title} />
                     <div className="watch-related-overlay" />
 
@@ -146,7 +162,7 @@ export default function MovieDetail() {
                       <p>{[item.year, item.maturityRating].filter(Boolean).join(' / ')}</p>
                       <h3>{item.title}</h3>
                     </div>
-                  </Link>
+                  </MediaCardLink>
                 ))}
               </div>
             </section>

@@ -1,0 +1,254 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: DefaultItalics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,0
+Style: DefaultTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,0
+Style: DefaultItalicsTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,0
+Style: Flashback,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: FlashbackItalics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: FlashbackTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0018,0
+Style: FlashbackItalicsTop,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,0
+Style: Narration,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: Signs,Arial,20.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0030,0030,0010,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.33,0:00:16.57,Default,Tanaka Kenzo,0000,0000,0000,,Something's here! Watch yourself!
+Dialogue: 0,0:00:16.57,0:00:17.68,Default,Fujishima Tatsumi,0000,0000,0000,,I know!
+Dialogue: 0,0:00:19.31,0:00:20.56,Default,Tanaka Kenzo,0000,0000,0000,,Son of a—
+Dialogue: 0,0:00:22.06,0:00:23.24,Default,Fujishima Tatsumi,0000,0000,0000,,Kenzo!
+Dialogue: 0,0:00:29.11,0:00:30.14,Default,Fujishima Tatsumi,0000,0000,0000,,Got it!
+Dialogue: 0,0:02:20.88,0:02:23.84,DefaultItalics,Ma Dongwook,0000,0000,0000,,Each one of them is as strong \Nas an S-Rank hunter.
+Dialogue: 0,0:02:24.52,0:02:25.48,DefaultItalics,Ma Dongwook,0000,0000,0000,,But...
+Dialogue: 0,0:02:27.52,0:02:29.63,DefaultItalics,Ma Dongwook,0000,0000,0000,,They're still just magic beasts!
+Dialogue: 0,0:02:29.63,0:02:34.55,DefaultItalics,Ma Dongwook,0000,0000,0000,,There's no finesse to their moves. Against \Nthe versatile tactics we employ as hunters...
+Dialogue: 0,0:02:35.18,0:02:36.55,DefaultItalics,Ma Dongwook,0000,0000,0000,,They can't win!
+Dialogue: 0,0:02:58.34,0:03:00.74,Default,Cha Hae-in,0000,0000,0000,,The ants down here are pretty durable.
+Dialogue: 0,0:03:00.74,0:03:04.38,Default,Ma Dongwook,0000,0000,0000,,Yeah. It's a good thing \Nthere weren't too many.
+Dialogue: 0,0:03:04.38,0:03:06.71,Default,Min Byung-gu,0000,0000,0000,,Even if more appear, we'll be fine.
+Dialogue: 0,0:03:06.71,0:03:10.54,Default,Min Byung-gu,0000,0000,0000,,I'm backing you up from the rear. \NYou can relax!
+Dialogue: 0,0:03:10.86,0:03:14.26,Default,Baek Yoonho,0000,0000,0000,,Hard to believe you're the same guy \Nwho was so afraid to go to battle.
+Dialogue: 0,0:03:14.82,0:03:18.13,Default,Min Byung-gu,0000,0000,0000,,You're one to talk, Yoonho.
+Dialogue: 0,0:03:18.87,0:03:20.90,Default,Min Byung-gu,0000,0000,0000,,What is this, your first time?
+Dialogue: 0,0:03:20.90,0:03:25.39,Default,Min Byung-gu,0000,0000,0000,,Otherwise you'd remember these things can \Nstill move for a bit even without their heads.
+Dialogue: 0,0:03:25.85,0:03:28.98,Default,Min Byung-gu,0000,0000,0000,,You really oughta take their limbs out, too.
+Dialogue: 0,0:03:28.98,0:03:30.86,Default,Baek Yoonho,0000,0000,0000,,R-Right...
+Dialogue: 0,0:03:32.01,0:03:34.75,Default,Ma Dongwook,0000,0000,0000,,The further we go, the stronger they get,
+Dialogue: 0,0:03:34.75,0:03:37.40,Default,Ma Dongwook,0000,0000,0000,,but we still haven't seen \Nany of the bipedal ones.
+Dialogue: 0,0:03:37.40,0:03:39.31,Default,Baek Yoonho,0000,0000,0000,,Right. If I had to guess,
+Dialogue: 0,0:03:39.31,0:03:42.45,Default,Baek Yoonho,0000,0000,0000,,these came from a former generation \Nof queen's guards made obsolete.
+Dialogue: 0,0:03:42.73,0:03:47.23,Default,Lim Tae-gyu,0000,0000,0000,,So these are just the opening act? \NAre we sure we're headed the right way?
+Dialogue: 0,0:03:47.23,0:03:49.27,Default,Choi Jong-in,0000,0000,0000,,We are. I think.
+Dialogue: 0,0:03:49.27,0:03:50.42,Default,Baek Yoonho,0000,0000,0000,,Seriously?
+Dialogue: 0,0:03:50.42,0:03:55.88,Default,Cha Hae-in,0000,0000,0000,,I wouldn't worry. I can smell \Na powerful magic beast from further in.
+Dialogue: 0,0:03:56.27,0:04:01.46,Default,Choi Jong-in,0000,0000,0000,,At that kind of distance, wouldn't \NPresident Baek be able to see them?
+Dialogue: 0,0:04:02.19,0:04:03.10,Default,Baek Yoonho,0000,0000,0000,,Fine.
+Dialogue: 0,0:04:18.73,0:04:19.82,Default,Baek Yoonho,0000,0000,0000,,There!
+Dialogue: 0,0:04:24.09,0:04:26.61,Default,Baek Yoonho,0000,0000,0000,,The queen's up ahead, in the deepest chamber.
+Dialogue: 0,0:04:26.61,0:04:28.90,Default,Baek Yoonho,0000,0000,0000,,She's got plenty of protection, too.
+Dialogue: 0,0:04:29.65,0:04:33.84,Default,Baek Yoonho,0000,0000,0000,,I guess there was a limit to how many ants \Nthe diversionary force could pull away.
+Dialogue: 0,0:04:34.26,0:04:38.29,Default,Baek Yoonho,0000,0000,0000,,And among them are her personal guard, \Neach as strong as an S-Rank.
+Dialogue: 0,0:04:38.29,0:04:40.23,Default,Baek Yoonho,0000,0000,0000,,I couldn't tell how strong \Nthe queen herself was.
+Dialogue: 0,0:04:40.23,0:04:42.24,Default,Baek Yoonho,0000,0000,0000,,This will be a tough fight.
+Dialogue: 0,0:04:42.24,0:04:45.31,Default,Baek Yoonho,0000,0000,0000,,But with this team, I know we can win!
+Dialogue: 0,0:04:46.87,0:04:47.89,Default,Baek Yoonho,0000,0000,0000,,Let's go!
+Dialogue: 0,0:04:48.43,0:04:49.43,Default,Other Hunters,0000,0000,0000,,Right!
+Dialogue: 0,0:04:55.51,0:04:56.93,Default,Izawa Ippei,0000,0000,0000,,Is this the right spot?
+Dialogue: 0,0:04:56.93,0:05:00.22,Default,Izawa Ippei,0000,0000,0000,,We came to check it out after losing \Ncontact with Team Charlie, but...
+Dialogue: 0,0:05:00.22,0:05:02.36,Default,KEI,0000,0000,0000,,Where the hell did they go?
+Dialogue: 0,0:05:03.60,0:05:06.45,DefaultItalics,Izawa Ippei,0000,0000,0000,,They didn't seem to be having \Nany trouble with killing the ants.
+Dialogue: 0,0:05:09.27,0:05:11.06,DefaultItalics,Izawa Ippei,0000,0000,0000,,Fujishima's glasses...
+Dialogue: 0,0:05:12.04,0:05:13.79,Default,Izawa Ippei,0000,0000,0000,,N-No way!
+Dialogue: 0,0:05:17.87,0:05:18.89,Default,Izawa Ippei,0000,0000,0000,,What's wrong?!
+Dialogue: 0,0:05:19.71,0:05:22.93,DefaultItalics,KEI,0000,0000,0000,,What the hell is this awful stench?!
+Dialogue: 0,0:05:24.29,0:05:27.29,DefaultItalics,KEI,0000,0000,0000,,I've never smelt anything like it before!
+Dialogue: 0,0:05:43.87,0:05:45.78,Default,Kumamoto Atsushi,0000,0000,0000,,Have you been able to reach Charlie?
+Dialogue: 0,0:05:45.78,0:05:47.62,Default,Tawata Kanae,0000,0000,0000,,Not yet.
+Dialogue: 0,0:05:47.62,0:05:49.24,Default,Kumamoto Atsushi,0000,0000,0000,,Did something happen to them?
+Dialogue: 0,0:05:49.24,0:05:51.22,Default,Tawata Kanae,0000,0000,0000,,No time to worry about that now!
+Dialogue: 0,0:05:54.04,0:05:56.12,Default,Tawata Kanae,0000,0000,0000,,Try and fight properly this time!
+Dialogue: 0,0:05:56.12,0:05:58.25,Default,Kumamoto Atsushi,0000,0000,0000,,If I have to.
+Dialogue: 0,0:06:04.72,0:06:08.18,Default,Choi Jong-in,0000,0000,0000,,Well, well. Quite the reception.
+Dialogue: 0,0:06:10.04,0:06:14.17,Default,Min Byung-gu,0000,0000,0000,,We had better respond in kind, then.
+Dialogue: 0,0:06:22.11,0:06:24.01,Default,Ma Dongwook,0000,0000,0000,,Stick to the plan, people!
+Dialogue: 0,0:06:24.01,0:06:27.67,Default,Ma Dongwook,0000,0000,0000,,Get ready to light it up, \NMr. Ultimate Weapon!
+Dialogue: 0,0:06:27.67,0:06:29.58,Default,Choi Jong-in,0000,0000,0000,,I know.
+Dialogue: 0,0:06:29.96,0:06:32.28,Default,Ma Dongwook,0000,0000,0000,,You guys have to get past me!
+Dialogue: 0,0:06:40.88,0:06:44.09,Default,Choi Jong-in,0000,0000,0000,,I don't normally use this kind of firepower.
+Dialogue: 0,0:06:44.91,0:06:48.05,Default,Choi Jong-in,0000,0000,0000,,But today, I don't think \NI can afford to hold back!
+Dialogue: 0,0:06:57.94,0:07:01.64,DefaultItalics,Baek Yoonho,0000,0000,0000,,He's right. There's no reason to hold back.
+Dialogue: 0,0:07:01.64,0:07:04.36,DefaultItalics,Baek Yoonho,0000,0000,0000,,As ugly as it might look...
+Dialogue: 0,0:07:04.98,0:07:09.23,DefaultItalics,Baek Yoonho,0000,0000,0000,,I'm gonna slaughter every one of these bugs!
+Dialogue: 0,0:07:20.80,0:07:22.09,DefaultItalics,Cha Hae-in,0000,0000,0000,,There it is.
+Dialogue: 0,0:07:23.26,0:07:25.34,DefaultItalics,Cha Hae-in,0000,0000,0000,,President Baek's magic beast transformation.
+Dialogue: 0,0:07:28.01,0:07:29.54,DefaultItalics,Cameraman,0000,0000,0000,,It's begun...
+Dialogue: 0,0:07:30.33,0:07:34.72,DefaultItalics,TV Producer,0000,0000,0000,,We've got over 80% viewership! \NGet further up so you can get a better shot!
+Dialogue: 0,0:07:34.72,0:07:37.08,DefaultItalics,Cameraman,0000,0000,0000,,Over 80%?!
+Dialogue: 0,0:07:37.55,0:07:39.34,DefaultItalics,Cameraman,0000,0000,0000,,I don't want to let them down...
+Dialogue: 0,0:07:41.16,0:07:43.77,Default,Min Byung-gu,0000,0000,0000,,We're in the boss room of an S-Rank dungeon.
+Dialogue: 0,0:07:43.77,0:07:45.22,Default,Min Byung-gu,0000,0000,0000,,Are you trying to get killed?
+Dialogue: 0,0:07:45.22,0:07:47.52,Default,Cameraman,0000,0000,0000,,No! I'm sure it's...
+Dialogue: 0,0:07:47.52,0:07:49.24,Default,Min Byung-gu,0000,0000,0000,,Just stay behind me.
+Dialogue: 0,0:07:49.71,0:07:51.70,Default,Min Byung-gu,0000,0000,0000,,It's going to get even more intense.
+Dialogue: 0,0:07:53.81,0:07:55.16,DefaultItalics,Announcer,0000,0000,0000,,And look at that!
+Dialogue: 0,0:07:55.16,0:07:58.92,DefaultItalics,Announcer,0000,0000,0000,,The S-Rank hunters have finally \Nreached the queen ant,
+Dialogue: 0,0:07:58.92,0:08:03.42,DefaultItalics,Announcer,0000,0000,0000,,and are battling even now \Nto accomplish their goal!
+Dialogue: 0,0:08:03.81,0:08:06.97,DefaultItalics,Announcer,0000,0000,0000,,We've got S-Rank hunters \Nwho normally never work together,
+Dialogue: 0,0:08:06.97,0:08:10.43,DefaultItalics,Announcer,0000,0000,0000,,fighting in sync with incredible team tactics!
+Dialogue: 0,0:09:14.79,0:09:18.29,DefaultItalics,Announcer,0000,0000,0000,,Hunter Cha's razor-sharp \Nattack pierces an ant!
+Dialogue: 0,0:09:19.86,0:09:21.27,DefaultItalics,Announcer,0000,0000,0000,,It's down!
+Dialogue: 0,0:09:22.00,0:09:24.27,DefaultItalics,Announcer,0000,0000,0000,,The last of the royal guard ants have fallen!
+Dialogue: 0,0:09:34.56,0:09:37.13,Default,Ma Dongwook,0000,0000,0000,,Now! Let's finish it!
+Dialogue: 0,0:09:39.97,0:09:42.02,Default,Lim Tae-gyu,0000,0000,0000,,Chew on these!
+Dialogue: 0,0:09:49.53,0:09:53.38,Default,Baek Yoonho,0000,0000,0000,,Without her guards, the queen's \Njust a big punching bag!
+Dialogue: 0,0:10:10.18,0:10:14.18,Default,Min Byung-gu,0000,0000,0000,,As long as I'm here, I can always get \Nthe rest of you back on your feet!
+Dialogue: 0,0:10:20.13,0:10:23.02,Default,Ma Dongwook,0000,0000,0000,,You're not getting anywhere near our healer!
+Dialogue: 0,0:10:23.44,0:10:25.48,Default,Choi Jong-in,0000,0000,0000,,Keep her occupied!
+Dialogue: 0,0:10:43.50,0:10:46.21,Default,Ma Dongwook,0000,0000,0000,,She's still got this much strength left?!
+Dialogue: 0,0:10:49.42,0:10:52.30,DefaultItalics,Baek Yoonho,0000,0000,0000,,Was that her death cry? \NNo... It's something else!
+Dialogue: 0,0:10:53.76,0:10:55.13,DefaultTop,Choi Jong-in,0000,0000,0000,,You won't escape!
+Dialogue: 0,0:10:53.76,0:10:55.13,Default,Lim Tae-gyu,0000,0000,0000,,Hold it right there!
+Dialogue: 0,0:11:02.35,0:11:03.43,Default,Baek Yoonho,0000,0000,0000,,Hunter Cha!
+Dialogue: 0,0:11:02.35,0:11:03.43,DefaultTop,Ma Dongwook,0000,0000,0000,,Miss Cha!
+Dialogue: 0,0:11:03.43,0:11:04.53,Default,Cha Hae-in,0000,0000,0000,,On it!
+Dialogue: 0,0:11:06.83,0:11:08.03,Default,Min Byung-gu,0000,0000,0000,,One last push!
+Dialogue: 0,0:12:01.30,0:12:02.37,Default,Announcer,0000,0000,0000,,They've done it!
+Dialogue: 0,0:12:05.79,0:12:06.97,Default,Woo Jinchul,0000,0000,0000,,Chairman!
+Dialogue: 0,0:12:10.01,0:12:12.71,Default,Go Gunhee,0000,0000,0000,,Mission accomplished, eh?
+Dialogue: 0,0:12:13.61,0:12:15.85,Default,Cha Hae-in,0000,0000,0000,,It's... over now, right?
+Dialogue: 0,0:12:16.27,0:12:17.58,Default,Lim Tae-gyu,0000,0000,0000,,Seems like it.
+Dialogue: 0,0:12:17.58,0:12:21.63,Default,Lim Tae-gyu,0000,0000,0000,,With the queen dead, the surviving ants \Nwill die out within a year.
+Dialogue: 0,0:12:21.63,0:12:24.71,Default,Ma Dongwook,0000,0000,0000,,And then people will be able \Nto move back to the island.
+Dialogue: 0,0:12:24.71,0:12:27.43,Default,Baek Yoonho,0000,0000,0000,,That scream at the end, though...
+Dialogue: 0,0:12:27.43,0:12:31.90,Default,Min Byung-gu,0000,0000,0000,,What's it matter?! We managed \Nto beat the ant queen!
+Dialogue: 0,0:12:32.42,0:12:35.21,Default,Min Byung-gu,0000,0000,0000,,We've avenged Eunseok!
+Dialogue: 0,0:12:43.98,0:12:45.26,Default,Baek Yoonho,0000,0000,0000,,I guess you're right.
+Dialogue: 0,0:12:49.62,0:12:51.00,Default,Sugimoto Reiji,0000,0000,0000,,Bad news!
+Dialogue: 0,0:12:51.00,0:12:53.22,Default,Sugimoto Reiji,0000,0000,0000,,The ants are moving back into the nest!
+Dialogue: 0,0:12:53.22,0:12:54.25,DefaultItalics,Goto Ryuji,0000,0000,0000,,What?
+Dialogue: 0,0:12:54.25,0:12:56.00,DefaultItalics,Sugimoto Reiji,0000,0000,0000,,The signal interference has lost effectiveness!
+Dialogue: 0,0:12:57.24,0:13:01.16,Default,Goto Ryuji,0000,0000,0000,,What's going on? Give me a sitrep, fast.
+Dialogue: 0,0:13:09.11,0:13:12.53,Default,Choi Jong-in,0000,0000,0000,,My cage of fire...  was broken?
+Dialogue: 0,0:13:13.85,0:13:17.55,Default,Lim Tae-gyu,0000,0000,0000,,What's going on here?! \NWe should still have time!
+Dialogue: 0,0:13:17.55,0:13:20.48,Default,Min Byung-gu,0000,0000,0000,,When the queen screamed just before...
+Dialogue: 0,0:13:20.48,0:13:21.82,Default,Ma Dongwook,0000,0000,0000,,She was calling for help!
+Dialogue: 0,0:13:21.82,0:13:26.30,Default,Cha Hae-in,0000,0000,0000,,Even then, the ants outside shouldn't be able \Nto break the Guildmaster's technique.
+Dialogue: 0,0:13:26.30,0:13:27.28,Default,Min Byung-gu,0000,0000,0000,,Then what...
+Dialogue: 0,0:13:27.28,0:13:28.29,Default,Baek Yoonho,0000,0000,0000,,We've got incoming!
+Dialogue: 0,0:13:50.23,0:13:52.27,Default,Baek Yoonho,0000,0000,0000,,A black... ant?
+Dialogue: 0,0:14:00.39,0:14:04.70,DefaultItalics,Cha Hae-in,0000,0000,0000,,Between its spine-chilling presence \Nand this smell...
+Dialogue: 0,0:14:04.70,0:14:05.91,DefaultItalics,Cha Hae-in,0000,0000,0000,,What is this thing?!
+Dialogue: 0,0:14:06.29,0:14:09.37,DefaultItalics,Cha Hae-in,0000,0000,0000,,That's... no ordinary magic beast!
+Dialogue: 0,0:14:09.37,0:14:12.60,DefaultItalics,Ma Dongwook,0000,0000,0000,,There's no time to hesitate. \NWe need to take it down—
+Dialogue: 0,0:14:18.74,0:14:20.75,DefaultItalics,Ma Dongwook,0000,0000,0000,,It... ignored us?
+Dialogue: 0,0:14:58.63,0:14:59.53,Default,Ma Dongwook,0000,0000,0000,,Miss Cha!
+Dialogue: 0,0:15:02.72,0:15:03.76,Default,Ma Dongwook,0000,0000,0000,,Don't screw with us!
+Dialogue: 0,0:15:30.47,0:15:31.93,DefaultItalics,Lim Tae-gyu,0000,0000,0000,,Eat this!
+Dialogue: 0,0:15:34.58,0:15:35.85,DefaultItalics,Lim Tae-gyu,0000,0000,0000,,He snatched it out of the air?!
+Dialogue: 0,0:15:45.20,0:15:48.62,Default,Ma Dongwook,0000,0000,0000,,Surprised? We've got one heck \Nof a healer backing us up!
+Dialogue: 0,0:15:49.36,0:15:52.54,DefaultItalics,Min Byung-gu,0000,0000,0000,,This is the skill I use to keep \Nmyself safe: Camouflage.
+Dialogue: 0,0:15:52.54,0:15:55.77,DefaultItalics,Min Byung-gu,0000,0000,0000,,It's able to conceal my presence \Nthe way that Stealth does.
+Dialogue: 0,0:15:55.77,0:15:58.09,DefaultItalics,Min Byung-gu,0000,0000,0000,,The downside is that \Nyou can't move while using it,
+Dialogue: 0,0:15:58.09,0:16:00.44,DefaultItalics,Min Byung-gu,0000,0000,0000,,but for a healer, that's not an issue.
+Dialogue: 0,0:16:00.44,0:16:03.45,DefaultItalics,Min Byung-gu,0000,0000,0000,,As long as I'm here, my team won't go down!
+Dialogue: 0,0:16:17.16,0:16:20.69,DefaultItalics,Min Byung-gu,0000,0000,0000,,No... Don't tell me that \Neven Camouflage isn't...
+Dialogue: 0,0:16:22.75,0:16:23.75,Default,Baek Yoonho,0000,0000,0000,,Byung-gu!
+Dialogue: 0,0:16:34.15,0:16:35.97,Default,Baek Yoonho,0000,0000,0000,,Byung-gu!
+Dialogue: 0,0:16:37.13,0:16:40.16,Default,Min Byung-gu,0000,0000,0000,,Yoonho... Run...
+Dialogue: 0,0:17:05.36,0:17:08.13,Default,Ant King,0000,0000,0000,,Yoon...ho...
+Dialogue: 0,0:17:09.75,0:17:12.09,Default,Ant King,0000,0000,0000,,Run...
+Dialogue: 0,0:17:14.64,0:17:18.42,Default,Ant King,0000,0000,0000,,Yoon...ho...
+Dialogue: 0,0:17:19.87,0:17:21.59,Default,Min Byung-gu/Ant King,0000,0000,0000,,Run.
+Dialogue: 0,0:17:22.36,0:17:24.20,Default,Baek Yoonho,0000,0000,0000,,You son of a bitch...
+Dialogue: 0,0:17:25.47,0:17:28.98,Default,Ant King,0000,0000,0000,,You are all... weak.
+Dialogue: 0,0:17:29.62,0:17:35.42,Default,Ant King,0000,0000,0000,,You have... killed... our queen.
+Dialogue: 0,0:17:35.42,0:17:40.31,Default,Ant King,0000,0000,0000,,Killing your soldiers... \Nwill not make up for that.
+Dialogue: 0,0:17:40.82,0:17:45.64,Default,Ant King,0000,0000,0000,,Where is... your king?
+Dialogue: 0,0:17:46.14,0:17:47.34,Default,Baek Yoonho,0000,0000,0000,,A king...?
+Dialogue: 0,0:17:50.80,0:17:53.30,Default,Ant King,0000,0000,0000,,On the outside...
+Dialogue: 0,0:17:53.30,0:17:55.14,Default,Ant King,0000,0000,0000,,There is one... stronger.
+Dialogue: 0,0:18:03.16,0:18:06.19,Default,Baek Yoonho,0000,0000,0000,,Outside? Does he mean Goto?
+Dialogue: 0,0:18:06.19,0:18:11.50,Default,Baek Yoonho,0000,0000,0000,,No, I'll figure it out later. \N We need to get out of here, now!
+Dialogue: 0,0:18:13.81,0:18:16.68,Default,Baek Yoonho,0000,0000,0000,,Damn it! The rest are back, too!
+Dialogue: 0,0:18:19.34,0:18:20.58,Default,Ishida Mari,0000,0000,0000,,This is strange.
+Dialogue: 0,0:18:21.07,0:18:25.40,Default,Ishida Mari,0000,0000,0000,,It's not just Charlie. \NNow Delta isn't responding, either.
+Dialogue: 0,0:18:25.40,0:18:27.54,Default,Goto Ryuji,0000,0000,0000,,Could be a bad signal.
+Dialogue: 0,0:18:27.54,0:18:30.55,Default,Goto Ryuji,0000,0000,0000,,They should still be within range, though.
+Dialogue: 0,0:18:31.02,0:18:32.76,Default,Goto Ryuji,0000,0000,0000,,Bravo, respond.
+Dialogue: 0,0:18:33.14,0:18:34.61,Default,Tawata Kanae,0000,0000,0000,,This is Bravo.
+Dialogue: 0,0:18:34.61,0:18:37.04,DefaultItalics,Goto Ryuji,0000,0000,0000,,Can you reach Charlie and Delta?
+Dialogue: 0,0:18:37.47,0:18:40.93,Default,Tawata Kanae,0000,0000,0000,,No, sir. We haven't been able to \Ncontact them on our end either.
+Dialogue: 0,0:18:40.93,0:18:42.93,DefaultItalics,Tawata Kanae,0000,0000,0000,,Should we investigate?
+Dialogue: 0,0:18:43.31,0:18:45.32,Default,Goto Ryuji,0000,0000,0000,,We're headed there now.
+Dialogue: 0,0:18:45.97,0:18:49.11,Default,Goto Ryuji,0000,0000,0000,,When you're finished on your end, \Nwe'll meet at the rendezvous point.
+Dialogue: 0,0:18:49.11,0:18:50.42,DefaultItalics,Tawata Kanae,0000,0000,0000,,Roger that.
+Dialogue: 0,0:18:55.41,0:18:56.74,Default,Ishida Mari,0000,0000,0000,,How...?
+Dialogue: 0,0:18:59.04,0:19:00.20,DefaultItalics,Matsumoto Shigeo,0000,0000,0000,,It's me.
+Dialogue: 0,0:19:00.73,0:19:03.54,Default,Matsumoto Shigeo,0000,0000,0000,,Why haven't you been checking in \Naccording to schedule?
+Dialogue: 0,0:19:03.94,0:19:05.71,DefaultItalics,Goto Ryuji,0000,0000,0000,,We've had casualties.
+Dialogue: 0,0:19:05.71,0:19:09.36,Default,Matsumoto Shigeo,0000,0000,0000,,Well, that isn't good.
+Dialogue: 0,0:19:09.36,0:19:10.95,Default,Matsumoto Shigeo,0000,0000,0000,,I thought you had been given the order
+Dialogue: 0,0:19:10.95,0:19:13.92,Default,Matsumoto Shigeo,0000,0000,0000,,to only take out the evolved variants \Nin order to minimize risk?
+Dialogue: 0,0:19:13.92,0:19:16.18,DefaultItalics,Goto Ryuji,0000,0000,0000,,They just weren't strong enough.
+Dialogue: 0,0:19:16.57,0:19:18.70,Default,Matsumoto Shigeo,0000,0000,0000,,That's the kind of response \NI'd expect from you.
+Dialogue: 0,0:19:18.70,0:19:23.14,Default,Matsumoto Shigeo,0000,0000,0000,,Well, as long as you're there, \Na handful of KIA is acceptable.
+Dialogue: 0,0:19:23.70,0:19:26.88,DefaultItalics,Matsumoto Shigeo,0000,0000,0000,,Incidentally, are our allies \Nseeing to the queen?
+Dialogue: 0,0:19:26.88,0:19:31.69,Default,Goto Ryuji,0000,0000,0000,,Yes, but the signal disruption lost \Nits effectiveness a few moments ago,
+Dialogue: 0,0:19:31.69,0:19:34.86,Default,Goto Ryuji,0000,0000,0000,,and I was able to confirm the ants \Nreturning to the queen's nest.
+Dialogue: 0,0:19:36.44,0:19:39.82,DefaultItalics,Matsumoto Shigeo,0000,0000,0000,,And what would you say \Ntheir probability of survival is?
+Dialogue: 0,0:19:39.82,0:19:44.29,Default,Goto Ryuji,0000,0000,0000,,Considering the size of the force \Nthey're against... zero percent.
+Dialogue: 0,0:19:44.85,0:19:46.30,Default,Matsumoto Shigeo,0000,0000,0000,,Good.
+Dialogue: 0,0:19:46.69,0:19:49.38,Default,Matsumoto Shigeo,0000,0000,0000,,Despite fighting their hardest, \Nour Japanese hunters
+Dialogue: 0,0:19:49.38,0:19:53.91,Default,Matsumoto Shigeo,0000,0000,0000,,were forced into a temporary retreat \Nafter our allies were wiped out.
+Dialogue: 0,0:19:53.91,0:19:58.06,Default,Matsumoto Shigeo,0000,0000,0000,,In honor of their sacrifice, \Nthe second strike team waiting at sea
+Dialogue: 0,0:19:58.06,0:20:00.01,Default,Matsumoto Shigeo,0000,0000,0000,,will complete the clearing of Jeju Island.
+Dialogue: 0,0:20:00.01,0:20:02.77,Default,Matsumoto Shigeo,0000,0000,0000,,A rival nation's military might is decimated,
+Dialogue: 0,0:20:02.77,0:20:06.07,Default,Matsumoto Shigeo,0000,0000,0000,,and our country receives the glory \Nof conquering an S-Rank gate.
+Dialogue: 0,0:20:06.48,0:20:08.00,DefaultItalics,Matsumoto Shigeo,0000,0000,0000,,The timing is right.
+Dialogue: 0,0:20:08.00,0:20:12.41,DefaultItalics,Matsumoto Shigeo,0000,0000,0000,,All hunters, withdraw and rendezvous \Nwith the secondary strike force in the fleet.
+Dialogue: 0,0:20:13.68,0:20:14.69,Default,Goto Ryuji,0000,0000,0000,,Fine.
+Dialogue: 0,0:20:15.76,0:20:17.74,Default,Goto Ryuji,0000,0000,0000,,Orders are in from Chairman Matsumoto.
+Dialogue: 0,0:20:17.74,0:20:18.95,Default,Goto Ryuji,0000,0000,0000,,We're pulling out.
+Dialogue: 0,0:20:19.43,0:20:21.49,Default,Goto Ryuji,0000,0000,0000,,We'll have to collect the bodies at a—
+Dialogue: 0,0:20:26.16,0:20:27.35,Default,Hoshino Minoru,0000,0000,0000,,Ishida!
+Dialogue: 0,0:20:27.35,0:20:28.35,Default,Goto Ryuji,0000,0000,0000,,Go.
+Dialogue: 0,0:20:28.91,0:20:33.38,Default,Goto Ryuji,0000,0000,0000,,Head out to sea with Bravo \Nand prep for the next phase.
+Dialogue: 0,0:20:33.38,0:20:34.50,Default,Hoshino Minoru,0000,0000,0000,,But, sir!
+Dialogue: 0,0:20:34.50,0:20:36.91,Default,Goto Ryuji,0000,0000,0000,,If you stay behind, you'll only be in my way.
+Dialogue: 0,0:20:38.26,0:20:39.05,Default,Goto Ryuji,0000,0000,0000,,Go.
+Dialogue: 0,0:20:39.05,0:20:40.15,Default,Hoshino Minoru,0000,0000,0000,,Roger!
+Dialogue: 0,0:20:43.35,0:20:45.76,DefaultItalics,Goto Ryuji,0000,0000,0000,,What a powerful aura.
+Dialogue: 0,0:20:46.58,0:20:49.02,Default,Ant King,0000,0000,0000,,Are you... their king?
+Dialogue: 0,0:20:50.01,0:20:53.00,DefaultItalics,Goto Ryuji,0000,0000,0000,,A talking ant. Interesting.
+Dialogue: 0,0:20:54.93,0:20:58.94,Default,Goto Ryuji,0000,0000,0000,,The king... Yeah, I'm the king.
+Dialogue: 0,0:21:04.02,0:21:05.61,DefaultItalics,Goto Ryuji,0000,0000,0000,,What is this magic power?!
+Dialogue: 0,0:21:06.21,0:21:10.11,DefaultItalics,Goto Ryuji,0000,0000,0000,,I feel like... I've encountered \Nsomething like this before.
+Dialogue: 0,0:21:11.42,0:21:12.62,DefaultItalics,Goto Ryuji,0000,0000,0000,,I think it was...
+Dialogue: 0,0:21:22.26,0:21:25.11,Default,Baek Yoonho,0000,0000,0000,,Choi Jong-in! Crank up the heat!
+Dialogue: 0,0:21:25.11,0:21:28.68,Default,Choi Jong-in,0000,0000,0000,,Don't be ridiculous! \NThis is as hot as it gets!
+Dialogue: 0,0:21:29.01,0:21:31.39,DefaultItalics,Baek Yoonho,0000,0000,0000,,We're all hurt pretty bad.
+Dialogue: 0,0:21:31.39,0:21:34.56,DefaultItalics,Baek Yoonho,0000,0000,0000,,Too bad to properly fight back.
+Dialogue: 0,0:21:34.87,0:21:37.52,DefaultItalics,Baek Yoonho,0000,0000,0000,,And our last hope, Choi, is fading...
+Dialogue: 0,0:21:43.67,0:21:45.12,Default,Baek Yoonho,0000,0000,0000,,We're done for.
+Dialogue: 0,0:21:53.70,0:21:54.76,DefaultItalics,Baek Yoonho,0000,0000,0000,,Who are these...
+Dialogue: 0,0:21:55.44,0:21:57.21,DefaultItalics,Baek Yoonho,0000,0000,0000,,shadowy soldiers?!
+Dialogue: 0,0:22:03.64,0:22:04.86,Default,Sung Jinwoo,0000,0000,0000,,Exchange.

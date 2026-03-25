@@ -1,0 +1,514 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScarledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,18,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.58,0:00:03.21,Default,,0,0,0,,♪
+Dialogue: 0,0:00:07.13,0:00:08.30,Default,,0,0,0,,[SHIMIZU AKARI]\NHuh?
+Dialogue: 0,0:00:09.38,0:00:10.84,Default,,0,0,0,,[blood splashing]
+Dialogue: 0,0:00:11.68,0:00:13.39,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:00:13.47,0:00:15.52,Default,,0,0,0,,[gasps]\NDon't let your guard down!
+Dialogue: 0,0:00:15.60,0:00:16.77,Default,,0,0,0,,Something's here!
+Dialogue: 0,0:00:16.85,0:00:18.52,Default,,0,0,0,,[FUJISHIMA TATSUMI]\NObviously!
+Dialogue: 0,0:00:19.64,0:00:21.48,Default,,0,0,0,,Hold still, you piece of...
+Dialogue: 0,0:00:22.44,0:00:23.94,Default,,0,0,0,,[FUJISHIMA TATSUMI]\NKenzo!
+Dialogue: 0,0:00:24.02,0:00:25.19,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:00:25.27,0:00:27.32,Default,,0,0,0,,♪
+Dialogue: 0,0:00:27.40,0:00:29.11,Default,,0,0,0,,[running footsteps]
+Dialogue: 0,0:00:29.20,0:00:30.20,Default,,0,0,0,,[FUJISHIMA TATSUMI]\NI've got you!
+Dialogue: 0,0:00:30.28,0:00:31.66,Default,,0,0,0,,[sword clanking]
+Dialogue: 0,0:00:31.74,0:00:34.12,Default,,0,0,0,,♪
+Dialogue: 0,0:00:34.20,0:00:36.29,Default,,0,0,0,,[blood splashing]
+Dialogue: 0,0:02:13.63,0:02:15.34,Default,,0,0,0,,♪
+Dialogue: 0,0:02:16.76,0:02:18.97,Default,,0,0,0,,[squealing]
+Dialogue: 0,0:02:19.06,0:02:20.31,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:02:21.27,0:02:22.89,Default,,0,0,0,,[MA DONGWOOK] These insects\Nare in the same league
+Dialogue: 0,0:02:22.98,0:02:24.14,Default,,0,0,0,,as S-ranks!
+Dialogue: 0,0:02:24.23,0:02:26.23,Default,,0,0,0,,Uh!\N[growls]
+Dialogue: 0,0:02:27.52,0:02:29.73,Default,,0,0,0,,But they're still\Njust magic beasts!
+Dialogue: 0,0:02:29.82,0:02:32.07,Default,,0,0,0,,No finesse, no real strategy.
+Dialogue: 0,0:02:32.15,0:02:35.11,Default,,0,0,0,,Against the versatile tactics\Nwe bring to a battle.
+Dialogue: 0,0:02:35.20,0:02:36.61,Default,,0,0,0,,They can't win!
+Dialogue: 0,0:02:36.70,0:02:38.95,Default,,0,0,0,,♪
+Dialogue: 0,0:02:43.91,0:02:45.29,Default,,0,0,0,,[blood splashing]
+Dialogue: 0,0:02:45.37,0:02:47.21,Default,,0,0,0,,♪
+Dialogue: 0,0:02:55.09,0:02:56.47,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:02:57.18,0:02:58.22,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:02:58.30,0:03:00.85,Default,,0,0,0,,The ants down here\Nare surprisingly durable.
+Dialogue: 0,0:03:00.93,0:03:02.06,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:03:02.14,0:03:04.52,Default,,0,0,0,,It's a good thing there\Nweren't too many of them.
+Dialogue: 0,0:03:04.60,0:03:06.94,Default,,0,0,0,,[MIN BYUNG-GU] It's not like\Nit would've mattered anyway.
+Dialogue: 0,0:03:07.02,0:03:09.02,Default,,0,0,0,,Don't forget,\Nyou got me backing you up.
+Dialogue: 0,0:03:09.11,0:03:10.65,Default,,0,0,0,,So, you can relax!
+Dialogue: 0,0:03:10.73,0:03:12.15,Default,,0,0,0,,That's some big talk for a guy
+Dialogue: 0,0:03:12.23,0:03:14.86,Default,,0,0,0,,who was almost\Ntoo scared to join us.
+Dialogue: 0,0:03:14.94,0:03:16.45,Default,,0,0,0,,[MIN BYUNG-GU]\NGive it a rest, Yoonho.
+Dialogue: 0,0:03:16.53,0:03:19.20,Default,,0,0,0,,What is this?\NYour first raid?
+Dialogue: 0,0:03:19.28,0:03:20.99,Default,,0,0,0,,You're getting sloppy.
+Dialogue: 0,0:03:21.08,0:03:22.99,Default,,0,0,0,,These ants\Ndon't go down that easy.
+Dialogue: 0,0:03:23.08,0:03:25.96,Default,,0,0,0,,Even without their heads\Nthey can still move.
+Dialogue: 0,0:03:26.04,0:03:28.83,Default,,0,0,0,,You really oughta be\Ndismembering them, too.
+Dialogue: 0,0:03:28.92,0:03:30.75,Default,,0,0,0,,Oh, yeah.
+Dialogue: 0,0:03:30.84,0:03:32.00,Default,,0,0,0,,[blood splatters]
+Dialogue: 0,0:03:32.09,0:03:34.42,Default,,0,0,0,,The further we go,\Nthe stronger they get,
+Dialogue: 0,0:03:34.51,0:03:37.34,Default,,0,0,0,,but we still haven't seen\Nany of those biped ants.
+Dialogue: 0,0:03:37.43,0:03:40.14,Default,,0,0,0,,If I had to guess, these came\Nfrom a previous generation
+Dialogue: 0,0:03:40.22,0:03:42.81,Default,,0,0,0,,of queen's guards\Nthat were made obsolete.
+Dialogue: 0,0:03:42.89,0:03:44.97,Default,,0,0,0,,So, they were just\Nthe opening act, huh?
+Dialogue: 0,0:03:45.06,0:03:47.06,Default,,0,0,0,,Are we sure\Nwe're on the right path?
+Dialogue: 0,0:03:47.14,0:03:49.40,Default,,0,0,0,,We're going the right way.\NI think.
+Dialogue: 0,0:03:49.48,0:03:50.61,Default,,0,0,0,,[BAEK YOONHO]\NWhat?
+Dialogue: 0,0:03:50.69,0:03:51.86,Default,,0,0,0,,I wouldn't worry.
+Dialogue: 0,0:03:51.94,0:03:53.15,Default,,0,0,0,,There's something up ahead.
+Dialogue: 0,0:03:53.23,0:03:56.15,Default,,0,0,0,,I can smell a powerful\Nmagic-beast further within.
+Dialogue: 0,0:03:56.24,0:03:58.78,Default,,0,0,0,,If we've gotten close enough\Nfor you to smell them,
+Dialogue: 0,0:03:58.86,0:04:01.70,Default,,0,0,0,,then President Baek should\Nbe able to find them, right?
+Dialogue: 0,0:04:01.78,0:04:03.41,Default,,0,0,0,,[scoffs]\NFine.
+Dialogue: 0,0:04:03.49,0:04:05.12,Default,,0,0,0,,♪
+Dialogue: 0,0:04:19.05,0:04:20.47,Default,,0,0,0,,There she is!
+Dialogue: 0,0:04:20.55,0:04:22.55,Default,,0,0,0,,♪
+Dialogue: 0,0:04:24.35,0:04:26.56,Default,,0,0,0,,The queen's waiting for us\Nin the deepest chamber.
+Dialogue: 0,0:04:26.64,0:04:28.68,Default,,0,0,0,,Looks like she's got\Nplenty of protection.
+Dialogue: 0,0:04:29.56,0:04:31.35,Default,,0,0,0,,Guess there was a limit\Non how many ants
+Dialogue: 0,0:04:31.44,0:04:33.40,Default,,0,0,0,,the diversionary force\Ncould lure away.
+Dialogue: 0,0:04:34.44,0:04:36.15,Default,,0,0,0,,Her personal guards\Nare there too,
+Dialogue: 0,0:04:36.23,0:04:38.24,Default,,0,0,0,,each of them\Nas strong as an S-rank.
+Dialogue: 0,0:04:38.32,0:04:41.03,Default,,0,0,0,,Unfortunately, I couldn't tell\Nhow strong the queen is.
+Dialogue: 0,0:04:41.11,0:04:42.57,Default,,0,0,0,,It'll be a tough fight.
+Dialogue: 0,0:04:42.66,0:04:45.08,Default,,0,0,0,,But with this lineup,\NI know we can win!
+Dialogue: 0,0:04:46.83,0:04:48.41,Default,,0,0,0,,Let's go!
+Dialogue: 0,0:04:48.50,0:04:49.75,Default,,0,0,0,,[TOGETHER]\NRight!
+Dialogue: 0,0:04:50.83,0:04:52.50,Default,,0,0,0,,[running footsteps]
+Dialogue: 0,0:04:52.58,0:04:54.09,Default,,0,0,0,,[groans]
+Dialogue: 0,0:04:55.21,0:04:56.42,Default,,0,0,0,,[IZAWA IPPEI]\NWe're here.
+Dialogue: 0,0:04:56.50,0:04:58.42,Default,,0,0,0,,This is Team Charlie's\Nlast known location
+Dialogue: 0,0:04:58.51,0:04:59.63,Default,,0,0,0,,before they went dark.
+Dialogue: 0,0:05:00.63,0:05:02.26,Default,,0,0,0,,[KEI] Where the hell\Ncould they have gone?
+Dialogue: 0,0:05:03.80,0:05:04.97,Default,,0,0,0,,[IZAWA IPPEI] Doesn't look like\Nthey had trouble
+Dialogue: 0,0:05:05.05,0:05:06.43,Default,,0,0,0,,killing the ants.
+Dialogue: 0,0:05:08.18,0:05:09.68,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:05:09.77,0:05:11.52,Default,,0,0,0,,Fujishima's glasses.
+Dialogue: 0,0:05:11.60,0:05:12.65,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:05:12.73,0:05:13.77,Default,,0,0,0,,No way!
+Dialogue: 0,0:05:13.86,0:05:15.48,Default,,0,0,0,,[trembling]
+Dialogue: 0,0:05:15.57,0:05:17.19,Default,,0,0,0,,[Kei grunts]
+Dialogue: 0,0:05:17.28,0:05:18.90,Default,,0,0,0,,-[Kei coughing]\N-[IZAWA IPPEI] What's wrong?
+Dialogue: 0,0:05:19.78,0:05:21.24,Default,,0,0,0,,[KEI]\NThis stench.
+Dialogue: 0,0:05:21.32,0:05:22.91,Default,,0,0,0,,It's beyond revolting.
+Dialogue: 0,0:05:22.99,0:05:24.49,Default,,0,0,0,,[groans]
+Dialogue: 0,0:05:24.57,0:05:26.83,Default,,0,0,0,,I've never smelled\Nanything like it before!
+Dialogue: 0,0:05:28.20,0:05:29.54,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:05:29.62,0:05:31.41,Default,,0,0,0,,[screaming]
+Dialogue: 0,0:05:34.21,0:05:36.29,Default,,0,0,0,,[rumbling]
+Dialogue: 0,0:05:38.21,0:05:39.42,Default,,0,0,0,,[shattering]
+Dialogue: 0,0:05:42.76,0:05:44.01,Default,,0,0,0,,[running footsteps]
+Dialogue: 0,0:05:44.09,0:05:46.26,Default,,0,0,0,,[KUMAMOTO ATSUSHI]\NAny luck reaching Team Charlie?
+Dialogue: 0,0:05:46.35,0:05:48.06,Default,,0,0,0,,[TAWATA KANAE]\NThey haven't responded yet.
+Dialogue: 0,0:05:48.14,0:05:49.43,Default,,0,0,0,,[KUMAMOTO ATSUSHI] Wonder if\Nsomething happened to them.
+Dialogue: 0,0:05:49.52,0:05:51.73,Default,,0,0,0,,[TAWATA KANAE] This isn't\Nthe time to worry about that!
+Dialogue: 0,0:05:54.31,0:05:56.02,Default,,0,0,0,,You gonna actually\Nfight this time?
+Dialogue: 0,0:05:56.11,0:05:58.19,Default,,0,0,0,,[KUMAMOTO ATSUSHI]\NI guess if I have to.
+Dialogue: 0,0:05:58.27,0:06:00.07,Default,,0,0,0,,♪
+Dialogue: 0,0:06:04.95,0:06:06.20,Default,,0,0,0,,[CHOI JONG-IN]\NWell, well.
+Dialogue: 0,0:06:06.28,0:06:08.24,Default,,0,0,0,,They're rolling out\Nthe red carpet for us.
+Dialogue: 0,0:06:08.33,0:06:10.08,Default,,0,0,0,,♪
+Dialogue: 0,0:06:10.16,0:06:11.58,Default,,0,0,0,,We wouldn't wanna be rude,
+Dialogue: 0,0:06:11.66,0:06:13.79,Default,,0,0,0,,let's respond to their\Nhospitality in kind.
+Dialogue: 0,0:06:14.58,0:06:15.83,Default,,0,0,0,,[all gasp]
+Dialogue: 0,0:06:18.75,0:06:20.09,Default,,0,0,0,,[smirks]
+Dialogue: 0,0:06:22.22,0:06:24.26,Default,,0,0,0,,Remember to stick\Nto the plan, people!
+Dialogue: 0,0:06:24.34,0:06:26.59,Default,,0,0,0,,I'll make space for\NMister Ultimate Weapon here
+Dialogue: 0,0:06:26.68,0:06:27.89,Default,,0,0,0,,to light 'em all up.
+Dialogue: 0,0:06:27.97,0:06:29.89,Default,,0,0,0,,[CHOI JONG-IN]\NYes, we know what to do.
+Dialogue: 0,0:06:29.97,0:06:32.39,Default,,0,0,0,,[MA DONGWOOK] You ants\Nare gonna have to get past me!
+Dialogue: 0,0:06:32.48,0:06:33.52,Default,,0,0,0,,Ugh!
+Dialogue: 0,0:06:33.60,0:06:34.81,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:06:34.89,0:06:36.56,Default,,0,0,0,,♪
+Dialogue: 0,0:06:37.56,0:06:39.07,Default,,0,0,0,,[fire crackling]
+Dialogue: 0,0:06:39.15,0:06:40.82,Default,,0,0,0,,[rumbling]
+Dialogue: 0,0:06:41.19,0:06:42.07,Default,,0,0,0,,[CHOI JONG-IN]\NIt's been a long time
+Dialogue: 0,0:06:42.15,0:06:44.78,Default,,0,0,0,,since I've had to use\Nthis kind of firepower.
+Dialogue: 0,0:06:44.86,0:06:46.74,Default,,0,0,0,,But I can't afford\Nto hold anything back
+Dialogue: 0,0:06:46.82,0:06:48.41,Default,,0,0,0,,with so much on the line.
+Dialogue: 0,0:06:48.49,0:06:49.49,Default,,0,0,0,,Hm!
+Dialogue: 0,0:06:49.58,0:06:51.66,Default,,0,0,0,,♪
+Dialogue: 0,0:06:52.79,0:06:54.29,Default,,0,0,0,,[explosion]
+Dialogue: 0,0:06:55.16,0:06:56.79,Default,,0,0,0,,♪
+Dialogue: 0,0:06:56.87,0:06:58.21,Default,,0,0,0,,[squealing]
+Dialogue: 0,0:06:58.29,0:06:59.46,Default,,0,0,0,,[BAEK YOONHO]\NHe's right.
+Dialogue: 0,0:06:59.54,0:07:02.13,Default,,0,0,0,,There's no reason\Nto hold anything back.
+Dialogue: 0,0:07:02.21,0:07:05.01,Default,,0,0,0,,It doesn't matter\Nhow ugly it might get.
+Dialogue: 0,0:07:05.09,0:07:07.18,Default,,0,0,0,,I'm going slaughter\Nthese monsters,
+Dialogue: 0,0:07:07.26,0:07:09.18,Default,,0,0,0,,down to the last filthy bug!
+Dialogue: 0,0:07:09.89,0:07:11.22,Default,,0,0,0,,[growls]
+Dialogue: 0,0:07:11.31,0:07:12.89,Default,,0,0,0,,[roars]
+Dialogue: 0,0:07:12.97,0:07:14.73,Default,,0,0,0,,♪
+Dialogue: 0,0:07:18.94,0:07:20.98,Default,,0,0,0,,[panting]
+Dialogue: 0,0:07:21.07,0:07:22.07,Default,,0,0,0,,[CHA HAE-IN]\NThere it is.
+Dialogue: 0,0:07:22.15,0:07:23.15,Default,,0,0,0,,[roars]
+Dialogue: 0,0:07:23.40,0:07:25.15,Default,,0,0,0,,[CHA HAE-IN] President Baek's\Ntransformation.
+Dialogue: 0,0:07:25.24,0:07:26.95,Default,,0,0,0,,♪
+Dialogue: 0,0:07:28.36,0:07:30.32,Default,,0,0,0,,[CAMERAMAN 22A]\NIt's started.
+Dialogue: 0,0:07:30.41,0:07:32.62,Default,,0,0,0,,[PRODUCER 23A]\NWe've got over 80% viewership!
+Dialogue: 0,0:07:32.70,0:07:34.20,Default,,0,0,0,,See if you can get\Na better angle!
+Dialogue: 0,0:07:35.16,0:07:37.00,Default,,0,0,0,,[CAMERAMAN 22A] There are\Nthat many people watching this?
+Dialogue: 0,0:07:37.08,0:07:38.37,Default,,0,0,0,,I don't want to let them down.
+Dialogue: 0,0:07:39.13,0:07:41.29,Default,,0,0,0,,[gasps]\NHuh?
+Dialogue: 0,0:07:41.38,0:07:43.67,Default,,0,0,0,,We're inside the boss room\Nof an S-rank dungeon.
+Dialogue: 0,0:07:43.75,0:07:45.26,Default,,0,0,0,,Are you trying to die?
+Dialogue: 0,0:07:45.34,0:07:47.47,Default,,0,0,0,,Uh, no, just trying\Nto get a better look, sir.
+Dialogue: 0,0:07:47.55,0:07:49.14,Default,,0,0,0,,Do me a favor and stand back.
+Dialogue: 0,0:07:49.97,0:07:51.64,Default,,0,0,0,,It's going to get\Neven more intense.
+Dialogue: 0,0:07:51.72,0:07:53.97,Default,,0,0,0,,♪
+Dialogue: 0,0:07:54.06,0:07:55.18,Default,,0,0,0,,[NEWSCASTER 3A]\NThis is it!
+Dialogue: 0,0:07:55.27,0:07:58.06,Default,,0,0,0,,The S-rank hunters have finally\Nreached the queen ant's lair
+Dialogue: 0,0:07:58.14,0:07:59.44,Default,,0,0,0,,and are, at this moment,
+Dialogue: 0,0:07:59.52,0:08:01.23,Default,,0,0,0,,engaging in a life\Nand death battle
+Dialogue: 0,0:08:01.31,0:08:03.73,Default,,0,0,0,,to liberate Jeju Island.
+Dialogue: 0,0:08:03.82,0:08:05.48,Default,,0,0,0,,We've got hunters\Nfrom multiple guilds
+Dialogue: 0,0:08:05.57,0:08:07.11,Default,,0,0,0,,who never operate together,
+Dialogue: 0,0:08:07.20,0:08:08.20,Default,,0,0,0,,but as you can see,\Nthey're using
+Dialogue: 0,0:08:08.28,0:08:10.53,Default,,0,0,0,,incredible teamwork\Nto face this threat.
+Dialogue: 0,0:08:11.70,0:08:14.20,Default,,0,0,0,,[squeaking]
+Dialogue: 0,0:08:15.45,0:08:17.91,Default,,0,0,0,,♪
+Dialogue: 0,0:08:18.00,0:08:20.42,Default,,0,0,0,,[groans]
+Dialogue: 0,0:08:20.50,0:08:21.96,Default,,0,0,0,,[roars]
+Dialogue: 0,0:08:22.04,0:08:23.29,Default,,0,0,0,,[explosion]
+Dialogue: 0,0:08:23.38,0:08:24.75,Default,,0,0,0,,[growls]
+Dialogue: 0,0:08:24.84,0:08:26.55,Default,,0,0,0,,[rumbling]
+Dialogue: 0,0:08:26.63,0:08:29.38,Default,,0,0,0,,♪
+Dialogue: 0,0:08:29.47,0:08:30.97,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:08:31.05,0:08:33.05,Default,,0,0,0,,♪
+Dialogue: 0,0:08:43.06,0:08:44.94,Default,,0,0,0,,[squealing]
+Dialogue: 0,0:08:48.49,0:08:49.65,Default,,0,0,0,,[growls]
+Dialogue: 0,0:08:52.57,0:08:53.82,Default,,0,0,0,,♪
+Dialogue: 0,0:08:56.95,0:08:58.04,Default,,0,0,0,,Uh!
+Dialogue: 0,0:08:58.12,0:08:59.62,Default,,0,0,0,,[fire crackling]
+Dialogue: 0,0:08:59.71,0:09:01.67,Default,,0,0,0,,♪
+Dialogue: 0,0:09:04.75,0:09:05.96,Default,,0,0,0,,Hm!
+Dialogue: 0,0:09:06.05,0:09:07.80,Default,,0,0,0,,♪
+Dialogue: 0,0:09:07.88,0:09:10.22,Default,,0,0,0,,[sword clanking]
+Dialogue: 0,0:09:14.93,0:09:16.93,Default,,0,0,0,,[NEWSCASTER 3A]\NHunter Cha's razor-sharp attack
+Dialogue: 0,0:09:17.01,0:09:18.52,Default,,0,0,0,,slices through another one!
+Dialogue: 0,0:09:20.06,0:09:21.31,Default,,0,0,0,,It's down!
+Dialogue: 0,0:09:22.10,0:09:24.31,Default,,0,0,0,,The last royal guard\Nant has fallen!
+Dialogue: 0,0:09:25.23,0:09:26.98,Default,,0,0,0,,[panting]
+Dialogue: 0,0:09:28.23,0:09:30.15,Default,,0,0,0,,[squeaking]
+Dialogue: 0,0:09:32.74,0:09:34.57,Default,,0,0,0,,[Ma Dongwook grunts]
+Dialogue: 0,0:09:34.66,0:09:35.66,Default,,0,0,0,,[MA DONGWOOK]\NIt's just her.
+Dialogue: 0,0:09:35.74,0:09:37.79,Default,,0,0,0,,Let's finish this!
+Dialogue: 0,0:09:37.87,0:09:39.08,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:09:40.16,0:09:41.91,Default,,0,0,0,,She's as good as done now!
+Dialogue: 0,0:09:42.00,0:09:43.92,Default,,0,0,0,,♪
+Dialogue: 0,0:09:49.80,0:09:51.92,Default,,0,0,0,,Without her guards,\Nthe queen's nothing more
+Dialogue: 0,0:09:52.01,0:09:54.09,Default,,0,0,0,,than a giant punching bag!
+Dialogue: 0,0:09:54.68,0:09:55.68,Default,,0,0,0,,Uh!
+Dialogue: 0,0:09:55.76,0:09:56.76,Default,,0,0,0,,Uh!
+Dialogue: 0,0:09:56.85,0:09:58.31,Default,,0,0,0,,[squealing]
+Dialogue: 0,0:09:58.39,0:09:59.97,Default,,0,0,0,,♪
+Dialogue: 0,0:10:00.06,0:10:01.73,Default,,0,0,0,,[groans]
+Dialogue: 0,0:10:02.73,0:10:05.23,Default,,0,0,0,,[grunting]
+Dialogue: 0,0:10:06.27,0:10:07.52,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:10:07.61,0:10:09.07,Default,,0,0,0,,♪
+Dialogue: 0,0:10:10.40,0:10:12.20,Default,,0,0,0,,If that bug wants you\Nout of this fight,
+Dialogue: 0,0:10:12.28,0:10:14.11,Default,,0,0,0,,she's gonna have\Nto get rid of me first!
+Dialogue: 0,0:10:14.20,0:10:16.03,Default,,0,0,0,,♪
+Dialogue: 0,0:10:18.95,0:10:20.04,Default,,0,0,0,,[Ma Dongwook grunts]
+Dialogue: 0,0:10:20.12,0:10:21.16,Default,,0,0,0,,[MA DONGWOOK]\NYou're dreaming if you think
+Dialogue: 0,0:10:21.25,0:10:23.50,Default,,0,0,0,,you can get close\Nto our healer!
+Dialogue: 0,0:10:23.58,0:10:26.08,Default,,0,0,0,,[CHOI JONG-IN] That's it!\NKeep her occupied for me.
+Dialogue: 0,0:10:26.17,0:10:27.75,Default,,0,0,0,,Uh-ugh!
+Dialogue: 0,0:10:29.80,0:10:31.17,Default,,0,0,0,,[squealing]
+Dialogue: 0,0:10:32.72,0:10:33.80,Default,,0,0,0,,Uh!
+Dialogue: 0,0:10:33.88,0:10:36.01,Default,,0,0,0,,♪
+Dialogue: 0,0:10:36.64,0:10:37.89,Default,,0,0,0,,[rumbling]
+Dialogue: 0,0:10:40.26,0:10:42.35,Default,,0,0,0,,[squealing]
+Dialogue: 0,0:10:43.68,0:10:45.02,Default,,0,0,0,,[MA DONGWOOK]\NI can't believe she's still got
+Dialogue: 0,0:10:45.10,0:10:46.23,Default,,0,0,0,,this much strength left.
+Dialogue: 0,0:10:46.31,0:10:47.90,Default,,0,0,0,,♪
+Dialogue: 0,0:10:49.65,0:10:50.94,Default,,0,0,0,,[BAEK YOONHO]\NWas that a death cry?
+Dialogue: 0,0:10:51.03,0:10:52.40,Default,,0,0,0,,Or something else?
+Dialogue: 0,0:10:52.49,0:10:53.82,Default,,0,0,0,,[squealing]
+Dialogue: 0,0:10:53.90,0:10:55.28,Default,,0,0,0,,-Take this!\N-We've got you!
+Dialogue: 0,0:10:56.99,0:10:58.57,Default,,0,0,0,,[squealing]
+Dialogue: 0,0:11:00.08,0:11:01.29,Default,,0,0,0,,[Ma Dongwook grunts]
+Dialogue: 0,0:11:02.45,0:11:03.54,Default,,0,0,0,,-Now, Hunter Cha!\N-Your turn, Miss Cha!
+Dialogue: 0,0:11:03.62,0:11:04.71,Default,,0,0,0,,On it!
+Dialogue: 0,0:11:06.75,0:11:08.25,Default,,0,0,0,,One last push!
+Dialogue: 0,0:11:08.33,0:11:09.96,Default,,0,0,0,,♪
+Dialogue: 0,0:11:10.04,0:11:11.21,Default,,0,0,0,,[sword clanking]
+Dialogue: 0,0:11:11.30,0:11:13.21,Default,,0,0,0,,♪
+Dialogue: 0,0:11:19.35,0:11:20.72,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:11:20.81,0:11:22.10,Default,,0,0,0,,♪
+Dialogue: 0,0:11:28.23,0:11:29.98,Default,,0,0,0,,[yelling]
+Dialogue: 0,0:11:32.19,0:11:33.82,Default,,0,0,0,,♪
+Dialogue: 0,0:11:35.61,0:11:37.57,Default,,0,0,0,,[panting]
+Dialogue: 0,0:11:39.37,0:11:41.08,Default,,0,0,0,,♪
+Dialogue: 0,0:11:42.41,0:11:44.29,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:11:44.37,0:11:46.29,Default,,0,0,0,,♪
+Dialogue: 0,0:11:48.75,0:11:49.96,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:11:50.04,0:11:52.25,Default,,0,0,0,,♪
+Dialogue: 0,0:11:52.34,0:11:53.71,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:11:58.26,0:12:00.64,Default,,0,0,0,,[cheering]
+Dialogue: 0,0:12:01.26,0:12:02.51,Default,,0,0,0,,[NEWSCASTER 3A]\NThey've done it!
+Dialogue: 0,0:12:02.60,0:12:04.64,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,0:12:06.06,0:12:07.48,Default,,0,0,0,,Chairman!
+Dialogue: 0,0:12:07.56,0:12:09.27,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:12:10.10,0:12:12.19,Default,,0,0,0,,Mission accomplished,\Nat long last.
+Dialogue: 0,0:12:13.82,0:12:15.19,Default,,0,0,0,,[CHA HAE-IN]\NIt's over now.
+Dialogue: 0,0:12:15.28,0:12:16.44,Default,,0,0,0,,Right?
+Dialogue: 0,0:12:16.53,0:12:17.57,Default,,0,0,0,,[LIM TAE-GYU]\NSeems like it.
+Dialogue: 0,0:12:17.65,0:12:19.57,Default,,0,0,0,,With the queen dead,\Nthe surviving ants
+Dialogue: 0,0:12:19.66,0:12:21.03,Default,,0,0,0,,will die out within a year.
+Dialogue: 0,0:12:21.82,0:12:22.95,Default,,0,0,0,,[MA DONGWOOK]\NAnd then, people will be free
+Dialogue: 0,0:12:23.03,0:12:24.54,Default,,0,0,0,,to move back to the island.
+Dialogue: 0,0:12:24.62,0:12:26.66,Default,,0,0,0,,[BAEK YOONHO]\NBut that scream at the end.
+Dialogue: 0,0:12:26.75,0:12:27.75,Default,,0,0,0,,I don't know.
+Dialogue: 0,0:12:27.83,0:12:29.37,Default,,0,0,0,,[MIN BYUNG-GU]\NWhat does it matter, man?
+Dialogue: 0,0:12:29.46,0:12:32.38,Default,,0,0,0,,We just took down\Nthe queen ant of Jeju Island!
+Dialogue: 0,0:12:32.46,0:12:35.09,Default,,0,0,0,,Eunseok can rest in peace\N'cause we avenged him!
+Dialogue: 0,0:12:36.21,0:12:37.38,Default,,0,0,0,,[smirks]
+Dialogue: 0,0:12:37.47,0:12:38.72,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:12:40.13,0:12:42.18,Default,,0,0,0,,[both chuckle]
+Dialogue: 0,0:12:43.76,0:12:45.26,Default,,0,0,0,,[BAEK YOONHO]\NI guess we did.
+Dialogue: 0,0:12:47.43,0:12:49.64,Default,,0,0,0,,[alarm blaring]
+Dialogue: 0,0:12:49.73,0:12:51.10,Default,,0,0,0,,Red alert, sir!
+Dialogue: 0,0:12:51.19,0:12:53.15,Default,,0,0,0,,The ants are moving\Nback into the nest!
+Dialogue: 0,0:12:53.23,0:12:54.32,Default,,0,0,0,,[GOTO RYUJI]\NWhat?
+Dialogue: 0,0:12:54.40,0:12:56.15,Default,,0,0,0,,[SUGIMOTO REIJI]\NThe signal lost effectiveness!
+Dialogue: 0,0:12:57.40,0:12:59.24,Default,,0,0,0,,[GOTO RYUJI]\NWhat's going on?
+Dialogue: 0,0:12:59.32,0:13:01.36,Default,,0,0,0,,Give me the fastest\Nsitrep you can.
+Dialogue: 0,0:13:01.45,0:13:02.82,Default,,0,0,0,,♪
+Dialogue: 0,0:13:02.91,0:13:04.83,Default,,0,0,0,,A victory we all earned.
+Dialogue: 0,0:13:04.91,0:13:06.29,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:13:06.37,0:13:07.91,Default,,0,0,0,,[shattering]
+Dialogue: 0,0:13:09.25,0:13:11.83,Default,,0,0,0,,[CHOI JONG-IN]\NMy cage of fire was broken?
+Dialogue: 0,0:13:11.92,0:13:13.88,Default,,0,0,0,,♪
+Dialogue: 0,0:13:13.96,0:13:15.04,Default,,0,0,0,,What's going on?
+Dialogue: 0,0:13:15.13,0:13:17.63,Default,,0,0,0,,We should've had plenty\Nof time to retreat!
+Dialogue: 0,0:13:17.71,0:13:19.47,Default,,0,0,0,,[MIN BYUNG-GU] Yoonho was\Nright about that last scream.
+Dialogue: 0,0:13:19.55,0:13:20.47,Default,,0,0,0,,You guys...
+Dialogue: 0,0:13:20.55,0:13:21.93,Default,,0,0,0,,[MA DONGWOOK]\NShe was calling for help!
+Dialogue: 0,0:13:22.01,0:13:23.30,Default,,0,0,0,,[CHA HAE-IN] Maybe,\Nbut even if she was,
+Dialogue: 0,0:13:23.47,0:13:24.43,Default,,0,0,0,,they can't get in.
+Dialogue: 0,0:13:24.51,0:13:26.43,Default,,0,0,0,,Guildmaster Choi's\Ndefense should hold.
+Dialogue: 0,0:13:26.51,0:13:27.52,Default,,0,0,0,,[MIN BYUNG-GU]\NShould hold?
+Dialogue: 0,0:13:27.60,0:13:29.02,Default,,0,0,0,,[BAEK YOONHO]\NSomething's coming.
+Dialogue: 0,0:13:29.10,0:13:30.81,Default,,0,0,0,,♪
+Dialogue: 0,0:13:39.82,0:13:42.28,Default,,0,0,0,,[thumping]
+Dialogue: 0,0:13:42.36,0:13:44.20,Default,,0,0,0,,♪
+Dialogue: 0,0:13:50.54,0:13:52.29,Default,,0,0,0,,[BAEK YOONHO]\NWhat the hell is that thing?
+Dialogue: 0,0:13:52.37,0:13:54.58,Default,,0,0,0,,♪
+Dialogue: 0,0:13:57.84,0:14:00.17,Default,,0,0,0,,[groans]
+Dialogue: 0,0:14:00.26,0:14:01.84,Default,,0,0,0,,[CHA HAE-IN]\NWhat kind of beast could have
+Dialogue: 0,0:14:01.92,0:14:04.01,Default,,0,0,0,,such a spine-chilling presence,
+Dialogue: 0,0:14:04.09,0:14:06.01,Default,,0,0,0,,and suffocating smell?
+Dialogue: 0,0:14:06.10,0:14:09.31,Default,,0,0,0,,That's...no ordinary ant!
+Dialogue: 0,0:14:09.39,0:14:11.10,Default,,0,0,0,,[MA DONGWOOK]\NThere's no time to hesitate.
+Dialogue: 0,0:14:11.18,0:14:12.77,Default,,0,0,0,,We need to take it out!
+Dialogue: 0,0:14:15.06,0:14:17.32,Default,,0,0,0,,[thumping]
+Dialogue: 0,0:14:17.94,0:14:20.32,Default,,0,0,0,,[gasps]\NIt walked right by us.
+Dialogue: 0,0:14:22.11,0:14:24.61,Default,,0,0,0,,[wind howling]
+Dialogue: 0,0:14:26.53,0:14:28.58,Default,,0,0,0,,[chewing]
+Dialogue: 0,0:14:28.66,0:14:30.66,Default,,0,0,0,,♪
+Dialogue: 0,0:14:36.13,0:14:37.71,Default,,0,0,0,,[growls]
+Dialogue: 0,0:14:39.05,0:14:41.17,Default,,0,0,0,,[roaring]
+Dialogue: 0,0:14:43.47,0:14:45.64,Default,,0,0,0,,♪
+Dialogue: 0,0:14:48.89,0:14:50.10,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:14:51.97,0:14:53.94,Default,,0,0,0,,[grunting]
+Dialogue: 0,0:14:55.90,0:14:57.02,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:14:58.11,0:14:59.44,Default,,0,0,0,,[MA DONGWOOK]\NNo! Miss Cha!
+Dialogue: 0,0:14:59.52,0:15:00.65,Default,,0,0,0,,Hm!
+Dialogue: 0,0:15:02.90,0:15:03.99,Default,,0,0,0,,Wrong move!
+Dialogue: 0,0:15:04.07,0:15:05.66,Default,,0,0,0,,[shattering]
+Dialogue: 0,0:15:07.20,0:15:08.91,Default,,0,0,0,,[growling]
+Dialogue: 0,0:15:08.99,0:15:10.49,Default,,0,0,0,,♪
+Dialogue: 0,0:15:12.20,0:15:13.96,Default,,0,0,0,,[groaning]
+Dialogue: 0,0:15:14.04,0:15:15.79,Default,,0,0,0,,♪
+Dialogue: 0,0:15:16.83,0:15:18.38,Default,,0,0,0,,[growls]
+Dialogue: 0,0:15:19.92,0:15:21.42,Default,,0,0,0,,[grunting]
+Dialogue: 0,0:15:21.50,0:15:22.80,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:15:24.34,0:15:25.76,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:15:27.01,0:15:28.43,Default,,0,0,0,,[blood splashing]
+Dialogue: 0,0:15:28.51,0:15:30.72,Default,,0,0,0,,♪
+Dialogue: 0,0:15:30.81,0:15:32.01,Default,,0,0,0,,[LIM TAE-GYU]\NYou're finished!
+Dialogue: 0,0:15:34.56,0:15:36.56,Default,,0,0,0,,He caught it mid-air!
+Dialogue: 0,0:15:38.35,0:15:39.81,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:15:43.36,0:15:45.19,Default,,0,0,0,,♪
+Dialogue: 0,0:15:45.28,0:15:46.49,Default,,0,0,0,,You surprised?
+Dialogue: 0,0:15:46.57,0:15:48.57,Default,,0,0,0,,We've got a heck\Nof a healer with us!
+Dialogue: 0,0:15:49.49,0:15:50.62,Default,,0,0,0,,[MIN BYUNG-GU]\NNever been more thankful
+Dialogue: 0,0:15:50.70,0:15:52.58,Default,,0,0,0,,for my Camouflage skill.
+Dialogue: 0,0:15:52.66,0:15:55.04,Default,,0,0,0,,Conceals my presence\Nthe same way Stealth does.
+Dialogue: 0,0:15:55.83,0:15:58.08,Default,,0,0,0,,I can't move while using it,
+Dialogue: 0,0:15:58.17,0:16:00.13,Default,,0,0,0,,but that's a non-issue\Nfor a healer.
+Dialogue: 0,0:16:00.21,0:16:03.05,Default,,0,0,0,,As long as I'm here,\Nmy team won't go down!
+Dialogue: 0,0:16:03.13,0:16:04.21,Default,,0,0,0,,[Ma Dongwook growls]
+Dialogue: 0,0:16:04.30,0:16:05.84,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:16:05.92,0:16:07.68,Default,,0,0,0,,Ahh!
+Dialogue: 0,0:16:07.76,0:16:09.05,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:16:09.14,0:16:11.14,Default,,0,0,0,,♪
+Dialogue: 0,0:16:12.81,0:16:14.60,Default,,0,0,0,,[groans]
+Dialogue: 0,0:16:15.64,0:16:17.35,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:16:17.44,0:16:19.10,Default,,0,0,0,,[MIN BYUNG-GU]\NIs it perceptive enough
+Dialogue: 0,0:16:19.19,0:16:21.36,Default,,0,0,0,,to see through Camouflage?
+Dialogue: 0,0:16:21.44,0:16:22.61,Default,,0,0,0,,[BAEK YOONHO]\NByung-gu, no!
+Dialogue: 0,0:16:22.69,0:16:24.19,Default,,0,0,0,,No!
+Dialogue: 0,0:16:25.40,0:16:27.24,Default,,0,0,0,,[coughs]
+Dialogue: 0,0:16:28.07,0:16:30.70,Default,,0,0,0,,♪
+Dialogue: 0,0:16:34.37,0:16:35.91,Default,,0,0,0,,[BAEK YOONHO]\NByung-gu!
+Dialogue: 0,0:16:36.83,0:16:38.66,Default,,0,0,0,,Run away, Yoonho.
+Dialogue: 0,0:16:38.75,0:16:40.12,Default,,0,0,0,,Run away.
+Dialogue: 0,0:16:40.21,0:16:41.75,Default,,0,0,0,,[blood splashing]
+Dialogue: 0,0:16:46.63,0:16:48.67,Default,,0,0,0,,[roars]
+Dialogue: 0,0:16:50.89,0:16:52.05,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:16:53.10,0:16:55.18,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:16:55.26,0:16:57.18,Default,,0,0,0,,[choking]
+Dialogue: 0,0:17:00.31,0:17:02.48,Default,,0,0,0,,[squeaking]
+Dialogue: 0,0:17:05.15,0:17:07.74,Default,,0,0,0,,[ANT KING]\NYoonho.
+Dialogue: 0,0:17:08.53,0:17:09.53,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:17:09.61,0:17:11.03,Default,,0,0,0,,[ANT KING]\NRun...
+Dialogue: 0,0:17:11.11,0:17:12.53,Default,,0,0,0,,away.
+Dialogue: 0,0:17:14.53,0:17:17.33,Default,,0,0,0,,Yoonho...
+Dialogue: 0,0:17:17.41,0:17:18.87,Default,,0,0,0,,run.
+Dialogue: 0,0:17:20.25,0:17:22.17,Default,,0,0,0,,Run away.
+Dialogue: 0,0:17:22.25,0:17:24.13,Default,,0,0,0,,You sick son of a bitch!
+Dialogue: 0,0:17:24.21,0:17:25.96,Default,,0,0,0,,[choking]
+Dialogue: 0,0:17:26.05,0:17:29.09,Default,,0,0,0,,[ANT KING]\NYou are all weak...
+Dialogue: 0,0:17:30.01,0:17:33.43,Default,,0,0,0,,and yet, you killed her.
+Dialogue: 0,0:17:33.51,0:17:36.81,Default,,0,0,0,,You killed our queen.
+Dialogue: 0,0:17:36.89,0:17:39.56,Default,,0,0,0,,Killing your soldiers...
+Dialogue: 0,0:17:39.64,0:17:41.60,Default,,0,0,0,,is not enough.
+Dialogue: 0,0:17:41.69,0:17:42.94,Default,,0,0,0,,Tell me...
+Dialogue: 0,0:17:43.02,0:17:46.02,Default,,0,0,0,,where is your king?
+Dialogue: 0,0:17:46.11,0:17:47.90,Default,,0,0,0,,-[trembling]\N-[BAEK YOONHO] Our king?
+Dialogue: 0,0:17:47.98,0:17:50.11,Default,,0,0,0,,♪
+Dialogue: 0,0:17:50.19,0:17:53.07,Default,,0,0,0,,[ANT KING]\NOutside. Yes.
+Dialogue: 0,0:17:53.16,0:17:55.03,Default,,0,0,0,,A stronger one nears.
+Dialogue: 0,0:17:56.20,0:17:57.20,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:17:57.29,0:17:58.79,Default,,0,0,0,,[coughs]
+Dialogue: 0,0:17:58.87,0:18:00.71,Default,,0,0,0,,♪
+Dialogue: 0,0:18:01.41,0:18:03.12,Default,,0,0,0,,[coughs]
+Dialogue: 0,0:18:03.21,0:18:06.42,Default,,0,0,0,,Wait...\Nis he talking about Goto?
+Dialogue: 0,0:18:06.50,0:18:08.59,Default,,0,0,0,,Well, whatever he meant,
+Dialogue: 0,0:18:08.67,0:18:10.88,Default,,0,0,0,,we need to escape\Nwhile that thing's occupied!
+Dialogue: 0,0:18:11.51,0:18:13.47,Default,,0,0,0,,[squealing]
+Dialogue: 0,0:18:13.55,0:18:14.64,Default,,0,0,0,,[BAEK YOONHO]\NDamn it!
+Dialogue: 0,0:18:14.72,0:18:16.68,Default,,0,0,0,,These pests are relentless!
+Dialogue: 0,0:18:16.76,0:18:18.60,Default,,0,0,0,,♪
+Dialogue: 0,0:18:19.47,0:18:20.98,Default,,0,0,0,,[ISHIDA MARI]\NI don't like this.
+Dialogue: 0,0:18:21.06,0:18:22.64,Default,,0,0,0,,Something must be up.
+Dialogue: 0,0:18:22.73,0:18:24.10,Default,,0,0,0,,First Charlie\Nstopped responding,
+Dialogue: 0,0:18:24.19,0:18:25.40,Default,,0,0,0,,now Delta.
+Dialogue: 0,0:18:25.48,0:18:26.94,Default,,0,0,0,,Interference, perhaps?
+Dialogue: 0,0:18:27.98,0:18:28.98,Default,,0,0,0,,Although...
+Dialogue: 0,0:18:29.07,0:18:31.40,Default,,0,0,0,,they should still\Nbe within range.
+Dialogue: 0,0:18:31.49,0:18:32.99,Default,,0,0,0,,Bravo, come in.
+Dialogue: 0,0:18:33.07,0:18:34.61,Default,,0,0,0,,Go on ahead, sir.
+Dialogue: 0,0:18:34.70,0:18:36.74,Default,,0,0,0,,[GOTO RYUJI] We've not heard\Nfrom Charlie or Delta.
+Dialogue: 0,0:18:36.82,0:18:38.53,Default,,0,0,0,,-[GOTO RYUJI] You?\N-[TAWATA KANAE] Negative.
+Dialogue: 0,0:18:38.62,0:18:41.25,Default,,0,0,0,,[TAWATA KANAE] We lost\Ncontact not too long ago.
+Dialogue: 0,0:18:41.33,0:18:42.87,Default,,0,0,0,,Want us to investigate?
+Dialogue: 0,0:18:42.96,0:18:45.88,Default,,0,0,0,,[GOTO RYUJI] No, we're\Nheaded to their posts now.
+Dialogue: 0,0:18:45.96,0:18:48.42,Default,,0,0,0,,Finish up on your end, then\Nmeet at the rendezvous point.
+Dialogue: 0,0:18:49.30,0:18:50.88,Default,,0,0,0,,[TAWATA KANAE]\NCopy that.
+Dialogue: 0,0:18:50.96,0:18:52.67,Default,,0,0,0,,[running footsteps]
+Dialogue: 0,0:18:55.47,0:18:57.30,Default,,0,0,0,,[ISHIDA MARI]\NBut how?
+Dialogue: 0,0:18:57.39,0:18:59.06,Default,,0,0,0,,[static buzzing]
+Dialogue: 0,0:18:59.14,0:19:00.68,Default,,0,0,0,,[MATSUMOTO SHIGEO]\NIt's me.
+Dialogue: 0,0:19:00.77,0:19:02.98,Default,,0,0,0,,Why aren't you checking in\Naccording to schedule?
+Dialogue: 0,0:19:04.06,0:19:05.73,Default,,0,0,0,,[GOTO RYUJI]\NWe've had casualties.
+Dialogue: 0,0:19:05.81,0:19:06.81,Default,,0,0,0,,[MATSUMOTO SHIGEO]\NOh!
+Dialogue: 0,0:19:06.90,0:19:09.19,Default,,0,0,0,,That's quite\Nunfortunate to hear.
+Dialogue: 0,0:19:09.27,0:19:11.82,Default,,0,0,0,,I thought your orders were\Nto kill the evolved variants
+Dialogue: 0,0:19:11.90,0:19:13.19,Default,,0,0,0,,to minimize the risk.
+Dialogue: 0,0:19:14.20,0:19:16.49,Default,,0,0,0,,[GOTO RYUJI] And they\Ncouldn't even handle that.
+Dialogue: 0,0:19:16.57,0:19:18.45,Default,,0,0,0,,Such exacting standards.
+Dialogue: 0,0:19:18.53,0:19:19.74,Default,,0,0,0,,Well...
+Dialogue: 0,0:19:19.83,0:19:21.24,Default,,0,0,0,,I know you won't\Nhave a problem,
+Dialogue: 0,0:19:21.33,0:19:22.87,Default,,0,0,0,,so what's a death or two?
+Dialogue: 0,0:19:24.04,0:19:26.92,Default,,0,0,0,,And our allies are dealing\Nwith the queen as we speak?
+Dialogue: 0,0:19:27.00,0:19:28.25,Default,,0,0,0,,[GOTO RYUJI]\NYes.
+Dialogue: 0,0:19:28.33,0:19:31.30,Default,,0,0,0,,But the signal disruption\Nlost its effectiveness somehow,
+Dialogue: 0,0:19:31.38,0:19:33.34,Default,,0,0,0,,and I confirmed the ants\Nare returning to the nest
+Dialogue: 0,0:19:33.42,0:19:34.72,Default,,0,0,0,,to defend their leader.
+Dialogue: 0,0:19:35.55,0:19:36.72,Default,,0,0,0,,[MATSUMOTO SHIGEO]\NHmm.
+Dialogue: 0,0:19:36.80,0:19:39.80,Default,,0,0,0,,How likely is it that the\Nmain strike team will survive?
+Dialogue: 0,0:19:39.89,0:19:41.56,Default,,0,0,0,,The whole colony attacked.
+Dialogue: 0,0:19:42.43,0:19:43.89,Default,,0,0,0,,Odds they'll live are zero.
+Dialogue: 0,0:19:44.98,0:19:46.81,Default,,0,0,0,,[MATSUMOTO SHIGEO]\NSensational.
+Dialogue: 0,0:19:46.89,0:19:49.81,Default,,0,0,0,,Despite fighting their hardest,\Nour Japanese hunters
+Dialogue: 0,0:19:49.90,0:19:51.94,Default,,0,0,0,,were forced into\Na temporary retreat
+Dialogue: 0,0:19:52.02,0:19:53.99,Default,,0,0,0,,after our allies\Nwere wiped out.
+Dialogue: 0,0:19:54.07,0:19:57.03,Default,,0,0,0,,In honor of their sacrifice,\Nthe second strike team
+Dialogue: 0,0:19:57.11,0:20:00.07,Default,,0,0,0,,waiting at sea will close\Nthe S-rank gate.
+Dialogue: 0,0:20:00.16,0:20:02.70,Default,,0,0,0,,Japan will clear Jeju Island\Nand get the acclaim,
+Dialogue: 0,0:20:02.79,0:20:05.62,Default,,0,0,0,,and a rival nation's military\Nwill be decimated.
+Dialogue: 0,0:20:06.96,0:20:08.29,Default,,0,0,0,,The timing's perfect.
+Dialogue: 0,0:20:08.37,0:20:10.42,Default,,0,0,0,,Have all hunters withdraw\Nand rendezvous
+Dialogue: 0,0:20:10.50,0:20:12.30,Default,,0,0,0,,with the secondary\Nstrike force in the fleet.
+Dialogue: 0,0:20:12.38,0:20:13.71,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:20:13.80,0:20:15.05,Default,,0,0,0,,[GOTO RYUJI]\NTen-four.
+Dialogue: 0,0:20:15.92,0:20:17.88,Default,,0,0,0,,Orders from Chairman Matsumoto.
+Dialogue: 0,0:20:17.97,0:20:19.39,Default,,0,0,0,,We're pulling out.
+Dialogue: 0,0:20:19.47,0:20:21.10,Default,,0,0,0,,We'll come back\Nto collect the bodies at a--
+Dialogue: 0,0:20:21.18,0:20:22.47,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:20:25.27,0:20:27.52,Default,,0,0,0,,-[thuds]\N-Huh? Ishida!
+Dialogue: 0,0:20:27.60,0:20:28.94,Default,,0,0,0,,-Focus.\N-Huh?
+Dialogue: 0,0:20:29.02,0:20:31.81,Default,,0,0,0,,Head to sea with Bravo\Nand prep for the next phase.
+Dialogue: 0,0:20:31.90,0:20:34.32,Default,,0,0,0,,-I'll handle this.\N-But--
+Dialogue: 0,0:20:34.40,0:20:36.65,Default,,0,0,0,,You'll just be in my way\Nif you stay here.
+Dialogue: 0,0:20:36.74,0:20:38.11,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:20:38.20,0:20:40.57,Default,,0,0,0,,-Go.\N-Roger!
+Dialogue: 0,0:20:40.66,0:20:42.58,Default,,0,0,0,,♪
+Dialogue: 0,0:20:43.70,0:20:45.91,Default,,0,0,0,,[GOTO RYUJI]\NQuite the remarkable aura.
+Dialogue: 0,0:20:46.00,0:20:47.54,Default,,0,0,0,,[ANT KING]\NAre you...
+Dialogue: 0,0:20:47.62,0:20:49.21,Default,,0,0,0,,their king?
+Dialogue: 0,0:20:50.12,0:20:51.50,Default,,0,0,0,,[GOTO RYUJI]\NA talking ant.
+Dialogue: 0,0:20:51.58,0:20:52.84,Default,,0,0,0,,Don't see that every day.
+Dialogue: 0,0:20:54.88,0:20:57.22,Default,,0,0,0,,Yeah.\NI'm king.
+Dialogue: 0,0:20:57.30,0:20:58.80,Default,,0,0,0,,King of all hunters.
+Dialogue: 0,0:20:58.88,0:21:00.59,Default,,0,0,0,,♪
+Dialogue: 0,0:21:04.06,0:21:05.35,Default,,0,0,0,,What is this power?
+Dialogue: 0,0:21:06.22,0:21:07.56,Default,,0,0,0,,Wait.
+Dialogue: 0,0:21:07.64,0:21:09.52,Default,,0,0,0,,I've known something\Nlike it before.
+Dialogue: 0,0:21:11.15,0:21:12.69,Default,,0,0,0,,I felt it when...
+Dialogue: 0,0:21:12.77,0:21:13.81,Default,,0,0,0,,[shattering]
+Dialogue: 0,0:21:13.90,0:21:15.78,Default,,0,0,0,,♪
+Dialogue: 0,0:21:20.20,0:21:22.45,Default,,0,0,0,,[explosions]
+Dialogue: 0,0:21:22.53,0:21:25.08,Default,,0,0,0,,It might be time to crank up\Nthe heat, Jong-in!
+Dialogue: 0,0:21:25.16,0:21:27.04,Default,,0,0,0,,Do you feel the air in here?
+Dialogue: 0,0:21:27.12,0:21:28.62,Default,,0,0,0,,This is as hot as it gets!
+Dialogue: 0,0:21:29.54,0:21:31.75,Default,,0,0,0,,[BAEK YOONHO]\NAll of us are hurt pretty bad.
+Dialogue: 0,0:21:31.83,0:21:34.71,Default,,0,0,0,,We can't fight back,\Nnot with these wounds.
+Dialogue: 0,0:21:34.79,0:21:37.38,Default,,0,0,0,,He's our last hope,\Nand he's fading.
+Dialogue: 0,0:21:37.46,0:21:38.88,Default,,0,0,0,,♪
+Dialogue: 0,0:21:38.97,0:21:40.17,Default,,0,0,0,,[explosion]
+Dialogue: 0,0:21:41.80,0:21:43.59,Default,,0,0,0,,[squealing]
+Dialogue: 0,0:21:43.68,0:21:45.10,Default,,0,0,0,,So, this is how it ends.
+Dialogue: 0,0:21:45.18,0:21:47.06,Default,,0,0,0,,♪
+Dialogue: 0,0:21:51.60,0:21:53.81,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:21:53.90,0:21:55.15,Default,,0,0,0,,[BAEK YOONHO]\NThese are...
+Dialogue: 0,0:21:55.23,0:21:56.98,Default,,0,0,0,,But how did they get here?
+Dialogue: 0,0:22:03.74,0:22:04.91,Default,,0,0,0,,Exchange.
+Dialogue: 0,0:23:36.46,0:23:38.46,Default,,0,0,0,,♪

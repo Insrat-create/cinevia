@@ -1,15 +1,58 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import { useAccount } from '../context/AccountContext'
+import { getDetailPath } from '../utils/catalogPaths'
+import MediaCardLink from './MediaCardLink'
 import RatingInline from './RatingInline'
+
+function PosterArtwork({ src, alt, eager = false, children = null }) {
+  const imageRef = useRef(null)
+  const [isLoaded, setIsLoaded] = useState(false)
+  const [hasError, setHasError] = useState(false)
+
+  useEffect(() => {
+    setIsLoaded(false)
+    setHasError(false)
+  }, [src])
+
+  useEffect(() => {
+    const image = imageRef.current
+
+    if (image?.complete && image.naturalWidth > 0) {
+      setIsLoaded(true)
+    }
+  }, [src])
+
+  const imageStateClassName = hasError ? 'has-error' : isLoaded ? 'is-ready' : 'is-loading'
+
+  return (
+    <div className={`poster-image-wrap ${imageStateClassName}`}>
+      <div className="poster-image-placeholder" aria-hidden="true" />
+      <img
+        ref={imageRef}
+        src={src}
+        alt={alt}
+        className="poster-image"
+        decoding="async"
+        loading={eager ? 'eager' : 'lazy'}
+        fetchPriority={eager ? 'high' : 'auto'}
+        onLoad={() => setIsLoaded(true)}
+        onError={() => setHasError(true)}
+      />
+      <div className="poster-image-overlay" />
+      {children}
+    </div>
+  )
+}
 
 export default function SectionRow({
   title,
   items = [],
-  getItemHref = (item) => (item.seasons ? `/tv-shows/${item.id}` : `/movies/${item.id}`),
+  getItemHref = (item) => getDetailPath(item),
   emptyMessage = 'No titles match this search.',
+  showProgress = false,
 }) {
-  const { isFavorite, toggleFavorite } = useAccount()
+  const { getPlaybackProgress, isFavorite, toggleFavorite } = useAccount()
   const location = useLocation()
   const railRef = useRef(null)
   const [canScrollBackward, setCanScrollBackward] = useState(false)
@@ -119,26 +162,36 @@ export default function SectionRow({
           )}
 
           <div ref={railRef} className="poster-rail" aria-label={title}>
-            {items.map((item) => {
+            {items.map((item, index) => {
               const favoriteTarget = item.parentShow ?? item
               const favoriteTitle = favoriteTarget.title ?? item.title
               const isItemFavorite = isFavorite(favoriteTarget.id)
+              const progressValue = showProgress
+                ? Math.min(100, Math.max(0, getPlaybackProgress(item.id, item.progress ?? 0)))
+                : 0
 
               return (
-                <Link
+                <MediaCardLink
+                  item={item}
                   to={getItemHref(item)}
                   state={{ from: currentPath }}
                   key={item.id}
                   className="poster-card"
                 >
-                  <div className="poster-image-wrap">
-                    <img
-                      src={item.backdrop ?? item.poster}
-                      alt={item.title}
-                      className="poster-image"
-                    />
-                    <div className="poster-image-overlay" />
-                  </div>
+                  <PosterArtwork
+                    src={item.backdrop ?? item.poster}
+                    alt={item.title}
+                    eager={index < 2}
+                  >
+                    {showProgress && progressValue > 0 ? (
+                      <div className="poster-progress" aria-hidden="true">
+                        <div
+                          className="poster-progress-fill"
+                          style={{ width: `${progressValue}%` }}
+                        />
+                      </div>
+                    ) : null}
+                  </PosterArtwork>
 
                   <div className="poster-hover-panel">
                     <div className="poster-hover-header">
@@ -173,7 +226,7 @@ export default function SectionRow({
 
                     {item.description && <p>{item.description}</p>}
                   </div>
-                </Link>
+                </MediaCardLink>
               )
             })}
           </div>

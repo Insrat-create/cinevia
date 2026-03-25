@@ -21,10 +21,18 @@ create table if not exists public.continue_watching (
   item_id text not null,
   item_type text not null,
   progress integer not null default 0,
+  resume_time_seconds double precision not null default 0,
+  duration_seconds double precision not null default 0,
   episode_id text,
   last_watched_at timestamptz not null default now(),
   unique (user_id, item_id)
 );
+
+alter table public.continue_watching
+add column if not exists resume_time_seconds double precision not null default 0;
+
+alter table public.continue_watching
+add column if not exists duration_seconds double precision not null default 0;
 
 create index if not exists favorites_user_id_created_at_idx
 on public.favorites (user_id, created_at desc);

@@ -1,0 +1,282 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: OS,Arial Unicode MS,18.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0001,0001,0015,0
+Style: Italics,Arial Unicode MS,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0020,0020,0022,0
+Style: On Top,Arial Unicode MS,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0022,0
+Style: DefaultLow,Arial Unicode MS,20.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0020,0020,0010,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.41,0:00:14.16,Default,,0000,0000,0000,,Hả!?
+Dialogue: 0,0:00:14.31,0:00:15.30,Default,,0000,0000,0000,,Có thứ gì đó!
+Dialogue: 0,0:00:15.58,0:00:16.56,Default,,0000,0000,0000,,Hãy cẩn thận!
+Dialogue: 0,0:00:16.62,0:00:17.52,Default,,0000,0000,0000,,Tôi hiểu mà!
+Dialogue: 0,0:00:19.54,0:00:20.51,Default,,0000,0000,0000,,Đồ khốn...
+Dialogue: 0,0:00:22.22,0:00:23.11,Default,,0000,0000,0000,,Kenzo!
+Dialogue: 0,0:00:28.91,0:00:29.85,Default,,0000,0000,0000,,Bắt được rồi!
+Dialogue: 0,0:00:49.61,0:00:55.45,Default,,0000,0000,0000,,SOLO LEVELING PHẦN 2\N-VÙNG LÊN TỪ BÓNG TỐI-
+Dialogue: 0,0:02:20.80,0:02:23.64,Default,,0000,0000,0000,,Từng con một đều mạnh ngang cấp S!
+Dialogue: 0,0:02:24.49,0:02:25.16,Default,,0000,0000,0000,,Nhưng mà!
+Dialogue: 0,0:02:27.47,0:02:29.38,Default,,0000,0000,0000,,Rốt cuộc vẫn chỉ là quái vật!
+Dialogue: 0,0:02:29.46,0:02:31.13,Default,,0000,0000,0000,,Cách di chuyển đơn giản!
+Dialogue: 0,0:02:31.21,0:02:34.49,Default,,0000,0000,0000,,So với Hunter có thể vận dụng\Nđa dạng chiến thuật...
+Dialogue: 0,0:02:35.10,0:02:36.35,Default,,0000,0000,0000,,thì không phải đối thủ!
+Dialogue: 0,0:02:58.26,0:03:00.29,Default,,0000,0000,0000,,Lũ kiến này khá là cứng đầu nhỉ.
+Dialogue: 0,0:03:00.83,0:03:04.04,Default,,0000,0000,0000,,Ừm, may mà chúng không đông lắm.
+Dialogue: 0,0:03:04.33,0:03:06.20,Default,,0000,0000,0000,,Có đông hơn thì cũng không sao cả.
+Dialogue: 0,0:03:06.95,0:03:08.68,Default,,0000,0000,0000,,Tôi sẽ hỗ trợ từ phía sau.
+Dialogue: 0,0:03:09.06,0:03:10.30,Default,,0000,0000,0000,,Xin cứ yên tâm.
+Dialogue: 0,0:03:10.89,0:03:14.10,Default,,0000,0000,0000,,Thật không thể ngờ đó lại là câu\Nđược thốt ra từ người sợ chiến đấu.
+Dialogue: 0,0:03:14.90,0:03:18.28,Default,,0000,0000,0000,,Mà cũng phải nói anh Yoonho nữa đó!
+Dialogue: 0,0:03:18.89,0:03:20.58,Default,,0000,0000,0000,,Mới vào nghề đấy à?
+Dialogue: 0,0:03:20.58,0:03:25.34,Default,,0000,0000,0000,,Đừng quên dù có bị đập vỡ đầu thì\Nchúng vẫn có thể sống thêm một lúc chứ.
+Dialogue: 0,0:03:25.77,0:03:28.49,Default,,0000,0000,0000,,Ít nhất phải khiến chúng\Nkhông thể sử dụng tứ chi đi.
+Dialogue: 0,0:03:29.08,0:03:30.48,Default,,0000,0000,0000,,À, ừ...
+Dialogue: 0,0:03:32.24,0:03:34.62,Default,,0000,0000,0000,,Càng đi sâu thì bọn kiến càng mạnh
+Dialogue: 0,0:03:34.62,0:03:36.98,Default,,0000,0000,0000,,nhưng vẫn chưa có con nào\Nđi bằng hai chân nhỉ.
+Dialogue: 0,0:03:37.22,0:03:39.22,Default,,0000,0000,0000,,Ừm, đây chỉ là phỏng đoán...
+Dialogue: 0,0:03:39.22,0:03:42.44,Default,,0000,0000,0000,,Nhưng có lẽ lũ này là thế hệ\Nkhông còn được làm cận vệ của kiến chúa.
+Dialogue: 0,0:03:42.77,0:03:44.97,Default,,0000,0000,0000,,Mới chỉ là khúc dạo đầu thôi.
+Dialogue: 0,0:03:44.97,0:03:46.97,Default,,0000,0000,0000,,Có thật sẽ gặp bọn chúng ở đây không?
+Dialogue: 0,0:03:47.29,0:03:48.25,Default,,0000,0000,0000,,Sẽ gặp đó.
+Dialogue: 0,0:03:48.25,0:03:49.16,Default,,0000,0000,0000,,Chắc vậy.
+Dialogue: 0,0:03:49.34,0:03:49.90,Default,,0000,0000,0000,,Này!
+Dialogue: 0,0:03:50.43,0:03:51.48,Default,,0000,0000,0000,,Không sao.
+Dialogue: 0,0:03:51.88,0:03:55.94,Default,,0000,0000,0000,,Bên trong đang phảng phất mùi\Ncủa quái vật mạnh.
+Dialogue: 0,0:03:56.17,0:04:01.21,Default,,0000,0000,0000,,Ôi chà, nếu là khoảng cách đó\Nthì Giám đốc Baek sẽ nhìn thấy nhỉ.
+Dialogue: 0,0:04:02.32,0:04:03.03,Default,,0000,0000,0000,,Thật tình...
+Dialogue: 0,0:04:18.76,0:04:19.55,Default,,0000,0000,0000,,Là nó sao!
+Dialogue: 0,0:04:24.10,0:04:26.25,Default,,0000,0000,0000,,Kiến chúa ở phía trước, nơi sâu nhất.
+Dialogue: 0,0:04:26.54,0:04:28.72,Default,,0000,0000,0000,,Một lượng lớn cận vệ đang bảo vệ nó.
+Dialogue: 0,0:04:29.61,0:04:33.53,Default,,0000,0000,0000,,Dù đội nghi binh đã dẫn dụ lũ kiến\Nra ngoài nhưng cũng có giới hạn.
+Dialogue: 0,0:04:34.17,0:04:37.85,Default,,0000,0000,0000,,Trong số đám còn lại ở phía trước\Ncó nhiều cận vệ mạnh ngang cấp S.
+Dialogue: 0,0:04:38.20,0:04:40.02,Default,,0000,0000,0000,,Sức mạnh của kiến chúa vẫn chưa rõ.
+Dialogue: 0,0:04:40.19,0:04:41.82,Default,,0000,0000,0000,,Đây sẽ là một trận khổ chiến.
+Dialogue: 0,0:04:42.07,0:04:45.03,Default,,0000,0000,0000,,Nhưng với thành viên như này\Nchúng ta nhất định sẽ thắng!
+Dialogue: 0,0:04:46.92,0:04:47.53,Default,,0000,0000,0000,,Đi nào!
+Dialogue: 0,0:04:48.39,0:04:49.18,Default,,0000,0000,0000,,Được!
+Dialogue: 0,0:04:55.50,0:04:56.70,Default,,0000,0000,0000,,Ở khu này à?
+Dialogue: 0,0:04:56.90,0:04:59.76,Default,,0000,0000,0000,,Chúng ta tới xem thử\Nvì mất liên lạc với Charlie...
+Dialogue: 0,0:05:00.26,0:05:02.18,Default,,0000,0000,0000,,Bọn họ đã đi đâu nhỉ...
+Dialogue: 0,0:05:03.58,0:05:06.16,Default,,0000,0000,0000,,Có vẻ họ đã giết lũ kiến\Nmà không gặp vấn đề gì...
+Dialogue: 0,0:05:09.25,0:05:10.83,Default,,0000,0000,0000,,Kính của Fujishima?
+Dialogue: 0,0:05:12.75,0:05:13.75,Default,,0000,0000,0000,,K-Không lẽ...
+Dialogue: 0,0:05:17.64,0:05:18.78,Default,,0000,0000,0000,,Cậu sao thế!?
+Dialogue: 0,0:05:19.72,0:05:22.55,Default,,0000,0000,0000,,Cái mùi đang xộc vào mũi này là gì vậy...
+Dialogue: 0,0:05:24.17,0:05:27.23,Default,,0000,0000,0000,,Thứ mùi này tôi chưa ngửi thấy bao giờ!
+Dialogue: 0,0:05:43.85,0:05:45.51,Default,,0000,0000,0000,,Charlie đã liên lạc chưa?
+Dialogue: 0,0:05:45.87,0:05:47.35,Default,,0000,0000,0000,,Vẫn chưa thấy.
+Dialogue: 0,0:05:47.62,0:05:49.07,Default,,0000,0000,0000,,Đã xảy ra chuyện gì sao?
+Dialogue: 0,0:05:49.13,0:05:51.18,Default,,0000,0000,0000,,Giờ không phải lúc để lo cho người khác đâu!
+Dialogue: 0,0:05:54.16,0:05:55.92,Default,,0000,0000,0000,,Lần này phải nghiêm túc chiến đấu nhé!
+Dialogue: 0,0:05:56.18,0:05:57.60,Default,,0000,0000,0000,,Hết cách thật.
+Dialogue: 0,0:06:05.00,0:06:08.10,Default,,0000,0000,0000,,Quả là một màn tiếp đón nồng nhiệt.
+Dialogue: 0,0:06:09.95,0:06:14.15,Default,,0000,0000,0000,,Nếu đã như vậy chúng ta cũng cần\Nchuẩn bị tương ứng để đáp lại nhỉ.
+Dialogue: 0,0:06:21.88,0:06:23.61,Default,,0000,0000,0000,,Giờ thì theo đúng kế hoạch!
+Dialogue: 0,0:06:23.88,0:06:27.29,Default,,0000,0000,0000,,Xin mời vũ khí tối thượng\Ncủa nhân loại ra tay!
+Dialogue: 0,0:06:27.66,0:06:29.16,Default,,0000,0000,0000,,Tôi hiểu rồi.
+Dialogue: 0,0:06:29.95,0:06:32.26,Default,,0000,0000,0000,,Đối thủ của các ngươi là ta!
+Dialogue: 0,0:06:40.67,0:06:44.04,Default,,0000,0000,0000,,Bình thường sẽ không sử dụng\Ntới sức mạnh cỡ này...
+Dialogue: 0,0:06:45.00,0:06:48.00,Default,,0000,0000,0000,,Nhưng có vẻ hôm nay\Ntôi buộc phải dốc hết khả năng rồi.
+Dialogue: 0,0:06:58.11,0:07:01.40,Default,,0000,0000,0000,,Phải rồi, không cần giữ sức làm gì...
+Dialogue: 0,0:07:01.57,0:07:04.34,Default,,0000,0000,0000,,Cho dù có biến thành hình dạng khó coi...
+Dialogue: 0,0:07:05.02,0:07:09.08,Default,,0000,0000,0000,,Cũng phải giết lũ sâu bọ này\Nkhông còn con nào!
+Dialogue: 0,0:07:20.66,0:07:21.80,Default,,0000,0000,0000,,Đó là...
+Dialogue: 0,0:07:23.21,0:07:25.18,Default,,0000,0000,0000,,Dạng hóa ma thú của Giám đốc Baek!
+Dialogue: 0,0:07:28.00,0:07:29.28,Default,,0000,0000,0000,,Bắt đầu rồi...
+Dialogue: 0,0:07:30.01,0:07:32.56,Default,,0000,0000,0000,,Tỷ suất người xem đã vượt 80% rồi!
+Dialogue: 0,0:07:32.56,0:07:34.58,Default,,0000,0000,0000,,Hãy tiến lên phía trước\Nđể quay rõ hơn đi!
+Dialogue: 0,0:07:34.81,0:07:36.75,Default,,0000,0000,0000,,Tỷ suất người xem 80% sao!?
+Dialogue: 0,0:07:37.50,0:07:39.17,Default,,0000,0000,0000,,Phải đáp lại kỳ vọng của họ...
+Dialogue: 0,0:07:40.99,0:07:43.74,Default,,0000,0000,0000,,Đây là phòng của con trùm\Ntrong một hầm ngục cấp S.
+Dialogue: 0,0:07:43.74,0:07:45.13,Default,,0000,0000,0000,,Anh muốn chết sao?
+Dialogue: 0,0:07:45.13,0:07:47.23,Default,,0000,0000,0000,,Ấy, không có chuyện đó.
+Dialogue: 0,0:07:47.41,0:07:49.21,Default,,0000,0000,0000,,Hãy ở phía sau tôi.
+Dialogue: 0,0:07:49.63,0:07:51.45,Default,,0000,0000,0000,,Tình hình sẽ càng khốc liệt hơn nữa đó.
+Dialogue: 0,0:07:53.82,0:07:54.97,Default,,0000,0000,0000,,Xin hãy chú ý!
+Dialogue: 0,0:07:55.07,0:07:58.60,Default,,0000,0000,0000,,Cuối cùng, các Hunter cấp S\Nđã tới được chỗ kiến chúa...
+Dialogue: 0,0:07:58.60,0:08:03.05,Default,,0000,0000,0000,,Ngay sau đây sẽ là trận kịch chiến\Nđể thực hiện ước muốn bấy lâu nay!
+Dialogue: 0,0:08:03.73,0:08:06.95,Default,,0000,0000,0000,,Các Hunter cấp S bình thường\Nvốn không cùng chiến đấu...
+Dialogue: 0,0:08:06.95,0:08:10.24,Default,,0000,0000,0000,,đang xuất sắc nhịp nhàng phối hợp\Ntung ra các đòn tấn công!
+Dialogue: 0,0:09:14.73,0:09:18.09,Default,,0000,0000,0000,,Một kiếm sắc bén của Hunter Cha\Nđã cắt ngọt lũ kiến!
+Dialogue: 0,0:09:19.88,0:09:20.98,Default,,0000,0000,0000,,Đánh bại được nó rồi!
+Dialogue: 0,0:09:21.99,0:09:23.95,Default,,0000,0000,0000,,Con kiến hộ vệ cuối cùng đã bị tiêu diệt!
+Dialogue: 0,0:09:34.60,0:09:35.32,Default,,0000,0000,0000,,Ngay lúc này!
+Dialogue: 0,0:09:35.32,0:09:37.03,Default,,0000,0000,0000,,Đồng loạt tấn công đi!
+Dialogue: 0,0:09:39.93,0:09:41.92,Default,,0000,0000,0000,,Nhận lấy chiêu này đi!
+Dialogue: 0,0:09:49.43,0:09:53.26,Default,,0000,0000,0000,,Nữ vương mà không có cận vệ\Nthì cũng chỉ là một mục tiêu mà thôi!
+Dialogue: 0,0:10:10.20,0:10:14.09,Default,,0000,0000,0000,,Chỉ cần tôi vẫn ở đây thì mọi người\Nsẽ có thể đứng dậy vô tận!
+Dialogue: 0,0:10:20.00,0:10:22.97,Default,,0000,0000,0000,,Đừng hòng tiếp cận Healer của bọn ta!
+Dialogue: 0,0:10:23.41,0:10:25.94,Default,,0000,0000,0000,,Hãy tiếp tục khống chế nó như vậy!
+Dialogue: 0,0:10:43.59,0:10:46.20,Default,,0000,0000,0000,,Nó vẫn còn lại ngần này sức mạnh sao!?
+Dialogue: 0,0:10:49.39,0:10:50.41,Default,,0000,0000,0000,,Giãy chết à!?
+Dialogue: 0,0:10:50.57,0:10:52.25,Default,,0000,0000,0000,,Không, có gì đó không đúng!
+Dialogue: 0,0:10:54.06,0:10:55.30,Default,,0000,0000,0000,,Đừng hòng chạy thoát!
+Dialogue: 0,0:11:02.49,0:11:03.50,Default,,0000,0000,0000,,Hunter Cha!
+Dialogue: 0,0:11:03.50,0:11:04.15,Default,,0000,0000,0000,,Có tôi!
+Dialogue: 0,0:11:06.88,0:11:07.92,Default,,0000,0000,0000,,Như này cho chắc chắn!
+Dialogue: 0,0:12:01.35,0:12:02.52,Default,,0000,0000,0000,,Làm được rồi!
+Dialogue: 0,0:12:06.07,0:12:06.67,Default,,0000,0000,0000,,Hội trưởng!
+Dialogue: 0,0:12:09.98,0:12:12.22,Default,,0000,0000,0000,,Chúng ta đã làm được rồi sao.
+Dialogue: 0,0:12:13.60,0:12:15.74,Default,,0000,0000,0000,,Kết thúc rồi... phải không.
+Dialogue: 0,0:12:16.23,0:12:17.27,Default,,0000,0000,0000,,Chắc vậy.
+Dialogue: 0,0:12:17.71,0:12:21.38,Default,,0000,0000,0000,,Kiến chúa mà chết thì lũ kiến còn lại\Nsẽ tự nhiên biến mất sau một năm.
+Dialogue: 0,0:12:21.73,0:12:24.46,Default,,0000,0000,0000,,Khi đó, con người có thể\Nquay lại nơi này sinh sống.
+Dialogue: 0,0:12:24.68,0:12:26.92,Default,,0000,0000,0000,,Nhưng tiếng thét cuối cùng khi nãy...
+Dialogue: 0,0:12:27.62,0:12:29.24,Default,,0000,0000,0000,,Anh nói cái gì vậy!
+Dialogue: 0,0:12:29.31,0:12:32.14,Default,,0000,0000,0000,,Chúng ta đã đánh bại kiến chúa đó!
+Dialogue: 0,0:12:32.39,0:12:35.04,Default,,0000,0000,0000,,Báo thù được cho Eunseok rồi đấy!
+Dialogue: 0,0:12:44.06,0:12:45.02,Default,,0000,0000,0000,,Phải rồi.
+Dialogue: 0,0:12:49.73,0:12:50.51,Default,,0000,0000,0000,,Nguy rồi!
+Dialogue: 0,0:12:50.98,0:12:53.02,Default,,0000,0000,0000,,Lũ kiến đang quay về tổ!
+Dialogue: 0,0:12:53.19,0:12:53.90,Default,,0000,0000,0000,,Cái gì?
+Dialogue: 0,0:12:54.31,0:12:55.85,Default,,0000,0000,0000,,Phá sóng không có tác dụng!
+Dialogue: 0,0:12:57.15,0:12:58.34,Default,,0000,0000,0000,,Đang có chuyện gì đó.
+Dialogue: 0,0:12:59.29,0:13:01.04,Default,,0000,0000,0000,,Hãy thu thập thông tin rồi báo cho tôi!
+Dialogue: 0,0:13:09.09,0:13:12.22,Default,,0000,0000,0000,,Viêm Hỏa Ngục bị phá rồi!?
+Dialogue: 0,0:13:13.76,0:13:15.27,Default,,0000,0000,0000,,Chuyện này là sao!?
+Dialogue: 0,0:13:15.28,0:13:17.24,Default,,0000,0000,0000,,Quá sớm so với dự tính rồi!
+Dialogue: 0,0:13:17.55,0:13:20.36,Default,,0000,0000,0000,,Không lẽ tiếng thét vừa nãy\Ncủa kiến chúa...
+Dialogue: 0,0:13:20.40,0:13:21.79,Default,,0000,0000,0000,,Là gọi đồng bọn sao!?
+Dialogue: 0,0:13:21.79,0:13:22.71,Default,,0000,0000,0000,,Không!
+Dialogue: 0,0:13:22.71,0:13:26.35,Default,,0000,0000,0000,,Kể cả như vậy thì lũ kiến bên ngoài cũng\Nkhông thể phá kỹ năng của ngài đại diện!
+Dialogue: 0,0:13:26.36,0:13:27.02,Default,,0000,0000,0000,,Vậy tức là...
+Dialogue: 0,0:13:27.29,0:13:28.43,Default,,0000,0000,0000,,Có thứ gì đó đang tới...
+Dialogue: 0,0:13:50.22,0:13:52.08,Default,,0000,0000,0000,,Một con... kiến đen?
+Dialogue: 0,0:14:00.38,0:14:03.10,Default,,0000,0000,0000,,Cảm giác áp bức\Nkhiến sống lưng lạnh toát...
+Dialogue: 0,0:14:03.19,0:14:06.03,Default,,0000,0000,0000,,Cái mùi này... là thế nào vậy!?
+Dialogue: 0,0:14:06.22,0:14:08.96,Default,,0000,0000,0000,,Đó không phải quái vật bình thường!
+Dialogue: 0,0:14:09.20,0:14:11.05,Default,,0000,0000,0000,,Không có thời gian để do dự nữa.
+Dialogue: 0,0:14:11.46,0:14:12.81,Default,,0000,0000,0000,,Phải tiêu diệt thứ đó...
+Dialogue: 0,0:14:18.82,0:14:20.68,Default,,0000,0000,0000,,Nó vừa đi qua...
+Dialogue: 0,0:14:58.55,0:14:59.42,Default,,0000,0000,0000,,Cô Cha!
+Dialogue: 0,0:15:02.80,0:15:03.92,Default,,0000,0000,0000,,Đừng có giỡn mặt!
+Dialogue: 0,0:15:30.75,0:15:31.66,Default,,0000,0000,0000,,Đỡ này!
+Dialogue: 0,0:15:34.52,0:15:35.56,Default,,0000,0000,0000,,Nó cản được sao!?
+Dialogue: 0,0:15:45.18,0:15:46.28,Default,,0000,0000,0000,,Ngạc nhiên chưa!
+Dialogue: 0,0:15:46.41,0:15:48.55,Default,,0000,0000,0000,,Bọn ta còn một đồng đội rất mạnh!
+Dialogue: 0,0:15:49.29,0:15:52.02,Default,,0000,0000,0000,,Kỹ năng tự vệ, Ngụy Trang.
+Dialogue: 0,0:15:52.59,0:15:55.60,Default,,0000,0000,0000,,Nó sẽ giúp che giấu bản thân\Ngiống như Ẩn Thân.
+Dialogue: 0,0:15:55.69,0:15:57.98,Default,,0000,0000,0000,,Mặc dù có khuyết điểm\Nlà không thể di chuyển...
+Dialogue: 0,0:15:58.03,0:16:00.18,Default,,0000,0000,0000,,Nhưng với Healer thì như này là quá đủ!
+Dialogue: 0,0:16:00.25,0:16:03.23,Default,,0000,0000,0000,,Chỉ cần vẫn còn mình\Nthì đội sẽ không thể thua!
+Dialogue: 0,0:16:17.04,0:16:19.23,Default,,0000,0000,0000,,Mình đang sử dụng Ngụy Trang kia mà...
+Dialogue: 0,0:16:19.56,0:16:20.47,Default,,0000,0000,0000,,Không lẽ!?
+Dialogue: 0,0:16:22.59,0:16:23.70,Default,,0000,0000,0000,,Byung-gu!
+Dialogue: 0,0:16:34.11,0:16:35.77,Default,,0000,0000,0000,,Byung-gu!!!
+Dialogue: 0,0:16:37.12,0:16:38.29,Default,,0000,0000,0000,,Anh Yoonho...
+Dialogue: 0,0:16:39.07,0:16:39.99,Default,,0000,0000,0000,,Hãy chạy đi...
+Dialogue: 0,0:17:05.45,0:17:08.08,Default,,0000,0000,0000,,Anh... Yoon... hou...
+Dialogue: 0,0:17:08.46,0:17:09.04,Default,,0000,0000,0000,,Hả!?
+Dialogue: 0,0:17:09.97,0:17:11.77,Default,,0000,0000,0000,,Hãy... tạy.. ti...
+Dialogue: 0,0:17:14.80,0:17:18.17,Default,,0000,0000,0000,,Anh... Yoon... ho...
+Dialogue: 0,0:17:20.03,0:17:21.32,Default,,0000,0000,0000,,Hãy chạy đi...
+Dialogue: 0,0:17:22.32,0:17:23.94,Default,,0000,0000,0000,,Đồ khốn...
+Dialogue: 0,0:17:25.50,0:17:28.78,Default,,0000,0000,0000,,Các ngươi... yếu đuối...
+Dialogue: 0,0:17:29.79,0:17:35.09,Default,,0000,0000,0000,,Bọn ta... đã mất đi... nữ vương...
+Dialogue: 0,0:17:35.44,0:17:40.08,Default,,0000,0000,0000,,Chỉ giết đám binh lính...\Nthì ngài ấy không thể yên nghỉ...
+Dialogue: 0,0:17:40.92,0:17:45.35,Default,,0000,0000,0000,,Vua của các ngươi... ở đâu?
+Dialogue: 0,0:17:46.16,0:17:47.12,Default,,0000,0000,0000,,Vua...?
+Dialogue: 0,0:17:50.87,0:17:52.97,Default,,0000,0000,0000,,Ở... bên ngoài...
+Dialogue: 0,0:17:53.51,0:17:54.83,Default,,0000,0000,0000,,Có kẻ mạnh...
+Dialogue: 0,0:18:03.10,0:18:05.88,Default,,0000,0000,0000,,Bên ngoài... nó nói tới Goto sao?
+Dialogue: 0,0:18:06.33,0:18:06.93,Default,,0000,0000,0000,,Không...
+Dialogue: 0,0:18:07.25,0:18:08.68,Default,,0000,0000,0000,,Nghĩ ngợi để sau đi.
+Dialogue: 0,0:18:08.68,0:18:11.25,Default,,0000,0000,0000,,Giờ phải lập tức rời khỏi đây...
+Dialogue: 0,0:18:13.71,0:18:14.64,Default,,0000,0000,0000,,Chết tiệt...
+Dialogue: 0,0:18:14.64,0:18:16.50,Default,,0000,0000,0000,,Lũ kiến khác cũng quay về rồi sao!?
+Dialogue: 0,0:18:19.22,0:18:20.52,Default,,0000,0000,0000,,Lạ thật.
+Dialogue: 0,0:18:20.99,0:18:24.82,Default,,0000,0000,0000,,Không chỉ Charlie\Nmà cả Delta cũng mất liên lạc.
+Dialogue: 0,0:18:25.33,0:18:27.17,Default,,0000,0000,0000,,Có thể do tín hiệu kém.
+Dialogue: 0,0:18:27.79,0:18:30.30,Default,,0000,0000,0000,,Nhưng chắc chắn\Nhọ vẫn ở trong phạm vi truyền tin.
+Dialogue: 0,0:18:30.97,0:18:32.71,Default,,0000,0000,0000,,Bravo, hãy trả lời tôi.
+Dialogue: 0,0:18:33.09,0:18:34.15,Default,,0000,0000,0000,,Đây là Bravo.
+Dialogue: 0,0:18:34.67,0:18:36.83,Default,,0000,0000,0000,,Charlie và Delta có liên lạc gì không?
+Dialogue: 0,0:18:37.56,0:18:40.47,Default,,0000,0000,0000,,Dạ không, chúng tôi\Ncũng mất liên lạc từ lúc nãy.
+Dialogue: 0,0:18:41.04,0:18:42.85,Default,,0000,0000,0000,,Có đi xem tình hình không ạ?
+Dialogue: 0,0:18:43.43,0:18:45.06,Default,,0000,0000,0000,,Hiện chúng tôi đang tới chỗ họ.
+Dialogue: 0,0:18:45.92,0:18:49.09,Default,,0000,0000,0000,,Sau khi dọn dẹp xong bên đó,\Nhai người hãy về điểm tập hợp đợi tôi.
+Dialogue: 0,0:18:49.21,0:18:50.31,Default,,0000,0000,0000,,Đã hiểu.
+Dialogue: 0,0:18:55.45,0:18:56.71,Default,,0000,0000,0000,,Tại sao...
+Dialogue: 0,0:18:59.16,0:19:00.20,Default,,0000,0000,0000,,Là tôi đây.
+Dialogue: 0,0:19:00.85,0:19:03.12,Default,,0000,0000,0000,,Việc liên lạc định kỳ có vẻ hơi trễ nhỉ?
+Dialogue: 0,0:19:03.90,0:19:05.27,Default,,0000,0000,0000,,Đã có thương vong ạ.
+Dialogue: 0,0:19:05.75,0:19:06.60,Default,,0000,0000,0000,,Ồ...
+Dialogue: 0,0:19:07.22,0:19:08.89,Default,,0000,0000,0000,,Diễn biến đó nằm ngoài dự đoán nhỉ.
+Dialogue: 0,0:19:09.48,0:19:13.32,Default,,0000,0000,0000,,Để đề phòng rủi ro đã có lệnh\Nchỉ tiêu diệt lũ kiến đột biến cơ mà?
+Dialogue: 0,0:19:13.83,0:19:16.17,Default,,0000,0000,0000,,Chỉ đơn giản là\Nnhững người đó quá yếu mà thôi.
+Dialogue: 0,0:19:16.56,0:19:18.18,Default,,0000,0000,0000,,Quả đúng là kiến giải của cậu.
+Dialogue: 0,0:19:18.80,0:19:22.67,Default,,0000,0000,0000,,Mà chỉ cần vẫn còn cậu\Nthì mất vài người cũng không sao.
+Dialogue: 0,0:19:23.82,0:19:26.79,Default,,0000,0000,0000,,Nhân tiện thì đằng đó là\Nchỗ của kiến chúa sao?
+Dialogue: 0,0:19:26.87,0:19:27.35,Default,,0000,0000,0000,,Vâng.
+Dialogue: 0,0:19:28.03,0:19:31.53,Default,,0000,0000,0000,,Nhưng mới vừa nãy,\Nphá sóng đã mất hiệu quả...
+Dialogue: 0,0:19:31.53,0:19:34.90,Default,,0000,0000,0000,,Chắc chắn lũ kiến bên ngoài\Nđang trở về tổ của kiến chúa.
+Dialogue: 0,0:19:35.30,0:19:35.92,Default,,0000,0000,0000,,Ừm.
+Dialogue: 0,0:19:36.52,0:19:39.61,Default,,0000,0000,0000,,Vậy tỷ lệ sống sót của\Nđám người đang ở đó là bao nhiêu?
+Dialogue: 0,0:19:40.08,0:19:43.80,Default,,0000,0000,0000,,Với chiến lực của họ... thì 0% ạ.
+Dialogue: 0,0:19:44.89,0:19:45.95,Default,,0000,0000,0000,,Tốt lắm.
+Dialogue: 0,0:19:46.76,0:19:51.55,Default,,0000,0000,0000,,Nhật Bản chúng ta đã dốc hết sức nhưng\Nbên quốc gia đồng minh bị toàn diệt...
+Dialogue: 0,0:19:51.55,0:19:53.50,Default,,0000,0000,0000,,nên chỉ còn cách tạm thời rút lui.
+Dialogue: 0,0:19:53.75,0:19:55.42,Default,,0000,0000,0000,,Kế thừa ý chí của người đi trước,
+Dialogue: 0,0:19:55.42,0:19:58.01,Default,,0000,0000,0000,,đội tấn công thứ hai\Nđang đợi lệnh trên biển
+Dialogue: 0,0:19:58.01,0:19:59.66,Default,,0000,0000,0000,,sẽ tiến hành chinh phạt Đảo Jeju.
+Dialogue: 0,0:20:00.13,0:20:02.65,Default,,0000,0000,0000,,Quốc gia láng giềng\Nhao tổn chiến lực nghiêm trọng...
+Dialogue: 0,0:20:02.65,0:20:05.66,Default,,0000,0000,0000,,Còn chúng ta sẽ là quốc gia\Nchinh phục được cổng cấp S.
+Dialogue: 0,0:20:06.71,0:20:07.64,Default,,0000,0000,0000,,Đến lúc rồi.
+Dialogue: 0,0:20:08.05,0:20:09.51,Default,,0000,0000,0000,,Tất cả rút lui.
+Dialogue: 0,0:20:09.51,0:20:12.11,Default,,0000,0000,0000,,Hội họp với\Nđội tấn công số hai ở trên biển...
+Dialogue: 0,0:20:13.70,0:20:14.63,Default,,0000,0000,0000,,Thôi vậy.
+Dialogue: 0,0:20:15.83,0:20:17.72,Default,,0000,0000,0000,,Hội trưởng Matsumoto vừa ra lệnh.
+Dialogue: 0,0:20:17.92,0:20:18.84,Default,,0000,0000,0000,,Rút lui thôi.
+Dialogue: 0,0:20:19.41,0:20:21.05,Default,,0000,0000,0000,,Để dịp khác sẽ thu hồi thi thể.
+Dialogue: 0,0:20:26.13,0:20:27.13,Default,,0000,0000,0000,,Ishida!
+Dialogue: 0,0:20:27.37,0:20:27.91,Default,,0000,0000,0000,,Đi đi!
+Dialogue: 0,0:20:29.07,0:20:32.98,Default,,0000,0000,0000,,Cùng Bravo hội họp với lực lượng trên biển\Nvà chuẩn bị cho lần sau.
+Dialogue: 0,0:20:33.56,0:20:34.55,Default,,0000,0000,0000,,Nhưng mà...
+Dialogue: 0,0:20:34.56,0:20:36.72,Default,,0000,0000,0000,,Cậu có ở lại cũng chỉ cản trở mà thôi.
+Dialogue: 0,0:20:38.24,0:20:38.94,Default,,0000,0000,0000,,Đi đi.
+Dialogue: 0,0:20:39.05,0:20:39.79,Default,,0000,0000,0000,,Tuân lệnh!
+Dialogue: 0,0:20:43.57,0:20:45.59,Default,,0000,0000,0000,,Khí tức tỏa ra sắc bén khủng khiếp...
+Dialogue: 0,0:20:46.65,0:20:49.00,Default,,0000,0000,0000,,Ngươi là vua sao?
+Dialogue: 0,0:20:49.95,0:20:51.01,Default,,0000,0000,0000,,Thú vị thật.
+Dialogue: 0,0:20:51.36,0:20:52.78,Default,,0000,0000,0000,,Một con kiến biết nói à.
+Dialogue: 0,0:20:54.97,0:20:55.72,Default,,0000,0000,0000,,Vua...
+Dialogue: 0,0:20:56.19,0:20:56.97,Default,,0000,0000,0000,,Phải rồi.
+Dialogue: 0,0:20:57.35,0:20:58.54,Default,,0000,0000,0000,,Ta là vua đây.
+Dialogue: 0,0:21:03.85,0:21:05.50,Default,,0000,0000,0000,,Ma lực gì thế này...
+Dialogue: 0,0:21:06.19,0:21:07.33,Default,,0000,0000,0000,,Cảm giác này...
+Dialogue: 0,0:21:07.82,0:21:09.99,Default,,0000,0000,0000,,Mình từng nếm trải.
+Dialogue: 0,0:21:11.51,0:21:12.33,Default,,0000,0000,0000,,Đó chính là...
+Dialogue: 0,0:21:22.33,0:21:23.26,Default,,0000,0000,0000,,Choi Jong-In!
+Dialogue: 0,0:21:23.27,0:21:24.86,Default,,0000,0000,0000,,Tăng hỏa lực lên nữa đi!
+Dialogue: 0,0:21:25.08,0:21:27.03,Default,,0000,0000,0000,,Đừng có nói linh tinh nữa!
+Dialogue: 0,0:21:27.04,0:21:28.96,Default,,0000,0000,0000,,Tôi tới giới hạn rồi!
+Dialogue: 0,0:21:29.00,0:21:31.11,Default,,0000,0000,0000,,Tất cả đều bị thương chí mạng.
+Dialogue: 0,0:21:31.30,0:21:34.45,Default,,0000,0000,0000,,Chẳng còn chút sức nào\Nđể đứng lên đấu với chúng.
+Dialogue: 0,0:21:34.84,0:21:37.81,Default,,0000,0000,0000,,Ngay cả hi vọng cuối cùng\Nlà Choi Jong-in cũng...
+Dialogue: 0,0:21:43.66,0:21:44.90,Default,,0000,0000,0000,,Kết thúc ở đây sao...
+Dialogue: 0,0:21:53.69,0:21:54.56,Default,,0000,0000,0000,,Cái gì...
+Dialogue: 0,0:21:55.46,0:21:57.25,Default,,0000,0000,0000,,Đám binh sĩ màu đen này là sao!?
+Dialogue: 0,0:22:03.70,0:22:04.49,Default,,0000,0000,0000,,Hoán đổi.
+Dialogue: 0,0:22:44.67,0:22:48.17,Default,,0000,0000,0000,,TẬP 23: TÌNH HÌNH SẼ CÀNG KHỐC LIỆT HƠN
+Dialogue: 0,0:23:37.64,0:23:40.97,Default,,0000,0000,0000,,TẬP 24: NGƯƠI CÓ PHẢI VUA CỦA CON NGƯỜI

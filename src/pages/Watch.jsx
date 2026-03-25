@@ -1,34 +1,20 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link, useLocation, useParams } from 'react-router-dom'
+import { Link, Navigate, useLocation, useParams } from 'react-router-dom'
 import BunnyPlayer from '../components/BunnyPlayer'
+import MediaCardLink from '../components/MediaCardLink'
 import RatingInline from '../components/RatingInline'
+import anime from '../data/anime'
 import movies from '../data/movies'
 import tvShows from '../data/tvShows'
 import { useAccount } from '../context/AccountContext'
 import { fetchBunnyThumbnailUrl } from '../utils/bunny'
+import { getCatalogType, getDetailPath } from '../utils/catalogPaths'
+import { findEpisodeMatchInCollections } from '../utils/episodeMatch'
 import { getBackgroundImageStyle } from '../utils/media'
 import { getRatingValue } from '../utils/rating'
 
 function getRelatedHref(item) {
-  return item.seasons ? `/tv-shows/${item.id}` : `/movies/${item.id}`
-}
-
-function findEpisodeMatch(contentId) {
-  for (const show of tvShows) {
-    for (const season of show.seasonsData ?? []) {
-      for (const episode of season.episodes ?? []) {
-        if (episode.id === contentId) {
-          return {
-            show,
-            season,
-            episode,
-          }
-        }
-      }
-    }
-  }
-
-  return null
+  return getDetailPath(item)
 }
 
 function buildEpisodeWatchItem(match) {
@@ -49,6 +35,7 @@ function buildEpisodeWatchItem(match) {
     progress: episode.progress ?? show.progress ?? 0,
     released: episode.released || show.released,
     seasonLabel: season?.label || '',
+    subtitleTracks: episode.subtitleTracks ?? show.subtitleTracks ?? [],
   }
 }
 
@@ -109,6 +96,24 @@ function buildEpisodePlayerSubtitle(seasonLabel, episodeTitle, fallbackTitle) {
   return [seasonPart, episodePart, titlePart].filter(Boolean).join(' • ')
 }
 
+function getAnimeAudioMode(search) {
+  const requestedMode = new URLSearchParams(search).get('audio')
+
+  if (requestedMode === 'dub') {
+    return 'dub'
+  }
+
+  if (requestedMode === 'sub') {
+    return 'sub'
+  }
+
+  return null
+}
+
+function appendSearchToPath(pathname, search) {
+  return search ? `${pathname}${search}` : pathname
+}
+
 function getPlayerViewportStyle() {
   if (typeof window === 'undefined') {
     return {}
@@ -137,16 +142,27 @@ export default function Watch() {
   const location = useLocation()
   const {
     getPlaybackProgress,
+    getPlaybackResumeTime,
+    isAnimeAccessAllowed,
     isFavorite,
+    isInContinueWatching,
+    removeContinueWatching,
     saveContinueWatching,
     toggleFavorite,
   } = useAccount()
-  const allContent = [...movies, ...tvShows]
-  const episodeMatch = findEpisodeMatch(id)
+  const allContent = [...movies, ...tvShows, ...anime]
+  const episodeMatch = findEpisodeMatchInCollections([tvShows, anime], id)
   const nextEpisodeMatch = findNextEpisodeMatch(episodeMatch)
   const movie = buildEpisodeWatchItem(episodeMatch) ?? allContent.find((item) => item.id === id)
   const nextEpisode = buildEpisodeWatchItem(nextEpisodeMatch)
   const parentShow = movie?.parentShow ?? null
+  const catalogType = movie ? getCatalogType(parentShow ?? movie) : null
+  const animeAudioMode = catalogType === 'anime' ? getAnimeAudioMode(location.search) ?? 'sub' : null
+  const animeAudioSearch = animeAudioMode ? `?audio=${animeAudioMode}` : ''
+  const preferredAudioLanguage =
+    animeAudioMode === 'sub' ? 'ja' : animeAudioMode === 'dub' ? 'en' : null
+  const preferredSubtitleMode =
+    animeAudioMode === 'sub' ? 'on' : animeAudioMode === 'dub' ? 'off' : null
   const pickerSeasons = parentShow?.seasonsData ?? []
   const playerShellRef = useRef(null)
   const playerVideoRef = useRef(null)
@@ -158,7 +174,9 @@ export default function Watch() {
     shouldCancelClick: false,
   })
   const favoriteTarget = parentShow ?? movie
+  const continueWatchingTarget = parentShow ?? movie
   const playbackProgress = movie ? getPlaybackProgress(movie.id, movie.progress ?? 0) : 0
+  const playbackResumeTime = movie ? getPlaybackResumeTime(movie.id, 0) : 0
   const lastSavedProgressRef = useRef(playbackProgress)
   const lastSavedAtRef = useRef(0)
   const nextEpisodePromptHandledRef = useRef(false)
@@ -167,15 +185,22 @@ export default function Watch() {
   const [isEpisodePickerOpen, setIsEpisodePickerOpen] = useState(false)
   const [activePickerSeasonId, setActivePickerSeasonId] = useState(episodeMatch?.season?.id ?? '')
   const [episodeThumbnailUrls, setEpisodeThumbnailUrls] = useState({})
+  const [detailShouldAutoplay, setDetailShouldAutoplay] = useState(false)
   const [isPlayerFullscreen, setIsPlayerFullscreen] = useState(false)
   const [isPlayerUiVisible, setIsPlayerUiVisible] = useState(true)
   const [isSeasonTabsDragging, setIsSeasonTabsDragging] = useState(false)
   const [playerViewportStyle, setPlayerViewportStyle] = useState(() => getPlayerViewportStyle())
+  const detailPlayerSectionRef = useRef(null)
   const activePickerSeason =
     pickerSeasons.find((season) => season.id === activePickerSeasonId) ??
     pickerSeasons.find((season) => season.id === episodeMatch?.season?.id) ??
     pickerSeasons[0]
-  const detailPath = parentShow ? `/tv-shows/${parentShow.id}` : `/movies/${movie?.id ?? id}`
+  const detailPath = parentShow
+    ? appendSearchToPath(getDetailPath(parentShow), animeAudioSearch)
+    : movie
+      ? appendSearchToPath(getDetailPath(movie), animeAudioSearch)
+      : '/'
+  const shouldAutoplay = location.state?.autoplay !== false
   const episodePlayerSubtitle = episodeMatch
     ? buildEpisodePlayerSubtitle(
         episodeMatch.season?.label,
@@ -211,6 +236,7 @@ export default function Watch() {
     setShowNextEpisodePrompt(false)
     setIsEpisodePickerOpen(false)
     setActivePickerSeasonId(episodeMatch?.season?.id ?? pickerSeasons[0]?.id ?? '')
+    setDetailShouldAutoplay(false)
   }, [episodeMatch?.season?.id, id, pickerSeasons])
 
   useEffect(() => {
@@ -475,25 +501,55 @@ export default function Watch() {
     }
   }
 
-  const handleProgressChange = (nextProgress) => {
+  const handleProgressChange = (nextPlaybackState) => {
     if (!movie) {
       return
     }
 
+    const isForcedSave =
+      typeof nextPlaybackState === 'number' ? false : Boolean(nextPlaybackState?.force)
+    const nextProgress =
+      typeof nextPlaybackState === 'number'
+        ? nextPlaybackState
+        : Number(nextPlaybackState?.progress ?? 0)
     const normalizedProgress = nextProgress >= 95 ? 100 : nextProgress
+    const nextResumeTimeSeconds =
+      normalizedProgress === 100
+        ? 0
+        : typeof nextPlaybackState === 'number'
+          ? 0
+          : Number(nextPlaybackState?.currentTime ?? 0)
+    const nextDurationSeconds =
+      typeof nextPlaybackState === 'number' ? 0 : Number(nextPlaybackState?.duration ?? 0)
     const progressDelta = Math.abs(normalizedProgress - lastSavedProgressRef.current)
     const now = Date.now()
     const hasReachedCompletion = normalizedProgress === 100 && lastSavedProgressRef.current !== 100
     const hasMeaningfulChange = progressDelta >= 2
     const hasWaitedLongEnough = now - lastSavedAtRef.current >= 15000
+    const hasResumeSnapshot = nextResumeTimeSeconds > 0 || normalizedProgress === 100
 
-    if (!hasReachedCompletion && !hasMeaningfulChange && !hasWaitedLongEnough) {
+    if (
+      !isForcedSave &&
+      !hasReachedCompletion &&
+      !hasMeaningfulChange &&
+      !hasWaitedLongEnough
+    ) {
+      return
+    }
+
+    if (isForcedSave && !hasResumeSnapshot && normalizedProgress <= 0) {
       return
     }
 
     lastSavedProgressRef.current = normalizedProgress
     lastSavedAtRef.current = now
-    void saveContinueWatching(parentShow ?? movie, normalizedProgress, parentShow ? movie.id : null)
+    void saveContinueWatching(
+      parentShow ?? movie,
+      normalizedProgress,
+      parentShow ? movie.id : null,
+      nextResumeTimeSeconds,
+      nextDurationSeconds
+    )
   }
 
   const handleSeasonTabsMouseDown = (event) => {
@@ -526,6 +582,23 @@ export default function Watch() {
     event.stopPropagation()
   }
 
+  const handleDetailPlayNow = (event) => {
+    event.preventDefault()
+    setDetailShouldAutoplay(true)
+    detailPlayerSectionRef.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    })
+
+    const playAttempt = playerVideoRef.current?.play?.()
+
+    if (playAttempt?.catch) {
+      playAttempt.catch(() => {
+        // Let the player retry once the stream is ready.
+      })
+    }
+  }
+
   if (!movie) {
     return (
       <div className="app-shell">
@@ -547,6 +620,10 @@ export default function Watch() {
     )
   }
 
+  if (catalogType === 'anime' && !isAnimeAccessAllowed) {
+    return <Navigate to="/" replace />
+  }
+
   if (episodeMatch) {
     return (
       <div className="app-shell">
@@ -565,10 +642,14 @@ export default function Watch() {
 
           <section className="watch-player-only-frame">
             <BunnyPlayer
+              initialResumeTime={playbackResumeTime}
               videoId={movie.bunnyVideoId}
               hasBlockingPanelOpen={isEpisodePickerOpen}
+              preferredAudioLanguage={preferredAudioLanguage}
+              preferredSubtitleMode={preferredSubtitleMode}
               title={parentShow?.title || movie.title}
               subtitle={episodePlayerSubtitle}
+              subtitleTracks={movie.subtitleTracks}
               onDismissBlockingPanels={() => setIsEpisodePickerOpen(false)}
               onEnded={openNextEpisodePrompt}
               onEpisodesClick={() => setIsEpisodePickerOpen((current) => !current)}
@@ -578,6 +659,7 @@ export default function Watch() {
               onToggleFullscreen={togglePlayerFullscreen}
               onVideoRefReady={setPlayerVideoNode}
               isFullscreen={isPlayerFullscreen}
+              shouldAutoplay={shouldAutoplay}
               showEpisodesButton
             />
           </section>
@@ -633,7 +715,7 @@ export default function Watch() {
                   return (
                     <Link
                       key={episode.id}
-                      to={`/watch/${episode.id}`}
+                      to={`/watch/${episode.id}${animeAudioSearch}`}
                       replace
                       state={{ from: detailPath }}
                       className={`watch-episode-picker-item ${isActiveEpisode ? 'active' : ''}`}
@@ -704,9 +786,9 @@ export default function Watch() {
                 </button>
 
                 <Link
-                  to={`/watch/${nextEpisode.id}`}
+                  to={`/watch/${nextEpisode.id}${animeAudioSearch}`}
                   replace
-                  state={{ from: detailPath }}
+                  state={{ autoplay: true, from: detailPath }}
                   className="watch-next-episode-play"
                 >
                   Play Next
@@ -737,9 +819,14 @@ export default function Watch() {
 
           <section className="watch-player-only-frame">
             <BunnyPlayer
+              initialResumeTime={playbackResumeTime}
               videoId={movie.bunnyVideoId}
+              preferredAudioLanguage={preferredAudioLanguage}
+              preferredSubtitleMode={preferredSubtitleMode}
+              shouldAutoplay={shouldAutoplay}
               title={movie.title}
               subtitle=""
+              subtitleTracks={movie.subtitleTracks}
               onProgressChange={handleProgressChange}
               onControlsVisibilityChange={setIsPlayerUiVisible}
               onToggleFullscreen={togglePlayerFullscreen}
@@ -754,7 +841,10 @@ export default function Watch() {
 
   const isSeries = Boolean(movie.seasons)
   const ratingValue = getRatingValue(movie)
-  const tertiaryHref = isSeries ? `/tv-shows/${parentShow?.id ?? movie.id}` : '/favorites'
+  const seriesCatalogType = catalogType
+  const tertiaryHref = isSeries
+    ? appendSearchToPath(getDetailPath(parentShow ?? movie), animeAudioSearch)
+    : '/favorites'
   const tertiaryLabel = isSeries ? 'Episode Guide' : 'View My List'
   const metaItems = [
     movie.genre ?? movie.badge,
@@ -766,7 +856,7 @@ export default function Watch() {
   const detailItems = [
     {
       label: 'Type',
-      value: isSeries ? 'TV Series' : 'Movie',
+      value: isSeries ? (seriesCatalogType === 'anime' ? 'Anime Series' : 'TV Series') : 'Movie',
     },
     {
       label: 'Genre',
@@ -805,7 +895,9 @@ export default function Watch() {
     })
   }
 
-  const relatedItems = (isSeries ? tvShows : movies)
+  const relatedItems = (
+    isSeries ? (seriesCatalogType === 'anime' ? anime : tvShows) : movies
+  )
     .filter((item) => item.id !== (parentShow?.id ?? movie.id))
     .sort((left, right) => {
       const scoreItem = (item) => {
@@ -835,6 +927,7 @@ export default function Watch() {
       return Number(right.year ?? 0) - Number(left.year ?? 0)
     })
     .slice(0, 4)
+  const canRemoveFromContinueWatching = isInContinueWatching(continueWatchingTarget)
 
   return (
     <div className="app-shell">
@@ -853,7 +946,13 @@ export default function Watch() {
               <button
                 type="button"
                 className="back-link"
-                onClick={() => goBackTo(isSeries ? `/tv-shows/${parentShow?.id ?? movie.id}` : '/movies')}
+                onClick={() =>
+                  goBackTo(
+                    isSeries
+                      ? appendSearchToPath(getDetailPath(parentShow ?? movie), animeAudioSearch)
+                      : '/movies'
+                  )
+                }
               >
                 Back
               </button>
@@ -877,9 +976,23 @@ export default function Watch() {
               <p className="watch-description">{movie.description}</p>
 
               <div className="watch-hero-actions">
-                <a href="#watch-player" className="watch-primary-btn">
+                <a
+                  href="#watch-player"
+                  className="watch-primary-btn"
+                  onClick={handleDetailPlayNow}
+                >
                   Play Now
                 </a>
+
+                {canRemoveFromContinueWatching && (
+                  <button
+                    type="button"
+                    className="watch-secondary-btn"
+                    onClick={() => removeContinueWatching(continueWatchingTarget)}
+                  >
+                    Remove from Continue Watching
+                  </button>
+                )}
 
                 <button
                   className={`watch-list-btn ${isFavorite(favoriteTarget.id) ? 'active' : ''}`}
@@ -910,7 +1023,7 @@ export default function Watch() {
             </aside>
           </section>
 
-          <section className="watch-player-section" id="watch-player">
+          <section ref={detailPlayerSectionRef} className="watch-player-section" id="watch-player">
             <div className="watch-player-frame">
               <div className="watch-player-chrome">
                 <div>
@@ -924,9 +1037,15 @@ export default function Watch() {
               </div>
 
               <BunnyPlayer
+                initialResumeTime={playbackResumeTime}
                 videoId={movie.bunnyVideoId}
+                preferredAudioLanguage={preferredAudioLanguage}
+                preferredSubtitleMode={preferredSubtitleMode}
+                shouldAutoplay={detailShouldAutoplay}
                 title={movie.title}
+                subtitleTracks={movie.subtitleTracks}
                 onProgressChange={handleProgressChange}
+                onVideoRefReady={setPlayerVideoNode}
               />
             </div>
           </section>
@@ -962,7 +1081,12 @@ export default function Watch() {
 
               <div className="watch-related-grid">
                 {relatedItems.map((item) => (
-                  <Link to={getRelatedHref(item)} key={item.id} className="watch-related-card">
+                  <MediaCardLink
+                    item={item}
+                    to={getRelatedHref(item)}
+                    key={item.id}
+                    className="watch-related-card"
+                  >
                     <img src={item.backdrop ?? item.poster} alt={item.title} />
                     <div className="watch-related-overlay" />
 
@@ -970,7 +1094,7 @@ export default function Watch() {
                       <p>{[item.year, item.maturityRating].filter(Boolean).join(' / ')}</p>
                       <h3>{item.title}</h3>
                     </div>
-                  </Link>
+                  </MediaCardLink>
                 ))}
               </div>
             </section>

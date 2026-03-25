@@ -1,0 +1,392 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: Top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Overlap,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H2BA41D54,&H00333333,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Overlap top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H2BA41D54,&H00333333,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Italics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Italics top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Flashback,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00914600,&H00490302,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Flashback top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00914600,&H00490302,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Flashback italics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00914600,&H00490302,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Flashback italics top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00914600,&H00490302,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Flashback Overlap Italics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00D39E6D,&H00490302,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Flashback Overlap,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00D39E6D,&H00490302,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Flashback Overlap top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00D39E6D,&H00490302,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Narrator,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00010278,&H00000031,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Narrator Top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00010278,&H00000031,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Cartelli top Mod,Times New Roman,22.0,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0010,0010,0018,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.32,0:00:15.16,Italics,Sung Jinwoo,0000,0000,0000,,Goto Ryuji non partecipa?
+Dialogue: 0,0:00:15.16,0:00:19.37,Italics,Sung Jinwoo,0000,0000,0000,,Beh, è solo grazie a lui\Nse assisterò a uno scontro fra dei grado S.
+Dialogue: 0,0:00:19.84,0:00:21.09,Default,Ma Dongwook,0000,0000,0000,,Bene.
+Dialogue: 0,0:00:25.07,0:00:27.00,Default,Ma Dongwook,0000,0000,0000,,Iniziamo?
+Dialogue: 0,0:02:06.97,0:02:08.27,Default,Tanaka Kenzo,0000,0000,0000,,Una prova di forza?
+Dialogue: 0,0:02:08.76,0:02:10.73,Default,Tanaka Kenzo,0000,0000,0000,,Chiaro e semplice, mi piace!
+Dialogue: 0,0:02:10.73,0:02:11.88,Default,Ma Dongwook,0000,0000,0000,,Bene.
+Dialogue: 0,0:02:11.88,0:02:14.67,Default,Ma Dongwook,0000,0000,0000,,Scopriamo chi dei due è più forte!
+Dialogue: 0,0:02:22.50,0:02:25.12,Italics,Lim Tae-gyu,0000,0000,0000,,È un fulmine!\NIn uno scontro ravvicinato sarei in svantaggio!
+Dialogue: 0,0:02:29.12,0:02:32.37,Default,Lim Tae-gyu,0000,0000,0000,,Io sono specializzato\Nnegli attacchi a distanza!
+Dialogue: 0,0:02:34.89,0:02:37.03,Default,Tanaka Kenzo,0000,0000,0000,,Hoshino! Sta' attento!
+Dialogue: 0,0:02:37.03,0:02:38.79,Default,Tanaka Kenzo,0000,0000,0000,,Sbrigati a sconfiggerlo!
+Dialogue: 0,0:02:43.68,0:02:46.06,Default,Choi Jong-in,0000,0000,0000,,L'interno di questa struttura\N è stato rinforzato
+Dialogue: 0,0:02:46.06,0:02:49.05,Default,Choi Jong-in,0000,0000,0000,,con i migliori Cristalli del Nucleo,\N giusto, presidente?
+Dialogue: 0,0:02:49.05,0:02:50.23,Default,Go Gunhee,0000,0000,0000,,Esatto.
+Dialogue: 0,0:02:50.23,0:02:53.90,Default,Go Gunhee,0000,0000,0000,,Ma forse è il caso\Ndi potenziarlo ulteriormente.
+Dialogue: 0,0:02:55.02,0:02:58.55,Italics,Baek Yoonho,0000,0000,0000,,Anche fra gli hunter di grado S,\Nloro sono tra i più forti in circolazione.
+Dialogue: 0,0:02:58.97,0:03:01.02,Italics,Baek Yoonho,0000,0000,0000,,Non devo pensare di afferrargli i polsi,
+Dialogue: 0,0:03:01.02,0:03:03.45,Italics,Baek Yoonho,0000,0000,0000,,ma agire come se volessi spezzarglieli.
+Dialogue: 0,0:03:07.09,0:03:08.91,Italics,Baek Yoonho,0000,0000,0000,,Kumamoto Atsushi, eh?
+Dialogue: 0,0:03:09.32,0:03:12.29,Italics,Baek Yoonho,0000,0000,0000,,Non mi sembra il tipo di persona\Na cui piace combattere.
+Dialogue: 0,0:03:14.14,0:03:17.30,Italics,Kumamoto Atsushi,0000,0000,0000,,Merda, queste cose non fanno per me.
+Dialogue: 0,0:03:17.30,0:03:19.59,Italics,Kumamoto Atsushi,0000,0000,0000,,Ho di nuovo esitato...
+Dialogue: 0,0:03:22.33,0:03:23.88,Italics,Baek Yoonho,0000,0000,0000,,Forse, tramite noi,
+Dialogue: 0,0:03:23.88,0:03:26.59,Italics,Baek Yoonho,0000,0000,0000,,Goto vuole metterlo alla prova
+Dialogue: 0,0:03:26.96,0:03:29.31,Italics,Baek Yoonho,0000,0000,0000,,e vedere se è pronto \Na combattere contro le formiche.
+Dialogue: 0,0:03:33.67,0:03:36.19,Italics,Baek Yoonho,0000,0000,0000,,Se ha scelto me come cavia,
+Dialogue: 0,0:03:36.54,0:03:38.66,Italics,Baek Yoonho,0000,0000,0000,,sarò più che lieto\N di mostrargli chi sono davvero!
+Dialogue: 0,0:03:38.90,0:03:40.52,Italics,Kumamoto Atsushi,0000,0000,0000,,No, non ce la faccio!
+Dialogue: 0,0:03:44.99,0:03:47.08,Default,Park Jongsoo,0000,0000,0000,,È un raduno di mostri.
+Dialogue: 0,0:03:47.68,0:03:50.08,Default,Park Jongsoo,0000,0000,0000,,Io che sono di grado A\Nnon avrei alcuna speranza.
+Dialogue: 0,0:03:50.08,0:03:51.82,Default,Jung Yoontae,0000,0000,0000,,Non è affatto vero!
+Dialogue: 0,0:03:51.82,0:03:54.14,Default,Jung Yoontae,0000,0000,0000,,Lei è molto potente, capo!
+Dialogue: 0,0:03:56.71,0:03:59.26,Default,Tanaka Kenzo,0000,0000,0000,,La prova di forza si conclude\Ncon la mia vittoria.
+Dialogue: 0,0:04:00.10,0:04:02.26,Default,Ma Dongwook,0000,0000,0000,,Sono incastrato nel pavimento!
+Dialogue: 0,0:04:02.88,0:04:04.59,Default,Ma Dongwook,0000,0000,0000,,È la prima volta che mi succede.
+Dialogue: 0,0:04:06.45,0:04:08.30,Default,Hoshino Minoru,0000,0000,0000,,La vittoria è mia.
+Dialogue: 0,0:04:11.41,0:04:13.23,Default,Baek Yoonho,0000,0000,0000,,Per quanto ancora vuoi scapp—
+Dialogue: 0,0:04:16.38,0:04:19.07,Default,Baek Yoonho,0000,0000,0000,,Vi sembro più debole dell'hunter Cha?
+Dialogue: 0,0:04:19.33,0:04:21.20,Default,Baek Yoonho,0000,0000,0000,,Mi state proprio sottovalutando...
+Dialogue: 0,0:04:22.69,0:04:24.11,Italics,Tawata Kanae,0000,0000,0000,,Non riesco a prevedere le sue mosse!
+Dialogue: 0,0:04:24.53,0:04:26.44,Italics,Tawata Kanae,0000,0000,0000,,Cha Hae-in, la principessa danzante.
+Dialogue: 0,0:04:26.82,0:04:29.15,Italics,Tawata Kanae,0000,0000,0000,,Ora che mi attacca come se danzasse,
+Dialogue: 0,0:04:29.15,0:04:31.83,Italics,Tawata Kanae,0000,0000,0000,,capisco il senso del suo soprannome!
+Dialogue: 0,0:04:35.09,0:04:36.04,Default,Cha Hae-in,0000,0000,0000,,Toccata.
+Dialogue: 0,0:04:36.74,0:04:38.96,Italics,Cha Hae-in,0000,0000,0000,,Devo andare ad aiutare l'hunter Baek.
+Dialogue: 0,0:04:45.70,0:04:46.96,Default,Shimizu Akari,0000,0000,0000,,Ma cos'era quello?!
+Dialogue: 0,0:04:46.96,0:04:48.10,Italics,Cha Hae-in,0000,0000,0000,,Accidenti!
+Dialogue: 0,0:04:48.10,0:04:49.98,Italics,Cha Hae-in,0000,0000,0000,,Ho attaccato per riflesso automatico!
+Dialogue: 0,0:04:54.96,0:04:57.18,Default,Shimizu Akari,0000,0000,0000,,Ecco qua, ha perso la testa.
+Dialogue: 0,0:04:57.49,0:05:00.90,Default,Tatsumi Fujishima,0000,0000,0000,,Quando entra in quello stato,\Ndiventa imprevedibile.
+Dialogue: 0,0:05:01.10,0:05:02.72,Default,Hanekawa,0000,0000,0000,,Non sarebbe meglio fermarlo?
+Dialogue: 0,0:05:03.19,0:05:05.24,Default,Goto Ryuji,0000,0000,0000,,Solo se rischiano di ferirsi.
+Dialogue: 0,0:05:09.88,0:05:10.57,Italics,Cha Hae-in,0000,0000,0000,,È veloce.
+Dialogue: 0,0:05:14.89,0:05:16.34,Default,Shimizu Akari,0000,0000,0000,,Non sta esagerando?
+Dialogue: 0,0:05:22.72,0:05:25.01,Default,Sung Jinwoo,0000,0000,0000,,So che non dovrei intervenire,
+Dialogue: 0,0:05:25.62,0:05:28.68,Default,Sung Jinwoo,0000,0000,0000,,ma ti stai spingendo\Nun po' oltre il concetto di "amichevole".
+Dialogue: 0,0:05:28.68,0:05:30.13,Default,Kumamoto Atsushi,0000,0000,0000,,Che cazzo fai?!
+Dialogue: 0,0:05:33.61,0:05:37.10,Default,Shimizu Akari,0000,0000,0000,,Non ci credo! Ha battuto facilmente\NKumamoto mentre era infuriato!
+Dialogue: 0,0:05:37.43,0:05:40.41,Default,Goto Ryuji,0000,0000,0000,,Quell'hunter è davvero di classe mago?
+Dialogue: 0,0:05:40.41,0:05:42.32,Default,Hanekawa,0000,0000,0000,,Sì, dovrebbe essere così.
+Dialogue: 0,0:05:42.58,0:05:45.03,Italics,Goto Ryuji,0000,0000,0000,,Devo accertarmene di persona.
+Dialogue: 0,0:05:45.45,0:05:46.78,Default,Sung Jinwoo,0000,0000,0000,,Hunter Cha.
+Dialogue: 0,0:05:46.78,0:05:48.87,Default,Sung Jinwoo,0000,0000,0000,,La consideriamo come una sconfitta per noi?
+Dialogue: 0,0:05:49.53,0:05:52.04,Default,Sung Jinwoo,0000,0000,0000,,Pare che anche l'hunter Baek\Nsia stato eliminato.
+Dialogue: 0,0:05:52.04,0:05:52.83,Default,Cha Hae-in,0000,0000,0000,,Va bene.
+Dialogue: 0,0:05:54.75,0:05:56.64,Italics,Baek Yoonho,0000,0000,0000,,Anche se avessi impiegato tutte le mie forze,
+Dialogue: 0,0:05:56.64,0:05:58.29,Italics,Baek Yoonho,0000,0000,0000,,non sarebbe bastato per vincere.
+Dialogue: 0,0:06:00.40,0:06:01.88,Default,Hanekawa,0000,0000,0000,,Hunter Sung.
+Dialogue: 0,0:06:02.14,0:06:06.59,Default,Hanekawa,0000,0000,0000,,Il capogilda Goto vorrebbe\Naffrontarla in combattimento.
+Dialogue: 0,0:06:06.80,0:06:09.09,Italics,Sung Jinwoo,0000,0000,0000,,Emana spirito combattivo da tutto il corpo.
+Dialogue: 0,0:06:09.39,0:06:12.05,Italics,Sung Jinwoo,0000,0000,0000,,Vuole scoprire di cosa sono capace?
+Dialogue: 0,0:06:13.28,0:06:16.68,Italics,Sung Jinwoo,0000,0000,0000,,È un'ottima occasione per testare\Ni poteri acquisiti nel castello del Demone.
+Dialogue: 0,0:06:17.87,0:06:19.85,Italics,Goto Ryuji,0000,0000,0000,,Ha sorriso al pensiero di battersi con me?
+Dialogue: 0,0:06:20.66,0:06:21.83,Default,Hanekawa,0000,0000,0000,,Signor Goto.
+Dialogue: 0,0:06:21.83,0:06:24.21,Default,Hanekawa,0000,0000,0000,,L'hunter Sung ha accettato.
+Dialogue: 0,0:06:24.21,0:06:26.46,Default,Hanekawa,0000,0000,0000,,Ma lo farà a una condizione.
+Dialogue: 0,0:06:26.46,0:06:27.44,Default,Goto Ryuji,0000,0000,0000,,Ossia?
+Dialogue: 0,0:06:27.75,0:06:30.66,Default,Hanekawa,0000,0000,0000,,Accetterà solo se lei userà tutta la sua potenza.
+Dialogue: 0,0:06:33.61,0:06:34.95,Default,Goto Ryuji,0000,0000,0000,,Interessante.
+Dialogue: 0,0:06:35.54,0:06:39.25,Italics top,Giornalista (TV),0000,0000,0000,,Finalmente si sta avvicinando la data\Ndel quarto raid sull'isola di Jeju.
+Dialogue: 0,0:06:39.53,0:06:42.17,Italics top,Giornalista (TV),0000,0000,0000,,Il nostro Paese si è alleato col Giappone
+Dialogue: 0,0:06:42.17,0:06:44.86,Italics top,Giornalista (TV),0000,0000,0000,,e ha ultimato ogni preparativo necessario.
+Dialogue: 0,0:06:43.76,0:06:45.99,Default,Mamma di Lee Joohee,0000,0000,0000,,Ma oggi non lavori?
+Dialogue: 0,0:06:45.99,0:06:47.08,Default,Lee Joohee,0000,0000,0000,,Sono in ferie.
+Dialogue: 0,0:06:47.08,0:06:48.23,Default,Lee Joohee,0000,0000,0000,,Te l'ho detto ieri, no?
+Dialogue: 0,0:06:48.23,0:06:49.78,Default,Mamma di Lee Joohee,0000,0000,0000,,Sul serio?
+Dialogue: 0,0:06:49.78,0:06:51.72,Default,Mamma di Lee Joohee,0000,0000,0000,,Dato che gli hunter si stanno dando da fare,
+Dialogue: 0,0:06:51.72,0:06:54.93,Default,Mamma di Lee Joohee,0000,0000,0000,,dobbiamo fare lo stesso anche noi.
+Dialogue: 0,0:07:04.62,0:07:05.89,Default,Lee Joohee,0000,0000,0000,,Pronto?
+Dialogue: 0,0:07:06.40,0:07:07.11,Default,Lee Joohee,0000,0000,0000,,Ecco...
+Dialogue: 0,0:07:08.01,0:07:11.43,Default,Lee Joohee,0000,0000,0000,,vorrei chiedere qualche informazione \Nsull'unità difensiva per il raid di Jeju.
+Dialogue: 0,0:07:12.08,0:07:14.03,Default,Lim Tae-gyu,0000,0000,0000,,Che succede?
+Dialogue: 0,0:07:14.33,0:07:17.86,Default,Ma Dongwook,0000,0000,0000,,Il tanto discusso decimo hunter di grado S\Nha del fegato, lo ammetto!
+Dialogue: 0,0:07:17.86,0:07:19.75,Default,Ma Dongwook,0000,0000,0000,,Sta per scontrarsi con Goto.
+Dialogue: 0,0:07:20.01,0:07:23.15,Italics,Cha Hae-in,0000,0000,0000,,L'ho visto combattere\Nin quel dungeon di grado A,
+Dialogue: 0,0:07:23.15,0:07:25.77,Italics,Cha Hae-in,0000,0000,0000,,ma se la caverà contro un hunter di grado S?
+Dialogue: 0,0:07:25.77,0:07:29.23,Default,Baek Yoonho,0000,0000,0000,,Oggi non ti dà fastidio\N essere circondata da tutti questi hunter?
+Dialogue: 0,0:07:29.78,0:07:33.18,Default,Cha Hae-in,0000,0000,0000,,Non posso certo coprirmi il naso\Nsul campo di battaglia.
+Dialogue: 0,0:07:34.01,0:07:36.36,Default,Cha Hae-in,0000,0000,0000,,Non sarebbe meglio farli desistere?
+Dialogue: 0,0:07:36.36,0:07:39.93,Default,Baek Yoonho,0000,0000,0000,,Un hunter di classe mago\Nin uno scontro diretto con un combattente...
+Dialogue: 0,0:07:40.32,0:07:42.66,Default,Baek Yoonho,0000,0000,0000,,Di norma, sarebbe più saggio fermarlo.
+Dialogue: 0,0:07:42.66,0:07:45.81,Default,Baek Yoonho,0000,0000,0000,,Ma credo che io e te\Nla pensiamo allo stesso modo, hunter Cha.
+Dialogue: 0,0:07:47.23,0:07:49.57,Default,Baek Yoonho,0000,0000,0000,,Non si può fare a meno\Ndi aspettarsi tanto da lui, no?
+Dialogue: 0,0:07:49.85,0:07:51.70,Italics,Baek Yoonho,0000,0000,0000,,Se i miei sospetti sono fondati
+Dialogue: 0,0:07:51.70,0:07:55.03,Italics,Baek Yoonho,0000,0000,0000,,e l'hunter Sung è un risvegliato\Nin grado di crescere e migliorare...
+Dialogue: 0,0:07:57.53,0:07:58.53,Default,Sung Jinwoo,0000,0000,0000,,Bene, iniz—
+Dialogue: 0,0:08:03.21,0:08:05.13,Default,Sung Jinwoo,0000,0000,0000,,Ehi, non avevo finito di parlare.
+Dialogue: 0,0:08:05.35,0:08:07.34,Italics,Goto Ryuji,0000,0000,0000,,Quei movimenti così rapidi...
+Dialogue: 0,0:08:07.63,0:08:09.63,Italics,Goto Ryuji,0000,0000,0000,,E questo sarebbe un mago?
+Dialogue: 0,0:08:09.63,0:08:10.79,Italics,Goto Ryuji,0000,0000,0000,,Ma non fatemi ridere.
+Dialogue: 0,0:08:13.51,0:08:15.72,Italics,Goto Ryuji,0000,0000,0000,,Ti strapperò quella maschera di dosso.
+Dialogue: 0,0:08:17.29,0:08:20.56,Italics,Sung Jinwoo,0000,0000,0000,,In effetti è su un altro livello\Nrispetto ai grado S qui presenti.
+Dialogue: 0,0:08:20.92,0:08:23.85,Italics,Sung Jinwoo,0000,0000,0000,,Ma non abbastanza\Nda essere impossibile schivare i suoi attacchi.
+Dialogue: 0,0:08:24.05,0:08:25.56,Italics,Goto Ryuji,0000,0000,0000,,Ha sorriso di nuovo?
+Dialogue: 0,0:08:25.89,0:08:28.19,Default,Lim Tae-gyu,0000,0000,0000,,Quei colpi sono così veloci\Nche neanche li vedo.
+Dialogue: 0,0:08:28.19,0:08:30.40,Default,Ma Dongwook,0000,0000,0000,,Guarda come li schiva!
+Dialogue: 0,0:08:30.64,0:08:33.86,Default,Ma Dongwook,0000,0000,0000,,Anche solo il fatto che li stia evitando,\Nè davvero eccezionale.
+Dialogue: 0,0:08:34.18,0:08:36.33,Italics,Cha Hae-in,0000,0000,0000,,Non li sta soltanto evitando.
+Dialogue: 0,0:08:36.90,0:08:39.21,Italics,Cha Hae-in,0000,0000,0000,,Sta studiando la forza dell'avversario.
+Dialogue: 0,0:08:43.54,0:08:46.37,Italics,Goto Ryuji,0000,0000,0000,,Se continuerà a schivare i miei colpi,\Nperderò la pazienza.
+Dialogue: 0,0:08:46.60,0:08:47.79,Italics,Goto Ryuji,0000,0000,0000,,Ho cambiato idea.
+Dialogue: 0,0:08:48.04,0:08:49.88,Italics,Goto Ryuji,0000,0000,0000,,Farò sul serio e lo ucciderò!
+Dialogue: 0,0:08:56.91,0:08:58.41,Italics,Cha Hae-in,0000,0000,0000,,Hunter Sung!
+Dialogue: 0,0:09:03.51,0:09:06.52,Default,Sung Jinwoo,0000,0000,0000,,Per poco non perdevo un occhio.
+Dialogue: 0,0:09:06.70,0:09:09.31,Italics,Goto Ryuji,0000,0000,0000,,Mi ha afferrato la mano anziché il polso?
+Dialogue: 0,0:09:09.31,0:09:11.11,Default,Goto Ryuji,0000,0000,0000,,Ti stai prendendo gioco di me?
+Dialogue: 0,0:09:11.42,0:09:13.71,Default,Sung Jinwoo,0000,0000,0000,,Non so a cosa ti riferisci, però...
+Dialogue: 0,0:09:14.40,0:09:16.74,Default,Sung Jinwoo,0000,0000,0000,,se ti avessi afferrato il polso,\Nsarebbe stato {\i1}game over{\i0}, no?
+Dialogue: 0,0:09:17.29,0:09:20.08,Default,Sung Jinwoo,0000,0000,0000,,Sono certo che neanche tu\Nvuoi che lo scontro termini ora.
+Dialogue: 0,0:09:31.50,0:09:33.05,Default,Ippei Izawa,0000,0000,0000,,Ehi, il signor Goto sta facendo sul serio!
+Dialogue: 0,0:09:33.39,0:09:36.55,Default,Baek Yoonho,0000,0000,0000,,Se si scontrano, non se la caveranno illesi!
+Dialogue: 0,0:09:45.57,0:09:46.47,Italics,Sung Jinwoo,0000,0000,0000,,Ghiaccio?
+Dialogue: 0,0:09:47.39,0:09:48.69,Default,Baek Yoonho,0000,0000,0000,,Hunter Sung!
+Dialogue: 0,0:09:48.99,0:09:49.89,Default,Hoshino Minoru,0000,0000,0000,,Signor Goto!
+Dialogue: 0,0:09:50.14,0:09:52.35,Default,Baek Yoonho,0000,0000,0000,,Chiudiamola qui, \Nse dovesse succedervi qualcosa,
+Dialogue: 0,0:09:52.35,0:09:54.32,Default,Baek Yoonho,0000,0000,0000,,nessuno potrebbe prendersene la responsabilità.
+Dialogue: 0,0:09:54.75,0:09:57.02,Default,Baek Yoonho,0000,0000,0000,,Digli che l'incontro è finito!
+Dialogue: 0,0:09:57.02,0:09:58.49,Default,Hanekawa,0000,0000,0000,,S-Sì!
+Dialogue: 0,0:10:01.07,0:10:02.83,Default,Baek Yoonho,0000,0000,0000,,Avrei fatto meglio a non intervenire?
+Dialogue: 0,0:10:02.83,0:10:03.53,Default,Sung Jinwoo,0000,0000,0000,,No.
+Dialogue: 0,0:10:04.85,0:10:09.32,Default,Ma Dongwook,0000,0000,0000,,Hai affrontato quel mostro di Goto\Ne te la sei cavata con un solo graffio, mica male!
+Dialogue: 0,0:10:12.11,0:10:14.79,Italics,Sung Jinwoo,0000,0000,0000,,Mi sono scaldato un po' troppo.
+Dialogue: 0,0:10:14.79,0:10:15.67,Italics,Sung Jinwoo,0000,0000,0000,,Però...
+Dialogue: 0,0:10:16.35,0:10:19.75,Italics,Sung Jinwoo,0000,0000,0000,,ora ho capito di cosa sono capaci\Ntutti gli hunter qui dentro.
+Dialogue: 0,0:10:19.75,0:10:22.90,Italics,Sung Jinwoo,0000,0000,0000,,Sono riuscito ad assegnare dei soldati\Nnelle ombre di cinque di loro.
+Dialogue: 0,0:10:25.15,0:10:26.77,Default,Go Gunhee,0000,0000,0000,,Bene, più tardi...
+Dialogue: 0,0:10:26.77,0:10:29.32,Default,Go Gunhee,0000,0000,0000,,le invierò la lista dei nostri partecipanti.
+Dialogue: 0,0:10:29.32,0:10:32.66,Default,Hanekawa,0000,0000,0000,,Allora le chiedo di mandarla\Nanche al nostro vice capogilda.
+Dialogue: 0,0:10:32.66,0:10:33.85,Default,Go Gunhee,0000,0000,0000,,Certamente.
+Dialogue: 0,0:10:38.83,0:10:40.00,Default,Sung Jinwoo,0000,0000,0000,,Presidente Go.
+Dialogue: 0,0:10:41.25,0:10:43.74,Default,Go Gunhee,0000,0000,0000,,Cosa succede, hunter Sung?
+Dialogue: 0,0:10:44.17,0:10:46.38,Default,Sung Jinwoo,0000,0000,0000,,Volevo parlarle del raid di Jeju.
+Dialogue: 0,0:10:49.37,0:10:50.56,Italics,Goto Ryuji,0000,0000,0000,,Reiji.
+Dialogue: 0,0:10:50.56,0:10:53.17,Italics,Goto Ryuji,0000,0000,0000,,Pare che anche loro\Nabbiano un hunter niente male.
+Dialogue: 0,0:10:54.36,0:10:57.37,Default,Reiji,0000,0000,0000,,Però, immagino non formidabile\Nquanto lei, il capo della Spada Sguainata.
+Dialogue: 0,0:10:57.37,0:10:58.82,Italics,Goto Ryuji,0000,0000,0000,,Non saprei.
+Dialogue: 0,0:10:58.82,0:11:00.45,Default,Reiji,0000,0000,0000,,Come si chiama?
+Dialogue: 0,0:11:00.45,0:11:01.94,Italics,Goto Ryuji,0000,0000,0000,,Sung Jinwoo.
+Dialogue: 0,0:11:01.94,0:11:04.68,Italics,Goto Ryuji,0000,0000,0000,,È diventato un grado S da poco,\Nha subito un secondo risveglio.
+Dialogue: 0,0:11:05.68,0:11:07.33,Default,Reiji,0000,0000,0000,,Che strano.
+Dialogue: 0,0:11:07.33,0:11:08.82,Default,Reiji,0000,0000,0000,,Non risulta quel nome
+Dialogue: 0,0:11:09.11,0:11:10.91,Italics,Reiji,0000,0000,0000,,nell'elenco dei partecipanti al raid.
+Dialogue: 0,0:11:10.91,0:11:11.76,Default,Goto Ryuji,0000,0000,0000,,Cosa?
+Dialogue: 0,0:11:13.65,0:11:17.41,Default,Cha Hae-in,0000,0000,0000,,L'hunter Sung non parteciperà\Nal raid dell'isola di Jeju, vero?
+Dialogue: 0,0:11:17.41,0:11:20.29,Default,Choi Jong-in,0000,0000,0000,,Immagino abbia le sue ragioni.
+Dialogue: 0,0:11:20.29,0:11:21.41,Default,Choi Jong-in,0000,0000,0000,,Però...
+Dialogue: 0,0:11:21.68,0:11:24.37,Italics,Baek Yoonho,0000,0000,0000,,Non vedo neanche il nome di Byung-gu...
+Dialogue: 0,0:11:24.59,0:11:25.70,Italics,Baek Yoonho,0000,0000,0000,,Tuttavia...
+Dialogue: 0,0:11:25.99,0:11:29.91,Default,Choi Jong-in,0000,0000,0000,,Con noi abbiamo già la bellezza\Ndi quindici hunter di grado S...
+Dialogue: 0,0:11:30.28,0:11:32.12,Default,Choi Jong-in,0000,0000,0000,,Sono certo che questa volta...
+Dialogue: 0,0:11:36.74,0:11:38.66,Default,Baek Yoonho,0000,0000,0000,,Vinceremo!
+Dialogue: 0,0:11:41.57,0:11:42.46,Default,Sung Jinwoo,0000,0000,0000,,Sono a casa.
+Dialogue: 0,0:11:42.46,0:11:44.46,Default,Sung Jinah,0000,0000,0000,,Sei in ritardo, Jinwoo!
+Dialogue: 0,0:11:45.85,0:11:47.65,Default,Park Kyung-Hye,0000,0000,0000,,Bentornato, Jinwoo.
+Dialogue: 0,0:11:47.90,0:11:49.65,Default,Park Kyung-Hye,0000,0000,0000,,È pronta la cena!
+Dialogue: 0,0:11:51.14,0:11:52.26,Default,Sung Jinwoo,0000,0000,0000,,Sono a casa.
+Dialogue: 0,0:11:53.71,0:11:56.36,Italics,Sung Jinwoo,0000,0000,0000,,Mia madre si è svegliata dopo quattro anni
+Dialogue: 0,0:11:56.57,0:11:58.07,Italics,Sung Jinwoo,0000,0000,0000,,e ha bisogno di me.
+Dialogue: 0,0:11:58.88,0:12:00.27,Italics,Sung Jinwoo,0000,0000,0000,,Per questo io...
+Dialogue: 0,0:12:00.98,0:12:02.80,Italics,Sung Jinwoo,0000,0000,0000,,non andrò sull'isola di Jeju.
+Dialogue: 0,0:12:06.95,0:12:08.64,Italics,Regina,0000,0000,0000,,Sono finite le prede
+Dialogue: 0,0:12:08.64,0:12:10.67,Italics,Regina,0000,0000,0000,,e hanno iniziato a mangiarsi tra di loro.
+Dialogue: 0,0:12:11.47,0:12:15.99,Italics,Regina,0000,0000,0000,,In questa terra non ci sono più le risorse\Nper sfamare il popolo del mio regno.
+Dialogue: 0,0:12:16.87,0:12:18.54,Italics,Regina,0000,0000,0000,,Non possiamo continuare così.
+Dialogue: 0,0:12:18.92,0:12:20.94,Italics,Regina,0000,0000,0000,,Dobbiamo abbandonare l'isola.
+Dialogue: 0,0:12:22.01,0:12:24.21,Italics,Regina,0000,0000,0000,,Serve un figlio ancora più forte...
+Dialogue: 0,0:12:24.21,0:12:26.47,Italics,Regina,0000,0000,0000,,per guidare il popolo del mio regno.
+Dialogue: 0,0:12:26.47,0:12:29.83,Italics,Regina,0000,0000,0000,,Ho bisogno di una creatura\Nsenza eguali in forza!
+Dialogue: 0,0:13:05.26,0:13:08.22,Italics,Regina,0000,0000,0000,,Diventa forte, figlio mio.
+Dialogue: 0,0:13:15.59,0:13:18.77,Italics,Giornalista (TV),0000,0000,0000,,I mostri-formica si stanno evolvendo\Na un ritmo rapidissimo.
+Dialogue: 0,0:13:19.22,0:13:23.06,Italics,Giornalista (TV),0000,0000,0000,,Durante il terzo raid dell'isola di Jeju,\Nessi si muovevano sulla terraferma,
+Dialogue: 0,0:13:23.06,0:13:26.15,Italics,Giornalista (TV),0000,0000,0000,,ma qui possiamo vedere\Nla nuova forma confermata qualche giorno fa.
+Dialogue: 0,0:13:26.38,0:13:27.96,Italics,Giornalista (TV),0000,0000,0000,,Hanno una fisionomia umanoide
+Dialogue: 0,0:13:27.96,0:13:30.61,Italics,Giornalista (TV),0000,0000,0000,,e possiedono grosse ali sul dorso.
+Dialogue: 0,0:13:31.00,0:13:35.74,Italics,Giornalista (TV),0000,0000,0000,,L'Associazione degli Hunter ha già indetto\Nun piano per contrastare questa minaccia.
+Dialogue: 0,0:13:39.26,0:13:40.69,Default,Bambino B,0000,0000,0000,,Ecco il mostro!
+Dialogue: 0,0:13:40.69,0:13:43.02,Default,Bambino B,0000,0000,0000,,Te la vedrai con me, un hunter di grado S!
+Dialogue: 0,0:13:46.46,0:13:48.47,Default,Yoo Jinho,0000,0000,0000,,Meglio se lasci stare, è pericoloso.
+Dialogue: 0,0:13:48.73,0:13:52.23,Default,Han Song-Yi,0000,0000,0000,,E perché non dovrei unirmi\Nall'unità difensiva?
+Dialogue: 0,0:13:52.51,0:13:55.40,Default,Yoo Jinho,0000,0000,0000,,Beh, tanto per cominciare sei un grado E...
+Dialogue: 0,0:13:55.92,0:13:58.12,Default,Han Song-Yi,0000,0000,0000,,Questa me la paghi!
+Dialogue: 0,0:13:56.62,0:13:59.83,Overlap,Yoo Jinho,0000,0000,0000,,Ahia, ahia! Scusa!
+Dialogue: 0,0:13:59.83,0:14:04.15,Italics,Giornalista (TV),0000,0000,0000,,Come contromisura per qualsiasi formica\Nche raggiunga la terraferma,
+Dialogue: 0,0:14:04.15,0:14:08.65,Italics,Giornalista (TV),0000,0000,0000,,stanno venendo arruolati hunter\Nper l'unità difensiva.
+Dialogue: 0,0:14:13.32,0:14:15.24,Italics,Go Gunhee,0000,0000,0000,,Finalmente ci siamo, è domani.
+Dialogue: 0,0:14:15.69,0:14:18.01,Italics,Go Gunhee,0000,0000,0000,,Il raid sull'isola di Jeju sta per iniziare.
+Dialogue: 0,0:14:21.82,0:14:23.36,Italics,Operatore A,0000,0000,0000,,Qui prima flotta.
+Dialogue: 0,0:14:23.36,0:14:25.97,Italics,Operatore A,0000,0000,0000,,Siamo nel mare limitrofo all'isola di Jeju.
+Dialogue: 0,0:14:26.44,0:14:28.92,Italics,Operatore B,0000,0000,0000,,Qui seconda flotta, siamo arrivati all'isola.
+Dialogue: 0,0:14:29.51,0:14:32.86,Italics,Operatore C,0000,0000,0000,,Qui terza flotta, \Nabbiamo quasi raggiunto le coste.
+Dialogue: 0,0:14:32.86,0:14:34.86,Italics,Operatore D,0000,0000,0000,,Qui quarta flotta, ci siamo quasi.
+Dialogue: 0,0:14:34.86,0:14:37.65,Italics,Operatore D,0000,0000,0000,,Prevediamo l'arrivo nei pressi dell'isola \Nfra cinque minuti.
+Dialogue: 0,0:14:38.65,0:14:42.56,Default,Jung Yoontae,0000,0000,0000,,Capo, pensa che questa volta\Nce la faremo a sconfiggere le formiche?
+Dialogue: 0,0:14:42.56,0:14:44.86,Default,Park Jongsoo,0000,0000,0000,,Non potremo saperlo finché non ci proveremo.
+Dialogue: 0,0:14:45.50,0:14:49.32,Default,Park Jongsoo,0000,0000,0000,,Comunque, noi dell'unità difensiva\Nsaremo pronti ad agire all'occorrenza.
+Dialogue: 0,0:14:49.32,0:14:51.54,Default,Park Jongsoo,0000,0000,0000,,Quei mostri non usciranno dall'isola!
+Dialogue: 0,0:14:51.69,0:14:53.24,Default,Jung Yoontae,0000,0000,0000,,È fantastico, capo!
+Dialogue: 0,0:14:53.24,0:14:56.58,Default,Jung Yoontae,0000,0000,0000,,Giuro che io, Jung Yoontae,\Nla seguirò per tutta la vita!
+Dialogue: 0,0:14:58.95,0:15:01.33,Default,Ma Dongwook,0000,0000,0000,,Il resto qui lo affido a voi.
+Dialogue: 0,0:15:01.68,0:15:04.10,Default,Vice capo,0000,0000,0000,,Dubito che noi faremo qualcosa.
+Dialogue: 0,0:15:04.10,0:15:06.06,Default,Vice capo,0000,0000,0000,,Fisserò il vuoto per tutto il giorno.
+Dialogue: 0,0:15:06.06,0:15:08.05,Default,Ma Dongwook,0000,0000,0000,,Non si può mai sapere!
+Dialogue: 0,0:15:08.24,0:15:11.16,Default,Ma Dongwook,0000,0000,0000,,E comunque, se posso partire tranquillo
+Dialogue: 0,0:15:11.16,0:15:13.77,Default,Ma Dongwook,0000,0000,0000,,è perché so che qui ci sei tu, vice.
+Dialogue: 0,0:15:15.83,0:15:17.44,Default,Vicecapo,0000,0000,0000,,Faccia attenzione, la prego.
+Dialogue: 0,0:15:17.44,0:15:18.18,Default,Ma Dongwook,0000,0000,0000,,Certo.
+Dialogue: 0,0:15:19.36,0:15:22.00,Default,Lim Tae-gyu,0000,0000,0000,,Ma perché Minsung è così esposto?!
+Dialogue: 0,0:15:22.22,0:15:24.44,Default,Lim Tae-gyu,0000,0000,0000,,Se dovesse succedergli qualcosa,\Nfiniremmo nei guai!
+Dialogue: 0,0:15:24.75,0:15:26.39,Default,Lim Tae-gyu,0000,0000,0000,,Spostalo nelle retrovie!
+Dialogue: 0,0:15:43.83,0:15:46.25,Default,Woo Jinchul,0000,0000,0000,,Ci hanno contattato tutte le squadre.
+Dialogue: 0,0:15:46.53,0:15:50.43,Default,Woo Jinchul,0000,0000,0000,,Sia gli hunter di guardia alle coste\Nche quelli di Jeju sono pronti.
+Dialogue: 0,0:15:50.90,0:15:54.22,Default,Woo Jinchul,0000,0000,0000,,Anche la squadra diversivo\Nè arrivata senza problemi sull'isola.
+Dialogue: 0,0:15:56.42,0:15:58.08,Default,Go Gunhee,0000,0000,0000,,Per il piano di questa volta
+Dialogue: 0,0:15:58.08,0:16:01.68,Default,Go Gunhee,0000,0000,0000,,ci stanno aiutando\Ndavvero moltissimi hunter.
+Dialogue: 0,0:16:02.16,0:16:03.16,Default,Go Gunhee,0000,0000,0000,,Inoltre,
+Dialogue: 0,0:16:03.84,0:16:06.86,Default,Go Gunhee,0000,0000,0000,,ora che so che c'è anche lui,\Nmi sento decisamente più fiducioso.
+Dialogue: 0,0:16:13.83,0:16:15.08,Default,Baek Yoonho,0000,0000,0000,,Byung-gu!
+Dialogue: 0,0:16:15.79,0:16:18.01,Default,Baek Yoonho,0000,0000,0000,,Non pensavo che saresti venuto!
+Dialogue: 0,0:16:18.01,0:16:22.50,Default,Min Byung-gu,0000,0000,0000,,Sono qui perché senza un healer come me,\Nsaresti morto in qualche secondo!
+Dialogue: 0,0:16:22.96,0:16:26.08,Default,Min Byung-gu,0000,0000,0000,,Sbaglio o appena vedi un mostro\Nti getti nella mischia senza pensarci?
+Dialogue: 0,0:16:26.30,0:16:29.78,Default,Baek Yoonho,0000,0000,0000,,È perché se non lo faccio,\Ntu rischi di restarci secco.
+Dialogue: 0,0:16:36.15,0:16:38.13,Default,Goto Ryuji,0000,0000,0000,,Questa è la città al centro dell'isola?
+Dialogue: 0,0:16:38.63,0:16:41.10,Default,Goto Ryuji,0000,0000,0000,,Parla Alpha.\NA tutte le unità, rispondete.
+Dialogue: 0,0:16:41.10,0:16:42.01,Default,Tawata Kanae,0000,0000,0000,,Bravo.
+Dialogue: 0,0:16:42.01,0:16:43.38,Default,Tawata Kanae,0000,0000,0000,,Siamo in posizione.
+Dialogue: 0,0:16:43.38,0:16:44.36,Default,Tatsumi Fujishima,0000,0000,0000,,Charlie.
+Dialogue: 0,0:16:44.36,0:16:45.69,Default,Tatsumi Fujishima,0000,0000,0000,,Siamo in posizione.
+Dialogue: 0,0:16:45.69,0:16:46.65,Default,Ippei Izawa,0000,0000,0000,,Delta.
+Dialogue: 0,0:16:46.65,0:16:48.24,Default,Ippei Izawa,0000,0000,0000,,Pronti quando volete.
+Dialogue: 0,0:16:50.51,0:16:51.79,Default,Baek Yoonho,0000,0000,0000,,Una diretta?
+Dialogue: 0,0:16:51.79,0:16:52.74,Default,Cameraman,0000,0000,0000,,Esatto.
+Dialogue: 0,0:16:52.74,0:16:55.90,Default,Cameraman,0000,0000,0000,,Con una differita di dieci minuti,\Nnel caso qualcosa andasse male.
+Dialogue: 0,0:16:55.90,0:16:58.55,Default,Cameraman,0000,0000,0000,,In qualità di cameraman\Ndella divisione comunicazioni sugli hunter,
+Dialogue: 0,0:16:58.55,0:17:01.43,Default,Cameraman,0000,0000,0000,,mi assicurerò che il mondo\Npossa assistere a questa battaglia.
+Dialogue: 0,0:17:02.53,0:17:06.61,Default,Ma Dongwook,0000,0000,0000,,Gli hunter danno il meglio\Nsolo quando c'è qualcuno da proteggere.
+Dialogue: 0,0:17:06.61,0:17:07.81,Default,Ma Dongwook,0000,0000,0000,,Detto questo,
+Dialogue: 0,0:17:07.81,0:17:10.59,Default,Ma Dongwook,0000,0000,0000,,sarà uno scontro molto violento,\Nsicuro di farcela?
+Dialogue: 0,0:17:10.87,0:17:12.49,Default,Cameraman,0000,0000,0000,,Non si preoccupi.
+Dialogue: 0,0:17:12.49,0:17:14.21,Default,Cameraman,0000,0000,0000,,Non si direbbe, ma sono un grado A.
+Dialogue: 0,0:17:14.21,0:17:16.09,Default,Cameraman,0000,0000,0000,,Sono abituato a riprese difficili.
+Dialogue: 0,0:17:16.34,0:17:18.15,Default,Ma Dongwook,0000,0000,0000,,Beh, meglio così.
+Dialogue: 0,0:17:18.63,0:17:22.20,Default,Ma Dongwook,0000,0000,0000,,Potrebbe essere la prima e ultima volta \Nche i cittadini avranno modo di assistere
+Dialogue: 0,0:17:22.20,0:17:23.98,Default,Ma Dongwook,0000,0000,0000,,a un raid di grado S in televisione.
+Dialogue: 0,0:17:24.42,0:17:26.69,Default,Ma Dongwook,0000,0000,0000,,Anzi, dobbiamo assicurarci che sia così.
+Dialogue: 0,0:17:27.39,0:17:29.89,Default,Ma Dongwook,0000,0000,0000,,Stavolta andrà tutto per il meglio.
+Dialogue: 0,0:17:30.34,0:17:32.02,Italics,Baek Yoonho,0000,0000,0000,,Se falliamo anche questa volta,
+Dialogue: 0,0:17:32.02,0:17:34.86,Italics,Baek Yoonho,0000,0000,0000,,la nostra Nazione potrebbe\Nsparire dalle cartine del mondo.
+Dialogue: 0,0:17:35.11,0:17:38.51,Italics,Baek Yoonho,0000,0000,0000,,Questo Paese ha bisogno di eroi.
+Dialogue: 0,0:17:39.25,0:17:40.98,Default,Woo Jinchul,0000,0000,0000,,La squadra d'assalto è in viaggio.
+Dialogue: 0,0:17:40.98,0:17:43.38,Default,Woo Jinchul,0000,0000,0000,,È tutto pronto.
+Dialogue: 0,0:17:43.71,0:17:46.16,Default,Go Gunhee,0000,0000,0000,,Bene. Allora do ufficialmente il via
+Dialogue: 0,0:17:46.16,0:17:48.74,Default,Go Gunhee,0000,0000,0000,,al quarto raid sull'isola di Jeju.
+Dialogue: 0,0:17:49.03,0:17:50.46,Default,Goto Ryuji,0000,0000,0000,,A tutte le unità, dateci dentro!
+Dialogue: 0,0:17:50.67,0:17:51.76,Default,Hunter giapponesi,0000,0000,0000,,Ricevuto.
+Dialogue: 0,0:17:52.34,0:17:55.22,Default,Choi Jong-in,0000,0000,0000,,Pare che la squadra diversivo\Nabbia dato il via all'operazione.
+Dialogue: 0,0:17:55.49,0:17:57.42,Default,Baek Yoonho,0000,0000,0000,,Che incredibile potere magico.
+Dialogue: 0,0:17:57.73,0:17:59.51,Default,Baek Yoonho,0000,0000,0000,,Ed eccole che arrivano.
+Dialogue: 0,0:18:00.89,0:18:03.13,Default,Lim Tae-gyu,0000,0000,0000,,Ehi, ehi! Ma stanno venendo pure contro di noi!
+Dialogue: 0,0:18:03.13,0:18:04.94,Default,Choi Jong-in,0000,0000,0000,,Aprite il portello.
+Dialogue: 0,0:18:04.94,0:18:06.79,Default,Choi Jong-in,0000,0000,0000,,Ci penso io a sistemarle.
+Dialogue: 0,0:18:16.44,0:18:17.57,Default,Min Byung-gu,0000,0000,0000,,Assurdo.
+Dialogue: 0,0:18:18.27,0:18:19.95,Default,Choi Jong-in,0000,0000,0000,,Ce ne sono parecchie, eh?
+Dialogue: 0,0:18:21.44,0:18:23.59,Default,Choi Jong-in,0000,0000,0000,,Meglio andarci un po' più pesante.
+Dialogue: 0,0:18:31.13,0:18:33.66,Italics,Choi Jong-in,0000,0000,0000,,Finalmente siamo arrivati.
+Dialogue: 0,0:18:33.98,0:18:35.05,Italics,Choi Jong-in,0000,0000,0000,,Eccomi di nuovo...
+Dialogue: 0,0:18:35.48,0:18:36.76,Italics,Choi Jong-in,0000,0000,0000,,su quest'isola!
+Dialogue: 0,0:18:39.62,0:18:41.54,Default,Ma Dongwook,0000,0000,0000,,E brava la nostra arma più forte!
+Dialogue: 0,0:18:41.54,0:18:42.43,Default,Ma Dongwook,0000,0000,0000,,Ci sa proprio fare!
+Dialogue: 0,0:18:42.99,0:18:45.85,Default,Choi Jong-in,0000,0000,0000,,Bene, gente. Che ne dite di scendere?
+Dialogue: 0,0:18:48.46,0:18:53.16,Default,Ma Dongwook,0000,0000,0000,,Gli hunter giapponesi riusciranno a trattenere\Nle formiche per circa un'ora.
+Dialogue: 0,0:18:53.49,0:18:57.93,Default,Ma Dongwook,0000,0000,0000,,In pratica, è quello il tempo che abbiamo\Nper sconfiggere la formica regina.
+Dialogue: 0,0:18:57.93,0:18:59.33,Default,Ma Dongwook,0000,0000,0000,,Siete pronti?
+Dialogue: 0,0:19:00.66,0:19:02.81,Default,Ma Dongwook,0000,0000,0000,,Possiamo farcela!
+Dialogue: 0,0:19:03.79,0:19:04.91,Default,Ma Dongwook,0000,0000,0000,,Andiamo.
+Dialogue: 0,0:19:07.51,0:19:09.66,Default,Reiji,0000,0000,0000,,Diamo il via alla nostra operazione.
+Dialogue: 0,0:19:09.66,0:19:11.57,Default,Reiji,0000,0000,0000,,Avvio segnale di disturbo.
+Dialogue: 0,0:19:11.57,0:19:13.25,Default,Impiegato A,0000,0000,0000,,Avvio segnale di disturbo.
+Dialogue: 0,0:19:15.62,0:19:16.96,Italics,Reiji,0000,0000,0000,,Grazie a questo, le formiche
+Dialogue: 0,0:19:16.96,0:19:20.18,Italics,Reiji,0000,0000,0000,,non riusciranno a captare\Nil segnale d'aiuto della regina.
+Dialogue: 0,0:19:22.69,0:19:25.26,Default,Tawata Kanae,0000,0000,0000,,Kumamoto! Non avere paura\No qui ci resti secco.
+Dialogue: 0,0:19:28.54,0:19:30.96,Default,Shimizu Akari,0000,0000,0000,,Non faremmo prima \Na ucciderle tutte noi le formiche,
+Dialogue: 0,0:19:30.96,0:19:34.58,Default,Shimizu Akari,0000,0000,0000,,piuttosto che aspettare\N che quelli lì eliminino la regina?
+Dialogue: 0,0:19:34.58,0:19:35.62,Default,Tatsumi Fujishima,0000,0000,0000,,Probabile.
+Dialogue: 0,0:19:35.62,0:19:36.90,Default,Tatsumi Fujishima,0000,0000,0000,,Kenzo dov'è?
+Dialogue: 0,0:19:37.39,0:19:39.10,Default,Shimizu Akari,0000,0000,0000,,Sta giocando lassù.
+Dialogue: 0,0:19:39.10,0:19:40.32,Default,Shimizu Akari,0000,0000,0000,,Si diverte come un bambino.
+Dialogue: 0,0:19:40.65,0:19:42.36,Default,Kei,0000,0000,0000,,Hai visto le fiamme di poco fa?
+Dialogue: 0,0:19:42.36,0:19:43.70,Default,Ippei Izawa,0000,0000,0000,,Come si chiamava? Choi?
+Dialogue: 0,0:19:43.70,0:19:44.66,Default,Ippei Izawa,0000,0000,0000,,Immagino sia stato lui.
+Dialogue: 0,0:19:44.66,0:19:47.87,Default,Kei,0000,0000,0000,,Se ci affrontassimo,\Nsecondo te chi ne uscirebbe vincitore?
+Dialogue: 0,0:19:48.32,0:19:50.83,Default,Ippei Izawa,0000,0000,0000,,Boh, ma la temperatura\Nfarebbe su e giù tutto il tempo.
+Dialogue: 0,0:19:53.11,0:19:54.39,Default,Choi Jong-in,0000,0000,0000,,Ho ricoperto l'ingresso.
+Dialogue: 0,0:19:54.39,0:19:57.25,Default,Choi Jong-in,0000,0000,0000,,Proseguiamo finché\Nla squadra diversivo è ancora attiva.
+Dialogue: 0,0:19:57.25,0:19:59.76,Default,Baek Yoonho,0000,0000,0000,,Certo che con tutti questi tunnel
+Dialogue: 0,0:19:59.97,0:20:03.46,Default,Baek Yoonho,0000,0000,0000,,come facciamo a trovare quello\Nche ci porterà dalla regina?
+Dialogue: 0,0:20:11.71,0:20:14.05,Default,Baek Yoonho,0000,0000,0000,,Ma che fai?! È pericoloso!
+Dialogue: 0,0:20:14.05,0:20:17.65,Default,Choi Jong-in,0000,0000,0000,,Non abbiamo di certo il tempo\Nper esplorarli tutti, uno per volta.
+Dialogue: 0,0:20:18.26,0:20:21.62,Default,Choi Jong-in,0000,0000,0000,,Ci basta trovare quello\Nche prosegue più in profondità.
+Dialogue: 0,0:20:22.23,0:20:24.39,Default,Choi Jong-in,0000,0000,0000,,Direi proprio che è quello.
+Dialogue: 0,0:20:30.81,0:20:32.77,Default,Sung Jinwoo,0000,0000,0000,,Fine delle quest giornaliere.
+Dialogue: 0,0:20:33.27,0:20:36.00,Default,Sung Jinwoo,0000,0000,0000,,Oggi in giro non c'è nessuno.\NBeh, non dovrei stupirmi...
+Dialogue: 0,0:20:38.22,0:20:42.24,Italics,Sung Jinwoo,0000,0000,0000,,Gli hunter di grado S del raid di oggi\Nsono tutti molto forti.
+Dialogue: 0,0:20:42.64,0:20:45.07,Italics,Sung Jinwoo,0000,0000,0000,,Riusciranno a vincere senza problemi.
+Dialogue: 0,0:20:45.88,0:20:47.64,Italics,Sung Jinwoo,0000,0000,0000,,Non serve la mia presenza.
+Dialogue: 0,0:20:51.15,0:20:53.75,Default,Min Byung-gu,0000,0000,0000,,Siamo sicuri che la regina sia qui?
+Dialogue: 0,0:20:53.75,0:20:55.81,Default,Min Byung-gu,0000,0000,0000,,Magari le ha abbandonate ed è fuggita.
+Dialogue: 0,0:20:55.81,0:20:58.57,Default,Baek Yoonho,0000,0000,0000,,Siamo su un'isola,\Nnon ha alcun luogo in cui scappare.
+Dialogue: 0,0:20:58.79,0:21:01.03,Default,Choi Jong-in,0000,0000,0000,,Da questa parte, gente.
+Dialogue: 0,0:21:04.44,0:21:06.16,Default,Min Byung-gu,0000,0000,0000,,È pieno di uova...
+Dialogue: 0,0:21:06.16,0:21:08.66,Default,Choi Jong-in,0000,0000,0000,,La stanza della regina dev'essere vicina.
+Dialogue: 0,0:21:09.96,0:21:11.15,Default,Cha Hae-in,0000,0000,0000,,Guardate.
+Dialogue: 0,0:21:12.07,0:21:13.34,Default,Cha Hae-in,0000,0000,0000,,Quell'uovo...
+Dialogue: 0,0:21:13.73,0:21:14.99,Default,Min Byung-gu,0000,0000,0000,,Non ci credo.
+Dialogue: 0,0:21:14.99,0:21:16.72,Default,Min Byung-gu,0000,0000,0000,,Anche quello è un uovo di formica?
+Dialogue: 0,0:21:16.72,0:21:18.59,Default,Min Byung-gu,0000,0000,0000,,Ma è troppo grosso!
+Dialogue: 0,0:21:18.92,0:21:21.88,Default,Baek Yoonho,0000,0000,0000,,Il nostro compito è sconfiggere la regina.
+Dialogue: 0,0:21:21.88,0:21:23.58,Default,Baek Yoonho,0000,0000,0000,,Non preoccuparti del resto.
+Dialogue: 0,0:21:24.03,0:21:26.68,Italics,Baek Yoonho,0000,0000,0000,,Anche se non biasimo la sua agitazione.
+Dialogue: 0,0:21:27.00,0:21:29.06,Italics,Baek Yoonho,0000,0000,0000,,Non sappiamo quanto si siano evolute.
+Dialogue: 0,0:21:29.57,0:21:34.31,Italics,Baek Yoonho,0000,0000,0000,,Se esistesse davvero una formica\Nnata da quell'uovo gigante...
+Dialogue: 0,0:21:35.53,0:21:36.52,Default,Tanaka Kenzo,0000,0000,0000,,Cazzo!
+Dialogue: 0,0:21:36.87,0:21:38.50,Default,Tanaka Kenzo,0000,0000,0000,,Che mostri fastidiosi.
+Dialogue: 0,0:21:38.50,0:21:39.98,Default,Tanaka Kenzo,0000,0000,0000,,Mi hanno colpito alla spalla.
+Dialogue: 0,0:21:39.98,0:21:41.73,Default,Shimizu Akari,0000,0000,0000,,Vuoi che ti curi?
+Dialogue: 0,0:21:41.73,0:21:43.52,Default,Shimizu Akari,0000,0000,0000,,Non sarà gratis, ti avviso.
+Dialogue: 0,0:21:43.52,0:21:46.74,Default,Tanaka Kenzo,0000,0000,0000,,Shimizu, smettila di cazzeggiare\Ne sbrigati a curarmi.
+Dialogue: 0,0:21:46.93,0:21:48.59,Default,Shimizu Akari,0000,0000,0000,,Ma c'è una cosa che voglio!
+Dialogue: 0,0:21:48.59,0:21:50.91,Default,Shimizu Akari,0000,0000,0000,,E stavolta non parlo di denaro.
+Dialogue: 0,0:21:52.14,0:21:53.43,Default,Tanaka Kenzo,0000,0000,0000,,Rieccole qui.
+Dialogue: 0,0:21:54.15,0:21:55.53,Default,Tanaka Kenzo,0000,0000,0000,,E niente, si ricomincia.
+Dialogue: 0,0:21:56.10,0:21:57.25,Default,Tanaka Kenzo,0000,0000,0000,,Cos'è che vuo—

@@ -1,0 +1,298 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: Italique,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0002,0002,0025,1
+Style: TiretsDefault,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,1,0020,0002,0025,1
+Style: TiretsItalique,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,1,0020,0002,0025,1
+Style: Sign,Arial,18.0,&H00FFFFFF,&H000000FF,&H00292929,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0010,0010,0030,1
+Style: Titre,Times New Roman,18.0,&H00FFFFFF,&H000000FF,&H00292929,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0010,0010,0030,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.68,0:00:11.06,Default,Esil,0000,0000,0000,,Je me rends !
+Dialogue: 0,0:00:12.10,0:00:14.74,Default,Esil,0000,0000,0000,,J’abandonne ! Épargnez-moi !
+Dialogue: 0,0:00:16.35,0:00:19.16,Default,Sung Jinwoo,0000,0000,0000,,Cette voix… Tu serais…
+Dialogue: 0,0:00:27.84,0:00:30.68,Default,Esil,0000,0000,0000,,Pardon ! Nous avons perdu !
+Dialogue: 0,0:00:30.82,0:00:32.81,Default,Esil,0000,0000,0000,,Je vous en supplie !
+Dialogue: 0,0:02:05.16,0:02:08.02,Default,Sung Jinwoo,0000,0000,0000,,C’est toi qui nous attaques,\Net tu viens pleurer ?
+Dialogue: 0,0:02:08.41,0:02:10.94,Default,Sung Jinwoo,0000,0000,0000,,Tous tes compagnons\Nsont déjà morts.
+Dialogue: 0,0:02:11.30,0:02:14.28,Default,Esil,0000,0000,0000,,Un chevalier se doit\Nde protéger son souverain.
+Dialogue: 0,0:02:14.42,0:02:17.69,Default,Esil,0000,0000,0000,,Ils seraient heureux\Nde me savoir en vie.
+Dialogue: 0,0:02:19.13,0:02:20.92,Italique,Sung Jinwoo,0000,0000,0000,,Elle a honte de rien…
+Dialogue: 0,0:02:21.39,0:02:22.24,Default,Sung Jinwoo,0000,0000,0000,,Bref…
+Dialogue: 0,0:02:28.89,0:02:29.96,Italique,Esil,0000,0000,0000,,Une ouverture !
+Dialogue: 0,0:02:36.18,0:02:37.38,Default,Sung Jinwoo,0000,0000,0000,,À quoi tu joues ?
+Dialogue: 0,0:02:37.75,0:02:40.88,Default,Esil,0000,0000,0000,,Ne me tuez pas !\NJe ferai tout ce que vous voudrez !
+Dialogue: 0,0:02:41.02,0:02:42.54,Default,Esil,0000,0000,0000,,Ayez pitié !
+Dialogue: 0,0:02:42.68,0:02:43.93,Italique,Sung Jinwoo,0000,0000,0000,,Non mais franchement…
+Dialogue: 0,0:02:45.09,0:02:48.71,Default,Sung Jinwoo,0000,0000,0000,,Tu peux obtenir le laissez-passer\Npour l’étage supérieur ?
+Dialogue: 0,0:02:49.43,0:02:52.95,Default,Esil,0000,0000,0000,,Le laissez-passer\Nest gardé par mon clan !
+Dialogue: 0,0:02:53.09,0:02:55.73,Default,Esil,0000,0000,0000,,Ramenez-moi en vie,\Net il sera vôtre !
+Dialogue: 0,0:02:56.33,0:02:59.78,Default,Esil,0000,0000,0000,,Je sais aussi où trouver\Ntous les autres laissez-passer.
+Dialogue: 0,0:02:59.92,0:03:04.45,Default,Esil,0000,0000,0000,,Épargnez mon clan et moi,\Net je vous guiderai.
+Dialogue: 0,0:03:04.83,0:03:07.20,Default,Sung Jinwoo,0000,0000,0000,,Il était planqué chez vous, alors ?
+Dialogue: 0,0:03:07.65,0:03:10.66,Default,Sung Jinwoo,0000,0000,0000,,Ça explique pourquoi\Nj’arrivais pas à le trouver…
+Dialogue: 0,0:03:11.00,0:03:12.20,Default,Sung Jinwoo,0000,0000,0000,,Par contre…
+Dialogue: 0,0:03:14.77,0:03:18.25,Default,Sung Jinwoo,0000,0000,0000,,est-ce que je peux\Nte faire confiance ?
+Dialogue: 0,0:03:19.88,0:03:20.97,Default,Esil,0000,0000,0000,,Bien sûr.
+Dialogue: 0,0:03:21.96,0:03:24.92,Default,Esil,0000,0000,0000,,Je… ne vous mens pas…
+Dialogue: 0,0:03:27.86,0:03:31.89,Default,Sung Jinwoo,0000,0000,0000,,Très bien. Je ne vous ferai rien\Ntant que j’obtiens ce que je cherche.
+Dialogue: 0,0:03:33.48,0:03:35.48,Default,Esil,0000,0000,0000,,Merci beaucoup.
+Dialogue: 0,0:03:36.50,0:03:37.82,Default,Sung Jinwoo,0000,0000,0000,,Mais dis-moi…
+Dialogue: 0,0:03:38.42,0:03:40.18,Default,Sung Jinwoo,0000,0000,0000,,vous êtes qui, au juste ?
+Dialogue: 0,0:03:57.35,0:04:00.42,Default,Esil,0000,0000,0000,,Je suis Esil,\Nla fille aînée du chef du clan Radir.
+Dialogue: 0,0:04:00.69,0:04:03.59,Default,Sung Jinwoo,0000,0000,0000,,Non,\Nc’est pas ce que je voulais savoir.
+Dialogue: 0,0:04:05.31,0:04:06.78,Italique,Sung Jinwoo,0000,0000,0000,,J’espérais obtenir
+Dialogue: 0,0:04:06.92,0:04:10.35,Italique,Sung Jinwoo,0000,0000,0000,,plus d’infos sur le système\Nque le peu que m’a dit Baruka.
+Dialogue: 0,0:04:11.89,0:04:16.41,Default,Sung Jinwoo,0000,0000,0000,,Y a-t-il une voix dans vos têtes\Nqui vous dit de tuer les humains ?
+Dialogue: 0,0:04:19.44,0:04:22.71,Default,Esil,0000,0000,0000,,Pas tout à fait…\NOn entend autre chose.
+Dialogue: 0,0:04:22.85,0:04:23.70,Default,Sung Jinwoo,0000,0000,0000,,Quoi ?
+Dialogue: 0,0:04:24.67,0:04:26.66,Default,Esil,0000,0000,0000,,« Protégez cet endroit. »
+Dialogue: 0,0:04:27.65,0:04:28.62,Default,Sung Jinwoo,0000,0000,0000,,Depuis quand ?
+Dialogue: 0,0:04:28.89,0:04:30.83,Default,Esil,0000,0000,0000,,Depuis que nous sommes ici.
+Dialogue: 0,0:04:30.96,0:04:32.45,Italique,Sung Jinwoo,0000,0000,0000,,Depuis qu’ils sont ici ?
+Dialogue: 0,0:04:33.17,0:04:34.57,Default,Sung Jinwoo,0000,0000,0000,,Où étiez-vous, avant ?
+Dialogue: 0,0:04:34.71,0:04:35.81,Default,Esil,0000,0000,0000,,Le monde des démons.
+Dialogue: 0,0:04:35.94,0:04:39.33,Default,Esil,0000,0000,0000,,On a atterri ici\Ndu jour au lendemain.
+Dialogue: 0,0:04:39.96,0:04:40.84,Default,Sung Jinwoo,0000,0000,0000,,Que faisiez-vous
+Dialogue: 0,0:04:41.81,0:04:43.01,Default,Sung Jinwoo,0000,0000,0000,,dans votre monde ?
+Dialogue: 0,0:04:45.89,0:04:46.93,Default,Esil,0000,0000,0000,,La guerre…
+Dialogue: 0,0:04:48.06,0:04:50.39,Default,Esil,0000,0000,0000,,Nous nous préparions à la guerre.
+Dialogue: 0,0:04:50.64,0:04:51.80,Italique,Sung Jinwoo,0000,0000,0000,,Une guerre ?
+Dialogue: 0,0:04:52.35,0:04:53.22,Default,Sung Jinwoo,0000,0000,0000,,Contre qui ?
+Dialogue: 0,0:04:54.33,0:04:58.42,Default,Esil,0000,0000,0000,,Un ennemi surpuissant\Ndemandant l’union de tous les démons.
+Dialogue: 0,0:04:59.09,0:05:02.32,Default,Esil,0000,0000,0000,,La guerre\Nétait sur le point de débuter et…
+Dialogue: 0,0:05:04.44,0:05:08.26,Default,Esil,0000,0000,0000,,Trop d’informations ont été données.\NLa conversation va s’arrêter.
+Dialogue: 0,0:05:08.41,0:05:12.18,Default,Esil,0000,0000,0000,,Trop d’informations ont été données.\NLa conversation va s’arrêter.
+Dialogue: 0,0:05:12.32,0:05:13.16,Default,Esil,0000,0000,0000,,Trop…
+Dialogue: 0,0:05:18.31,0:05:20.44,Italique,Sung Jinwoo,0000,0000,0000,,Je peux plus rien en tirer.
+Dialogue: 0,0:05:23.24,0:05:26.49,Default,Woo Jincheol,0000,0000,0000,,Voici le rapport d’extermination\Net les informations
+Dialogue: 0,0:05:26.63,0:05:30.93,Default,Woo Jincheol,0000,0000,0000,,concernant la fourmi ailée\Nsur une île au large du Japon.
+Dialogue: 0,0:05:31.60,0:05:34.32,Default,Woo Jincheol,0000,0000,0000,,Elle a fait 294 victimes civiles.
+Dialogue: 0,0:05:34.56,0:05:37.44,Default,Woo Jincheol,0000,0000,0000,,Au total,\N108 chasseurs ont été déployés.
+Dialogue: 0,0:05:37.75,0:05:40.26,Default,Woo Jincheol,0000,0000,0000,,Quatre rang E, un rang C
+Dialogue: 0,0:05:40.42,0:05:42.65,Default,Woo Jincheol,0000,0000,0000,,et un rang B ont péri au combat.
+Dialogue: 0,0:05:43.89,0:05:46.61,Default,Go Gunhee,0000,0000,0000,,Une seule fourmi\Na causé un tel carnage…
+Dialogue: 0,0:05:47.02,0:05:52.29,Default,Woo Jincheol,0000,0000,0000,,Un rang A a rejoint le combat\Net aurait permis son élimination.
+Dialogue: 0,0:05:52.58,0:05:55.83,Default,Go Gunhee,0000,0000,0000,,Ça signifie\Nque ces fourmis sont de rang A.
+Dialogue: 0,0:05:56.77,0:06:00.28,Default,Woo Jincheol,0000,0000,0000,,Ça correspond aux résultats\Ndu Département de recherche
+Dialogue: 0,0:06:00.42,0:06:01.54,Default,Woo Jincheol,0000,0000,0000,,sur l’autre cadavre.
+Dialogue: 0,0:06:04.38,0:06:08.55,Default,Go Gunhee,0000,0000,0000,,L’île sur laquelle s’est produit ce drame\Nest à 120 km de Jeju.
+Dialogue: 0,0:06:09.22,0:06:12.48,Default,Go Gunhee,0000,0000,0000,,À ce rythme,\Nelles seront bientôt capables
+Dialogue: 0,0:06:12.63,0:06:15.06,Default,Go Gunhee,0000,0000,0000,,de voler jusqu’au continent.
+Dialogue: 0,0:06:15.94,0:06:18.56,Default,Go Gunhee,0000,0000,0000,,Nous devons demander\Nl’aide du Japon.
+Dialogue: 0,0:06:19.13,0:06:22.60,Default,Go Gunhee,0000,0000,0000,,Dites aux pays voisins\Nd’augmenter leur niveau d’alerte.
+Dialogue: 0,0:06:22.72,0:06:23.56,Default,Woo Jincheol,0000,0000,0000,,Entendu.
+Dialogue: 0,0:06:23.79,0:06:27.29,Default,Go Gunhee,0000,0000,0000,,Il est temps.\NIl n’y a plus une minute à perdre.
+Dialogue: 0,0:06:27.71,0:06:32.00,Default,Go Gunhee,0000,0000,0000,,J’aurais préféré pouvoir agir\Navant qu’il n’y ait des victimes…
+Dialogue: 0,0:06:32.92,0:06:36.74,Default,Go Gunhee,0000,0000,0000,,En tant que président\Nde l’Association des chasseurs,
+Dialogue: 0,0:06:36.99,0:06:40.42,Default,Go Gunhee,0000,0000,0000,,j’ordonne le lancement\Ndu 4e raid sur l’île de Jeju.
+Dialogue: 0,0:06:42.36,0:06:43.90,Default,Esil,0000,0000,0000,,Mes excuses,
+Dialogue: 0,0:06:44.04,0:06:47.42,Default,Esil,0000,0000,0000,,j’ignore pourquoi\Nj’ai perdu connaissance…
+Dialogue: 0,0:06:47.67,0:06:49.62,Default,Sung Jinwoo,0000,0000,0000,,T’en fais pas pour ça.
+Dialogue: 0,0:06:50.04,0:06:51.88,Default,Sung Jinwoo,0000,0000,0000,,Comment tu te sens ?
+Dialogue: 0,0:06:52.06,0:06:53.88,Default,Esil,0000,0000,0000,,Je vais bien, merci !
+Dialogue: 0,0:06:54.10,0:06:56.56,Default,Esil,0000,0000,0000,,Vous vous faites du souci\Npour moi ?
+Dialogue: 0,0:06:56.70,0:06:58.31,Default,Sung Jinwoo,0000,0000,0000,,En quelque sorte.
+Dialogue: 0,0:06:59.56,0:07:02.61,Default,Sung Jinwoo,0000,0000,0000,,À part ça,\Non approche de notre destination ?
+Dialogue: 0,0:07:03.30,0:07:06.40,Default,Esil,0000,0000,0000,,Oui ! C’est le château\Noù réside le clan Radir !
+Dialogue: 0,0:07:06.54,0:07:08.48,Default,Esil,0000,0000,0000,,Le laissez-passer s’y trouve !
+Dialogue: 0,0:07:09.69,0:07:13.46,Default,Borgon,0000,0000,0000,,Bon sang !\NQu’as-tu ramené ici, Esil ?
+Dialogue: 0,0:07:14.86,0:07:18.34,Default,Borgon,0000,0000,0000,,Ne vois-tu donc pas\Ntous ces soldats
+Dialogue: 0,0:07:18.49,0:07:19.91,Default,Borgon,0000,0000,0000,,cachés dans l’ombre ?
+Dialogue: 0,0:07:21.40,0:07:22.87,Italique,Sung Jinwoo,0000,0000,0000,,Il est perspicace.
+Dialogue: 0,0:07:23.04,0:07:26.32,Default,Borgon,0000,0000,0000,,Tu as berné ma fille\Npour tenter d’envahir mon château ?
+Dialogue: 0,0:07:26.46,0:07:28.03,Default,Borgon,0000,0000,0000,,Tu ne repartiras pas vivant !
+Dialogue: 0,0:07:28.18,0:07:30.80,Default,Esil,0000,0000,0000,,Père ! Attendez une minute !
+Dialogue: 0,0:07:31.06,0:07:33.10,Default,Sung Jinwoo,0000,0000,0000,,Elle et moi avons un accord.
+Dialogue: 0,0:07:33.24,0:07:36.51,Default,Sung Jinwoo,0000,0000,0000,,En échange du laissez-passer,\Npersonne ne mourra.
+Dialogue: 0,0:07:38.82,0:07:42.19,Italique,Borgon,0000,0000,0000,,J’ai appris\Nqu’il avait vaincu Vulcan et Métus…
+Dialogue: 0,0:07:42.42,0:07:46.35,Italique,Borgon,0000,0000,0000,,Nous n’avons aucune chance\Ncontre lui.
+Dialogue: 0,0:07:57.32,0:07:58.85,Default,Sung Jinwoo,0000,0000,0000,,Merci de votre coopération.
+Dialogue: 0,0:07:59.82,0:08:02.64,Default,Borgon,0000,0000,0000,,Tu n’as plus rien à faire\Nen ces lieux.
+Dialogue: 0,0:08:02.79,0:08:04.50,Default,Borgon,0000,0000,0000,,Déguerpis sur-le-champ !
+Dialogue: 0,0:08:04.68,0:08:05.96,Default,Sung Jinwoo,0000,0000,0000,,J’ai une autre requête.
+Dialogue: 0,0:08:07.03,0:08:08.42,Default,Sung Jinwoo,0000,0000,0000,,J’emprunte votre fille.
+Dialogue: 0,0:08:12.50,0:08:15.43,Default,Sung Jinwoo,0000,0000,0000,,Je me suis mal exprimé.\NJ’ai besoin qu’elle me guide.
+Dialogue: 0,0:08:15.57,0:08:18.68,Default,Sung Jinwoo,0000,0000,0000,,Elle sait où trouver\Ntous les autres laissez-passer.
+Dialogue: 0,0:08:20.09,0:08:21.77,Default,Borgon,0000,0000,0000,,Peux-tu garantir sa sécurité ?
+Dialogue: 0,0:08:22.04,0:08:23.16,Default,Sung Jinwoo,0000,0000,0000,,Vous avez ma parole.
+Dialogue: 0,0:08:26.06,0:08:28.69,Default,Borgon,0000,0000,0000,,C’est d’accord.\NTu as ma permission.
+Dialogue: 0,0:08:28.98,0:08:31.70,Default,Sung Jinwoo,0000,0000,0000,,Bien, je compte sur toi, Esil.
+Dialogue: 0,0:08:31.85,0:08:32.86,Default,Esil,0000,0000,0000,,Compris !
+Dialogue: 0,0:08:45.35,0:08:46.50,Default,Hanekawa,0000,0000,0000,,Monsieur.
+Dialogue: 0,0:08:57.08,0:09:00.14,Default,Sung Jinwoo,0000,0000,0000,,Bien, on en a fini avec l’étage 89.
+Dialogue: 0,0:09:02.10,0:09:05.14,Default,Sung Jinwoo,0000,0000,0000,,Igris et Tank sont montés de niveaux\Net ont été promus.
+Dialogue: 0,0:09:06.94,0:09:09.38,Default,Sung Jinwoo,0000,0000,0000,,Ils sont de rang S et A, je dirais.
+Dialogue: 0,0:09:09.54,0:09:11.56,Default,Sung Jinwoo,0000,0000,0000,,Ça en fait des atouts de taille.
+Dialogue: 0,0:09:14.93,0:09:17.82,Default,Esil,0000,0000,0000,,Ça valait bien la peine\Nde prendre tous ces cadeaux
+Dialogue: 0,0:09:17.96,0:09:19.98,Default,Esil,0000,0000,0000,,pour les négociations…
+Dialogue: 0,0:09:20.12,0:09:21.91,Default,Sung Jinwoo,0000,0000,0000,,Rapporte-les chez toi.
+Dialogue: 0,0:09:22.16,0:09:23.68,Default,Esil,0000,0000,0000,,Pas question !
+Dialogue: 0,0:09:23.83,0:09:27.08,Default,Esil,0000,0000,0000,,Les étages 90 et supérieurs\Nappartiennent à des nobles !
+Dialogue: 0,0:09:27.61,0:09:30.54,Default,Esil,0000,0000,0000,,Ils sont bien plus puissants\Nque tous les autres.
+Dialogue: 0,0:09:31.02,0:09:34.20,Default,Esil,0000,0000,0000,,Vous feriez mieux de négocier\Npour obtenir les…
+Dialogue: 0,0:09:34.33,0:09:36.97,Default,Sung Jinwoo,0000,0000,0000,,Si j’avais été plus faible\Nque ton clan,
+Dialogue: 0,0:09:37.32,0:09:38.76,Default,Sung Jinwoo,0000,0000,0000,,vous auriez négocié ?
+Dialogue: 0,0:09:40.05,0:09:41.38,Default,Sung Jinwoo,0000,0000,0000,,Ainsi vont les choses.
+Dialogue: 0,0:09:42.16,0:09:45.22,Default,Sung Jinwoo,0000,0000,0000,,Vous vous battez toujours\Npour le pouvoir, pas vrai ?
+Dialogue: 0,0:09:45.86,0:09:49.56,Default,Sung Jinwoo,0000,0000,0000,,Je placerai le clan Radis\Nau sommet de l’échelle.
+Dialogue: 0,0:09:49.93,0:09:51.73,Default,Esil,0000,0000,0000,,Mon clan s’appelle Radir…
+Dialogue: 0,0:09:51.93,0:09:52.82,Default,Esil,0000,0000,0000,,Dites…
+Dialogue: 0,0:09:53.12,0:09:57.53,Default,Esil,0000,0000,0000,,sire Jinwoo, pourquoi avoir décidé\Nde nous épargner ?
+Dialogue: 0,0:09:58.04,0:09:59.74,Default,Sung Jinwoo,0000,0000,0000,,Parce que je t’aime bien.
+Dialogue: 0,0:10:00.65,0:10:01.95,Default,Esil,0000,0000,0000,,Pardon ?
+Dialogue: 0,0:10:02.34,0:10:03.98,Italique,Sung Jinwoo,0000,0000,0000,,Jinho, Esil…
+Dialogue: 0,0:10:04.40,0:10:08.66,Italique,Sung Jinwoo,0000,0000,0000,,Faut croire que je m’entends bien\Navec les gens un peu farfelus.
+Dialogue: 0,0:10:09.27,0:10:10.92,Default,Sung Jinwoo,0000,0000,0000,,Tu peux partir, Esil.
+Dialogue: 0,0:10:13.60,0:10:16.03,Default,Sung Jinwoo,0000,0000,0000,,Les ennemis\Nvont gagner en puissance.
+Dialogue: 0,0:10:16.62,0:10:18.40,Default,Sung Jinwoo,0000,0000,0000,,Je l’ai promis à ton père.
+Dialogue: 0,0:10:18.56,0:10:20.85,Default,Sung Jinwoo,0000,0000,0000,,Dis-moi juste\Noù sont les laissez-passer,
+Dialogue: 0,0:10:20.99,0:10:22.89,Default,Sung Jinwoo,0000,0000,0000,,et je me débrouillerai.
+Dialogue: 0,0:10:23.13,0:10:26.08,Default,Esil,0000,0000,0000,,Vous voulez dire\Nque je ne vous sers à rien ?
+Dialogue: 0,0:10:26.52,0:10:29.39,Default,Sung Jinwoo,0000,0000,0000,,C’est pas la question.\NC’est juste trop dangereux.
+Dialogue: 0,0:10:29.70,0:10:30.85,Default,Sung Jinwoo,0000,0000,0000,,T’as été efficace.
+Dialogue: 0,0:10:31.25,0:10:32.17,Default,Sung Jinwoo,0000,0000,0000,,Merci.
+Dialogue: 0,0:10:33.11,0:10:36.82,Default,Esil,0000,0000,0000,,Je vous accompagne jusqu’au sommet !\NJe ne veux pas rater ça !
+Dialogue: 0,0:10:37.09,0:10:39.38,Default,Esil,0000,0000,0000,,Je veux voir\Nde quoi vous êtes capable.
+Dialogue: 0,0:10:41.21,0:10:43.64,Default,Sung Jinwoo,0000,0000,0000,,Très bien.\NOn se met en route, alors.
+Dialogue: 0,0:10:45.30,0:10:46.22,Default,Esil,0000,0000,0000,,Oui !
+Dialogue: 0,0:10:49.91,0:10:51.36,Italique,Sung Jinwoo,0000,0000,0000,,Comme Esil me l’avait dit,
+Dialogue: 0,0:10:51.54,0:10:54.04,Italique,Sung Jinwoo,0000,0000,0000,,la difficulté a augmenté\Ngrandement.
+Dialogue: 0,0:10:54.74,0:10:57.25,Italique,Sung Jinwoo,0000,0000,0000,,Les monstres\Nqui protègent le domaine
+Dialogue: 0,0:10:57.54,0:10:59.92,Italique,Sung Jinwoo,0000,0000,0000,,sont incomparables\Nà ceux qu’on a eus avant.
+Dialogue: 0,0:11:00.39,0:11:04.55,Italique,Sung Jinwoo,0000,0000,0000,,Malgré tout, j’ai continué\Nà grimper les étages un à un.
+Dialogue: 0,0:11:06.09,0:11:07.22,Italique,Sung Jinwoo,0000,0000,0000,,J’obtiendrai
+Dialogue: 0,0:11:07.40,0:11:09.92,Italique,Sung Jinwoo,0000,0000,0000,,l’ingrédient final\Npour l’Élixir de vie sacré.
+Dialogue: 0,0:11:10.17,0:11:11.47,Italique,Sung Jinwoo,0000,0000,0000,,Coûte que coûte !
+Dialogue: 0,0:11:15.29,0:11:17.13,Default,Choi Jongin,0000,0000,0000,,Toi et moi avons été appelés
+Dialogue: 0,0:11:17.26,0:11:20.02,Default,Choi Jongin,0000,0000,0000,,pour participer\Nau 4e raid sur l’île de Jeju.
+Dialogue: 0,0:11:20.15,0:11:21.03,Default,Cha Hae-in,0000,0000,0000,,Très bien.
+Dialogue: 0,0:11:21.17,0:11:24.95,Default,Choi Jongin,0000,0000,0000,,Il en va de même pour Baek Yunho\Nde la guilde du Tigre blanc
+Dialogue: 0,0:11:25.13,0:11:28.92,Default,Choi Jongin,0000,0000,0000,,et pour tous les autres rang S du pays,\Napparemment.
+Dialogue: 0,0:11:29.36,0:11:31.66,Italique,Cha Hae-in,0000,0000,0000,,Sung Jinwoo\Nest aussi concerné, alors…
+Dialogue: 0,0:11:31.87,0:11:33.28,Default,Choi Jongin,0000,0000,0000,,En outre, cette fois-ci,
+Dialogue: 0,0:11:33.41,0:11:37.63,Default,Choi Jongin,0000,0000,0000,,nous opérerons de concert\Navec notre pays voisin.
+Dialogue: 0,0:11:38.09,0:11:39.46,Default,Cha Hae-in,0000,0000,0000,,Vous parlez du Japon ?
+Dialogue: 0,0:11:39.61,0:11:40.48,Default,Choi Jongin,0000,0000,0000,,Tout à fait.
+Dialogue: 0,0:11:40.95,0:11:45.72,Default,Choi Jongin,0000,0000,0000,,Comme les fourmis peuvent voler,\Nils sont aussi exposés au risque.
+Dialogue: 0,0:11:45.90,0:11:47.72,Default,Choi Jongin,0000,0000,0000,,La coopération est indispensable.
+Dialogue: 0,0:11:49.03,0:11:50.59,Italique,Choi Jongin,0000,0000,0000,,N’importe qui fera l’affaire,
+Dialogue: 0,0:11:50.74,0:11:53.15,Italique,Choi Jongin,0000,0000,0000,,tant qu’on peut\Nexterminer ces saletés.
+Dialogue: 0,0:11:54.51,0:11:56.02,Default,Cha Hae-in,0000,0000,0000,,Quand aura lieu le raid ?
+Dialogue: 0,0:11:56.28,0:11:57.62,Default,Choi Jongin,0000,0000,0000,,Ça reste à déterminer,
+Dialogue: 0,0:11:57.76,0:12:00.28,Default,Choi Jongin,0000,0000,0000,,mais ça ne saurait tarder.
+Dialogue: 0,0:12:00.86,0:12:04.27,Default,Choi Jongin,0000,0000,0000,,Afin de concrétiser\Nnotre plan de bataille,
+Dialogue: 0,0:12:04.41,0:12:08.76,Default,Choi Jongin,0000,0000,0000,,une réunion aura lieu aujourd’hui\Navec les plus grands chasseurs japonais.
+Dialogue: 0,0:12:13.14,0:12:14.71,Default,Sung Jinwoo,0000,0000,0000,,Voilà le dernier étage.
+Dialogue: 0,0:12:15.11,0:12:16.92,Default,Esil,0000,0000,0000,,Il n’y a pas un chat.
+Dialogue: 0,0:12:32.36,0:12:35.06,Default,Sung Jinwoo,0000,0000,0000,,C’est lui, le roi des démons ?
+Dialogue: 0,0:12:36.12,0:12:37.12,Default,Sung Jinwoo,0000,0000,0000,,Baran !
+Dialogue: 0,0:12:45.07,0:12:46.79,Italique,Sung Jinwoo,0000,0000,0000,,Quelle aura incroyable !
+Dialogue: 0,0:12:47.03,0:12:48.84,Italique,Sung Jinwoo,0000,0000,0000,,Est-ce que j’ai mes chances ?
+Dialogue: 0,0:12:49.65,0:12:52.15,Italique,Esil,0000,0000,0000,,Son hostilité me glace le sang…
+Dialogue: 0,0:12:53.14,0:12:55.07,Italique,Sung Jinwoo,0000,0000,0000,,Esil la ressent aussi.
+Dialogue: 0,0:12:55.80,0:12:59.09,Italique,Sung Jinwoo,0000,0000,0000,,Bon, le fait qu’il puisse voler\Nest problématique…
+Dialogue: 0,0:12:59.85,0:13:02.80,Italique,Sung Jinwoo,0000,0000,0000,,Une vouivre ?\NIl contrôle plus que des démons.
+Dialogue: 0,0:13:27.92,0:13:29.56,Default,Sung Jinwoo,0000,0000,0000,,Y en a un paquet.
+Dialogue: 0,0:13:30.71,0:13:32.16,Default,Esil,0000,0000,0000,,Qu’est-ce qu’on va faire ?
+Dialogue: 0,0:13:34.37,0:13:35.33,Default,Esil,0000,0000,0000,,Sire Jinwoo !
+Dialogue: 0,0:13:35.52,0:13:36.58,Default,Sung Jinwoo,0000,0000,0000,,Je m’en occupe !
+Dialogue: 0,0:13:40.06,0:13:41.16,Default,Sung Jinwoo,0000,0000,0000,,Sortez !
+Dialogue: 0,0:14:01.36,0:14:05.44,Default,Esil,0000,0000,0000,,Incroyable.\NIl possède de telles techniques ?
+Dialogue: 0,0:14:06.36,0:14:10.45,Italique,Esil,0000,0000,0000,,Mais on parle de Baran,\Nle roi des démons…
+Dialogue: 0,0:14:10.85,0:14:14.91,Italique,Esil,0000,0000,0000,,C’est le souverain de cet endroit,\Net sire Jinwoo est une menace.
+Dialogue: 0,0:14:15.71,0:14:19.42,Italique,Esil,0000,0000,0000,,Je…\NPour qui suis-je censée me battre ?
+Dialogue: 0,0:14:49.11,0:14:50.84,Italique,Sung Jinwoo,0000,0000,0000,,Cette foudre est pas ordinaire.
+Dialogue: 0,0:14:51.00,0:14:53.32,Italique,Sung Jinwoo,0000,0000,0000,,Elle paralyse\Ntous ceux qu’elle frappe.
+Dialogue: 0,0:14:54.21,0:14:56.29,Italique,Sung Jinwoo,0000,0000,0000,,Je peux réinvoquer mes ombres,
+Dialogue: 0,0:14:56.42,0:14:59.54,Italique,Sung Jinwoo,0000,0000,0000,,mais à ce rythme,\Nje vais vite tomber à court de mana.
+Dialogue: 0,0:14:59.91,0:15:01.29,Italique,Sung Jinwoo,0000,0000,0000,,Avant d’en arriver là…
+Dialogue: 0,0:15:11.28,0:15:12.70,Italique,Sung Jinwoo,0000,0000,0000,,D’abord, ses ailes !
+Dialogue: 0,0:15:14.67,0:15:16.47,Italique,Sung Jinwoo,0000,0000,0000,,Il me voit malgré Camouflage ?
+Dialogue: 0,0:15:25.52,0:15:28.94,Italique,Sung Jinwoo,0000,0000,0000,,Une attaque guidée ?\NÇa craint, elle se rapproche !
+Dialogue: 0,0:15:29.08,0:15:30.24,Default,Sung Jinwoo,0000,0000,0000,,Croc ! Igris !
+Dialogue: 0,0:15:57.58,0:15:59.18,Default,Sung Jinwoo,0000,0000,0000,,Te voilà enfin à terre.
+Dialogue: 0,0:16:00.29,0:16:04.06,Default,Sung Jinwoo,0000,0000,0000,,Je commençais à en avoir marre\Nde devoir lever la tête.
+Dialogue: 0,0:16:12.27,0:16:13.44,Default,Hanekawa,0000,0000,0000,,Enchantée.
+Dialogue: 0,0:16:13.67,0:16:16.69,Default,Hanekawa,0000,0000,0000,,Je suis Hanekawa,\Nde la guilde du Katana éclair.
+Dialogue: 0,0:16:16.97,0:16:19.46,Default,Hanekawa,0000,0000,0000,,Et voici Ryûji Gotô,\Nnotre maître de guilde.
+Dialogue: 0,0:16:20.16,0:16:23.50,Default,Hanekawa,0000,0000,0000,,Je traduirai tout ce qu’il vous dira.
+Dialogue: 0,0:16:23.85,0:16:25.44,Italique,Go Gunhee,0000,0000,0000,,La guilde du Katana éclair…
+Dialogue: 0,0:16:25.81,0:16:30.14,Italique,Go Gunhee,0000,0000,0000,,La plus grande guilde du Japon,\Nhaute de ses onze rang S.
+Dialogue: 0,0:16:30.56,0:16:34.03,Italique,Go Gunhee,0000,0000,0000,,Ce serait même\Nla deuxième plus grande guilde d’Asie.
+Dialogue: 0,0:16:34.19,0:16:35.40,Italique,Go Gunhee,0000,0000,0000,,À sa tête,
+Dialogue: 0,0:16:35.54,0:16:38.45,Italique,Go Gunhee,0000,0000,0000,,le maître de guilde Ryûji Gotô…
+Dialogue: 0,0:16:38.60,0:16:41.43,Italique,Go Gunhee,0000,0000,0000,,Son aura est à la hauteur\Nde sa réputation.
+Dialogue: 0,0:16:42.22,0:16:46.43,Default,Hanekawa,0000,0000,0000,,Tout d’abord, nous vous remercions\Npour cette invitation
+Dialogue: 0,0:16:46.56,0:16:47.90,Default,Hanekawa,0000,0000,0000,,à l’opération conjointe.
+Dialogue: 0,0:16:48.26,0:16:52.33,Default,Go Gunhee,0000,0000,0000,,Je vous en prie, c’est à nous\Nde vous remercier d’avoir accepté.
+Dialogue: 0,0:16:52.47,0:16:54.49,Default,Go Gunhee,0000,0000,0000,,Nous vous sommes redevables.
+Dialogue: 0,0:16:54.80,0:16:56.74,Default,Hanekawa,0000,0000,0000,,Comme indiqué sur les documents,
+Dialogue: 0,0:16:56.88,0:16:59.55,Default,Hanekawa,0000,0000,0000,,nous avons pu tirer\Ndiverses informations
+Dialogue: 0,0:16:59.70,0:17:02.45,Default,Hanekawa,0000,0000,0000,,des données obtenues\Nsur la première fourmi
+Dialogue: 0,0:17:02.68,0:17:04.76,Default,Hanekawa,0000,0000,0000,,et sur celle éliminée récemment.
+Dialogue: 0,0:17:05.53,0:17:09.71,Default,Hanekawa,0000,0000,0000,,Il y a deux points importants\Nà prendre en compte pour cette opération.
+Dialogue: 0,0:17:10.52,0:17:11.96,Default,Hanekawa,0000,0000,0000,,Déjà, leur durée de vie.
+Dialogue: 0,0:17:12.23,0:17:15.08,Default,Hanekawa,0000,0000,0000,,Après éclosion,\Nles fourmis grandissent rapidement,
+Dialogue: 0,0:17:15.22,0:17:17.18,Default,Hanekawa,0000,0000,0000,,mais elles ne vivent qu’une année.
+Dialogue: 0,0:17:17.43,0:17:20.03,Default,Hanekawa,0000,0000,0000,,Autrement dit,\Nsi on élimine la reine,
+Dialogue: 0,0:17:20.16,0:17:23.39,Default,Hanekawa,0000,0000,0000,,le restant de la colonie\Nmourra au bout d’un an.
+Dialogue: 0,0:17:23.84,0:17:26.60,Default,Hanekawa,0000,0000,0000,,Ensuite, leur comportement.
+Dialogue: 0,0:17:26.80,0:17:29.22,Default,Hanekawa,0000,0000,0000,,Grâce aux trois derniers raids,
+Dialogue: 0,0:17:29.36,0:17:31.43,Default,Hanekawa,0000,0000,0000,,nous savons qu’elles sont attirées
+Dialogue: 0,0:17:31.58,0:17:35.12,Default,Hanekawa,0000,0000,0000,,par les êtres\Npossédant un puissant mana.
+Dialogue: 0,0:17:35.56,0:17:39.57,Default,Hanekawa,0000,0000,0000,,Nous allons mettre à profit\Net utiliser ces informations contre elles.
+Dialogue: 0,0:17:40.66,0:17:44.38,Italique,Go Gunhee,0000,0000,0000,,Nous avions une idée\Ndes préférences des fourmis,
+Dialogue: 0,0:17:44.59,0:17:47.87,Italique,Go Gunhee,0000,0000,0000,,mais ces informations\Nsont vraiment détaillées.
+Dialogue: 0,0:17:48.95,0:17:50.42,Default,Hanekawa,0000,0000,0000,,Concernant le plan…
+Dialogue: 0,0:17:50.90,0:17:54.90,Default,Ryûji Gotô,0000,0000,0000,,… dix des onze rang S\Nde la guilde du Katana éclair
+Dialogue: 0,0:17:55.05,0:17:57.88,Default,Ryûji Gotô,0000,0000,0000,,participeront au raid,\Nmoi y compris.
+Dialogue: 0,0:17:58.91,0:18:00.76,Default,Woo Jincheol,0000,0000,0000,,Dix des onze chasseurs de rang S ?
+Dialogue: 0,0:18:01.00,0:18:03.42,Default,Ryûji Gotô,0000,0000,0000,,Nous détournerons\Nl’attention des fourmis.
+Dialogue: 0,0:18:03.57,0:18:07.56,Default,Ryûji Gotô,0000,0000,0000,,De votre côté, vous en profiterez\Npour vous occuper de la reine.
+Dialogue: 0,0:18:07.76,0:18:10.71,Default,Woo Jincheol,0000,0000,0000,,Mais vous devrez\Nen repousser des milliers !
+Dialogue: 0,0:18:11.12,0:18:14.24,Default,Ryûji Gotô,0000,0000,0000,,S’il suffit de les attirer,\Nça ne sera pas un problème.
+Dialogue: 0,0:18:14.43,0:18:16.11,Default,Ryûji Gotô,0000,0000,0000,,D’après nos simulations,
+Dialogue: 0,0:18:16.24,0:18:19.15,Default,Ryûji Gotô,0000,0000,0000,,ce plan donnait\Nun taux de réussite très élevé.
+Dialogue: 0,0:18:19.99,0:18:24.32,Italique,Go Gunhee,0000,0000,0000,,Nous n’avons pas\Nautant de rang S qu’eux à disposition…
+Dialogue: 0,0:18:24.61,0:18:25.70,Italique,Go Gunhee,0000,0000,0000,,Dans ce cas…
+Dialogue: 0,0:18:25.97,0:18:27.36,Default,Go Gunhee,0000,0000,0000,,Entendu.
+Dialogue: 0,0:18:27.50,0:18:31.40,Default,Go Gunhee,0000,0000,0000,,Adoptons ce plan\Net discutons des détails en réunion.
+Dialogue: 0,0:18:40.09,0:18:42.59,Italique,Sung Jinwoo,0000,0000,0000,,Pas le temps\Nde boire des potions de mana…
+Dialogue: 0,0:19:02.03,0:19:03.78,Italique,Sung Jinwoo,0000,0000,0000,,Il a bloqué Coup fatal ?
+Dialogue: 0,0:19:33.39,0:19:34.97,Italique,Sung Jinwoo,0000,0000,0000,,Je suis à court de mana.
+Dialogue: 0,0:20:18.90,0:20:20.43,Default,Sung Jinwoo,0000,0000,0000,,Bordel ! Mes dagues !
+Dialogue: 0,0:20:31.06,0:20:33.04,Italique,Sung Jinwoo,0000,0000,0000,,Quelle puissance de malade !
+Dialogue: 0,0:20:34.70,0:20:35.58,Italique,Sung Jinwoo,0000,0000,0000,,Je rêve !
+Dialogue: 0,0:20:37.33,0:20:38.25,Italique,Sung Jinwoo,0000,0000,0000,,Je suis foutu !
+Dialogue: 0,0:20:44.80,0:20:45.71,Italique,Sung Jinwoo,0000,0000,0000,,Maintenant !
+Dialogue: 0,0:20:45.84,0:20:50.01,Italique,Sung Jinwoo,0000,0000,0000,,Je vais coupler toute ma force\Navec Toucher du maître !
+Dialogue: 0,0:21:06.82,0:21:10.74,Default,Sung Jinwoo,0000,0000,0000,,Le coup de grâce !
+Dialogue: 0,0:21:23.97,0:21:25.22,Default,Esil,0000,0000,0000,,Sire Jinwoo ?
+Dialogue: 0,0:21:46.72,0:21:47.90,Default,Esil,0000,0000,0000,,Sire Jinwoo !
+Dialogue: 0,0:21:48.25,0:21:51.41,Default,Sung Jinwoo,0000,0000,0000,,Esil, tu peux rentrer chez toi\Net prévenir ton père.
+Dialogue: 0,0:21:52.25,0:21:55.91,Default,Sung Jinwoo,0000,0000,0000,,Dis-lui que le clan Radis\Nest maintenant le numéro 1.
+Dialogue: 0,0:21:56.58,0:21:57.92,Default,Esil,0000,0000,0000,,Sire Jinwoo…
+Dialogue: 0,0:22:01.71,0:22:05.05,Default,Esil,0000,0000,0000,,Mon clan se nomme Radir,\Npas Radis…
+Dialogue: 0,0:23:28.92,0:23:30.92,Default,credits,0000,0000,0000,,Traduction : Alexandre Mureau\NAdaptation : Kiddo Maxx
+Dialogue: 0,0:23:32.26,0:23:34.05,Default,credits,0000,0000,0000,,Repérage : Clément Hautavoine\NRelecture : DW512ZC

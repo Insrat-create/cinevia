@@ -1,0 +1,376 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: Top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Overlap,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H2BA41D54,&H00333333,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Overlap top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H2BA41D54,&H00333333,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Italics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Italics top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Flashback,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00914600,&H00490302,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Flashback top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00914600,&H00490302,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Flashback italics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00914600,&H00490302,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Flashback italics top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00914600,&H00490302,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Flashback Overlap Italics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00D39E6D,&H00490302,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Flashback Overlap,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00D39E6D,&H00490302,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Flashback Overlap top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00D39E6D,&H00490302,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Narrator,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00010278,&H00000031,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0015,1
+Style: Narrator Top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00010278,&H00000031,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0015,1
+Style: Cartelli top Mod,Times New Roman,22.0,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0010,0010,0018,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.81,0:00:09.04,Default,Sung Jinwoo,0000,0000,0000,,Sorgete.
+Dialogue: 0,0:00:23.31,0:00:24.48,Default,Sung Jinwoo,0000,0000,0000,,Bene.
+Dialogue: 0,0:01:56.24,0:01:58.12,Default,Baek Yoonho,0000,0000,0000,,Quanto tempo è passato?
+Dialogue: 0,0:01:58.12,0:01:59.85,Default,Ahn Sangmin,0000,0000,0000,,All'incirca tre ore.
+Dialogue: 0,0:02:00.26,0:02:03.63,Default,Ahn Sangmin,0000,0000,0000,,Suppongo equivalgano più o meno\N a tre giorni all'interno del gate.
+Dialogue: 0,0:02:03.98,0:02:06.99,Default,Baek Yoonho,0000,0000,0000,,Dentro un red gate non si ha certo vita facile...
+Dialogue: 0,0:02:08.35,0:02:09.39,Default,Hwang Dongsoo,0000,0000,0000,,Se è così,
+Dialogue: 0,0:02:09.39,0:02:12.17,Default,Hwang Dongsoo,0000,0000,0000,,allora anche quello stronzo \Ndi Sung Jinwoo ormai sarà morto.
+Dialogue: 0,0:02:12.58,0:02:14.04,Default,Hwang Dongsoo,0000,0000,0000,,Potevo restarmene a casa.
+Dialogue: 0,0:02:16.32,0:02:18.63,Default,Hwang Dongsoo,0000,0000,0000,,Anzi no, un momento.
+Dialogue: 0,0:02:18.63,0:02:22.04,Default,Hwang Dongsoo,0000,0000,0000,,Quello stronzo non è della Tigre Bianca, no?
+Dialogue: 0,0:02:22.56,0:02:27.49,Default,Hwang Dongsoo,0000,0000,0000,,E allora che cazzo ci fa là dentro\N con la tua squadra d'attacco?
+Dialogue: 0,0:02:30.00,0:02:31.65,Default,Ahn Sangmin,0000,0000,0000,,È un mio conoscente.
+Dialogue: 0,0:02:32.45,0:02:34.68,Default,Ahn Sangmin,0000,0000,0000,,Voleva partecipare con noi \Na un raid di grado C,
+Dialogue: 0,0:02:34.68,0:02:36.12,Default,Ahn Sangmin,0000,0000,0000,,perciò l'ho portato con me.
+Dialogue: 0,0:02:36.66,0:02:39.29,Default,Hwang Dongsoo,0000,0000,0000,,Ah, è così che stanno le cose?
+Dialogue: 0,0:02:43.49,0:02:45.86,Default,Hwang Dongsoo,0000,0000,0000,,Pensi davvero che me la beva?
+Dialogue: 0,0:02:45.86,0:02:48.78,Default,Hwang Dongsoo,0000,0000,0000,,Che hai trovato stavolta?
+Dialogue: 0,0:02:48.78,0:02:52.91,Default,Hwang Dongsoo,0000,0000,0000,,Sei sempre stato bravo\Na fiutare le cose più stra—
+Dialogue: 0,0:02:54.46,0:02:55.82,Default,Baek Yoonho,0000,0000,0000,,Hwang Dongsoo.
+Dialogue: 0,0:02:56.67,0:02:58.53,Default,Baek Yoonho,0000,0000,0000,,Lascialo andare!
+Dialogue: 0,0:02:58.99,0:03:00.91,Default,Hwang Dongsoo,0000,0000,0000,,Ora ti metti a darmi ordini?
+Dialogue: 0,0:03:01.29,0:03:04.53,Default,Hwang Dongsoo,0000,0000,0000,,Facile fare il grosso\N in un Paese minuscolo come questo.
+Dialogue: 0,0:03:05.16,0:03:06.47,Default,Baek Yoonho,0000,0000,0000,,Che hai detto?
+Dialogue: 0,0:03:10.35,0:03:12.76,Italics,Ahn Sangmin,0000,0000,0000,,Merda, devo fermarli alla svelta
+Dialogue: 0,0:03:12.76,0:03:15.72,Italics,Ahn Sangmin,0000,0000,0000,,o rischia di iniziare\N una battaglia fra due gradi S!
+Dialogue: 0,0:03:15.72,0:03:17.38,Default,Hwang Dongsoo,0000,0000,0000,,Vuoi che te le suoni?
+Dialogue: 0,0:03:33.34,0:03:35.11,Default,Kim Chul,0000,0000,0000,,Fa troppo freddo.
+Dialogue: 0,0:03:35.11,0:03:35.98,Default,Kim Chul,0000,0000,0000,,No...
+Dialogue: 0,0:03:36.61,0:03:38.26,Default,Kim Chul,0000,0000,0000,,Se fossimo stati equipaggiati,
+Dialogue: 0,0:03:38.26,0:03:39.96,Default,Kim Chul,0000,0000,0000,,ce l'avremmo fatta.
+Dialogue: 0,0:03:42.03,0:03:44.86,Italics,Kim Chul,0000,0000,0000,,Ecco perché non abbiamo incontrato\N nemmeno un Ice Bear.
+Dialogue: 0,0:03:45.45,0:03:46.62,Italics,Kim Chul,0000,0000,0000,,Non ci credo.
+Dialogue: 0,0:03:46.62,0:03:48.08,Italics,Kim Chul,0000,0000,0000,,Sono stati quelli di grado E?
+Dialogue: 0,0:03:48.84,0:03:51.67,Default,Kim Chul,0000,0000,0000,,No! Non possono essere così forti!
+Dialogue: 0,0:03:54.24,0:03:55.41,Default,Kim Chul,0000,0000,0000,,Giusto...
+Dialogue: 0,0:03:55.41,0:03:56.76,Default,Kim Chul,0000,0000,0000,,i Byakki.
+Dialogue: 0,0:03:56.76,0:03:57.50,Default,Kim Chul,0000,0000,0000,,Ci sono i Byakki!
+Dialogue: 0,0:03:58.04,0:03:59.36,Default,Kim Chul,0000,0000,0000,,Merda!
+Dialogue: 0,0:04:04.76,0:04:06.22,Default,Hwang Dongsoo,0000,0000,0000,,Mica male.
+Dialogue: 0,0:04:08.32,0:04:09.56,Default,Woo Jinchul,0000,0000,0000,,Fortunatamente, entrambi
+Dialogue: 0,0:04:09.56,0:04:12.27,Default,Woo Jinchul,0000,0000,0000,,avete contenuto la vostra forza\N all'ultimo secondo,
+Dialogue: 0,0:04:12.27,0:04:14.47,Default,Woo Jinchul,0000,0000,0000,,per questo me la sono cavata senza fratture.
+Dialogue: 0,0:04:16.71,0:04:20.46,Default,Woo Jinchul,0000,0000,0000,,Hunter Hwang, non so quali dubbi\N stia serbando sul suo conto,
+Dialogue: 0,0:04:20.46,0:04:22.06,Default,Woo Jinchul,0000,0000,0000,,ma circa due mesi fa
+Dialogue: 0,0:04:22.06,0:04:24.90,Default,Woo Jinchul,0000,0000,0000,,l'ho personalmente sottoposto\N a una rivalutazione.
+Dialogue: 0,0:04:25.60,0:04:28.89,Default,Woo Jinchul,0000,0000,0000,,Non c'è dubbio che l'hunter Sung\N sia di grado E.
+Dialogue: 0,0:04:29.37,0:04:33.36,Default,Woo Jinchul,0000,0000,0000,,La morte dell'hunter Hwang Dongsuk\Nè stata dichiarata dalla Divisione Sorveglianza
+Dialogue: 0,0:04:33.36,0:04:35.44,Default,Woo Jinchul,0000,0000,0000,,come esito della battaglia con un mostro.
+Dialogue: 0,0:04:36.36,0:04:39.33,Default,Hwang Dongsoo,0000,0000,0000,,Questa è solo la versione ufficiosa.
+Dialogue: 0,0:04:39.35,0:04:41.67,Default,Hwang Dongsoo,0000,0000,0000,,È una palesissima stronzata.
+Dialogue: 0,0:04:41.67,0:04:45.82,Default,Hwang Dongsoo,0000,0000,0000,,A ucciderlo è stato il rampollo del cazzo\N dell'impresa edile Yoojin.
+Dialogue: 0,0:04:47.17,0:04:50.56,Default,Woo Jinchul,0000,0000,0000,,Se ne è convinto, allora perché\N vuole braccare l'hunter Sung?
+Dialogue: 0,0:04:51.89,0:04:53.56,Default,Hwang Dongsoo,0000,0000,0000,,Mi sembra ovvio.
+Dialogue: 0,0:04:54.26,0:04:56.26,Default,Hwang Dongsoo,0000,0000,0000,,È solo un pretesto...
+Dialogue: 0,0:04:56.61,0:04:58.58,Default,Hwang Dongsoo,0000,0000,0000,,per poter uccidere qualcuno.
+Dialogue: 0,0:05:04.65,0:05:07.34,Default,Hwang Dongsoo,0000,0000,0000,,Bah, che culo che ha avuto.
+Dialogue: 0,0:05:10.05,0:05:11.48,Default,Woo Jinchul,0000,0000,0000,,Hunter Hwang!
+Dialogue: 0,0:05:11.85,0:05:16.16,Italics,Ahn Sangmin,0000,0000,0000,,Sono io la persona che meglio sa\Nquanto l'hunter Sung sia eccezionale.
+Dialogue: 0,0:05:16.89,0:05:19.36,Italics,Ahn Sangmin,0000,0000,0000,,Lo so che uscirà da lì vivo.
+Dialogue: 0,0:05:21.48,0:05:25.74,Default,Go Myunghwan,0000,0000,0000,,E alla fine avevo esaurito i soldi\N per potermi comprare le armi!
+Dialogue: 0,0:05:25.74,0:05:27.38,Default,Go Myunghwan,0000,0000,0000,,Giuro che è vero!
+Dialogue: 0,0:05:27.38,0:05:28.84,Default,Go Myunghwan,0000,0000,0000,,Avevo letto male il prezzo.
+Dialogue: 0,0:05:29.66,0:05:31.53,Italics,Kim Chul,0000,0000,0000,,Deboli moscerini...
+Dialogue: 0,0:05:31.84,0:05:33.33,Italics,Kim Chul,0000,0000,0000,,Come fate a essere vivi?!
+Dialogue: 0,0:05:34.18,0:05:37.27,Italics,Kim Chul,0000,0000,0000,,E avete persino tende, coperte,\N attrezzature per il freddo e cibo?!
+Dialogue: 0,0:05:39.61,0:05:41.49,Italics,Kim Chul,0000,0000,0000,,Ma certo, ho capito.
+Dialogue: 0,0:05:42.47,0:05:43.55,Default,Kim Chul,0000,0000,0000,,Ehi!
+Dialogue: 0,0:05:44.56,0:05:45.90,Default,Park Heejin,0000,0000,0000,,Hunter Kim?
+Dialogue: 0,0:05:45.90,0:05:48.53,Default,Kim Chul,0000,0000,0000,,La mia squadra è stata annientata!
+Dialogue: 0,0:05:49.01,0:05:51.46,Default,Kim Chul,0000,0000,0000,,Ed è successo perché\N non avevamo cibo e attrezzatura!
+Dialogue: 0,0:05:51.82,0:05:52.57,Default,Go Myunghwan,0000,0000,0000,,Ma...
+Dialogue: 0,0:05:52.57,0:05:54.72,Default,Kim Chul,0000,0000,0000,,Chi di voi nascondeva 'sta roba?!
+Dialogue: 0,0:05:54.72,0:05:56.59,Default,Kim Chul,0000,0000,0000,,Chi è stato a prendersi tutto
+Dialogue: 0,0:05:56.59,0:05:58.59,Default,Kim Chul,0000,0000,0000,,e a lasciar morire i suoi compagni?!
+Dialogue: 0,0:05:59.44,0:06:01.05,Italics,Kim Chul,0000,0000,0000,,Ah, ma certo...
+Dialogue: 0,0:06:01.68,0:06:02.95,Default,Han Song-Yi,0000,0000,0000,,Heejin...
+Dialogue: 0,0:06:02.95,0:06:05.51,Italics,Kim Chul,0000,0000,0000,,Tu lo sapevi sin dall'inizio, vero?
+Dialogue: 0,0:06:05.51,0:06:07.47,Italics,Kim Chul,0000,0000,0000,,Per questo sei andata con loro.
+Dialogue: 0,0:06:07.80,0:06:10.51,Default,Kim Chul,0000,0000,0000,,Ditemi la verità o vi considererò tutti complici!
+Dialogue: 0,0:06:11.18,0:06:13.41,Default,Kim Chul,0000,0000,0000,,Avete tre secondi per confessare.
+Dialogue: 0,0:06:14.31,0:06:15.62,Default,Kim Chul,0000,0000,0000,,Uno!
+Dialogue: 0,0:06:16.46,0:06:17.26,Default,Kim Chul,0000,0000,0000,,Due!
+Dialogue: 0,0:06:17.26,0:06:18.83,Italics,Kim Chul,0000,0000,0000,,Il colpevole è quel tipo...
+Dialogue: 0,0:06:19.86,0:06:21.90,Italics,Kim Chul,0000,0000,0000,,Song Jinwoo!
+Dialogue: 0,0:06:21.19,0:06:21.90,Top,Kim Chul,0000,0000,0000,,Tre!
+Dialogue: 0,0:06:29.67,0:06:32.62,Default,Sung Jinwoo,0000,0000,0000,,Chi è che ha lasciato morire i suoi compagni?
+Dialogue: 0,0:06:32.62,0:06:33.64,Default,Han Song-Yi,0000,0000,0000,,Signor Sung!
+Dialogue: 0,0:06:33.64,0:06:34.76,Default,Go Myunghwan,0000,0000,0000,,Capitano!
+Dialogue: 0,0:06:35.10,0:06:37.58,Default,Sung Jinwoo,0000,0000,0000,,Ci mancava solo questo fastidio in più.
+Dialogue: 0,0:06:37.94,0:06:39.59,Default,Sung Jinwoo,0000,0000,0000,,Rimuovete furtività.
+Dialogue: 0,0:06:39.59,0:06:42.80,Default,Sung Jinwoo,0000,0000,0000,,La vostra aura è troppo forte,\N non vi nasconde per niente.
+Dialogue: 0,0:06:44.62,0:06:46.93,Default,Park Heejin,0000,0000,0000,,Ma quelli... sono Ice Elf!
+Dialogue: 0,0:06:46.93,0:06:48.77,Default,Go Myunghwan,0000,0000,0000,,Ce ne sono un sacco!
+Dialogue: 0,0:06:49.78,0:06:50.98,Default,Sung Jinwoo,0000,0000,0000,,Quello è il boss?
+Dialogue: 0,0:06:55.65,0:06:57.47,Default,Barca,0000,0000,0000,,Ma allora c'è davvero
+Dialogue: 0,0:06:57.85,0:07:00.18,Default,Barca,0000,0000,0000,,qualcuno di decente fra questi scarti.
+Dialogue: 0,0:07:00.63,0:07:02.05,Default,Sung Jinwoo,0000,0000,0000,,Che hai detto?
+Dialogue: 0,0:07:02.05,0:07:04.12,Default,Sung Jinwoo,0000,0000,0000,,Ci hai definito degli scart—
+Dialogue: 0,0:07:10.47,0:07:12.45,Default,Barca,0000,0000,0000,,Riesci a capire la nostra lingua?
+Dialogue: 0,0:07:13.60,0:07:14.65,Italics,Sung Jinwoo,0000,0000,0000,,Perché lo capisco?
+Dialogue: 0,0:07:14.65,0:07:18.06,Default,Park Heejin,0000,0000,0000,,Tu... sai parlare la lingua dei mostri?
+Dialogue: 0,0:07:18.61,0:07:20.92,Italics,Sung Jinwoo,0000,0000,0000,,Dev'essere per via del Sistema.
+Dialogue: 0,0:07:20.92,0:07:24.09,Default,Barca,0000,0000,0000,,Se capisci la nostra lingua,\N allora sarà tutto più facile.
+Dialogue: 0,0:07:24.09,0:07:26.13,Default,Barca,0000,0000,0000,,È stato lui a riferirmelo.
+Dialogue: 0,0:07:27.09,0:07:30.55,Default,Barca,0000,0000,0000,,Mi ha detto che fra gli umani\N ce n'è uno molto forte.
+Dialogue: 0,0:07:30.55,0:07:32.94,Default,Barca,0000,0000,0000,,Insiste per affrontarti in combattimen—
+Dialogue: 0,0:07:40.36,0:07:41.11,Default,Sung Jinwoo,0000,0000,0000,,Altro?
+Dialogue: 0,0:07:43.86,0:07:45.40,Default,Barca,0000,0000,0000,,Interessante.
+Dialogue: 0,0:07:51.78,0:07:53.91,Italics,Sung Jinwoo,0000,0000,0000,,Dubito si farà sconfiggere facilmente.
+Dialogue: 0,0:07:54.99,0:07:57.10,Default,Barca,0000,0000,0000,,Sempre più interessante.
+Dialogue: 0,0:07:57.54,0:07:59.09,Default,Barca,0000,0000,0000,,Piuttosto, dimmi una cosa.
+Dialogue: 0,0:07:59.42,0:08:03.55,Default,Barca,0000,0000,0000,,Perché te ne stai fra gli umani\Nse non sei uno di loro?
+Dialogue: 0,0:08:05.80,0:08:09.47,Default,Barca,0000,0000,0000,,A quanto pare, neanche tu\N sai bene cosa sei realmente.
+Dialogue: 0,0:08:09.47,0:08:12.26,Default,Barca,0000,0000,0000,,Noi sentiamo tutti una voce
+Dialogue: 0,0:08:12.26,0:08:14.19,Default,Barca,0000,0000,0000,,che ci ripete "uccidete gli umani".
+Dialogue: 0,0:08:14.19,0:08:17.43,Default,Barca,0000,0000,0000,,Ma davanti a te non la sento minimamente.
+Dialogue: 0,0:08:17.95,0:08:19.59,Italics,Sung Jinwoo,0000,0000,0000,,Sente una voce?
+Dialogue: 0,0:08:20.36,0:08:23.19,Italics,Sung Jinwoo,0000,0000,0000,,Che sia simile agli ordini del Sistema?
+Dialogue: 0,0:08:23.19,0:08:26.03,Italics,Sung Jinwoo,0000,0000,0000,,Se non sente quella voce nei miei confronti,
+Dialogue: 0,0:08:26.03,0:08:28.47,Italics,Sung Jinwoo,0000,0000,0000,,forse è perché sono diventato il Player.
+Dialogue: 0,0:08:28.47,0:08:30.86,Default,Barca,0000,0000,0000,,Non c'è bisogno che ci affrontiamo.
+Dialogue: 0,0:08:31.23,0:08:33.65,Default,Barca,0000,0000,0000,,Risolviamola nel modo più logico.
+Dialogue: 0,0:08:33.97,0:08:36.36,Default,Barca,0000,0000,0000,,Consegnami gli umani dietro di te.
+Dialogue: 0,0:08:36.79,0:08:38.87,Default,Barca,0000,0000,0000,,Tu fallo e non ti sfioreremo neanche con un dito.
+Dialogue: 0,0:08:38.87,0:08:41.95,Default,Barca,0000,0000,0000,,Che ne dici? Ti piace la nostra proposta?
+Dialogue: 0,0:08:42.64,0:08:44.73,Default,Sung Jinwoo,0000,0000,0000,,Si può sapere chi siete?
+Dialogue: 0,0:08:45.04,0:08:47.13,Default,Sung Jinwoo,0000,0000,0000,,Perché combattete contro gli umani?
+Dialogue: 0,0:08:47.68,0:08:49.51,Default,Barca,0000,0000,0000,,Noi siamo...
+Dialogue: 0,0:08:51.20,0:08:53.60,Default,Barca,0000,0000,0000,,Consegnami gli umani dietro di te.
+Dialogue: 0,0:08:54.07,0:08:54.97,Default,Barca,0000,0000,0000,,Tu fallo
+Dialogue: 0,0:08:55.44,0:08:57.47,Default,Barca,0000,0000,0000,,e non ti sfioreremo neanche con un dito.
+Dialogue: 0,0:08:57.95,0:08:59.59,Italics,Sung Jinwoo,0000,0000,0000,,Ma cos'è appena successo?
+Dialogue: 0,0:08:59.59,0:09:02.56,Default,Barca,0000,0000,0000,,Che ne dici? Ti piace la nostra proposta?
+Dialogue: 0,0:09:02.89,0:09:04.40,Default,Barca,0000,0000,0000,,Sono sicuro che accetterai, no?
+Dialogue: 0,0:09:07.46,0:09:08.39,Default,Sung Jinwoo,0000,0000,0000,,No, mi rifiuto.
+Dialogue: 0,0:09:09.78,0:09:12.92,Default,Barca,0000,0000,0000,,Hai intenzione di metterti contro di noi?
+Dialogue: 0,0:09:12.92,0:09:16.22,Default,Barca,0000,0000,0000,,C'è un enorme svantaggio numerico.
+Dialogue: 0,0:09:17.34,0:09:18.63,Default,Sung Jinwoo,0000,0000,0000,,Fra chi dei due?
+Dialogue: 0,0:09:27.22,0:09:28.59,Default,Han Song-Yi,0000,0000,0000,,Ma cosa succede?
+Dialogue: 0,0:09:28.59,0:09:31.30,Default,Go Myunghwan,0000,0000,0000,,S-Sono mostri!\N Sono comparsi dei mostri!
+Dialogue: 0,0:09:31.30,0:09:34.43,Default,Park Heejin,0000,0000,0000,,Soldati neri e Ice Bear neri?
+Dialogue: 0,0:09:34.80,0:09:35.89,Default,Park Heejin,0000,0000,0000,,No, non ci credo.
+Dialogue: 0,0:09:35.89,0:09:37.80,Default,Park Heejin,0000,0000,0000,,È di nuovo opera tua, hunter Sung?
+Dialogue: 0,0:09:38.78,0:09:41.26,Default,Barca,0000,0000,0000,,La tua è solo futile resistenza.
+Dialogue: 0,0:09:41.26,0:09:42.87,Default,Sung Jinwoo,0000,0000,0000,,Futile resistenza?
+Dialogue: 0,0:09:42.87,0:09:44.62,Default,Sung Jinwoo,0000,0000,0000,,Ne sei davvero sicuro?
+Dialogue: 0,0:10:01.49,0:10:02.58,Default,Park Heejin,0000,0000,0000,,Svelti!
+Dialogue: 0,0:10:02.58,0:10:05.58,Default,Park Heejin,0000,0000,0000,,Tanto non possiamo aiutarlo in nessun modo!
+Dialogue: 0,0:10:13.38,0:10:15.42,Italics,Sung Jinwoo,0000,0000,0000,,Capisco perché era così fiducioso.
+Dialogue: 0,0:10:15.80,0:10:19.26,Italics,Sung Jinwoo,0000,0000,0000,,Saranno anche immortali,\N ma ho bisogno di mana per rigenerarli.
+Dialogue: 0,0:10:19.91,0:10:22.28,Italics,Sung Jinwoo,0000,0000,0000,,Di questo passo \Npian piano scenderanno di numero.
+Dialogue: 0,0:10:22.70,0:10:24.15,Italics,Sung Jinwoo,0000,0000,0000,,Per non parlare del boss.
+Dialogue: 0,0:10:24.49,0:10:26.75,Italics,Sung Jinwoo,0000,0000,0000,,È più forte di me, questo è palese.
+Dialogue: 0,0:10:33.54,0:10:36.39,Italics,Sung Jinwoo,0000,0000,0000,,Potrebbe essere dura batterlo\N anche insieme a Igris.
+Dialogue: 0,0:10:37.07,0:10:38.94,Italics,Sung Jinwoo,0000,0000,0000,,I miei soldati normali non hanno speranze.
+Dialogue: 0,0:10:39.70,0:10:42.38,Italics,Sung Jinwoo,0000,0000,0000,,Ho bisogno di qualcosa di più forte.
+Dialogue: 0,0:10:42.38,0:10:44.33,Default,Barca,0000,0000,0000,,Il mio nome è Barca.
+Dialogue: 0,0:10:44.80,0:10:46.68,Default,Barca,0000,0000,0000,,Tu come ti chiami?
+Dialogue: 0,0:10:48.81,0:10:50.09,Default,Sung Jinwoo,0000,0000,0000,,Sung Jinwoo.
+Dialogue: 0,0:11:16.36,0:11:19.48,Default,Barca,0000,0000,0000,,Era da tanto che non partecipavo\N a una battaglia così elettrizzante!
+Dialogue: 0,0:11:34.20,0:11:36.43,Default,Kim Chul,0000,0000,0000,,C-Cos'è successo poco fa?
+Dialogue: 0,0:11:41.16,0:11:43.43,Default,Kim Chul,0000,0000,0000,,Sung Jinwoo!
+Dialogue: 0,0:11:46.02,0:11:48.85,Italics,Sung Jinwoo,0000,0000,0000,,L'esercito di maghi \Nmi ha fatto guadagnare del tempo.
+Dialogue: 0,0:11:49.23,0:11:50.19,Italics,Sung Jinwoo,0000,0000,0000,,E adesso...
+Dialogue: 0,0:11:50.77,0:11:53.28,Default,Barca,0000,0000,0000,,Tutto qui quello che sa fare il tuo esercito?!
+Dialogue: 0,0:11:55.18,0:11:57.39,Default,Kim Chul,0000,0000,0000,,Sung Jinwoo!
+Dialogue: 0,0:11:57.39,0:11:58.98,Default,Kim Chul,0000,0000,0000,,Muori!
+Dialogue: 0,0:11:58.98,0:12:01.49,Default,Barca,0000,0000,0000,,Anche gli umani ti hanno voltato le spalle?
+Dialogue: 0,0:12:07.34,0:12:08.51,Default,Barca,0000,0000,0000,,È tutto inutile.
+Dialogue: 0,0:12:09.19,0:12:11.16,Default,Barca,0000,0000,0000,,Non servirà a niente!
+Dialogue: 0,0:12:19.18,0:12:21.38,Default,Kim Chul,0000,0000,0000,,Sung Jinwoo!
+Dialogue: 0,0:12:21.38,0:12:23.10,Default,Kim Chul,0000,0000,0000,,Muori!
+Dialogue: 0,0:12:23.10,0:12:24.46,Default,Sung Jinwoo,0000,0000,0000,,Kim Chul.
+Dialogue: 0,0:12:24.46,0:12:26.46,Default,Sung Jinwoo,0000,0000,0000,,Sapevo che saresti arrivato.
+Dialogue: 0,0:12:31.65,0:12:33.18,Default,Barca,0000,0000,0000,,È tutto inutile.
+Dialogue: 0,0:12:37.29,0:12:39.69,Default,Kim Chul,0000,0000,0000,,Sung Jinwoo... Bastardo...
+Dialogue: 0,0:12:40.48,0:12:42.29,Default,Kim Chul,0000,0000,0000,,Sapevi fin dall'inizio
+Dialogue: 0,0:12:42.83,0:12:46.12,Default,Kim Chul,0000,0000,0000,,che sarebbe andata così?
+Dialogue: 0,0:12:46.54,0:12:48.25,Default,Kim Chul,0000,0000,0000,,'Fanculo...
+Dialogue: 0,0:12:50.27,0:12:51.08,Default,Sung Jinwoo,0000,0000,0000,,Sorgi.
+Dialogue: 0,0:12:54.24,0:12:56.14,Default,Barca,0000,0000,0000,,Non servirà a niente!
+Dialogue: 0,0:13:11.37,0:13:12.23,Default,Sung Jinwoo,0000,0000,0000,,Iron.
+Dialogue: 0,0:13:12.96,0:13:16.01,Default,Sung Jinwoo,0000,0000,0000,,D'ora in poi sarà questo il tuo nome.
+Dialogue: 0,0:13:23.80,0:13:25.95,Default,Barca,0000,0000,0000,,Davvero molto interessante.
+Dialogue: 0,0:13:25.95,0:13:28.46,Default,Barca,0000,0000,0000,,Ti ridurrò a brandelli per primo!
+Dialogue: 0,0:13:36.27,0:13:39.25,Default,Barca,0000,0000,0000,,Non sei molto agile, eh?
+Dialogue: 0,0:13:42.54,0:13:43.96,Default,Han Song-Yi,0000,0000,0000,,Heejin.
+Dialogue: 0,0:13:43.96,0:13:48.24,Default,Han Song-Yi,0000,0000,0000,,Ma le battaglie degli hunter\Nsono sempre come questa?
+Dialogue: 0,0:13:48.24,0:13:52.08,Default,Park Heejin,0000,0000,0000,,Se fossero tutte così,\Nnon sarei mai riuscita a diventare un'hunter.
+Dialogue: 0,0:13:52.49,0:13:54.49,Default,Park Heejin,0000,0000,0000,,Mai visto niente del genere.
+Dialogue: 0,0:13:54.49,0:13:57.23,Default,Go Myunghwan,0000,0000,0000,,Non... sto sognando, vero?
+Dialogue: 0,0:14:00.63,0:14:02.90,Default,Barca,0000,0000,0000,,Questo da solo non mi basta.
+Dialogue: 0,0:14:03.24,0:14:05.45,Default,Barca,0000,0000,0000,,Vieni anche tu con quel cavaliere.
+Dialogue: 0,0:14:05.45,0:14:08.09,Default,Barca,0000,0000,0000,,Affrontatemi tutti insieme!
+Dialogue: 0,0:14:08.09,0:14:09.54,Default,Sung Jinwoo,0000,0000,0000,,E va bene.
+Dialogue: 0,0:14:21.16,0:14:22.67,Default,Barca,0000,0000,0000,,Tu...
+Dialogue: 0,0:14:23.55,0:14:24.69,Default,Barca,0000,0000,0000,,sarai il primo!
+Dialogue: 0,0:14:34.47,0:14:36.75,Italics,Sung Jinwoo,0000,0000,0000,,È riuscito comunque a evitare un colpo fatale?
+Dialogue: 0,0:14:38.73,0:14:41.65,Default,Barca,0000,0000,0000,,Non pensi di avermi sottovalutato un po' troppo?
+Dialogue: 0,0:14:41.65,0:14:44.25,Default,Sung Jinwoo,0000,0000,0000,,Sei forte, te lo riconosco.
+Dialogue: 0,0:14:44.25,0:14:45.12,Default,Sung Jinwoo,0000,0000,0000,,Però mi chiedo
+Dialogue: 0,0:14:45.38,0:14:47.36,Default,Sung Jinwoo,0000,0000,0000,,se si possa dire lo stesso del tuo esercito.
+Dialogue: 0,0:14:54.73,0:14:55.91,Default,Barca,0000,0000,0000,,Quegli insetti
+Dialogue: 0,0:14:55.91,0:14:58.89,Default,Barca,0000,0000,0000,,scompariranno una volta\N che mi sarò sbarazzato di te!
+Dialogue: 0,0:15:01.38,0:15:03.88,Default,Barca,0000,0000,0000,,Getti via l'arma? Sei pazzo!
+Dialogue: 0,0:15:13.16,0:15:13.98,Default,Sung Jinwoo,0000,0000,0000,,Iron!
+Dialogue: 0,0:15:33.33,0:15:36.50,Default,Barca,0000,0000,0000,,Come hai osato farmi questo?!
+Dialogue: 0,0:15:37.06,0:15:40.15,Default,Barca,0000,0000,0000,,Vi ucciderò tutti!
+Dialogue: 0,0:15:42.27,0:15:44.42,Default,Sung Jinwoo,0000,0000,0000,,Fine dei giochi.
+Dialogue: 0,0:15:44.42,0:15:46.19,Default,Barca,0000,0000,0000,,Ma non dire stronzate!
+Dialogue: 0,0:15:46.90,0:15:49.21,Default,Barca,0000,0000,0000,,Non è ancora finita!
+Dialogue: 0,0:15:59.63,0:16:00.65,Default,Sung Jinwoo,0000,0000,0000,,Te l'ho già detto.
+Dialogue: 0,0:16:03.11,0:16:05.20,Default,Sung Jinwoo,0000,0000,0000,,Fine dei giochi.
+Dialogue: 0,0:16:09.60,0:16:11.48,Default,Sung Jinwoo,0000,0000,0000,,Sembra che ce l'abbia fatta...
+Dialogue: 0,0:16:16.76,0:16:18.54,Default,Sung Jinwoo,0000,0000,0000,,Ehi! Basta così!
+Dialogue: 0,0:16:20.41,0:16:22.01,Default,Sung Jinwoo,0000,0000,0000,,Moderazione, prego.
+Dialogue: 0,0:16:23.97,0:16:25.46,Default,Sung Jinwoo,0000,0000,0000,,Mi causerai guai, me lo sento.
+Dialogue: 0,0:16:38.23,0:16:40.44,Default,Park Heejin,0000,0000,0000,,È... finita?
+Dialogue: 0,0:16:41.06,0:16:42.02,Default,Sung Jinwoo,0000,0000,0000,,Sì.
+Dialogue: 0,0:16:44.14,0:16:45.75,Default,Sung Jinwoo,0000,0000,0000,,Siete pronti a uscire?
+Dialogue: 0,0:16:49.63,0:16:51.10,Default,Sung Jinwoo,0000,0000,0000,,Il gate si è aperto.
+Dialogue: 0,0:16:53.38,0:16:55.38,Default,Go Myunghwan,0000,0000,0000,,Evvai!
+Dialogue: 0,0:16:55.38,0:16:56.93,Default,Go Myunghwan,0000,0000,0000,,Finalmente si torna a casa!
+Dialogue: 0,0:16:56.93,0:16:58.93,Default,Han Song-Yi,0000,0000,0000,,Meno male...
+Dialogue: 0,0:16:58.93,0:16:59.96,Default,Go Myunghwan,0000,0000,0000,,Che bello!
+Dialogue: 0,0:16:59.96,0:17:01.67,Default,Park Heejin,0000,0000,0000,,Finalmente!
+Dialogue: 0,0:17:03.14,0:17:04.54,Default,Sung Jinwoo,0000,0000,0000,,Ma prima...
+Dialogue: 0,0:17:08.62,0:17:10.48,Default,Ahn Sangmin,0000,0000,0000,,A breve nel gate
+Dialogue: 0,0:17:10.48,0:17:12.96,Default,Ahn Sangmin,0000,0000,0000,,sarà passata una settimana intera.
+Dialogue: 0,0:17:12.96,0:17:15.63,Default,Ahn Sangmin,0000,0000,0000,,Resteremo noi a sorvegliarlo.
+Dialogue: 0,0:17:15.63,0:17:17.48,Default,Ahn Sangmin,0000,0000,0000,,Lei può tornare indietro, presidente.
+Dialogue: 0,0:17:17.97,0:17:19.89,Default,Baek Yoonho,0000,0000,0000,,All'interno ci sono i membri della mia gilda,
+Dialogue: 0,0:17:19.89,0:17:21.87,Default,Baek Yoonho,0000,0000,0000,,non posso abbandonarli.
+Dialogue: 0,0:17:21.87,0:17:23.60,Default,Baek Yoonho,0000,0000,0000,,Aspetterò fino a domattina.
+Dialogue: 0,0:17:25.84,0:17:27.90,Default,Ahn Sangmin,0000,0000,0000,,Delle persone! Sta uscendo qualcuno!
+Dialogue: 0,0:17:28.99,0:17:30.35,Italics,Baek Yoonho,0000,0000,0000,,Hunter Kim...
+Dialogue: 0,0:17:30.78,0:17:33.40,Italics,Baek Yoonho,0000,0000,0000,,Sapevo che ce l'avresti fatta.
+Dialogue: 0,0:17:34.83,0:17:35.82,Default,Park Heejin,0000,0000,0000,,Presidente Baek!
+Dialogue: 0,0:17:37.30,0:17:38.78,Default,Baek Yoonho,0000,0000,0000,,Hunter Park?
+Dialogue: 0,0:17:39.09,0:17:40.51,Default,Baek Yoonho,0000,0000,0000,,Hunter Go?
+Dialogue: 0,0:17:40.51,0:17:42.50,Default,Baek Yoonho,0000,0000,0000,,Mi fa piacere vedere che state bene.
+Dialogue: 0,0:17:42.91,0:17:44.42,Default,Baek Yoonho,0000,0000,0000,,Dove sono gli altri hunter?
+Dialogue: 0,0:17:53.35,0:17:54.75,Default,Ahn Sangmin,0000,0000,0000,,Hunter Sung!
+Dialogue: 0,0:17:55.60,0:17:57.06,Italics,Ahn Sangmin,0000,0000,0000,,Proprio come avevo previsto!
+Dialogue: 0,0:18:02.03,0:18:04.23,Default,Baek Yoonho,0000,0000,0000,,Il gate... è scomparso?
+Dialogue: 0,0:18:04.92,0:18:06.31,Default,Baek Yoonho,0000,0000,0000,,Dove sono gli altri?
+Dialogue: 0,0:18:06.31,0:18:07.67,Default,Baek Yoonho,0000,0000,0000,,Dov'è l'hunter Kim?
+Dialogue: 0,0:18:08.13,0:18:09.19,Default,Park Heejin,0000,0000,0000,,Ecco...
+Dialogue: 0,0:18:10.38,0:18:13.15,Italics,Baek Yoonho,0000,0000,0000,,Sono tornati solo gli hunter di grado basso?
+Dialogue: 0,0:18:13.54,0:18:15.62,Italics,Baek Yoonho,0000,0000,0000,,Ma che diavolo sta succedendo?
+Dialogue: 0,0:18:15.62,0:18:17.99,Default,Sung Jinwoo,0000,0000,0000,,Torniamo a casa, ti do uno strappo.
+Dialogue: 0,0:18:17.99,0:18:19.40,Default,Han Song-Yi,0000,0000,0000,,V-Va bene.
+Dialogue: 0,0:18:19.75,0:18:21.01,Default,Baek Yoonho,0000,0000,0000,,Aspetta un attimo.
+Dialogue: 0,0:18:21.01,0:18:23.39,Default,Baek Yoonho,0000,0000,0000,,Ho alcune cose da chiederti.
+Dialogue: 0,0:18:24.31,0:18:26.34,Default,Sung Jinwoo,0000,0000,0000,,Non oggi, sono esausto.
+Dialogue: 0,0:18:26.34,0:18:28.80,Default,Sung Jinwoo,0000,0000,0000,,Se ha domande,\N le porga ai membri della sua gilda.
+Dialogue: 0,0:18:30.43,0:18:32.14,Italics,Baek Yoonho,0000,0000,0000,,La mia non era una richiesta.
+Dialogue: 0,0:18:32.14,0:18:33.04,Italics,Baek Yoonho,0000,0000,0000,,Era un ordine.
+Dialogue: 0,0:18:33.04,0:18:34.73,Italics,Baek Yoonho,0000,0000,0000,,Anzi, una minaccia.
+Dialogue: 0,0:18:35.23,0:18:39.81,Default,Baek Yoonho,0000,0000,0000,,Per colpa di questo raid \Nla mia gilda ha perso ben sei membri.
+Dialogue: 0,0:18:40.22,0:18:42.21,Default,Baek Yoonho,0000,0000,0000,,È una mia precisa responsabilità
+Dialogue: 0,0:18:42.21,0:18:44.49,Default,Baek Yoonho,0000,0000,0000,,chiederti cos'è successo.
+Dialogue: 0,0:18:45.92,0:18:47.72,Default,Sung Jinwoo,0000,0000,0000,,Sì, forse ha ragione.
+Dialogue: 0,0:18:48.00,0:18:50.86,Default,Sung Jinwoo,0000,0000,0000,,Ma i due superstiti li ho salvati io.
+Dialogue: 0,0:18:50.86,0:18:52.36,Default,Sung Jinwoo,0000,0000,0000,,Non dovrebbe prima ringraziarmi,
+Dialogue: 0,0:18:52.36,0:18:55.05,Default,Sung Jinwoo,0000,0000,0000,,se si sente così responsabile?
+Dialogue: 0,0:19:01.06,0:19:02.83,Default,Baek Yoonho,0000,0000,0000,,Chiedo scusa.
+Dialogue: 0,0:19:02.83,0:19:04.59,Default,Baek Yoonho,0000,0000,0000,,Ha decisamente ragione.
+Dialogue: 0,0:19:05.65,0:19:07.40,Default,Baek Yoonho,0000,0000,0000,,Le chiedo nuovamente scusa.
+Dialogue: 0,0:19:11.34,0:19:12.46,Default,Baek Yoonho,0000,0000,0000,,Hunter Park.
+Dialogue: 0,0:19:12.80,0:19:13.66,Default,Park Heejin,0000,0000,0000,,Sì?
+Dialogue: 0,0:19:13.66,0:19:15.66,Default,Baek Yoonho,0000,0000,0000,,Chi è quel ragazzo?
+Dialogue: 0,0:19:16.10,0:19:18.33,Default,Baek Yoonho,0000,0000,0000,,Non mi sembra affatto un tipo amichevole.
+Dialogue: 0,0:19:18.33,0:19:19.37,Default,Park Heejin,0000,0000,0000,,Ecco...
+Dialogue: 0,0:19:19.70,0:19:21.17,Default,Park Heejin,0000,0000,0000,,Dopo che ha sconfitto il boss,
+Dialogue: 0,0:19:21.17,0:19:23.60,Default,Park Heejin,0000,0000,0000,,ha cambiato umore all'improvviso.
+Dialogue: 0,0:19:23.95,0:19:27.36,Default,Ahn Sangmin,0000,0000,0000,,Credo che abbia solo raggiunto\N il limite della sua stanchezza.
+Dialogue: 0,0:19:27.37,0:19:29.42,Default,Ahn Sangmin,0000,0000,0000,,Non è una cattiva persona.
+Dialogue: 0,0:19:31.61,0:19:32.83,Default,Baek Yoonho,0000,0000,0000,,Direttore Ahn.
+Dialogue: 0,0:19:32.83,0:19:37.11,Default,Baek Yoonho,0000,0000,0000,,Deve fare di tutto\Nper farlo entrare nella nostra gilda.
+Dialogue: 0,0:19:37.47,0:19:38.28,Default,Ahn Sangmin,0000,0000,0000,,Sissignore!
+Dialogue: 0,0:19:40.39,0:19:43.64,Italics,Ahn Sangmin,0000,0000,0000,,Lo sapevo, ci avevo visto bene.
+Dialogue: 0,0:19:46.69,0:19:47.70,Default,Sung Jinwoo,0000,0000,0000,,Sei stata brava.
+Dialogue: 0,0:19:47.70,0:19:49.28,Default,Han Song-Yi,0000,0000,0000,,Occhi aperti sulla strada.
+Dialogue: 0,0:19:49.28,0:19:50.05,Default,Sung Jinwoo,0000,0000,0000,,Sì.
+Dialogue: 0,0:19:51.18,0:19:53.33,Default,Han Song-Yi,0000,0000,0000,,Ehm, Jinwoo...
+Dialogue: 0,0:19:54.14,0:19:55.13,Italics,Sung Jinwoo,0000,0000,0000,,Mi chiama per nome?
+Dialogue: 0,0:19:55.13,0:19:57.87,Default,Han Song-Yi,0000,0000,0000,,Grazie mille per oggi.
+Dialogue: 0,0:19:58.56,0:19:59.71,Default,Han Song-Yi,0000,0000,0000,,Domani...
+Dialogue: 0,0:19:59.71,0:20:00.91,Default,Han Song-Yi,0000,0000,0000,,Anzi, no.
+Dialogue: 0,0:20:00.91,0:20:03.09,Default,Han Song-Yi,0000,0000,0000,,Spero che in futuro\N lavoreremo di nuovo insieme.
+Dialogue: 0,0:20:09.84,0:20:11.07,Italics,Sung Jinwoo,0000,0000,0000,,Ora che ci penso,
+Dialogue: 0,0:20:11.07,0:20:14.09,Italics,Sung Jinwoo,0000,0000,0000,,qui non è ancora passato un giorno intero.
+Dialogue: 0,0:20:14.95,0:20:18.50,Italics,Sung Jinwoo,0000,0000,0000,,Alla fine sono riuscito\N a prendermi soltanto questa.
+Dialogue: 0,0:20:19.51,0:20:22.44,Italics,Sung Jinwoo,0000,0000,0000,,Forse era di livello troppo alto...
+Dialogue: 0,0:20:31.07,0:20:33.70,Italics,Sung Jinwoo,0000,0000,0000,,ma non sono riuscito a estrarlo\N neanche con tre tentativi.
+Dialogue: 0,0:20:31.65,0:20:32.76,Flashback top,Sung Jinwoo,0000,0000,0000,,Cazzo!
+Dialogue: 0,0:20:35.58,0:20:37.81,Default,Sung Jinwoo,0000,0000,0000,,Dopo tutta quella fatica...
+Dialogue: 0,0:20:38.24,0:20:39.26,Default,Sung Jinwoo,0000,0000,0000,,Però...
+Dialogue: 0,0:20:44.77,0:20:45.80,Default,Sung Jinwoo,0000,0000,0000,,questa...
+Dialogue: 0,0:20:47.10,0:20:48.64,Default,Sung Jinwoo,0000,0000,0000,,è la mia terza volta.
+Dialogue: 0,0:20:52.75,0:20:54.14,Default,Sung Jinah,0000,0000,0000,,Jinwoo?
+Dialogue: 0,0:20:54.14,0:20:56.16,Default,Sung Jinah,0000,0000,0000,,Guarda che mi mangio la tua cena!
+Dialogue: 0,0:20:56.16,0:20:57.79,Default,Sung Jinwoo,0000,0000,0000,,Ora arrivo!
+Dialogue: 0,0:20:59.96,0:21:01.74,Default,Yoo Jinho,0000,0000,0000,,Buongiorno!
+Dialogue: 0,0:21:02.90,0:21:04.90,Default,Sung Jinwoo,0000,0000,0000,,Sei venuto conciato in quel modo?
+Dialogue: 0,0:21:04.90,0:21:06.18,Default,Yoo Jinho,0000,0000,0000,,Già!
+Dialogue: 0,0:21:06.18,0:21:07.58,Default,Yoo Jinho,0000,0000,0000,,Dai, andiamo.
+Dialogue: 0,0:21:08.90,0:21:10.23,Default,Sung Jinwoo,0000,0000,0000,,Mah, vabbè.
+Dialogue: 0,0:21:10.23,0:21:12.63,Default,Sung Jinwoo,0000,0000,0000,,Per strada passo a prendere una persona.
+Dialogue: 0,0:21:15.37,0:21:17.46,Default,Han Song-Yi,0000,0000,0000,,Buongiorno, capitano.
+Dialogue: 0,0:21:17.46,0:21:20.05,Default,Yoo Jinho,0000,0000,0000,,Ah... certo, buongiorno.
+Dialogue: 0,0:21:20.05,0:21:21.84,Default,Han Song-Yi,0000,0000,0000,,Grazie per lo strappo,
+Dialogue: 0,0:21:21.84,0:21:22.94,Default,Han Song-Yi,0000,0000,0000,,Jinwoo.
+Dialogue: 0,0:21:23.85,0:21:24.85,Italics,Yoo Jinho,0000,0000,0000,,Lo chiama per nome?!
+Dialogue: 0,0:21:25.41,0:21:26.81,Default,Sung Jinwoo,0000,0000,0000,,Ieri poi sei riuscita a dormire?
+Dialogue: 0,0:21:26.81,0:21:29.09,Default,Han Song-Yi,0000,0000,0000,,No, non ho chiuso occhio.
+Dialogue: 0,0:21:29.09,0:21:31.69,Default,Sung Jinwoo,0000,0000,0000,,Beh, sei arrivata a casa\N che era praticamente l'alba.
+Dialogue: 0,0:21:31.69,0:21:33.48,Italics,Yoo Jinho,0000,0000,0000,,È rincasata di mattina?
+Dialogue: 0,0:21:32.70,0:21:33.99,Top,Han Song-Yi,0000,0000,0000,,In effetti sì.
+Dialogue: 0,0:21:33.48,0:21:34.85,Italics,Yoo Jinho,0000,0000,0000,,E non ha chiuso occhio?
+Dialogue: 0,0:21:33.99,0:21:35.62,Top,Han Song-Yi,0000,0000,0000,,Tu hai dormito, Jinwoo?
+Dialogue: 0,0:21:35.62,0:21:38.28,Italics,Yoo Jinho,0000,0000,0000,,Ma in che rapporto sono questi due?!
+Dialogue: 0,0:21:38.84,0:21:40.72,Top,Sung Jinwoo,0000,0000,0000,,Se vuoi dormi ora, ti sveglio io.
+Dialogue: 0,0:21:39.62,0:21:41.03,Default,Yoo Jinho,0000,0000,0000,,E-Ehm...
+Dialogue: 0,0:21:40.72,0:21:42.33,Top,Han Song-Yi,0000,0000,0000,,Grazie mille.
+Dialogue: 0,0:21:41.03,0:21:42.29,Default,Yoo Jinho,0000,0000,0000,,Capo?
+Dialogue: 0,0:21:43.19,0:21:44.57,Default,Yoo Jinho,0000,0000,0000,,Guarda che Han...
+Dialogue: 0,0:21:44.94,0:21:46.44,Default,Yoo Jinho,0000,0000,0000,,è minorenne.
+Dialogue: 0,0:21:47.67,0:21:48.58,Default,Sung Jinwoo,0000,0000,0000,,E quindi?
+Dialogue: 0,0:21:53.10,0:21:54.15,Default,Yoo Jinho,0000,0000,0000,,No...
+Dialogue: 0,0:21:54.51,0:21:55.91,Default,Yoo Jinho,0000,0000,0000,,Niente.
+Dialogue: 0,0:21:58.10,0:21:59.99,Default,Sung Jinwoo,0000,0000,0000,,Vediamo di finire in fretta oggi.
+Dialogue: 0,0:21:59.99,0:22:01.52,Default,Han Song-Yi,0000,0000,0000,,Certo, Jinwoo.
+Dialogue: 0,0:22:02.07,0:22:03.09,Default,Yoo Jinho,0000,0000,0000,,Sì...

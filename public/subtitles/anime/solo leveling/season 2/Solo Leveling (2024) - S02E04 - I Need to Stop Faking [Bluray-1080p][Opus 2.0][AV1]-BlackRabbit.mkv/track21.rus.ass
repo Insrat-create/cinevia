@@ -1,0 +1,399 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Solo-Main,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,0
+Style: Solo-Main-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,0
+Style: Solo-Italics,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,0
+Style: Solo-Italics-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,0
+Style: Solo-Flashback,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Flashback-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,1
+Style: Solo-Flashback-Italics,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Flashback-Italics-Top,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,1
+Style: Solo-Flashback-Inside,Trebuchet MS,22.0,&H00CCCCCC,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Flashback-Inside-Italics,Trebuchet MS,22.0,&H00CCCCCC,&H000000FF,&H00400000,&H00400000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Solo-Narration,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000050,&H00000050,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: Sign,Tahoma,22.0,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0005,0005,0015,0
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+Style: DefaultItalics,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,0
+Style: DefaultTop,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0040,0040,0015,0
+Style: Flashback,Trebuchet MS,22.0,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0040,0040,0015,1
+Style: creditos,Arial,10.0,&H1EFFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,0.0,0.0,8,0000,0400,0110,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:12.62,0:00:16.12,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Tenho dois dos três ingredientes\Nnecessários para o Elixir da Vida.
+Dialogue: 0,0:00:12.62,0:00:18.58,Sign,Sign,0000,0000,0000,,{\fs16\c&HFEFAF2&\3c&HAE8556&\blur2\pos(199,40)}Criar
+Dialogue: 0,0:00:12.62,0:00:18.58,Sign,Sign,0000,0000,0000,,{\b1\c&HFEFAF2&\3c&HAE8556&\fnArial\blur2\fs14\pos(354.39,39.67)}Item: {\fs16}Elixir da Vida
+Dialogue: 0,0:00:16.71,0:00:18.58,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Só resta mais um:
+Dialogue: 0,0:00:18.79,0:00:21.69,Solo-Italics,Sung Jinwoo,0000,0000,0000,,o sangue purificado\Ndo Monarca Demoníaco.
+Dialogue: 0,0:00:21.69,0:00:24.54,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Quando for buscá-lo, preciso\Nestar totalmente preparado.
+Dialogue: 0,0:00:25.19,0:00:28.76,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Subi muitos níveis em minha visita\Nao Castelo Demoníaco.
+Dialogue: 0,0:00:28.76,0:00:32.42,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Mas, oficialmente, ainda sou um Rank E.
+Dialogue: 0,0:00:32.42,0:00:34.48,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Meu nível pode até subir,
+Dialogue: 0,0:00:34.48,0:00:37.59,Solo-Italics,Sung Jinwoo,0000,0000,0000,,mas nesse rank não posso participar\Nde raids de melhor categoria.
+Dialogue: 0,0:00:39.98,0:00:42.65,Solo-Main,Sung Jinwoo,0000,0000,0000,,Preciso parar de fingir.
+Dialogue: 0,0:00:42.65,0:00:45.23,Solo-Main,Sung Jinwoo,0000,0000,0000,,Não dá pra esconder\Na verdade pra sempre.
+Dialogue: 0,0:00:46.49,0:00:49.04,Solo-Main,Sung Jinwoo,0000,0000,0000,,Vou reavaliar o meu rank de Caçador.
+Dialogue: 0,0:01:00.75,0:01:04.50,Sign,Sign,0000,0000,0000,,{\fad(64,68)\bord0\fs12\fsp7\b1\fscx180\c&H8C8C83&\1a&H32&\pos(324,241)}-{\fscx}ERGAM-SE DAS SOMBRAS{\fscx180}-
+Dialogue: 0,0:02:25.66,0:02:30.42,Solo-Main,Associate A,0000,0000,0000,,A fila para a avaliação de\Nrank de Caçador é por aqui.
+Dialogue: 0,0:02:30.42,0:02:34.38,Solo-Italics,Hyun Kichul,0000,0000,0000,,Vamos ver, que tipo de gente\Nconseguiremos recrutar hoje, hein?
+Dialogue: 0,0:02:34.80,0:02:39.13,Solo-Italics,Hyun Kichul,0000,0000,0000,,Aquele parece ser Rank C.\NO outro ali claramente é Rank E.
+Dialogue: 0,0:02:39.13,0:02:40.91,Solo-Italics,Hyun Kichul,0000,0000,0000,,O que mais...
+Dialogue: 0,0:02:44.31,0:02:45.85,Solo-Main,Baek Yoonho,0000,0000,0000,,Alô. Baek Yoonho falando.
+Dialogue: 0,0:02:45.85,0:02:47.91,Solo-Italics,Hyun Kichul,0000,0000,0000,,É o Hyun Kichul,\Nda 2ª Equipe de Administração!
+Dialogue: 0,0:02:47.91,0:02:49.14,Solo-Main,Baek Yoonho,0000,0000,0000,,Como posso te ajudar?
+Dialogue: 0,0:02:49.14,0:02:50.48,Solo-Italics,Hyun Kichul,0000,0000,0000,,Ele tá aqui!
+Dialogue: 0,0:02:50.48,0:02:52.28,Solo-Main,Baek Yoonho,0000,0000,0000,,Quê?! O que disse?!
+Dialogue: 0,0:02:52.28,0:02:54.29,Solo-Main,Hyun Kichul,0000,0000,0000,,Não há dúvidas!
+Dialogue: 0,0:02:54.29,0:02:57.60,Solo-Main,Hyun Kichul,0000,0000,0000,,O Caçador Sung está aqui\Npara reavaliar seu rank!
+Dialogue: 0,0:02:57.60,0:02:59.49,Solo-Main,Associate A,0000,0000,0000,,Por aqui, por favor.
+Dialogue: 0,0:02:59.49,0:03:00.24,Solo-Main,Sung Jinwoo,0000,0000,0000,,Certo.
+Dialogue: 0,0:03:00.24,0:03:02.24,Solo-Main,Baek Yoonho,0000,0000,0000,,Estou indo aí agora mesmo.
+Dialogue: 0,0:03:04.01,0:03:06.21,Solo-Main,Testee A,0000,0000,0000,,Não precisa ficar tão nervoso.
+Dialogue: 0,0:03:07.19,0:03:10.03,Solo-Main,Testee A,0000,0000,0000,,A avaliação é bem simples, na verdade.
+Dialogue: 0,0:03:10.67,0:03:14.76,Solo-Main,Testee B,0000,0000,0000,,Preciso descobrir meu rank de\NCaçador pra ganhar algum dinheiro.
+Dialogue: 0,0:03:14.76,0:03:17.60,Solo-Main,Testee B,0000,0000,0000,,Quem sabe aí minha ex-mulher\Ne minha filha voltam...
+Dialogue: 0,0:03:17.60,0:03:19.14,Solo-Main,Testee A,0000,0000,0000,,Olha ali.
+Dialogue: 0,0:03:19.75,0:03:25.35,Solo-Main,Testee A,0000,0000,0000,,Se for Rank D ou acima, os olheiros\Ndas guildas vêm falar com você.
+Dialogue: 0,0:03:25.72,0:03:29.56,Solo-Main,Testee A,0000,0000,0000,,Não se preocupe. Basta não ser Rank E\Nque consegue fazer dinheiro.
+Dialogue: 0,0:03:30.70,0:03:33.52,Solo-Italics,Sung Jinwoo,0000,0000,0000,,"Basta não ser Rank E", é?
+Dialogue: 0,0:03:34.28,0:03:35.72,Solo-Main,Associate A,0000,0000,0000,,Próximo!
+Dialogue: 0,0:03:35.72,0:03:36.65,Solo-Main,Sung Jinwoo,0000,0000,0000,,Sim.
+Dialogue: 0,0:03:38.74,0:03:40.80,Solo-Main,Associate A,0000,0000,0000,,Pode me confirmar o seu nome?
+Dialogue: 0,0:03:40.80,0:03:42.16,Solo-Main,Sung Jinwoo,0000,0000,0000,,Sung Jinwoo.
+Dialogue: 0,0:03:42.16,0:03:43.93,Solo-Main,Associate A,0000,0000,0000,,Uma reavaliação, então?
+Dialogue: 0,0:03:43.93,0:03:44.81,Solo-Main,Sung Jinwoo,0000,0000,0000,,Sim.
+Dialogue: 0,0:03:44.81,0:03:48.18,Solo-Main,Associate A,0000,0000,0000,,Bom, o processo é o mesmo de antes.
+Dialogue: 0,0:03:48.18,0:03:50.88,Solo-Main,Associate A,0000,0000,0000,,Por favor, pressione uma mão\Ncontra o cristal negro e aguarde.
+Dialogue: 0,0:03:58.10,0:03:58.96,Solo-Main,Associate A,0000,0000,0000,,Ué?
+Dialogue: 0,0:03:59.41,0:04:00.44,Solo-Main,Associate A,0000,0000,0000,,Deu erro?
+Dialogue: 0,0:04:01.08,0:04:02.65,Solo-Main,Associate A,0000,0000,0000,,Perdão, pode fazer de novo?
+Dialogue: 0,0:04:02.65,0:04:03.65,Solo-Main,Sung Jinwoo,0000,0000,0000,,Claro.
+Dialogue: 0,0:04:05.30,0:04:07.01,Solo-Main,Associate A,0000,0000,0000,,Que estranho...
+Dialogue: 0,0:04:08.39,0:04:10.50,Solo-Main,Jung Kisoo,0000,0000,0000,,Ei, o que houve?
+Dialogue: 0,0:04:10.50,0:04:11.53,Solo-Main,Associate A,0000,0000,0000,,Chefe!
+Dialogue: 0,0:04:12.79,0:04:16.52,Solo-Main,Associate A,0000,0000,0000,,Tem algo estranho. Tentei várias vezes,\Nmas não consigo avaliá-lo.
+Dialogue: 0,0:04:16.52,0:04:19.24,Solo-Main,Jung Kisoo,0000,0000,0000,,Não é pra acontecer isso.\NDeixa eu ver.
+Dialogue: 0,0:04:20.66,0:04:22.76,Solo-Main,Associate A,0000,0000,0000,,Viu o que aparece?
+Dialogue: 0,0:04:24.20,0:04:25.41,Solo-Main,Associate A,0000,0000,0000,,Chefe?
+Dialogue: 0,0:04:25.41,0:04:27.75,Solo-Main,Jung Kisoo,0000,0000,0000,,A máquina não está com\Nnenhum problema...
+Dialogue: 0,0:04:28.16,0:04:30.25,Solo-Main,Jung Kisoo,0000,0000,0000,,Ela está dizendo que\N{\i1}não consegue{\i0} avaliá-lo.
+Dialogue: 0,0:04:30.25,0:04:32.20,Solo-Main,Associate A,0000,0000,0000,,Hã? O que quer dizer?
+Dialogue: 0,0:04:32.20,0:04:36.81,Solo-Main,Jung Kisoo,0000,0000,0000,,Que o poder mágico dele está além\Ndo que essa máquina consegue medir!
+Dialogue: 0,0:04:36.81,0:04:39.24,Solo-Main,Associate A,0000,0000,0000,,Hein?! Mas então...
+Dialogue: 0,0:04:39.24,0:04:42.18,Solo-Main,Jung Kisoo,0000,0000,0000,,Isso mesmo. Ele é a\Ndécima pessoa no país...
+Dialogue: 0,0:04:42.94,0:04:44.38,Solo-Main,Jung Kisoo,0000,0000,0000,,no Rank S.
+Dialogue: 0,0:04:46.59,0:04:49.29,Solo-Main,Choi Jong-in,0000,0000,0000,,Alguma novidade sobre as\Nformigas voadoras de antes?
+Dialogue: 0,0:04:49.74,0:04:52.39,Solo-Main,Woo Jinchul,0000,0000,0000,,O Departamento de Inteligência\Ncomeçou a necropsia.
+Dialogue: 0,0:04:52.39,0:04:54.31,Solo-Main,Woo Jinchul,0000,0000,0000,,Para entender o que está acontecendo,
+Dialogue: 0,0:04:54.31,0:04:58.11,Solo-Main,Woo Jinchul,0000,0000,0000,,vão comparar sua biologia e nível de\Npoder mágico com amostras anteriores.
+Dialogue: 0,0:04:58.53,0:05:02.00,Solo-Main,Woo Jinchul,0000,0000,0000,,O problema é que o resultado\Ndemorará um pouco mais.
+Dialogue: 0,0:05:02.00,0:05:03.32,Solo-Main,Choi Jong-in,0000,0000,0000,,Entendo.
+Dialogue: 0,0:05:03.32,0:05:06.27,Solo-Main,Choi Jong-in,0000,0000,0000,,Muita coisa tem acontecido\Nultimamente...
+Dialogue: 0,0:05:06.27,0:05:08.70,Solo-Main,Choi Jong-in,0000,0000,0000,,O portal vermelho, por exemplo.
+Dialogue: 0,0:05:09.79,0:05:13.09,Solo-Main,Choi Jong-in,0000,0000,0000,,Parece que a Guilda Tigre Branco\Nlevou alguém de fora na raid,
+Dialogue: 0,0:05:13.09,0:05:15.85,Solo-Main,Choi Jong-in,0000,0000,0000,,e foi essa pessoa que derrotou\No chefe da dungeon.
+Dialogue: 0,0:05:15.85,0:05:17.24,Solo-Main,Choi Jong-in,0000,0000,0000,,Quem é?
+Dialogue: 0,0:05:18.40,0:05:22.96,Solo-Main,Woo Jinchul,0000,0000,0000,,Naquele dia eu estava lá durante a\Ninvestigação, mas não o tempo todo.
+Dialogue: 0,0:05:23.72,0:05:25.28,Solo-Main,Woo Jinchul,0000,0000,0000,,Não tenho os detalhes.
+Dialogue: 0,0:05:25.28,0:05:26.96,Solo-Main,Choi Jong-in,0000,0000,0000,,Mas que pena.
+Dialogue: 0,0:05:27.52,0:05:30.85,Solo-Main,Choi Jong-in,0000,0000,0000,,Ora, parece que há um\Npequeno tumulto na entrada.
+Dialogue: 0,0:05:31.41,0:05:35.19,Solo-Main,Woo Jinchul,0000,0000,0000,,Provavelmente um despertado fazendo\Nbagunça por causa de sua avaliação.
+Dialogue: 0,0:05:35.19,0:05:36.45,Solo-Main,Woo Jinchul,0000,0000,0000,,Vou conferir.
+Dialogue: 0,0:05:38.15,0:05:39.63,Solo-Main,Choi Jong-in,0000,0000,0000,,Eu vou com você.
+Dialogue: 0,0:05:40.47,0:05:43.07,Solo-Main,Choi Jong-in,0000,0000,0000,,Quero saber o motivo do alvoroço.
+Dialogue: 0,0:05:46.36,0:05:48.35,Solo-Main,Scout A,0000,0000,0000,,Ele não conseguiu ser avaliado?!
+Dialogue: 0,0:05:48.35,0:05:51.46,Solo-Main,Scout B,0000,0000,0000,,É sério?! Achei que isso\Nnunca tivesse acontecido!
+Dialogue: 0,0:05:51.46,0:05:52.83,Solo-Main,Scout C,0000,0000,0000,,Nunca vi algo assim...
+Dialogue: 0,0:05:51.46,0:05:56.11,Solo-Main-Top,Jung Kisoo,0000,0000,0000,,Desculpe, Caçador Sung, o equipamento\Nconvencional não é capaz de avaliá-lo.
+Dialogue: 0,0:05:52.83,0:05:56.11,Solo-Main,Scout D,0000,0000,0000,,É claro! Só houve nove\NCaçadores assim antes!
+Dialogue: 0,0:05:56.11,0:05:59.76,Solo-Main-Top,Jung Kisoo,0000,0000,0000,,Poderia voltar daqui a três dias?
+Dialogue: 0,0:05:56.11,0:05:59.80,Solo-Main,Scout E,0000,0000,0000,,Então aquele cara é o\Ndécimo Rank S do país?!
+Dialogue: 0,0:05:59.76,0:06:01.15,Solo-Main-Top,Sung Jinwoo,0000,0000,0000,,Sem problemas.
+Dialogue: 0,0:06:01.56,0:06:05.72,Solo-Italics,Hyun Kichul,0000,0000,0000,,É como o Gerente Ahn disse!\NEu preciso ser o primeiro a falar com ele!
+Dialogue: 0,0:06:06.05,0:06:08.93,Solo-Main,Jung Kisoo,0000,0000,0000,,Quando finalizarmos,\Nsua licença será atualizada.
+Dialogue: 0,0:06:09.61,0:06:11.01,Solo-Main,Jung Kisoo,0000,0000,0000,,Algum problema?
+Dialogue: 0,0:06:11.83,0:06:13.72,Solo-Main,Scout E,0000,0000,0000,,Ei, olha lá!
+Dialogue: 0,0:06:16.60,0:06:20.09,Solo-Main,Hyun Kichul,0000,0000,0000,,O chefe da Guilda dos Caçadores,\No Choi Jong-in?!
+Dialogue: 0,0:06:20.93,0:06:24.99,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Aquele é o maior especialista\Nem magia de fogo,
+Dialogue: 0,0:06:24.99,0:06:27.46,Solo-Italics,Sung Jinwoo,0000,0000,0000,,o Caçador conhecido como\N"a arma mais poderosa".
+Dialogue: 0,0:06:27.94,0:06:30.16,Solo-Italics,Sung Jinwoo,0000,0000,0000,,O total oposto do meu antigo apelido.
+Dialogue: 0,0:06:30.68,0:06:34.82,Solo-Main,Choi Jong-in,0000,0000,0000,,Entendi. Isso explica\Ntoda essa agitação.
+Dialogue: 0,0:06:35.50,0:06:36.95,Solo-Main,Choi Jong-in,0000,0000,0000,,É um prazer conhecê-lo.
+Dialogue: 0,0:06:36.95,0:06:41.12,Solo-Main,Choi Jong-in,0000,0000,0000,,Eu represento a Guilda dos Caçadores.\NMeu nome é Choi Jong-in.
+Dialogue: 0,0:06:41.12,0:06:43.51,Solo-Main,Choi Jong-in,0000,0000,0000,,Você já decidiu em qual guilda entrará?
+Dialogue: 0,0:06:43.72,0:06:46.12,Solo-Main,Choi Jong-in,0000,0000,0000,,Se não estiver ocupado,\Ngostaria de conversar com—
+Dialogue: 0,0:06:46.12,0:06:47.64,Solo-Main,Sung Jinwoo,0000,0000,0000,,Desculpe, estou ocupado.
+Dialogue: 0,0:06:50.60,0:06:51.99,Solo-Main,Scout G,0000,0000,0000,,Não acredito!
+Dialogue: 0,0:06:51.99,0:06:54.26,Solo-Main,Scout H,0000,0000,0000,,Ele esnobou o Mestre de Guilda Choi!
+Dialogue: 0,0:06:54.85,0:07:00.23,Solo-Main,Choi Jong-in,0000,0000,0000,,Diretor Woo, eu mencionei que sou\NChoi Jong-in da Guilda dos Caçadores, né?
+Dialogue: 0,0:07:00.23,0:07:01.94,Solo-Main,Woo Jinchul,0000,0000,0000,,Sim, tenho certeza.
+Dialogue: 0,0:07:03.07,0:07:06.37,Solo-Main,Choi Jong-in,0000,0000,0000,,Talvez eu tenha ficado\Nconvencido demais.
+Dialogue: 0,0:07:07.01,0:07:10.62,Solo-Italics,Woo Jinchul,0000,0000,0000,,Caçador Sung...\NEntão é mesmo verdade.
+Dialogue: 0,0:07:11.33,0:07:14.10,Solo-Main,Choi Jong-in,0000,0000,0000,,E ele desapareceu sem deixar traços.
+Dialogue: 0,0:07:14.10,0:07:15.53,Solo-Main,Woo Jinchul,0000,0000,0000,,Talvez seja um Assassino.
+Dialogue: 0,0:07:18.61,0:07:20.08,Solo-Main,Choi Jong-in,0000,0000,0000,,Presidente Baek?
+Dialogue: 0,0:07:20.08,0:07:21.50,Solo-Main,Hyun Kichul,0000,0000,0000,,Presidente!
+Dialogue: 0,0:07:22.33,0:07:24.64,Solo-Italics,Choi Jong-in,0000,0000,0000,,Então era isso.
+Dialogue: 0,0:07:24.64,0:07:27.85,Solo-Italics,Choi Jong-in,0000,0000,0000,,O escritório da Tigre Branco\Nnão é longe daqui,
+Dialogue: 0,0:07:25.24,0:07:26.34,Solo-Main-Top,Baek Yoonho,0000,0000,0000,,Cadê ele?!
+Dialogue: 0,0:07:26.34,0:07:30.43,Solo-Main-Top,Hyun Kichul,0000,0000,0000,,Ele foi embora assim que\Nsaiu da sala de avaliação!
+Dialogue: 0,0:07:27.85,0:07:30.43,Solo-Italics,Choi Jong-in,0000,0000,0000,,mas ele veio correndo tanto\Nque ficou sem fôlego.
+Dialogue: 0,0:07:30.43,0:07:32.60,Solo-Main-Top,Hyun Kichul,0000,0000,0000,,Eu tentei falar com ele, mas...
+Dialogue: 0,0:07:31.07,0:07:34.72,Solo-Italics,Choi Jong-in,0000,0000,0000,,Esse era o tamanho da\Nsua vontade de falar com ele.
+Dialogue: 0,0:07:35.28,0:07:39.69,Solo-Italics,Choi Jong-in,0000,0000,0000,,Bingo. Ele deve ser a pessoa de fora da\Nguilda que fechou o portal vermelho.
+Dialogue: 0,0:07:41.93,0:07:43.12,Solo-Italics,Baek Yoonho,0000,0000,0000,,Jong-in.
+Dialogue: 0,0:07:51.75,0:07:54.80,Solo-Italics,Baek Yoonho,0000,0000,0000,,Não tinha ninguém pior\Npra ficar sabendo disso...
+Dialogue: 0,0:08:03.08,0:08:06.13,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Sinto como se ela fosse acordar\Na qualquer momento.
+Dialogue: 0,0:08:14.17,0:08:17.02,Solo-Main,Sung Jinwoo,0000,0000,0000,,Espere mais um pouco, mãe.
+Dialogue: 0,0:08:19.15,0:08:23.11,Solo-Main,Woo Jinchul,0000,0000,0000,,Eu achava que meus olhos\Neram melhores para essas coisas.
+Dialogue: 0,0:08:23.11,0:08:26.36,Solo-Main,Woo Jinchul,0000,0000,0000,,O trabalho da Equipe de Vigilância\Né observar os Caçadores
+Dialogue: 0,0:08:26.36,0:08:28.98,Solo-Main,Woo Jinchul,0000,0000,0000,,e punir quem infrinja a lei.
+Dialogue: 0,0:08:29.68,0:08:33.13,Solo-Main,Woo Jinchul,0000,0000,0000,,Geralmente eu confio no\Nmeu julgamento, mas...
+Dialogue: 0,0:08:33.13,0:08:35.43,Solo-Main,Sung Jinwoo,0000,0000,0000,,Eu preciso ser vigiado?
+Dialogue: 0,0:08:35.43,0:08:37.37,Solo-Main,Woo Jinchul,0000,0000,0000,,Não como um criminoso.
+Dialogue: 0,0:08:38.01,0:08:39.00,Solo-Main,Woo Jinchul,0000,0000,0000,,A Vigilância
+Dialogue: 0,0:08:39.00,0:08:42.25,Solo-Main,Woo Jinchul,0000,0000,0000,,é o único grupo capaz de lidar com\Nincidentes que envolvam Caçadores.
+Dialogue: 0,0:08:42.54,0:08:46.53,Solo-Main,Woo Jinchul,0000,0000,0000,,No entanto, quando se trata de Rank S,\Naté nós somos impotentes.
+Dialogue: 0,0:08:47.59,0:08:50.49,Solo-Main,Woo Jinchul,0000,0000,0000,,Caçador Sung, alguém quer conhecê-lo.
+Dialogue: 0,0:08:59.52,0:09:01.06,Solo-Main,Go Gunhee,0000,0000,0000,,Muito prazer.
+Dialogue: 0,0:09:01.06,0:09:05.01,Solo-Main,Go Gunhee,0000,0000,0000,,Eu sou o presidente da Associação de\NCaçadores. Meu nome é Go Gunhee.
+Dialogue: 0,0:09:06.75,0:09:10.28,Solo-Main,Go Gunhee,0000,0000,0000,,Primeiramente, parabéns por\Nser avaliado como Rank S.
+Dialogue: 0,0:09:11.56,0:09:14.74,Solo-Main,Go Gunhee,0000,0000,0000,,A essa altura, a reavaliação\Né só uma formalidade.
+Dialogue: 0,0:09:15.13,0:09:19.75,Solo-Main,Go Gunhee,0000,0000,0000,,Assim que se confirma que está fora dos\Npadrões, você é Rank S por definição.
+Dialogue: 0,0:09:19.75,0:09:21.33,Solo-Main,Sung Jinwoo,0000,0000,0000,,Então, por quê?
+Dialogue: 0,0:09:21.33,0:09:25.33,Solo-Main,Go Gunhee,0000,0000,0000,,Por que reavaliar em três dias, você diz?
+Dialogue: 0,0:09:25.85,0:09:28.05,Solo-Main,Go Gunhee,0000,0000,0000,,Digamos que é um período de carência.
+Dialogue: 0,0:09:28.47,0:09:33.26,Solo-Main,Go Gunhee,0000,0000,0000,,Isso nos permite fazer contato\Ncom pessoas como você.
+Dialogue: 0,0:09:33.60,0:09:38.62,Solo-Main,Go Gunhee,0000,0000,0000,,Apesar do nosso alcance, a Associação\Ntem poucos Caçadores qualificados.
+Dialogue: 0,0:09:38.62,0:09:43.48,Solo-Main,Go Gunhee,0000,0000,0000,,Em termos de pagamento ou fama, não temos\Ncomo competir com as grandes guildas.
+Dialogue: 0,0:09:43.93,0:09:47.27,Solo-Main,Go Gunhee,0000,0000,0000,,O Diretor Woo aqui é um dos\Nnossos Caçadores de melhor nível,
+Dialogue: 0,0:09:47.27,0:09:49.96,Solo-Main,Go Gunhee,0000,0000,0000,,e mesmo assim ele é apenas de Rank A.
+Dialogue: 0,0:09:50.55,0:09:52.73,Solo-Main,Go Gunhee,0000,0000,0000,,Irei direto ao ponto.
+Dialogue: 0,0:09:53.85,0:09:57.49,Solo-Main,Go Gunhee,0000,0000,0000,,Seria extraordinário se\Nvocê se juntasse a nós.
+Dialogue: 0,0:09:58.53,0:10:02.42,Solo-Main,Go Gunhee,0000,0000,0000,,Eu posso conseguir para você uma\Nposição de destaque na Associação.
+Dialogue: 0,0:10:02.85,0:10:04.22,Solo-Main,Sung Jinwoo,0000,0000,0000,,Por que tudo isso?
+Dialogue: 0,0:10:04.67,0:10:08.48,Solo-Main,Go Gunhee,0000,0000,0000,,Hoje em dia, os maiores defensores\Nda nação não são o governo,
+Dialogue: 0,0:10:08.48,0:10:11.80,Solo-Main,Go Gunhee,0000,0000,0000,,mas os Caçadores, que protegem\No povo dos monstros mágicos.
+Dialogue: 0,0:10:11.80,0:10:16.18,Solo-Main,Go Gunhee,0000,0000,0000,,O núcleo disso é formado\Npelas cinco maiores guildas.
+Dialogue: 0,0:10:16.97,0:10:21.99,Solo-Main,Go Gunhee,0000,0000,0000,,São como cinco grandes dinossauros\Nque se mantêm num delicado impasse.
+Dialogue: 0,0:10:21.99,0:10:26.73,Solo-Main,Go Gunhee,0000,0000,0000,,Se você se juntar a qualquer um deles,\Nesse equilíbrio entrará em colapso.
+Dialogue: 0,0:10:27.92,0:10:32.40,Solo-Main,Go Gunhee,0000,0000,0000,,A Associação dos Caçadores é a sexta\Npotência e quem as mantém em xeque,
+Dialogue: 0,0:10:32.40,0:10:34.73,Solo-Main,Go Gunhee,0000,0000,0000,,o que é crucial para este país.
+Dialogue: 0,0:10:35.32,0:10:37.28,Solo-Main,Sung Jinwoo,0000,0000,0000,,E por isso você me quer?
+Dialogue: 0,0:10:37.28,0:10:40.24,Solo-Main,Go Gunhee,0000,0000,0000,,Você sem dúvida tem poder para isso.
+Dialogue: 0,0:10:40.76,0:10:43.70,Solo-Italics,Go Gunhee,0000,0000,0000,,E talvez, algum dia...
+Dialogue: 0,0:10:44.83,0:10:46.57,Solo-Main,Go Gunhee,0000,0000,0000,,O que me diz?
+Dialogue: 0,0:10:47.29,0:10:49.24,Solo-Italics,Sung Jinwoo,0000,0000,0000,,É uma ótima proposta.
+Dialogue: 0,0:10:49.61,0:10:54.05,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Um emprego na Associação é,\Nsobretudo, uma carreira garantida.
+Dialogue: 0,0:10:55.00,0:10:58.04,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Além disso, em termos de influência\Njunto ao governo e à imprensa,
+Dialogue: 0,0:10:58.04,0:11:01.30,Solo-Italics,Sung Jinwoo,0000,0000,0000,,duvido que haja alguém\Nacima do Presidente Go.
+Dialogue: 0,0:11:02.53,0:11:07.61,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Sem falar que é um Caçador incrível.\NO primeiro Rank S a despertar no país.
+Dialogue: 0,0:11:07.97,0:11:09.83,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Seu poder mágico é avassalador
+Dialogue: 0,0:11:09.83,0:11:12.46,Solo-Italics,Sung Jinwoo,0000,0000,0000,,e pelo físico ninguém acreditaria\Nque tem mais de 80 anos.
+Dialogue: 0,0:11:13.09,0:11:14.86,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Embora esteja aposentado,
+Dialogue: 0,0:11:14.86,0:11:18.53,Solo-Italics,Sung Jinwoo,0000,0000,0000,,está no mesmo patamar que eu,\Nmesmo com meu esforço para subir de nível.
+Dialogue: 0,0:11:19.92,0:11:24.76,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Ou seja, se eu aceitar essa oferta,\Na minha vida mudará.
+Dialogue: 0,0:11:25.54,0:11:27.12,Solo-Main,Go Gunhee,0000,0000,0000,,Caçador Sung?
+Dialogue: 0,0:11:30.00,0:11:32.82,Solo-Main,Sung Jinwoo,0000,0000,0000,,Sinto muito, mas vou recusar.
+Dialogue: 0,0:11:35.03,0:11:37.42,Solo-Italics,Go Gunhee,0000,0000,0000,,Só quer saber de dinheiro, é?
+Dialogue: 0,0:11:38.32,0:11:40.26,Solo-Main,Sung Jinwoo,0000,0000,0000,,Eu quero lutar.
+Dialogue: 0,0:11:41.53,0:11:45.84,Solo-Main,Go Gunhee,0000,0000,0000,,Você diz... que quer\Nenfrentar monstros mágicos?
+Dialogue: 0,0:11:45.84,0:11:50.06,Solo-Main,Sung Jinwoo,0000,0000,0000,,Sim. Meu lugar é nas dungeons.
+Dialogue: 0,0:11:51.63,0:11:55.76,Solo-Italics,Go Gunhee,0000,0000,0000,,É incrível... Vejo em seus olhos\Nque não está mentindo.
+Dialogue: 0,0:11:56.72,0:12:00.44,Solo-Italics,Go Gunhee,0000,0000,0000,,Há quantos anos não sinto\Nessa sensação?
+Dialogue: 0,0:12:01.09,0:12:04.91,Solo-Italics,Go Gunhee,0000,0000,0000,,Me impressiona que meu coração\Nainda consiga fazer esse barulho.
+Dialogue: 0,0:12:04.91,0:12:07.62,Solo-Italics,Go Gunhee,0000,0000,0000,,Se eu fosse vinte— não,\Ndez anos mais novo,
+Dialogue: 0,0:12:07.62,0:12:10.62,Solo-Italics,Go Gunhee,0000,0000,0000,,poderia ficar lado a lado\Ncom alguém como ele.
+Dialogue: 0,0:12:13.67,0:12:17.06,Solo-Main,Go Gunhee,0000,0000,0000,,Entendi. Não insistirei.
+Dialogue: 0,0:12:17.06,0:12:21.86,Solo-Main,Sung Jinwoo,0000,0000,0000,,Se me dá licença, minha irmã está\Nsozinha em casa, então preciso ir.
+Dialogue: 0,0:12:22.73,0:12:26.27,Solo-Main,Go Gunhee,0000,0000,0000,,Obrigado por me conceder esse tempo.
+Dialogue: 0,0:12:29.33,0:12:33.40,Solo-Main,Go Gunhee,0000,0000,0000,,Lembro-me de como fiquei desanimado\Nquando percebi estar na idade em que
+Dialogue: 0,0:12:33.40,0:12:36.02,Solo-Main,Go Gunhee,0000,0000,0000,,nem mesmo um Healer de Rank S\Nconseguia compensar meu declínio.
+Dialogue: 0,0:12:38.07,0:12:41.29,Solo-Main,Go Gunhee,0000,0000,0000,,Cancele toda a minha agenda de hoje.
+Dialogue: 0,0:12:41.29,0:12:44.04,Solo-Main,Go Gunhee,0000,0000,0000,,Não quero que nada\Nperturbe esta sensação.
+Dialogue: 0,0:12:44.83,0:12:48.32,Solo-Main,Go Gunhee,0000,0000,0000,,Diretor Woo, me acompanharia\Nem uma bebida?
+Dialogue: 0,0:12:48.32,0:12:51.92,Solo-Main,Woo Jinchul,0000,0000,0000,,Eu não bebo, mas o acompanharei,\Nse o senhor não se importar.
+Dialogue: 0,0:12:51.92,0:12:53.13,Solo-Main,Go Gunhee,0000,0000,0000,,Sem problemas.
+Dialogue: 0,0:12:54.63,0:12:57.16,Solo-Italics,Go Gunhee,0000,0000,0000,,Será que ele gosta de beber?
+Dialogue: 0,0:12:58.88,0:13:02.92,Solo-Italics,Sung Jinwoo,0000,0000,0000,,A Associação lida principalmente\Ncom dungeons de Rank D e E.
+Dialogue: 0,0:13:02.92,0:13:07.73,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Preciso subir o mais rápido possível\Npara poder curar minha mãe.
+Dialogue: 0,0:13:08.52,0:13:11.05,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Não tenho tempo a perder.
+Dialogue: 0,0:13:11.47,0:13:13.98,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Porque eu posso continuar crescendo!
+Dialogue: 0,0:13:34.75,0:13:38.80,Solo-Main,Hwang Dongsoo,0000,0000,0000,,Veio jogar sal nas minhas\Nferidas, subchefe?
+Dialogue: 0,0:13:38.80,0:13:41.72,Solo-Main,Deputy Chief,0000,0000,0000,,Eu só quero fazer algumas\Nperguntas pessoalmente.
+Dialogue: 0,0:13:42.37,0:13:47.43,Solo-Main,Deputy Chief,0000,0000,0000,,Aquele Il-hwan Sung é mesmo\Num monstro mágico?
+Dialogue: 0,0:13:49.99,0:13:52.43,Solo-Main,Hwang Dongsoo,0000,0000,0000,,Aquilo parecia humano pra você?
+Dialogue: 0,0:13:54.40,0:13:56.86,Solo-Main,Hwang Dongsoo,0000,0000,0000,,Pois eu não tenho dúvida\Nde que era um monstro.
+Dialogue: 0,0:13:58.73,0:14:01.83,Solo-Main,Deputy Chief,0000,0000,0000,,Entendo. Concentre-se\Nna sua recuperação.
+Dialogue: 0,0:14:01.83,0:14:05.07,Solo-Main,Deputy Chief,0000,0000,0000,,Quando tiver alta,\Npasse no centro de comando.
+Dialogue: 0,0:14:06.23,0:14:07.41,Solo-Main,Hwang Dongsoo,0000,0000,0000,,Onde ele está?!
+Dialogue: 0,0:14:07.41,0:14:09.49,Solo-Main,Deputy Chief,0000,0000,0000,,O centro de comando está atrás dele.
+Dialogue: 0,0:14:09.49,0:14:14.49,Solo-Main,Deputy Chief,0000,0000,0000,,Mas não acho que conseguirão pegar\Nalguém que foi capaz de te derrotar.
+Dialogue: 0,0:14:19.10,0:14:20.21,Solo-Main,Hwang Dongsoo,0000,0000,0000,,Merda!
+Dialogue: 0,0:14:21.07,0:14:25.87,Solo-Flashback,Sung Il-hwan,0000,0000,0000,,É bom ficar bem longe da minha família.\NPro seu próprio bem.
+Dialogue: 0,0:14:26.53,0:14:29.76,Solo-Flashback,Sung Il-hwan,0000,0000,0000,,Senão, nem a morte te salvará de mim.
+Dialogue: 0,0:14:30.30,0:14:32.82,Solo-Italics,Hwang Dongsoo,0000,0000,0000,,Que derrota humilhante!
+Dialogue: 0,0:14:32.82,0:14:37.23,Solo-Italics,Hwang Dongsoo,0000,0000,0000,,"Nem a morte vai me salvar"?\NÉ assim que ele ameaça os outros?
+Dialogue: 0,0:14:37.87,0:14:42.19,Solo-Italics,Hwang Dongsoo,0000,0000,0000,,Eu sei pra onde ele está indo.\NSó preciso de equipamento.
+Dialogue: 0,0:14:42.19,0:14:45.91,Solo-Italics,Hwang Dongsoo,0000,0000,0000,,Um artefato que me permita\Nacabar com aquele desgraçado!
+Dialogue: 0,0:14:47.29,0:14:51.73,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Artefato: o termo geralmente se refere\Na relíquias criadas pelo homem.
+Dialogue: 0,0:14:51.73,0:14:53.16,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Mas no mundo dos Caçadores,
+Dialogue: 0,0:14:53.16,0:14:57.67,Solo-Italics,Sung Jinwoo,0000,0000,0000,,artefatos são equipamentos de alto nível\Nque nenhum artesão conseguiria produzir.
+Dialogue: 0,0:14:58.22,0:15:00.33,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Com o aumento no número de Caçadores,
+Dialogue: 0,0:15:00.33,0:15:03.18,Solo-Italics,Sung Jinwoo,0000,0000,0000,,é possível encontrá-los aos montes\Nem leilões online, mas...
+Dialogue: 0,0:15:04.13,0:15:06.79,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Por que eles são tão caros?
+Dialogue: 0,0:15:07.97,0:15:11.90,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Quero meu equipamento perfeito\Nantes de voltar ao Castelo Demoníaco.
+Dialogue: 0,0:15:11.90,0:15:15.10,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Nada na loja parecia bom o bastante.
+Dialogue: 0,0:15:15.10,0:15:19.52,Sign,Sign,0000,0000,0000,,{\fad(1,437)\an7\bord1.5\p1)\c&H2A0F1C&\3a&H00&\1a&H8B&\3c&HCDABBD&\pos(21.33,19.26)}m 0 0 l 360 0 360 200 0 200
+Dialogue: 1,0:15:15.10,0:15:19.52,Sign,Sign,0000,0000,0000,,{\fad(1,437)\b1\c&HFFFFFF&\3c&HAE8946&\fnArial\blur5\fs15\pos(198.74,30.03)}Item: {\fs18}Orbe da Avareza
+Dialogue: 1,0:15:15.10,0:15:19.52,Sign,Sign,0000,0000,0000,,{\fad(1,437)\an7\c&HFFFFFF&\3c&HB08845&\blur2\b0\fs14\pos(47.59,58.98)}Dificuldade de aquisição:\N{\b1}Rank A
+Dialogue: 1,0:15:15.10,0:15:19.52,Sign,Sign,0000,0000,0000,,{\fad(1,437)\an7\c&HFFFFFF&\3c&HB08845&\blur2\b0\fs14\pos(240,58.98)}Categoria:\N{\b1}Ferramenta Mágica
+Dialogue: 1,0:15:15.10,0:15:19.52,Sign,Sign,0000,0000,0000,,{\fad(1,437)\an7\c&HFFFFFF&\3c&HB08845&\blur2\b0\fs14\pos(33.73,119.98)}-{\b1}Apetite pela Destruição{\b0}: Dobra o dano causado por magia.
+Dialogue: 1,0:15:15.10,0:15:19.52,Sign,Sign,0000,0000,0000,,{\fad(1,437)\an7\c&HFFFFFF&\3c&H8B6437&\blur2\b0\fs10\pos(66.73,156.98)}Orbe feito do sangue solidificado do arquidemônio Vulcano.\NAumenta significativamente os efeitos mágicos e causa mais dano.
+Dialogue: 1,0:15:15.10,0:15:19.52,Sign,Sign,0000,0000,0000,,{\fad(1,437)\an9\c&HFFFFFF&\3c&H8B6437&\blur2\b0\fs10\pos(360.16,195.69)}[v] Pode ser transferido para outros.
+Dialogue: 0,0:15:16.05,0:15:19.78,Solo-Italics,Sung Jinwoo,0000,0000,0000,,O Orbe da Avareza pode ser transferido.\NTalvez eu consiga vendê-lo.
+Dialogue: 0,0:15:20.30,0:15:25.53,Solo-Italics,Sung Jinwoo,0000,0000,0000,,A maioria dos equipamentos em leilão\Nmelhora em 20 ou 30% um parâmetro,
+Dialogue: 0,0:15:25.53,0:15:28.85,Solo-Italics,Sung Jinwoo,0000,0000,0000,,mas esse orbe pode\Ndobrar o dano mágico.
+Dialogue: 0,0:15:28.85,0:15:30.99,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Vai conseguir um preço alto.
+Dialogue: 0,0:15:31.69,0:15:35.38,Solo-Italics,Sung Jinwoo,0000,0000,0000,,O que fará perguntarem como\Num Rank E pode ter algo assim...
+Dialogue: 0,0:15:35.74,0:15:38.12,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Tentarão descobrir de onde veio.
+Dialogue: 0,0:15:38.81,0:15:42.29,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Um registro de entrada minha num\Nportal de Rank A explicaria.
+Dialogue: 0,0:15:42.29,0:15:45.84,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Mas no Rank E não posso participar\Nde uma raid em portal de Rank A.
+Dialogue: 0,0:15:46.90,0:15:49.79,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Hã? Tem alguém recrutando?
+Dialogue: 0,0:15:47.47,0:15:51.05,Sign,Sign,0000,0000,0000,,{\c&HFFFFFF&\3c&H4A2416&\b0\fs14\pos(428.73,49.4)}Sobre
+Dialogue: 0,0:15:47.47,0:15:51.05,Sign,Sign,0000,0000,0000,,{\c&HFFFFFF&\3c&H4A2416&\b0\fs14\pos(514.44,50.54)}Nossos trabalhos {L: Vontade de pôr Nosso Trampo UIAHEIUAEHAEUIEA}
+Dialogue: 0,0:15:47.47,0:15:51.05,Sign,Sign,0000,0000,0000,,{\c&HFFFFFF&\3c&H4A2416&\b0\fs14\pos(605.87,48.25)}Contato
+Dialogue: 0,0:15:47.47,0:15:51.05,Sign,Sign,0000,0000,0000,,{\an7\c&HFFFFFF&\3c&H4A2416&\fs20\pos(4.73,96.25)\b0}Recrutam-se membros para equipe de mineradores\N\N{\fs15}Procuramos mineradores para explorar portal de Rank A pertencente à Guilda dos Caçadores.\NQualquer rank é bem-vindo, desde que esteja em boa forma física.\NConsulte abaixo para informações sobre como se inscrever.
+Dialogue: 0,0:15:47.47,0:15:51.05,Sign,Sign,0000,0000,0000,,{\an7\c&HFFFFFF&\3c&H3DC2EE&\fs18\bord4\b0\pos(497.3,250.54)}Inscrever-se
+Dialogue: 0,0:15:51.86,0:15:54.19,Solo-Main,Go Gunhee,0000,0000,0000,,Esses dados são de quatro anos atrás?
+Dialogue: 0,0:15:53.51,0:15:57.35,Sign,Sign,0000,0000,0000,,{\an9\bord1.5\p1)\c&HF3F4F2&\3a&H00&\1a&H74&\3c&H8C817E&\pos(630.33,10.6)}m 0 0 l 230 0 230 165 0 165
+Dialogue: 1,0:15:53.51,0:15:57.35,Sign,Sign,0000,0000,0000,,{\fnGeorgia\blur2\fs16\pos(519,15)\b0\u1}Associação de Caçadores
+Dialogue: 1,0:15:53.51,0:15:57.35,Sign,Sign,0000,0000,0000,,{\an7\blur2\fs16\c&H555857&\pos(443,43)}Sung Jinwoo\N\N{\fs13\b0}Gênero: Masculino\NIdade: 24\N\N{\b1}Afiliação: --  --\NRank E
+Dialogue: 1,0:15:53.51,0:15:57.35,Sign,Sign,0000,0000,0000,,{\an7\blur2\fs12\c&H555857&\pos(421.29,141.29)}Área de Autorização:
+Dialogue: 1,0:15:53.51,0:15:57.35,Sign,Sign,0000,0000,0000,,{\an7\blur2\fs12\c&H555857&\pos(421.29,141.29)}Área de Autorização:
+Dialogue: 0,0:15:54.19,0:15:57.35,Solo-Main,Go Gunhee,0000,0000,0000,,A foto é completamente diferente,\Nparece até uma criança.
+Dialogue: 0,0:15:58.03,0:16:00.16,Solo-Main,Go Gunhee,0000,0000,0000,,Poderia ter falsificado\Nseu rank original?
+Dialogue: 0,0:16:00.82,0:16:04.07,Solo-Main,Woo Jinchul,0000,0000,0000,,Há registros de que ele foi ferido\Ngravemente diversas vezes.
+Dialogue: 0,0:16:04.59,0:16:06.37,Solo-Main,Woo Jinchul,0000,0000,0000,,Então acho difícil.
+Dialogue: 0,0:16:06.73,0:16:11.72,Solo-Main,Go Gunhee,0000,0000,0000,,É impressionante que tenha resistido\Npor tanto tempo e tantas raids.
+Dialogue: 0,0:16:12.09,0:16:16.21,Solo-Main,Woo Jinchul,0000,0000,0000,,Ele tem bancado o tratamento do Sono\NEterno da mãe e os estudos da irmã.
+Dialogue: 0,0:16:16.21,0:16:18.79,Solo-Main,Woo Jinchul,0000,0000,0000,,Parece que tem sustentado\Na família sozinho.
+Dialogue: 0,0:16:18.79,0:16:22.84,Sign,Sign,0000,0000,0000,,{\an7\c&H555857&\fs19\fnArial\i1\pos(478.29,189.29)}Gênero: Masculino
+Dialogue: 0,0:16:18.79,0:16:22.84,Sign,Sign,0000,0000,0000,,{\an7\c&H555857&\fs19\fnArial\i1\pos(473.29,265.29)}Idade: 24
+Dialogue: 0,0:16:18.79,0:16:22.84,Sign,Sign,0000,0000,0000,,{\an7\c&H25321F&\fnArial\pos(469.29,322.29)}Afiliação: -- --
+Dialogue: 1,0:16:19.06,0:16:22.83,Solo-Main,Go Gunhee,0000,0000,0000,,Não se vê essa dedicação\Nnos jovens de hoje em dia.
+Dialogue: 0,0:16:23.31,0:16:25.09,Solo-Main,Woo Jinchul,0000,0000,0000,,Há um registro de que o Caçador Sung
+Dialogue: 0,0:16:25.09,0:16:28.22,Solo-Main,Woo Jinchul,0000,0000,0000,,se juntou a uma equipe de raid\Nda Guilda dos Caçadores.
+Dialogue: 0,0:16:29.27,0:16:31.59,Solo-Main,Go Gunhee,0000,0000,0000,,Então, apesar de suas palavras,
+Dialogue: 0,0:16:31.59,0:16:34.70,Solo-Main,Go Gunhee,0000,0000,0000,,ele foi atraído por um\Nlucrativo bônus de contrato...
+Dialogue: 0,0:16:34.70,0:16:39.19,Solo-Main,Woo Jinchul,0000,0000,0000,,Pelo que diz o relatório, ele se juntou\Na uma equipe de mineração.
+Dialogue: 0,0:16:39.19,0:16:40.79,Solo-Main,Go Gunhee,0000,0000,0000,,De mineração?
+Dialogue: 0,0:16:40.79,0:16:41.40,Solo-Main,Woo Jinchul,0000,0000,0000,,Sim, senhor.
+Dialogue: 0,0:16:44.75,0:16:47.59,Solo-Main,Go Gunhee,0000,0000,0000,,Ele é difícil de prever.
+Dialogue: 0,0:16:47.94,0:16:49.65,Solo-Main,Bae Yoonseok,0000,0000,0000,,Então, você é um Rank E?
+Dialogue: 0,0:16:49.65,0:16:50.58,Solo-Main,Sung Jinwoo,0000,0000,0000,,Sim.
+Dialogue: 0,0:16:50.58,0:16:51.90,Solo-Main,Bae Yoonseok,0000,0000,0000,,Já fez escavações?
+Dialogue: 0,0:16:51.90,0:16:53.18,Solo-Main,Sung Jinwoo,0000,0000,0000,,É a primeira vez.
+Dialogue: 0,0:16:53.18,0:16:57.49,Solo-Main,Bae Yoonseok,0000,0000,0000,,Ah, é do tipo de combate? Então não\Nvou me preocupar com sua forma física.
+Dialogue: 0,0:16:58.02,0:17:01.31,Solo-Main,Bae Yoonseok,0000,0000,0000,,Temos muitos caras como você\Npor aqui, Sr. Sung.
+Dialogue: 0,0:17:01.31,0:17:03.79,Solo-Main,Bae Yoonseok,0000,0000,0000,,É só relaxar e mãos à obra!
+Dialogue: 0,0:17:03.79,0:17:04.96,Solo-Main,Sung Jinwoo,0000,0000,0000,,Certo.
+Dialogue: 0,0:17:04.96,0:17:09.42,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Raids maiores em dungeons de rank alto\Nexigem certo grau de especialização.
+Dialogue: 0,0:17:10.07,0:17:12.75,Solo-Italics,Sung Jinwoo,0000,0000,0000,,A equipe de ataque cuida\Ndos monstros mágicos,
+Dialogue: 0,0:17:12.75,0:17:16.18,Solo-Italics,Sung Jinwoo,0000,0000,0000,,a equipe de mineração coleta\Nos cristais de mana na dungeon,
+Dialogue: 0,0:17:16.18,0:17:19.14,Solo-Italics,Sung Jinwoo,0000,0000,0000,,e a equipe de coleta retira\Nas carcaças dos monstros.
+Dialogue: 0,0:17:20.38,0:17:22.82,Solo-Italics,Sung Jinwoo,0000,0000,0000,,É bastante gente, mas o lucro justifica.
+Dialogue: 0,0:17:24.21,0:17:25.98,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Aposto que, lá dentro...
+Dialogue: 0,0:17:27.82,0:17:29.72,Solo-Main,Choi Jong-in,0000,0000,0000,,Afastem-se, por favor.
+Dialogue: 0,0:17:29.72,0:17:32.77,Solo-Main,Choi Jong-in,0000,0000,0000,,Eles não parecem gostar muito de luz.
+Dialogue: 0,0:17:52.84,0:17:54.18,Solo-Main,Choi Jong-in,0000,0000,0000,,Senhores Tanks...
+Dialogue: 0,0:17:56.57,0:17:58.31,Solo-Main,Choi Jong-in,0000,0000,0000,,Por favor.
+Dialogue: 0,0:18:11.05,0:18:15.91,Solo-Main,Choi Jong-in,0000,0000,0000,,Carcaças bem-passadas não são muito\Núteis, então tentei deixar no ponto.
+Dialogue: 0,0:18:16.65,0:18:20.04,Solo-Main,Choi Jong-in,0000,0000,0000,,Isso deve cuidar da maioria\Ndos inimigos nas proximidades.
+Dialogue: 0,0:18:20.04,0:18:21.71,Solo-Main,Choi Jong-in,0000,0000,0000,,Vamos em frente.
+Dialogue: 0,0:18:22.34,0:18:26.54,Solo-Main,Choi Jong-in,0000,0000,0000,,À senhorita de olfato sensível,\Ncuidado com o cheiro de animais queimados.
+Dialogue: 0,0:18:27.95,0:18:30.13,Solo-Main,Worker A,0000,0000,0000,,A equipe de ataque está saindo!
+Dialogue: 0,0:18:31.07,0:18:33.84,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Então tirando o chefe da dungeon,\Ntudo já foi morto?
+Dialogue: 0,0:18:34.29,0:18:37.83,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Quando nos cruzamos ontem,\Npude sentir que ele é forte,
+Dialogue: 0,0:18:38.29,0:18:41.07,Solo-Italics,Sung Jinwoo,0000,0000,0000,,mas para limpar um portal Rank A\Nsem nenhum arranhão
+Dialogue: 0,0:18:41.07,0:18:43.06,Solo-Italics,Sung Jinwoo,0000,0000,0000,,precisa ter outro nível de força.
+Dialogue: 0,0:18:43.06,0:18:46.52,Solo-Main,Worker B,0000,0000,0000,,E lá está a segunda em comando\Nna Guilda dos Caçadores.
+Dialogue: 0,0:18:49.30,0:18:50.57,Solo-Italics,Sung Jinwoo,0000,0000,0000,,É ela...
+Dialogue: 0,0:18:51.21,0:18:56.53,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Vice-mestre da Guilda dos Caçadores e\Nnona Caçadora de Rank S neste país.
+Dialogue: 0,0:18:57.43,0:18:59.87,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Cha Hae-in, a Bailarina.
+Dialogue: 0,0:19:00.54,0:19:02.07,Solo-Italics,Sung Jinwoo,0000,0000,0000,,É incrível...
+Dialogue: 0,0:19:02.94,0:19:06.90,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Eu me pergunto quantas pessoas\Nno mundo têm uma aura como a dela.
+Dialogue: 0,0:19:10.99,0:19:14.09,Solo-Italics,Cha Hae-in,0000,0000,0000,,O que foi isso?\NSenti algo extraordinário...
+Dialogue: 0,0:19:14.09,0:19:15.51,Solo-Italics,Cha Hae-in,0000,0000,0000,,Foi imaginação?
+Dialogue: 0,0:19:15.51,0:19:18.90,Solo-Italics,Cha Hae-in,0000,0000,0000,,Por um segundo, pensei que o\NPresidente Go estivesse por aqui.
+Dialogue: 0,0:19:18.90,0:19:21.80,Solo-Italics,Cha Hae-in,0000,0000,0000,,Mas agora não há nem\Nvestígio de quem era.
+Dialogue: 0,0:19:24.29,0:19:26.39,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Ela é mais afiada do que imaginei.
+Dialogue: 0,0:19:26.39,0:19:29.19,Solo-Main,Bae Yoonseok,0000,0000,0000,,Muito bem, pessoal! Vamos começar!
+Dialogue: 0,0:19:29.19,0:19:31.31,Solo-Main-Top,BG,0000,0000,0000,,Isso aí...
+Dialogue: 0,0:19:29.49,0:19:31.36,Solo-Italics,Sung Jinwoo,0000,0000,0000,,A equipe de ataque fez sua parte,
+Dialogue: 0,0:19:31.31,0:19:34.00,Solo-Main-Top,Workers,0000,0000,0000,,Um... dois...!
+Dialogue: 0,0:19:31.36,0:19:34.82,Solo-Italics,Sung Jinwoo,0000,0000,0000,,agora as equipes de mineração\Ne coleta entram em cena.
+Dialogue: 0,0:19:35.97,0:19:46.99,Solo-Main-Top,Workers,0000,0000,0000,,Um, dois!
+Dialogue: 0,0:19:38.35,0:19:40.53,Solo-Main,Workers,0000,0000,0000,,Está um pouco solto aqui!
+Dialogue: 0,0:19:45.61,0:19:48.71,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Há um sinal de poder mágico\Nvindo das profundezas da dungeon.
+Dialogue: 0,0:19:49.67,0:19:53.00,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Deve ser emitido pelo chefe\Nda dungeon Rank A.
+Dialogue: 0,0:19:54.65,0:19:58.22,Solo-Italics,Sung Jinwoo,0000,0000,0000,,É mais forte que Vulcano e Metus\Ndo Castelo Demoníaco.
+Dialogue: 0,0:19:59.11,0:20:00.80,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Admito uma certa vontade...
+Dialogue: 0,0:20:00.80,0:20:04.99,Solo-Italics,Sung Jinwoo,0000,0000,0000,,de descobrir sozinho o tamanho\Nda força de um chefe de Rank A.
+Dialogue: 0,0:20:04.99,0:20:08.38,Solo-Main,Worker A,0000,0000,0000,,Vocês souberam? Um cara que entrou\Npra esse trabalho é um Rank E.
+Dialogue: 0,0:20:08.38,0:20:10.06,Solo-Main,Worker B,0000,0000,0000,,Rank E? Tá de brincadeira?
+Dialogue: 0,0:20:10.06,0:20:12.56,Solo-Main,Worker C,0000,0000,0000,,Onde o chefe estava com a cabeça?
+Dialogue: 0,0:20:13.81,0:20:17.93,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Não importa onde seja, Rank E\Né sempre tratado da mesma forma.
+Dialogue: 0,0:20:17.93,0:20:20.30,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Não que eu pretenda\Nfazer isso por muito tempo.
+Dialogue: 0,0:20:20.30,0:20:23.08,Solo-Main,Lee Seong-gu,0000,0000,0000,,Epa, epa! Sem corpo mole!
+Dialogue: 0,0:20:23.08,0:20:25.90,Solo-Main,Lee Seong-gu,0000,0000,0000,,Aqui já tá apertado!\NSe vai parar no meio do caminho—
+Dialogue: 0,0:20:26.99,0:20:31.52,Solo-Main,Lee Seong-gu,0000,0000,0000,,D-Digo...\NF-Fique à vontade, por favor.
+Dialogue: 0,0:20:32.55,0:20:35.64,Solo-Main,Lee Seong-gu,0000,0000,0000,,Aquele cara é mesmo de Rank E?
+Dialogue: 0,0:20:37.41,0:20:41.60,Solo-Main,Mok Jinsoo,0000,0000,0000,,Chefe... Ele é mesmo um Rank E?
+Dialogue: 0,0:20:41.60,0:20:42.74,Solo-Main,Bae Yoonseok,0000,0000,0000,,Sim...
+Dialogue: 0,0:20:42.74,0:20:45.36,Solo-Main,Mok Jinsoo,0000,0000,0000,,Mas ele parece meio forte demais, não?
+Dialogue: 0,0:20:45.36,0:20:46.93,Solo-Main,Bae Yoonseok,0000,0000,0000,,Acho que o Sr. Sung
+Dialogue: 0,0:20:46.93,0:20:51.02,Solo-Main,Bae Yoonseok,0000,0000,0000,,pode ter sido um presente\Nde Deus para nós, peões.
+Dialogue: 0,0:20:53.35,0:20:55.35,Solo-Main,Bae Yoonseok,0000,0000,0000,,Muito bem, intervalo!
+Dialogue: 0,0:20:55.35,0:20:57.15,Solo-Main,Bae Yoonseok,0000,0000,0000,,Vamos comer alguma coisa!
+Dialogue: 0,0:20:57.15,0:20:58.38,Solo-Main,Workers,0000,0000,0000,,Entendido!
+Dialogue: 0,0:20:58.38,0:21:00.58,Solo-Main,Bae Yoonseok,0000,0000,0000,,Sr. Sung, você não vem?
+Dialogue: 0,0:21:00.58,0:21:02.43,Solo-Main,Sung Jinwoo,0000,0000,0000,,Quero terminar aqui primeiro.
+Dialogue: 0,0:21:02.43,0:21:03.91,Solo-Main,Bae Yoonseok,0000,0000,0000,,Tudo bem.
+Dialogue: 0,0:21:03.91,0:21:06.60,Solo-Main,Bae Yoonseok,0000,0000,0000,,Só não vá muito longe lá pra dentro.
+Dialogue: 0,0:21:06.60,0:21:07.67,Solo-Main,Sung Jinwoo,0000,0000,0000,,Pode deixar.
+Dialogue: 0,0:21:17.93,0:21:19.75,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Finalmente estou sozinho.
+Dialogue: 0,0:21:19.75,0:21:22.32,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Não posso deixar esta chance escapar.
+Dialogue: 0,0:21:22.32,0:21:26.16,Solo-Italics,Sung Jinwoo,0000,0000,0000,,O intervalo dura uma hora...\NVamos dar uma olhada.
+Dialogue: 0,0:21:30.37,0:21:32.44,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Esta deve ser a câmara do chefe.
+Dialogue: 0,0:21:33.19,0:21:35.70,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Parece mesmo mais forte\Ndo que o Metus.
+Dialogue: 0,0:21:36.94,0:21:40.69,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Tenho noção de que é melhor\Neu não derrotar esse chefe.
+Dialogue: 0,0:21:41.47,0:21:43.54,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Se eu o derrotar, o portal se fecha,
+Dialogue: 0,0:21:44.27,0:21:47.15,Solo-Italics,Sung Jinwoo,0000,0000,0000,,e será um grande prejuízo\Npara a Guilda dos Caçadores.
+Dialogue: 0,0:21:48.17,0:21:49.66,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Ainda assim...
+Dialogue: 0,0:21:49.66,0:21:52.38,Solo-Italics,Sung Jinwoo,0000,0000,0000,,Vale a pena ir lá dar um cutucão.
+Dialogue: 0,0:21:52.38,0:21:54.62,Solo-Main,Cha Hae-in,0000,0000,0000,,O que está fazendo aí?
+Dialogue: 0,0:22:00.42,0:22:02.13,Solo-Main,Cha Hae-in,0000,0000,0000,,Vou perguntar mais uma vez.
+Dialogue: 0,0:22:02.90,0:22:05.23,Solo-Main,Cha Hae-in,0000,0000,0000,,O que está fazendo aí?
+Dialogue: 0,0:22:13.06,0:22:20.28,creditos,Creditos,0000,0000,0000,,LEGENDAS BRASILEIRAS\N\N\N{\fs10}TRADUÇÃO\N{\fs12}Marianna Brito\N\N{\fs10}EDIÇÃO\N{\fs12}Diego M. Rodeguero\N\N{\fs10}REVISÃO\N{\fs12}Henrique Calado\N\N{\fs10}PRODUÇÃO\N{\fs12}Gustavo Hoffmann
+Dialogue: 0,0:22:44.72,0:22:48.22,Sign,Sign,0000,0000,0000,,{\an1\fs35\c&H3F00B0&\bord1\pos(203.02,126.22)\3c&H2B0172&}Preciso\Nparar de fingir
+Dialogue: 0,0:23:37.23,0:23:40.98,Sign,Sign,0000,0000,0000,,{\an1\fad(1144,1)\fs16\c&HFDF5F9&\3c&H5A0A38&\blur3\b0\pos(239.02,205.22)}Nós somos treinados para isso

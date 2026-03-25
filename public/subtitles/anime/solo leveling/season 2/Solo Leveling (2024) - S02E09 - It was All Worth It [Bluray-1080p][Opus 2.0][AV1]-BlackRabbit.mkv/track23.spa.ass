@@ -1,0 +1,311 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Gen_Main,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: Gen_Italics,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,0010,0010,0018,1
+Style: Gen_Main_Up,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00090909,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,1
+Style: Gen_Italics_top,Trebuchet MS,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,1
+Style: Cart_Nota,Trebuchet MS,20.0,&H00FFFFFF,&H000000FF,&H00262626,&H00505050,0,1,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0010,0010,0018,1
+Style: Cart_A_Tre,Trebuchet MS,20.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0020,0020,0020,1
+Style: Cart_C_Tre,Trebuchet MS,20.0,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0020,0020,0020,1
+Style: Cart_A_Ari,Arial,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00303030,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0020,1
+Style: Cart_TitleSeries,Impact,30.0,&H00000000,&H000000FF,&H00FFFFFF,&H00AC4F8A,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,2,0010,0030,0010,1
+Style: Cart_EpiTitle,Times New Roman,22.0,&H14EEFDFF,&H008B3081,&H287688B3,&H8D2552C4,1,0,0,0,95.0,100.0,0.0,0.0,1,1,0.0,2,0020,0020,0019,0
+Style: Cart_C_Ari,Arial,24.0,&H00000000,&H000000FF,&H00FFFFFF,&H00303030,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,8,0020,0020,0020,1
+Style: Cart_A_Tim,Times New Roman,24.0,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100.0,100.0,0.0,0.0,1,1,0.0,8,0020,0020,0020,1
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,0010,0010,0018,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:36.74,0:01:39.05,Gen_Italics,jinwoo,0000,0000,0000,,Sangre purificada del Rey Demonio.
+Dialogue: 0,0:01:39.54,0:01:41.29,Gen_Italics,jinwoo,0000,0000,0000,,Por fin lo tengo todo.
+Dialogue: 0,0:01:44.92,0:01:49.23,Gen_Italics,jinwoo,0000,0000,0000,,¿La tasa de éxito y la cantidad\Ndependen de la Inteligencia?
+Dialogue: 0,0:01:49.88,0:01:52.27,Gen_Main,esil,0000,0000,0000,,¿Estás bien, Jinwoo?
+Dialogue: 0,0:01:55.64,0:01:56.76,Gen_Main,jinwoo,0000,0000,0000,,Lo fabrico.
+Dialogue: 0,0:02:16.95,0:02:18.99,Gen_Italics,jinwoo,0000,0000,0000,,Tengo el Elixir de la Vida.
+Dialogue: 0,0:02:19.37,0:02:24.33,Gen_Italics,jinwoo,0000,0000,0000,,¿Realmente servirá para curar\Nla somnosofocación de mamá?
+Dialogue: 0,0:02:29.04,0:02:31.81,Gen_Main,jinwoo,0000,0000,0000,,Qué amable por tu parte, Iron.
+Dialogue: 0,0:02:34.80,0:02:35.89,Gen_Main,jinwoo,0000,0000,0000,,Álzate.
+Dialogue: 0,0:02:47.65,0:02:49.05,Gen_Main,jinwoo,0000,0000,0000,,El nombre…
+Dialogue: 0,0:02:49.40,0:02:52.33,Gen_Main,jinwoo,0000,0000,0000,,¿Kaiserlin? ¿Kalkarin?
+Dialogue: 0,0:02:52.48,0:02:53.73,Gen_Main,jinwoo,0000,0000,0000,,¿Cómo se llamaba?
+Dialogue: 0,0:02:53.86,0:02:57.39,Gen_Main,esil,0000,0000,0000,,No se te da bien memorizar nombres, ¿no?
+Dialogue: 0,0:02:57.70,0:02:58.78,Gen_Main,jinwoo,0000,0000,0000,,Da igual.
+Dialogue: 0,0:02:59.24,0:03:01.91,Gen_Main,jinwoo,0000,0000,0000,,Serás Kaisel.
+Dialogue: 0,0:03:07.54,0:03:09.85,Gen_Main,esil,0000,0000,0000,,Con él podremos volver enseguida.
+Dialogue: 0,0:03:09.96,0:03:12.07,Gen_Main,esil,0000,0000,0000,,Celebraremos una fiesta.
+Dialogue: 0,0:03:12.17,0:03:14.05,Gen_Main,esil,0000,0000,0000,,Papá estará encantado.
+Dialogue: 0,0:03:15.76,0:03:17.45,Gen_Main_Up,esil,0000,0000,0000,,¿Hola?
+Dialogue: 0,0:03:16.26,0:03:19.55,Gen_Italics,jinwoo,0000,0000,0000,,Quiero volver cuanto antes\Na probar el Elixir.
+Dialogue: 0,0:03:17.72,0:03:20.73,Gen_Main_Up,esil,0000,0000,0000,,¿Me oyes, Jinwoo?
+Dialogue: 0,0:03:20.80,0:03:23.51,Gen_Italics,jinwoo,0000,0000,0000,,Tengo la runa\Nde la recompensa de misión.
+Dialogue: 0,0:03:21.43,0:03:25.31,Gen_Main_Up,esil,0000,0000,0000,,Una fiesta. Una por todo lo alto.
+Dialogue: 0,0:03:24.47,0:03:25.63,Gen_Italics,jinwoo,0000,0000,0000,,No.
+Dialogue: 0,0:03:26.68,0:03:27.87,Gen_Italics,jinwoo,0000,0000,0000,,Tampoco.
+Dialogue: 0,0:03:28.14,0:03:29.53,Gen_Italics,jinwoo,0000,0000,0000,,A ver…
+Dialogue: 0,0:03:30.10,0:03:31.73,Gen_Italics,jinwoo,0000,0000,0000,,Aquí está.
+Dialogue: 0,0:03:38.03,0:03:39.75,Gen_Main,jinwoo,0000,0000,0000,,Intercambio de sombras.
+Dialogue: 0,0:03:40.07,0:03:44.51,Gen_Main,jinwoo,0000,0000,0000,,¿Puedo intercambiar mi posición\Ncon un soldado sombra esté donde esté?
+Dialogue: 0,0:03:44.91,0:03:46.12,Gen_Main,jinwoo,0000,0000,0000,,Entonces…
+Dialogue: 0,0:03:47.96,0:03:50.79,Gen_Main,jinwoo,0000,0000,0000,,Lo siento, Esil, pero vuelve tú sola.
+Dialogue: 0,0:03:50.88,0:03:52.42,Gen_Main,esil,0000,0000,0000,,¿Y la fiesta?
+Dialogue: 0,0:03:52.50,0:03:54.95,Gen_Main,jinwoo,0000,0000,0000,,Vuestra residencia está en el piso 80.
+Dialogue: 0,0:03:55.26,0:03:57.01,Gen_Main,jinwoo,0000,0000,0000,,Está muy lejos de la salida.
+Dialogue: 0,0:03:57.09,0:03:58.63,Gen_Main,esil,0000,0000,0000,,Jo…
+Dialogue: 0,0:03:59.51,0:04:01.39,Gen_Main,jinwoo,0000,0000,0000,,Ya nos veremos.
+Dialogue: 0,0:04:01.80,0:04:02.95,Gen_Main,jinwoo,0000,0000,0000,,Cuídate.
+Dialogue: 0,0:04:03.55,0:04:05.51,Gen_Main,esil,0000,0000,0000,,Jinwoo, yo…
+Dialogue: 0,0:04:21.28,0:04:24.21,Gen_Main,jinwoo,0000,0000,0000,,Me he cambiado con el soldado\Nque dejé de guardia.
+Dialogue: 0,0:04:25.20,0:04:27.77,Gen_Main,jinwoo,0000,0000,0000,,No puedo usarlo\Nhasta dentro de tres horas.
+Dialogue: 0,0:04:27.91,0:04:29.49,Gen_Main,jinwoo,0000,0000,0000,,Pues el resto del camino…
+Dialogue: 0,0:04:31.04,0:04:32.04,Gen_Main,jinwoo,0000,0000,0000,,Kaisel.
+Dialogue: 0,0:04:38.51,0:04:42.25,Gen_Main,go gunhee,0000,0000,0000,,Atraeremos a las hormigas\Ncon el poder mágico de los Cazadores
+Dialogue: 0,0:04:42.39,0:04:46.10,Gen_Main,go gunhee,0000,0000,0000,,y bloquearemos su comunicación\Ncon interferencias especiales.
+Dialogue: 0,0:04:46.47,0:04:50.55,Gen_Main,go gunhee,0000,0000,0000,,Mientras tanto, otra unidad\Nentrará al nido medio vacío
+Dialogue: 0,0:04:50.69,0:04:53.31,Gen_Main,go gunhee,0000,0000,0000,,y eliminará a la reina.
+Dialogue: 0,0:04:53.81,0:04:57.41,Gen_Main,woo jinchul,0000,0000,0000,,La cuestión es\Nsi las interferencias funcionarán o no.
+Dialogue: 0,0:04:59.44,0:05:02.77,Gen_Main,go gunhee,0000,0000,0000,,Mentiría si dijera\Nque no me preocupa en absoluto,
+Dialogue: 0,0:05:03.03,0:05:07.12,Gen_Main,go gunhee,0000,0000,0000,,pero su análisis era riguroso\Ny coincidía con el nuestro.
+Dialogue: 0,0:05:07.45,0:05:12.75,Gen_Main,go gunhee,0000,0000,0000,,Además hay un plan de retirada\Nen caso de que no funcionara.
+Dialogue: 0,0:05:14.08,0:05:16.39,Gen_Main,go gunhee,0000,0000,0000,,Lo que debemos hacer
+Dialogue: 0,0:05:16.50,0:05:20.88,Gen_Main,go gunhee,0000,0000,0000,,es enviar a los Cazadores\Nbien preparados.
+Dialogue: 0,0:05:21.22,0:05:22.45,Gen_Main,woo jinchul,0000,0000,0000,,Sí.
+Dialogue: 0,0:05:22.72,0:05:24.01,Gen_Main,go gunhee,0000,0000,0000,,¿Y bien?
+Dialogue: 0,0:05:24.55,0:05:26.73,Gen_Main,go gunhee,0000,0000,0000,,¿Has contactado con Sung?
+Dialogue: 0,0:05:26.93,0:05:28.45,Gen_Main,woo jinchul,0000,0000,0000,,Aún no.
+Dialogue: 0,0:05:31.06,0:05:36.21,Gen_Main,byung-gu,0000,0000,0000,,Yoonho, sonríe un poco,\Nque estamos tomándonos unas copas.
+Dialogue: 0,0:05:36.31,0:05:39.11,Gen_Main,byung-gu,0000,0000,0000,,Lo que acabo de contar es graciosísimo.
+Dialogue: 0,0:05:39.86,0:05:42.51,Gen_Main,baek,0000,0000,0000,,Yo no lo veo, Byung-gu.
+Dialogue: 0,0:05:42.74,0:05:45.25,Gen_Main,byung-gu,0000,0000,0000,,Fruncir tanto el ceño te hace envejecer.
+Dialogue: 0,0:05:45.32,0:05:46.71,Gen_Main,baek,0000,0000,0000,,No es cosa tuya.
+Dialogue: 0,0:05:49.54,0:05:52.05,Gen_Italics,baek,0000,0000,0000,,Min Byung-gu, sanador de rango S.
+Dialogue: 0,0:05:52.16,0:05:56.87,Gen_Italics,baek,0000,0000,0000,,Pocos pueden retirarse tan jóvenes\Nsin haber recibido heridas graves.
+Dialogue: 0,0:05:56.96,0:06:00.55,Gen_Italics,baek,0000,0000,0000,,Es uno de mis antiguos compañeros.
+Dialogue: 0,0:06:01.92,0:06:06.53,Gen_Italics,baek,0000,0000,0000,,Es un tío tan raro\Ncomo su sentido del humor.
+Dialogue: 0,0:06:07.93,0:06:09.35,Gen_Main,baek,0000,0000,0000,,Qué atento.
+Dialogue: 0,0:06:09.68,0:06:10.79,Gen_Main,byung-gu,0000,0000,0000,,Yoonho,
+Dialogue: 0,0:06:12.43,0:06:14.14,Gen_Main,byung-gu,0000,0000,0000,,¿de verdad vas a ir?
+Dialogue: 0,0:06:15.10,0:06:16.27,Gen_Main,baek,0000,0000,0000,,Sí.
+Dialogue: 0,0:06:17.69,0:06:20.11,Gen_Main,byung-gu,0000,0000,0000,,¿Aunque vieras morir a Eunseok?
+Dialogue: 0,0:06:24.70,0:06:26.25,Gen_Main,baek,0000,0000,0000,,Por eso voy.
+Dialogue: 0,0:06:27.70,0:06:30.25,Gen_Main,baek,0000,0000,0000,,Si dejamos que campen a sus anchas,
+Dialogue: 0,0:06:30.37,0:06:32.73,Gen_Main,baek,0000,0000,0000,,el país entero acabará igual.
+Dialogue: 0,0:06:32.95,0:06:35.75,Gen_Main,byung-gu,0000,0000,0000,,¿Cuándo te has vuelto tan patriótico?
+Dialogue: 0,0:06:35.87,0:06:37.63,Gen_Main,baek,0000,0000,0000,,Si tengo que ir,
+Dialogue: 0,0:06:37.71,0:06:40.67,Gen_Main,baek,0000,0000,0000,,al menos diciendo eso quedo mejor.
+Dialogue: 0,0:06:44.63,0:06:48.05,Gen_Main,byung-gu,0000,0000,0000,,Él dijo algo parecido.
+Dialogue: 0,0:06:49.68,0:06:52.01,Gen_Main,byung-gu,0000,0000,0000,,Yo no pienso ir.
+Dialogue: 0,0:06:52.35,0:06:55.39,Gen_Main,byung-gu/baek,0000,0000,0000,,-Si quieres convencerme…\N-Solo venía a saludar.
+Dialogue: 0,0:06:55.60,0:06:57.91,Gen_Main,baek,0000,0000,0000,,Quizás no volvamos a vernos.
+Dialogue: 0,0:07:00.44,0:07:03.59,Gen_Main,byung-gu,0000,0000,0000,,Voy a hacer las oposiciones.
+Dialogue: 0,0:07:03.82,0:07:05.57,Gen_Main,baek,0000,0000,0000,,¿Las oposiciones?
+Dialogue: 0,0:07:06.07,0:07:10.03,Gen_Main,byung-gu,0000,0000,0000,,Ya no puedo ver sangre ni nada de eso.
+Dialogue: 0,0:07:11.49,0:07:13.51,Gen_Main,byung-gu,0000,0000,0000,,Por eso me haré funcionario.
+Dialogue: 0,0:07:14.08,0:07:17.46,Gen_Main,byung-gu,0000,0000,0000,,Aunque voy mal,\Nporque solo se me da bien la historia.
+Dialogue: 0,0:07:17.92,0:07:19.81,Gen_Main,baek,0000,0000,0000,,¿Conoces bien la historia?
+Dialogue: 0,0:07:20.00,0:07:22.85,Gen_Main,byung-gu,0000,0000,0000,,Sí. Me gustan las obras\Ny series históricas.
+Dialogue: 0,0:07:22.96,0:07:24.17,Gen_Main,baek,0000,0000,0000,,¿Qué?
+Dialogue: 0,0:07:24.67,0:07:27.21,Gen_Main,byung-gu,0000,0000,0000,,Esto es lo normal.
+Dialogue: 0,0:07:27.63,0:07:30.79,Gen_Main,byung-gu,0000,0000,0000,,Los combates\Npueden quedarse en la historia.
+Dialogue: 0,0:07:31.39,0:07:33.73,Gen_Main,baek,0000,0000,0000,,Sí. Tienes razón.
+Dialogue: 0,0:07:34.52,0:07:36.83,Gen_Italics,baek,0000,0000,0000,,Los Cazadores somos los raros.
+Dialogue: 0,0:07:37.31,0:07:38.77,Gen_Italics,baek,0000,0000,0000,,Bien pensado,
+Dialogue: 0,0:07:38.85,0:07:43.32,Gen_Italics,baek,0000,0000,0000,,no conozco a muchos Cazadores\Nque odien enfrentarse a monstruos.
+Dialogue: 0,0:07:43.73,0:07:46.09,Gen_Italics,baek,0000,0000,0000,,Luchar es nuestro día a día.
+Dialogue: 0,0:07:46.19,0:07:48.03,Gen_Italics,baek,0000,0000,0000,,Y a algunos les gusta.
+Dialogue: 0,0:07:48.91,0:07:51.83,Gen_Italics,baek,0000,0000,0000,,Quizás esa es la condición\Npara despertar.
+Dialogue: 0,0:07:51.91,0:07:55.67,Gen_Main,byung-gu,0000,0000,0000,,Has envejecido más.\NVuelves a fruncir el ceño.
+Dialogue: 0,0:07:56.08,0:07:57.47,Gen_Main,baek,0000,0000,0000,,Calla y bebe.
+Dialogue: 0,0:07:58.41,0:08:00.79,Gen_Main,byung-gu,0000,0000,0000,,Eres un bellaco.
+Dialogue: 0,0:08:03.84,0:08:05.31,Gen_Main,baek,0000,0000,0000,,¿Qué dices?
+Dialogue: 0,0:08:29.65,0:08:31.85,Gen_Italics,jinwoo,0000,0000,0000,,Se quemó por mi culpa.
+Dialogue: 0,0:08:43.88,0:08:45.79,Gen_Italics,jinwoo,0000,0000,0000,,Quizás no pueda tragárselo.
+Dialogue: 0,0:08:46.67,0:08:50.31,Gen_Italics,jinwoo,0000,0000,0000,,Y aunque lo haga, no sé qué pasará.
+Dialogue: 0,0:08:51.38,0:08:56.76,Gen_Italics,jinwoo,0000,0000,0000,,Pero he visto al sistema\Nhacer un milagro tras otro.
+Dialogue: 0,0:08:57.52,0:09:00.01,Gen_Italics,jinwoo,0000,0000,0000,,Así he llegado hasta aquí\Nsiendo rango E.
+Dialogue: 0,0:09:03.94,0:09:05.45,Gen_Italics,jinwoo,0000,0000,0000,,Confiemos.
+Dialogue: 0,0:10:04.29,0:10:05.41,Gen_Main,jinwoo,0000,0000,0000,,Mamá.
+Dialogue: 0,0:10:10.38,0:10:13.09,Gen_Italics,jinwoo,0000,0000,0000,,Por favor, despierta.
+Dialogue: 0,0:10:14.05,0:10:17.49,Gen_Italics,jinwoo,0000,0000,0000,,Solo juré hacerme fuerte para esto.
+Dialogue: 0,0:10:20.77,0:10:24.19,Gen_Italics,jinwoo,0000,0000,0000,,Despierta, por favor, mamá.
+Dialogue: 0,0:10:28.94,0:10:32.51,Gen_Main,jinah,0000,0000,0000,,Hoy no puedo concentrarme.\N¿Por qué será?
+Dialogue: 0,0:10:42.83,0:10:44.77,Gen_Main,jinah,0000,0000,0000,,El viento es cálido.
+Dialogue: 0,0:11:16.86,0:11:19.39,Gen_Main,madre jinwoo,0000,0000,0000,,Eres Jinwoo, ¿verdad?
+Dialogue: 0,0:11:22.03,0:11:24.73,Gen_Main,madre jinwoo,0000,0000,0000,,¿Cuánto tiempo he dormido?
+Dialogue: 0,0:11:27.16,0:11:29.71,Gen_Main,jinwoo,0000,0000,0000,,Cuatro años. Cuatro.
+Dialogue: 0,0:11:30.29,0:11:31.53,Gen_Main,madre jinwoo,0000,0000,0000,,¿Y Jinah?
+Dialogue: 0,0:11:33.38,0:11:34.67,Gen_Main,jinwoo,0000,0000,0000,,Está bien.
+Dialogue: 0,0:11:38.43,0:11:40.39,Gen_Main,madre jinwoo,0000,0000,0000,,Gracias, Jinwoo.
+Dialogue: 0,0:11:41.43,0:11:44.03,Gen_Main,madre jinwoo,0000,0000,0000,,Has cumplido tu promesa.
+Dialogue: 0,0:11:46.89,0:11:49.07,Gen_Main,madre jinwoo,0000,0000,0000,,Ya tienes el rostro de un adulto.
+Dialogue: 0,0:11:49.56,0:11:52.05,Gen_Main,madre jinwoo,0000,0000,0000,,Pero estás repleto de heridas.
+Dialogue: 0,0:11:52.31,0:11:55.93,Gen_Main,madre jinwoo,0000,0000,0000,,Seguro que te he obligado\Na trabajar demasiado duro.
+Dialogue: 0,0:12:00.57,0:12:02.21,Gen_Main,madre jinwoo,0000,0000,0000,,No ha sido fácil, ¿no?
+Dialogue: 0,0:12:10.88,0:12:13.73,Gen_Main,jinwoo,0000,0000,0000,,Estoy bien. Estoy bien.
+Dialogue: 0,0:12:16.30,0:12:17.61,Gen_Main,jinwoo,0000,0000,0000,,Estoy bien.
+Dialogue: 0,0:12:29.31,0:12:32.51,Gen_Main,madre jinwoo,0000,0000,0000,,Gracias, Jinwoo.
+Dialogue: 0,0:12:39.15,0:12:40.29,Gen_Main,jinwoo,0000,0000,0000,,De nada.
+Dialogue: 0,0:12:42.70,0:12:44.99,Gen_Main,director hospital,0000,0000,0000,,¿Ha despertado de la somnosofocación?
+Dialogue: 0,0:12:45.08,0:12:47.39,Gen_Main,médico,0000,0000,0000,,Aunque cueste de creer, sí.
+Dialogue: 0,0:12:47.79,0:12:51.45,Gen_Main,médico,0000,0000,0000,,Además no tiene ningún problema físico.
+Dialogue: 0,0:12:51.54,0:12:55.57,Gen_Main,médico,0000,0000,0000,,Tanto ella como la familia\Ndesean que le demos el alta.
+Dialogue: 0,0:13:00.47,0:13:02.81,Gen_Main,madre jinwoo,0000,0000,0000,,Qué grande estás, Ji…
+Dialogue: 0,0:13:03.80,0:13:05.79,Gen_Main,jinah,0000,0000,0000,,Mamá…
+Dialogue: 0,0:13:09.98,0:13:12.59,Gen_Main,madre jinwoo,0000,0000,0000,,Siento haberos preocupado.
+Dialogue: 0,0:13:13.69,0:13:16.27,Gen_Italics,jinwoo,0000,0000,0000,,Mis esfuerzos por fin han dado fruto.
+Dialogue: 0,0:13:16.77,0:13:20.49,Gen_Italics,jinwoo,0000,0000,0000,,Por fin he conseguido\Nuna recompensa real.
+Dialogue: 0,0:13:24.45,0:13:28.09,Gen_Main,go gunhee,0000,0000,0000,,Muchas gracias por venir.
+Dialogue: 0,0:13:28.49,0:13:30.57,Gen_Main,go gunhee,0000,0000,0000,,Como ya sabéis,
+Dialogue: 0,0:13:30.70,0:13:33.47,Gen_Main,go gunhee,0000,0000,0000,,las hormigas aladas de Jeju
+Dialogue: 0,0:13:33.58,0:13:37.80,Gen_Main,go gunhee,0000,0000,0000,,han estado causando estragos\Nen distintos lugares.
+Dialogue: 0,0:13:37.88,0:13:41.31,Gen_Main,go gunhee,0000,0000,0000,,Por eso la Asociación de Cazadores
+Dialogue: 0,0:13:41.38,0:13:45.51,Gen_Main,go gunhee,0000,0000,0000,,ha decidido iniciar\Nla cuarta incursión a la isla de Jeju.
+Dialogue: 0,0:13:45.93,0:13:50.22,Gen_Main,go gunhee,0000,0000,0000,,En la operación no solo participarán\Nlos rango S de nuestro país.
+Dialogue: 0,0:13:50.31,0:13:55.59,Gen_Main,go gunhee,0000,0000,0000,,Se nos unirán diez más\Ngracias a la colaboración de Japón.
+Dialogue: 0,0:13:56.02,0:14:01.79,Gen_Main,go gunhee,0000,0000,0000,,También habrá de rango A\No inferiores defendiendo tierra y mar,
+Dialogue: 0,0:14:01.86,0:14:04.63,Gen_Main,go gunhee,0000,0000,0000,,ayudándonos a llevar a cabo la operación
+Dialogue: 0,0:14:04.78,0:14:07.32,Gen_Main,go gunhee,0000,0000,0000,,y manteniendo a todo el mundo a salvo.
+Dialogue: 0,0:14:08.33,0:14:12.25,Gen_Main,go gunhee,0000,0000,0000,,Estamos dispuestos\Na llegar hasta el final.
+Dialogue: 0,0:14:17.54,0:14:19.04,Gen_Main,byung-gu,0000,0000,0000,,Eunseok,
+Dialogue: 0,0:14:19.13,0:14:21.69,Gen_Main,byung-gu,0000,0000,0000,,si te soy sincero, tengo miedo.
+Dialogue: 0,0:14:22.13,0:14:23.97,Gen_Main,eunseok,0000,0000,0000,,Yo también.
+Dialogue: 0,0:14:25.34,0:14:30.35,Gen_Main,eunseok,0000,0000,0000,,Pero la gente que no puede luchar\Nestará aún más asustada.
+Dialogue: 0,0:14:30.97,0:14:32.25,Gen_Main,eunseok,0000,0000,0000,,Acabemos con esto.
+Dialogue: 0,0:14:32.35,0:14:35.17,Gen_Main,eunseok,0000,0000,0000,,Solo podemos hacerlo\Nlos que tenemos este poder.
+Dialogue: 0,0:14:35.56,0:14:39.05,Gen_Main,eunseok,0000,0000,0000,,No dejaremos que el país\Nse vuelva un hormiguero.
+Dialogue: 0,0:14:39.23,0:14:40.32,Gen_Main,baek,0000,0000,0000,,Idiota.
+Dialogue: 0,0:14:41.57,0:14:44.25,Gen_Main,baek,0000,0000,0000,,Las aplastaré yo mismo.
+Dialogue: 0,0:14:46.11,0:14:50.16,Gen_Main,eunseok,0000,0000,0000,,Yoonho es un peligro.\NPor su personalidad y por su fuerza.
+Dialogue: 0,0:14:50.95,0:14:53.97,Gen_Main,eunseok,0000,0000,0000,,Los que podemos apoyarlo\Nen los momentos clave
+Dialogue: 0,0:14:54.75,0:14:56.17,Gen_Main,eunseok,0000,0000,0000,,somos tú y yo.
+Dialogue: 0,0:15:07.84,0:15:11.63,Gen_Main,jinwoo,0000,0000,0000,,Increíble. En cuanto dejo de vigilarte…
+Dialogue: 0,0:15:11.85,0:15:15.45,Gen_Main,madre jinwoo,0000,0000,0000,,Bueno, mi primera tarea\Ntras cuatro años será limpiar.
+Dialogue: 0,0:15:15.56,0:15:17.43,Gen_Main,madre jinwoo,0000,0000,0000,,¿Recogemos los tres juntos?
+Dialogue: 0,0:15:19.36,0:15:21.87,Gen_Main,madre jinwoo,0000,0000,0000,,La casa ya está vieja.
+Dialogue: 0,0:15:21.98,0:15:24.13,Gen_Main,madre jinwoo,0000,0000,0000,,Cuesta quitar la suciedad.
+Dialogue: 0,0:15:24.28,0:15:27.59,Gen_Main,jinah,0000,0000,0000,,Pues claro.\NVivimos aquí desde que yo nací.
+Dialogue: 0,0:15:28.11,0:15:29.20,Gen_Main,madre jinwoo,0000,0000,0000,,Es verdad.
+Dialogue: 0,0:15:30.07,0:15:32.49,Gen_Italics,jinwoo,0000,0000,0000,,Esto es lo que quería.
+Dialogue: 0,0:15:33.29,0:15:36.13,Gen_Italics,jinwoo,0000,0000,0000,,Pero sigo intranquilo.
+Dialogue: 0,0:15:37.96,0:15:40.43,Gen_Italics,jinwoo,0000,0000,0000,,Puede que al hacer de Cazador
+Dialogue: 0,0:15:40.75,0:15:44.71,Gen_Italics,jinwoo,0000,0000,0000,,haya llegado a extremos\Nque no debía haber pisado.
+Dialogue: 0,0:15:46.59,0:15:47.59,Gen_Main,madre jinwoo,0000,0000,0000,,Jinwoo.
+Dialogue: 0,0:15:47.97,0:15:49.37,Gen_Main,jinwoo,0000,0000,0000,,¿Qué?
+Dialogue: 0,0:15:51.64,0:15:54.55,Gen_Main,madre jinwoo,0000,0000,0000,,¿Tu padre no ha dicho nada?
+Dialogue: 0,0:15:59.27,0:16:01.29,Gen_Main,madre jinwoo,0000,0000,0000,,Por cierto, he visto las noticias.
+Dialogue: 0,0:16:01.44,0:16:04.17,Gen_Main,madre jinwoo/jinwoo,0000,0000,0000,,Ahora eres Cazador, ¿eh?
+Dialogue: 0,0:16:04.23,0:16:08.21,Gen_Main,madre jinwoo,0000,0000,0000,,Tu padre era bombero\Nantes de hacerse Cazador.
+Dialogue: 0,0:16:08.49,0:16:12.74,Gen_Main,madre jinwoo,0000,0000,0000,,Me casé con él porque admiraba\Nque trabajara por los demás.
+Dialogue: 0,0:16:12.83,0:16:15.77,Gen_Main,madre jinwoo,0000,0000,0000,,Veo que tú tienes su misma sangre.
+Dialogue: 0,0:16:17.54,0:16:20.79,Gen_Main,jinah,0000,0000,0000,,Yo me estoy esforzando\Npara hacerme médico.
+Dialogue: 0,0:16:21.25,0:16:24.21,Gen_Main,madre jinwoo,0000,0000,0000,,Sí. Tú también tienes su sangre.
+Dialogue: 0,0:16:24.29,0:16:26.39,Gen_Main,jinah/madre jinwoo,0000,0000,0000,,-¡Viva! ¿Verdad que sí?\N-Sí.
+Dialogue: 0,0:16:26.92,0:16:28.15,Gen_Main,jinwoo,0000,0000,0000,,¿Sí?
+Dialogue: 0,0:16:30.43,0:16:32.55,Gen_Main,woo jinchul,0000,0000,0000,,Buen trabajo en la rueda de prensa.
+Dialogue: 0,0:16:32.85,0:16:35.97,Gen_Main,go gunhee,0000,0000,0000,,Ya. Gracias por acompañarme.
+Dialogue: 0,0:16:36.06,0:16:37.25,Gen_Main,woo jinchul,0000,0000,0000,,De nada.
+Dialogue: 0,0:16:37.77,0:16:41.15,Gen_Main,go gunhee,0000,0000,0000,,No esperaba que viniera\Nal terminar la rueda de prensa.
+Dialogue: 0,0:16:41.85,0:16:46.91,Gen_Main,woo jinchul,0000,0000,0000,,Thomas Andre, Cazador de Estados Unidos\Nde rango S nivel nacional.
+Dialogue: 0,0:16:47.61,0:16:50.79,Gen_Main,woo jinchul,0000,0000,0000,,Yo tenía esperanzas.
+Dialogue: 0,0:16:51.24,0:16:53.43,Gen_Main,go gunhee,0000,0000,0000,,Siendo cuando es, es comprensible.
+Dialogue: 0,0:16:53.82,0:16:58.93,Gen_Main,go gunhee,0000,0000,0000,,Pero un hombre con un poder\Nequiparable al de una nación
+Dialogue: 0,0:16:59.00,0:17:02.09,Gen_Main,go gunhee,0000,0000,0000,,no se inmiscuirá\Nen asuntos de otros países.
+Dialogue: 0,0:17:02.25,0:17:03.43,Gen_Main,woo jinchul,0000,0000,0000,,Cierto.
+Dialogue: 0,0:17:04.33,0:17:06.83,Gen_Main,woo jinchul,0000,0000,0000,,Pero ¿a qué ha venido, pues?
+Dialogue: 0,0:17:07.00,0:17:08.71,Gen_Main,go gunhee,0000,0000,0000,,Según dice él,
+Dialogue: 0,0:17:08.80,0:17:11.73,Gen_Main,go gunhee,0000,0000,0000,,solo estaba de viaje.
+Dialogue: 0,0:17:11.88,0:17:15.60,Gen_Main,go gunhee,0000,0000,0000,,O tal vez haya venido a hacerle\Nuna advertencia a Hwang.
+Dialogue: 0,0:17:15.68,0:17:19.83,Gen_Main,go gunhee,0000,0000,0000,,Pero también podría\Nhaber venido a ver otra cosa.
+Dialogue: 0,0:17:20.77,0:17:23.63,Gen_Main,go gunhee,0000,0000,0000,,¿Has hablado ya con Sung?
+Dialogue: 0,0:17:23.73,0:17:25.48,Gen_Main,woo jinchul,0000,0000,0000,,Sí, hace un rato, al fin.
+Dialogue: 0,0:17:25.56,0:17:27.43,Gen_Main,woo jinchul,0000,0000,0000,,No tardará en venir.
+Dialogue: 0,0:17:29.36,0:17:31.27,Gen_Main,go gunhee,0000,0000,0000,,Nos vamos en cuatro días.
+Dialogue: 0,0:17:31.90,0:17:34.77,Gen_Main,go gunhee,0000,0000,0000,,Esta incursión\Nla hemos propuesto nosotros.
+Dialogue: 0,0:17:34.87,0:17:37.12,Gen_Main,go gunhee,0000,0000,0000,,¿Podrías ayudarnos?
+Dialogue: 0,0:17:38.70,0:17:42.83,Gen_Italics,jinwoo,0000,0000,0000,,Sería una pena desperdiciar\Ntal oportunidad para subir de nivel.
+Dialogue: 0,0:17:43.62,0:17:45.83,Gen_Italics,jinwoo,0000,0000,0000,,Eso habría considerado hace poco.
+Dialogue: 0,0:17:50.67,0:17:51.87,Gen_Main,jinwoo,0000,0000,0000,,Yo…
+Dialogue: 0,0:17:53.68,0:17:55.33,Gen_Italics,jinwoo,0000,0000,0000,,¿Una onda de poder mágico?
+Dialogue: 0,0:17:56.85,0:18:00.17,Gen_Main,go gunhee,0000,0000,0000,,Cómo no.\NLo has notado incluso a esta distancia.
+Dialogue: 0,0:18:00.68,0:18:05.33,Gen_Main,go gunhee,0000,0000,0000,,Los Cazadores de rango S\Nestán calentando en el gimnasio.
+Dialogue: 0,0:18:05.94,0:18:09.49,Gen_Main,go gunhee,0000,0000,0000,,Si sientes curiosidad,\N¿quieres ir a echar un vistazo?
+Dialogue: 0,0:18:23.21,0:18:25.81,Gen_Main,ma dongwook,0000,0000,0000,,Aún eres joven, maestro Baek.
+Dialogue: 0,0:18:25.87,0:18:29.09,Gen_Main,ma dongwook,0000,0000,0000,,Deberías entrenar\Nun poco más las piernas.
+Dialogue: 0,0:18:29.17,0:18:32.67,Gen_Main,baek,0000,0000,0000,,Ahora soy un empleado corriente,\Nmaestro Ma.
+Dialogue: 0,0:18:34.17,0:18:38.67,Gen_Main,go gunhee,0000,0000,0000,,No es habitual que todos los rango S\Nestén en un mismo lugar.
+Dialogue: 0,0:18:39.18,0:18:43.91,Gen_Main,go gunhee,0000,0000,0000,,La onda de poder mágico\Nde antes debía venir de ellos.
+Dialogue: 0,0:18:44.56,0:18:46.59,Gen_Main,jinwoo,0000,0000,0000,,Baek parece estar perdiendo.
+Dialogue: 0,0:18:46.73,0:18:49.43,Gen_Main,choi jong-in,0000,0000,0000,,Si Baek usara todo su poder,
+Dialogue: 0,0:18:49.52,0:18:51.48,Gen_Main,choi jong-in,0000,0000,0000,,Ma no tendría ni una oportunidad.
+Dialogue: 0,0:18:51.98,0:18:53.19,Gen_Main,jinwoo,0000,0000,0000,,Hola.
+Dialogue: 0,0:18:53.49,0:18:58.17,Gen_Main,choi jong-in,0000,0000,0000,,El hombre del uniforme es\NMa Dongwook, del Gremio Estrella.
+Dialogue: 0,0:18:58.62,0:19:00.95,Gen_Main,jinwoo,0000,0000,0000,,¿Por qué no lucha en serio?
+Dialogue: 0,0:19:01.16,0:19:04.27,Gen_Main,jinwoo,0000,0000,0000,,No creo que tenga que contenerse con él.
+Dialogue: 0,0:19:04.50,0:19:08.01,Gen_Main,choi jong-in,0000,0000,0000,,Baek no puede darlo todo\Ndelante de otra gente.
+Dialogue: 0,0:19:08.08,0:19:12.73,Gen_Main,choi jong-in,0000,0000,0000,,Porque cuando lucha en serio\Nse vuelve un monstruo.
+Dialogue: 0,0:19:12.80,0:19:15.73,Gen_Italics,jinwoo,0000,0000,0000,,Así que es verdad que se transforma.
+Dialogue: 0,0:19:15.88,0:19:19.85,Gen_Main,choi jong-in,0000,0000,0000,,Los que están allí\Nson del Gremio de Caballería.
+Dialogue: 0,0:19:22.22,0:19:25.11,Gen_Main,choi jong-in,0000,0000,0000,,Vaya, ya han llegado.
+Dialogue: 0,0:19:26.64,0:19:29.00,Gen_Main,choi jong-in,0000,0000,0000,,Los Cazadores de rango S de Japón.
+Dialogue: 0,0:19:29.06,0:19:32.57,Gen_Main,choi jong-in,0000,0000,0000,,Y su maestro de gremio, Ryuji Goto.
+Dialogue: 0,0:19:33.94,0:19:35.28,Gen_Main,mizua,0000,0000,0000,,¿Quién es ese?
+Dialogue: 0,0:19:36.57,0:19:40.41,Gen_Main,hanekawa,0000,0000,0000,,Se llama Sung Jinwoo.\NLo han declarado de rango S hace poco.
+Dialogue: 0,0:19:40.57,0:19:42.63,Gen_Main,ryuji,0000,0000,0000,,Parece un asesino bastante capaz.
+Dialogue: 0,0:19:42.87,0:19:45.50,Gen_Main,hanekawa,0000,0000,0000,,No. Es un mago.
+Dialogue: 0,0:19:47.66,0:19:48.85,Gen_Main,ryuji,0000,0000,0000,,¿Mago? ¿Él?
+Dialogue: 0,0:19:51.54,0:19:56.45,Gen_Main,lim tae-gyu,0000,0000,0000,,Pero si es Sung, el que estropeó\Nel gran momento de Minsung.
+Dialogue: 0,0:19:57.38,0:19:59.89,Gen_Main,cha hae-in,0000,0000,0000,,Con razón algo\Nen el aire había cambiado.
+Dialogue: 0,0:20:07.35,0:20:10.91,Gen_Main,hanekawa,0000,0000,0000,,Es decepcionante saber\Nque son los mejores del país.
+Dialogue: 0,0:20:11.31,0:20:14.47,Gen_Main,hanekawa,0000,0000,0000,,Tal vez sea porque\Nle veo luchar a usted,
+Dialogue: 0,0:20:14.57,0:20:16.55,Gen_Main,hanekawa,0000,0000,0000,,pero no parecen de rango S.
+Dialogue: 0,0:20:16.86,0:20:18.57,Gen_Main,ryuji,0000,0000,0000,,No creas.
+Dialogue: 0,0:20:18.65,0:20:20.76,Gen_Main,park jongsoo,0000,0000,0000,,Cuidado con lo que decís.
+Dialogue: 0,0:20:20.82,0:20:24.27,Gen_Main,park jongsoo,0000,0000,0000,,Te estabas burlando de nosotros,\N¿no, intérprete?
+Dialogue: 0,0:20:24.37,0:20:26.47,Gen_Main,park jongsoo,0000,0000,0000,,No hace falta saber vuestro idioma.
+Dialogue: 0,0:20:26.54,0:20:28.08,Gen_Main,chiyoda?,0000,0000,0000,,Es usted increíble.
+Dialogue: 0,0:20:28.16,0:20:29.43,Gen_Main,hanekawa,0000,0000,0000,,¿Quiénes sois?
+Dialogue: 0,0:20:29.50,0:20:34.29,Gen_Main,chiyoda?,0000,0000,0000,,Este es Park Jongsoo,\Nel maestro del Gremio de Caballería.
+Dialogue: 0,0:20:34.38,0:20:37.42,Gen_Main,hanekawa,0000,0000,0000,,¿Park Jongsoo?\NNunca había oído hablar de él.
+Dialogue: 0,0:20:37.51,0:20:43.01,Gen_Main,chiyoda?,0000,0000,0000,,Tal vez sea porque es de rango A y no S,
+Dialogue: 0,0:20:43.10,0:20:46.13,Gen_Main,chiyoda?,0000,0000,0000,,pero somos uno\Nde los mejores cinco gremios.
+Dialogue: 0,0:20:46.22,0:20:48.03,Gen_Main,chiyoda?/lim tae-gyu,0000,0000,0000,,-En la incur…\N-¿Qué hacéis?
+Dialogue: 0,0:20:48.48,0:20:51.79,Gen_Main,cha hae-in,0000,0000,0000,,Será mejor que no causemos problemas.
+Dialogue: 0,0:20:51.90,0:20:55.29,Gen_Main,park jongsoo,0000,0000,0000,,No es eso. Es que nos estaban\Nllamando flojos.
+Dialogue: 0,0:20:55.36,0:20:57.41,Gen_Main,lim tae-gyu,0000,0000,0000,,Cálmate, hombre.
+Dialogue: 0,0:20:57.48,0:20:58.69,Gen_Main,ryuji,0000,0000,0000,,Nos viene bien.
+Dialogue: 0,0:20:58.78,0:21:03.19,Gen_Main,ryuji/hanekawa,0000,0000,0000,,Hagamos un combate amistoso\Nentre Cazadores de rango S.
+Dialogue: 0,0:21:04.12,0:21:06.16,Gen_Main,park jongsoo,0000,0000,0000,,¿A mí me marginas?
+Dialogue: 0,0:21:06.24,0:21:09.43,Gen_Main,ryuji,0000,0000,0000,,Podéis decidir los detalles vosotros.
+Dialogue: 0,0:21:09.96,0:21:11.27,Gen_Main,go gunhee,0000,0000,0000,,Me parece bien.
+Dialogue: 0,0:21:11.96,0:21:18.29,Gen_Main,go gunhee,0000,0000,0000,,Aunque será mejor excluir a los magos\Ny no combatientes para simplificarlo.
+Dialogue: 0,0:21:18.63,0:21:19.84,Gen_Main,ryuji,0000,0000,0000,,De acuerdo.
+Dialogue: 0,0:21:19.92,0:21:23.21,Gen_Main,baek,0000,0000,0000,,Bien, solo participaremos\Nlos combatientes.
+Dialogue: 0,0:21:23.39,0:21:26.29,Gen_Main,baek,0000,0000,0000,,Perdemos si nos tocan la espalda,
+Dialogue: 0,0:21:26.43,0:21:29.05,Gen_Main,baek,0000,0000,0000,,nos cogen la muñeca\No acabamos en el suelo.
+Dialogue: 0,0:21:29.14,0:21:32.23,Gen_Main,baek,0000,0000,0000,,Y no serán combates uno contra uno.
+Dialogue: 0,0:21:32.35,0:21:34.31,Gen_Main,baek,0000,0000,0000,,Lucharemos todos a la vez.
+Dialogue: 0,0:21:35.11,0:21:38.79,Gen_Main,baek,0000,0000,0000,,Porque prevemos que nos espera\Nuna batalla caótica.
+Dialogue: 0,0:21:42.28,0:21:44.63,Gen_Main,ryuji,0000,0000,0000,,Entendido. Me parece bien.
+Dialogue: 0,0:21:47.24,0:21:53.31,Gen_Main,go gunhee,0000,0000,0000,,Nuestro equipo contará\Ncon Cha, Lim, Ma y Baek.
+Dialogue: 0,0:21:53.37,0:21:58.25,Gen_Main,ryuji,0000,0000,0000,,El nuestro, con Tawata,\NKumamoto, Hoshino y Tanaka.
+Dialogue: 0,0:21:59.92,0:22:03.99,Gen_Main,go gunhee,0000,0000,0000,,Muy bien.\NQue empiece el combate amistoso.
+Dialogue: 0,0:23:34.06,0:23:36.02,Cart_A_Tre,CARTEL,0000,0000,0000,,{\fad(0,0)\b1\fs12\blur0\3c&H506840&\bord0\3a&H6F&}Traducción: Iris de la Fuente
+Dialogue: 0,0:23:37.23,0:23:41.02,Cart_A_Tre,CARTEL,0000,0000,0000,,{\bord2\fs16\blur2\fad(600,0)\c&HFBDBF6&\pos(357,193)\3c&HCA2383&\b1\frx8\t(\frx0\3c&H50011F&)}Necesitamos un héroe

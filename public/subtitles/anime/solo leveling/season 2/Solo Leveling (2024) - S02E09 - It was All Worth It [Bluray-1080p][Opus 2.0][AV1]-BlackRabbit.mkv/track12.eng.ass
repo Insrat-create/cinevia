@@ -1,0 +1,527 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: Kitsune-HentaiBot [http://www.crunchyroll.com/user/HentaiBot]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+LayoutResX: 640
+LayoutResY: 360
+Timer: 0.0000
+WrapStyle: 0
+ScarledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H00FF0000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.5,2,10,10,18,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:36.93,0:01:39.35,Default,,0,0,0,,[SUNG JINWOO] The purified\Nblood of the demon monarch.
+Dialogue: 0,0:01:39.43,0:01:41.56,Default,,0,0,0,,I finally have\Nall the ingredients.
+Dialogue: 0,0:01:41.64,0:01:43.73,Default,,0,0,0,,♪
+Dialogue: 0,0:01:43.81,0:01:45.10,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:01:45.19,0:01:48.86,Default,,0,0,0,,The success rate and quantity\Ndepend on my intellect stats?
+Dialogue: 0,0:01:49.94,0:01:51.65,Default,,0,0,0,,Is everything all right,\NSir Jinwoo?
+Dialogue: 0,0:01:53.11,0:01:54.28,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:01:55.95,0:01:57.49,Default,,0,0,0,,Craft it.
+Dialogue: 0,0:01:57.58,0:01:59.29,Default,,0,0,0,,♪
+Dialogue: 0,0:02:09.71,0:02:11.92,Default,,0,0,0,,♪
+Dialogue: 0,0:02:13.17,0:02:14.30,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:02:15.09,0:02:16.26,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:02:17.14,0:02:19.14,Default,,0,0,0,,[SUNG JINWOO]\NThe Elixir of Life.
+Dialogue: 0,0:02:19.22,0:02:20.47,Default,,0,0,0,,This is it.
+Dialogue: 0,0:02:20.56,0:02:22.35,Default,,0,0,0,,The thing that will cure Mom.
+Dialogue: 0,0:02:22.43,0:02:24.48,Default,,0,0,0,,At least...\NI hope.
+Dialogue: 0,0:02:24.56,0:02:25.65,Default,,0,0,0,,-[rumbling]\N-Uh?
+Dialogue: 0,0:02:25.73,0:02:27.73,Default,,0,0,0,,Ah?
+Dialogue: 0,0:02:27.81,0:02:29.07,Default,,0,0,0,,[thudding]
+Dialogue: 0,0:02:29.15,0:02:30.32,Default,,0,0,0,,[SUNG JINWOO]\NOh, Iron.
+Dialogue: 0,0:02:30.40,0:02:32.03,Default,,0,0,0,,[chuckles]\NThanks, buddy!
+Dialogue: 0,0:02:35.11,0:02:36.66,Default,,0,0,0,,Arise.
+Dialogue: 0,0:02:36.74,0:02:38.87,Default,,0,0,0,,♪
+Dialogue: 0,0:02:43.45,0:02:44.79,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:02:46.25,0:02:47.29,Default,,0,0,0,,Hm?
+Dialogue: 0,0:02:47.38,0:02:49.13,Default,,0,0,0,,[SUNG JINWOO]\NA name. Uh, right.
+Dialogue: 0,0:02:49.21,0:02:50.88,Default,,0,0,0,,Um, what was it?
+Dialogue: 0,0:02:50.96,0:02:53.38,Default,,0,0,0,,Kaise... No, Karka something?\N[clicks tongue]
+Dialogue: 0,0:02:53.46,0:02:54.47,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:02:54.55,0:02:57.84,Default,,0,0,0,,[ESIL] Remembering names isn't\Nreally your strong suit, is it?
+Dialogue: 0,0:02:57.93,0:02:59.30,Default,,0,0,0,,[SUNG JINWOO]\NWhatever.
+Dialogue: 0,0:02:59.39,0:03:02.39,Default,,0,0,0,,I'mma call you...Kaisel.
+Dialogue: 0,0:03:03.31,0:03:04.98,Default,,0,0,0,,[roars]
+Dialogue: 0,0:03:07.69,0:03:09.73,Default,,0,0,0,,[ESIL]\NHe can fly us home in no time!
+Dialogue: 0,0:03:09.81,0:03:11.52,Default,,0,0,0,,I just know Father\Nwill be thrilled
+Dialogue: 0,0:03:11.61,0:03:13.94,Default,,0,0,0,,and want to hold a grand\Ncelebration at the castle!
+Dialogue: 0,0:03:14.78,0:03:16.53,Default,,0,0,0,,Huh?\NSir Jinwoo?
+Dialogue: 0,0:03:16.61,0:03:17.41,Default,,0,0,0,,[SUNG JINWOO]\NI've gotta get back
+Dialogue: 0,0:03:17.57,0:03:18.61,Default,,0,0,0,,-as soon as possible...\N-Hello?!
+Dialogue: 0,0:03:18.70,0:03:20.53,Default,,0,0,0,,-...to test the Elixir.\N-Are you listening to me?
+Dialogue: 0,0:03:20.62,0:03:23.41,Default,,0,0,0,,Wait, I should have\Na new rune stone.
+Dialogue: 0,0:03:23.49,0:03:26.58,Default,,0,0,0,,-[ESIL] A fun, lavish party!\N-[SUNG JINWOO] Not those.
+Dialogue: 0,0:03:26.66,0:03:28.00,Default,,0,0,0,,[SUNG JINWOO]\NNot that, either.
+Dialogue: 0,0:03:28.08,0:03:29.46,Default,,0,0,0,,C'mon, let's see.
+Dialogue: 0,0:03:30.46,0:03:32.00,Default,,0,0,0,,Ah, here we go.
+Dialogue: 0,0:03:32.09,0:03:33.71,Default,,0,0,0,,♪
+Dialogue: 0,0:03:37.97,0:03:40.09,Default,,0,0,0,,Shadow Exchange.
+Dialogue: 0,0:03:40.18,0:03:41.18,Default,,0,0,0,,Oh, nice!
+Dialogue: 0,0:03:41.26,0:03:42.60,Default,,0,0,0,,So that means\NI can switch places
+Dialogue: 0,0:03:42.68,0:03:45.06,Default,,0,0,0,,with any of my shadow soldiers?
+Dialogue: 0,0:03:45.14,0:03:46.68,Default,,0,0,0,,I like that.
+Dialogue: 0,0:03:46.77,0:03:48.19,Default,,0,0,0,,Hm?
+Dialogue: 0,0:03:48.27,0:03:49.60,Default,,0,0,0,,[SUNG JINWOO]\NSorry, Esil, but you'll need
+Dialogue: 0,0:03:49.69,0:03:50.77,Default,,0,0,0,,to head back on your own.
+Dialogue: 0,0:03:50.86,0:03:52.73,Default,,0,0,0,,[ESIL] What about the fun,\Nlavish party?
+Dialogue: 0,0:03:52.82,0:03:53.90,Default,,0,0,0,,[SUNG JINWOO]\NAh, the Radish manor's
+Dialogue: 0,0:03:53.98,0:03:55.15,Default,,0,0,0,,on the 80th floor.
+Dialogue: 0,0:03:55.23,0:03:57.15,Default,,0,0,0,,That's a bit\Noutta the way for me.
+Dialogue: 0,0:03:57.24,0:03:58.45,Default,,0,0,0,,[ESIL]\NIt is?
+Dialogue: 0,0:03:59.45,0:04:01.62,Default,,0,0,0,,Let's meet again\Nif fate allows it.
+Dialogue: 0,0:04:01.70,0:04:03.62,Default,,0,0,0,,-Take care, okay.\N-[gasps]
+Dialogue: 0,0:04:03.70,0:04:05.29,Default,,0,0,0,,I have one last thing to say!
+Dialogue: 0,0:04:08.83,0:04:10.21,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:04:10.29,0:04:11.88,Default,,0,0,0,,Ah!
+Dialogue: 0,0:04:11.96,0:04:13.54,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:04:13.63,0:04:15.00,Default,,0,0,0,,♪
+Dialogue: 0,0:04:21.30,0:04:22.89,Default,,0,0,0,,[SUNG JINWOO] This is where\Nhe was patrolling.
+Dialogue: 0,0:04:22.97,0:04:24.35,Default,,0,0,0,,We really switched.
+Dialogue: 0,0:04:24.43,0:04:25.47,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:04:25.56,0:04:27.23,Default,,0,0,0,,It's got a three hour\Ncooldown time,
+Dialogue: 0,0:04:27.31,0:04:29.31,Default,,0,0,0,,but I'm not about to walk, so!
+Dialogue: 0,0:04:29.39,0:04:31.23,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:04:31.31,0:04:32.48,Default,,0,0,0,,Kaisel!
+Dialogue: 0,0:04:32.56,0:04:34.32,Default,,0,0,0,,[electricity crackling]
+Dialogue: 0,0:04:36.07,0:04:37.65,Default,,0,0,0,,[roars]
+Dialogue: 0,0:04:38.78,0:04:41.07,Default,,0,0,0,,[GO GUNHEE] The Japanese\Nhunters will act as bait.
+Dialogue: 0,0:04:41.16,0:04:44.24,Default,,0,0,0,,Once the ants are drawn out,\Nwe'll use a special signal
+Dialogue: 0,0:04:44.33,0:04:46.29,Default,,0,0,0,,to disrupt their hive mind.
+Dialogue: 0,0:04:46.37,0:04:49.08,Default,,0,0,0,,Then we'll send a detachment\Nof hunters into the colony
+Dialogue: 0,0:04:49.16,0:04:50.58,Default,,0,0,0,,while it's vulnerable.
+Dialogue: 0,0:04:50.67,0:04:52.04,Default,,0,0,0,,They'll take out\Nwhatever's left
+Dialogue: 0,0:04:52.12,0:04:53.84,Default,,0,0,0,,and kill the queen.
+Dialogue: 0,0:04:53.92,0:04:55.75,Default,,0,0,0,,Only question is\Nwhether or not the signal
+Dialogue: 0,0:04:55.84,0:04:57.76,Default,,0,0,0,,will function the way\Nit should.
+Dialogue: 0,0:04:57.84,0:04:59.30,Default,,0,0,0,,[Go Gunhee sighs]
+Dialogue: 0,0:04:59.38,0:05:02.47,Default,,0,0,0,,Yes, I can't deny I have doubts\Nabout this strategy.
+Dialogue: 0,0:05:02.55,0:05:03.68,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:05:03.76,0:05:05.60,Default,,0,0,0,,However, our analysts\Nsigned off on it,
+Dialogue: 0,0:05:05.68,0:05:07.43,Default,,0,0,0,,and it make sense on paper.
+Dialogue: 0,0:05:07.52,0:05:09.27,Default,,0,0,0,,In the event\Nthe signal should fail,
+Dialogue: 0,0:05:09.35,0:05:12.44,Default,,0,0,0,,withdrawal was also included\Nas a contingency plan.
+Dialogue: 0,0:05:12.52,0:05:14.19,Default,,0,0,0,,♪
+Dialogue: 0,0:05:14.27,0:05:16.65,Default,,0,0,0,,All we can do now\Nis prepare our team.
+Dialogue: 0,0:05:16.73,0:05:18.23,Default,,0,0,0,,When it comes time to act,
+Dialogue: 0,0:05:18.32,0:05:21.20,Default,,0,0,0,,our hunters\Nwill be ready for anything.
+Dialogue: 0,0:05:21.28,0:05:22.91,Default,,0,0,0,,Right.
+Dialogue: 0,0:05:22.99,0:05:24.66,Default,,0,0,0,,[GO GUNHEE]\NOn that note...
+Dialogue: 0,0:05:24.74,0:05:27.08,Default,,0,0,0,,were you able\Nto reach Hunter Sung?
+Dialogue: 0,0:05:27.16,0:05:28.62,Default,,0,0,0,,[WOO JINCHUL]\NNo, not yet, sir.
+Dialogue: 0,0:05:28.70,0:05:29.91,Default,,0,0,0,,[groans]
+Dialogue: 0,0:05:31.37,0:05:33.04,Default,,0,0,0,,[MIN BYUNG-GU]\NYoonho, c'mon!
+Dialogue: 0,0:05:33.12,0:05:34.50,Default,,0,0,0,,Getting drinks\Nshould be relaxing,
+Dialogue: 0,0:05:34.58,0:05:36.54,Default,,0,0,0,,but you can't even\Ncrack a smile?
+Dialogue: 0,0:05:36.63,0:05:39.01,Default,,0,0,0,,I know how funny\Nthat story I just told you is.
+Dialogue: 0,0:05:39.09,0:05:39.96,Default,,0,0,0,,[gulps]
+Dialogue: 0,0:05:40.09,0:05:42.84,Default,,0,0,0,,Sorry, guess I missed\Nthe punchline.
+Dialogue: 0,0:05:42.93,0:05:45.30,Default,,0,0,0,,Well, frowning's only gonna\Ngive you wrinkles, man.
+Dialogue: 0,0:05:45.39,0:05:47.64,Default,,0,0,0,,-What the hell does that mean?\N-[laughs]
+Dialogue: 0,0:05:49.77,0:05:52.10,Default,,0,0,0,,[BAEK YOONHO] Hard not to envy\Na guy like Byung-gu.
+Dialogue: 0,0:05:52.19,0:05:54.56,Default,,0,0,0,,You don't meet\Nmany S-rank healers,
+Dialogue: 0,0:05:54.65,0:05:56.65,Default,,0,0,0,,let alone ones\Nwho retired so young
+Dialogue: 0,0:05:56.73,0:05:59.36,Default,,0,0,0,,with all their limbs and their\Nsense of humor intact.
+Dialogue: 0,0:06:00.86,0:06:02.03,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:06:02.11,0:06:03.78,Default,,0,0,0,,But as his former comrade,
+Dialogue: 0,0:06:03.86,0:06:06.37,Default,,0,0,0,,I'm happy he's still\Nin such good spirits.
+Dialogue: 0,0:06:08.16,0:06:09.74,Default,,0,0,0,,Ah, thanks.
+Dialogue: 0,0:06:09.83,0:06:11.33,Default,,0,0,0,,-[MIN BYUNG-GU] Yoonho.\N-Hm?
+Dialogue: 0,0:06:12.41,0:06:14.08,Default,,0,0,0,,Are you really gonna\Ngo back there?
+Dialogue: 0,0:06:15.21,0:06:16.58,Default,,0,0,0,,I am.
+Dialogue: 0,0:06:17.71,0:06:20.00,Default,,0,0,0,,Even after seeing the way\NEunseok went out?
+Dialogue: 0,0:06:20.09,0:06:21.71,Default,,0,0,0,,♪
+Dialogue: 0,0:06:23.26,0:06:24.84,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:06:24.93,0:06:26.55,Default,,0,0,0,,[BAEK YOONHO]\NEspecially after that.
+Dialogue: 0,0:06:27.89,0:06:30.06,Default,,0,0,0,,If we don't put a stop\Nto these flying ants,
+Dialogue: 0,0:06:30.14,0:06:32.77,Default,,0,0,0,,they'll infest the whole\Ncountry and more will die.
+Dialogue: 0,0:06:32.85,0:06:34.44,Default,,0,0,0,,Funny, since you've\Nnever struck me
+Dialogue: 0,0:06:34.52,0:06:35.85,Default,,0,0,0,,as a patriot until now.
+Dialogue: 0,0:06:35.94,0:06:37.61,Default,,0,0,0,,Well, I'm going either way,\Nbut I thought
+Dialogue: 0,0:06:37.69,0:06:40.90,Default,,0,0,0,,a noble-sounding excuse would\Nmake people think I'm cool.
+Dialogue: 0,0:06:40.98,0:06:42.07,Default,,0,0,0,,[gulps]
+Dialogue: 0,0:06:42.15,0:06:43.15,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:06:43.24,0:06:44.57,Default,,0,0,0,,[chuckles]
+Dialogue: 0,0:06:44.65,0:06:46.61,Default,,0,0,0,,I guess he did tell us\Nthe same thing,
+Dialogue: 0,0:06:46.70,0:06:48.16,Default,,0,0,0,,or something close.
+Dialogue: 0,0:06:48.24,0:06:49.87,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:06:49.95,0:06:52.20,Default,,0,0,0,,I know they need\NS-ranks, but I'm retired.
+Dialogue: 0,0:06:52.29,0:06:53.91,Default,,0,0,0,,So, if you were gonna\Ntry to convince me--
+Dialogue: 0,0:06:54.00,0:06:56.17,Default,,0,0,0,,[BAEK YOONHO] Look,\NI just wanted to say goodbye,
+Dialogue: 0,0:06:56.25,0:06:58.25,Default,,0,0,0,,since I might not\Never see you again.
+Dialogue: 0,0:06:58.33,0:07:00.71,Default,,0,0,0,,♪
+Dialogue: 0,0:07:00.80,0:07:03.17,Default,,0,0,0,,[MIN BYUNG-GU] I'm, uh,\Ntaking the civil service exam.
+Dialogue: 0,0:07:03.97,0:07:05.34,Default,,0,0,0,,Then, you aren't retired.
+Dialogue: 0,0:07:06.30,0:07:08.22,Default,,0,0,0,,[MIN BYUNG-GU]\NI am, from the battlefield.
+Dialogue: 0,0:07:08.30,0:07:09.97,Default,,0,0,0,,It's just too much for me.
+Dialogue: 0,0:07:10.05,0:07:11.60,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:07:11.68,0:07:13.27,Default,,0,0,0,,So, I'll get a government job.
+Dialogue: 0,0:07:14.60,0:07:16.27,Default,,0,0,0,,The history part's\Ngonna be cake.
+Dialogue: 0,0:07:16.35,0:07:17.90,Default,,0,0,0,,Not sure about the rest.
+Dialogue: 0,0:07:17.98,0:07:19.77,Default,,0,0,0,,You always were a history buff.
+Dialogue: 0,0:07:19.86,0:07:21.02,Default,,0,0,0,,[MIN BYUNG-GU]\NHave I ever told you
+Dialogue: 0,0:07:21.11,0:07:22.90,Default,,0,0,0,,why I love period dramas\Nso much?
+Dialogue: 0,0:07:22.98,0:07:24.53,Default,,0,0,0,,Enlighten me.
+Dialogue: 0,0:07:24.61,0:07:26.95,Default,,0,0,0,,Because...\Nthey're all in the past.
+Dialogue: 0,0:07:27.82,0:07:31.28,Default,,0,0,0,,And if you ask me, that's\Nthe only place war belongs.
+Dialogue: 0,0:07:31.37,0:07:32.54,Default,,0,0,0,,Fair enough,
+Dialogue: 0,0:07:32.62,0:07:33.79,Default,,0,0,0,,can't argue that.
+Dialogue: 0,0:07:34.87,0:07:36.96,Default,,0,0,0,,[BAEK YOONHO] Any normal person\Nwould say the same.
+Dialogue: 0,0:07:37.92,0:07:40.21,Default,,0,0,0,,But hunters aren't normal.
+Dialogue: 0,0:07:40.29,0:07:42.17,Default,,0,0,0,,Don't think I've met one\Nwho doesn't like fighting
+Dialogue: 0,0:07:42.25,0:07:43.96,Default,,0,0,0,,apart from Byung-gu.
+Dialogue: 0,0:07:44.05,0:07:45.63,Default,,0,0,0,,Combat becomes routine.
+Dialogue: 0,0:07:45.72,0:07:47.38,Default,,0,0,0,,We almost have to enjoy it.
+Dialogue: 0,0:07:47.47,0:07:49.05,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:07:49.14,0:07:51.97,Default,,0,0,0,,[BAEK YOONHO] Maybe that trait\Nis a condition for awakening.
+Dialogue: 0,0:07:52.05,0:07:53.85,Default,,0,0,0,,[MIN BYUNG-GU]\NYoonho, your forehead!
+Dialogue: 0,0:07:53.93,0:07:55.43,Default,,0,0,0,,You're trying to get wrinkles,\Naren't you?
+Dialogue: 0,0:07:55.52,0:07:58.35,Default,,0,0,0,,[BAEK YOONHO] Uh!\NShut up and drink!
+Dialogue: 0,0:07:58.44,0:08:00.86,Default,,0,0,0,,You indulge\Nlike a college boy, though.
+Dialogue: 0,0:08:00.94,0:08:02.61,Default,,0,0,0,,Ah!
+Dialogue: 0,0:08:02.69,0:08:03.82,Default,,0,0,0,,[chuckles]
+Dialogue: 0,0:08:03.90,0:08:05.82,Default,,0,0,0,,[BAEK YOONHO]\NIndulge this, jackass.
+Dialogue: 0,0:08:07.74,0:08:09.32,Default,,0,0,0,,[machine beeping]
+Dialogue: 0,0:08:17.00,0:08:18.33,Default,,0,0,0,,[metal clattering]
+Dialogue: 0,0:08:20.17,0:08:22.08,Default,,0,0,0,,[Sung Jinwoo trembling]
+Dialogue: 0,0:08:22.84,0:08:24.09,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:08:26.13,0:08:27.22,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:08:27.30,0:08:28.84,Default,,0,0,0,,[sobbing]
+Dialogue: 0,0:08:29.97,0:08:32.35,Default,,0,0,0,,[SUNG JINWOO] She got\Nthose burns because of me.
+Dialogue: 0,0:08:36.89,0:08:37.98,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:08:41.31,0:08:43.23,Default,,0,0,0,,[machine beeping]
+Dialogue: 0,0:08:44.23,0:08:46.40,Default,,0,0,0,,She might not be\Nable to swallow it.
+Dialogue: 0,0:08:46.48,0:08:48.24,Default,,0,0,0,,And even if she does,
+Dialogue: 0,0:08:48.32,0:08:49.78,Default,,0,0,0,,there are no guarantees.
+Dialogue: 0,0:08:51.82,0:08:54.45,Default,,0,0,0,,But...I've seen\Nthe kind of miracles
+Dialogue: 0,0:08:54.53,0:08:56.04,Default,,0,0,0,,the system is capable of.
+Dialogue: 0,0:08:57.83,0:09:00.50,Default,,0,0,0,,It brought me from an E-rank\Nto where I am now.
+Dialogue: 0,0:09:00.58,0:09:02.12,Default,,0,0,0,,[machine beeping]
+Dialogue: 0,0:09:02.21,0:09:03.71,Default,,0,0,0,,[deep inhales]
+Dialogue: 0,0:09:03.79,0:09:05.42,Default,,0,0,0,,I need to have faith.
+Dialogue: 0,0:09:06.67,0:09:08.71,Default,,0,0,0,,[machine beeping]
+Dialogue: 0,0:09:12.68,0:09:14.18,Default,,0,0,0,,[footfall]
+Dialogue: 0,0:09:33.11,0:09:36.12,Default,,0,0,0,,[deep breath]
+Dialogue: 0,0:09:36.45,0:09:38.74,Default,,0,0,0,,♪
+Dialogue: 0,0:09:45.75,0:09:46.96,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:09:53.09,0:09:54.34,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:10:02.60,0:10:03.73,Default,,0,0,0,,Hm.
+Dialogue: 0,0:10:04.60,0:10:05.86,Default,,0,0,0,,Mom.
+Dialogue: 0,0:10:05.94,0:10:07.52,Default,,0,0,0,,♪
+Dialogue: 0,0:10:10.61,0:10:11.74,Default,,0,0,0,,Come on,
+Dialogue: 0,0:10:11.82,0:10:13.82,Default,,0,0,0,,you've gotta wake up!
+Dialogue: 0,0:10:13.91,0:10:15.95,Default,,0,0,0,,Everything I've gone through\Nto get stronger,
+Dialogue: 0,0:10:16.03,0:10:17.74,Default,,0,0,0,,it was all for you.
+Dialogue: 0,0:10:18.45,0:10:21.25,Default,,0,0,0,,[deep breath]
+Dialogue: 0,0:10:21.33,0:10:23.04,Default,,0,0,0,,Open your eyes, Mom.
+Dialogue: 0,0:10:23.12,0:10:24.37,Default,,0,0,0,,[whimpering]\NPlease.
+Dialogue: 0,0:10:24.46,0:10:26.21,Default,,0,0,0,,♪
+Dialogue: 0,0:10:26.29,0:10:27.59,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:10:28.38,0:10:30.42,Default,,0,0,0,,[inhales]\NWhat is going on with me?
+Dialogue: 0,0:10:30.51,0:10:32.38,Default,,0,0,0,,I can't seem\Nto focus at all today.
+Dialogue: 0,0:10:34.01,0:10:35.30,Default,,0,0,0,,[vehicle passing]
+Dialogue: 0,0:10:35.38,0:10:37.76,Default,,0,0,0,,[deep breath]
+Dialogue: 0,0:10:37.85,0:10:39.56,Default,,0,0,0,,[wind rustling]
+Dialogue: 0,0:10:43.02,0:10:44.89,Default,,0,0,0,,[SUNG JINAH]\NThat warm breeze feels nice.
+Dialogue: 0,0:10:44.98,0:10:47.02,Default,,0,0,0,,♪
+Dialogue: 0,0:11:01.95,0:11:03.20,Default,,0,0,0,,[curtains rustling]
+Dialogue: 0,0:11:07.21,0:11:08.58,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:11:10.13,0:11:11.34,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:11:16.76,0:11:18.26,Default,,0,0,0,,Hey...
+Dialogue: 0,0:11:18.34,0:11:19.72,Default,,0,0,0,,sweet boy.
+Dialogue: 0,0:11:20.51,0:11:22.52,Default,,0,0,0,,[Sung Jinwoo whimpering]
+Dialogue: 0,0:11:22.60,0:11:24.64,Default,,0,0,0,,[PARK KYUNG-HYE]\NHow long have I been asleep?
+Dialogue: 0,0:11:27.23,0:11:28.77,Default,,0,0,0,,Four...
+Dialogue: 0,0:11:28.86,0:11:30.36,Default,,0,0,0,,Four years.
+Dialogue: 0,0:11:30.44,0:11:31.77,Default,,0,0,0,,And Jinah?
+Dialogue: 0,0:11:32.28,0:11:33.44,Default,,0,0,0,,[sniffles]
+Dialogue: 0,0:11:33.53,0:11:34.74,Default,,0,0,0,,She's doing really well.
+Dialogue: 0,0:11:34.82,0:11:36.07,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:11:38.53,0:11:40.62,Default,,0,0,0,,Then you're both okay.
+Dialogue: 0,0:11:40.70,0:11:41.78,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:11:41.87,0:11:44.25,Default,,0,0,0,,[PARK KYUNG-HYE] Thank you\Nfor keeping your promise.
+Dialogue: 0,0:11:44.33,0:11:46.91,Default,,0,0,0,,♪
+Dialogue: 0,0:11:47.00,0:11:49.71,Default,,0,0,0,,Look at how much\Nyou've grown up,
+Dialogue: 0,0:11:49.79,0:11:52.38,Default,,0,0,0,,you're covered\Nin scrapes and bruises.
+Dialogue: 0,0:11:52.46,0:11:55.80,Default,,0,0,0,,Baby, you must've been through\Nso much this whole time.
+Dialogue: 0,0:11:56.67,0:11:58.89,Default,,0,0,0,,[whimpering]
+Dialogue: 0,0:12:00.76,0:12:02.39,Default,,0,0,0,,I am so proud of you.
+Dialogue: 0,0:12:02.47,0:12:03.85,Default,,0,0,0,,♪
+Dialogue: 0,0:12:06.35,0:12:08.81,Default,,0,0,0,,-[crying]\N-[PARK KYUNG-HYE] Hey, hey.
+Dialogue: 0,0:12:10.81,0:12:12.23,Default,,0,0,0,,I'm okay.
+Dialogue: 0,0:12:12.32,0:12:14.69,Default,,0,0,0,,[crying]\NI'm okay.
+Dialogue: 0,0:12:14.78,0:12:17.65,Default,,0,0,0,,[weeping]
+Dialogue: 0,0:12:17.74,0:12:20.41,Default,,0,0,0,,♪
+Dialogue: 0,0:12:25.08,0:12:26.58,Default,,0,0,0,,I'm okay.
+Dialogue: 0,0:12:29.33,0:12:30.75,Default,,0,0,0,,You've done so well...
+Dialogue: 0,0:12:31.75,0:12:32.96,Default,,0,0,0,,Jinwoo.
+Dialogue: 0,0:12:33.04,0:12:34.96,Default,,0,0,0,,[crying]
+Dialogue: 0,0:12:35.05,0:12:37.22,Default,,0,0,0,,♪
+Dialogue: 0,0:12:38.17,0:12:40.89,Default,,0,0,0,,[sobbing]
+Dialogue: 0,0:12:42.85,0:12:44.93,Default,,0,0,0,,[HEAD DOCTOR 21A]\NShe awoke from Eternal Sleep?
+Dialogue: 0,0:12:45.01,0:12:47.68,Default,,0,0,0,,[DOCTOR 21A] As hard\Nas it is to believe, yes.
+Dialogue: 0,0:12:47.77,0:12:49.89,Default,,0,0,0,,Her family has requested\Nimmediate release,
+Dialogue: 0,0:12:49.98,0:12:53.02,Default,,0,0,0,,and seeing as all of her vitals\Nare functioning normally,
+Dialogue: 0,0:12:53.11,0:12:54.69,Default,,0,0,0,,I have no reason to deny them.
+Dialogue: 0,0:12:54.77,0:12:56.36,Default,,0,0,0,,♪
+Dialogue: 0,0:12:57.69,0:12:59.74,Default,,0,0,0,,[whimpering]
+Dialogue: 0,0:13:00.57,0:13:02.20,Default,,0,0,0,,You're beautiful.
+Dialogue: 0,0:13:02.28,0:13:03.99,Default,,0,0,0,,Jinah.
+Dialogue: 0,0:13:04.08,0:13:06.70,Default,,0,0,0,,[sobbing]\NYou're okay!
+Dialogue: 0,0:13:09.54,0:13:11.67,Default,,0,0,0,,[PARK KYUNG-HYE]\NI'm sorry I worried you.
+Dialogue: 0,0:13:11.75,0:13:13.38,Default,,0,0,0,,[Sung Jinah sobbing]
+Dialogue: 0,0:13:14.29,0:13:16.46,Default,,0,0,0,,[SUNG JINWOO] [chuckles]\NIt was all worth it.
+Dialogue: 0,0:13:17.34,0:13:20.84,Default,,0,0,0,,This...is the reward\NI wanted the whole time.
+Dialogue: 0,0:13:20.93,0:13:22.39,Default,,0,0,0,,[camera shutter clicking]
+Dialogue: 0,0:13:24.68,0:13:25.85,Default,,0,0,0,,First, thank you for coming
+Dialogue: 0,0:13:25.93,0:13:28.52,Default,,0,0,0,,and providing coverage\Non this matter.
+Dialogue: 0,0:13:28.60,0:13:30.85,Default,,0,0,0,,As you're aware,\Nthe giant ants from Jeju
+Dialogue: 0,0:13:30.94,0:13:32.31,Default,,0,0,0,,are now capable of flight,
+Dialogue: 0,0:13:32.40,0:13:33.94,Default,,0,0,0,,and have even escaped\Nthe island,
+Dialogue: 0,0:13:34.02,0:13:36.36,Default,,0,0,0,,leaving death\Nand devastation in their wake.
+Dialogue: 0,0:13:36.44,0:13:38.19,Default,,0,0,0,,It cannot continue.
+Dialogue: 0,0:13:38.28,0:13:41.36,Default,,0,0,0,,Thus, on behalf\Nof the Hunter's Association,
+Dialogue: 0,0:13:41.45,0:13:42.99,Default,,0,0,0,,I'm announcing our fourth raid
+Dialogue: 0,0:13:43.07,0:13:46.08,Default,,0,0,0,,to contain the Jeju Island\Ndungeon break.
+Dialogue: 0,0:13:46.16,0:13:48.04,Default,,0,0,0,,This time,\Nwe won't just be relying
+Dialogue: 0,0:13:48.12,0:13:49.58,Default,,0,0,0,,on our own country's strength.
+Dialogue: 0,0:13:50.66,0:13:53.88,Default,,0,0,0,,We'll have the prowess and\Nsupport of ten S-rank hunters
+Dialogue: 0,0:13:53.96,0:13:55.42,Default,,0,0,0,,from Japan as well.
+Dialogue: 0,0:13:56.34,0:13:58.71,Default,,0,0,0,,But this isn't a purely\NS-rank operation
+Dialogue: 0,0:13:58.80,0:14:00.38,Default,,0,0,0,,by any means.
+Dialogue: 0,0:14:00.46,0:14:03.13,Default,,0,0,0,,We want to ensure\Nthe safety of the public.
+Dialogue: 0,0:14:03.22,0:14:05.85,Default,,0,0,0,,So, A-ranks and below\Nwill protect the waters
+Dialogue: 0,0:14:05.93,0:14:06.97,Default,,0,0,0,,and the mainland.
+Dialogue: 0,0:14:07.05,0:14:08.39,Default,,0,0,0,,♪
+Dialogue: 0,0:14:08.47,0:14:11.98,Default,,0,0,0,,Our plan is set, and we will\Nsee it through to the end.
+Dialogue: 0,0:14:12.06,0:14:13.48,Default,,0,0,0,,[camera shutter clicking]
+Dialogue: 0,0:14:14.52,0:14:15.77,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:14:16.86,0:14:17.86,Default,,0,0,0,,[snoring]
+Dialogue: 0,0:14:17.94,0:14:19.36,Default,,0,0,0,,[MIN BYUNG-GU]\NHonestly, Eunseok.
+Dialogue: 0,0:14:19.44,0:14:22.03,Default,,0,0,0,,I'm straight terrified\Nof this upcoming raid.
+Dialogue: 0,0:14:22.11,0:14:23.91,Default,,0,0,0,,Yeah, I'm pretty\Nscared too, man.
+Dialogue: 0,0:14:24.91,0:14:27.07,Default,,0,0,0,,But, the ones\Nwho can't defend themselves
+Dialogue: 0,0:14:27.16,0:14:29.58,Default,,0,0,0,,must be hundreds of times\Nmore afraid than us.
+Dialogue: 0,0:14:31.20,0:14:32.54,Default,,0,0,0,,So, let's end it.
+Dialogue: 0,0:14:32.62,0:14:35.63,Default,,0,0,0,,For the people who don't have\Nthe means to or the choice.
+Dialogue: 0,0:14:35.71,0:14:37.21,Default,,0,0,0,,We can't sit by\Nwhile our country turns
+Dialogue: 0,0:14:37.29,0:14:39.42,Default,,0,0,0,,into an anthill, now can we?
+Dialogue: 0,0:14:39.50,0:14:40.88,Default,,0,0,0,,[BAEK YOONHO]\NYou bastards!
+Dialogue: 0,0:14:40.96,0:14:43.51,Default,,0,0,0,,I'm gonna stomp\Nout your little nest.
+Dialogue: 0,0:14:44.30,0:14:46.14,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:14:46.22,0:14:48.64,Default,,0,0,0,,Everything about\Nthis guy is unpredictable.
+Dialogue: 0,0:14:48.72,0:14:50.56,Default,,0,0,0,,From powers to personality.
+Dialogue: 0,0:14:50.64,0:14:51.64,Default,,0,0,0,,[snoring]
+Dialogue: 0,0:14:51.72,0:14:53.18,Default,,0,0,0,,[EUNSEOK] Not many\Ncould help someone like him
+Dialogue: 0,0:14:53.27,0:14:54.94,Default,,0,0,0,,when he needs it...
+Dialogue: 0,0:14:55.02,0:14:56.90,Default,,0,0,0,,but you and I can.
+Dialogue: 0,0:14:56.98,0:14:58.31,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:15:00.11,0:15:02.03,Default,,0,0,0,,[Sung Jinah awkward laughs]
+Dialogue: 0,0:15:06.11,0:15:07.82,Default,,0,0,0,,[clattering]
+Dialogue: 0,0:15:07.91,0:15:11.66,Default,,0,0,0,,Sis, I only left you alone\Nfor one week.
+Dialogue: 0,0:15:11.74,0:15:12.79,Default,,0,0,0,,Now, now...
+Dialogue: 0,0:15:12.87,0:15:15.50,Default,,0,0,0,,I have four years of housework\Nto make up for anyway.
+Dialogue: 0,0:15:15.58,0:15:17.75,Default,,0,0,0,,And we've got\Nsix hands between us.
+Dialogue: 0,0:15:17.83,0:15:19.42,Default,,0,0,0,,[machine whirring]
+Dialogue: 0,0:15:19.50,0:15:21.96,Default,,0,0,0,,No denying this place\Nis showing its age, huh.
+Dialogue: 0,0:15:22.05,0:15:24.09,Default,,0,0,0,,Some of these older stains\Njust won't come out.
+Dialogue: 0,0:15:24.17,0:15:25.22,Default,,0,0,0,,It's no surprise.
+Dialogue: 0,0:15:25.30,0:15:26.51,Default,,0,0,0,,We've lived\Nin this same apartment
+Dialogue: 0,0:15:26.59,0:15:27.97,Default,,0,0,0,,since I was born.
+Dialogue: 0,0:15:28.05,0:15:30.18,Default,,0,0,0,,I suppose that's true.
+Dialogue: 0,0:15:30.26,0:15:32.43,Default,,0,0,0,,[SUNG JINWOO]\NI've wanted this for so long...
+Dialogue: 0,0:15:32.52,0:15:33.60,Default,,0,0,0,,[PARK KYUNG-HYE] Depends\Non what's in the fridge.
+Dialogue: 0,0:15:33.68,0:15:35.60,Default,,0,0,0,,[SUNG JINWOO]\N...and yet, I feel so anxious.
+Dialogue: 0,0:15:35.69,0:15:38.06,Default,,0,0,0,,[SUNG JINAH]...together in\Nfour years, so let's eat out!
+Dialogue: 0,0:15:38.15,0:15:39.81,Default,,0,0,0,,[SUNG JINWOO]\NSince the reawakening.
+Dialogue: 0,0:15:40.82,0:15:43.65,Default,,0,0,0,,I've crossed a line I don't\Nthink I can come back from.
+Dialogue: 0,0:15:46.82,0:15:48.20,Default,,0,0,0,,-[PARK KYUNG-HYE] Jinwoo.\N-Uh?
+Dialogue: 0,0:15:48.28,0:15:49.41,Default,,0,0,0,,[SUNG JINWOO]\NYes, Mom?
+Dialogue: 0,0:15:50.16,0:15:51.24,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:15:51.33,0:15:53.79,Default,,0,0,0,,[PARK KYUNG-HYE] Has there been\Nany word from your father?
+Dialogue: 0,0:15:55.37,0:15:56.62,Default,,0,0,0,,[Sung Jinah sighs]
+Dialogue: 0,0:15:57.83,0:15:59.38,Default,,0,0,0,,Hm.
+Dialogue: 0,0:15:59.46,0:16:01.71,Default,,0,0,0,,[PARK KYUNG-HYE]\NI saw you became a hunter, too.
+Dialogue: 0,0:16:01.79,0:16:03.38,Default,,0,0,0,,You're all over the news.
+Dialogue: 0,0:16:03.46,0:16:04.46,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:16:04.55,0:16:06.17,Default,,0,0,0,,Actually, do you remember
+Dialogue: 0,0:16:06.26,0:16:08.38,Default,,0,0,0,,when your father\Nwas a firefighter?
+Dialogue: 0,0:16:08.47,0:16:10.22,Default,,0,0,0,,The way he always wanted\Nto help people
+Dialogue: 0,0:16:10.30,0:16:13.10,Default,,0,0,0,,might be the biggest reason\NI became his wife.
+Dialogue: 0,0:16:13.18,0:16:15.60,Default,,0,0,0,,And it looks like you've\Ninherited that part of him.
+Dialogue: 0,0:16:16.43,0:16:17.69,Default,,0,0,0,,[chuckles]
+Dialogue: 0,0:16:17.77,0:16:19.85,Default,,0,0,0,,Hey, do you think\Nmy dream of being a doctor
+Dialogue: 0,0:16:19.94,0:16:20.94,Default,,0,0,0,,is 'cause of Dad, too?
+Dialogue: 0,0:16:21.02,0:16:22.02,Default,,0,0,0,,[PARK KYUNG-HYE]\NYes, you're both
+Dialogue: 0,0:16:22.11,0:16:23.65,Default,,0,0,0,,your father's children,\Nno doubt.
+Dialogue: 0,0:16:23.73,0:16:25.28,Default,,0,0,0,,[SUNG JINAH]\NYeah, we're pretty great.
+Dialogue: 0,0:16:25.36,0:16:27.03,Default,,0,0,0,,-[phone vibrating]\N-[Sung Jinah laughs]
+Dialogue: 0,0:16:27.11,0:16:28.91,Default,,0,0,0,,Hello?
+Dialogue: 0,0:16:28.99,0:16:30.66,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:16:30.74,0:16:32.83,Default,,0,0,0,,[WOO JINCHUL] Good work\Nwith the press conference, sir.
+Dialogue: 0,0:16:32.91,0:16:33.91,Default,,0,0,0,,Thank you.
+Dialogue: 0,0:16:33.99,0:16:36.20,Default,,0,0,0,,And thank you\Nfor all of your assistance.
+Dialogue: 0,0:16:36.29,0:16:37.75,Default,,0,0,0,,[WOO JINCHUL]\NOf course.
+Dialogue: 0,0:16:37.83,0:16:39.25,Default,,0,0,0,,I was glad\Nthat you were present
+Dialogue: 0,0:16:39.33,0:16:41.08,Default,,0,0,0,,for our unexpected\Nguest's visit.
+Dialogue: 0,0:16:41.17,0:16:42.17,Default,,0,0,0,,♪
+Dialogue: 0,0:16:42.25,0:16:44.09,Default,,0,0,0,,[WOO JINCHUL]\NYes, Thomas Andre.
+Dialogue: 0,0:16:44.17,0:16:46.01,Default,,0,0,0,,An American S-rank\Nwith enough power
+Dialogue: 0,0:16:46.09,0:16:47.72,Default,,0,0,0,,to rival a whole country.
+Dialogue: 0,0:16:47.80,0:16:49.97,Default,,0,0,0,,It was my hope he was here\Nto join the mission.
+Dialogue: 0,0:16:51.05,0:16:53.97,Default,,0,0,0,,[GO GUNHEE] The timing\Ndid make it seem that way.
+Dialogue: 0,0:16:54.06,0:16:57.06,Default,,0,0,0,,But someone strong enough\Nto take on national militaries
+Dialogue: 0,0:16:57.14,0:16:59.19,Default,,0,0,0,,is literally a one-man army.
+Dialogue: 0,0:16:59.27,0:17:02.44,Default,,0,0,0,,He can't casually intervene\Nin foreign affairs.
+Dialogue: 0,0:17:02.52,0:17:04.44,Default,,0,0,0,,[WOO JINCHUL]\NTrue.
+Dialogue: 0,0:17:04.52,0:17:06.90,Default,,0,0,0,,But then why'd he come\Nif not to help?
+Dialogue: 0,0:17:06.98,0:17:08.90,Default,,0,0,0,,Could be he meant what he said.
+Dialogue: 0,0:17:08.99,0:17:11.91,Default,,0,0,0,,He did tell us he'd pop in\Nwhen he was around.
+Dialogue: 0,0:17:11.99,0:17:13.78,Default,,0,0,0,,Perhaps he came to warn us
+Dialogue: 0,0:17:13.87,0:17:15.87,Default,,0,0,0,,about Hunter Hwang's\Nintentions.
+Dialogue: 0,0:17:15.95,0:17:19.58,Default,,0,0,0,,Or maybe, it was\Nfor something else entirely.
+Dialogue: 0,0:17:19.66,0:17:20.87,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:17:20.96,0:17:23.79,Default,,0,0,0,,Any luck getting in contact\Nwith Hunter Sung yet?
+Dialogue: 0,0:17:23.88,0:17:25.84,Default,,0,0,0,,[WOO JINCHUL]\NYes, just a moment ago.
+Dialogue: 0,0:17:25.92,0:17:27.26,Default,,0,0,0,,He'll be here shortly.
+Dialogue: 0,0:17:27.34,0:17:29.47,Default,,0,0,0,,[footfall]
+Dialogue: 0,0:17:29.55,0:17:31.84,Default,,0,0,0,,[GO GUNHEE]\NWe strike in four days.
+Dialogue: 0,0:17:31.93,0:17:34.85,Default,,0,0,0,,It's a raid we've been\Nwanting to launch for years.
+Dialogue: 0,0:17:34.93,0:17:37.43,Default,,0,0,0,,Would you be willing\Nto lend us your strength?
+Dialogue: 0,0:17:37.52,0:17:39.02,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:17:39.10,0:17:41.39,Default,,0,0,0,,[SUNG JINWOO] It's a perfect\Nopportunity to level up.
+Dialogue: 0,0:17:41.48,0:17:43.31,Default,,0,0,0,,I'd hate to let it go.
+Dialogue: 0,0:17:43.40,0:17:45.77,Default,,0,0,0,,Or...I would've hated to.
+Dialogue: 0,0:17:49.28,0:17:50.95,Default,,0,0,0,,[inhales]
+Dialogue: 0,0:17:51.03,0:17:52.41,Default,,0,0,0,,-Well, sir...\N-[rumbling]
+Dialogue: 0,0:17:52.49,0:17:53.99,Default,,0,0,0,,[SUNG JINWOO]\NUh?
+Dialogue: 0,0:17:54.07,0:17:55.28,Default,,0,0,0,,Magic power?
+Dialogue: 0,0:17:55.37,0:17:56.78,Default,,0,0,0,,[Go Gunhee laughs]
+Dialogue: 0,0:17:56.87,0:17:58.24,Default,,0,0,0,,They're pretty far away.
+Dialogue: 0,0:17:58.33,0:18:00.54,Default,,0,0,0,,I'm impressed\Nyou could sense that.
+Dialogue: 0,0:18:00.62,0:18:02.42,Default,,0,0,0,,There's no cause\Nfor alarm, though.
+Dialogue: 0,0:18:02.50,0:18:05.17,Default,,0,0,0,,Our S-ranks are just\Ngetting a little exercise.
+Dialogue: 0,0:18:06.13,0:18:07.96,Default,,0,0,0,,If you're curious...
+Dialogue: 0,0:18:08.05,0:18:09.38,Default,,0,0,0,,we can go take a look.
+Dialogue: 0,0:18:09.46,0:18:10.88,Default,,0,0,0,,♪
+Dialogue: 0,0:18:11.88,0:18:14.01,Default,,0,0,0,,[growling]
+Dialogue: 0,0:18:19.39,0:18:20.68,Default,,0,0,0,,[chuckles]
+Dialogue: 0,0:18:20.77,0:18:21.77,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:18:21.85,0:18:23.14,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:18:23.23,0:18:24.81,Default,,0,0,0,,Say, Master Baek.
+Dialogue: 0,0:18:24.90,0:18:26.77,Default,,0,0,0,,Might wanna stop\Nskipping leg day.
+Dialogue: 0,0:18:26.86,0:18:29.11,Default,,0,0,0,,Gotta train your lower body\Nwhile you're young!
+Dialogue: 0,0:18:29.19,0:18:30.99,Default,,0,0,0,,I would, if I could do burpees
+Dialogue: 0,0:18:31.07,0:18:33.32,Default,,0,0,0,,at my desk, Master Ma!
+Dialogue: 0,0:18:33.40,0:18:34.41,Default,,0,0,0,,[growls]
+Dialogue: 0,0:18:34.49,0:18:35.99,Default,,0,0,0,,[GO GUNHEE]\NIt's rare, indeed.
+Dialogue: 0,0:18:36.07,0:18:38.99,Default,,0,0,0,,For all these S-ranks\Nto gather in one place.
+Dialogue: 0,0:18:39.08,0:18:41.25,Default,,0,0,0,,I'd guess that wave\Nof power you felt
+Dialogue: 0,0:18:41.33,0:18:44.25,Default,,0,0,0,,was most likely a result\Nof these two sparring.
+Dialogue: 0,0:18:44.33,0:18:47.04,Default,,0,0,0,,Hunter Baek is being pushed\Npretty hard, isn't he?
+Dialogue: 0,0:18:47.13,0:18:49.50,Default,,0,0,0,,Because he hasn't exactly\Ngotten serious yet.
+Dialogue: 0,0:18:49.59,0:18:52.26,Default,,0,0,0,,Hunter Ma would feel\Nthe strain otherwise.
+Dialogue: 0,0:18:52.34,0:18:54.13,Default,,0,0,0,,If you weren't aware,\Nthe robust fellow
+Dialogue: 0,0:18:54.22,0:18:56.39,Default,,0,0,0,,in the white gi is Dongwook Ma\Nof the Fame Guild.
+Dialogue: 0,0:18:56.47,0:18:58.89,Default,,0,0,0,,[cackles]
+Dialogue: 0,0:18:58.97,0:19:01.22,Default,,0,0,0,,But why is he\Nholding back at all?
+Dialogue: 0,0:19:01.31,0:19:02.89,Default,,0,0,0,,Doesn't seem like\NHunter Ma is a guy
+Dialogue: 0,0:19:02.98,0:19:04.56,Default,,0,0,0,,you should do that with.
+Dialogue: 0,0:19:04.64,0:19:06.77,Default,,0,0,0,,Yes, well, Yoonho\Ncan't really cut loose
+Dialogue: 0,0:19:06.85,0:19:08.61,Default,,0,0,0,,when he's fighting humans.
+Dialogue: 0,0:19:08.69,0:19:10.69,Default,,0,0,0,,If he unleashed his full power,
+Dialogue: 0,0:19:10.78,0:19:12.19,Default,,0,0,0,,he'd turn into a monster.
+Dialogue: 0,0:19:13.36,0:19:15.74,Default,,0,0,0,,[SUNG JINWOO] I have heard\Nrumors he transforms in battle.
+Dialogue: 0,0:19:15.82,0:19:18.78,Default,,0,0,0,,Over there,\Nnext to Hunters Cha and Lim,
+Dialogue: 0,0:19:18.87,0:19:20.95,Default,,0,0,0,,we have some members\Nof the Knights Guild.
+Dialogue: 0,0:19:22.54,0:19:24.54,Default,,0,0,0,,Ah, and here come our guests.
+Dialogue: 0,0:19:24.62,0:19:26.92,Default,,0,0,0,,♪
+Dialogue: 0,0:19:27.00,0:19:29.42,Default,,0,0,0,,The S-rank hunters from Japan,
+Dialogue: 0,0:19:29.50,0:19:31.80,Default,,0,0,0,,including their guild master,\NRyuji Goto.
+Dialogue: 0,0:19:32.92,0:19:33.92,Default,,0,0,0,,[SHIMIZU AKARI]\NAh!
+Dialogue: 0,0:19:34.01,0:19:35.17,Default,,0,0,0,,Hey, who's that guy?
+Dialogue: 0,0:19:36.68,0:19:38.30,Default,,0,0,0,,That is Hunter Jinwoo Sung.
+Dialogue: 0,0:19:38.39,0:19:40.56,Default,,0,0,0,,He was named S-rank\Nvery recently.
+Dialogue: 0,0:19:40.64,0:19:42.64,Default,,0,0,0,,He's a strong\Nassassin type, right?
+Dialogue: 0,0:19:42.72,0:19:43.72,Default,,0,0,0,,No.
+Dialogue: 0,0:19:43.81,0:19:46.19,Default,,0,0,0,,I'm almost certain\Nthat he's a mage, sir.
+Dialogue: 0,0:19:47.65,0:19:48.90,Default,,0,0,0,,[GOTO RYUJI]\NHim?
+Dialogue: 0,0:19:50.94,0:19:52.90,Default,,0,0,0,,Hey, if it isn't the guy\Nwho ruined
+Dialogue: 0,0:19:52.98,0:19:55.03,Default,,0,0,0,,Minsung's publicity stunt\Njust by opting
+Dialogue: 0,0:19:55.11,0:19:56.28,Default,,0,0,0,,to go through the front door.
+Dialogue: 0,0:19:56.36,0:19:57.66,Default,,0,0,0,,-[gasps]\N-[GO GUNHEE] I know.
+Dialogue: 0,0:19:57.74,0:20:00.37,Default,,0,0,0,,[CHA HAE-IN] No wonder\NI felt the air in here shift.
+Dialogue: 0,0:20:01.58,0:20:03.12,Default,,0,0,0,,[growls]
+Dialogue: 0,0:20:04.12,0:20:05.54,Default,,0,0,0,,[laughs]
+Dialogue: 0,0:20:07.29,0:20:09.75,Default,,0,0,0,,[HANEKAWA] If this is the best\Ntheir country has to offer,
+Dialogue: 0,0:20:09.83,0:20:11.59,Default,,0,0,0,,I'm a bit disappointed.
+Dialogue: 0,0:20:11.67,0:20:14.42,Default,,0,0,0,,I suppose watching your fights\Nhas spoiled me somewhat.
+Dialogue: 0,0:20:14.51,0:20:16.80,Default,,0,0,0,,Other S-ranks\Nsimply can't compare.
+Dialogue: 0,0:20:16.88,0:20:18.68,Default,,0,0,0,,I don't know if I agree.
+Dialogue: 0,0:20:18.76,0:20:20.68,Default,,0,0,0,,[PARK JONGSOO]\NMiss interpreter lady.
+Dialogue: 0,0:20:20.76,0:20:22.43,Default,,0,0,0,,I ain't entirely sure\Nwhat you said
+Dialogue: 0,0:20:22.51,0:20:24.43,Default,,0,0,0,,but I caught\Nyour disgusted tone.
+Dialogue: 0,0:20:24.52,0:20:26.52,Default,,0,0,0,,Sounded like\Nyou were mockin' us.
+Dialogue: 0,0:20:26.60,0:20:28.39,Default,,0,0,0,,You're amazing, Mister Park!
+Dialogue: 0,0:20:28.48,0:20:29.48,Default,,0,0,0,,And you are?
+Dialogue: 0,0:20:29.56,0:20:31.44,Default,,0,0,0,,You're lookin'\Nat the reputable guild master
+Dialogue: 0,0:20:31.52,0:20:32.61,Default,,0,0,0,,of the Knights Guild,
+Dialogue: 0,0:20:32.69,0:20:34.28,Default,,0,0,0,,Mister Jongsoo Park himself!
+Dialogue: 0,0:20:34.36,0:20:35.48,Default,,0,0,0,,Jongsoo Park?
+Dialogue: 0,0:20:35.57,0:20:37.03,Default,,0,0,0,,Can't say I've ever\Nheard that name.
+Dialogue: 0,0:20:37.11,0:20:40.57,Default,,0,0,0,,Uh...well, you might\Nnot've heard of him before
+Dialogue: 0,0:20:40.66,0:20:42.99,Default,,0,0,0,,on account of him bein'\Nan A-rank instead of an S.
+Dialogue: 0,0:20:43.08,0:20:45.58,Default,,0,0,0,,But we're still one of the five\Nbiggest guilds in the country!
+Dialogue: 0,0:20:45.66,0:20:46.70,Default,,0,0,0,,We'll be actin'\Nas security on this--
+Dialogue: 0,0:20:46.79,0:20:48.66,Default,,0,0,0,,[LIM TAE-GYU]\NHaving fun over here?
+Dialogue: 0,0:20:48.75,0:20:50.25,Default,,0,0,0,,If you're thinking\Nof causing a scene,
+Dialogue: 0,0:20:50.33,0:20:51.96,Default,,0,0,0,,I suggest that you not.
+Dialogue: 0,0:20:52.04,0:20:53.09,Default,,0,0,0,,[PARK JONGSOO]\NThese folks were sayin'
+Dialogue: 0,0:20:53.17,0:20:55.59,Default,,0,0,0,,we're a buncha weaklings,\Nso they're the cause of this!
+Dialogue: 0,0:20:55.67,0:20:57.38,Default,,0,0,0,,[LIM TAE-GYU]\NDoesn't matter. Chill out.
+Dialogue: 0,0:20:57.47,0:20:58.76,Default,,0,0,0,,[speaking in Japanese]
+Dialogue: 0,0:20:58.84,0:21:01.34,Default,,0,0,0,,[HANEKAWA] We have\Na rare chance to spar together.
+Dialogue: 0,0:21:01.43,0:21:03.14,Default,,0,0,0,,All these S-ranks in one room.
+Dialogue: 0,0:21:03.22,0:21:04.22,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:21:04.31,0:21:06.39,Default,,0,0,0,,A-ranks not good enough for ya?
+Dialogue: 0,0:21:06.47,0:21:07.98,Default,,0,0,0,,Feel free\Nto set your own rules,
+Dialogue: 0,0:21:08.06,0:21:09.73,Default,,0,0,0,,but let's keep it friendly.
+Dialogue: 0,0:21:09.81,0:21:11.15,Default,,0,0,0,,[GO GUNHEE]\NWell, I'm on board.
+Dialogue: 0,0:21:12.23,0:21:15.82,Default,,0,0,0,,Although, let's exclude any\Nmage types or noncombatants
+Dialogue: 0,0:21:15.90,0:21:18.57,Default,,0,0,0,,since it's difficult for them\Nto compete alone.
+Dialogue: 0,0:21:18.65,0:21:20.07,Default,,0,0,0,,That's fine with me.
+Dialogue: 0,0:21:20.15,0:21:23.37,Default,,0,0,0,,All right, then we're all\Nagreed it's combat types only.
+Dialogue: 0,0:21:23.45,0:21:26.41,Default,,0,0,0,,If someone grabs your wrist,\Nyou get tagged on the back,
+Dialogue: 0,0:21:26.49,0:21:29.04,Default,,0,0,0,,or anything besides your feet\Nhits the floor, you're done.
+Dialogue: 0,0:21:29.12,0:21:30.79,Default,,0,0,0,,You automatically lose.
+Dialogue: 0,0:21:30.87,0:21:32.79,Default,,0,0,0,,And instead\Nof one-on-one matches,
+Dialogue: 0,0:21:32.88,0:21:34.13,Default,,0,0,0,,we'll do a free-for-all.
+Dialogue: 0,0:21:34.21,0:21:35.21,Default,,0,0,0,,[PARK JONGSOO]\NWhy?
+Dialogue: 0,0:21:35.29,0:21:36.75,Default,,0,0,0,,[BAEK YOONHO] 'Cause the raid\Nwe're preparing for
+Dialogue: 0,0:21:36.84,0:21:38.84,Default,,0,0,0,,is bound to be just as chaotic.
+Dialogue: 0,0:21:39.59,0:21:40.84,Default,,0,0,0,,[smirks]
+Dialogue: 0,0:21:40.93,0:21:43.59,Default,,0,0,0,,[sighs]\NSounds fair enough.
+Dialogue: 0,0:21:43.68,0:21:45.39,Default,,0,0,0,,Let's go with that.
+Dialogue: 0,0:21:45.47,0:21:47.39,Default,,0,0,0,,♪
+Dialogue: 0,0:21:47.47,0:21:49.31,Default,,0,0,0,,[GO GUNHEE] The representatives\Nfor our team will be
+Dialogue: 0,0:21:49.39,0:21:51.23,Default,,0,0,0,,Hunters Cha, Lim,
+Dialogue: 0,0:21:51.31,0:21:52.69,Default,,0,0,0,,Ma, and Baek.
+Dialogue: 0,0:21:53.69,0:21:55.69,Default,,0,0,0,,[GOTO RYUJI] And our team\Nwill be Hunters Tawata,
+Dialogue: 0,0:21:55.77,0:21:58.53,Default,,0,0,0,,Kumamoto, Hoshino,\Nand Tanaka.
+Dialogue: 0,0:21:58.61,0:22:00.28,Default,,0,0,0,,♪
+Dialogue: 0,0:22:00.36,0:22:02.53,Default,,0,0,0,,[GO GUNHEE] Now then,\Nif everyone's ready,
+Dialogue: 0,0:22:02.61,0:22:05.07,Default,,0,0,0,,let the free-for-all...begin.
+Dialogue: 0,0:23:36.50,0:23:38.33,Default,,0,0,0,,♪
