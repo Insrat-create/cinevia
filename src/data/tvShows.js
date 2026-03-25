@@ -965,6 +965,220 @@ const tvShows = [
         ]
       }
     ]
+  },
+  {
+    "id": "bridgerton",
+    "title": "Bridgerton",
+    "year": "2020",
+    "released": "25 Dec 2020",
+    "imdbRating": "IMDb 7.5",
+    "maturityRating": "TV-MA",
+    "seasons": "2 Seasons",
+    "seasonsCount": 2,
+    "totalEpisodes": 16,
+    "badge": "Drama",
+    "rating": "7.5",
+    "genre": "Drama",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "bunnyVideoId": "",
+    "description": "The eight close-knit siblings of the Bridgerton family look for love and happiness in London high society.",
+    "poster": "/Bridgerton Poster.png",
+    "backdrop": "/Briderton Backdrop.png",
+    "episodeTitle": "Episode 1: Out of the Shadows",
+    "progress": 0,
+    "seasonsData": [
+      {
+        "id": "bridgerton-season-3",
+        "label": "Season 3",
+        "episodes": [
+          {
+            "id": "bridgerton-season-3-episode-1",
+            "title": "Out of the Shadows",
+            "episodeTitle": "Episode 1: Out of the Shadows",
+            "bunnyVideoId": "1a20b53a-4531-4c70-bff8-038657305599",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2024-05-16",
+            "imdbRating": "7.8"
+          },
+          {
+            "id": "bridgerton-season-3-episode-2",
+            "title": "How Bright the Moon",
+            "episodeTitle": "Episode 2: How Bright the Moon",
+            "bunnyVideoId": "a4ab84f1-f64a-4d63-893e-f44f91eee656",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2024-05-16",
+            "imdbRating": "8.1"
+          },
+          {
+            "id": "bridgerton-season-3-episode-3",
+            "title": "Forces of Nature",
+            "episodeTitle": "Episode 3: Forces of Nature",
+            "bunnyVideoId": "ff429756-9f1b-4d8f-a6bd-8cc01c8c3b2f",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2024-05-16",
+            "imdbRating": "7.9"
+          },
+          {
+            "id": "bridgerton-season-3-episode-4",
+            "title": "Old Friends",
+            "episodeTitle": "Episode 4: Old Friends",
+            "bunnyVideoId": "0401eba7-ad35-4fc9-9757-9a7991b6ba4b",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2024-05-16",
+            "imdbRating": "8.6"
+          },
+          {
+            "id": "bridgerton-season-3-episode-5",
+            "title": "Tick Tock",
+            "episodeTitle": "Episode 5: Tick Tock",
+            "bunnyVideoId": "d1060da2-901e-4bf7-9da6-324daf4e2077",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2024-06-13",
+            "imdbRating": "8.2"
+          },
+          {
+            "id": "bridgerton-season-3-episode-6",
+            "title": "Romancing Mister Bridgerton",
+            "episodeTitle": "Episode 6: Romancing Mister Bridgerton",
+            "bunnyVideoId": "a3973925-0f59-4350-ae3c-b14ec475f1cd",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2024-06-13",
+            "imdbRating": ""
+          },
+          {
+            "id": "bridgerton-season-3-episode-7",
+            "title": "Joining of Hands",
+            "episodeTitle": "Episode 7: Joining of Hands",
+            "bunnyVideoId": "e3ca20b3-2be9-4eaa-a076-2860f34bb97b",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2024-06-13",
+            "imdbRating": ""
+          },
+          {
+            "id": "bridgerton-season-3-episode-8",
+            "title": "Into the Light",
+            "episodeTitle": "Episode 8: Into the Light",
+            "bunnyVideoId": "ea3b0692-0808-4157-a749-cc39977b6d8b",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2024-06-13",
+            "imdbRating": "7.7"
+          }
+        ]
+      },
+      {
+        "id": "bridgerton-season-4",
+        "label": "Season 4",
+        "episodes": [
+          {
+            "id": "bridgerton-season-4-episode-1",
+            "title": "The Waltz",
+            "episodeTitle": "Episode 1: The Waltz",
+            "bunnyVideoId": "36b660d4-6111-4a78-8b90-84dea2528c03",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2026-01-29",
+            "imdbRating": ""
+          },
+          {
+            "id": "bridgerton-season-4-episode-2",
+            "title": "Time Transfixed",
+            "episodeTitle": "Episode 2: Time Transfixed",
+            "bunnyVideoId": "162aa7cf-002b-4d8f-9545-3d3c0a41ffb1",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2026-01-29",
+            "imdbRating": ""
+          },
+          {
+            "id": "bridgerton-season-4-episode-3",
+            "title": "The Field Next to the Other Road",
+            "episodeTitle": "Episode 3: The Field Next to the Other Road",
+            "bunnyVideoId": "71e81c83-11ab-4eff-b672-0bf8c17ad85a",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2026-01-29",
+            "imdbRating": ""
+          },
+          {
+            "id": "bridgerton-season-4-episode-4",
+            "title": "An Offer From a Gentleman",
+            "episodeTitle": "Episode 4: An Offer From a Gentleman",
+            "bunnyVideoId": "c4cea540-983e-4086-aab3-3c71e67775c4",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2026-02-26",
+            "imdbRating": ""
+          },
+          {
+            "id": "bridgerton-season-4-episode-5",
+            "title": "Yes or No",
+            "episodeTitle": "Episode 5: Episode #4.6",
+            "bunnyVideoId": "560abffb-e657-4190-9570-eab01047e983",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2026-02-26",
+            "imdbRating": ""
+          },
+          {
+            "id": "bridgerton-season-4-episode-6",
+            "title": "The Passing Winter",
+            "episodeTitle": "Episode 6: The Beyond",
+            "bunnyVideoId": "9b827b23-00fc-48e6-a029-c7fcb0e7bfcf",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2026-02-26",
+            "imdbRating": "8.9"
+          },
+          {
+            "id": "bridgerton-season-4-episode-7",
+            "title": "The Beyond",
+            "episodeTitle": "Episode 7: The Beyond",
+            "bunnyVideoId": "d9080f17-3b0c-4cb8-ae63-0007b66c7789",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "2026-02-26",
+            "imdbRating": ""
+          },
+          {
+            "id": "bridgerton-season-4-episode-8",
+            "title": "Dance in the Country",
+            "episodeTitle": "Episode 8: Dance in the Country",
+            "bunnyVideoId": "441f8866-e93f-4f37-87fd-444e62a372c4",
+            "poster":"/Bridgerton Poster.png",
+            "progress": 0,
+            "watchId": "bridgerton",
+            "released": "",
+            "imdbRating": ""
+          }
+        ]
+      }
+    ]
   }
 ]
 
