@@ -162,7 +162,11 @@ export default function Watch() {
   const animeAudioMode = catalogType === 'anime' ? getAnimeAudioMode(location.search) ?? 'sub' : null
   const animeAudioSearch = animeAudioMode ? `?audio=${animeAudioMode}` : ''
   const preferredAudioLanguage =
-    animeAudioMode === 'sub' ? 'ja' : animeAudioMode === 'dub' ? 'en' : null
+    catalogType === 'anime'
+      ? animeAudioMode === 'sub'
+        ? 'ja'
+        : 'en'
+      : 'en'
   const preferredSubtitleMode =
     animeAudioMode === 'sub' ? 'on' : animeAudioMode === 'dub' ? 'off' : null
   const pickerSeasons = parentShow?.seasonsData ?? []
