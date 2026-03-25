@@ -3,6 +3,7 @@ import { Link, Navigate, useLocation, useParams } from 'react-router-dom'
 import BunnyPlayer from '../components/BunnyPlayer'
 import MediaCardLink from '../components/MediaCardLink'
 import RatingInline from '../components/RatingInline'
+import ThumbnailRow from '../components/ThumbnailRow'
 import anime from '../data/anime'
 import movies from '../data/movies'
 import tvShows from '../data/tvShows'
@@ -141,6 +142,7 @@ export default function Watch() {
   const { id } = useParams()
   const location = useLocation()
   const {
+    continueWatchingItems,
     getPlaybackProgress,
     getPlaybackResumeTime,
     isAnimeAccessAllowed,
@@ -840,12 +842,26 @@ export default function Watch() {
   }
 
   const isSeries = Boolean(movie.seasons)
+  const isSeriesOverview = isSeries && !episodeMatch
   const ratingValue = getRatingValue(movie)
   const seriesCatalogType = catalogType
-  const tertiaryHref = isSeries
-    ? appendSearchToPath(getDetailPath(parentShow ?? movie), animeAudioSearch)
-    : '/favorites'
-  const tertiaryLabel = isSeries ? 'Episode Guide' : 'View My List'
+  const tertiaryHref = '/favorites'
+  const allSeriesEpisodes = isSeries
+    ? pickerSeasons.flatMap((season) =>
+        (season.episodes ?? []).map((episode) => ({
+          ...episode,
+          seasonLabel: season.label,
+        }))
+      )
+    : []
+  const seriesContinueEntry = isSeriesOverview
+    ? continueWatchingItems.find((item) => item.parentShowId === movie.id)
+    : null
+  const seriesDefaultEpisode = seriesContinueEntry ?? allSeriesEpisodes[0] ?? null
+  const seriesPlayHref = seriesDefaultEpisode
+    ? `/watch/${seriesDefaultEpisode.id}${animeAudioSearch}`
+    : ''
+  const seriesPlayLabel = seriesContinueEntry ? 'Continue Watching' : 'Play First Episode'
   const metaItems = [
     movie.genre ?? movie.badge,
     movie.year,
@@ -976,13 +992,23 @@ export default function Watch() {
               <p className="watch-description">{movie.description}</p>
 
               <div className="watch-hero-actions">
-                <a
-                  href="#watch-player"
-                  className="watch-primary-btn"
-                  onClick={handleDetailPlayNow}
-                >
-                  Play Now
-                </a>
+                {isSeriesOverview && seriesPlayHref ? (
+                  <Link
+                    to={seriesPlayHref}
+                    state={{ autoplay: true, from: detailPath }}
+                    className="watch-primary-btn"
+                  >
+                    {seriesPlayLabel}
+                  </Link>
+                ) : (
+                  <a
+                    href="#watch-player"
+                    className="watch-primary-btn"
+                    onClick={handleDetailPlayNow}
+                  >
+                    Play Now
+                  </a>
+                )}
 
                 {canRemoveFromContinueWatching && (
                   <button
@@ -1002,9 +1028,11 @@ export default function Watch() {
                   {isFavorite(favoriteTarget.id) ? 'Remove from My List' : 'Add to My List'}
                 </button>
 
-                <Link to={tertiaryHref} className="watch-secondary-btn">
-                  {tertiaryLabel}
-                </Link>
+                {!isSeries && (
+                  <Link to={tertiaryHref} className="watch-secondary-btn">
+                    View My List
+                  </Link>
+                )}
               </div>
             </div>
 
@@ -1023,32 +1051,49 @@ export default function Watch() {
             </aside>
           </section>
 
-          <section ref={detailPlayerSectionRef} className="watch-player-section" id="watch-player">
-            <div className="watch-player-frame">
-              <div className="watch-player-chrome">
-                <div>
-                  <p className="watch-player-kicker">Watch</p>
-                  <h2>{movie.title}</h2>
-                </div>
-
-                <div className="watch-player-meta">
-                  {movie.episodeTitle && <span>{movie.episodeTitle}</span>}
-                </div>
+          {isSeriesOverview ? (
+            <section className="show-guide-shell" id="episode-guide">
+              <div className="watch-section-heading">
+                <h2>{activePickerSeason?.label ?? 'Episodes'}</h2>
               </div>
 
-              <BunnyPlayer
-                initialResumeTime={playbackResumeTime}
-                videoId={movie.bunnyVideoId}
-                preferredAudioLanguage={preferredAudioLanguage}
-                preferredSubtitleMode={preferredSubtitleMode}
-                shouldAutoplay={detailShouldAutoplay}
-                title={movie.title}
-                subtitleTracks={movie.subtitleTracks}
-                onProgressChange={handleProgressChange}
-                onVideoRefReady={setPlayerVideoNode}
+              <ThumbnailRow
+                embedded
+                movies={activePickerSeason?.episodes ?? []}
+                tabs={pickerSeasons.map((season) => ({ id: season.id, label: season.label }))}
+                activeTab={activePickerSeason?.id}
+                onTabChange={setActivePickerSeasonId}
+                getItemHref={(episode) => `/watch/${episode.id}${animeAudioSearch}`}
               />
-            </div>
-          </section>
+            </section>
+          ) : (
+            <section ref={detailPlayerSectionRef} className="watch-player-section" id="watch-player">
+              <div className="watch-player-frame">
+                <div className="watch-player-chrome">
+                  <div>
+                    <p className="watch-player-kicker">Watch</p>
+                    <h2>{movie.title}</h2>
+                  </div>
+
+                  <div className="watch-player-meta">
+                    {movie.episodeTitle && <span>{movie.episodeTitle}</span>}
+                  </div>
+                </div>
+
+                <BunnyPlayer
+                  initialResumeTime={playbackResumeTime}
+                  videoId={movie.bunnyVideoId}
+                  preferredAudioLanguage={preferredAudioLanguage}
+                  preferredSubtitleMode={preferredSubtitleMode}
+                  shouldAutoplay={detailShouldAutoplay}
+                  title={movie.title}
+                  subtitleTracks={movie.subtitleTracks}
+                  onProgressChange={handleProgressChange}
+                  onVideoRefReady={setPlayerVideoNode}
+                />
+              </div>
+            </section>
+          )}
 
           <section className="watch-info-grid">
             <article className="watch-panel">

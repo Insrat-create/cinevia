@@ -532,6 +532,7 @@ export default function BunnyPlayer({
   const onEndedRef = useRef(onEnded)
   const onNearEndRef = useRef(onNearEnd)
   const onProgressChangeRef = useRef(onProgressChange)
+  const initialResumeTimeRef = useRef(initialResumeTime)
   const hasAppliedInitialResumeRef = useRef(false)
   const hasTriggeredNearEndRef = useRef(false)
   const uiFrameRef = useRef(null)
@@ -541,6 +542,7 @@ export default function BunnyPlayer({
     lastProgress: -1,
   })
   const hasAttemptedAutoplayRef = useRef(false)
+  const hasPendingResumeAutoplayRef = useRef(false)
   const lastAudibleVolumeRef = useRef(1)
   const parsedSubtitleCacheRef = useRef(new Map())
   const [playbackInfo, setPlaybackInfo] = useState(null)
@@ -675,6 +677,10 @@ export default function BunnyPlayer({
   useEffect(() => {
     onProgressChangeRef.current = onProgressChange
   }, [onProgressChange])
+
+  useEffect(() => {
+    initialResumeTimeRef.current = initialResumeTime
+  }, [initialResumeTime])
 
   useEffect(() => {
     setSelectedSubtitleTrackId((currentTrackId) => {
@@ -828,11 +834,12 @@ export default function BunnyPlayer({
 
   useEffect(() => {
     hasAttemptedAutoplayRef.current = false
+    hasPendingResumeAutoplayRef.current = false
   }, [shouldAutoplay, videoId])
 
   useEffect(() => {
     hasAppliedInitialResumeRef.current = false
-  }, [initialResumeTime, videoId])
+  }, [videoId])
 
   useEffect(() => {
     return () => {
@@ -1046,7 +1053,7 @@ export default function BunnyPlayer({
         return
       }
 
-      const normalizedResumeTime = Number(initialResumeTime)
+      const normalizedResumeTime = Number(initialResumeTimeRef.current)
 
       if (!Number.isFinite(normalizedResumeTime) || normalizedResumeTime <= 0) {
         hasAppliedInitialResumeRef.current = true
@@ -1065,6 +1072,7 @@ export default function BunnyPlayer({
 
       if (shouldAutoplay) {
         hasAttemptedAutoplayRef.current = false
+        hasPendingResumeAutoplayRef.current = true
       }
 
       video.currentTime = maxResumeTime
@@ -1144,15 +1152,22 @@ export default function BunnyPlayer({
       void tryAutoplay()
     }
 
-    const handlePlay = () => setIsPlaying(true)
+    const handlePlay = () => {
+      hasPendingResumeAutoplayRef.current = false
+      setIsPlaying(true)
+    }
     const handlePause = () => {
+      hasPendingResumeAutoplayRef.current = false
       setIsPlaying(false)
       reportPlaybackProgress(true)
     }
     const handleSeeked = () => {
       playbackSnapshotRef.current.currentTime = video.currentTime
       queueUiSync()
-      void tryAutoplay()
+
+      if (hasPendingResumeAutoplayRef.current) {
+        void tryAutoplay()
+      }
     }
 
     const handlePageHide = () => {
@@ -1225,7 +1240,43 @@ export default function BunnyPlayer({
       video.removeAttribute('src')
       video.load()
     }
-  }, [initialResumeTime, playbackInfo, selectedQuality])
+  }, [playbackInfo, selectedQuality])
+
+  useEffect(() => {
+    const video = videoRef.current
+    const normalizedResumeTime = Number(initialResumeTime)
+
+    if (
+      !video ||
+      hasAppliedInitialResumeRef.current ||
+      !Number.isFinite(normalizedResumeTime) ||
+      normalizedResumeTime <= 0 ||
+      !Number.isFinite(video.duration) ||
+      video.duration <= 0
+    ) {
+      return
+    }
+
+    const maxResumeTime = Math.max(
+      0,
+      Math.min(normalizedResumeTime, Math.max(0, video.duration - 2))
+    )
+
+    if (maxResumeTime <= 0) {
+      hasAppliedInitialResumeRef.current = true
+      return
+    }
+
+    if (shouldAutoplay) {
+      hasAttemptedAutoplayRef.current = false
+      hasPendingResumeAutoplayRef.current = true
+    }
+
+    video.currentTime = maxResumeTime
+    playbackSnapshotRef.current.currentTime = maxResumeTime
+    setCurrentTime(maxResumeTime)
+    hasAppliedInitialResumeRef.current = true
+  }, [initialResumeTime, shouldAutoplay, videoId])
 
   useEffect(() => {
     const video = videoRef.current
